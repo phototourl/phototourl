@@ -1,24 +1,25 @@
-# Wrapped for TikTok
+# phototourl
 
-Wrapped for TikTok uses your TikTok data export to give you personalized stats about your time on TikTok.
+Photo to URL Converter – Next.js app to upload photos and get clean, shareable URLs.  
+Supports local storage with Cloudflare R2 upload when configured.
 
 ## Development
 
-1. Clone the repository
-2. Run `npm install` to install all dependencies
-3. Start the development server using `npm run dev`
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Dummy Data
-
-If you want to generate dummy TikTok data exports, use the dummy data generator using:
-
-```
-npm run dummy-data -- 5000
+```bash
+npm install
+npm run dev
+# open http://localhost:3000
 ```
 
-with `5000` being the size of array elements to generate per item - 5000 is approximately 500k lines of JSON.
+## Environment
+
+Copy `env.example` to `.env.local` (or set in Vercel):
+- `NEXT_PUBLIC_SITE_URL`
+- `R2_BUCKET`, `R2_ENDPOINT`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_PUBLIC_BASE_URL` (optional; if empty falls back to local)
+
+## Deploy
+- Push to GitHub and connect to Vercel.
+- Add your Cloudflare R2 vars to Vercel env, redeploy.
 
 ## License
 
