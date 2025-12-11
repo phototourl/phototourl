@@ -65,7 +65,8 @@ export default function HomePage() {
     }
   };
 
-  const copyUrl = async () => {
+  const copyUrl = async (e?: React.MouseEvent) => {
+    e?.stopPropagation();
     if (!url) return;
     await navigator.clipboard.writeText(url);
   };
@@ -94,7 +95,7 @@ export default function HomePage() {
               Upload image
             </Button>
             {url ? (
-              <Button variant="outline" size="lg" onClick={copyUrl}>
+              <Button variant="outline" size="lg" onClick={(e) => void copyUrl(e)}>
                 <Check className="mr-2 h-4 w-4" />
                 Copy link
               </Button>
@@ -169,7 +170,10 @@ export default function HomePage() {
               </div>
             )}
             {url && (
-              <div className="space-y-2 rounded-lg border border-slate-200 bg-slate-50 p-3 text-left">
+              <div
+                className="space-y-2 rounded-lg border border-slate-200 bg-slate-50 p-3 text-left"
+                onClick={(e) => e.stopPropagation()}
+              >
                 <div className="flex items-center gap-2 text-sm text-slate-600">
                   <LinkIcon className="h-4 w-4 text-blue-600" />
                   Generated link:
@@ -178,11 +182,16 @@ export default function HomePage() {
                   {url}
                 </div>
                 <div className="flex flex-wrap gap-3">
-                  <Button size="sm" onClick={copyUrl}>
+                  <Button size="sm" onClick={(e) => void copyUrl(e)}>
                     <Check className="mr-2 h-4 w-4" />
                     Copy link
                   </Button>
-                  <Button size="sm" variant="secondary" asChild>
+                  <Button
+                    size="sm"
+                    variant="secondary"
+                    asChild
+                    onClick={(e) => e.stopPropagation()}
+                  >
                     <a href={url} target="_blank" rel="noreferrer">
                       Open in new tab
                     </a>
@@ -191,7 +200,10 @@ export default function HomePage() {
               </div>
             )}
             {preview && (
-              <div className="rounded-lg border border-slate-200 bg-white p-3">
+              <div
+                className="rounded-lg border border-slate-200 bg-white p-3"
+                onClick={(e) => e.stopPropagation()}
+              >
                 <div className="mb-2 flex items-center gap-2 text-sm text-slate-500">
                   <ImageIcon className="h-4 w-4" />
                   {fileName}
