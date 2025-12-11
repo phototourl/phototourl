@@ -1,7 +1,5 @@
 import { NextResponse } from "next/server";
 import { randomUUID } from "crypto";
-import fs from "fs/promises";
-import path from "path";
 import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
 
 const MAX_SIZE_BYTES = 10 * 1024 * 1024; // 10MB
@@ -13,12 +11,6 @@ const ALLOWED_MIME: Record<string, string> = {
   "image/gif": ".gif",
 };
 
-const uploadDir = path.join(process.cwd(), "public", "uploads");
-
-async function ensureUploadDir() {
-  await fs.mkdir(uploadDir, { recursive: true });
-}
-
 function buildFileName(ext: string) {
   const now = new Date();
   const stamp = [
@@ -27,13 +19,6 @@ function buildFileName(ext: string) {
     String(now.getUTCDate()).padStart(2, "0"),
   ].join("-");
   return `${stamp}-${randomUUID()}${ext}`;
-}
-
-function getBaseUrl() {
-  return (
-    process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/+$/, "") ||
-    "http://localhost:3000"
-  );
 }
 
 const r2Enabled =
@@ -85,40 +70,44 @@ export async function POST(req: Request) {
       );
     }
 
+    if (!r2Enabled || !r2Client || !r2Bucket || !r2PublicBase) {
+      return NextResponse.json(
+        {
+          error: "Upload service is under maintenance. Please try again later.",
+        },
+        { status: 500 }
+      );
+    }
+
     const buffer = Buffer.from(await file.arrayBuffer());
     const fileName = buildFileName(ext);
 
-    // Prefer Cloudflare R2 if env is configured; otherwise fall back to local public/uploads
-    if (r2Enabled && r2Client && r2Bucket && r2PublicBase) {
-      const key = `uploads/${fileName}`;
-      await r2Client.send(
-        new PutObjectCommand({
-          Bucket: r2Bucket,
-          Key: key,
-          Body: buffer,
-          ContentType: file.type,
-        })
-      );
-      const url = `${r2PublicBase}/${key}`;
-      return NextResponse.json({ url, storage: "r2" });
-    }
-
-    await ensureUploadDir();
-    const filePath = path.join(uploadDir, fileName);
-    await fs.writeFile(filePath, buffer);
-
-    const url = `${getBaseUrl()}/uploads/${fileName}`;
-    return NextResponse.json({ url, storage: "local" });
+    const key = `uploads/${fileName}`;
+    await r2Client.send(
+      new PutObjectCommand({
+        Bucket: r2Bucket,
+        Key: key,
+        Body: buffer,
+        ContentType: file.type,
+      })
+    );
+    const url = `${r2PublicBase}/${key}`;
+    return NextResponse.json({ url, storage: "r2" });
   } catch (error) {
     console.error("Upload error", error);
     return NextResponse.json(
-      { error: "Failed to upload file" },
+      {
+        error: "Upload failed. Please try again later.",
+      },
       { status: 500 }
     );
   }
 }
 
 export async function GET() {
-  return NextResponse.json({ message: "Use POST with form-data 'file'" });
+  return NextResponse.json({
+    message:
+      "Upload service is under maintenance. Please try again later.",
+  });
 }
 

@@ -1,12 +1,26 @@
 
 import "./globals.css";
-import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import type { Metadata } from "next";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { KEYWORDS } from "../../content/keywords";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = localFont({
+  src: [
+    { path: "./api/image/Inter/Inter-Thin.ttf", weight: "100", style: "normal" },
+    { path: "./api/image/Inter/Inter-ExtraLight.ttf", weight: "200", style: "normal" },
+    { path: "./api/image/Inter/Inter-Light.ttf", weight: "300", style: "normal" },
+    { path: "./api/image/Inter/Inter-Regular.ttf", weight: "400", style: "normal" },
+    { path: "./api/image/Inter/Inter-Medium.ttf", weight: "500", style: "normal" },
+    { path: "./api/image/Inter/Inter-SemiBold.ttf", weight: "600", style: "normal" },
+    { path: "./api/image/Inter/Inter-Bold.ttf", weight: "700", style: "normal" },
+    { path: "./api/image/Inter/Inter-ExtraBold.ttf", weight: "800", style: "normal" },
+    { path: "./api/image/Inter/Inter-Black.ttf", weight: "900", style: "normal" },
+  ],
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Photo to URL Converter | Turn photos into shareable links",
@@ -58,6 +72,7 @@ export default function RootLayout({
         <SiteHeader />
         <main className="min-h-screen pt-24">{children}</main>
         <SiteFooter />
+        <GoogleAnalytics />
         {analyticsDomain && analyticsSrc ? (
           // Analytics injection point (configurable via env)
           <script
