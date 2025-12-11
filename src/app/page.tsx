@@ -167,58 +167,62 @@ export default function HomePage() {
   return (
     <div className="mx-auto flex max-w-6xl flex-col gap-12 px-6 py-12 lg:max-w-7xl lg:px-10 lg:py-18">
       {/* Hero */}
-      <section className="flex flex-col items-center gap-8 text-center">
-        <div className="space-y-5 max-w-4xl">
-          <div className="inline-flex flex-wrap items-center gap-2 rounded-full border border-blue-100 bg-white/70 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-blue-600 shadow-sm">
-            <span className="flex items-center gap-1">
-              <Check className="h-3.5 w-3.5" />
-              Free
-            </span>
-            <span className="text-blue-200">•</span>
-            <span className="flex items-center gap-1">
-              <ShieldCheck className="h-3.5 w-3.5" />
-              CDN links
-            </span>
-            <span className="text-blue-200">•</span>
-            <span className="flex items-center gap-1">
-              <Rocket className="h-3.5 w-3.5" />
-              No signup
-            </span>
+      <section className="flex flex-col items-center gap-4 text-center -mt-4 sm:-mt-6">
+        <div className="w-full max-w-5xl">
+          <div className="mb-1 flex justify-center">
+            <div className="inline-flex items-center gap-2 rounded-full border border-blue-100 bg-white/90 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-blue-600 shadow-sm">
+              <span className="flex items-center gap-1">
+                <Check className="h-3.5 w-3.5" />
+                Free
+              </span>
+              <span className="text-blue-200">•</span>
+              <span className="flex items-center gap-1">
+                <ShieldCheck className="h-3.5 w-3.5" />
+                CDN links
+              </span>
+              <span className="text-blue-200">•</span>
+              <span className="flex items-center gap-1">
+                <Rocket className="h-3.5 w-3.5" />
+                No signup
+              </span>
+            </div>
           </div>
-          <h1 className="text-4xl font-bold leading-tight text-slate-900 sm:text-5xl lg:text-6xl">
-            Turn your photos into clean, shareable links in seconds
-          </h1>
-          <p className="mx-auto max-w-3xl text-lg text-slate-600 leading-relaxed">
-            Upload once, paste everywhere. A simple way to host photos for blogs, docs, chat apps, and quick prototypes.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Button
-              size="lg"
-              className="h-12 rounded-full bg-gradient-to-r from-indigo-500 via-blue-500 to-cyan-500 px-7 text-base font-semibold text-white shadow-md transition hover:scale-[1.01] hover:shadow-lg"
-              onClick={() => document.getElementById("file-input")?.click()}
-            >
-              <Upload className="mr-2 h-4 w-4" />
-              Upload image
-            </Button>
+          <div className="mx-auto max-w-4xl space-y-5">
+            <h1 className="text-4xl font-bold leading-tight text-slate-900 sm:text-5xl lg:text-6xl">
+              Turn your photos into clean, shareable links in seconds
+            </h1>
+            <p className="mx-auto max-w-3xl text-lg text-slate-600 leading-relaxed">
+              Upload once, paste everywhere. A simple way to host photos for blogs, docs, chat apps, and quick prototypes.
+            </p>
+            <div className="flex flex-wrap justify-center gap-4">
+              <Button
+                size="lg"
+                className="h-12 rounded-full bg-gradient-to-r from-indigo-500 via-blue-500 to-cyan-500 px-7 text-base font-semibold text-white shadow-md transition hover:scale-[1.01] hover:shadow-lg"
+                onClick={() => document.getElementById("file-input")?.click()}
+              >
+                <Upload className="mr-2 h-4 w-4" />
+                Upload image
+              </Button>
+            </div>
+            <ul className="mt-4 flex flex-wrap justify-center gap-5 text-sm text-slate-500">
+              <li className="flex items-center gap-2">
+                <span className="h-2 w-2 rounded-full bg-blue-600" />
+                Fast sharing
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="h-2 w-2 rounded-full bg-orange-500" />
+                Direct photo links
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="h-2 w-2 rounded-full bg-teal-500" />
+                No signup required
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="h-2 w-2 rounded-full bg-indigo-500" />
+                Paste from clipboard
+              </li>
+            </ul>
           </div>
-          <ul className="mt-4 flex flex-wrap justify-center gap-5 text-sm text-slate-500">
-            <li className="flex items-center gap-2">
-              <span className="h-2 w-2 rounded-full bg-blue-600" />
-              Fast sharing
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="h-2 w-2 rounded-full bg-orange-500" />
-              Direct photo links
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="h-2 w-2 rounded-full bg-teal-500" />
-              No signup required
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="h-2 w-2 rounded-full bg-indigo-500" />
-              Paste from clipboard
-            </li>
-          </ul>
         </div>
 
         {/* Upload card */}
@@ -340,7 +344,7 @@ export default function HomePage() {
                   <FileJson className="mr-2 h-4 w-4" />
                   .json
           </Button>
-                <Button
+          <Button
                   variant="outline"
                   size="sm"
                   disabled={!url}
@@ -370,7 +374,7 @@ export default function HomePage() {
                   <FileCode2 className="mr-2 h-4 w-4" />
                   .md
           </Button>
-                <Button
+          <Button
                   variant="outline"
                   size="sm"
                   disabled={!url}
@@ -424,8 +428,13 @@ export default function HomePage() {
       </section>
 
       {/* Benefits */}
-      <section className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {[
+      <section className="space-y-4">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h2 className="text-2xl font-semibold text-slate-900">Why people choose Photo to URL</h2>
+          <p className="text-sm text-slate-600">Speed, clean links, and no signup needed.</p>
+        </div>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {[
           {
             title: "Fast sharing",
             desc: "Upload and get a link in seconds with no extra steps.",
@@ -464,6 +473,7 @@ export default function HomePage() {
             </div>
           );
         })}
+        </div>
       </section>
 
       {/* How it works */}
@@ -477,6 +487,216 @@ export default function HomePage() {
         <p className="text-sm text-slate-500">
           Note: Storage is local in this version. We plan to add cloud storage/CDN later.
         </p>
+      </section>
+
+      {/* Process */}
+      <section className="space-y-4 rounded-3xl border border-slate-200 bg-white p-8 shadow-md">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h2 className="text-2xl font-semibold text-slate-900">Three-step flow</h2>
+          <p className="text-sm text-slate-600">Reduce effort, keep the CTA visible, finish in seconds.</p>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-3">
+          {[
+            { num: "1", title: "Drop or paste", desc: "Drag a file, paste from clipboard, or browse." },
+            { num: "2", title: "We host & return a link", desc: "Instant URL with copy/open/save controls." },
+            { num: "3", title: "Share anywhere", desc: "Paste into docs, chats, tickets, blogs, or prototypes." },
+          ].map((step) => (
+            <div
+              key={step.num}
+              className="space-y-2 rounded-2xl border border-slate-200 bg-slate-50 p-4 shadow-sm"
+            >
+              <div className="flex items-center gap-3">
+                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-blue-600 text-sm font-semibold text-white">
+                  {step.num}
+                </span>
+                <p className="text-base font-semibold text-slate-900">{step.title}</p>
+              </div>
+              <p className="text-sm leading-relaxed text-slate-600">{step.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Features */}
+      <section className="space-y-4 rounded-3xl border border-slate-200 bg-white p-8 shadow-md">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h2 className="text-2xl font-semibold text-slate-900">Feature highlights</h2>
+          <p className="text-sm text-slate-600">Clarity first: less friction, more sharing.</p>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {[
+            { title: "Direct CDN links", desc: "Clean, predictable URLs ready for Markdown and HTML embeds." },
+            { title: "Copy & save actions", desc: "Copy, open, or save as .txt/.json/.csv/.md/.html with one click." },
+            { title: "Clipboard friendly", desc: "Paste screenshots without hunting for files or re-uploads." },
+            { title: "Friendly errors", desc: "Clear maintenance messages instead of technical stack traces." },
+            { title: "No signup needed", desc: "Ship faster—upload and share immediately." },
+            { title: "R2 ready", desc: "Designed to serve links via CDN when Cloudflare R2 is configured." },
+          ].map((item) => (
+            <div key={item.title} className="space-y-2 rounded-2xl border border-slate-200 bg-slate-50 p-4 shadow-sm">
+              <p className="text-base font-semibold text-slate-900">{item.title}</p>
+              <p className="text-sm leading-relaxed text-slate-600">{item.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Pricing (placeholder) */}
+      <section className="space-y-4 rounded-3xl border border-slate-200 bg-white p-8 shadow-md">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h2 className="text-2xl font-semibold text-slate-900">Simple pricing</h2>
+          <p className="text-sm text-slate-600">Start free, scale with CDN when you need it.</p>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {[
+            { name: "Starter", price: "$0", cta: "Use free", features: ["Upload to link", "Copy & save formats", "Clipboard paste"] },
+            { name: "Pro (CDN)", price: "$9/mo", cta: "Enable CDN", features: ["CDN domain links", "Higher limits", "Priority support"] },
+            { name: "Team", price: "$29/mo", cta: "Talk to us", features: ["Team spaces", "Access control", "Analytics & audit"] },
+          ].map((plan) => (
+            <div key={plan.name} className="space-y-3 rounded-2xl border border-slate-200 bg-slate-50 p-5 shadow-sm">
+              <div className="flex items-center justify-between">
+                <p className="text-base font-semibold text-slate-900">{plan.name}</p>
+                <p className="text-lg font-bold text-blue-700">{plan.price}</p>
+              </div>
+              <ul className="space-y-1 text-sm leading-relaxed text-slate-600">
+                {plan.features.map((f) => (
+                  <li key={f}>• {f}</li>
+                ))}
+              </ul>
+              <Button className="w-full rounded-full bg-blue-600 text-sm font-semibold text-white hover:bg-blue-700">
+                {plan.cta}
+              </Button>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="space-y-4 rounded-3xl border border-slate-200 bg-white p-8 shadow-md">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h2 className="text-2xl font-semibold text-slate-900">Teams saving time with Photo to URL</h2>
+          <p className="text-sm text-slate-600">Social proof to reduce risk and speed up adoption.</p>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {[
+            {
+              name: "Product Ops",
+              quote: "We paste screenshots into tickets without clogging attachments. Links stay clean.",
+            },
+            {
+              name: "Content Lead",
+              quote: "Markdown-ready links keep our docs tidy and publishable in minutes.",
+            },
+            {
+              name: "Support",
+              quote: "Clear errors and instant URLs make it easy to guide customers in chat.",
+            },
+          ].map((t) => (
+            <div key={t.name} className="space-y-2 rounded-2xl border border-slate-200 bg-slate-50 p-4 shadow-sm">
+              <p className="text-sm text-slate-500">“{t.quote}”</p>
+              <p className="text-sm font-semibold text-slate-800">{t.name}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="space-y-4 rounded-3xl border border-blue-100 bg-gradient-to-r from-blue-50 via-white to-cyan-50 p-8 text-center shadow-md">
+        <h2 className="text-2xl font-semibold text-slate-900">Turn photos into links in seconds</h2>
+        <p className="text-sm text-slate-600">Drop, paste, or upload—copy your link and share everywhere.</p>
+        <div className="flex flex-wrap justify-center gap-3">
+          <Button
+            size="lg"
+            className="h-12 rounded-full bg-blue-600 px-7 text-base font-semibold text-white shadow-md transition hover:bg-blue-700"
+            onClick={() => document.getElementById("file-input")?.click()}
+          >
+            Upload now
+          </Button>
+          <Button
+            size="lg"
+            variant="outline"
+            className="h-12 rounded-full border-slate-300 px-7 text-base font-semibold text-slate-800 shadow-sm transition hover:bg-slate-50"
+            onClick={() => document.getElementById("file-input")?.click()}
+          >
+            Paste a screenshot
+          </Button>
+        </div>
+      </section>
+
+      {/* Long-form SEO & education */}
+      <section className="space-y-8 rounded-3xl border border-slate-200 bg-white/95 p-8 shadow-md">
+        <div className="space-y-3">
+          <h2 className="text-2xl font-semibold text-slate-900">Why Photo to URL helps your workflow</h2>
+          <p className="text-sm leading-relaxed text-slate-600">
+            Photo to URL Converter is built for creators, marketers, support teams, founders, and anyone who needs a quick, reliable way to turn photos into clean links. With a direct upload-to-link flow, you avoid heavy media managers and skip logins. Links are tidy, easy to paste into chat apps, docs, wikis, bug reports, and tickets. Teams move faster when screenshots and product photos are instantly shareable without attachment limits or messy previews. Because the links are predictable and consistent, they also work well in automation, QA steps, and lightweight prototypes.
+          </p>
+          <p className="text-sm leading-relaxed text-slate-600">
+            The experience stays simple: drop, paste, or browse; get a link; share. No extra chrome, no distracting ads, no gating. You keep focus on your content while we handle the boring parts of hosting. Whether you are documenting a feature, preparing a blog post, building a pitch deck, or sending a quick support response, a short link beats bulky attachments. For global teams, the interface remains English-only, keeping copy concise and universal.
+          </p>
+        </div>
+
+        <div className="space-y-3">
+          <h3 className="text-xl font-semibold text-slate-900">Use cases that stay practical</h3>
+          <ul className="list-disc space-y-2 pl-5 text-sm leading-relaxed text-slate-600">
+            <li>Product and design: share UI mocks, component screenshots, and quick visual notes without exporting to heavy tools.</li>
+            <li>Support and QA: attach reproducible screenshots in tickets, chat threads, or runbooks; links stay tidy and easy to track.</li>
+            <li>Docs and blogs: embed photos in Markdown, HTML, or CMS editors with predictable URLs and no layout surprises.</li>
+            <li>Sales and CS: drop proof-of-concept captures or customer walkthroughs straight into email or messaging.</li>
+            <li>Engineering handoff: keep build artifacts, error snaps, and regression visuals lightweight for faster reviews.</li>
+            <li>Community and socials: paste links into Discord, Slack, Teams, Twitter/X, or forums without bloated previews.</li>
+          </ul>
+        </div>
+
+        <div className="space-y-3">
+          <h3 className="text-xl font-semibold text-slate-900">How the flow works end-to-end</h3>
+          <p className="text-sm leading-relaxed text-slate-600">
+            1) Choose an image: drag-and-drop, paste from clipboard, or click to browse. PNG, JPG, WEBP, GIF up to 10MB are supported now. 2) We upload and return a direct link. The UI shows your URL immediately with copy, open, and multi-format save actions (.txt, .json, .csv, .md, .html). 3) You reuse the link anywhere: blogs, docs, tickets, chat, prototypes. The goal is a frictionless bridge between your photo and the places you work.
+          </p>
+          <p className="text-sm leading-relaxed text-slate-600">
+            Each step is tuned for clarity: visible status, friendly errors, and buttons that confirm actions. The copy button sits next to the link, and the save buttons let you keep the URL in your preferred format for bookmarking or automation. When R2 is enabled, links serve from the CDN domain; if the service is in maintenance, the UI returns a clear message instead of raw errors.
+          </p>
+        </div>
+
+        <div className="space-y-3">
+          <h3 className="text-xl font-semibold text-slate-900">Best practices for cleaner links</h3>
+          <ul className="list-disc space-y-2 pl-5 text-sm leading-relaxed text-slate-600">
+            <li>Keep filenames meaningful before upload; they remain part of the URL and help future search.</li>
+            <li>Use WEBP or optimized JPG/PNG for lighter payloads if you expect heavy sharing.</li>
+            <li>Copy the link directly after generation to avoid stale clipboard entries.</li>
+            <li>Save a .json or .csv when you need to batch store references for automation or audits.</li>
+            <li>Use .md output when embedding in docs or wikis; it is ready to paste.</li>
+            <li>For HTML embeds, pick the .html save to drop into simple demos or landing blocks.</li>
+          </ul>
+        </div>
+
+        <div className="space-y-3">
+          <h3 className="text-xl font-semibold text-slate-900">Roadmap highlights</h3>
+          <p className="text-sm leading-relaxed text-slate-600">
+            Upcoming improvements include deeper Cloudflare R2 integration by default, more generous upload limits, optional auth for team spaces, and per-link analytics. We also plan preset link styles, one-click delete, and organization-level buckets. SEO polish continues across blog, docs, and status pages, with richer schema and a public sitemap for fast indexing.
+          </p>
+        </div>
+
+        <div className="space-y-3">
+          <h3 className="text-xl font-semibold text-slate-900">FAQs</h3>
+          <div className="space-y-2 text-sm leading-relaxed text-slate-600">
+            <p className="font-semibold text-slate-800">Is it free?</p>
+            <p>Yes, core upload-to-link is free. CDN-backed hosting via R2 will roll out with generous tiers.</p>
+            <p className="font-semibold text-slate-800">What formats are supported?</p>
+            <p>PNG, JPG, WEBP, GIF up to 10MB today. More formats can be added based on demand.</p>
+            <p className="font-semibold text-slate-800">Can I embed in Markdown or HTML?</p>
+            <p>Yes. Copy the link as-is, or use the one-click .md / .html saves for drop-in snippets.</p>
+            <p className="font-semibold text-slate-800">Do you keep my files public?</p>
+            <p>Links are shareable; when R2 CDN is enabled, they are served via the CDN domain. We show clear maintenance messages if storage is unavailable.</p>
+            <p className="font-semibold text-slate-800">Will there be accounts or teams?</p>
+            <p>Planned. We prioritize frictionless uploads first, then add team spaces, access control, and analytics.</p>
+          </div>
+        </div>
+
+        <div className="space-y-2">
+          <h3 className="text-xl font-semibold text-slate-900">Keywords we care about</h3>
+          <p className="text-sm leading-relaxed text-slate-600">
+            photo to url, image to url, photo hosting, shareable links, direct image link, free image hosting, cdn photo link, upload and copy link, paste image to link, instant photo link, blog image links, docs image links, chat image link, markdown image link, html image link, photo cdn, fast image sharing, no signup image host, simple photo hosting, quick image uploader, link generator for photos.
+          </p>
+        </div>
       </section>
     </div>
   );
