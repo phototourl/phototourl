@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Upload, Link as LinkIcon, Check, Loader2, Image as ImageIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -13,6 +13,13 @@ export default function HomePage() {
   const [url, setUrl] = useState<string | null>(null);
   const [fileName, setFileName] = useState<string | null>(null);
   const [preview, setPreview] = useState<string | null>(null);
+  const [copied, setCopied] = useState(false);
+
+  useEffect(() => {
+    if (!copied) return;
+    const t = setTimeout(() => setCopied(false), 1500);
+    return () => clearTimeout(t);
+  }, [copied]);
 
   const handleUpload = useCallback(async (file: File) => {
     setStatus("uploading");
@@ -69,6 +76,7 @@ export default function HomePage() {
     e?.stopPropagation();
     if (!url) return;
     await navigator.clipboard.writeText(url);
+    setCopied(true);
   };
 
   return (
@@ -95,9 +103,14 @@ export default function HomePage() {
               Upload image
             </Button>
             {url ? (
-              <Button variant="outline" size="lg" onClick={(e) => void copyUrl(e)}>
+              <Button
+                variant={copied ? "default" : "outline"}
+                size="lg"
+                onClick={(e) => void copyUrl(e)}
+                className={copied ? "bg-green-600 hover:bg-green-700 text-white" : ""}
+              >
                 <Check className="mr-2 h-4 w-4" />
-                Copy link
+                {copied ? "Copied!" : "Copy link"}
               </Button>
             ) : null}
           </div>
