@@ -1,6 +1,8 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import Image from "next/image";
+import logoShowcase from "@/image/logo.png";
 import {
   Upload,
   Link as LinkIcon,
@@ -17,6 +19,7 @@ import {
   FileCode2,
   MousePointerClick,
   Globe2,
+  ArrowUpCircle,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -164,12 +167,16 @@ export default function HomePage() {
     URL.revokeObjectURL(link.href);
   };
 
+  const scrollToUpload = useCallback(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <div className="mx-auto flex max-w-6xl flex-col gap-12 px-6 py-12 lg:max-w-7xl lg:px-10 lg:py-18">
       {/* Hero */}
       <section className="flex flex-col items-center gap-4 text-center -mt-4 sm:-mt-6">
         <div className="w-full max-w-5xl">
-          <div className="mb-1 flex justify-center">
+          <div className="mb-1 flex justify-center -translate-y-1 sm:-translate-y-2">
             <div className="inline-flex items-center gap-2 rounded-full border border-blue-100 bg-white/90 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-blue-600 shadow-sm">
               <span className="flex items-center gap-1">
                 <Check className="h-3.5 w-3.5" />
@@ -229,7 +236,7 @@ export default function HomePage() {
       </section>
 
       {/* Upload card (centered) */}
-      <section className="flex justify-center">
+      <section id="upload-card" className="flex justify-center">
         <div
           className={cn(
             "group relative w-full max-w-4xl rounded-3xl border border-slate-200 bg-white/95 p-8 shadow-xl transition",
@@ -478,15 +485,29 @@ export default function HomePage() {
 
       {/* How it works */}
       <section className="space-y-4 rounded-3xl border border-slate-200 bg-white p-8 shadow-md">
-        <h2 className="text-2xl font-semibold text-slate-900">How it works</h2>
-        <ol className="space-y-4 text-sm text-slate-600 leading-relaxed">
-          <li>1) Upload or paste an image (PNG/JPG/WEBP/GIF, up to 10MB).</li>
-          <li>2) We store it locally for now and give you a direct URL.</li>
-          <li>3) Copy the link and use it anywhere on the web.</li>
-        </ol>
-        <p className="text-sm text-slate-500">
-          Note: Storage is local in this version. We plan to add cloud storage/CDN later.
-        </p>
+        <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+          <div className="space-y-3">
+            <h2 className="text-2xl font-semibold text-slate-900">How it works</h2>
+            <ol className="space-y-4 text-sm text-slate-600 leading-relaxed">
+              <li>1) Add your photo (drag, paste, or click to pick a file).</li>
+              <li>2) We turn it into a link on our CDN.</li>
+              <li>3) Copy and share the link anywhere you work.</li>
+            </ol>
+            <p className="text-sm text-slate-500">
+              Your link opens fast in docs, chats, and prototypes—plus you can download it in the format you like (.txt/.json/.csv/.md/.html).
+            </p>
+          </div>
+          <div className="mx-auto mt-2 flex-shrink-0 md:mt-0">
+            <Image
+              src={logoShowcase}
+              alt="Photo to URL logo"
+              width={260}
+              height={260}
+              className="h-auto w-52 md:w-56"
+              priority={false}
+            />
+          </div>
+        </div>
       </section>
 
       {/* Process */}
@@ -540,36 +561,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Pricing (placeholder) */}
-      <section className="space-y-4 rounded-3xl border border-slate-200 bg-white p-8 shadow-md">
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <h2 className="text-2xl font-semibold text-slate-900">Simple pricing</h2>
-          <p className="text-sm text-slate-600">Start free, scale with CDN when you need it.</p>
-        </div>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {[
-            { name: "Starter", price: "$0", cta: "Use free", features: ["Upload to link", "Copy & save formats", "Clipboard paste"] },
-            { name: "Pro (CDN)", price: "$9/mo", cta: "Enable CDN", features: ["CDN domain links", "Higher limits", "Priority support"] },
-            { name: "Team", price: "$29/mo", cta: "Talk to us", features: ["Team spaces", "Access control", "Analytics & audit"] },
-          ].map((plan) => (
-            <div key={plan.name} className="space-y-3 rounded-2xl border border-slate-200 bg-slate-50 p-5 shadow-sm">
-              <div className="flex items-center justify-between">
-                <p className="text-base font-semibold text-slate-900">{plan.name}</p>
-                <p className="text-lg font-bold text-blue-700">{plan.price}</p>
-              </div>
-              <ul className="space-y-1 text-sm leading-relaxed text-slate-600">
-                {plan.features.map((f) => (
-                  <li key={f}>• {f}</li>
-                ))}
-              </ul>
-              <Button className="w-full rounded-full bg-blue-600 text-sm font-semibold text-white hover:bg-blue-700">
-                {plan.cta}
-              </Button>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* Testimonials */}
       <section className="space-y-4 rounded-3xl border border-slate-200 bg-white p-8 shadow-md">
         <div className="flex flex-wrap items-center justify-between gap-3">
@@ -607,16 +598,18 @@ export default function HomePage() {
           <Button
             size="lg"
             className="h-12 rounded-full bg-blue-600 px-7 text-base font-semibold text-white shadow-md transition hover:bg-blue-700"
-            onClick={() => document.getElementById("file-input")?.click()}
+            onClick={scrollToUpload}
           >
+            <ArrowUpCircle className="mr-2 h-5 w-5 animate-bounce" />
             Upload now
           </Button>
           <Button
             size="lg"
             variant="outline"
             className="h-12 rounded-full border-slate-300 px-7 text-base font-semibold text-slate-800 shadow-sm transition hover:bg-slate-50"
-            onClick={() => document.getElementById("file-input")?.click()}
+            onClick={scrollToUpload}
           >
+            <ArrowUpCircle className="mr-2 h-5 w-5 animate-bounce text-blue-500" />
             Paste a screenshot
           </Button>
         </div>
