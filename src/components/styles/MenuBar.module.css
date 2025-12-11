@@ -1,0 +1,26 @@
+/* MenuBar.css */
+.menuBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff; /* Change to your global color */
+    color: #333; /* Change to your preferred text color */
+  }
+  
+  .menuBar .logo {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .menuItems {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menuItems li a {
+    text-decoration: none;
+    color: inherit; /* Inherits the color from the parent element */
+  }
+  
