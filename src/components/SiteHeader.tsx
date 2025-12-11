@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@/image/logo_draft_4.png";
+import logo from "@/image/logo.png";
 
 export function SiteHeader() {
   return (
