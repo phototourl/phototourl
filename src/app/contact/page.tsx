@@ -13,8 +13,8 @@ export default function ContactPage() {
         Need to reach us about Photo to URL? Drop a note to the team.
       </p>
       <div className="mt-6 space-y-3 rounded-lg border border-slate-200 bg-white p-4 text-sm text-slate-600">
-        <p>Email: <a className="text-blue-600 underline" href="mailto:hello@phototourl.com">hello@phototourl.com</a></p>
-        <p>We typically respond within 1–2 business days.</p>
+        <p>Email: <a className="text-blue-600 underline" href="mailto:leeqs1010@gmail.com">leeqs1010@gmail.com</a></p>
+        <p>We keep an eye on inbox and will get back to you as soon as possible.</p>
       </div>
     </div>
   );
