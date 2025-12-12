@@ -407,7 +407,7 @@ export default function HomePage() {
                         ? "bg-slate-900 text-white hover:bg-slate-800 hover:shadow-md hover:-translate-y-px"
                         : "bg-slate-800 text-white hover:bg-slate-700 hover:shadow-md hover:-translate-y-px"
                   )}
-                >
+          >
                   <Copy className="mr-2 h-4 w-4" />
                   {copied ? "Copied" : "Copy link"}
           </Button>
