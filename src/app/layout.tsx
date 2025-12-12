@@ -49,7 +49,12 @@ export const metadata: Metadata = {
     title: "Photo to URL Converter",
     description:
       "Upload photos and get direct, shareable URLs instantly. Fast and reliable hosting.",
-    images: ["https://www.phototourl.com/og.png"],
+    images: [
+      {
+        url: "https://www.phototourl.com/og.png",
+        alt: "Photo to URL Converter",
+      },
+    ],
   },
   keywords: KEYWORDS,
   icons: {
