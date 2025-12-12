@@ -28,6 +28,8 @@ const r2Enabled =
   !!process.env.R2_SECRET_ACCESS_KEY &&
   !!process.env.R2_PUBLIC_BASE_URL;
 
+const R2_CACHE_CONTROL = "public, max-age=31536000, immutable";
+
 const r2Client = r2Enabled
   ? new S3Client({
       region: "auto",
@@ -89,6 +91,7 @@ export async function POST(req: Request) {
         Key: key,
         Body: buffer,
         ContentType: file.type,
+        CacheControl: R2_CACHE_CONTROL,
       })
     );
     const url = `${r2PublicBase}/${key}`;
