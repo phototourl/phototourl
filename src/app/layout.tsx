@@ -52,6 +52,15 @@ export const metadata: Metadata = {
     images: ["https://www.phototourl.com/og.png"],
   },
   keywords: KEYWORDS,
+  icons: {
+    icon: [
+      { url: "/favicon.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-1.png", sizes: "192x192", type: "image/png" },
+      { url: "/favicon.ico", sizes: "32x32" },
+    ],
+    shortcut: "/favicon.png",
+    apple: "/favicon-1.png",
+  },
 };
 
 export default function RootLayout({
