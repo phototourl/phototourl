@@ -56,7 +56,6 @@ export const metadata: Metadata = {
     icon: [
       { url: "/favicon.png", sizes: "32x32", type: "image/png" },
       { url: "/favicon-1.png", sizes: "192x192", type: "image/png" },
-      { url: "/favicon.ico", sizes: "32x32" },
     ],
     shortcut: "/favicon.png",
     apple: "/favicon-1.png",
@@ -76,7 +75,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.png" />
       </head>
-
+      
       <body className={`${inter.className} bg-slate-100 text-slate-900`}>
         <SiteHeader />
         <main className="min-h-screen pt-24">{children}</main>
