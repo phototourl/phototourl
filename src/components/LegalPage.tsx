@@ -1,13 +1,7 @@
 import React from "react";
-import Footer from "./Footer";
 
 function LegalPage({ children }: { children: React.ReactNode }) {
-  return (
-    <div className="bg-zinc-200 text-zinc-900">
-      <div className="prose max-w-lg mx-auto">{children}</div>
-      <Footer />
-    </div>
-  );
+  return <div className="mx-auto max-w-3xl px-6 py-12 text-slate-900">{children}</div>;
 }
 
 export default LegalPage;

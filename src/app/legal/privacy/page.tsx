@@ -1,17 +1,11 @@
 "use client";
 import LegalPage from "@/components/LegalPage";
-import Head from "next/head";
 import React from "react";
 
 function Terms() {
   return (
     <LegalPage>
-      <Head>
-        <title>Wrapped for TikTok - Privacy Policy</title>
-        <meta name="robots" content="noindex" />
-      </Head>
-
-      <div className="mx-auto max-w-lg">
+      <div className="space-y-4">
         <h1>Privacy Policy</h1>
 
         <p>
