@@ -53,7 +53,7 @@
       "idleSubtitle": "See the full upload → link → copy flow.",
       "processing": "Optimizing & uploading...",
       "doneTitle": "Ready to share",
-      "doneSubtitle": "Your link is live on a fast CDN."
+      "doneSubtitle": "Your link is ready to share instantly."
     },
     "upload": {
       "title": "Drop a photo or click to browse",
@@ -84,7 +84,7 @@
     "how": {
       "title": "How it works",
       "step1": "1) Add your photo (drag, paste, or click to pick a file).",
-      "step2": "2) We turn it into a link on our CDN.",
+      "step2": "2) We host it and return a shareable link.",
       "step3": "3) Copy and share the link anywhere you work.",
       "note": "Your link opens fast in docs, chats, and prototypes—plus you can download it in the format you like (.txt/.json/.csv/.md/.html)."
     },
@@ -109,7 +109,7 @@
         "clipboard": { "title": "Clipboard friendly", "desc": "Paste screenshots without hunting for files or re-uploads." },
         "errors": { "title": "Friendly errors", "desc": "Clear maintenance messages instead of technical stack traces." },
         "nosignup": { "title": "No signup needed", "desc": "Ship faster—upload and share immediately." },
-        "r2": { "title": "R2 ready", "desc": "Designed to serve links via CDN when Cloudflare R2 is configured." }
+        "r2": { "title": "Fast hosting", "desc": "Links are served via fast CDN for quick loading and reliable access." }
       }
     },
     "testimonials": {

@@ -50,7 +50,8 @@ module.exports = withNextIntl(
       transpileClientSDK: true,
 
       // Routes browser requests to Sentry through a Next.js rewrite to circumvent ad-blockers (increases server load)
-      tunnelRoute: "/monitoring",
+      // 静态导出不支持 rewrites，禁用 tunnelRoute
+      // tunnelRoute: "/monitoring",
 
       // Hides source maps from generated client bundles
       hideSourceMaps: true,

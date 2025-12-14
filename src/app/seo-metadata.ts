@@ -17,13 +17,9 @@ export const baseMetadata: Metadata = {
       fr: `${siteUrl}/fr`,
       pt: `${siteUrl}/pt`,
       de: `${siteUrl}/de`,
-      ja: `${siteUrl}/ja`,
+      jp: `${siteUrl}/jp`,
       ko: `${siteUrl}/ko`,
       ar: `${siteUrl}/ar`,
-      ru: `${siteUrl}/ru`,
-      id: `${siteUrl}/id`,
-      th: `${siteUrl}/th`,
-      vi: `${siteUrl}/vi`,
     },
   },
   openGraph: {
@@ -61,6 +57,9 @@ export const baseMetadata: Metadata = {
     ],
     shortcut: "/favicon.png",
     apple: "/favicon-1.png",
+  },
+  other: {
+    "msvalidate.01": "9A675F33BD29DA6327CB3696B1CA322D",
   },
 };
 

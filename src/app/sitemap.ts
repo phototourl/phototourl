@@ -12,8 +12,8 @@ const routes = [
   "/legal/terms",
   "/legal/impressum",
 ];
-// 只输出已上线的第一、第二梯队语言
-const locales = ["en", "zh", "es", "fr", "pt", "de", "ja", "ko"] as const;
+// 只输出已上线的第一、第二梯队语言（与 next-intl.config.ts 保持一致）
+const locales = ["en", "zh", "es", "fr", "pt", "de", "jp", "ko", "ar"] as const;
 const defaultLocale = "en";
 
 export default function sitemap(): MetadataRoute.Sitemap {

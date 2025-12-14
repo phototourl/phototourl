@@ -1,3 +1,15 @@
 User-agent: *
+Allow: /
 Disallow: /legal
 Disallow: /legal/*
+
+# Bingbot (Microsoft Bing crawler)
+User-agent: Bingbot
+Allow: /
+
+# Yandex (Russian search engine)
+User-agent: Yandex
+Allow: /
+
+# Sitemap
+Sitemap: https://phototourl.com/sitemap.xml

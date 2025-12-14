@@ -485,7 +485,7 @@ export default function HomePage() {
                       }}
                       aria-label={`Use sample ${item.key}`}
                     >
-                      <Image src={item.src} alt="" fill sizes="56px" className="object-cover" />
+                      <Image src={item.src} alt={`Sample image ${item.key}`} fill sizes="56px" className="object-cover" />
                     </button>
                   ))}
                 </div>
