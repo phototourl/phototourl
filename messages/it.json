@@ -1,0 +1,33 @@
+{
+  "common": {
+    "siteName": "Photo to URL",
+    "tagline": "Trasforma le foto in link puliti e condivisibili in pochi secondi",
+    "header": {
+      "subtitle": "Trasforma immagini in link condivisibili",
+      "prompt": "Trascina, incolla o carica — ottieni un link subito"
+    },
+    "footer": {
+      "blurb": {
+        "line1": "Trasforma le foto in link puliti e condivisibili.",
+        "line2": "Veloce, semplice, affidabile."
+      },
+      "partners": "Partner",
+      "linksTitle": "Link",
+      "productsTitle": "Prodotti",
+      "nav": {
+        "home": "Home",
+        "blog": "Blog",
+        "docs": "Documenti",
+        "status": "Stato",
+        "contact": "Contatti"
+      },
+      "legal": {
+        "privacy": "Privacy",
+        "terms": "Termini"
+      },
+      "copyright": "© 2025 Photo to URL. Tutti i diritti riservati."
+    }
+  }
+}
+
+

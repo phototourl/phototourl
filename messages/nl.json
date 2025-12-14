@@ -1,0 +1,33 @@
+{
+  "common": {
+    "siteName": "Photo to URL",
+    "tagline": "Zet foto’s in seconden om in schone, deelbare links",
+    "header": {
+      "subtitle": "Maak van afbeeldingen deelbare links",
+      "prompt": "Sleep, plak of upload — krijg direct een deelbare link"
+    },
+    "footer": {
+      "blurb": {
+        "line1": "Maak van foto’s schone, deelbare links.",
+        "line2": "Snel, simpel, betrouwbaar."
+      },
+      "partners": "Partners",
+      "linksTitle": "Links",
+      "productsTitle": "Producten",
+      "nav": {
+        "home": "Home",
+        "blog": "Blog",
+        "docs": "Docs",
+        "status": "Status",
+        "contact": "Contact"
+      },
+      "legal": {
+        "privacy": "Privacy",
+        "terms": "Voorwaarden"
+      },
+      "copyright": "© 2025 Photo to URL. Alle rechten voorbehouden."
+    }
+  }
+}
+
+

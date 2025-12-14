@@ -1,0 +1,178 @@
+{
+  "common": {
+    "siteName": "Photo to URL",
+    "tagline": "Convierte tus fotos en enlaces limpios y compartibles al instante",
+    "header": {
+      "subtitle": "Convierte imágenes en enlaces para compartir",
+      "prompt": "Suelta, pega o sube — obtén un enlace compartible al instante"
+    },
+    "footer": {
+      "blurb": {
+        "line1": "Convierte fotos en enlaces limpios y compartibles.",
+        "line2": "Rápido, simple y fiable."
+      },
+      "partners": "Socios",
+      "linksTitle": "Enlaces",
+      "productsTitle": "Productos",
+      "nav": {
+        "home": "Inicio",
+        "blog": "Blog",
+        "docs": "Docs",
+        "status": "Estado",
+        "contact": "Contacto"
+      },
+      "legal": {
+        "privacy": "Privacidad",
+        "terms": "Términos"
+      },
+      "copyright": "© 2025 Photo to URL. Todos los derechos reservados."
+    }
+  },
+  "home": {
+    "badge": {
+      "free": "Gratis",
+      "cdn": "Enlaces CDN",
+      "nosignup": "Sin registro"
+    },
+    "hero": {
+      "title1": "Gratis",
+      "title2": "foto a URL",
+      "subtitle": "Sube una foto y obtén un enlace listo para compartir.",
+      "upload": "Subir imagen",
+      "bullet": {
+        "fast": "Compartir rápido",
+        "direct": "Enlaces directos de imagen",
+        "nosignup": "Sin registro",
+        "paste": "Pegar desde el portapapeles"
+      }
+    },
+    "demo": {
+      "label": "Demo",
+      "loop": "Demo auto",
+      "idleTitle": "Arrastra y suelta tu imagen",
+      "idleSubtitle": "Mira el flujo: subir → enlace → copiar.",
+      "processing": "Optimizando y subiendo...",
+      "doneTitle": "Listo para compartir",
+      "doneSubtitle": "Tu enlace ya está en el CDN."
+    },
+    "upload": {
+      "title": "Suelta una foto o haz clic para elegir",
+      "hint": "JPG/PNG/WEBP/GIF hasta 10MB. Arrastra y suelta, haz clic o pega capturas.",
+      "orDrop": "o suelta un archivo",
+      "samplesTitle": "¿Sin imagen? Prueba una de estas:",
+      "policy": "Al subir una imagen, aceptas nuestra <privacy>Política de privacidad</privacy> y <terms>Términos de uso</terms>.",
+      "clear": "Limpiar"
+    },
+    "result": {
+      "error": "La subida falló. Inténtalo de nuevo.",
+      "generated": "Enlace generado:",
+      "open": "Abrir en nueva pestaña",
+      "placeholder": "Aún no hay enlace. Sube una imagen para generar un URL compartible.",
+      "savePrompt": "Guardar enlace como:",
+      "copy": "Copiar",
+      "copied": "Copiado"
+    },
+    "benefits": {
+      "title": "Por qué la gente elige Photo to URL",
+      "subtitle": "Velocidad, enlaces limpios y sin registro.",
+      "items": {
+        "fast": { "title": "Compartir rápido", "desc": "Sube y consigue un enlace en segundos sin pasos extra." },
+        "direct": { "title": "Enlaces de imagen directos", "desc": "Enlaces limpios que funcionan en HTML, Markdown y chats." },
+        "nosignup": { "title": "Sin registro requerido", "desc": "Úsalo al instante; las cuentas pueden llegar después." }
+      }
+    },
+    "how": {
+      "title": "Cómo funciona",
+      "step1": "1) Añade tu foto (arrastra, pega o haz clic para elegir un archivo).",
+      "step2": "2) La convertimos en un enlace en nuestro CDN.",
+      "step3": "3) Copia y comparte el enlace donde trabajes.",
+      "note": "Tu enlace se abre rápido en docs, chats y prototipos; además puedes descargarlo en el formato que quieras (.txt/.json/.csv/.md/.html)."
+    },
+    "process": {
+      "title": "Flujo en tres pasos",
+      "subtitle": "Menos esfuerzo, CTA visible, terminas en segundos.",
+      "steps": {
+        "1": { "title": "Suelta o pega", "desc": "Arrastra un archivo, pega desde el portapapeles o explora." },
+        "2": { "title": "Alojamos y devolvemos un enlace", "desc": "URL instantánea con acciones de copiar/abrir/guardar." },
+        "3": { "title": "Comparte en cualquier lugar", "desc": "Pega en docs, chats, tickets, blogs o prototipos." }
+      }
+    },
+    "features": {
+      "title": "Aspectos destacados",
+      "subtitle": "Claridad primero: menos fricción, más compartir.",
+      "items": {
+        "cdn": { "title": "Enlaces CDN directos", "desc": "URLs limpias y predecibles listas para Markdown y HTML." },
+        "save": { "title": "Acciones de copia y guardado", "desc": "Copia, abre o guarda como .txt/.json/.csv/.md/.html con un clic." },
+        "clipboard": { "title": "Amigable con el portapapeles", "desc": "Pega capturas sin buscar archivos ni re-subir." },
+        "errors": { "title": "Errores amigables", "desc": "Mensajes claros de mantenimiento en lugar de trazas técnicas." },
+        "nosignup": { "title": "No necesitas registro", "desc": "Lanza más rápido: sube y comparte al instante." },
+        "r2": { "title": "Listo para R2", "desc": "Diseñado para servir enlaces vía CDN cuando se configure Cloudflare R2." }
+      }
+    },
+    "testimonials": {
+      "title": "Equipos que ahorran tiempo con Photo to URL",
+      "subtitle": "Prueba social para reducir riesgo y acelerar adopción.",
+      "items": {
+        "ops": { "name": "Product Ops", "quote": "Pegamos capturas en tickets sin atascar adjuntos. Los enlaces quedan limpios." },
+        "content": { "name": "Líder de Contenidos", "quote": "Links listos para Markdown mantienen la documentación limpia y publicable en minutos." },
+        "support": { "name": "Soporte", "quote": "Errores claros y URLs instantáneas facilitan guiar clientes en el chat." }
+      }
+    },
+    "cta": {
+      "title": "Convierte fotos en enlaces en segundos",
+      "subtitle": "Arrastra, pega o sube—copia tu enlace y compártelo en todas partes.",
+      "upload": "Subir ahora",
+      "paste": "Pegar una captura"
+    },
+    "longform": {
+      "title": "Por qué Photo to URL mejora tu flujo de trabajo",
+      "p1": "Photo to URL está hecho para creadores, marketing, soporte, operaciones y cualquier persona que necesite convertir fotos en enlaces limpios y fiables. Con un flujo directo de subir→enlace, evitas gestores pesados y no necesitas iniciar sesión. Los enlaces son ordenados y fáciles de pegar en chats, docs, wikis, reportes de bugs y tickets. Los equipos avanzan más rápido al compartir capturas al instante; además, URLs predecibles ayudan en automatizaciones, QA y prototipos ligeros.",
+      "p2": "La experiencia es simple: suelta, pega o elige un archivo; obtén un enlace; compártelo. Sin ruido, sin anuncios molestos, sin barreras. Tú te enfocas en el contenido y nosotros en el alojamiento. Para equipos globales, la interfaz está disponible en varios idiomas manteniendo el texto claro y universal.",
+      "useCases": {
+        "title": "Casos de uso prácticos",
+        "items": {
+          "1": "Producto y diseño: comparte capturas de UI y notas rápidas sin herramientas pesadas.",
+          "2": "Soporte y QA: adjunta capturas reproducibles en tickets y chats con enlaces limpios.",
+          "3": "Docs y blogs: inserta imágenes en Markdown/HTML/CMS con URLs predecibles.",
+          "4": "Ventas y CS: comparte capturas de POC o walkthroughs por email o mensajería.",
+          "5": "Handoff de ingeniería: comparte evidencias y comparaciones de regresión de forma ligera.",
+          "6": "Comunidad y redes: pega enlaces en Discord/Slack/Teams/X/foros sin previews pesadas."
+        }
+      },
+      "flow": {
+        "title": "Cómo funciona de principio a fin",
+        "p1": "1) Elige una imagen: arrastra y suelta, pega desde el portapapeles o explora. 2) Subimos y devolvemos un enlace directo con acciones de copiar/abrir/guardar (.txt/.json/.csv/.md/.html). 3) Reutiliza el enlace en blogs, docs, tickets, chats o prototipos.",
+        "p2": "Cada paso está pensado para claridad: estados visibles, errores amigables y botones con confirmación. Cuando R2 está habilitado, los enlaces se sirven por el dominio CDN; si hay mantenimiento, verás un mensaje claro."
+      },
+      "best": {
+        "title": "Buenas prácticas para enlaces más limpios",
+        "items": {
+          "1": "Usa nombres de archivo significativos antes de subir.",
+          "2": "Prefiere WEBP o JPG/PNG optimizados si vas a compartir mucho.",
+          "3": "Copia el enlace justo después de generarlo.",
+          "4": "Guarda como .json o .csv para lotes y automatizaciones.",
+          "5": "Usa .md para pegar directamente en documentación.",
+          "6": "Usa .html para demos o bloques simples."
+        }
+      },
+      "roadmap": {
+        "title": "Hoja de ruta",
+        "p1": "Próximas mejoras: integración más profunda con Cloudflare R2 por defecto, mayores límites, espacios de equipo opcionales y analíticas por enlace. También planeamos borrado en un clic y mejoras SEO (schema y sitemap)."
+      },
+      "faq": {
+        "title": "Preguntas frecuentes",
+        "items": {
+          "1": { "q": "¿Es gratis?", "a": "Sí, el flujo básico subir→enlace es gratis. El hosting con CDN/R2 tendrá planes generosos." },
+          "2": { "q": "¿Qué formatos soporta?", "a": "PNG, JPG, WEBP, GIF (según el límite actual). Se pueden añadir más." },
+          "3": { "q": "¿Funciona con Markdown/HTML?", "a": "Sí. Copia el enlace o usa los botones .md/.html." },
+          "4": { "q": "¿Los archivos quedan públicos?", "a": "Los enlaces son compartibles; con R2 CDN se sirven por el dominio CDN. En mantenimiento mostramos mensajes claros." },
+          "5": { "q": "¿Habrá cuentas o equipos?", "a": "Sí, está planificado: primero una experiencia simple y fiable, luego equipos, permisos y analíticas." }
+        }
+      },
+      "keywords": {
+        "title": "Palabras clave",
+        "p1": "imagen a URL, foto a URL, convertir imagen a enlace, enlace directo de imagen, hosting de imágenes, alojamiento de fotos, hosting gratis de imágenes, enlace CDN de imagen, URL de imagen directa, subir y copiar enlace, pegar imagen para generar enlace, enlace instantáneo de foto, enlaces de imagen para blog, enlaces de imagen para docs, enlace de imagen para chat, enlace de imagen en Markdown, enlace de imagen en HTML, compartir imágenes rápido, sin registro, generador de enlaces de imágenes, image to url, photo to url"
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "common": {
+    "siteName": "Photo to URL",
+    "tagline": "Zamień zdjęcia w czyste, udostępnialne linki w kilka sekund",
+    "header": {
+      "subtitle": "Zamieniaj obrazy w linki do udostępniania",
+      "prompt": "Przeciągnij, wklej lub wyślij — otrzymaj link natychmiast"
+    },
+    "footer": {
+      "blurb": {
+        "line1": "Zamień zdjęcia w czyste, łatwe do udostępnienia linki.",
+        "line2": "Szybko, prosto, niezawodnie."
+      },
+      "partners": "Partnerzy",
+      "linksTitle": "Linki",
+      "productsTitle": "Produkty",
+      "nav": {
+        "home": "Strona główna",
+        "blog": "Blog",
+        "docs": "Dokumentacja",
+        "status": "Status",
+        "contact": "Kontakt"
+      },
+      "legal": {
+        "privacy": "Prywatność",
+        "terms": "Warunki"
+      },
+      "copyright": "© 2025 Photo to URL. Wszelkie prawa zastrzeżone."
+    }
+  }
+}
+
+

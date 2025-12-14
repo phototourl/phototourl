@@ -1,0 +1,90 @@
+{
+  "common": {
+    "siteName": "Photo to URL",
+    "tagline": "Ubah foto menjadi tautan bersih yang mudah dibagikan dalam hitungan detik"
+  },
+  "home": {
+    "badge": {
+      "free": "Gratis",
+      "cdn": "Tautan CDN",
+      "nosignup": "Tanpa daftar"
+    },
+    "hero": {
+      "title": "Ubah foto jadi tautan bersih dan mudah dibagikan dalam detik",
+      "subtitle": "Unggah sekali, tempel di mana saja. Cara sederhana menaruh foto untuk blog, dokumen, chat, dan prototipe cepat.",
+      "upload": "Unggah gambar",
+      "bullet": {
+        "fast": "Berbagi cepat",
+        "direct": "Tautan gambar langsung",
+        "nosignup": "Tanpa daftar",
+        "paste": "Tempel dari clipboard"
+      }
+    },
+    "upload": {
+      "title": "Jatuhkan foto atau klik untuk pilih",
+      "hint": "JPG/PNG/WEBP/GIF maks 10MB. Seret & lepas, klik, atau tempel tangkapan layar."
+    },
+    "result": {
+      "error": "Unggahan gagal. Coba lagi.",
+      "generated": "Tautan yang dibuat:",
+      "open": "Buka di tab baru",
+      "placeholder": "Belum ada tautan. Unggah foto untuk membuat URL yang bisa dibagikan.",
+      "savePrompt": "Simpan tautan sesuai kebutuhan",
+      "copy": "Salin tautan",
+      "copied": "Disalin"
+    },
+    "benefits": {
+      "title": "Mengapa memilih Photo to URL",
+      "subtitle": "Cepat, tautan bersih, tanpa daftar.",
+      "items": {
+        "fast": { "title": "Berbagi cepat", "desc": "Dapatkan tautan dalam hitungan detik tanpa langkah ekstra." },
+        "direct": { "title": "Tautan gambar langsung", "desc": "URL bersih yang berfungsi di HTML, Markdown, dan chat." },
+        "nosignup": { "title": "Tanpa registrasi", "desc": "Langsung pakai; akun bisa belakangan." }
+      }
+    },
+    "how": {
+      "title": "Cara kerja",
+      "step1": "1) Tambah foto (seret, tempel, atau klik untuk pilih).",
+      "step2": "2) Kami jadikan tautan di CDN.",
+      "step3": "3) Salin dan bagikan di mana saja.",
+      "note": "Tautan terbuka cepat di dokumen, chat, dan prototipe—bisa diunduh dalam format apa pun (.txt/.json/.csv/.md/.html)."
+    },
+    "process": {
+      "title": "Alur tiga langkah",
+      "subtitle": "Kurangi usaha, CTA tetap terlihat, selesai dalam detik.",
+      "steps": {
+        "1": { "title": "Jatuhkan atau tempel", "desc": "Seret file, tempel dari clipboard, atau telusuri." },
+        "2": { "title": "Kami host & kirim tautan", "desc": "URL instan dengan aksi salin/buka/simpan." },
+        "3": { "title": "Bagikan di mana saja", "desc": "Tempel di dokumen, chat, tiket, blog, atau prototipe." }
+      }
+    },
+    "features": {
+      "title": "Sorotan fitur",
+      "subtitle": "Jelas lebih dulu: hambatan kurang, berbagi lebih.",
+      "items": {
+        "cdn": { "title": "Tautan CDN langsung", "desc": "URL bersih dan terprediksi siap untuk Markdown dan HTML." },
+        "save": { "title": "Salin & simpan", "desc": "Salin, buka, atau simpan .txt/.json/.csv/.md/.html dengan sekali klik." },
+        "clipboard": { "title": "Ramah clipboard", "desc": "Tempel tangkapan layar tanpa mencari file atau unggah ulang." },
+        "errors": { "title": "Error yang ramah", "desc": "Pesan perawatan yang jelas, bukan jejak teknis." },
+        "nosignup": { "title": "Tanpa akun", "desc": "Gunakan dan berbagi segera, akun bisa nanti." },
+        "r2": { "title": "Siap R2", "desc": "Dirancang untuk domain CDN saat Cloudflare R2 diaktifkan." }
+      }
+    },
+    "testimonials": {
+      "title": "Tim menghemat waktu dengan Photo to URL",
+      "subtitle": "Bukti sosial untuk menurunkan risiko dan mempercepat adopsi.",
+      "items": {
+        "ops": { "name": "Product Ops", "quote": "Kami tempel tangkapan layar di tiket tanpa memenuhi lampiran. Tautannya tetap bersih." },
+        "content": { "name": "Content Lead", "quote": "Tautan siap Markdown membuat dokumen tetap rapi dan siap terbit dalam menit." },
+        "support": { "name": "Support", "quote": "Error jelas dan URL instan memudahkan panduan lewat chat." }
+      }
+    },
+    "cta": {
+      "title": "Ubah foto jadi tautan dalam sekejap",
+      "subtitle": "Seret, tempel, atau unggah—salin tautanmu dan bagikan di mana saja.",
+      "upload": "Unggah sekarang",
+      "paste": "Tempel tangkapan layar"
+    }
+  }
+}
+

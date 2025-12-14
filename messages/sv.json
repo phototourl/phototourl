@@ -1,0 +1,33 @@
+{
+  "common": {
+    "siteName": "Photo to URL",
+    "tagline": "Gör om foton till rena, delbara länkar på några sekunder",
+    "header": {
+      "subtitle": "Gör om bilder till delbara länkar",
+      "prompt": "Dra, klistra in eller ladda upp — få en länk direkt"
+    },
+    "footer": {
+      "blurb": {
+        "line1": "Gör om foton till rena, delbara länkar.",
+        "line2": "Snabbt, enkelt, pålitligt."
+      },
+      "partners": "Partners",
+      "linksTitle": "Länkar",
+      "productsTitle": "Produkter",
+      "nav": {
+        "home": "Hem",
+        "blog": "Blogg",
+        "docs": "Dokumentation",
+        "status": "Status",
+        "contact": "Kontakt"
+      },
+      "legal": {
+        "privacy": "Integritet",
+        "terms": "Villkor"
+      },
+      "copyright": "© 2025 Photo to URL. Alla rättigheter förbehållna."
+    }
+  }
+}
+
+

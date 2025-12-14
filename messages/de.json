@@ -1,0 +1,178 @@
+{
+  "common": {
+    "siteName": "Photo to URL",
+    "tagline": "Wandeln Sie Fotos in saubere, teilbare Links in Sekunden um",
+    "header": {
+      "subtitle": "Bilder in teilbare Links verwandeln",
+      "prompt": "Ziehen, einfügen oder hochladen — sofort einen Link erhalten"
+    },
+    "footer": {
+      "blurb": {
+        "line1": "Fotos in saubere, teilbare Links verwandeln.",
+        "line2": "Schnell, einfach, zuverlässig."
+      },
+      "partners": "Partner",
+      "linksTitle": "Links",
+      "productsTitle": "Produkte",
+      "nav": {
+        "home": "Start",
+        "blog": "Blog",
+        "docs": "Docs",
+        "status": "Status",
+        "contact": "Kontakt"
+      },
+      "legal": {
+        "privacy": "Datenschutz",
+        "terms": "AGB"
+      },
+      "copyright": "© 2025 Photo to URL. Alle Rechte vorbehalten."
+    }
+  },
+  "home": {
+    "badge": {
+      "free": "Kostenlos",
+      "cdn": "CDN-Links",
+      "nosignup": "Keine Anmeldung"
+    },
+    "hero": {
+      "title1": "Foto",
+      "title2": "zu URL",
+      "subtitle": "Hochladen → Link bekommen → überall einfügen.",
+      "upload": "Bild hochladen",
+      "bullet": {
+        "fast": "Schnelles Teilen",
+        "direct": "Direkte Bild-URLs",
+        "nosignup": "Keine Registrierung nötig",
+        "paste": "Aus Zwischenablage einfügen"
+      }
+    },
+    "demo": {
+      "label": "Demo",
+      "loop": "Auto-Demo",
+      "idleTitle": "Bild per Drag & Drop ablegen",
+      "idleSubtitle": "Ablauf: hochladen → Link → kopieren.",
+      "processing": "Optimieren & hochladen...",
+      "doneTitle": "Bereit zum Teilen",
+      "doneSubtitle": "Dein Link ist live im CDN."
+    },
+    "upload": {
+      "title": "Foto ablegen oder zum Auswählen klicken",
+      "hint": "JPG/PNG/WEBP/GIF bis 10 MB. Drag & Drop, Klick oder Screenshots einfügen.",
+      "orDrop": "oder Datei ablegen",
+      "samplesTitle": "Kein Bild? Probier eines davon:",
+      "policy": "Mit dem Upload stimmst du unserer <privacy>Datenschutzerklärung</privacy> und den <terms>Nutzungsbedingungen</terms> zu.",
+      "clear": "Löschen"
+    },
+    "result": {
+      "error": "Upload fehlgeschlagen. Bitte erneut versuchen.",
+      "generated": "Generierter Link:",
+      "open": "In neuem Tab öffnen",
+      "placeholder": "Noch kein Link. Bild hochladen, um eine teilbare URL zu erzeugen.",
+      "savePrompt": "Link speichern als:",
+      "copy": "Kopieren",
+      "copied": "Kopiert"
+    },
+    "benefits": {
+      "title": "Warum Photo to URL wählen",
+      "subtitle": "Schnell, saubere Links, keine Anmeldung.",
+      "items": {
+        "fast": { "title": "Schnelles Teilen", "desc": "In Sekunden einen Link erhalten, ohne Extraschritte." },
+        "direct": { "title": "Direkte Bild-URLs", "desc": "Saubere Links, die in HTML, Markdown und Chats funktionieren." },
+        "nosignup": { "title": "Keine Registrierung erforderlich", "desc": "Sofort nutzen; Konten können später kommen." }
+      }
+    },
+    "how": {
+      "title": "So funktioniert es",
+      "step1": "1) Foto hinzufügen (ziehen, einfügen oder klicken zum Auswählen).",
+      "step2": "2) Wir wandeln es in einen Link auf unserem CDN um.",
+      "step3": "3) Link kopieren und überall nutzen.",
+      "note": "Ihr Link öffnet schnell in Docs, Chats und Prototypen; Sie können ihn auch in .txt/.json/.csv/.md/.html speichern."
+    },
+    "process": {
+      "title": "Drei-Schritte-Flow",
+      "subtitle": "Weniger Aufwand, CTA sichtbar, in Sekunden fertig.",
+      "steps": {
+        "1": { "title": "Ablegen oder einfügen", "desc": "Datei ziehen, aus dem Clipboard einfügen oder browsen." },
+        "2": { "title": "Wir hosten & liefern zurück", "desc": "Sofort-URL mit Kopieren/Öffnen/Speichern-Aktionen." },
+        "3": { "title": "Überall teilen", "desc": "In Docs, Chats, Tickets, Blogs oder Prototypen einfügen." }
+      }
+    },
+    "features": {
+      "title": "Feature-Highlights",
+      "subtitle": "Klarheit zuerst: weniger Reibung, mehr Teilen.",
+      "items": {
+        "cdn": { "title": "Direkte CDN-Links", "desc": "Saubere, vorhersehbare URLs, bereit für Markdown und HTML." },
+        "save": { "title": "Kopieren & Speichern", "desc": "Mit einem Klick kopieren, öffnen oder als .txt/.json/.csv/.md/.html sichern." },
+        "clipboard": { "title": "Clipboard-freundlich", "desc": "Screenshots einfügen, ohne Dateien zu suchen oder erneut hochzuladen." },
+        "errors": { "title": "Freundliche Fehler", "desc": "Klarer Wartungshinweis statt technischer Stacktraces." },
+        "nosignup": { "title": "Keine Anmeldung nötig", "desc": "Schneller arbeiten – hochladen und sofort teilen." },
+        "r2": { "title": "R2 bereit", "desc": "Ausgelegt für CDN-Links, wenn Cloudflare R2 konfiguriert ist." }
+      }
+    },
+    "testimonials": {
+      "title": "Teams sparen Zeit mit Photo to URL",
+      "subtitle": "Social Proof senkt Risiko und beschleunigt Einführung.",
+      "items": {
+        "ops": { "name": "Product Ops", "quote": "Wir fügen Screenshots in Tickets ein, ohne Anhänge zu verstopfen. Links bleiben sauber." },
+        "content": { "name": "Content Lead", "quote": "Markdown-fertige Links halten unsere Dokus sauber und schnell publizierbar." },
+        "support": { "name": "Support", "quote": "Klare Fehler und sofortige URLs helfen im Chat beim Anleiten." }
+      }
+    },
+    "cta": {
+      "title": "Fotos in Sekunden in Links verwandeln",
+      "subtitle": "Ziehen, einfügen oder hochladen – Link kopieren und überall teilen.",
+      "upload": "Jetzt hochladen",
+      "paste": "Screenshot einfügen"
+    },
+    "longform": {
+      "title": "Warum Photo to URL Ihren Workflow verbessert",
+      "p1": "Photo to URL ist für Creator, Marketing, Support, Ops-Teams und alle gedacht, die Fotos schnell in saubere, zuverlässige Links verwandeln möchten. Mit dem direkten Upload→Link‑Flow vermeiden Sie schwere Medienmanager und Logins. Die Links sind ordentlich und lassen sich leicht in Chats, Docs, Wikis, Bugreports und Tickets einfügen. Teams arbeiten schneller, wenn Screenshots sofort teilbar sind; vorhersehbare URLs helfen außerdem bei Automatisierung, QA und schlanken Prototypen.",
+      "p2": "Die Erfahrung bleibt simpel: ziehen, einfügen oder auswählen; Link erhalten; teilen. Ohne Ballast, ohne Ablenkung. Sie fokussieren den Inhalt, wir kümmern uns ums Hosting. Für internationale Teams ist die Oberfläche in mehreren Sprachen verfügbar und bleibt dabei klar und universell.",
+      "useCases": {
+        "title": "Praktische Einsatzfälle",
+        "items": {
+          "1": "Produkt & Design: UI‑Screenshots und schnelle Notizen teilen – ohne schwere Tools.",
+          "2": "Support & QA: reproduzierbare Screenshots in Tickets und Chats anhängen – mit sauberen Links.",
+          "3": "Docs & Blogs: Bilder in Markdown/HTML/CMS einbetten – mit vorhersehbaren URLs.",
+          "4": "Sales & CS: POC‑Screenshots und Walkthroughs per E‑Mail oder Messenger senden.",
+          "5": "Engineering Handoff: Artefakte und Regression‑Vergleiche leichtgewichtig teilen – für schnellere Reviews.",
+          "6": "Community & Social: Links in Discord/Slack/Teams/X/Foren posten – ohne schwere Previews."
+        }
+      },
+      "flow": {
+        "title": "So läuft der Flow end‑to‑end",
+        "p1": "1) Bild auswählen: Drag‑and‑Drop, aus der Zwischenablage einfügen oder browsen. 2) Wir laden hoch und liefern einen Direktlink mit Kopieren/Öffnen/Speichern (.txt/.json/.csv/.md/.html). 3) Link überall verwenden: Blog, Docs, Tickets, Chat, Prototypen.",
+        "p2": "Jeder Schritt ist auf Klarheit optimiert: sichtbarer Status, freundliche Fehler, Buttons mit Feedback. Wenn R2 aktiv ist, werden Links über die CDN‑Domain ausgeliefert; bei Wartung erscheint eine klare Meldung."
+      },
+      "best": {
+        "title": "Best Practices für saubere Links",
+        "items": {
+          "1": "Sinnvolle Dateinamen vor dem Upload verwenden.",
+          "2": "WEBP oder optimierte JPG/PNG nutzen, wenn viel geteilt wird.",
+          "3": "Link direkt nach der Generierung kopieren.",
+          "4": "Als .json oder .csv speichern – für Batch und Automatisierung.",
+          "5": ".md nutzen, um direkt in Dokus einzufügen.",
+          "6": ".html für Demos oder einfache Blöcke verwenden."
+        }
+      },
+      "roadmap": {
+        "title": "Roadmap‑Highlights",
+        "p1": "Als Nächstes: tiefere Cloudflare‑R2‑Integration, großzügigere Limits, optionale Team‑Spaces und Link‑Analytics. Außerdem: Ein‑Klick‑Löschen und SEO‑Verbesserungen (Schema & Sitemap)."
+      },
+      "faq": {
+        "title": "FAQs",
+        "items": {
+          "1": { "q": "Ist es kostenlos?", "a": "Ja, der Basis‑Flow Upload→Link ist kostenlos. CDN/R2‑Hosting wird großzügige Pläne bieten." },
+          "2": { "q": "Welche Formate werden unterstützt?", "a": "PNG, JPG, WEBP, GIF (je nach aktuellem Limit). Weitere können folgen." },
+          "3": { "q": "Funktioniert es mit Markdown/HTML?", "a": "Ja. Link kopieren oder die .md/.html‑Buttons nutzen." },
+          "4": { "q": "Sind meine Dateien öffentlich?", "a": "Links sind teilbar; mit R2 CDN werden sie über die CDN‑Domain ausgeliefert. Bei Wartung zeigen wir klare Hinweise." },
+          "5": { "q": "Gibt es Accounts/Teams?", "a": "Geplant: zuerst simpel und zuverlässig, danach Teams, Rechte und Analytics." }
+        }
+      },
+      "keywords": {
+        "title": "Keywords",
+        "p1": "bild zu url, foto zu url, bild in link umwandeln, direkter bildlink, bildhosting, fotohosting, kostenloses bildhosting, cdn bildlink, direkte bild url, hochladen und link kopieren, bild einfügen link erstellen, sofortiger fotolink, bildlinks für blog, bildlinks für docs, bildlink für chat, bildlink in markdown, bildlink in html, schnelles bilder teilen, ohne anmeldung, bildlink generator, image to url, photo to url"
+      }
+    }
+  }
+}

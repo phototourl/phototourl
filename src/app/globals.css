@@ -19,8 +19,9 @@
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Brand primary (ezremove-like): emerald/teal tool vibe */
+    --primary: 142.1 76.2% 36.3%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -31,7 +32,7 @@
     --destructive: 0 100% 50%;
     --destructive-foreground: 210 40% 98%;
 
-    --ring: 215 20.2% 65.1%;
+    --ring: 142.1 76.2% 36.3%;
 
     --radius: 0.5rem;
   }
@@ -100,4 +101,79 @@
 .fade-exit-active {
   transform: translateY(-100%);
   transition: transform 300ms;
+}
+
+/* ezremove-like hero gradient */
+.hero-gradient {
+  background: radial-gradient(circle at top left, #0abab5, transparent 50%),
+    radial-gradient(circle at bottom right, #16c5c0, transparent 50%),
+    linear-gradient(135deg, #34c592, #0abab5);
+}
+
+/* primary CTA gradient (match ezremove-like brand gradient) */
+.ez-btn-gradient {
+  background: radial-gradient(circle at top left, #0abab5, transparent 50%),
+    radial-gradient(circle at bottom right, #16c5c0, transparent 50%),
+    linear-gradient(135deg, #34c592, #0abab5);
+  color: #fff;
+}
+
+.ez-btn-gradient:hover {
+  filter: brightness(1.03);
+}
+
+.ez-btn-gradient:active {
+  filter: brightness(0.98);
+}
+
+/* brand primary color: #0abab5 */
+.text-brand-teal {
+  color: #0abab5;
+}
+
+.bg-brand-teal {
+  background-color: #0abab5;
+}
+
+.border-brand-teal {
+  border-color: #0abab5;
+}
+
+.ring-brand-teal {
+  --tw-ring-color: #0abab5;
+}
+
+/* ezremove-like soft, premium shadows */
+.ez-shadow-nav {
+  /* tighter, more "attached" shadow like ezremove header */
+  box-shadow: 0 1px 0 rgba(15, 23, 42, 0.06), 0 4px 14px rgba(15, 23, 42, 0.10);
+}
+
+.ez-shadow-card {
+  /* premium card shadow: soft + deep layer */
+  box-shadow: 0 8px 26px rgba(15, 23, 42, 0.10), 0 30px 80px rgba(15, 23, 42, 0.16);
+}
+
+/* light section backgrounds (nanobananaprompt.org style) */
+.section-bg-white {
+  background-color: #ffffff;
+}
+
+.section-bg-purple {
+  background-color: #fef7ff;
+}
+
+.section-bg-yellow {
+  background-color: #fffef5;
+}
+
+/* three-color gradient for benefits section (green gradient) */
+.section-gradient-benefits {
+  background: linear-gradient(to bottom, 
+    #ffffff 0%,
+    #f0fdf4 25%,
+    #dcfce7 50%,
+    #d1fae5 75%,
+    #ecfdf5 100%
+  );
 }
