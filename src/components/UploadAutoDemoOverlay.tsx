@@ -16,23 +16,6 @@ export default function UploadAutoDemoOverlay({
   imageSrc,
   fileTag = "OLD",
 }: UploadAutoDemoOverlayProps) {
-  const handAnimation = {
-    // 从左上方飞入（可按需再调）
-    initial: { x: -170, y: -120, scale: 0.85, opacity: 1 },
-    animate: {
-      x: [-170, 0, 0, -170],
-      y: [-120, 0, 0, -120],
-      scale: [0.85, 1, 1, 0.85],
-      opacity: [1, 1, 0, 0],
-      transition: {
-        duration: 4.2,
-        ease: "easeInOut",
-        repeat: Infinity,
-        repeatDelay: 0.8,
-      },
-    },
-  } as const;
-
   const FileToDrag = () => (
     <motion.div
       className="absolute -top-4 -left-4 flex h-12 w-12 items-center justify-center overflow-hidden rounded-xl border border-slate-200 bg-white shadow-xl"
@@ -68,9 +51,19 @@ export default function UploadAutoDemoOverlay({
   return (
     <motion.div
       className="pointer-events-none absolute left-1/2 top-1/2 z-20"
-      variants={handAnimation}
-      initial="initial"
-      animate="animate"
+      initial={{ x: -170, y: -120, scale: 0.85, opacity: 1 }}
+      animate={{
+        x: [-170, 0, 0, -170],
+        y: [-120, 0, 0, -120],
+        scale: [0.85, 1, 1, 0.85],
+        opacity: [1, 1, 0, 0],
+      }}
+      transition={{
+        duration: 4.2,
+        ease: "easeInOut",
+        repeat: Infinity,
+        repeatDelay: 0.8,
+      }}
       style={{ translateX: "-50%", translateY: "-50%" }}
     >
       <motion.div className="relative" style={{ transform: "translate(-50%, -50%)" }}>

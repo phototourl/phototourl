@@ -15,10 +15,8 @@ import {
   Copy,
   FileText,
   FileJson,
-  Table,
   FileCode2,
   MousePointerClick,
-  Globe2,
   ArrowUpCircle,
   ArrowUp,
   X,
@@ -26,7 +24,6 @@ import {
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { useTranslations, useLocale } from "next-intl";
-import { LocaleLink } from "@/i18n/navigation";
 import HeroLeftFlowDemo from "@/components/HeroLeftFlowDemo";
 
 type UploadState = "idle" | "uploading" | "success" | "error";
@@ -44,7 +41,7 @@ export default function HomePage() {
   const isRTL = locale === "ar";
 
   const [status, setStatus] = useState<UploadState>("idle");
-  const [error, setError] = useState<string | null>(null);
+  const [_error, setError] = useState<string | null>(null);
   const [url, setUrl] = useState<string | null>(null);
   const [fileName, setFileName] = useState<string | null>(null);
   const [preview, setPreview] = useState<string | null>(null);
@@ -189,7 +186,7 @@ export default function HomePage() {
     URL.revokeObjectURL(link.href);
   };
 
-  const saveUrlAsCsv = (e?: React.MouseEvent) => {
+  const _saveUrlAsCsv = (e?: React.MouseEvent) => {
     e?.stopPropagation();
     if (!url) return;
     const content = `link\n"${url.replace(/"/g, '""')}"\n`;
@@ -217,7 +214,7 @@ export default function HomePage() {
     URL.revokeObjectURL(link.href);
   };
 
-  const saveUrlAsHtml = (e?: React.MouseEvent) => {
+  const _saveUrlAsHtml = (e?: React.MouseEvent) => {
     e?.stopPropagation();
     if (!url) return;
     const content = `<!doctype html><html><body><a href="${url}">${url}</a></body></html>`;
