@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { KEYWORDS } from "../../content/keywords";
 
 export const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://www.phototourl.com";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://phototourl.com";
 
 export const baseMetadata: Metadata = {
   title: "Photo to URL Converter | Turn photos into shareable links",

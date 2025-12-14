@@ -15,7 +15,7 @@ npm run dev
 
 Copy `env.example` to `.env.local` (or set in Vercel):
 - `NEXT_PUBLIC_GOOGLE_ANALYTICS_ID` - Google Analytics ID (e.g., G-MJP605Q6WY)
-- `NEXT_PUBLIC_SITE_URL` - Site URL (e.g., https://www.phototourl.com)
+- `NEXT_PUBLIC_SITE_URL` - Site URL (e.g., https://phototourl.com)
 - `R2_BUCKET`, `R2_ENDPOINT`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_PUBLIC_BASE_URL` (optional; if empty falls back to local)
 
 ## Deploy

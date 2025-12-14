@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.phototourl.com";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://phototourl.com";
 const routes = [
   "/",
   "/blog",
