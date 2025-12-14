@@ -17,7 +17,7 @@ export const baseMetadata: Metadata = {
       fr: `${siteUrl}/fr`,
       pt: `${siteUrl}/pt`,
       de: `${siteUrl}/de`,
-      jp: `${siteUrl}/jp`,
+      ja: `${siteUrl}/jp`, // 使用标准 ISO 代码 ja，但 URL 路径保持 /jp
       ko: `${siteUrl}/ko`,
       ar: `${siteUrl}/ar`,
     },
