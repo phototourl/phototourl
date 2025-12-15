@@ -59,7 +59,10 @@ export const baseMetadata: Metadata = {
     apple: "/favicon-1.png",
   },
   other: {
+    // Bing 站长验证
     "msvalidate.01": "9A675F33BD29DA6327CB3696B1CA322D",
+    // 百度站长验证
+    "baidu-site-verification": "codeva-ACSbhvu687",
   },
 };
 
