@@ -11,5 +11,9 @@ Allow: /
 User-agent: Yandex
 Allow: /
 
+# Yahoo (uses Bing results, but has its own crawler)
+User-agent: Slurp
+Allow: /
+
 # Sitemap
 Sitemap: https://phototourl.com/sitemap.xml

@@ -6,19 +6,17 @@ import localFont from "next/font/local";
 
 export const metadata: Metadata = baseMetadata;
 
+// 只加载必要的字体变体以提升性能
 const inter = localFont({
   src: [
-    { path: "./api/image/Inter/Inter-Thin.ttf", weight: "100", style: "normal" },
-    { path: "./api/image/Inter/Inter-ExtraLight.ttf", weight: "200", style: "normal" },
-    { path: "./api/image/Inter/Inter-Light.ttf", weight: "300", style: "normal" },
     { path: "./api/image/Inter/Inter-Regular.ttf", weight: "400", style: "normal" },
     { path: "./api/image/Inter/Inter-Medium.ttf", weight: "500", style: "normal" },
     { path: "./api/image/Inter/Inter-SemiBold.ttf", weight: "600", style: "normal" },
     { path: "./api/image/Inter/Inter-Bold.ttf", weight: "700", style: "normal" },
-    { path: "./api/image/Inter/Inter-ExtraBold.ttf", weight: "800", style: "normal" },
-    { path: "./api/image/Inter/Inter-Black.ttf", weight: "900", style: "normal" },
   ],
   display: "swap",
+  preload: true,
+  fallback: ["system-ui", "arial"],
 });
 
 /**

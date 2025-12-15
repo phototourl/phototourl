@@ -4,6 +4,16 @@ const { withSentryConfig } = require("@sentry/nextjs");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // 性能优化：压缩输出
+  compress: true,
+  // 性能优化：启用 SWC 压缩
+  swcMinify: true,
+  // 性能优化：图片优化配置
+  images: {
+    formats: ['image/avif', 'image/webp'],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+  },
   async redirects() {
     return [
       // 默认语言英文不带前缀：避免 /en 与 / 重复内容

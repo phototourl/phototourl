@@ -24,7 +24,19 @@ import {
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { useTranslations, useLocale } from "next-intl";
-import HeroLeftFlowDemo from "@/components/HeroLeftFlowDemo";
+import dynamic from "next/dynamic";
+
+// 延迟加载演示组件以提升首屏性能
+const HeroLeftFlowDemo = dynamic(() => import("@/components/HeroLeftFlowDemo"), {
+  ssr: false,
+  loading: () => (
+    <div className="relative w-full max-w-xl">
+      <div className="relative h-[400px] sm:h-[450px] flex items-center justify-center">
+        <div className="w-16 h-16 border-4 border-brand-teal border-t-transparent rounded-full animate-spin" />
+      </div>
+    </div>
+  ),
+});
 
 type UploadState = "idle" | "uploading" | "success" | "error";
 
@@ -485,7 +497,15 @@ export default function HomePage() {
                       }}
                       aria-label={`Use sample ${item.key}`}
                     >
-                      <Image src={item.src} alt={`Sample image ${item.key}`} fill sizes="56px" className="object-cover" />
+                      <Image 
+                        src={item.src} 
+                        alt={`Sample image ${item.key}`} 
+                        fill 
+                        sizes="56px" 
+                        className="object-cover"
+                        loading="lazy"
+                        unoptimized
+                      />
                     </button>
                   ))}
                 </div>
@@ -572,7 +592,8 @@ export default function HomePage() {
                     width={260}
                     height={260}
                     className="h-auto w-52 md:w-56"
-                    priority={false}
+                    loading="lazy"
+                    unoptimized
                   />
                 </div>
               </div>

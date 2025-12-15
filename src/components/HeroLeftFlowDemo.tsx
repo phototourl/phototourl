@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import type { CSSProperties } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Link as LinkIcon, Check, FileImage, Plus } from "lucide-react";
+import Image from "next/image";
 
 // --- 静态配置（沿用你 PhotoToUrlLandingPage.jsx 的节奏） ---
 const UPLOAD_DURATION = 2800;
@@ -105,12 +106,15 @@ function AutoDemoOverlay({ step, oldPhotoUrl }: { step: string; oldPhotoUrl: str
             [Image of Old Photo]
           </div>
         ) : (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
+          <Image
             src={oldPhotoUrl}
-            alt="[Image of Old Photo]"
-            onError={() => setImageError(true)}
+            alt="Demo photo thumbnail for upload animation"
+            width={96}
+            height={96}
             className="w-24 h-24 object-cover rounded-lg shadow-2xl border-4 border-white ring-2 ring-gray-200"
+            onError={() => setImageError(true)}
+            loading="lazy"
+            unoptimized
           />
         )}
       </motion.div>
