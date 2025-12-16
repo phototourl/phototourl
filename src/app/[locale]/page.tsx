@@ -550,7 +550,6 @@ export default function HomePage() {
                         }
                       }}
                       aria-label={`Use sample ${item.key}`}
-                      loading="lazy"
                     />
                   ))}
                 </div>
@@ -750,7 +749,6 @@ export default function HomePage() {
               width={260}
               height={260}
               className="h-auto w-48 md:w-52 flex-shrink-0"
-              priority
             />
             <div className="text-center space-y-5 flex-1 min-w-0">
               <div className="space-y-3">
