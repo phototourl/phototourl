@@ -53,7 +53,8 @@
       "idleSubtitle": "Ablauf: hochladen → Link → kopieren.",
       "processing": "Optimieren & hochladen...",
       "doneTitle": "Bereit zum Teilen",
-      "doneSubtitle": "Dein Link ist live im CDN."
+      "doneSubtitle": "Dein Link ist live im CDN.",
+      "thanksForWatching": "Danke fürs Zuschauen"
     },
     "upload": {
       "title": "Foto ablegen oder zum Auswählen klicken",

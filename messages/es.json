@@ -53,7 +53,8 @@
       "idleSubtitle": "Mira el flujo: subir → enlace → copiar.",
       "processing": "Optimizando y subiendo...",
       "doneTitle": "Listo para compartir",
-      "doneSubtitle": "Tu enlace ya está en el CDN."
+      "doneSubtitle": "Tu enlace ya está en el CDN.",
+      "thanksForWatching": "Gracias por ver"
     },
     "upload": {
       "title": "Suelta una foto o haz clic para elegir",

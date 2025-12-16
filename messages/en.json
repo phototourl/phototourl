@@ -53,7 +53,8 @@
       "idleSubtitle": "See the full upload → link → copy flow.",
       "processing": "Optimizing & uploading...",
       "doneTitle": "Ready to share",
-      "doneSubtitle": "Your link is ready to share instantly."
+      "doneSubtitle": "Your link is ready to share instantly.",
+      "thanksForWatching": "Thanks for watching"
     },
     "upload": {
       "title": "Drop a photo or click to browse",

@@ -53,7 +53,8 @@
       "idleSubtitle": "Voir le flux : téléverser → lien → copier.",
       "processing": "Optimisation et téléversement…",
       "doneTitle": "Prêt à partager",
-      "doneSubtitle": "Votre lien est en ligne via le CDN."
+      "doneSubtitle": "Votre lien est en ligne via le CDN.",
+      "thanksForWatching": "Merci de votre attention"
     },
     "upload": {
       "title": "Déposez une photo ou cliquez pour parcourir",

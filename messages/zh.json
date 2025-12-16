@@ -53,7 +53,8 @@
       "idleSubtitle": "直观看到：上传 → 生成链接 → 复制分享。",
       "processing": "优化并上传中…",
       "doneTitle": "可以分享了",
-      "doneSubtitle": "已生成可访问的 CDN 链接。"
+      "doneSubtitle": "已生成可访问的 CDN 链接。",
+      "thanksForWatching": "感谢您的观看"
     },
     "upload": {
       "title": "拖入图片或点击选择",

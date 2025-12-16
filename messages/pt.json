@@ -53,7 +53,8 @@
       "idleSubtitle": "Veja o fluxo: enviar → link → copiar.",
       "processing": "Otimizando e enviando...",
       "doneTitle": "Pronto para compartilhar",
-      "doneSubtitle": "Seu link já está no CDN."
+      "doneSubtitle": "Seu link já está no CDN.",
+      "thanksForWatching": "Obrigado por assistir"
     },
     "upload": {
       "title": "Solte uma foto ou clique para escolher",

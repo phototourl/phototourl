@@ -53,7 +53,8 @@
       "idleSubtitle": "شاهد التدفق: رفع → رابط → نسخ.",
       "processing": "جارٍ التحسين والرفع...",
       "doneTitle": "جاهز للمشاركة",
-      "doneSubtitle": "رابطك يعمل الآن عبر CDN."
+      "doneSubtitle": "رابطك يعمل الآن عبر CDN.",
+      "thanksForWatching": "شكرًا لمشاهدتك"
     },
     "upload": {
       "title": "أسقط صورة أو انقر للاختيار",

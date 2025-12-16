@@ -3,7 +3,8 @@
 import { useCallback, useEffect, useState } from "react";
 import type { CSSProperties } from "react";
 import Image from "next/image";
-import logoShowcase from "@/image/logo.png";
+import { motion } from "framer-motion";
+import logoShowcase from "../../../public/projects/light1024logo.png";
 import {
   Upload,
   Link as LinkIcon,
@@ -60,6 +61,7 @@ export default function HomePage() {
   const [copied, setCopied] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
   const [showBackToTop, setShowBackToTop] = useState(false);
+  const [animatingSample, setAnimatingSample] = useState<{ src: string; key: string } | null>(null);
 
   useEffect(() => {
     if (!copied) return;
@@ -109,6 +111,13 @@ export default function HomePage() {
 
   const uploadSample = useCallback(
     async (src: string, fileNameForUi: string) => {
+      // 触发动画
+      setAnimatingSample({ src, key: fileNameForUi });
+      setStatus("uploading");
+      
+      // 等待动画完成（约 1 秒）
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      
       try {
         const res = await fetch(src);
         if (!res.ok) throw new Error("Sample fetch failed");
@@ -117,9 +126,11 @@ export default function HomePage() {
         const ext = extFromType && extFromType.length <= 5 ? extFromType : "png";
         const file = new File([blob], `sample-${fileNameForUi}.${ext}`, { type: blob.type || "image/png" });
         await handleUpload(file);
+        setAnimatingSample(null);
       } catch {
         setStatus("error");
         setError(t("result.error"));
+        setAnimatingSample(null);
       }
     },
     [handleUpload, t]
@@ -266,8 +277,8 @@ export default function HomePage() {
   return (
     <div className="flex flex-col">
       {/* ezremove-like hero layout: 白底首屏（不使用渐变） + 左文案/演示 + 右上传卡片 */}
-      <section className="bg-white min-h-[calc(100svh-3.5rem)] sm:min-h-[calc(100svh-4rem)]">
-        <div className="mx-auto grid max-w-6xl gap-8 px-6 pb-6 pt-16 sm:gap-10 sm:pt-20 lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-12 lg:px-10 lg:pb-8 lg:pt-24">
+      <section className="bg-white">
+        <div className="mx-auto grid max-w-6xl gap-8 px-6 pt-16 pb-32 sm:gap-10 sm:pt-20 sm:pb-40 lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-12 lg:px-10 lg:pt-24 lg:pb-48">
           {/* Left */}
           <div className="space-y-5 lg:pr-8 text-slate-900 sm:space-y-6 flex flex-col">
             <div className="space-y-4">
@@ -287,7 +298,10 @@ export default function HomePage() {
                   </>
                 )}
               </h1>
-              <p className="max-w-xl text-base leading-relaxed text-brand-teal sm:text-lg" style={{ textWrap: "balance" } as CSSProperties}>
+              <p
+                className="max-w-xl text-base leading-relaxed text-brand-teal sm:text-lg"
+                style={{ textWrap: "balance" } as CSSProperties}
+              >
                 {t("hero.subtitle")}
               </p>
             </div>
@@ -399,7 +413,7 @@ export default function HomePage() {
                         <ImageIcon className="h-4 w-4" />
                         {fileName}
                       </div>
-                      <div className="relative h-48 w-full overflow-hidden rounded-lg bg-slate-100 sm:h-56">
+                      <div className="relative h-48 w-full overflow-hidden rounded-lg bg-transparent sm:h-56">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img src={preview} alt={fileName ?? "Preview"} className="h-full w-full object-contain" />
                       </div>
@@ -416,8 +430,9 @@ export default function HomePage() {
           <section id="upload-card" className="flex justify-center lg:justify-end lg:self-start">
             <div
               className={cn(
-                "ez-shadow-card group relative w-full max-w-xl rounded-3xl border border-slate-200 bg-white p-7 sm:p-8"
+                "ez-shadow-card group relative w-full max-w-xl rounded-3xl border border-slate-200 p-7 sm:p-8"
               )}
+              style={{ backgroundColor: 'transparent' }}
             >
               <input
                 id="file-input"
@@ -431,7 +446,7 @@ export default function HomePage() {
                 className={cn(
                   "relative rounded-2xl border-2 border-dashed border-slate-200 p-12 text-center transition-colors sm:p-16 min-h-[320px] sm:min-h-[360px]",
                   "cursor-pointer hover:bg-teal-50/30",
-                  isDragging ? "bg-teal-50/50" : "bg-white"
+                  isDragging || animatingSample ? "bg-teal-50/50" : "bg-white"
                 )}
                 onDrop={onDrop}
                 onDragOver={(e) => e.preventDefault()}
@@ -442,8 +457,23 @@ export default function HomePage() {
                 role="button"
                 tabIndex={0}
               >
-                <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-teal-50 text-brand-teal">
-                  {status === "uploading" ? <Loader2 className="h-6 w-6 animate-spin" /> : <Upload className="h-7 w-7" />}
+                <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-teal-50 text-brand-teal relative overflow-hidden">
+                  {animatingSample ? (
+                    <motion.img
+                      key={animatingSample.key}
+                      src={animatingSample.src}
+                      alt="Animating sample"
+                      className="absolute inset-0 w-full h-full object-cover rounded-2xl"
+                      initial={{ scale: 0.3, opacity: 0, x: 200, y: 200 }}
+                      animate={{ scale: 1, opacity: 1, x: 0, y: 0 }}
+                      exit={{ scale: 0, opacity: 0 }}
+                      transition={{ duration: 0.8, ease: "easeOut" }}
+                    />
+                  ) : (
+                    <>
+                      {status === "uploading" ? <Loader2 className="h-6 w-6 animate-spin relative z-10" /> : <Upload className="h-7 w-7 relative z-10" />}
+                    </>
+                  )}
                 </div>
                 <div className="mt-4 space-y-2">
                   <div className="flex items-center justify-center gap-2">
@@ -478,35 +508,50 @@ export default function HomePage() {
 
               <p className="mt-3 text-center text-xs text-slate-500 sm:text-sm">{t("upload.hint")}</p>
 
-              <div className="mt-6 text-center">
+              <div className="mt-6 text-center" style={{ backgroundColor: 'transparent' }}>
                 <p className="text-sm font-medium text-slate-700">{t("upload.samplesTitle")}</p>
-                <div className="mt-3 flex items-center justify-center gap-3">
+                <div className="mt-3 flex items-center justify-center gap-3" style={{ backgroundColor: 'transparent' }}>
                   {[
-                    { src: "/projects/tourl1.png", key: "tourl1" },
-                    { src: "/projects/tourl2.png", key: "tourl2" },
-                    { src: "/projects/tourl5.png", key: "tourl5" },
-                    { src: "/projects/torul4.png", key: "torul4" },
+                    { src: "/projects/sample-1.png", key: "sample-1" },
+                    { src: "/projects/sample-2.png", key: "sample-2" },
+                    { src: "/projects/sample-3.png", key: "sample-3" },
+                    { src: "/projects/sample-4.png", key: "sample-4" },
                   ].map((item) => (
-                    <button
+                    <motion.img
                       key={item.key}
-                      type="button"
-                      className="relative h-14 w-14 cursor-pointer overflow-hidden rounded-xl border border-slate-200 bg-white transition hover:-translate-y-0.5"
+                      src={item.src}
+                      alt={`Sample image ${item.key}`}
+                      className="h-14 w-14 cursor-pointer object-cover block"
+                      style={{ 
+                        display: 'block',
+                        background: 'transparent',
+                        backgroundColor: 'transparent',
+                        boxShadow: 'none',
+                        border: 'none',
+                        outline: 'none',
+                        borderRadius: '0.75rem'
+                      }}
+                      whileHover={{ 
+                        scale: 1.1,
+                        y: -4,
+                        transition: { duration: 0.2 }
+                      }}
+                      whileTap={{ scale: 0.95 }}
                       onClick={(e) => {
                         e.stopPropagation();
                         void uploadSample(item.src, item.key);
                       }}
+                      role="button"
+                      tabIndex={0}
+                      onKeyDown={(e) => {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                          e.preventDefault();
+                          void uploadSample(item.src, item.key);
+                        }
+                      }}
                       aria-label={`Use sample ${item.key}`}
-                    >
-                      <Image 
-                        src={item.src} 
-                        alt={`Sample image ${item.key}`} 
-                        fill 
-                        sizes="56px" 
-                        className="object-cover"
-                        loading="lazy"
-                        unoptimized
-                      />
-                    </button>
+                      loading="lazy"
+                    />
                   ))}
                 </div>
               </div>
@@ -517,7 +562,7 @@ export default function HomePage() {
       </section>
 
       {/* Benefits */}
-      <section className="section-bg-purple py-20 lg:py-24">
+      <section className="section-bg-purple pt-12 pb-20 lg:pt-16 lg:pb-24">
         <div className="mx-auto max-w-6xl px-6 lg:max-w-7xl lg:px-10">
           <div className="space-y-8">
             <div className="text-center space-y-3">
@@ -573,9 +618,21 @@ export default function HomePage() {
             <div className="text-center">
               <h2 className="text-3xl font-semibold text-slate-800 sm:text-4xl">{t("how.title")}</h2>
             </div>
+            {/* How it works illustration directly under the title */}
+            <div className="mx-auto mt-6 flex justify-center">
+              <Image
+                src="/og-image.png"
+                alt="Photo to URL preview graphic"
+                width={600}
+                height={450}
+                className="h-auto w-[26rem] md:w-[32rem] rounded-3xl shadow-xl"
+                loading="lazy"
+                unoptimized
+              />
+            </div>
             <div className="mx-auto max-w-4xl">
               <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
-                <div className="space-y-3">
+                <div className="space-y-3 mx-auto">
                   <ol className="space-y-4 text-sm text-slate-600 leading-relaxed">
                     <li>{t("how.step1")}</li>
                     <li>{t("how.step2")}</li>
@@ -584,17 +641,6 @@ export default function HomePage() {
                   <p className="text-sm text-slate-500">
                     {t("how.note")}
                   </p>
-                </div>
-                <div className="mx-auto mt-2 flex-shrink-0 md:mt-0">
-                  <Image
-                    src={logoShowcase}
-                    alt="Photo to URL logo"
-                    width={260}
-                    height={260}
-                    className="h-auto w-52 md:w-56"
-                    loading="lazy"
-                    unoptimized
-                  />
                 </div>
               </div>
             </div>
@@ -662,7 +708,7 @@ export default function HomePage() {
       </section>
 
       {/* Testimonials */}
-      <section className="section-bg-purple py-20 lg:py-24">
+      <section className="section-bg-purple pt-0 pb-20 lg:pt-0 lg:pb-24">
         <div className="mx-auto max-w-6xl px-6 lg:max-w-7xl lg:px-10">
           <div className="space-y-8">
             <div className="text-center space-y-3">
@@ -696,30 +742,42 @@ export default function HomePage() {
 
       {/* CTA */}
       <section className="section-bg-yellow py-20 lg:py-24">
-        <div className="mx-auto max-w-6xl px-6 lg:max-w-7xl lg:px-10">
-          <div className="text-center space-y-4">
-            <h2 className="text-3xl font-semibold text-slate-800 sm:text-4xl">{t("cta.title")}</h2>
-            <p className="mx-auto max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg">
-              {t("cta.subtitle")}
-            </p>
-            <div className="mt-7 flex flex-wrap justify-center gap-3">
-            <Button
-              size="lg"
-              className="ez-btn-gradient h-12 rounded-full px-7 text-base font-semibold"
-              onClick={scrollToUpload}
-            >
-              <ArrowUpCircle className="mr-2 h-5 w-5" />
-              {t("cta.upload")}
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="h-12 rounded-full border-slate-300 bg-white px-7 text-base font-semibold text-slate-900 transition"
-              onClick={scrollToUpload}
-            >
-              <ArrowUpCircle className="mr-2 h-5 w-5 text-brand-teal" />
-              {t("cta.paste")}
-            </Button>
+        <div className="mx-auto max-w-5xl px-6 lg:px-10">
+          <div className="flex items-center gap-5 sm:gap-6">
+            <Image
+              src={logoShowcase}
+              alt="Photo to URL logo"
+              width={260}
+              height={260}
+              className="h-auto w-48 md:w-52 flex-shrink-0"
+              priority
+            />
+            <div className="text-center space-y-5 flex-1 min-w-0">
+              <div className="space-y-3">
+                <h2 className="text-3xl font-semibold text-slate-800 sm:text-4xl">{t("cta.title")}</h2>
+                <p className="mx-auto max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg">
+                  {t("cta.subtitle")}
+                </p>
+              </div>
+              <div className="flex flex-wrap justify-center gap-3">
+                <Button
+                  size="lg"
+                  className="ez-btn-gradient h-12 rounded-full px-7 text-base font-semibold"
+                  onClick={scrollToUpload}
+                >
+                  <ArrowUpCircle className="mr-2 h-5 w-5" />
+                  {t("cta.upload")}
+                </Button>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="h-12 rounded-full border-slate-300 bg-white px-7 text-base font-semibold text-slate-900 transition"
+                  onClick={scrollToUpload}
+                >
+                  <ArrowUpCircle className="mr-2 h-5 w-5 text-brand-teal" />
+                  {t("cta.paste")}
+                </Button>
+              </div>
             </div>
           </div>
         </div>

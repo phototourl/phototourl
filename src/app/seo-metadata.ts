@@ -30,7 +30,7 @@ export const baseMetadata: Metadata = {
     siteName: "Photo to URL",
     images: [
       {
-        url: `${siteUrl}/og.png`,
+        url: `${siteUrl}/og-image.png`,
         width: 1200,
         height: 630,
         alt: "Photo to URL Converter",
@@ -44,7 +44,7 @@ export const baseMetadata: Metadata = {
       "Upload photos and get direct, shareable URLs instantly. Fast and reliable hosting.",
     images: [
       {
-        url: `${siteUrl}/og.png`,
+        url: `${siteUrl}/og-image.png`,
         alt: "Photo to URL Converter",
       },
     ],
@@ -52,11 +52,13 @@ export const baseMetadata: Metadata = {
   keywords: KEYWORDS,
   icons: {
     icon: [
-      { url: "/favicon.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon-1.png", sizes: "192x192", type: "image/png" },
+      { url: "/favicon.ico", sizes: "any", type: "image/x-icon" },
+      { url: "/favicon.png", sizes: "96x96", type: "image/png" },
+      { url: "/icon-192x192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512x512.png", sizes: "512x512", type: "image/png" },
     ],
-    shortcut: "/favicon.png",
-    apple: "/favicon-1.png",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
   },
   other: {
     // Bing 站长验证

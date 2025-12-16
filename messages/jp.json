@@ -53,7 +53,8 @@
       "idleSubtitle": "流れ：アップロード → リンク → コピー。",
       "processing": "最適化＆アップロード中…",
       "doneTitle": "共有の準備OK",
-      "doneSubtitle": "CDNリンクを生成しました。"
+      "doneSubtitle": "CDNリンクを生成しました。",
+      "thanksForWatching": "ご視聴ありがとうございました"
     },
     "upload": {
       "title": "写真をドロップするかクリックして選択",

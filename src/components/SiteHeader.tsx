@@ -1,5 +1,4 @@
 import Image from "next/image";
-import logo from "@/image/logo.png";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { LocaleLink } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
@@ -10,13 +9,13 @@ export async function SiteHeader() {
     <header className="ez-shadow-nav fixed top-0 z-40 w-full border-b border-slate-100 bg-white text-slate-900">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-4 px-6 sm:h-16">
         <LocaleLink href="/" className="group flex items-center gap-3">
-          <div className="relative h-9 w-9 overflow-hidden rounded-md transition-transform duration-200 group-hover:scale-105 sm:h-10 sm:w-10">
+          <div className="relative h-9 w-9 overflow-hidden rounded-md transition-transform duration-200 group-hover:scale-105 sm:h-[55px] sm:w-[55px]">
             <Image
-              src={logo}
+              src="/icons/light_58x58.png"
               alt="Photo to URL logo"
-              fill
-              sizes="40px"
-              className="object-contain"
+              width={58}
+              height={58}
+              className="h-full w-full object-contain"
               priority
             />
           </div>

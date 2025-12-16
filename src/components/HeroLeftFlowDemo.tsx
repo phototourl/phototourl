@@ -5,6 +5,7 @@ import type { CSSProperties } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Link as LinkIcon, Check, FileImage, Plus } from "lucide-react";
 import Image from "next/image";
+import { useTranslations, useLocale } from "next-intl";
 
 // --- 静态配置（沿用你 PhotoToUrlLandingPage.jsx 的节奏） ---
 const UPLOAD_DURATION = 2800;
@@ -30,7 +31,7 @@ type HeroLeftFlowDemoProps = {
 };
 
 // --- 组件：打字机效果 URL（按你原实现） ---
-function TypewriterUrl({ text }: { text: string }) {
+function TypewriterUrl({ text, textColor = "text-white", speed = 20, delay = 300 }: { text: string; textColor?: string; speed?: number; delay?: number }) {
   const [displayedText, setDisplayedText] = useState("");
   const [isTyping, setIsTyping] = useState(true);
 
@@ -38,30 +39,38 @@ function TypewriterUrl({ text }: { text: string }) {
     setDisplayedText("");
     setIsTyping(true);
     let i = 0;
+    let timer: number | undefined;
 
     const startDelay = window.setTimeout(() => {
-      const timer = window.setInterval(() => {
+      timer = window.setInterval(() => {
         if (i < text.length) {
-          setDisplayedText((prev) => prev + text.charAt(i));
+          // 每次直接截取前 i+1 个字符，避免多语言下字符被截断的问题
+          setDisplayedText(text.slice(0, i + 1));
           i += 1;
         } else {
-          window.clearInterval(timer);
+          if (timer) window.clearInterval(timer);
           setIsTyping(false);
         }
-      }, 20);
-    }, 300);
+      }, speed);
+    }, delay);
 
-    return () => window.clearTimeout(startDelay);
-  }, [text]);
+    return () => {
+      window.clearTimeout(startDelay);
+      if (timer) window.clearInterval(timer);
+    };
+  }, [text, speed, delay]);
 
   return (
-    <span className="font-mono text-white font-medium whitespace-nowrap overflow-hidden text-sm sm:text-base">
+    <span
+      className={`font-bold whitespace-normal inline-block`}
+      style={textColor ? {} : { color: "inherit" }}
+    >
       {displayedText}
       {isTyping ? (
         <motion.span
           animate={{ opacity: [0, 1, 0] }}
           transition={{ repeat: Infinity, duration: 0.8 }}
-          className="inline-block w-0.5 h-4 bg-white ml-0.5 align-middle"
+          className="inline-block w-0.5 h-5 sm:h-6 md:h-7 bg-current ml-1 align-middle"
         />
       ) : null}
     </span>
@@ -74,7 +83,7 @@ function AutoDemoOverlay({ step, oldPhotoUrl }: { step: string; oldPhotoUrl: str
     initial: { x: -240, y: -120, scale: 0.7, opacity: 1, rotate: -10 },
     animate: {
       x: 0,
-      y: 0,
+      y: 12,
       scale: 1.1,
       opacity: 1,
       rotate: 5,
@@ -124,7 +133,13 @@ function AutoDemoOverlay({ step, oldPhotoUrl }: { step: string; oldPhotoUrl: str
 
 // --- 左侧主流程演示（按你 InteractiveDemo 结构） ---
 export default function HeroLeftFlowDemo({ oldPhotoUrls }: HeroLeftFlowDemoProps) {
-  const [step, setStep] = useState<"idle" | "processing" | "done">("idle");
+  const t = useTranslations("home.demo");
+  const locale = useLocale();
+  const [step, setStep] = useState<"idle" | "processing" | "done" | "showLogo">("idle");
+
+  // 结束文案打字速度：中文稍慢，其它语言更快一些
+  const thanksTypingSpeed = locale === "zh" ? 180 : 90;
+  const thanksTypingDelay = locale === "zh" ? 400 : 300;
   const [initialLoad, setInitialLoad] = useState(true);
   const [photoArrived, setPhotoArrived] = useState(false);
   const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
@@ -132,7 +147,7 @@ export default function HeroLeftFlowDemo({ oldPhotoUrls }: HeroLeftFlowDemoProps
   useEffect(() => {
     let timer: number | undefined;
 
-    const transitionTo = (nextStep: "idle" | "processing" | "done", delay: number) => {
+    const transitionTo = (nextStep: "idle" | "processing" | "done" | "showLogo", delay: number) => {
       timer = window.setTimeout(() => setStep(nextStep), delay);
     };
 
@@ -156,8 +171,12 @@ export default function HeroLeftFlowDemo({ oldPhotoUrls }: HeroLeftFlowDemoProps
       transitionTo("done", UPLOAD_DURATION);
     } else if (step === "done") {
       setPhotoArrived(false);
+      // 链接显示完成后，等待一段时间再显示 logo（让用户看到链接）
+      transitionTo("showLogo", 3000);
+    } else if (step === "showLogo") {
       // 切换到下一张照片（轮播）
       setCurrentPhotoIndex((prev) => (prev + 1) % oldPhotoUrls.length);
+      // 显示 logo 5 秒后继续演示
       transitionTo("idle", 5000);
     }
 
@@ -171,7 +190,35 @@ export default function HeroLeftFlowDemo({ oldPhotoUrls }: HeroLeftFlowDemoProps
       <div className="relative h-[400px] sm:h-[450px]">
         {/* @ts-expect-error - framer-motion AnimatePresence type issue with conditional rendering */}
         <AnimatePresence mode="wait">
-          {step === "done" ? (
+          {step === "showLogo" ? (
+            <motion.div
+              key="showLogo"
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.9 }}
+              transition={{ duration: 0.6, ease: "easeOut" }}
+              className="w-full h-full flex flex-col items-center justify-center gap-6"
+            >
+              <Image
+                src="/projects/1024logo.png"
+                alt="Photo to URL logo"
+                width={200}
+                height={200}
+                className="w-48 h-48 sm:w-56 sm:h-56 object-contain"
+                unoptimized
+              />
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.8, duration: 0.6, ease: "easeOut" }}
+                className="text-center max-w-3xl mx-auto px-4"
+              >
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-normal tracking-tight text-brand-teal whitespace-nowrap sm:whitespace-normal">
+                  <TypewriterUrl text={t("thanksForWatching")} textColor="" speed={thanksTypingSpeed} delay={thanksTypingDelay} />
+                </h2>
+              </motion.div>
+            </motion.div>
+          ) : step === "done" ? (
             <motion.div
               key="done"
               initial={{ opacity: 0, y: 10 }}
