@@ -3,6 +3,10 @@ Allow: /
 Disallow: /legal
 Disallow: /legal/*
 
+# Googlebot (Google crawler)
+User-agent: Googlebot
+Allow: /
+
 # Bingbot (Microsoft Bing crawler)
 User-agent: Bingbot
 Allow: /
