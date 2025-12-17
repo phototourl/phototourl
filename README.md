@@ -40,7 +40,6 @@ Copy `env.example` to `.env.local` (or set in Vercel):
 
 ```env
 # Required
-NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=G-MJP605Q6WY
 NEXT_PUBLIC_SITE_URL=https://phototourl.com
 
 # Optional - Cloudflare R2 (if empty, falls back to local storage)
