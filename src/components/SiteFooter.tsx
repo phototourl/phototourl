@@ -2,6 +2,7 @@ import { LocaleLink } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { Github, Twitter } from "lucide-react";
 
 const navLinks = [
   { key: "blog", href: "/blog" },
@@ -24,8 +25,8 @@ export async function SiteFooter() {
   return (
     <footer className="mt-8">
       <div className="border-t border-white/15 hero-gradient text-white">
-        <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-12 lg:px-8 lg:py-12">
-          <div className="grid gap-10 md:grid-cols-3">
+        <div className="mx-auto max-w-6xl px-6 py-8 lg:px-8 lg:py-10">
+          <div className="grid gap-8 md:grid-cols-4 mb-8">
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <div className="relative h-8 w-8 overflow-hidden rounded-md bg-white/10">
@@ -37,22 +38,40 @@ export async function SiteFooter() {
                     className="h-full w-full object-contain"
                   />
                 </div>
-                <div className="text-2xl font-semibold text-white">{t("siteName")}</div>
+                <div className="text-xl font-semibold text-white">{t("siteName")}</div>
               </div>
-              <p className="max-w-xs text-sm text-white/90 leading-relaxed">
-                {t("footer.blurb.line1")}
-                <br />
-                {t("footer.blurb.line2")}
-              </p>
-              <div className="text-sm text-white/90">
-                {t("footer.partners")}:{" "}
+              <div className="flex items-center gap-2">
                 <a
-                  href="https://luolink.com/"
+                  href="https://github.com/phototourl"
                   target="_blank"
                   rel="noreferrer"
-                  className="font-medium text-white underline underline-offset-4 hover:text-white/90"
+                  className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 text-white transition-colors hover:bg-white/20"
+                  aria-label="GitHub"
                 >
-                  Luolink
+                  <Github className="h-5 w-5" />
+                </a>
+                <a
+                  href="https://x.com/phototourl"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 text-white transition-colors hover:bg-white/20"
+                  aria-label="Twitter"
+                >
+                  <Twitter className="h-5 w-5" />
+                </a>
+                <a
+                  href="https://fazier.com/launches/phototourl.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-block ml-1 transition-transform hover:scale-105"
+                >
+                  <img
+                    src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light"
+                    width={120}
+                    height={20}
+                    alt="Fazier badge"
+                    className="h-5 w-auto opacity-90 hover:opacity-100 transition-opacity"
+                  />
                 </a>
               </div>
               <LanguageSwitcher variant="footer" />
@@ -75,48 +94,45 @@ export async function SiteFooter() {
 
             <div className="space-y-3">
               <div className="text-sm font-semibold uppercase tracking-wide text-white/80">{t("footer.productsTitle")}</div>
-              <div className="flex flex-col gap-2 text-sm text-white/95 leading-relaxed">
+              <div className="flex flex-col gap-2 text-sm text-white/95">
                 {productLinks.map((link) => (
                   <a
                     key={link.href}
                     href={link.href}
                     target="_blank"
                     rel="noreferrer"
-                    className="flex items-center gap-2 underline-offset-4 hover:text-white hover:underline break-words"
+                    className="underline-offset-4 hover:text-white hover:underline break-words"
                   >
-                    <span className="h-2 w-2 rounded-full bg-white/70" />
                     {link.label}
                   </a>
                 ))}
               </div>
             </div>
+
+            <div className="space-y-3">
+              <div className="text-sm font-semibold uppercase tracking-wide text-white/80">{t("footer.partners")}</div>
+              <a
+                href="https://luolink.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm text-white/95 hover:text-white hover:underline underline-offset-4 block"
+              >
+                Luolink
+              </a>
+            </div>
           </div>
         </div>
       </div>
-      <div className="border-t border-slate-200 bg-white text-slate-600">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3 text-xs lg:px-8">
-          <a
-            href="https://fazier.com/launches/phototourl.com"
-            target="_blank"
-            rel="noreferrer"
-            className="inline-block"
-          >
-            <img
-              src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light"
-              width={120}
-              height={20}
-              alt="Fazier badge"
-              className="h-5 w-auto"
-            />
-          </a>
+      <div className="border-t border-white/15 hero-gradient text-white">
+        <div className="mx-auto flex max-w-6xl items-center justify-center px-6 py-3 text-xs lg:px-8">
           <div className="flex items-center gap-4">
-            <span className="text-slate-600">{t("footer.copyright")}</span>
+            <span className="text-white/90">{t("footer.copyright")}</span>
             <div className="flex items-center">
-              <LocaleLink href="/legal/privacy" className="hover:text-brand-teal">
+              <LocaleLink href="/legal/privacy" className="hover:text-white">
                 {t("footer.legal.privacy")}
               </LocaleLink>
-              <span className="mx-3 text-slate-400">•</span>
-              <LocaleLink href="/legal/terms" className="hover:text-brand-teal">
+              <span className="mx-3 text-white/40">•</span>
+              <LocaleLink href="/legal/terms" className="hover:text-white">
                 {t("footer.legal.terms")}
               </LocaleLink>
             </div>

@@ -4,7 +4,25 @@ import { useParams } from "next/navigation";
 import { useTransition, useState, useRef, useEffect } from "react";
 import { useLocale } from "next-intl";
 import { LocaleLink, useLocalePathname, useLocaleRouter } from "@/i18n/navigation";
-import { ChevronDown, Globe2 } from "lucide-react";
+import { ChevronDown } from "lucide-react";
+
+// 自定义地球图标 SVG
+const GlobeIcon = ({ className }: { className?: string }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={className}
+  >
+    <circle cx="12" cy="12" r="10" />
+    <path d="M2 12h20" />
+    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+  </svg>
+);
 
 type LocaleItem = { code: string; label: string };
 
@@ -77,18 +95,18 @@ export function LanguageSwitcher({ variant = "header" }: LanguageSwitcherProps) 
         className={
           isFooter
             ? // 底部样式：无背景，仅文字+图标
-              "flex items-center gap-1.5 rounded-md px-1 py-0.5 text-xs sm:text-sm outline-none transition hover:opacity-80 disabled:opacity-50"
+              "flex items-center gap-1.5 rounded-md px-1 py-0.5 text-sm sm:text-base outline-none transition hover:opacity-80 disabled:opacity-50"
             : // 头部样式：原来的绿色渐变按钮
               "ez-btn-gradient flex h-9 items-center gap-1.5 rounded-md border-0 px-2 text-sm text-white outline-none transition focus:ring-2 focus:ring-white/50 focus:ring-offset-2 disabled:opacity-50 sm:h-10 sm:px-3"
         }
         onClick={() => setIsOpen(!isOpen)}
         disabled={isPending}
       >
-        <Globe2
+        <GlobeIcon
           className={
             isFooter
-              ? "h-4 w-4 shrink-0"
-              : "h-4 w-4 shrink-0 text-white/90"
+              ? "h-5 w-5 shrink-0"
+              : "h-5 w-5 shrink-0 text-white/90"
           }
         />
         <span className={isFooter ? "whitespace-nowrap" : "whitespace-nowrap"}>
