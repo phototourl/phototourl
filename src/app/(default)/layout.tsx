@@ -1,12 +1,20 @@
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { getMessages, setRequestLocale, getTranslations } from "next-intl/server";
 import type { ReactNode } from "react";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { routing } from "@/i18n/routing";
+import { getLocaleMetadata } from "../seo-metadata";
 
 export const dynamic = "force-static";
+
+// 默认语言首页：使用 messages 中的本地化标题/描述 + canonical
+export async function generateMetadata() {
+  const locale = routing.defaultLocale;
+  const t = await getTranslations({ locale, namespace: "seo.home" });
+  return getLocaleMetadata(locale, t("title"), t("description"));
+}
 
 export default async function DefaultLocaleLayout({ children }: { children: ReactNode }) {
   // 默认语言：不跳转 /，直接渲染英文
@@ -31,5 +39,4 @@ export default async function DefaultLocaleLayout({ children }: { children: Reac
     </NextIntlClientProvider>
   );
 }
-
 

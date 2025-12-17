@@ -5,6 +5,7 @@ import { getTranslations } from "next-intl/server";
 
 export async function SiteHeader() {
   const t = await getTranslations("common");
+  const tImages = await getTranslations("images");
   return (
     <header className="ez-shadow-nav fixed top-0 z-40 w-full border-b border-slate-100 bg-white text-slate-900">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-4 px-6 sm:h-16">
@@ -12,7 +13,7 @@ export async function SiteHeader() {
           <div className="relative h-9 w-9 overflow-hidden rounded-md transition-transform duration-200 group-hover:scale-105 sm:h-[55px] sm:w-[55px]">
             <Image
               src="/icons/light_58x58.png"
-              alt="Photo to URL logo"
+              alt={tImages("logoAlt")}
               width={58}
               height={58}
               className="h-full w-full object-contain"
@@ -29,7 +30,7 @@ export async function SiteHeader() {
           </div>
         </LocaleLink>
         <div className="flex items-center gap-4">
-          <LanguageSwitcher />
+          <LanguageSwitcher variant="header" />
         </div>
       </div>
     </header>

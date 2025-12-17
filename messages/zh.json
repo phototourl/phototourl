@@ -175,6 +175,23 @@
         "p1": "图片转链接, 图片转URL, 图片直链, 图片外链, 图床, 免费图床, CDN 图片链接, CDN 图床, 上传生成链接, 上传后复制链接, 一键生成图片URL, 复制图片链接, 粘贴图片生成链接, 截图转链接, 博客图片链接, 文档图片链接, 工单/客服截图链接, 聊天图片链接, Markdown 图片链接, HTML 图片链接, 快速图片分享, 免注册图床, 简单图床, 图片链接生成器, image to url, photo to url"
       }
     }
+  },
+  "seo": {
+    "home": {
+      "title": "图片转链接工具 | 一键生成可分享图片链接",
+      "description": "上传图片即可生成干净、可分享的访问链接。无需注册，秒级完成图片转链接，适合社交媒体、文档和日常分享使用。"
+    }
+  },
+  "images": {
+    "previewAlt": "已上传图片的预览",
+    "animatingSampleAlt": "上传演示中使用的示例图片",
+    "sampleThumbAlt": "上传示例图片缩略图",
+    "useSampleAria": "使用这张示例图片",
+    "howIllustrationAlt": "展示 Photo to URL 工作流程的示意图",
+    "heroDropTitle": "拖动旧照片到这里",
+    "heroDropSubtitle": "自动进行增强和托管，立即生成干净的访问链接。",
+    "heroDropBadge": "点击或拖放 (JPG/PNG，最大 10MB)",
+    "logoAlt": "Photo to URL 标志"
   }
 }
 

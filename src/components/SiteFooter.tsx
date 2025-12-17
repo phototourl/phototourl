@@ -20,6 +20,7 @@ const productLinks = [
 
 export async function SiteFooter() {
   const t = await getTranslations("common");
+  const tImages = await getTranslations("images");
   return (
     <footer className="mt-8">
       <div className="border-t border-white/15 hero-gradient text-white">
@@ -30,7 +31,7 @@ export async function SiteFooter() {
                 <div className="relative h-8 w-8 overflow-hidden rounded-md bg-white/10">
                   <Image
                     src="/icons/light_58x58.png"
-                    alt="Photo to URL logo"
+                    alt={tImages("logoAlt")}
                     width={32}
                     height={32}
                     className="h-full w-full object-contain"
@@ -54,7 +55,7 @@ export async function SiteFooter() {
                   Luolink
                 </a>
               </div>
-              <LanguageSwitcher />
+              <LanguageSwitcher variant="footer" />
             </div>
 
             <div className="space-y-3">

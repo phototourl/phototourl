@@ -20,7 +20,15 @@ const LOCALES: LocaleItem[] = [
   { code: "ar", label: "العربية (Arabic)" },
 ];
 
-export function LanguageSwitcher() {
+type LanguageSwitcherProps = {
+  /** 
+   * header: 顶部导航样式（原来的绿色按钮，向下展开）
+   * footer: 底部简洁样式（只文字+图标，向上展开）
+   */
+  variant?: "header" | "footer";
+};
+
+export function LanguageSwitcher({ variant = "header" }: LanguageSwitcherProps) {
   const router = useLocaleRouter();
   const pathname = useLocalePathname();
   const params = useParams();
@@ -60,23 +68,49 @@ export function LanguageSwitcher() {
     setIsOpen(false);
   };
 
+  const isFooter = variant === "footer";
+
   return (
     <div className="relative inline-flex items-center text-sm" ref={dropdownRef}>
       <button
         type="button"
-        className="flex items-center gap-1.5 rounded-md px-1 py-0.5 text-xs sm:text-sm outline-none transition hover:opacity-80 disabled:opacity-50"
+        className={
+          isFooter
+            ? // 底部样式：无背景，仅文字+图标
+              "flex items-center gap-1.5 rounded-md px-1 py-0.5 text-xs sm:text-sm outline-none transition hover:opacity-80 disabled:opacity-50"
+            : // 头部样式：原来的绿色渐变按钮
+              "ez-btn-gradient flex h-9 items-center gap-1.5 rounded-md border-0 px-2 text-sm text-white outline-none transition focus:ring-2 focus:ring-white/50 focus:ring-offset-2 disabled:opacity-50 sm:h-10 sm:px-3"
+        }
         onClick={() => setIsOpen(!isOpen)}
         disabled={isPending}
       >
-        <Globe2 className="h-4 w-4 shrink-0" />
-        <span className="whitespace-nowrap">{currentLocale.label}</span>
+        <Globe2
+          className={
+            isFooter
+              ? "h-4 w-4 shrink-0"
+              : "h-4 w-4 shrink-0 text-white/90"
+          }
+        />
+        <span className={isFooter ? "whitespace-nowrap" : "whitespace-nowrap"}>
+          {currentLocale.label}
+        </span>
         <ChevronDown
-          className={`h-4 w-4 shrink-0 transition-transform ${isOpen ? "rotate-180" : ""}`}
+          className={`h-4 w-4 shrink-0 transition-transform ${
+            isOpen ? "rotate-180" : ""
+          } ${isFooter ? "" : "text-white/90"}`}
         />
       </button>
 
       {isOpen && (
-        <div className="absolute right-0 top-full z-50 mt-1 w-auto min-w-[180px] rounded-lg border border-slate-200 bg-white shadow-lg">
+        <div
+          className={
+            isFooter
+              ? // 底部：向上展开，避免被底部栏挡住
+                "absolute right-0 bottom-full z-50 mb-1 w-auto min-w-[180px] rounded-lg border border-slate-200 bg-white shadow-lg"
+              : // 头部：保持原来向下展开
+                "absolute right-0 top-full z-50 mt-1 w-auto min-w-[180px] rounded-lg border border-slate-200 bg-white shadow-lg"
+          }
+        >
           {LOCALES.map((item) => (
             <button
               key={item.code}

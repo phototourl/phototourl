@@ -171,9 +171,26 @@
         }
       },
       "keywords": {
-        "title": "Mots-clés",
-        "p1": "image vers URL, photo vers URL, convertir image en lien, lien direct d’image, hébergement d’images, hébergement de photos, hébergement gratuit d’images, lien CDN d’image, URL d’image directe, téléverser et copier le lien, coller une image pour générer un lien, lien photo instantané, liens d’images pour blog, liens d’images pour docs, lien d’image pour chat, lien d’image en Markdown, lien d’image en HTML, partage rapide d’images, sans inscription, générateur de liens d’images, image to url, photo to url"
+        "title": "Mots-clés importants pour nous",
+        "p1": "photo to url, image to url, hébergement de photos, liens partageables, lien direct d’image, hébergement gratuit d’images, lien CDN pour photos, téléverser et copier le lien, coller une image pour générer un lien, lien photo instantané, liens d’images pour blogs, liens d’images pour docs, lien d’image pour chat, lien d’image en Markdown, lien d’image en HTML, CDN de photos, partage rapide d’images, hébergement sans inscription, hébergement simple de photos, outil rapide de mise en ligne d’images, générateur de liens pour photos."
       }
     }
+  },
+  "seo": {
+    "home": {
+      "title": "Convertisseur de photos en URL | Partagez vos images en un clic",
+      "description": "Téléversez vos photos et obtenez immédiatement des liens propres et partageables. Une solution simple, rapide et fiable pour le web."
+    }
+  },
+  "images": {
+    "previewAlt": "Aperçu de l’image téléversée",
+    "animatingSampleAlt": "Image d’exemple utilisée dans la démo de téléversement",
+    "sampleThumbAlt": "Miniature d’image d’exemple",
+    "useSampleAria": "Utiliser cette image d’exemple",
+    "howIllustrationAlt": "Illustration du fonctionnement de Photo to URL",
+    "heroDropTitle": "Glissez une photo ici",
+    "heroDropSubtitle": "Nous l’améliorons et l’hébergeons, puis nous renvoyons un lien propre.",
+    "heroDropBadge": "Cliquer ou glisser (JPG/PNG, jusqu’à 10 Mo)",
+    "logoAlt": "Logo Photo to URL"
   }
 }

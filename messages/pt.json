@@ -171,10 +171,27 @@
         }
       },
       "keywords": {
-        "title": "Palavras-chave",
-        "p1": "imagem para URL, foto para URL, converter imagem em link, link direto de imagem, hospedagem de imagens, hospedagem de fotos, hospedagem grátis de imagens, link CDN de imagem, URL direta de imagem, enviar e copiar link, colar imagem para gerar link, link instantâneo de foto, links de imagem para blog, links de imagem para docs, link de imagem para chat, link de imagem em Markdown, link de imagem em HTML, compartilhamento rápido de imagens, sem cadastro, gerador de links de imagens, image to url, photo to url"
+        "title": "Palavras-chave importantes",
+        "p1": "photo to url, image to url, hospedagem de fotos, links compartilháveis, link direto de imagem, hospedagem de imagens gratuita, link CDN para fotos, enviar e copiar link, colar imagem para gerar link, link instantâneo de foto, links de imagem para blogs, links de imagem para docs, link de imagem para chat, link de imagem em Markdown, link de imagem em HTML, CDN de fotos, compartilhamento rápido de imagens, hospedagem sem cadastro, hospedagem simples de fotos, ferramenta rápida de upload de imagens, gerador de links para fotos."
       }
     }
+  },
+  "seo": {
+    "home": {
+      "title": "Conversor de fotos para URL | Transforme imagens em links compartilháveis",
+      "description": "Envie suas fotos e gere links limpos e fáceis de compartilhar em segundos. Rápido, simples e confiável para a web."
+    }
+  },
+  "images": {
+    "previewAlt": "Prévia da imagem enviada",
+    "animatingSampleAlt": "Imagem de exemplo usada na demo de upload",
+    "sampleThumbAlt": "Miniatura de imagem de exemplo",
+    "useSampleAria": "Usar esta imagem de exemplo",
+    "howIllustrationAlt": "Ilustração de como o Photo to URL funciona",
+    "heroDropTitle": "Arraste uma foto aqui",
+    "heroDropSubtitle": "Vamos melhorar e hospedar a imagem e devolver um link limpo em segundos.",
+    "heroDropBadge": "Clique ou arraste (JPG/PNG, até 10 MB)",
+    "logoAlt": "Logotipo do Photo to URL"
   }
 }
 

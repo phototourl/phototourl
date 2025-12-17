@@ -171,9 +171,26 @@
         }
       },
       "keywords": {
-        "title": "Palabras clave",
-        "p1": "imagen a URL, foto a URL, convertir imagen a enlace, enlace directo de imagen, hosting de imágenes, alojamiento de fotos, hosting gratis de imágenes, enlace CDN de imagen, URL de imagen directa, subir y copiar enlace, pegar imagen para generar enlace, enlace instantáneo de foto, enlaces de imagen para blog, enlaces de imagen para docs, enlace de imagen para chat, enlace de imagen en Markdown, enlace de imagen en HTML, compartir imágenes rápido, sin registro, generador de enlaces de imágenes, image to url, photo to url"
+        "title": "Palabras clave que nos importan",
+        "p1": "photo to url, image to url, alojamiento de fotos, enlaces compartibles, enlace directo de imagen, hosting de imágenes gratis, enlace CDN para fotos, subir y copiar enlace, pegar imagen para generar enlace, enlace de foto instantáneo, enlaces de imágenes para blogs, enlaces de imágenes para docs, enlace de imagen para chat, enlace de imagen para Markdown, enlace de imagen para HTML, CDN de fotos, compartir imágenes rápido, hosting de imágenes sin registro, hosting sencillo de fotos, cargador rápido de imágenes, generador de enlaces para fotos."
       }
     }
+  },
+  "seo": {
+    "home": {
+      "title": "Convertidor de fotos a URL | Convierte imágenes en enlaces compartibles",
+      "description": "Sube tus fotos y obtén enlaces limpios y fáciles de compartir al instante. Rápido, sencillo y fiable para la web."
+    }
+  },
+  "images": {
+    "previewAlt": "Vista previa de la imagen subida",
+    "animatingSampleAlt": "Imagen de ejemplo usada en la demo de subida",
+    "sampleThumbAlt": "Miniatura de imagen de ejemplo",
+    "useSampleAria": "Usar esta imagen de ejemplo",
+    "howIllustrationAlt": "Ilustración del funcionamiento de Photo to URL",
+    "heroDropTitle": "Arrastra una foto aquí",
+    "heroDropSubtitle": "La mejoramos y la alojamos, y te devolvemos un enlace limpio al instante.",
+    "heroDropBadge": "Haz clic o arrastra (JPG/PNG, hasta 10MB)",
+    "logoAlt": "Logotipo de Photo to URL"
   }
 }

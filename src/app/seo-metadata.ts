@@ -5,6 +5,7 @@ export const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL || "https://phototourl.com";
 
 export const baseMetadata: Metadata = {
+  // 默认英文元数据；不同语言的标题/描述由 getLocaleMetadata 接收翻译结果覆盖
   title: "Photo to URL Converter | Turn photos into shareable links",
   description:
     "Upload photos and get clean, shareable URLs instantly. Fast, simple, reliable photo-to-link conversion for the web.",
@@ -23,9 +24,9 @@ export const baseMetadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Photo to URL Converter",
+    title: "Photo to URL Converter | Turn photos into shareable links",
     description:
-      "Turn your photos into clean, shareable links in seconds. No signup required.",
+      "Upload photos and get clean, shareable URLs instantly. Fast, simple, reliable photo-to-link conversion for the web.",
     url: `${siteUrl}/`,
     siteName: "Photo to URL",
     images: [
@@ -39,9 +40,9 @@ export const baseMetadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Photo to URL Converter",
+    title: "Photo to URL Converter | Turn photos into shareable links",
     description:
-      "Upload photos and get direct, shareable URLs instantly. Fast and reliable hosting.",
+      "Upload photos and get clean, shareable URLs instantly. Fast, simple, reliable photo-to-link conversion for the web.",
     images: [
       {
         url: `${siteUrl}/og-image.png`,
@@ -67,4 +68,40 @@ export const baseMetadata: Metadata = {
     "baidu-site-verification": "codeva-ACSbhvu687",
   },
 };
+
+// 根据当前语言返回对应 canonical / OG url + 本地化标题/描述 的元数据
+export function getLocaleMetadata(
+  locale: string,
+  title: string,
+  description: string
+): Metadata {
+  const alternates = baseMetadata.alternates || {};
+  const languages =
+    (alternates.languages as Record<string, string> | undefined) ?? {};
+
+  const canonical =
+    languages[locale] || (alternates.canonical as string) || `${siteUrl}/`;
+
+  return {
+    ...baseMetadata,
+    title,
+    description,
+    alternates: {
+      ...alternates,
+      canonical,
+      languages,
+    },
+    openGraph: {
+      ...(baseMetadata.openGraph || {}),
+      title,
+      description,
+      url: canonical,
+    },
+    twitter: {
+      ...(baseMetadata.twitter || {}),
+      title,
+      description,
+    },
+  };
+}
 

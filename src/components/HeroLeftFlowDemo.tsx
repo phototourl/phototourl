@@ -99,6 +99,7 @@ function AutoDemoOverlay({ step, oldPhotoUrl }: { step: string; oldPhotoUrl: str
   } as const;
 
   const [imageError, setImageError] = useState(false);
+  const tImages = useTranslations("images");
 
   if (step !== "idle") return null;
 
@@ -117,7 +118,7 @@ function AutoDemoOverlay({ step, oldPhotoUrl }: { step: string; oldPhotoUrl: str
         ) : (
           <Image
             src={oldPhotoUrl}
-            alt="Demo photo thumbnail for upload animation"
+            alt={tImages("sampleThumbAlt")}
             width={96}
             height={96}
             className="w-24 h-24 object-cover rounded-lg shadow-2xl border-4 border-white ring-2 ring-gray-200"
@@ -134,6 +135,7 @@ function AutoDemoOverlay({ step, oldPhotoUrl }: { step: string; oldPhotoUrl: str
 // --- 左侧主流程演示（按你 InteractiveDemo 结构） ---
 export default function HeroLeftFlowDemo({ oldPhotoUrls }: HeroLeftFlowDemoProps) {
   const t = useTranslations("home.demo");
+  const tImages = useTranslations("images");
   const locale = useLocale();
   const [step, setStep] = useState<"idle" | "processing" | "done" | "showLogo">("idle");
 
@@ -343,12 +345,14 @@ export default function HeroLeftFlowDemo({ oldPhotoUrls }: HeroLeftFlowDemoProps
                   <Plus size={52} strokeWidth={2} className="text-brand-teal" />
                 </motion.div>
 
-                <h3 className="text-2xl font-extrabold text-gray-800 mb-2 invisible h-0">拖动旧照片到这里</h3>
+                <h3 className="text-2xl font-extrabold text-gray-800 mb-2 invisible h-0">
+                  {tImages("heroDropTitle")}
+                </h3>
                 <p className="text-gray-500 text-sm mb-4 invisible h-0">
-                  自动进行 AI 增强与修复，即时生成高清链接。
+                  {tImages("heroDropSubtitle")}
                 </p>
                 <span className="inline-block text-xs font-semibold text-brand-teal bg-teal-100 px-4 py-2 rounded-full shadow-sm invisible h-0">
-                  点击或拖放 (JPG/PNG, Max 10MB)
+                  {tImages("heroDropBadge")}
                 </span>
               </motion.div>
             </motion.div>

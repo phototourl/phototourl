@@ -187,6 +187,23 @@
         "p1": "photo to url, image to url, photo hosting, shareable links, direct image link, free image hosting, cdn photo link, upload and copy link, paste image to link, instant photo link, blog image links, docs image links, chat image link, markdown image link, html image link, photo cdn, fast image sharing, no signup image host, simple photo hosting, quick image uploader, link generator for photos."
       }
     }
+  },
+  "seo": {
+    "home": {
+      "title": "Photo to URL Converter | Turn photos into shareable links",
+      "description": "Upload photos and get clean, shareable URLs instantly. Fast, simple, reliable photo-to-link conversion for the web."
+    }
+  },
+  "images": {
+    "previewAlt": "Uploaded image preview",
+    "animatingSampleAlt": "Sample image used in upload demo",
+    "sampleThumbAlt": "Sample upload image",
+    "useSampleAria": "Use this sample image",
+    "howIllustrationAlt": "Illustration showing how Photo to URL works",
+    "heroDropTitle": "Drag a photo here",
+    "heroDropSubtitle": "We'll enhance and host it, then return a clean link.",
+    "heroDropBadge": "Drag or click (JPG/PNG, up to 10MB)",
+    "logoAlt": "Photo to URL logo"
   }
 }
 

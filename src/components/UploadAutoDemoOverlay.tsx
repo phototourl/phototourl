@@ -23,7 +23,11 @@ export default function UploadAutoDemoOverlay({
       transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={imageSrc} alt="Demo photo thumbnail for upload animation" className="h-full w-full object-cover" />
+      <img
+        src={imageSrc}
+        alt="Old photo thumbnail used in auto upload demo"
+        className="h-full w-full object-cover"
+      />
       <div className="absolute -right-2 -top-2 rounded-full bg-brand-teal px-2 py-1 text-[10px] font-bold text-white shadow-sm">
         {fileTag}
       </div>

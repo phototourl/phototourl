@@ -51,6 +51,7 @@ const OLD_PHOTO_URLS = [
 export default function HomePage() {
   const locale = useLocale();
   const t = useTranslations("home");
+  const tImages = useTranslations("images");
   const isRTL = locale === "ar";
 
   const [status, setStatus] = useState<UploadState>("idle");
@@ -415,7 +416,11 @@ export default function HomePage() {
                       </div>
                       <div className="relative h-48 w-full overflow-hidden rounded-lg bg-transparent sm:h-56">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img src={preview} alt={fileName ?? "Preview"} className="h-full w-full object-contain" />
+                        <img
+                          src={preview}
+                          alt={fileName ?? tImages("previewAlt")}
+                          className="h-full w-full object-contain"
+                        />
                       </div>
                     </div>
                   )}
@@ -462,7 +467,7 @@ export default function HomePage() {
                     <motion.img
                       key={animatingSample.key}
                       src={animatingSample.src}
-                      alt="Animating sample"
+                      alt={tImages("animatingSampleAlt")}
                       className="absolute inset-0 w-full h-full object-cover rounded-2xl"
                       initial={{ scale: 0.3, opacity: 0, x: 200, y: 200 }}
                       animate={{ scale: 1, opacity: 1, x: 0, y: 0 }}
@@ -471,7 +476,11 @@ export default function HomePage() {
                     />
                   ) : (
                     <>
-                      {status === "uploading" ? <Loader2 className="h-6 w-6 animate-spin relative z-10" /> : <Upload className="h-7 w-7 relative z-10" />}
+                      {status === "uploading" ? (
+                        <Loader2 className="h-6 w-6 animate-spin relative z-10" />
+                      ) : (
+                        <Upload className="h-7 w-7 relative z-10" />
+                      )}
                     </>
                   )}
                 </div>
@@ -520,7 +529,7 @@ export default function HomePage() {
                     <motion.img
                       key={item.key}
                       src={item.src}
-                      alt={`Sample image ${item.key}`}
+                      alt={tImages("sampleThumbAlt")}
                       className="h-14 w-14 cursor-pointer object-cover block"
                       style={{ 
                         display: 'block',
@@ -549,7 +558,7 @@ export default function HomePage() {
                           void uploadSample(item.src, item.key);
                         }
                       }}
-                      aria-label={`Use sample ${item.key}`}
+                      aria-label={tImages("useSampleAria")}
                     />
                   ))}
                 </div>
@@ -621,7 +630,7 @@ export default function HomePage() {
             <div className="mx-auto mt-6 flex justify-center">
               <Image
                 src="/og-image.png"
-                alt="Photo to URL preview graphic"
+                alt={tImages("howIllustrationAlt")}
                 width={600}
                 height={450}
                 className="h-auto w-[26rem] md:w-[32rem] rounded-3xl shadow-xl"

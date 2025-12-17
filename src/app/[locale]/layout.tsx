@@ -1,16 +1,28 @@
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { getMessages, setRequestLocale, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { routing, type AppLocale } from "@/i18n/routing";
 import type { ReactNode } from "react";
+import { getLocaleMetadata } from "../seo-metadata";
 
 export const dynamic = "force-static";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
+}
+
+// 多语言路由：为不同 locale 输出对应 canonical / OG url + 本地化 title/description
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "seo.home" });
+  return getLocaleMetadata(locale, t("title"), t("description"));
 }
 
 interface LocaleLayoutProps {
@@ -21,7 +33,7 @@ interface LocaleLayoutProps {
 /**
  * Locale Layout
  * https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing#layout
- * 
+ *
  * NextIntlClientProvider 不传递 locale 和 messages，会自动从 getRequestConfig 获取
  * https://next-intl.dev/docs/usage/configuration#nextintlclientprovider
  */
@@ -58,4 +70,3 @@ export default async function LocaleLayout({
     </NextIntlClientProvider>
   );
 }
-

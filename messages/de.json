@@ -171,9 +171,26 @@
         }
       },
       "keywords": {
-        "title": "Keywords",
-        "p1": "bild zu url, foto zu url, bild in link umwandeln, direkter bildlink, bildhosting, fotohosting, kostenloses bildhosting, cdn bildlink, direkte bild url, hochladen und link kopieren, bild einfügen link erstellen, sofortiger fotolink, bildlinks für blog, bildlinks für docs, bildlink für chat, bildlink in markdown, bildlink in html, schnelles bilder teilen, ohne anmeldung, bildlink generator, image to url, photo to url"
+        "title": "Wichtige Suchbegriffe",
+        "p1": "photo to url, image to url, Foto‑Hosting, teilbare Links, direkter Bildlink, kostenloses Bildhosting, CDN‑Links für Fotos, hochladen und Link kopieren, Bild einfügen um Link zu erzeugen, sofortiger Fotolink, Bildlinks für Blogs, Bildlinks für Docs, Bildlink für Chats, Bildlink in Markdown, Bildlink in HTML, Foto‑CDN, schnelles Teilen von Bildern, Bildhosting ohne Anmeldung, einfaches Foto‑Hosting, schneller Bild‑Uploader, Link‑Generator für Fotos."
       }
     }
+  },
+  "seo": {
+    "home": {
+      "title": "Foto-zu-URL-Konverter | Bilder in teilbare Links umwandeln",
+      "description": "Laden Sie Fotos hoch und erhalten Sie sofort saubere, teilbare URLs. Schnell, einfach und zuverlässig für das Web."
+    }
+  },
+  "images": {
+    "previewAlt": "Vorschau des hochgeladenen Bildes",
+    "animatingSampleAlt": "Beispielbild, das in der Upload-Demo verwendet wird",
+    "sampleThumbAlt": "Miniaturansicht des Beispielbildes",
+    "useSampleAria": "Dieses Beispielbild verwenden",
+    "howIllustrationAlt": "Illustration, wie Photo to URL funktioniert",
+    "heroDropTitle": "Ziehen Sie ein Foto hierher",
+    "heroDropSubtitle": "Wir optimieren und hosten das Bild und liefern einen sauberen Link zurück.",
+    "heroDropBadge": "Klicken oder ziehen (JPG/PNG, bis 10 MB)",
+    "logoAlt": "Photo to URL Logo"
   }
 }
