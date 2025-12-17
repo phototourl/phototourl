@@ -1,5 +1,7 @@
 import { LocaleLink } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
+import Image from "next/image";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 
 const navLinks = [
   { key: "blog", href: "/blog" },
@@ -24,7 +26,18 @@ export async function SiteFooter() {
         <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-12 lg:px-8 lg:py-12">
           <div className="grid gap-10 md:grid-cols-3">
             <div className="space-y-3">
-              <div className="text-2xl font-semibold text-white">{t("siteName")}</div>
+              <div className="flex items-center gap-3">
+                <div className="relative h-8 w-8 overflow-hidden rounded-md bg-white/10">
+                  <Image
+                    src="/icons/light_58x58.png"
+                    alt="Photo to URL logo"
+                    width={32}
+                    height={32}
+                    className="h-full w-full object-contain"
+                  />
+                </div>
+                <div className="text-2xl font-semibold text-white">{t("siteName")}</div>
+              </div>
               <p className="max-w-xs text-sm text-white/90 leading-relaxed">
                 {t("footer.blurb.line1")}
                 <br />
@@ -41,6 +54,7 @@ export async function SiteFooter() {
                   Luolink
                 </a>
               </div>
+              <LanguageSwitcher />
             </div>
 
             <div className="space-y-3">

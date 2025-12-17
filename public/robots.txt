@@ -1,7 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /legal
-Disallow: /legal/*
 
 # Googlebot (Google crawler)
 User-agent: Googlebot

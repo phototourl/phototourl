@@ -4,7 +4,7 @@ import { useParams } from "next/navigation";
 import { useTransition, useState, useRef, useEffect } from "react";
 import { useLocale } from "next-intl";
 import { LocaleLink, useLocalePathname, useLocaleRouter } from "@/i18n/navigation";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Globe2 } from "lucide-react";
 
 type LocaleItem = { code: string; label: string };
 
@@ -61,15 +61,18 @@ export function LanguageSwitcher() {
   };
 
   return (
-    <div className="relative flex items-center text-sm" ref={dropdownRef}>
+    <div className="relative inline-flex items-center text-sm" ref={dropdownRef}>
       <button
         type="button"
-        className="ez-btn-gradient flex h-9 items-center gap-1.5 rounded-md border-0 px-2 text-sm text-white outline-none transition focus:ring-2 focus:ring-white/50 focus:ring-offset-2 disabled:opacity-50 sm:h-10 sm:px-3"
+        className="flex items-center gap-1.5 rounded-md px-1 py-0.5 text-xs sm:text-sm outline-none transition hover:opacity-80 disabled:opacity-50"
         onClick={() => setIsOpen(!isOpen)}
         disabled={isPending}
       >
+        <Globe2 className="h-4 w-4 shrink-0" />
         <span className="whitespace-nowrap">{currentLocale.label}</span>
-        <ChevronDown className="h-4 w-4 shrink-0 text-white/90" />
+        <ChevronDown
+          className={`h-4 w-4 shrink-0 transition-transform ${isOpen ? "rotate-180" : ""}`}
+        />
       </button>
 
       {isOpen && (
