@@ -95,15 +95,31 @@ export async function SiteFooter() {
       </div>
       <div className="border-t border-slate-200 bg-white text-slate-600">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3 text-xs lg:px-8">
-          <span className="text-slate-600">{t("footer.copyright")}</span>
-          <div className="flex items-center">
-            <LocaleLink href="/legal/privacy" className="hover:text-brand-teal">
-              {t("footer.legal.privacy")}
-            </LocaleLink>
-            <span className="mx-3 text-slate-400">•</span>
-            <LocaleLink href="/legal/terms" className="hover:text-brand-teal">
-              {t("footer.legal.terms")}
-            </LocaleLink>
+          <a
+            href="https://fazier.com/launches/phototourl.com"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-block"
+          >
+            <img
+              src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light"
+              width={120}
+              height={20}
+              alt="Fazier badge"
+              className="h-5 w-auto"
+            />
+          </a>
+          <div className="flex items-center gap-4">
+            <span className="text-slate-600">{t("footer.copyright")}</span>
+            <div className="flex items-center">
+              <LocaleLink href="/legal/privacy" className="hover:text-brand-teal">
+                {t("footer.legal.privacy")}
+              </LocaleLink>
+              <span className="mx-3 text-slate-400">•</span>
+              <LocaleLink href="/legal/terms" className="hover:text-brand-teal">
+                {t("footer.legal.terms")}
+              </LocaleLink>
+            </div>
           </div>
         </div>
       </div>
