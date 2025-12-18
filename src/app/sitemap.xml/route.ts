@@ -20,37 +20,25 @@ const staticPaths = [
   "legal/impressum",
 ] as const;
 
-// 生成多语言 hreflang 链接
-function languagesMap(route: string) {
-  const langRoute = route ? `/${route}` : "";
-
-  // 以英文为默认 canonical，其他语言作为 alternate
-  const defaultHref = `${baseUrl}${langRoute}`;
-
-  const alternates = LOCALES.map((lang) => {
-    const langPrefix = lang === "en" ? "" : `/${lang}`;
-    return `<xhtml:link rel="alternate" hreflang="${lang}" href="${baseUrl}${langPrefix}${langRoute}" />`;
-  }).join("");
-
-  return `${alternates}<xhtml:link rel="alternate" hreflang="x-default" href="${defaultHref}" />`;
-}
+// 旧版 sitemap 中只包含除阿拉伯语外的多语言路径，这里保持一致
+const SITEMAP_LOCALES = LOCALES.filter((locale) => locale !== "ar");
 
 export async function GET() {
   const now = new Date().toISOString();
-  const routes = [...staticPaths];
 
-  const urls = routes
-    .map((path) => {
+  // 为每个语言 + 路由生成一个独立的 <url>，恢复之前 80+ 条 URL 的结构
+  const urls = SITEMAP_LOCALES.flatMap((locale) => {
+    const localePrefix = locale === "en" ? "" : `/${locale}`;
+
+    return staticPaths.map((path) => {
       const route = path ? `/${path}` : "";
-      const url = `${baseUrl}${route}`; // 使用英文 URL 作为 canonical
+      const url = `${baseUrl}${localePrefix}${route}`;
       const freq = path === "" ? "daily" : "weekly";
       const priority = path === "" ? "1.0" : "0.8";
 
-      return `<url><loc>${url}</loc>${languagesMap(
-        path
-      )}<lastmod>${now}</lastmod><changefreq>${freq}</changefreq><priority>${priority}</priority></url>`;
-    })
-    .join("\n  ");
+      return `<url><loc>${url}</loc><lastmod>${now}</lastmod><changefreq>${freq}</changefreq><priority>${priority}</priority></url>`;
+    });
+  }).join("\n  ");
 
   const xml = [
     '<?xml version="1.0" encoding="UTF-8"?>',
