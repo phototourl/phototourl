@@ -8,7 +8,7 @@ export const baseMetadata: Metadata = {
   // 默认英文元数据；不同语言的标题/描述由 getLocaleMetadata 接收翻译结果覆盖
   title: "Photo to URL Converter | Turn photos into shareable links",
   description:
-    "Upload photos and get clean, shareable URLs instantly. Fast, simple, reliable photo-to-link conversion for the web.",
+    "Free image hosting: convert photos to permanent URLs instantly. Supports JPG, PNG, WEBP, GIF up to 10MB. Clipboard paste, fast CDN, clean links for Markdown & HTML.",
   alternates: {
     canonical: `${siteUrl}/`,
     languages: {
@@ -26,7 +26,7 @@ export const baseMetadata: Metadata = {
   openGraph: {
     title: "Photo to URL Converter | Turn photos into shareable links",
     description:
-      "Upload photos and get clean, shareable URLs instantly. Fast, simple, reliable photo-to-link conversion for the web.",
+      "Free image hosting: convert photos to permanent URLs instantly. Supports JPG, PNG, WEBP, GIF up to 10MB. Clipboard paste, fast CDN, clean links for Markdown & HTML.",
     url: `${siteUrl}/`,
     siteName: "Photo to URL",
     images: [
@@ -42,7 +42,7 @@ export const baseMetadata: Metadata = {
     card: "summary_large_image",
     title: "Photo to URL Converter | Turn photos into shareable links",
     description:
-      "Upload photos and get clean, shareable URLs instantly. Fast, simple, reliable photo-to-link conversion for the web.",
+      "Free image hosting: convert photos to permanent URLs instantly. Supports JPG, PNG, WEBP, GIF up to 10MB. Clipboard paste, fast CDN, clean links for Markdown & HTML.",
     images: [
       {
         url: `${siteUrl}/og-image.png`,
