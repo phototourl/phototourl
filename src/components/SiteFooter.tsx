@@ -59,20 +59,6 @@ export async function SiteFooter() {
                 >
                   <Twitter className="h-5 w-5" />
                 </a>
-                <a
-                  href="https://fazier.com/launches/phototourl.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-block ml-1 transition-transform hover:scale-105"
-                >
-                  <img
-                    src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light"
-                    width={120}
-                    height={20}
-                    alt="Fazier badge"
-                    className="h-5 w-auto opacity-90 hover:opacity-100 transition-opacity"
-                  />
-                </a>
               </div>
               <LanguageSwitcher variant="footer" />
             </div>
@@ -120,6 +106,37 @@ export async function SiteFooter() {
                 Luolink
               </a>
             </div>
+          </div>
+          {/* Badge row: centered, full-width, between content and bottom border */}
+          <div className="mt-4 flex flex-wrap items-center justify-center gap-4">
+            <a
+              href="https://fazier.com/launches/phototourl.com"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light"
+                width={140}
+                height={32}
+                alt="Fazier badge"
+                className="h-8 w-auto opacity-90 hover:opacity-100 transition-opacity"
+              />
+            </a>
+            <a
+              href="https://showmebest.ai"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://showmebest.ai/badge/feature-badge-dark.webp"
+                width={140}
+                height={32}
+                alt="Featured on ShowMeBestAI"
+                className="h-8 w-auto"
+              />
+            </a>
           </div>
         </div>
       </div>
