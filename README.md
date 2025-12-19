@@ -16,7 +16,6 @@
 
 ## ✨ Features
 
-
 - 🚀 **Fast & Simple** - Upload and get a shareable link in seconds
 - 🔗 **Clean URLs** - Direct image links ready for Markdown, HTML, and chat apps
 - 📋 **Clipboard Friendly** - Paste screenshots directly from clipboard
