@@ -137,6 +137,20 @@ export async function SiteFooter() {
                 className="h-8 w-auto"
               />
             </a>
+            <a
+              href="https://submitaitools.org"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://submitaitools.org/static_submitaitools/images/submitaitools.png"
+                width={140}
+                height={32}
+                alt="Submit AI Tools – The ultimate platform to discover, submit, and explore the best AI tools across various categories."
+                className="h-8 w-auto rounded-[10px]"
+              />
+            </a>
           </div>
         </div>
       </div>
