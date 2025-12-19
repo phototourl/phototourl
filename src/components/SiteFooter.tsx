@@ -193,6 +193,19 @@ export async function SiteFooter() {
                 className="h-7 w-auto"
               />
             </a>
+            <a
+              href="https://findly.tools/photo-to-url?utm_source=photo-to-url"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://findly.tools/badges/findly-tools-badge-light.svg"
+                alt="Featured on findly.tools"
+                width={150}
+                className="h-7 w-auto"
+              />
+            </a>
           </div>
         </div>
       </div>
