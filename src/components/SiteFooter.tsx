@@ -179,6 +179,20 @@ export async function SiteFooter() {
                 className="h-7 w-auto"
               />
             </a>
+            <a
+              href="https://frogdr.com/phototourl.com?utm_source=phototourl.com"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://frogdr.com/phototourl.com/badge-white.svg"
+                width={120}
+                height={28}
+                alt="Monitor your Domain Rating with FrogDR"
+                className="h-7 w-auto"
+              />
+            </a>
           </div>
         </div>
       </div>
