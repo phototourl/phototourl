@@ -117,10 +117,10 @@ export async function SiteFooter() {
             >
               <img
                 src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=light"
-                width={140}
-                height={32}
+                width={120}
+                height={28}
                 alt="Fazier badge"
-                className="h-8 w-auto opacity-90 hover:opacity-100 transition-opacity"
+                className="h-7 w-auto opacity-90 hover:opacity-100 transition-opacity"
               />
             </a>
             <a
@@ -131,10 +131,10 @@ export async function SiteFooter() {
             >
               <img
                 src="https://showmebest.ai/badge/feature-badge-dark.webp"
-                width={140}
-                height={32}
+                width={120}
+                height={28}
                 alt="Featured on ShowMeBestAI"
-                className="h-8 w-auto"
+                className="h-7 w-auto"
               />
             </a>
             <a
@@ -145,10 +145,38 @@ export async function SiteFooter() {
             >
               <img
                 src="https://submitaitools.org/static_submitaitools/images/submitaitools.png"
-                width={140}
-                height={32}
+                width={120}
+                height={28}
                 alt="Submit AI Tools – The ultimate platform to discover, submit, and explore the best AI tools across various categories."
-                className="h-8 w-auto rounded-[10px]"
+                className="h-7 w-auto rounded-[10px]"
+              />
+            </a>
+            <a
+              href="https://twelve.tools"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://twelve.tools/badge0-light.svg"
+                width={120}
+                height={28}
+                alt="Featured on Twelve Tools"
+                className="h-7 w-auto"
+              />
+            </a>
+            <a
+              href="https://wired.business"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://wired.business/badge3-dark.svg"
+                width={120}
+                height={28}
+                alt="Featured on Wired Business"
+                className="h-7 w-auto"
               />
             </a>
           </div>
