@@ -14,7 +14,7 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-// 多语言路由：为不同 locale 输出对应 canonical / OG url + 本地化 title/description
+// 多语言路由：为不同 locale 输出对应 canonical / OG url + 本地化 title/description/keywords
 export async function generateMetadata({
   params,
 }: {
@@ -22,7 +22,15 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "seo.home" });
-  return getLocaleMetadata(locale, t("title"), t("description"));
+  const tKeywords = await getTranslations({ locale, namespace: "seo" });
+  
+  // 从翻译文件中获取关键词字符串，转换为数组
+  const keywordsString = tKeywords("keywords") || "";
+  const keywords = keywordsString
+    ? keywordsString.split(",").map((k: string) => k.trim()).filter(Boolean)
+    : undefined;
+  
+  return getLocaleMetadata(locale, t("title"), t("description"), keywords);
 }
 
 interface LocaleLayoutProps {

@@ -74,7 +74,7 @@
       "copied": "Skopiowano"
     },
     "benefits": {
-      "title": "Dlaczego ludzie wybierają Photo to URL",
+      "title": "Dlaczego ludzie wybierają Zdjęcie do URL",
       "subtitle": "Szybkość, czyste linki i brak potrzeby rejestracji.",
       "items": {
         "fast": { "title": "Szybkie udostępnianie", "desc": "Prześlij i otrzymaj link w kilka sekund bez dodatkowych kroków." },
@@ -114,7 +114,7 @@
       }
     },
     "testimonials": {
-      "title": "Zespoły oszczędzają czas z Photo to URL",
+      "title": "Zespoły oszczędzają czas z Zdjęcie do URL",
       "subtitle": "Dowód społeczny, aby zmniejszyć ryzyko i przyspieszyć adopcję.",
       "items": {
         "ops": {
@@ -138,8 +138,8 @@
       "paste": "Wklej zrzut ekranu"
     },
     "longform": {
-      "title": "Dlaczego Photo to URL pomaga w Twoim przepływie pracy",
-      "p1": "Photo to URL jest zbudowane dla twórców, marketerów, zespołów wsparcia, założycieli i każdego, kto potrzebuje szybkiego, niezawodnego sposobu na zamianę zdjęć w czyste linki. Dzięki bezpośredniemu przepływowi przesyłania-do-linku unikasz ciężkich menedżerów multimediów i pomijasz logowania. Linki są uporządkowane, łatwe do wklejenia w aplikacje czatu, dokumenty, wiki, raporty błędów i zgłoszenia. Zespoły poruszają się szybciej, gdy zrzuty ekranu i zdjęcia produktów są natychmiast udostępnialne bez limitów załączników lub niechlujnych podglądów. Ponieważ linki są przewidywalne i spójne, działają również dobrze w automatyzacji, krokach QA i lekkich prototypach.",
+      "title": "Dlaczego Zdjęcie do URL pomaga w Twoim przepływie pracy",
+      "p1": "Zdjęcie do URL jest zbudowane dla twórców, marketerów, zespołów wsparcia, założycieli i każdego, kto potrzebuje szybkiego, niezawodnego sposobu na zamianę zdjęć w czyste linki. Dzięki bezpośredniemu przepływowi przesyłania-do-linku unikasz ciężkich menedżerów multimediów i pomijasz logowania. Linki są uporządkowane, łatwe do wklejenia w aplikacje czatu, dokumenty, wiki, raporty błędów i zgłoszenia. Zespoły poruszają się szybciej, gdy zrzuty ekranu i zdjęcia produktów są natychmiast udostępnialne bez limitów załączników lub niechlujnych podglądów. Ponieważ linki są przewidywalne i spójne, działają również dobrze w automatyzacji, krokach QA i lekkich prototypach.",
       "p2": "Doświadczenie pozostaje proste: upuść, wklej lub przeglądaj; otrzymaj link; udostępnij. Bez dodatkowego chrome, bez rozpraszających reklam, bez bramek. Skupiasz się na swojej treści, podczas gdy my obsługujemy nudne części hostingu. Czy dokumentujesz funkcję, przygotowujesz post na blogu, budujesz pitch deck czy wysyłasz szybką odpowiedź wsparcia, krótki link bije masywne załączniki. Dla globalnych zespołów interfejs jest dostępny w wielu językach, zachowując tekst zwięzły i uniwersalny.",
       "useCases": {
         "title": "Przypadki użycia, które pozostają praktyczne",
@@ -199,6 +199,7 @@
     }
   },
   "seo": {
+    "keywords": "zdjęcie do url, obraz do url, generator linków obrazów, konwertuj obraz na link, darmowy hosting obrazów, bezpośredni url obrazu, udostępnialne linki obrazów, linki obrazów cdn",
     "home": {
       "title": "Konwerter Zdjęć na URL | Zamień zdjęcia w linki do udostępniania",
       "description": "Darmowy hosting obrazów: konwertuj zdjęcia na stałe URL natychmiast. Obsługuje JPG, PNG, WEBP, GIF do 10MB. Wklejanie ze schowka, szybki CDN, czyste linki dla Markdown i HTML."
@@ -209,10 +210,10 @@
     "animatingSampleAlt": "Przykładowy obraz używany w demo przesyłania",
     "sampleThumbAlt": "Przykładowy obraz do przesłania",
     "useSampleAria": "Użyj tego przykładowego obrazu",
-    "howIllustrationAlt": "Ilustracja pokazująca jak działa Photo to URL",
+    "howIllustrationAlt": "Ilustracja pokazująca jak działa Zdjęcie do URL",
     "heroDropTitle": "Przeciągnij zdjęcie tutaj",
     "heroDropSubtitle": "Ulepszymy i udostępnimy je, a następnie zwrócimy czysty link.",
     "heroDropBadge": "Przeciągnij lub kliknij (JPG/PNG, do 10MB)",
-    "logoAlt": "Logo Photo to URL"
+    "logoAlt": "Logo Zdjęcie do URL"
   }
 }

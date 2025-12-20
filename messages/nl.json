@@ -74,7 +74,7 @@
       "copied": "Gekopieerd"
     },
     "benefits": {
-      "title": "Waarom mensen kiezen voor Photo to URL",
+      "title": "Waarom mensen kiezen voor Foto naar URL",
       "subtitle": "Snelheid, schone links en geen registratie nodig.",
       "items": {
         "fast": { "title": "Snelle delen", "desc": "Upload en krijg een link in seconden zonder extra stappen." },
@@ -114,7 +114,7 @@
       }
     },
     "testimonials": {
-      "title": "Teams besparen tijd met Photo to URL",
+      "title": "Teams besparen tijd met Foto naar URL",
       "subtitle": "Sociale bewijzen om risico te verminderen en adoptie te versnellen.",
       "items": {
         "ops": {
@@ -138,8 +138,8 @@
       "paste": "Plak een screenshot"
     },
     "longform": {
-      "title": "Waarom Photo to URL je workflow helpt",
-      "p1": "Photo to URL is gebouwd voor makers, marketeers, ondersteuningsteams, oprichters en iedereen die een snelle, betrouwbare manier nodig heeft om foto's om te zetten in schone links. Met een directe upload-naar-link flow vermijd je zware mediamanagers en sla je inloggen over. Links zijn netjes, gemakkelijk te plakken in chat-apps, documenten, wiki's, bugrapporten en tickets. Teams bewegen sneller wanneer screenshots en productfoto's direct deelbaar zijn zonder bijlagenlimieten of rommelige voorvertoningen. Omdat de links voorspelbaar en consistent zijn, werken ze ook goed in automatisering, QA-stappen en lichte prototypes.",
+      "title": "Waarom Foto naar URL je workflow helpt",
+      "p1": "Foto naar URL is gebouwd voor makers, marketeers, ondersteuningsteams, oprichters en iedereen die een snelle, betrouwbare manier nodig heeft om foto's om te zetten in schone links. Met een directe upload-naar-link flow vermijd je zware mediamanagers en sla je inloggen over. Links zijn netjes, gemakkelijk te plakken in chat-apps, documenten, wiki's, bugrapporten en tickets. Teams bewegen sneller wanneer screenshots en productfoto's direct deelbaar zijn zonder bijlagenlimieten of rommelige voorvertoningen. Omdat de links voorspelbaar en consistent zijn, werken ze ook goed in automatisering, QA-stappen en lichte prototypes.",
       "p2": "De ervaring blijft eenvoudig: sleep, plak of blader; krijg een link; deel. Geen extra chrome, geen afleidende advertenties, geen gating. Je blijft gefocust op je inhoud terwijl wij de saaie delen van hosting afhandelen. Of je nu een functie documenteert, een blogpost voorbereidt, een pitch deck bouwt of een snelle ondersteuningsreactie verzendt, een korte link verslaat omvangrijke bijlagen. Voor wereldwijde teams is de interface beschikbaar in meerdere talen terwijl de tekst beknopt en universeel blijft.",
       "useCases": {
         "title": "Gebruikssituaties die praktisch blijven",
@@ -199,6 +199,7 @@
     }
   },
   "seo": {
+    "keywords": "foto naar url, afbeelding naar url, afbeelding link generator, converteer afbeelding naar link, gratis afbeelding hosting, directe afbeelding url, deelbare afbeelding links, cdn afbeelding links",
     "home": {
       "title": "Foto naar URL Converter | Zet foto's om in deelbare links",
       "description": "Gratis afbeelding hosting: converteer foto's direct naar permanente URL's. Ondersteunt JPG, PNG, WEBP, GIF tot 10MB. Plakken vanuit klembord, snelle CDN, schone links voor Markdown & HTML."
@@ -209,10 +210,10 @@
     "animatingSampleAlt": "Voorbeeldafbeelding gebruikt in upload demo",
     "sampleThumbAlt": "Voorbeeld upload afbeelding",
     "useSampleAria": "Gebruik deze voorbeeldafbeelding",
-    "howIllustrationAlt": "Illustratie die laat zien hoe Photo to URL werkt",
+    "howIllustrationAlt": "Illustratie die laat zien hoe Foto naar URL werkt",
     "heroDropTitle": "Sleep een foto hierheen",
     "heroDropSubtitle": "We zullen het verbeteren en hosten, en dan een schone link teruggeven.",
     "heroDropBadge": "Sleep of klik (JPG/PNG, tot 10MB)",
-    "logoAlt": "Photo to URL logo"
+    "logoAlt": "Foto naar URL logo"
   }
 }

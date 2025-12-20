@@ -74,7 +74,7 @@
       "copied": "Kopierad"
     },
     "benefits": {
-      "title": "Varför folk väljer Photo to URL",
+      "title": "Varför folk väljer Foto till URL",
       "subtitle": "Hastighet, rena länkar och ingen registrering behövs.",
       "items": {
         "fast": { "title": "Snabb delning", "desc": "Ladda upp och få en länk på sekunder utan extra steg." },
@@ -114,7 +114,7 @@
       }
     },
     "testimonials": {
-      "title": "Team sparar tid med Photo to URL",
+      "title": "Team sparar tid med Foto till URL",
       "subtitle": "Socialt bevis för att minska risken och påskynda adoptionen.",
       "items": {
         "ops": {
@@ -138,8 +138,8 @@
       "paste": "Klistra in en skärmdump"
     },
     "longform": {
-      "title": "Varför Photo to URL hjälper ditt arbetsflöde",
-      "p1": "Photo to URL är byggt för skapare, marknadsförare, supportteam, grundare och alla som behöver ett snabbt, tillförlitligt sätt att göra om foton till rena länkar. Med ett direkt uppladdnings-till-länk-flöde undviker du tunga mediehanterare och hoppar över inloggningar. Länkar är snygga, lätta att klistra in i chattappar, dokument, wikis, felrapporter och biljetter. Team rör sig snabbare när skärmdumpar och produktfoton är omedelbart delbara utan bilagsbegränsningar eller röriga förhandsvisningar. Eftersom länkarna är förutsägbara och konsekventa fungerar de också bra i automatisering, QA-steg och lätta prototyper.",
+      "title": "Varför Foto till URL hjälper ditt arbetsflöde",
+      "p1": "Foto till URL är byggt för skapare, marknadsförare, supportteam, grundare och alla som behöver ett snabbt, tillförlitligt sätt att göra om foton till rena länkar. Med ett direkt uppladdnings-till-länk-flöde undviker du tunga mediehanterare och hoppar över inloggningar. Länkar är snygga, lätta att klistra in i chattappar, dokument, wikis, felrapporter och biljetter. Team rör sig snabbare när skärmdumpar och produktfoton är omedelbart delbara utan bilagsbegränsningar eller röriga förhandsvisningar. Eftersom länkarna är förutsägbara och konsekventa fungerar de också bra i automatisering, QA-steg och lätta prototyper.",
       "p2": "Upplevelsen förblir enkel: släpp, klistra in eller bläddra; få en länk; dela. Ingen extra krom, inga distraherande annonser, inga grindar. Du håller fokus på ditt innehåll medan vi hanterar de tråkiga delarna av hosting. Oavsett om du dokumenterar en funktion, förbereder ett blogginlägg, bygger en pitch deck eller skickar ett snabbt support-svar, slår en kort länk omfattande bilagor. För globala team är gränssnittet tillgängligt på flera språk samtidigt som texten hålls koncis och universell.",
       "useCases": {
         "title": "Användningsfall som förblir praktiska",
@@ -199,6 +199,7 @@
     }
   },
   "seo": {
+    "keywords": "foto till url, bild till url, bildlänk generator, konvertera bild till länk, gratis bildhosting, direkt bild url, delbara bildlänkar, cdn bildlänkar",
     "home": {
       "title": "Foto till URL-konverterare | Gör om foton till delbara länkar",
       "description": "Gratis bildhosting: konvertera foton till permanenta URL:er direkt. Stöder JPG, PNG, WEBP, GIF upp till 10MB. Klistra in från urklipp, snabb CDN, rena länkar för Markdown & HTML."
@@ -209,10 +210,10 @@
     "animatingSampleAlt": "Exempelbild som används i uppladdningsdemo",
     "sampleThumbAlt": "Exempelbild för uppladdning",
     "useSampleAria": "Använd denna exempelbild",
-    "howIllustrationAlt": "Illustration som visar hur Photo to URL fungerar",
+    "howIllustrationAlt": "Illustration som visar hur Foto till URL fungerar",
     "heroDropTitle": "Dra en foto hit",
     "heroDropSubtitle": "Vi kommer att förbättra och hosta den, sedan returnera en ren länk.",
     "heroDropBadge": "Dra eller klicka (JPG/PNG, upp till 10MB)",
-    "logoAlt": "Photo to URL-logotyp"
+    "logoAlt": "Foto till URL-logotyp"
   }
 }

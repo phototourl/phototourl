@@ -74,7 +74,7 @@
       "copied": "Copiado"
     },
     "benefits": {
-      "title": "Por que escolher o Photo to URL",
+      "title": "Por que escolher o Foto para URL",
       "subtitle": "Rápido, links limpos e sem cadastro.",
       "items": {
         "fast": { "title": "Compartilhamento rápido", "desc": "Envie e obtenha um link em segundos, sem passos extras." },
@@ -111,7 +111,7 @@
       }
     },
     "testimonials": {
-      "title": "Times ganhando tempo com Photo to URL",
+      "title": "Times ganhando tempo com Foto para URL",
       "subtitle": "Prova social para reduzir risco e acelerar adoção.",
       "items": {
         "ops": { "name": "Product Ops", "quote": "Colamos capturas em tickets sem entupir anexos. Os links ficam limpos." },
@@ -126,8 +126,8 @@
       "paste": "Colar uma captura"
     },
     "longform": {
-      "title": "Por que o Photo to URL melhora seu fluxo de trabalho",
-      "p1": "O Photo to URL foi feito para criadores, marketing, suporte, times de operações e qualquer pessoa que precisa transformar fotos em links limpos e confiáveis rapidamente. Com o fluxo direto de upload→link, você evita gerenciadores pesados e não precisa fazer login. Os links ficam organizados e fáceis de colar em chats, docs, wikis, relatórios de bug e tickets. A equipe anda mais rápido com capturas e imagens compartilháveis na hora; URLs previsíveis também ajudam automações, QA e protótipos leves.",
+      "title": "Por que o Foto para URL melhora seu fluxo de trabalho",
+      "p1": "O Foto para URL foi feito para criadores, marketing, suporte, times de operações e qualquer pessoa que precisa transformar fotos em links limpos e confiáveis rapidamente. Com o fluxo direto de upload→link, você evita gerenciadores pesados e não precisa fazer login. Os links ficam organizados e fáceis de colar em chats, docs, wikis, relatórios de bug e tickets. A equipe anda mais rápido com capturas e imagens compartilháveis na hora; URLs previsíveis também ajudam automações, QA e protótipos leves.",
       "p2": "A experiência é simples: soltar, colar ou escolher um arquivo; receber um link; compartilhar. Sem distrações, sem barreiras. Você foca no conteúdo e nós cuidamos da hospedagem. Para times globais, a interface está disponível em vários idiomas com texto claro e universal.",
       "useCases": {
         "title": "Casos de uso práticos",
@@ -187,6 +187,7 @@
     }
   },
   "seo": {
+    "keywords": "foto para url, imagem para url, gerador de links de imagens, converter imagem em link, hospedagem de imagens gratuita, url de imagem direta, links de imagens compartilháveis, links de imagens cdn",
     "home": {
       "title": "Conversor de fotos para URL | Transforme imagens em links compartilháveis",
       "description": "Hospedagem gratuita de imagens: converta fotos em URLs permanentes instantaneamente. Suporta JPG, PNG, WEBP, GIF até 10MB. Colar da área de transferência, CDN rápido, links limpos para Markdown e HTML."
@@ -197,11 +198,11 @@
     "animatingSampleAlt": "Imagem de exemplo usada na demo de upload",
     "sampleThumbAlt": "Miniatura de imagem de exemplo",
     "useSampleAria": "Usar esta imagem de exemplo",
-    "howIllustrationAlt": "Ilustração de como o Photo to URL funciona",
+    "howIllustrationAlt": "Ilustração de como o Foto para URL funciona",
     "heroDropTitle": "Arraste uma foto aqui",
     "heroDropSubtitle": "Vamos melhorar e hospedar a imagem e devolver um link limpo em segundos.",
     "heroDropBadge": "Clique ou arraste (JPG/PNG, até 10 MB)",
-    "logoAlt": "Logotipo do Photo to URL"
+    "logoAlt": "Logotipo do Foto para URL"
   }
 }
 

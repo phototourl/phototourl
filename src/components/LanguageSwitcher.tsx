@@ -12,13 +12,13 @@ type LocaleItem = { code: string; label: string; countryCode: string };
 
 const LOCALES: LocaleItem[] = [
   { code: "en", label: "English", countryCode: "US" },
-  { code: "zh", label: "中文(简体)", countryCode: "CN" },
+  { code: "de", label: "Deutsch (German)", countryCode: "DE" },
   { code: "es", label: "Español (Spanish)", countryCode: "ES" },
   { code: "fr", label: "Français (French)", countryCode: "FR" },
   { code: "ar", label: "العربية (Arabic)", countryCode: "SA" },
   { code: "pt", label: "Português (Portuguese)", countryCode: "PT" },
   { code: "ja", label: "日本語 (Japanese)", countryCode: "JP" },
-  { code: "de", label: "Deutsch (German)", countryCode: "DE" },
+  { code: "zh", label: "中文(简体)", countryCode: "CN" },
   { code: "ko", label: "한국어 (Korean)", countryCode: "KR" },
   { code: "it", label: "Italiano (Italian)", countryCode: "IT" },
   { code: "zh-TW", label: "中文(繁體)", countryCode: "TW" },

@@ -69,11 +69,12 @@ export const baseMetadata: Metadata = {
   },
 };
 
-// 根据当前语言返回对应 canonical / OG url + 本地化标题/描述 的元数据
+// 根据当前语言返回对应 canonical / OG url + 本地化标题/描述/关键词 的元数据
 export function getLocaleMetadata(
   locale: string,
   title: string,
-  description: string
+  description: string,
+  keywords?: string[]
 ): Metadata {
   const alternates = baseMetadata.alternates || {};
   const languages =
@@ -86,6 +87,7 @@ export function getLocaleMetadata(
     ...baseMetadata,
     title,
     description,
+    keywords: keywords || baseMetadata.keywords,
     alternates: {
       ...alternates,
       canonical,

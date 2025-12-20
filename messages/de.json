@@ -74,7 +74,7 @@
       "copied": "Kopiert"
     },
     "benefits": {
-      "title": "Warum Photo to URL wählen",
+      "title": "Warum Foto zu URL wählen",
       "subtitle": "Schnell, saubere Links, keine Anmeldung.",
       "items": {
         "fast": { "title": "Schnelles Teilen", "desc": "In Sekunden einen Link erhalten, ohne Extraschritte." },
@@ -111,7 +111,7 @@
       }
     },
     "testimonials": {
-      "title": "Teams sparen Zeit mit Photo to URL",
+      "title": "Teams sparen Zeit mit Foto zu URL",
       "subtitle": "Social Proof senkt Risiko und beschleunigt Einführung.",
       "items": {
         "ops": { "name": "Product Ops", "quote": "Wir fügen Screenshots in Tickets ein, ohne Anhänge zu verstopfen. Links bleiben sauber." },
@@ -126,8 +126,8 @@
       "paste": "Screenshot einfügen"
     },
     "longform": {
-      "title": "Warum Photo to URL Ihren Workflow verbessert",
-      "p1": "Photo to URL ist für Creator, Marketing, Support, Ops-Teams und alle gedacht, die Fotos schnell in saubere, zuverlässige Links verwandeln möchten. Mit dem direkten Upload→Link‑Flow vermeiden Sie schwere Medienmanager und Logins. Die Links sind ordentlich und lassen sich leicht in Chats, Docs, Wikis, Bugreports und Tickets einfügen. Teams arbeiten schneller, wenn Screenshots sofort teilbar sind; vorhersehbare URLs helfen außerdem bei Automatisierung, QA und schlanken Prototypen.",
+      "title": "Warum Foto zu URL Ihren Workflow verbessert",
+      "p1": "Foto zu URL ist für Creator, Marketing, Support, Ops-Teams und alle gedacht, die Fotos schnell in saubere, zuverlässige Links verwandeln möchten. Mit dem direkten Upload→Link‑Flow vermeiden Sie schwere Medienmanager und Logins. Die Links sind ordentlich und lassen sich leicht in Chats, Docs, Wikis, Bugreports und Tickets einfügen. Teams arbeiten schneller, wenn Screenshots sofort teilbar sind; vorhersehbare URLs helfen außerdem bei Automatisierung, QA und schlanken Prototypen.",
       "p2": "Die Erfahrung bleibt simpel: ziehen, einfügen oder auswählen; Link erhalten; teilen. Ohne Ballast, ohne Ablenkung. Sie fokussieren den Inhalt, wir kümmern uns ums Hosting. Für internationale Teams ist die Oberfläche in mehreren Sprachen verfügbar und bleibt dabei klar und universell.",
       "useCases": {
         "title": "Praktische Einsatzfälle",
@@ -187,6 +187,7 @@
     }
   },
   "seo": {
+    "keywords": "foto zu url, bild zu url, bildlink generator, bild in link umwandeln, kostenloses bildhosting, direkte bild url, teilbare bildlinks, cdn bildlinks",
     "home": {
       "title": "Foto-zu-URL-Konverter | Bilder in teilbare Links umwandeln",
       "description": "Kostenloses Bildhosting: Konvertieren Sie Fotos sofort in permanente URLs. Unterstützt JPG, PNG, WEBP, GIF bis zu 10MB. Zwischenablage einfügen, schnelles CDN, saubere Links für Markdown und HTML."
@@ -197,10 +198,10 @@
     "animatingSampleAlt": "Beispielbild, das in der Upload-Demo verwendet wird",
     "sampleThumbAlt": "Miniaturansicht des Beispielbildes",
     "useSampleAria": "Dieses Beispielbild verwenden",
-    "howIllustrationAlt": "Illustration, wie Photo to URL funktioniert",
+    "howIllustrationAlt": "Illustration, wie Foto zu URL funktioniert",
     "heroDropTitle": "Ziehen Sie ein Foto hierher",
     "heroDropSubtitle": "Wir optimieren und hosten das Bild und liefern einen sauberen Link zurück.",
     "heroDropBadge": "Klicken oder ziehen (JPG/PNG, bis 10 MB)",
-    "logoAlt": "Photo to URL Logo"
+    "logoAlt": "Foto zu URL Logo"
   }
 }

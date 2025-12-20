@@ -74,7 +74,7 @@
       "copied": "Đã sao chép"
     },
     "benefits": {
-      "title": "Tại sao mọi người chọn Photo to URL",
+      "title": "Tại sao mọi người chọn Ảnh thành URL",
       "subtitle": "Tốc độ, liên kết sạch và không cần đăng ký.",
       "items": {
         "fast": { "title": "Chia sẻ nhanh", "desc": "Tải lên và nhận liên kết trong vài giây mà không cần thêm bước." },
@@ -114,7 +114,7 @@
       }
     },
     "testimonials": {
-      "title": "Nhóm tiết kiệm thời gian với Photo to URL",
+      "title": "Nhóm tiết kiệm thời gian với Ảnh thành URL",
       "subtitle": "Bằng chứng xã hội để giảm rủi ro và tăng tốc độ áp dụng.",
       "items": {
         "ops": {
@@ -138,8 +138,8 @@
       "paste": "Dán ảnh chụp màn hình"
     },
     "longform": {
-      "title": "Tại sao Photo to URL giúp quy trình làm việc của bạn",
-      "p1": "Photo to URL được xây dựng cho người sáng tạo, nhà tiếp thị, nhóm hỗ trợ, người sáng lập và bất kỳ ai cần cách nhanh chóng, đáng tin cậy để biến ảnh thành liên kết sạch. Với quy trình tải lên-thành-liên kết trực tiếp, bạn tránh được các trình quản lý phương tiện nặng và bỏ qua đăng nhập. Liên kết gọn gàng, dễ dán vào ứng dụng trò chuyện, tài liệu, wiki, báo cáo lỗi và vé. Nhóm di chuyển nhanh hơn khi ảnh chụp màn hình và ảnh sản phẩm có thể chia sẻ ngay lập tức mà không có giới hạn tệp đính kèm hoặc bản xem trước lộn xộn. Vì các liên kết có thể dự đoán và nhất quán, chúng cũng hoạt động tốt trong tự động hóa, các bước QA và nguyên mẫu nhẹ.",
+      "title": "Tại sao Ảnh thành URL giúp quy trình làm việc của bạn",
+      "p1": "Ảnh thành URL được xây dựng cho người sáng tạo, nhà tiếp thị, nhóm hỗ trợ, người sáng lập và bất kỳ ai cần cách nhanh chóng, đáng tin cậy để biến ảnh thành liên kết sạch. Với quy trình tải lên-thành-liên kết trực tiếp, bạn tránh được các trình quản lý phương tiện nặng và bỏ qua đăng nhập. Liên kết gọn gàng, dễ dán vào ứng dụng trò chuyện, tài liệu, wiki, báo cáo lỗi và vé. Nhóm di chuyển nhanh hơn khi ảnh chụp màn hình và ảnh sản phẩm có thể chia sẻ ngay lập tức mà không có giới hạn tệp đính kèm hoặc bản xem trước lộn xộn. Vì các liên kết có thể dự đoán và nhất quán, chúng cũng hoạt động tốt trong tự động hóa, các bước QA và nguyên mẫu nhẹ.",
       "p2": "Trải nghiệm vẫn đơn giản: thả, dán hoặc duyệt; nhận liên kết; chia sẻ. Không có chrome thêm, không có quảng cáo gây mất tập trung, không có cổng. Bạn giữ tập trung vào nội dung của mình trong khi chúng tôi xử lý các phần nhàm chán của lưu trữ. Cho dù bạn đang ghi lại một tính năng, chuẩn bị một bài đăng blog, xây dựng pitch deck hoặc gửi phản hồi hỗ trợ nhanh, một liên kết ngắn đánh bại các tệp đính kèm cồng kềnh. Đối với các nhóm toàn cầu, giao diện có sẵn bằng nhiều ngôn ngữ trong khi giữ văn bản ngắn gọn và phổ quát.",
       "useCases": {
         "title": "Trường hợp sử dụng vẫn thực tế",
@@ -199,6 +199,7 @@
     }
   },
   "seo": {
+    "keywords": "ảnh thành url, hình ảnh thành url, trình tạo liên kết hình ảnh, chuyển đổi hình ảnh thành liên kết, lưu trữ hình ảnh miễn phí, url hình ảnh trực tiếp, liên kết hình ảnh có thể chia sẻ, liên kết hình ảnh cdn",
     "home": {
       "title": "Bộ chuyển đổi Ảnh sang URL | Biến ảnh thành liên kết có thể chia sẻ",
       "description": "Lưu trữ hình ảnh miễn phí: chuyển đổi ảnh thành URL vĩnh viễn ngay lập tức. Hỗ trợ JPG, PNG, WEBP, GIF lên đến 10MB. Dán từ clipboard, CDN nhanh, liên kết sạch cho Markdown & HTML."
@@ -209,10 +210,10 @@
     "animatingSampleAlt": "Hình ảnh mẫu được sử dụng trong demo tải lên",
     "sampleThumbAlt": "Hình ảnh mẫu để tải lên",
     "useSampleAria": "Sử dụng hình ảnh mẫu này",
-    "howIllustrationAlt": "Minh họa cho thấy cách Photo to URL hoạt động",
+    "howIllustrationAlt": "Minh họa cho thấy cách Ảnh thành URL hoạt động",
     "heroDropTitle": "Kéo một bức ảnh vào đây",
     "heroDropSubtitle": "Chúng tôi sẽ cải thiện và lưu trữ nó, sau đó trả về một liên kết sạch.",
     "heroDropBadge": "Kéo hoặc nhấp (JPG/PNG, lên đến 10MB)",
-    "logoAlt": "Logo Photo to URL"
+    "logoAlt": "Logo Ảnh thành URL"
   }
 }

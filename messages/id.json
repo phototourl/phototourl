@@ -75,7 +75,7 @@
       "copied": "Disalin"
     },
     "benefits": {
-      "title": "Mengapa memilih Photo to URL",
+      "title": "Mengapa memilih Foto ke URL",
       "subtitle": "Cepat, tautan bersih, tanpa daftar.",
       "items": {
         "fast": { "title": "Berbagi cepat", "desc": "Dapatkan tautan dalam hitungan detik tanpa langkah ekstra." },
@@ -112,7 +112,7 @@
       }
     },
     "testimonials": {
-      "title": "Tim menghemat waktu dengan Photo to URL",
+      "title": "Tim menghemat waktu dengan Foto ke URL",
       "subtitle": "Bukti sosial untuk menurunkan risiko dan mempercepat adopsi.",
       "items": {
         "ops": { "name": "Product Ops", "quote": "Kami tempel tangkapan layar di tiket tanpa memenuhi lampiran. Tautannya tetap bersih." },
@@ -127,8 +127,8 @@
       "paste": "Tempel tangkapan layar"
     },
     "longform": {
-      "title": "Mengapa Photo to URL membantu alur kerja Anda",
-      "p1": "Photo to URL dibuat untuk kreator, marketer, tim dukungan, pendiri, dan siapa pun yang membutuhkan cara cepat dan andal untuk mengubah foto menjadi tautan bersih. Dengan alur unggah-ke-tautan langsung, Anda menghindari manajer media yang berat dan melewatkan login. Tautan rapi, mudah ditempelkan ke aplikasi chat, dokumen, wiki, laporan bug, dan tiket. Tim bergerak lebih cepat ketika tangkapan layar dan foto produk langsung dapat dibagikan tanpa batas lampiran atau pratinjau yang berantakan. Karena tautannya dapat diprediksi dan konsisten, mereka juga bekerja dengan baik dalam otomasi, langkah QA, dan prototipe ringan.",
+      "title": "Mengapa Foto ke URL membantu alur kerja Anda",
+      "p1": "Foto ke URL dibuat untuk kreator, marketer, tim dukungan, pendiri, dan siapa pun yang membutuhkan cara cepat dan andal untuk mengubah foto menjadi tautan bersih. Dengan alur unggah-ke-tautan langsung, Anda menghindari manajer media yang berat dan melewatkan login. Tautan rapi, mudah ditempelkan ke aplikasi chat, dokumen, wiki, laporan bug, dan tiket. Tim bergerak lebih cepat ketika tangkapan layar dan foto produk langsung dapat dibagikan tanpa batas lampiran atau pratinjau yang berantakan. Karena tautannya dapat diprediksi dan konsisten, mereka juga bekerja dengan baik dalam otomasi, langkah QA, dan prototipe ringan.",
       "p2": "Pengalaman tetap sederhana: jatuhkan, tempel, atau telusuri; dapatkan tautan; bagikan. Tidak ada krom ekstra, tidak ada iklan yang mengganggu, tidak ada pembatasan. Anda tetap fokus pada konten sementara kami menangani bagian membosankan dari hosting. Baik Anda mendokumentasikan fitur, menyiapkan posting blog, membuat pitch deck, atau mengirim respons dukungan cepat, tautan pendek mengalahkan lampiran yang besar. Untuk tim global, antarmuka tersedia dalam berbagai bahasa sambil menjaga salinan ringkas dan universal.",
       "useCases": {
         "title": "Kasus penggunaan yang tetap praktis",
@@ -188,6 +188,7 @@
     }
   },
   "seo": {
+    "keywords": "foto ke url, gambar ke url, generator tautan gambar, konversi gambar ke tautan, hosting gambar gratis, url gambar langsung, tautan gambar yang bisa dibagikan, tautan gambar cdn",
     "home": {
       "title": "Pengonversi Foto ke URL | Ubah foto menjadi tautan yang bisa dibagikan",
       "description": "Hosting gambar gratis: konversi foto ke URL permanen secara instan. Mendukung JPG, PNG, WEBP, GIF hingga 10MB. Tempel clipboard, CDN cepat, tautan bersih untuk Markdown & HTML."
@@ -198,11 +199,11 @@
     "animatingSampleAlt": "Gambar sampel yang digunakan dalam demo unggah",
     "sampleThumbAlt": "Gambar sampel unggah",
     "useSampleAria": "Gunakan gambar sampel ini",
-    "howIllustrationAlt": "Ilustrasi yang menunjukkan cara kerja Photo to URL",
+    "howIllustrationAlt": "Ilustrasi yang menunjukkan cara kerja Foto ke URL",
     "heroDropTitle": "Seret foto ke sini",
     "heroDropSubtitle": "Kami akan meningkatkan dan menghostingnya, lalu mengembalikan tautan bersih.",
     "heroDropBadge": "Seret atau klik (JPG/PNG, hingga 10MB)",
-    "logoAlt": "Logo Photo to URL"
+    "logoAlt": "Logo Foto ke URL"
   }
 }
 

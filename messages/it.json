@@ -74,7 +74,7 @@
       "copied": "Copiato"
     },
     "benefits": {
-      "title": "Perché le persone scelgono Photo to URL",
+      "title": "Perché le persone scelgono Foto in URL",
       "subtitle": "Velocità, link puliti e nessuna registrazione necessaria.",
       "items": {
         "fast": { "title": "Condivisione veloce", "desc": "Carica e ottieni un link in pochi secondi senza passaggi extra." },
@@ -114,7 +114,7 @@
       }
     },
     "testimonials": {
-      "title": "I team risparmiano tempo con Photo to URL",
+      "title": "I team risparmiano tempo con Foto in URL",
       "subtitle": "Prova sociale per ridurre il rischio e accelerare l'adozione.",
       "items": {
         "ops": {
@@ -138,8 +138,8 @@
       "paste": "Incolla uno screenshot"
     },
     "longform": {
-      "title": "Perché Photo to URL aiuta il tuo flusso di lavoro",
-      "p1": "Photo to URL è costruito per creatori, marketer, team di supporto, fondatori e chiunque abbia bisogno di un modo rapido e affidabile per trasformare le foto in link puliti. Con un flusso diretto di caricamento-in-link, eviti pesanti gestori di media e salti i login. I link sono ordinati, facili da incollare in app di chat, documenti, wiki, rapporti di bug e ticket. I team si muovono più velocemente quando screenshot e foto di prodotti sono istantaneamente condivisibili senza limiti di allegati o anteprime disordinate. Poiché i link sono prevedibili e coerenti, funzionano bene anche nell'automazione, nei passaggi QA e nei prototipi leggeri.",
+      "title": "Perché Foto in URL aiuta il tuo flusso di lavoro",
+      "p1": "Foto in URL è costruito per creatori, marketer, team di supporto, fondatori e chiunque abbia bisogno di un modo rapido e affidabile per trasformare le foto in link puliti. Con un flusso diretto di caricamento-in-link, eviti pesanti gestori di media e salti i login. I link sono ordinati, facili da incollare in app di chat, documenti, wiki, rapporti di bug e ticket. I team si muovono più velocemente quando screenshot e foto di prodotti sono istantaneamente condivisibili senza limiti di allegati o anteprime disordinate. Poiché i link sono prevedibili e coerenti, funzionano bene anche nell'automazione, nei passaggi QA e nei prototipi leggeri.",
       "p2": "L'esperienza rimane semplice: trascina, incolla o sfoglia; ottieni un link; condividi. Nessun cromo extra, nessuna pubblicità distraente, nessun gate. Mantieni il focus sul tuo contenuto mentre gestiamo le parti noiose dell'hosting. Che tu stia documentando una funzione, preparando un post del blog, costruendo un pitch deck o inviando una risposta di supporto rapida, un link breve batte gli allegati voluminosi. Per i team globali, l'interfaccia è disponibile in più lingue mantenendo il testo conciso e universale.",
       "useCases": {
         "title": "Casi d'uso che rimangono pratici",
@@ -199,6 +199,7 @@
     }
   },
   "seo": {
+    "keywords": "foto in url, immagine in url, generatore link immagini, converti immagine in link, hosting immagini gratuito, url immagine diretto, link immagini condivisibili, link immagini cdn",
     "home": {
       "title": "Convertitore Foto in URL | Trasforma foto in link condivisibili",
       "description": "Hosting immagini gratuito: converti foto in URL permanenti all'istante. Supporta JPG, PNG, WEBP, GIF fino a 10MB. Incolla da appunti, CDN veloce, link puliti per Markdown e HTML."
@@ -209,10 +210,10 @@
     "animatingSampleAlt": "Immagine di esempio utilizzata nella demo di caricamento",
     "sampleThumbAlt": "Immagine di esempio per il caricamento",
     "useSampleAria": "Usa questa immagine di esempio",
-    "howIllustrationAlt": "Illustrazione che mostra come funziona Photo to URL",
+    "howIllustrationAlt": "Illustrazione che mostra come funziona Foto in URL",
     "heroDropTitle": "Trascina una foto qui",
     "heroDropSubtitle": "La miglioreremo e la ospiteremo, poi restituiremo un link pulito.",
     "heroDropBadge": "Trascina o clicca (JPG/PNG, fino a 10MB)",
-    "logoAlt": "Logo Photo to URL"
+    "logoAlt": "Logo Foto in URL"
   }
 }

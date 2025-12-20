@@ -74,7 +74,7 @@
       "copied": "Kopyalandı"
     },
     "benefits": {
-      "title": "İnsanlar neden Photo to URL'yi seçiyor",
+      "title": "İnsanlar neden Fotoğrafı URL'ye seçiyor",
       "subtitle": "Hız, temiz bağlantılar ve kayıt gerektirmez.",
       "items": {
         "fast": { "title": "Hızlı paylaşım", "desc": "Ekstra adım olmadan saniyeler içinde yükleyin ve bağlantı alın." },
@@ -114,7 +114,7 @@
       }
     },
     "testimonials": {
-      "title": "Photo to URL ile zaman kazanan ekipler",
+      "title": "Fotoğrafı URL'ye ile zaman kazanan ekipler",
       "subtitle": "Riski azaltmak ve benimsenmeyi hızlandırmak için sosyal kanıt.",
       "items": {
         "ops": {
@@ -138,8 +138,8 @@
       "paste": "Ekran görüntüsü yapıştır"
     },
     "longform": {
-      "title": "Photo to URL iş akışınıza nasıl yardımcı olur",
-      "p1": "Photo to URL, içerik üreticileri, pazarlamacılar, destek ekipleri, kurucular ve fotoğrafları temiz bağlantılara dönüştürmek için hızlı ve güvenilir bir yola ihtiyaç duyan herkes için tasarlandı. Doğrudan yükleme-bağlantı akışıyla, ağır medya yöneticilerinden kaçınır ve giriş yapmayı atlarsınız. Bağlantılar düzenli, sohbet uygulamalarına, belgelere, wiki'lere, hata raporlarına ve biletlere yapıştırmak kolaydır. Ekran görüntüleri ve ürün fotoğrafları ek sınırları veya karmaşık önizlemeler olmadan anında paylaşılabilir olduğunda ekipler daha hızlı ilerler. Bağlantılar tahmin edilebilir ve tutarlı olduğu için otomasyon, QA adımları ve hafif prototiplerde de iyi çalışır.",
+      "title": "Fotoğrafı URL'ye iş akışınıza nasıl yardımcı olur",
+      "p1": "Fotoğrafı URL'ye, içerik üreticileri, pazarlamacılar, destek ekipleri, kurucular ve fotoğrafları temiz bağlantılara dönüştürmek için hızlı ve güvenilir bir yola ihtiyaç duyan herkes için tasarlandı. Doğrudan yükleme-bağlantı akışıyla, ağır medya yöneticilerinden kaçınır ve giriş yapmayı atlarsınız. Bağlantılar düzenli, sohbet uygulamalarına, belgelere, wiki'lere, hata raporlarına ve biletlere yapıştırmak kolaydır. Ekran görüntüleri ve ürün fotoğrafları ek sınırları veya karmaşık önizlemeler olmadan anında paylaşılabilir olduğunda ekipler daha hızlı ilerler. Bağlantılar tahmin edilebilir ve tutarlı olduğu için otomasyon, QA adımları ve hafif prototiplerde de iyi çalışır.",
       "p2": "Deneyim basit kalır: sürükle-bırak, yapıştır veya gözat; bağlantı al; paylaş. Fazladan öğe yok, dikkat dağıtıcı reklamlar yok, engel yok. Siz içeriğinize odaklanırken biz barındırmanın sıkıcı kısımlarını hallederiz. Bir özelliği belgeliyor, blog yazısı hazırlıyor, sunum oluşturuyor veya hızlı bir destek yanıtı gönderiyor olsanız da, kısa bir bağlantı hantal eklerden daha iyidir. Küresel ekipler için arayüz, metni kısa ve evrensel tutarken birden fazla dilde mevcuttur.",
       "useCases": {
         "title": "Pratik kullanım senaryoları",
@@ -199,6 +199,7 @@
     }
   },
   "seo": {
+    "keywords": "fotoğrafı url'ye çevir, resmi url'ye çevir, resim bağlantı oluşturucu, resmi bağlantıya dönüştür, ücretsiz resim barındırma, doğrudan resim url, paylaşılabilir resim bağlantıları, cdn resim bağlantıları",
     "home": {
       "title": "Fotoğrafı URL'ye Dönüştürücü | Fotoğrafları paylaşılabilir bağlantılara çevirin",
       "description": "Ücretsiz resim barındırma: fotoğrafları anında kalıcı URL'lere dönüştürün. JPG, PNG, WEBP, GIF'e kadar 10MB destekler. Pano yapıştırma, hızlı CDN, Markdown ve HTML için temiz bağlantılar."
@@ -209,11 +210,11 @@
     "animatingSampleAlt": "Yükleme demosunda kullanılan örnek resim",
     "sampleThumbAlt": "Örnek yükleme resmi",
     "useSampleAria": "Bu örnek resmi kullan",
-    "howIllustrationAlt": "Photo to URL'nin nasıl çalıştığını gösteren illüstrasyon",
+    "howIllustrationAlt": "Fotoğrafı URL'ye'nin nasıl çalıştığını gösteren illüstrasyon",
     "heroDropTitle": "Buraya bir fotoğraf sürükleyin",
     "heroDropSubtitle": "Geliştirip barındıracağız, sonra temiz bir bağlantı döndüreceğiz.",
     "heroDropBadge": "Sürükle veya tıkla (JPG/PNG, 10MB'a kadar)",
-    "logoAlt": "Photo to URL logosu"
+    "logoAlt": "Fotoğrafı URL'ye logosu"
   }
 }
 

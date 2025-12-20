@@ -74,7 +74,7 @@
       "copied": "Zkopírováno"
     },
     "benefits": {
-      "title": "Proč lidé volí Photo to URL",
+      "title": "Proč lidé volí Foto na URL",
       "subtitle": "Rychlost, čisté odkazy a bez registrace.",
       "items": {
         "fast": { "title": "Rychlé sdílení", "desc": "Nahrajte a získejte odkaz během vteřin bez dalších kroků." },
@@ -114,7 +114,7 @@
       }
     },
     "testimonials": {
-      "title": "Týmy šetří čas s Photo to URL",
+      "title": "Týmy šetří čas s Foto na URL",
       "subtitle": "Sociální důkaz pro snížení rizika a urychlení přijetí.",
       "items": {
         "ops": {
@@ -138,8 +138,8 @@
       "paste": "Vložit snímek obrazovky"
     },
     "longform": {
-      "title": "Proč Photo to URL pomáhá vašemu pracovnímu procesu",
-      "p1": "Photo to URL je vytvořen pro tvůrce, marketingové specialisty, týmy podpory, zakladatele a kohokoli, kdo potřebuje rychlý a spolehlivý způsob, jak přeměnit fotky na čisté odkazy. S přímým procesem nahrání-odkaz se vyhnete těžkým správcům médií a přeskočíte přihlášení. Odkazy jsou uklizené, snadno se vkládají do chatovacích aplikací, dokumentů, wiki, hlášení chyb a tiketů. Týmy se pohybují rychleji, když jsou snímky obrazovky a produktové fotky okamžitě sdílené bez limitů příloh nebo chaotických náhledů. Protože jsou odkazy předvídatelné a konzistentní, také dobře fungují v automatizaci, QA krocích a lehkých prototypech.",
+      "title": "Proč Foto na URL pomáhá vašemu pracovnímu procesu",
+      "p1": "Foto na URL je vytvořen pro tvůrce, marketingové specialisty, týmy podpory, zakladatele a kohokoli, kdo potřebuje rychlý a spolehlivý způsob, jak přeměnit fotky na čisté odkazy. S přímým procesem nahrání-odkaz se vyhnete těžkým správcům médií a přeskočíte přihlášení. Odkazy jsou uklizené, snadno se vkládají do chatovacích aplikací, dokumentů, wiki, hlášení chyb a tiketů. Týmy se pohybují rychleji, když jsou snímky obrazovky a produktové fotky okamžitě sdílené bez limitů příloh nebo chaotických náhledů. Protože jsou odkazy předvídatelné a konzistentní, také dobře fungují v automatizaci, QA krocích a lehkých prototypech.",
       "p2": "Zkušenost zůstává jednoduchá: přetáhněte, vložte nebo procházejte; získejte odkaz; sdílejte. Žádné další prvky, žádné rušivé reklamy, žádné bariéry. Zaměřujete se na svůj obsah, zatímco my se staráme o nudné části hostování. Ať už dokumentujete funkci, připravujete blogový příspěvek, vytváříte prezentaci nebo posíláte rychlou odpověď podpory, krátký odkaz poráží objemné přílohy. Pro globální týmy je rozhraní dostupné ve více jazycích při zachování textu stručného a univerzálního.",
       "useCases": {
         "title": "Praktické případy použití",
@@ -199,6 +199,7 @@
     }
   },
   "seo": {
+    "keywords": "fotka na url, obrázek na url, generátor odkazů obrázků, převést obrázek na odkaz, bezplatné hostování obrázků, přímý url obrázku, sdílené odkazy obrázků, cdn odkazy obrázků",
     "home": {
       "title": "Převodník Foto na URL | Převeďte fotky na sdílené odkazy",
       "description": "Bezplatné hostování obrázků: okamžitě převeďte fotky na trvalé URL. Podporuje JPG, PNG, WEBP, GIF do 10MB. Vložení ze schránky, rychlé CDN, čisté odkazy pro Markdown a HTML."
@@ -209,11 +210,11 @@
     "animatingSampleAlt": "Ukázkový obrázek použitý v demo nahrávání",
     "sampleThumbAlt": "Ukázkový nahraný obrázek",
     "useSampleAria": "Použít tento ukázkový obrázek",
-    "howIllustrationAlt": "Ilustrace ukazující, jak Photo to URL funguje",
+    "howIllustrationAlt": "Ilustrace ukazující, jak Foto na URL funguje",
     "heroDropTitle": "Přetáhněte sem fotku",
     "heroDropSubtitle": "Vylepšíme a hostujeme ji, poté vrátíme čistý odkaz.",
     "heroDropBadge": "Přetáhněte nebo klikněte (JPG/PNG, do 10MB)",
-    "logoAlt": "Logo Photo to URL"
+    "logoAlt": "Logo Foto na URL"
   }
 }
 

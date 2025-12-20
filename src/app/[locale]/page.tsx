@@ -808,13 +808,13 @@ export default function HomePage() {
             <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
               {[
                 { code: "en", label: "English", countryCode: "US" },
-                { code: "zh", label: "简体中文 (Simplified Chinese)", countryCode: "CN" },
+                { code: "de", label: "Deutsch (German)", countryCode: "DE" },
                 { code: "es", label: "Español (Spanish)", countryCode: "ES" },
                 { code: "fr", label: "Français (French)", countryCode: "FR" },
                 { code: "ar", label: "العربية (Arabic)", countryCode: "SA" },
                 { code: "pt", label: "Português (Portuguese)", countryCode: "PT" },
                 { code: "ja", label: "日本語 (Japanese)", countryCode: "JP" },
-                { code: "de", label: "Deutsch (German)", countryCode: "DE" },
+                { code: "zh", label: "简体中文 (Simplified Chinese)", countryCode: "CN" },
                 { code: "ko", label: "한국어 (Korean)", countryCode: "KR" },
                 { code: "it", label: "Italiano (Italian)", countryCode: "IT" },
                 { code: "zh-TW", label: "繁體中文 (Traditional Chinese)", countryCode: "TW" },
