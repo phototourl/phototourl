@@ -27,6 +27,35 @@
       },
       "copyright": "© 2025 Photo to URL. Alla rättigheter förbehållna."
     }
+  },
+  "home": {
+    "selectRegion": {
+      "title": "Välj region",
+      "subtitle": "Välj ditt föredragna språk och region"
+    },
+    "rateService": {
+      "title": "Betygsätt Foto till URL-konverterare",
+      "thankYou": "Tack för din feedback!",
+      "averageRating": "4.5",
+      "votes": "4,992 röster"
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "Foto till URL-konverterare | Gör om foton till delbara länkar",
+      "description": "Gratis bildhosting: konvertera foton till permanenta URL:er direkt. Stöder JPG, PNG, WEBP, GIF upp till 10MB. Klistra in från urklipp, snabb CDN, rena länkar för Markdown & HTML."
+    }
+  },
+  "images": {
+    "previewAlt": "Förhandsvisning av uppladdad bild",
+    "animatingSampleAlt": "Exempelbild som används i uppladdningsdemo",
+    "sampleThumbAlt": "Exempelbild för uppladdning",
+    "useSampleAria": "Använd denna exempelbild",
+    "howIllustrationAlt": "Illustration som visar hur Photo to URL fungerar",
+    "heroDropTitle": "Dra en foto hit",
+    "heroDropSubtitle": "Vi kommer att förbättra och hosta den, sedan returnera en ren länk.",
+    "heroDropBadge": "Dra eller klicka (JPG/PNG, upp till 10MB)",
+    "logoAlt": "Photo to URL-logotyp"
   }
 }
 

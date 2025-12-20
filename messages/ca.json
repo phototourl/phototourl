@@ -186,6 +186,16 @@
         "title": "Keywords we care about",
         "p1": "photo to url, image to url, photo hosting, shareable links, direct image link, free image hosting, cdn photo link, upload and copy link, paste image to link, instant photo link, blog image links, docs image links, chat image link, markdown image link, html image link, photo cdn, fast image sharing, no signup image host, simple photo hosting, quick image uploader, link generator for photos."
       }
+    },
+    "selectRegion": {
+      "title": "Selecciona la regió",
+      "subtitle": "Tria el teu idioma i regió preferits"
+    },
+    "rateService": {
+      "title": "Valora el Convertidor de Fotos a URL",
+      "thankYou": "Gràcies pel teu feedback!",
+      "averageRating": "4.5",
+      "votes": "4,992 vots"
     }
   },
   "seo": {

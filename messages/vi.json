@@ -1,7 +1,61 @@
 {
   "common": {
     "siteName": "Photo to URL",
-    "tagline": "Biến ảnh thành liên kết gọn gàng, dễ chia sẻ chỉ trong vài giây"
+    "tagline": "Biến ảnh thành liên kết gọn gàng, dễ chia sẻ chỉ trong vài giây",
+    "header": {
+      "subtitle": "Biến hình ảnh thành liên kết có thể chia sẻ",
+      "prompt": "Kéo thả, dán hoặc tải lên — nhận liên kết ngay lập tức"
+    },
+    "footer": {
+      "blurb": {
+        "line1": "Biến ảnh thành liên kết gọn gàng, dễ chia sẻ.",
+        "line2": "Nhanh, đơn giản, đáng tin cậy."
+      },
+      "partners": "Đối tác",
+      "linksTitle": "Liên kết",
+      "productsTitle": "Sản phẩm",
+      "nav": {
+        "home": "Trang chủ",
+        "blog": "Blog",
+        "docs": "Tài liệu",
+        "status": "Trạng thái",
+        "contact": "Liên hệ"
+      },
+      "legal": {
+        "privacy": "Quyền riêng tư",
+        "terms": "Điều khoản"
+      },
+      "copyright": "© 2025 Photo to URL. Bảo lưu mọi quyền."
+    }
+  },
+  "home": {
+    "selectRegion": {
+      "title": "Chọn khu vực",
+      "subtitle": "Chọn ngôn ngữ và khu vực ưa thích của bạn"
+    },
+    "rateService": {
+      "title": "Đánh giá Bộ chuyển đổi Ảnh sang URL",
+      "thankYou": "Cảm ơn phản hồi của bạn!",
+      "averageRating": "4.5",
+      "votes": "4,992 phiếu bầu"
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "Bộ chuyển đổi Ảnh sang URL | Biến ảnh thành liên kết có thể chia sẻ",
+      "description": "Lưu trữ hình ảnh miễn phí: chuyển đổi ảnh thành URL vĩnh viễn ngay lập tức. Hỗ trợ JPG, PNG, WEBP, GIF lên đến 10MB. Dán từ clipboard, CDN nhanh, liên kết sạch cho Markdown & HTML."
+    }
+  },
+  "images": {
+    "previewAlt": "Xem trước hình ảnh đã tải lên",
+    "animatingSampleAlt": "Hình ảnh mẫu được sử dụng trong demo tải lên",
+    "sampleThumbAlt": "Hình ảnh mẫu để tải lên",
+    "useSampleAria": "Sử dụng hình ảnh mẫu này",
+    "howIllustrationAlt": "Minh họa cho thấy cách Photo to URL hoạt động",
+    "heroDropTitle": "Kéo một bức ảnh vào đây",
+    "heroDropSubtitle": "Chúng tôi sẽ cải thiện và lưu trữ nó, sau đó trả về một liên kết sạch.",
+    "heroDropBadge": "Kéo hoặc nhấp (JPG/PNG, lên đến 10MB)",
+    "logoAlt": "Logo Photo to URL"
   }
 }
 

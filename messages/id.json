@@ -1,7 +1,32 @@
 {
   "common": {
     "siteName": "Photo to URL",
-    "tagline": "Ubah foto menjadi tautan bersih yang mudah dibagikan dalam hitungan detik"
+    "tagline": "Ubah foto menjadi tautan bersih yang mudah dibagikan dalam hitungan detik",
+    "header": {
+      "subtitle": "Ubah gambar menjadi tautan yang bisa dibagikan",
+      "prompt": "Seret, tempel, atau unggah — dapatkan tautan secara instan"
+    },
+    "footer": {
+      "blurb": {
+        "line1": "Ubah foto menjadi tautan bersih yang mudah dibagikan.",
+        "line2": "Cepat, sederhana, andal."
+      },
+      "partners": "Mitra",
+      "linksTitle": "Tautan",
+      "productsTitle": "Produk",
+      "nav": {
+        "home": "Beranda",
+        "blog": "Blog",
+        "docs": "Dokumentasi",
+        "status": "Status",
+        "contact": "Kontak"
+      },
+      "legal": {
+        "privacy": "Privasi",
+        "terms": "Ketentuan"
+      },
+      "copyright": "© 2025 Photo to URL. Hak cipta dilindungi."
+    }
   },
   "home": {
     "badge": {
@@ -10,8 +35,10 @@
       "nosignup": "Tanpa daftar"
     },
     "hero": {
+      "title1": "Gratis",
+      "title2": "foto ke URL",
       "title": "Ubah foto jadi tautan bersih dan mudah dibagikan dalam detik",
-      "subtitle": "Unggah sekali, tempel di mana saja. Cara sederhana menaruh foto untuk blog, dokumen, chat, dan prototipe cepat.",
+      "subtitle": "Unggah → dapatkan tautan → tempel di mana saja.",
       "upload": "Unggah gambar",
       "bullet": {
         "fast": "Berbagi cepat",
@@ -20,9 +47,23 @@
         "paste": "Tempel dari clipboard"
       }
     },
+    "demo": {
+      "label": "Demo",
+      "loop": "Demo otomatis",
+      "idleTitle": "Seret & lepas gambar Anda",
+      "idleSubtitle": "Lihat alur lengkap unggah → tautan → salin.",
+      "processing": "Mengoptimalkan & mengunggah...",
+      "doneTitle": "Siap dibagikan",
+      "doneSubtitle": "Tautan Anda siap dibagikan secara instan.",
+      "thanksForWatching": "Terima kasih telah menonton"
+    },
     "upload": {
       "title": "Jatuhkan foto atau klik untuk pilih",
-      "hint": "JPG/PNG/WEBP/GIF maks 10MB. Seret & lepas, klik, atau tempel tangkapan layar."
+      "hint": "JPG/PNG/WEBP/GIF maks 10MB. Seret & lepas, klik, atau tempel tangkapan layar.",
+      "orDrop": "atau jatuhkan file",
+      "samplesTitle": "Tidak ada gambar? Coba salah satu ini:",
+      "policy": "Dengan mengunggah gambar, Anda menyetujui <privacy>Kebijakan Privasi</privacy> dan <terms>Ketentuan Penggunaan</terms> kami.",
+      "clear": "Hapus"
     },
     "result": {
       "error": "Unggahan gagal. Coba lagi.",
@@ -84,7 +125,84 @@
       "subtitle": "Seret, tempel, atau unggah—salin tautanmu dan bagikan di mana saja.",
       "upload": "Unggah sekarang",
       "paste": "Tempel tangkapan layar"
+    },
+    "longform": {
+      "title": "Mengapa Photo to URL membantu alur kerja Anda",
+      "p1": "Photo to URL dibuat untuk kreator, marketer, tim dukungan, pendiri, dan siapa pun yang membutuhkan cara cepat dan andal untuk mengubah foto menjadi tautan bersih. Dengan alur unggah-ke-tautan langsung, Anda menghindari manajer media yang berat dan melewatkan login. Tautan rapi, mudah ditempelkan ke aplikasi chat, dokumen, wiki, laporan bug, dan tiket. Tim bergerak lebih cepat ketika tangkapan layar dan foto produk langsung dapat dibagikan tanpa batas lampiran atau pratinjau yang berantakan. Karena tautannya dapat diprediksi dan konsisten, mereka juga bekerja dengan baik dalam otomasi, langkah QA, dan prototipe ringan.",
+      "p2": "Pengalaman tetap sederhana: jatuhkan, tempel, atau telusuri; dapatkan tautan; bagikan. Tidak ada krom ekstra, tidak ada iklan yang mengganggu, tidak ada pembatasan. Anda tetap fokus pada konten sementara kami menangani bagian membosankan dari hosting. Baik Anda mendokumentasikan fitur, menyiapkan posting blog, membuat pitch deck, atau mengirim respons dukungan cepat, tautan pendek mengalahkan lampiran yang besar. Untuk tim global, antarmuka tersedia dalam berbagai bahasa sambil menjaga salinan ringkas dan universal.",
+      "useCases": {
+        "title": "Kasus penggunaan yang tetap praktis",
+        "items": {
+          "1": "Produk dan desain: bagikan mockup UI, tangkapan layar komponen, dan catatan visual cepat tanpa mengekspor ke alat berat.",
+          "2": "Dukungan dan QA: lampirkan tangkapan layar yang dapat direproduksi di tiket, thread chat, atau runbook; tautan tetap rapi dan mudah dilacak.",
+          "3": "Dokumen dan blog: sematkan foto di Markdown, HTML, atau editor CMS dengan URL yang dapat diprediksi dan tanpa kejutan tata letak.",
+          "4": "Penjualan dan CS: jatuhkan bukti konsep atau walkthrough pelanggan langsung ke email atau pesan.",
+          "5": "Handoff teknik: jaga artefak build, snap error, dan visual regresi ringan untuk tinjauan lebih cepat.",
+          "6": "Komunitas dan sosial: tempel tautan ke Discord, Slack, Teams, Twitter/X, atau forum tanpa pratinjau yang membengkak."
+        }
+      },
+      "flow": {
+        "title": "Cara alur bekerja dari ujung ke ujung",
+        "p1": "1) Pilih gambar: drag-and-drop, tempel dari clipboard, atau klik untuk menelusuri. PNG, JPG, WEBP, GIF hingga 10MB didukung sekarang. 2) Kami mengunggah dan mengembalikan tautan langsung. UI menampilkan URL Anda segera dengan aksi salin, buka, dan simpan multi-format (.txt, .json, .md). 3) Anda menggunakan kembali tautan di mana saja: blog, dokumen, tiket, chat, prototipe. Tujuannya adalah jembatan tanpa gesekan antara foto Anda dan tempat Anda bekerja.",
+        "p2": "Setiap langkah disetel untuk kejelasan: status terlihat, kesalahan ramah, dan tombol yang mengonfirmasi tindakan. Tombol salin berada di sebelah tautan, dan tombol simpan memungkinkan Anda menyimpan URL dalam format pilihan Anda untuk bookmark atau otomasi. Ketika R2 diaktifkan, tautan dilayani dari domain CDN; jika layanan sedang dalam pemeliharaan, UI mengembalikan pesan yang jelas alih-alih kesalahan mentah."
+      },
+      "best": {
+        "title": "Praktik terbaik untuk tautan yang lebih bersih",
+        "items": {
+          "1": "Jaga nama file bermakna sebelum unggah; mereka tetap menjadi bagian dari URL dan membantu pencarian di masa depan.",
+          "2": "Gunakan WEBP atau JPG/PNG yang dioptimalkan untuk payload yang lebih ringan jika Anda mengharapkan berbagi berat.",
+          "3": "Salin tautan langsung setelah pembuatan untuk menghindari entri clipboard yang basi.",
+          "4": "Simpan sebagai .json ketika Anda perlu menyimpan referensi batch untuk otomasi atau audit.",
+          "5": "Gunakan output .md saat menyematkan di dokumen atau wiki; siap untuk ditempel.",
+          "6": "Simpan sebagai .txt untuk tautan teks biasa yang siap untuk disalin dan digunakan."
+        }
+      },
+      "roadmap": {
+        "title": "Sorotan roadmap",
+        "p1": "Peningkatan yang akan datang termasuk integrasi Cloudflare R2 yang lebih dalam secara default, batas unggah yang lebih murah hati, auth opsional untuk ruang tim, dan analitik per-tautan. Kami juga merencanakan gaya tautan preset, hapus satu klik, dan bucket tingkat organisasi. Polish SEO berlanjut di blog, dokumen, dan halaman status, dengan skema yang lebih kaya dan sitemap publik untuk pengindeksan cepat."
+      },
+      "faq": {
+        "title": "FAQ",
+        "items": {
+          "1": { "q": "Apakah gratis?", "a": "Ya, unggah-ke-tautan inti gratis. Hosting berbasis CDN melalui R2 akan diluncurkan dengan tier yang murah hati." },
+          "2": { "q": "Format apa yang didukung?", "a": "PNG, JPG, WEBP, GIF hingga 10MB hari ini. Format lebih lanjut dapat ditambahkan berdasarkan permintaan." },
+          "3": { "q": "Bisakah saya menyematkan di Markdown atau HTML?", "a": "Ya. Salin tautan apa adanya, atau gunakan simpan .txt / .json / .md satu klik untuk snippet drop-in." },
+          "4": { "q": "Apakah Anda menyimpan file saya publik?", "a": "Tautan dapat dibagikan; ketika R2 CDN diaktifkan, mereka dilayani melalui domain CDN. Kami menampilkan pesan pemeliharaan yang jelas jika penyimpanan tidak tersedia." },
+          "5": { "q": "Akankah ada akun atau tim?", "a": "Direncanakan. Kami memprioritaskan unggahan tanpa gesekan terlebih dahulu, lalu menambahkan ruang tim, kontrol akses, dan analitik." }
+        }
+      },
+      "keywords": {
+        "title": "Kata kunci yang kami pedulikan",
+        "p1": "photo to url, image to url, hosting foto, tautan yang bisa dibagikan, tautan gambar langsung, hosting gambar gratis, tautan foto cdn, unggah dan salin tautan, tempel gambar ke tautan, tautan foto instan, tautan gambar blog, tautan gambar dokumen, tautan gambar chat, tautan gambar markdown, tautan gambar html, foto cdn, berbagi gambar cepat, hosting gambar tanpa pendaftaran, hosting foto sederhana, pengunggah gambar cepat, generator tautan untuk foto."
+      }
+    },
+    "selectRegion": {
+      "title": "Pilih Wilayah",
+      "subtitle": "Pilih bahasa dan wilayah pilihan Anda"
+    },
+    "rateService": {
+      "title": "Nilai Pengonversi Foto ke URL",
+      "thankYou": "Terima kasih atas masukan Anda!",
+      "averageRating": "4.5",
+      "votes": "4,992 suara"
     }
+  },
+  "seo": {
+    "home": {
+      "title": "Pengonversi Foto ke URL | Ubah foto menjadi tautan yang bisa dibagikan",
+      "description": "Hosting gambar gratis: konversi foto ke URL permanen secara instan. Mendukung JPG, PNG, WEBP, GIF hingga 10MB. Tempel clipboard, CDN cepat, tautan bersih untuk Markdown & HTML."
+    }
+  },
+  "images": {
+    "previewAlt": "Pratinjau gambar yang diunggah",
+    "animatingSampleAlt": "Gambar sampel yang digunakan dalam demo unggah",
+    "sampleThumbAlt": "Gambar sampel unggah",
+    "useSampleAria": "Gunakan gambar sampel ini",
+    "howIllustrationAlt": "Ilustrasi yang menunjukkan cara kerja Photo to URL",
+    "heroDropTitle": "Seret foto ke sini",
+    "heroDropSubtitle": "Kami akan meningkatkan dan menghostingnya, lalu mengembalikan tautan bersih.",
+    "heroDropBadge": "Seret atau klik (JPG/PNG, hingga 10MB)",
+    "logoAlt": "Logo Photo to URL"
   }
 }
 

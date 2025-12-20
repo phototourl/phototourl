@@ -859,9 +859,10 @@ export default function HomePage() {
             <h3 className="text-2xl font-bold text-slate-800">{t("rateService.title")}</h3>
             
             {/* Thank You Message */}
-            <AnimatePresence>
-              {showThankYou && (
+            <AnimatePresence mode="wait">
+              {showThankYou ? (
                 <motion.div
+                  key="thank-you"
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -10 }}
@@ -870,7 +871,7 @@ export default function HomePage() {
                   <Check className="h-5 w-5" />
                   <span>{t("rateService.thankYou")}</span>
                 </motion.div>
-              )}
+              ) : null}
             </AnimatePresence>
             <div className="flex items-center justify-center gap-1">
               {[1, 2, 3, 4, 5].map((star) => {

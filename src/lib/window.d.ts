@@ -1,4 +1,4 @@
 interface Window {
-  sa_event(name: string): void;
-  gtag?: (...args: any[]) => void;
+  sa_event(_name: string): void;
+  gtag?: (..._args: any[]) => void;
 }

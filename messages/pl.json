@@ -27,6 +27,35 @@
       },
       "copyright": "© 2025 Photo to URL. Wszelkie prawa zastrzeżone."
     }
+  },
+  "home": {
+    "selectRegion": {
+      "title": "Wybierz region",
+      "subtitle": "Wybierz preferowany język i region"
+    },
+    "rateService": {
+      "title": "Oceń Konwerter Zdjęć na URL",
+      "thankYou": "Dziękujemy za opinię!",
+      "averageRating": "4.5",
+      "votes": "4,992 głosów"
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "Konwerter Zdjęć na URL | Zamień zdjęcia w linki do udostępniania",
+      "description": "Darmowy hosting obrazów: konwertuj zdjęcia na stałe URL natychmiast. Obsługuje JPG, PNG, WEBP, GIF do 10MB. Wklejanie ze schowka, szybki CDN, czyste linki dla Markdown i HTML."
+    }
+  },
+  "images": {
+    "previewAlt": "Podgląd przesłanego obrazu",
+    "animatingSampleAlt": "Przykładowy obraz używany w demo przesyłania",
+    "sampleThumbAlt": "Przykładowy obraz do przesłania",
+    "useSampleAria": "Użyj tego przykładowego obrazu",
+    "howIllustrationAlt": "Ilustracja pokazująca jak działa Photo to URL",
+    "heroDropTitle": "Przeciągnij zdjęcie tutaj",
+    "heroDropSubtitle": "Ulepszymy i udostępnimy je, a następnie zwrócimy czysty link.",
+    "heroDropBadge": "Przeciągnij lub kliknij (JPG/PNG, do 10MB)",
+    "logoAlt": "Logo Photo to URL"
   }
 }
 

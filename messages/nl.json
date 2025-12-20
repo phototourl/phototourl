@@ -27,6 +27,35 @@
       },
       "copyright": "© 2025 Photo to URL. Alle rechten voorbehouden."
     }
+  },
+  "home": {
+    "selectRegion": {
+      "title": "Selecteer regio",
+      "subtitle": "Kies uw voorkeurstaal en regio"
+    },
+    "rateService": {
+      "title": "Beoordeel Foto naar URL Converter",
+      "thankYou": "Bedankt voor uw feedback!",
+      "averageRating": "4.5",
+      "votes": "4,992 stemmen"
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "Foto naar URL Converter | Zet foto's om in deelbare links",
+      "description": "Gratis afbeelding hosting: converteer foto's direct naar permanente URL's. Ondersteunt JPG, PNG, WEBP, GIF tot 10MB. Plakken vanuit klembord, snelle CDN, schone links voor Markdown & HTML."
+    }
+  },
+  "images": {
+    "previewAlt": "Voorvertoning geüploade afbeelding",
+    "animatingSampleAlt": "Voorbeeldafbeelding gebruikt in upload demo",
+    "sampleThumbAlt": "Voorbeeld upload afbeelding",
+    "useSampleAria": "Gebruik deze voorbeeldafbeelding",
+    "howIllustrationAlt": "Illustratie die laat zien hoe Photo to URL werkt",
+    "heroDropTitle": "Sleep een foto hierheen",
+    "heroDropSubtitle": "We zullen het verbeteren en hosten, en dan een schone link teruggeven.",
+    "heroDropBadge": "Sleep of klik (JPG/PNG, tot 10MB)",
+    "logoAlt": "Photo to URL logo"
   }
 }
 
