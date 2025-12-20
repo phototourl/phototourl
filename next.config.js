@@ -62,6 +62,9 @@ module.exports = withNextIntl(
 
       org: "vantezzen",
       project: "wrapped-for-tiktok",
+      
+      // Skip source map upload if no auth token is configured
+      dryRun: !process.env.SENTRY_AUTH_TOKEN,
     },
     {
       // For all available options, see:

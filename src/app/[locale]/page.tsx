@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import type { CSSProperties } from "react";
 import Image from "next/image";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import logoShowcase from "../../../public/projects/light1024logo.png";
 import {
   Upload,
@@ -859,20 +859,17 @@ export default function HomePage() {
             <h3 className="text-2xl font-bold text-slate-800">{t("rateService.title")}</h3>
             
             {/* Thank You Message */}
-            <AnimatePresence mode="wait">
-              {showThankYou ? (
-                <motion.div
-                  key="thank-you"
-                  initial={{ opacity: 0, y: -10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: -10 }}
-                  className="flex items-center justify-center gap-2 text-green-600 font-medium"
-                >
-                  <Check className="h-5 w-5" />
-                  <span>{t("rateService.thankYou")}</span>
-                </motion.div>
-              ) : null}
-            </AnimatePresence>
+            {showThankYou && (
+              <motion.div
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -10 }}
+                className="flex items-center justify-center gap-2 text-green-600 font-medium"
+              >
+                <Check className="h-5 w-5" />
+                <span>{t("rateService.thankYou")}</span>
+              </motion.div>
+            )}
             <div className="flex items-center justify-center gap-1">
               {[1, 2, 3, 4, 5].map((star) => {
                 const displayRating = hoveredStar || selectedRating;
