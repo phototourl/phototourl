@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "Photo to URL",
+    "siteName": "Foto zu URL",
     "tagline": "Wandeln Sie Fotos in saubere, teilbare Links in Sekunden um",
     "header": {
       "subtitle": "Bilder in teilbare Links verwandeln",
@@ -172,7 +172,7 @@
       },
       "keywords": {
         "title": "Wichtige Suchbegriffe",
-        "p1": "photo to url, image to url, Foto‑Hosting, teilbare Links, direkter Bildlink, kostenloses Bildhosting, CDN‑Links für Fotos, hochladen und Link kopieren, Bild einfügen um Link zu erzeugen, sofortiger Fotolink, Bildlinks für Blogs, Bildlinks für Docs, Bildlink für Chats, Bildlink in Markdown, Bildlink in HTML, Foto‑CDN, schnelles Teilen von Bildern, Bildhosting ohne Anmeldung, einfaches Foto‑Hosting, schneller Bild‑Uploader, Link‑Generator für Fotos."
+        "p1": "foto zu url, bild zu url, bildlink generator, bild in link umwandeln, kostenloses bildhosting, direkte bild url, teilbare bildlinks, cdn bildlinks"
       }
     },
     "selectRegion": {

@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "Photo to URL",
+    "siteName": "Fotoğrafı URL'ye",
     "tagline": "Fotoğrafları saniyeler içinde temiz, paylaşılabilir bağlantılara dönüştürün",
     "header": {
       "subtitle": "Görselleri paylaşılabilir bağlantılara dönüştürün",
@@ -184,7 +184,7 @@
       },
       "keywords": {
         "title": "Önemsediğimiz anahtar kelimeler",
-        "p1": "fotoğrafı url'ye çevir, resmi url'ye çevir, fotoğraf barındırma, paylaşılabilir bağlantılar, doğrudan resim bağlantısı, ücretsiz resim barındırma, cdn fotoğraf bağlantısı, yükle ve bağlantı kopyala, resmi yapıştır bağlantı oluştur, anında fotoğraf bağlantısı, blog resim bağlantıları, belge resim bağlantıları, sohbet resim bağlantısı, markdown resim bağlantısı, html resim bağlantısı, fotoğraf cdn, hızlı resim paylaşımı, kayıt gerektirmeyen resim barındırma, basit fotoğraf barındırma, hızlı resim yükleyici, fotoğraflar için bağlantı oluşturucu."
+        "p1": "fotoğrafı url'ye çevir, resmi url'ye çevir, resim bağlantı oluşturucu, resmi bağlantıya dönüştür, ücretsiz resim barındırma, doğrudan resim url, paylaşılabilir resim bağlantıları, cdn resim bağlantıları"
       }
     },
     "selectRegion": {

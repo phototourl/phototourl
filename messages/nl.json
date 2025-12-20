@@ -1,14 +1,14 @@
 {
   "common": {
-    "siteName": "Photo to URL",
-    "tagline": "Zet foto’s in seconden om in schone, deelbare links",
+    "siteName": "Foto naar URL",
+    "tagline": "Zet foto's in seconden om in schone, deelbare links",
     "header": {
       "subtitle": "Maak van afbeeldingen deelbare links",
       "prompt": "Sleep, plak of upload — krijg direct een deelbare link"
     },
     "footer": {
       "blurb": {
-        "line1": "Maak van foto’s schone, deelbare links.",
+        "line1": "Maak van foto's schone, deelbare links.",
         "line2": "Snel, simpel, betrouwbaar."
       },
       "partners": "Partners",
@@ -29,6 +29,164 @@
     }
   },
   "home": {
+    "badge": {
+      "free": "Gratis",
+      "cdn": "CDN links",
+      "nosignup": "Geen registratie"
+    },
+    "hero": {
+      "title1": "Gratis",
+      "title2": "foto naar URL",
+      "subtitle": "Upload → krijg een link → plak overal.",
+      "upload": "Upload afbeelding",
+      "bullet": {
+        "fast": "Snelle delen",
+        "direct": "Directe fotolinks",
+        "nosignup": "Geen registratie vereist",
+        "paste": "Plak vanuit klembord"
+      }
+    },
+    "demo": {
+      "label": "Demo",
+      "loop": "Auto demo",
+      "idleTitle": "Sleep en zet je afbeelding neer",
+      "idleSubtitle": "Zie de volledige upload → link → kopieer flow.",
+      "processing": "Optimaliseren en uploaden...",
+      "doneTitle": "Klaar om te delen",
+      "doneSubtitle": "Je link is direct klaar om te delen.",
+      "thanksForWatching": "Bedankt voor het kijken"
+    },
+    "upload": {
+      "title": "Sleep een foto of klik om te bladeren",
+      "hint": "JPG, PNG, WEBP, GIF tot 10MB. Sleep en zet neer, klik, of plak screenshots.",
+      "orDrop": "of sleep een bestand",
+      "samplesTitle": "Geen afbeelding? Probeer een van deze:",
+      "policy": "Door een afbeelding te uploaden ga je akkoord met ons <privacy>Privacybeleid</privacy> en <terms>Gebruiksvoorwaarden</terms>.",
+      "clear": "Wissen"
+    },
+    "result": {
+      "error": "Upload mislukt. Probeer het opnieuw.",
+      "generated": "Gegenereerde link:",
+      "open": "Openen in nieuw tabblad",
+      "placeholder": "Nog geen link. Upload een foto om een deelbare URL te genereren.",
+      "savePrompt": "Sla link op zoals je wilt",
+      "copy": "Kopieer link",
+      "copied": "Gekopieerd"
+    },
+    "benefits": {
+      "title": "Waarom mensen kiezen voor Photo to URL",
+      "subtitle": "Snelheid, schone links en geen registratie nodig.",
+      "items": {
+        "fast": { "title": "Snelle delen", "desc": "Upload en krijg een link in seconden zonder extra stappen." },
+        "direct": { "title": "Directe afbeeldings-URL's", "desc": "Schone links die werken in HTML, Markdown en chat-apps." },
+        "nosignup": { "title": "Geen registratie vereist", "desc": "Gebruik het direct. Accounts kunnen later komen naarmate we groeien." }
+      }
+    },
+    "how": {
+      "title": "Hoe het werkt",
+      "step1": "1) Voeg je foto toe (sleep, plak of klik om een bestand te kiezen).",
+      "step2": "2) We hosten het en geven een deelbare link terug.",
+      "step3": "3) Kopieer en deel de link overal waar je werkt.",
+      "note": "Je link opent snel in documenten, chats en prototypes—plus je kunt het downloaden in het formaat dat je wilt (.txt/.json/.md)."
+    },
+    "process": {
+      "title": "Drie-staps flow",
+      "subtitle": "Verminder inspanning, houd de CTA zichtbaar, klaar in seconden.",
+      "steps": {
+        "1": { "title": "Sleep of plak", "desc": "Sleep een bestand, plak vanuit klembord of blader." },
+        "2": { "title": "We hosten en geven een link terug", "desc": "Directe URL met kopieer/open/sla controles." },
+        "3": { "title": "Deel overal", "desc": "Plak in documenten, chats, tickets, blogs of prototypes." }
+      }
+    },
+    "features": {
+      "title": "Functie hoogtepunten",
+      "subtitle": "Duidelijkheid eerst: minder wrijving, meer delen.",
+      "items": {
+        "cdn": { "title": "Directe CDN links", "desc": "Schone, voorspelbare URL's klaar voor Markdown en HTML-embeddingen." },
+        "save": {
+          "title": "Kopieer en sla acties",
+          "desc": "Kopieer, open of sla op als .txt/.json/.md met één klik."
+        },
+        "clipboard": { "title": "Klembordvriendelijk", "desc": "Plak screenshots zonder naar bestanden te zoeken of opnieuw te uploaden." },
+        "errors": { "title": "Vriendelijke fouten", "desc": "Duidelijke onderhoudsberichten in plaats van technische stack traces." },
+        "nosignup": { "title": "Geen registratie nodig", "desc": "Verzend sneller—upload en deel direct." },
+        "r2": { "title": "Snelle hosting", "desc": "Links worden via snelle CDN geleverd voor snelle laadtijden en betrouwbare toegang." }
+      }
+    },
+    "testimonials": {
+      "title": "Teams besparen tijd met Photo to URL",
+      "subtitle": "Sociale bewijzen om risico te verminderen en adoptie te versnellen.",
+      "items": {
+        "ops": {
+          "name": "Product Ops",
+          "quote": "We plakken screenshots in tickets zonder bijlagen te verstoppen. Links blijven schoon."
+        },
+        "content": {
+          "name": "Content Lead",
+          "quote": "Markdown-klare links houden onze documenten netjes en binnen minuten publiceerbaar."
+        },
+        "support": {
+          "name": "Ondersteuning",
+          "quote": "Duidelijke fouten en directe URL's maken het gemakkelijk om klanten in chat te begeleiden."
+        }
+      }
+    },
+    "cta": {
+      "title": "Zet foto's in seconden om in links",
+      "subtitle": "Sleep, plak of upload—kopieer je link en deel overal.",
+      "upload": "Upload nu",
+      "paste": "Plak een screenshot"
+    },
+    "longform": {
+      "title": "Waarom Photo to URL je workflow helpt",
+      "p1": "Photo to URL is gebouwd voor makers, marketeers, ondersteuningsteams, oprichters en iedereen die een snelle, betrouwbare manier nodig heeft om foto's om te zetten in schone links. Met een directe upload-naar-link flow vermijd je zware mediamanagers en sla je inloggen over. Links zijn netjes, gemakkelijk te plakken in chat-apps, documenten, wiki's, bugrapporten en tickets. Teams bewegen sneller wanneer screenshots en productfoto's direct deelbaar zijn zonder bijlagenlimieten of rommelige voorvertoningen. Omdat de links voorspelbaar en consistent zijn, werken ze ook goed in automatisering, QA-stappen en lichte prototypes.",
+      "p2": "De ervaring blijft eenvoudig: sleep, plak of blader; krijg een link; deel. Geen extra chrome, geen afleidende advertenties, geen gating. Je blijft gefocust op je inhoud terwijl wij de saaie delen van hosting afhandelen. Of je nu een functie documenteert, een blogpost voorbereidt, een pitch deck bouwt of een snelle ondersteuningsreactie verzendt, een korte link verslaat omvangrijke bijlagen. Voor wereldwijde teams is de interface beschikbaar in meerdere talen terwijl de tekst beknopt en universeel blijft.",
+      "useCases": {
+        "title": "Gebruikssituaties die praktisch blijven",
+        "items": {
+          "1": "Product en design: deel UI-mocks, componentscreenshots en snelle visuele notities zonder te exporteren naar zware tools.",
+          "2": "Ondersteuning en QA: voeg reproduceerbare screenshots toe in tickets, chatthreads of runbooks; links blijven netjes en gemakkelijk te volgen.",
+          "3": "Documenten en blogs: embed foto's in Markdown, HTML of CMS-editors met voorspelbare URL's en geen layoutverrassingen.",
+          "4": "Verkoop en CS: laat proof-of-concept captures of klantwalkthroughs direct in e-mail of berichten vallen.",
+          "5": "Engineering handoff: houd buildartefacten, foutsnapshots en regressievisuele elementen lichtgewicht voor snellere beoordelingen.",
+          "6": "Gemeenschap en sociale media: plak links in Discord, Slack, Teams, Twitter/X of forums zonder opgeblazen voorvertoningen."
+        }
+      },
+      "flow": {
+        "title": "Hoe de flow end-to-end werkt",
+        "p1": "1) Kies een afbeelding: sleep-en-zet-neer, plak vanuit klembord of klik om te bladeren. PNG, JPG, WEBP, GIF tot 10MB worden nu ondersteund. 2) We uploaden en geven een directe link terug. De UI toont je URL direct met kopieer, open en multi-formaat sla acties (.txt, .json, .md). 3) Je hergebruikt de link overal: blogs, documenten, tickets, chat, prototypes. Het doel is een naadloze brug tussen je foto en de plekken waar je werkt.",
+        "p2": "Elke stap is afgestemd op duidelijkheid: zichtbare status, vriendelijke fouten en knoppen die acties bevestigen. De kopieerknop staat naast de link en de sla-knoppen laten je de URL in je voorkeursformaat bewaren voor bookmarking of automatisering. Wanneer R2 is ingeschakeld, worden links geleverd vanuit het CDN-domein; als de service in onderhoud is, geeft de UI een duidelijk bericht terug in plaats van ruwe fouten."
+      },
+      "best": {
+        "title": "Beste praktijken voor schonere links",
+        "items": {
+          "1": "Houd bestandsnamen betekenisvol voor upload; ze blijven deel van de URL en helpen toekomstige zoekopdrachten.",
+          "2": "Gebruik WEBP of geoptimaliseerde JPG/PNG voor lichtere payloads als je zwaar delen verwacht.",
+          "3": "Kopieer de link direct na generatie om verouderde klembordvermeldingen te vermijden.",
+          "4": "Sla op als .json wanneer je batchreferenties moet opslaan voor automatisering of audits.",
+          "5": "Gebruik .md output bij embedden in documenten of wiki's; het is klaar om te plakken.",
+          "6": "Sla op als .txt voor gewone tekstlinks die klaar zijn om te kopiëren en te gebruiken."
+        }
+      },
+      "roadmap": {
+        "title": "Roadmap hoogtepunten",
+        "p1": "Aankomende verbeteringen omvatten diepere Cloudflare R2-integratie standaard, ruimere uploadlimieten, optionele auth voor teamruimtes en per-link analytics. We plannen ook vooraf ingestelde linkstijlen, één-klik verwijderen en organisatieniveau buckets. SEO-polijst gaat door over blog, documenten en statuspagina's, met rijkere schema's en een openbare sitemap voor snelle indexering."
+      },
+      "faq": {
+        "title": "Veelgestelde vragen",
+        "items": {
+          "1": { "q": "Is het gratis?", "a": "Ja, core upload-naar-link is gratis. CDN-ondersteunde hosting via R2 wordt uitgerold met ruimhartige tiers." },
+          "2": { "q": "Welke formaten worden ondersteund?", "a": "PNG, JPG, WEBP, GIF tot 10MB vandaag. Meer formaten kunnen worden toegevoegd op basis van vraag." },
+          "3": { "q": "Kan ik embedden in Markdown of HTML?", "a": "Ja. Kopieer de link zoals hij is, of gebruik de één-klik .txt / .json / .md opslagen voor drop-in snippets." },
+          "4": { "q": "Houd je mijn bestanden openbaar?", "a": "Links zijn deelbaar; wanneer R2 CDN is ingeschakeld, worden ze geleverd via het CDN-domein. We tonen duidelijke onderhoudsberichten als opslag niet beschikbaar is." },
+          "5": { "q": "Zullen er accounts of teams zijn?", "a": "Gepland. We prioriteren naadloze uploads eerst, voegen dan teamruimtes, toegangscontrole en analytics toe." }
+        }
+      },
+      "keywords": {
+        "title": "Trefwoorden waar we om geven",
+        "p1": "foto naar url, afbeelding naar url, afbeelding link generator, converteer afbeelding naar link, gratis afbeelding hosting, directe afbeelding url, deelbare afbeelding links, cdn afbeelding links"
+      }
+    },
     "selectRegion": {
       "title": "Selecteer regio",
       "subtitle": "Kies uw voorkeurstaal en regio"
@@ -58,5 +216,3 @@
     "logoAlt": "Photo to URL logo"
   }
 }
-
-

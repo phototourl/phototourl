@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "Photo to URL",
+    "siteName": "Foto till URL",
     "tagline": "Gör om foton till rena, delbara länkar på några sekunder",
     "header": {
       "subtitle": "Gör om bilder till delbara länkar",
@@ -29,6 +29,164 @@
     }
   },
   "home": {
+    "badge": {
+      "free": "Gratis",
+      "cdn": "CDN-länkar",
+      "nosignup": "Ingen registrering"
+    },
+    "hero": {
+      "title1": "Gratis",
+      "title2": "foto till URL",
+      "subtitle": "Ladda upp → få en länk → klistra in var som helst.",
+      "upload": "Ladda upp bild",
+      "bullet": {
+        "fast": "Snabb delning",
+        "direct": "Direkta fotolänkar",
+        "nosignup": "Ingen registrering krävs",
+        "paste": "Klistra in från urklipp"
+      }
+    },
+    "demo": {
+      "label": "Demo",
+      "loop": "Auto demo",
+      "idleTitle": "Dra och släpp din bild",
+      "idleSubtitle": "Se hela uppladdnings → länk → kopieringsflödet.",
+      "processing": "Optimerar och laddar upp...",
+      "doneTitle": "Redo att dela",
+      "doneSubtitle": "Din länk är redo att delas direkt.",
+      "thanksForWatching": "Tack för att du tittade"
+    },
+    "upload": {
+      "title": "Släpp en foto eller klicka för att bläddra",
+      "hint": "JPG, PNG, WEBP, GIF upp till 10MB. Dra och släpp, klicka eller klistra in skärmdumpar.",
+      "orDrop": "eller släpp en fil",
+      "samplesTitle": "Ingen bild? Prova en av dessa:",
+      "policy": "Genom att ladda upp en bild godkänner du vår <privacy>Integritetspolicy</privacy> och <terms>Användarvillkor</terms>.",
+      "clear": "Rensa"
+    },
+    "result": {
+      "error": "Uppladdning misslyckades. Försök igen.",
+      "generated": "Genererad länk:",
+      "open": "Öppna i ny flik",
+      "placeholder": "Ingen länk än. Ladda upp en foto för att generera en delbar URL.",
+      "savePrompt": "Spara länk som du vill",
+      "copy": "Kopiera länk",
+      "copied": "Kopierad"
+    },
+    "benefits": {
+      "title": "Varför folk väljer Photo to URL",
+      "subtitle": "Hastighet, rena länkar och ingen registrering behövs.",
+      "items": {
+        "fast": { "title": "Snabb delning", "desc": "Ladda upp och få en länk på sekunder utan extra steg." },
+        "direct": { "title": "Direkta bild-URL:er", "desc": "Rena länkar som fungerar i HTML, Markdown och chattappar." },
+        "nosignup": { "title": "Ingen registrering krävs", "desc": "Använd det direkt. Konton kan komma senare när vi växer." }
+      }
+    },
+    "how": {
+      "title": "Hur det fungerar",
+      "step1": "1) Lägg till din foto (dra, klistra in eller klicka för att välja en fil).",
+      "step2": "2) Vi hostar den och returnerar en delbar länk.",
+      "step3": "3) Kopiera och dela länken var du än arbetar.",
+      "note": "Din länk öppnas snabbt i dokument, chattar och prototyper—plus du kan ladda ner den i det format du gillar (.txt/.json/.md)."
+    },
+    "process": {
+      "title": "Trestegsflöde",
+      "subtitle": "Minska ansträngningen, håll CTA synlig, klar på sekunder.",
+      "steps": {
+        "1": { "title": "Släpp eller klistra in", "desc": "Dra en fil, klistra in från urklipp eller bläddra." },
+        "2": { "title": "Vi hostar och returnerar en länk", "desc": "Omedelbar URL med kopiera/öppna/spara-kontroller." },
+        "3": { "title": "Dela var som helst", "desc": "Klistra in i dokument, chattar, biljetter, bloggar eller prototyper." }
+      }
+    },
+    "features": {
+      "title": "Funktionshöjdpunkter",
+      "subtitle": "Tydlighet först: mindre friktion, mer delning.",
+      "items": {
+        "cdn": { "title": "Direkta CDN-länkar", "desc": "Rena, förutsägbara URL:er redo för Markdown- och HTML-inbäddningar." },
+        "save": {
+          "title": "Kopiera och spara-åtgärder",
+          "desc": "Kopiera, öppna eller spara som .txt/.json/.md med ett klick."
+        },
+        "clipboard": { "title": "Urklippsvänligt", "desc": "Klistra in skärmdumpar utan att jaga efter filer eller omladdningar." },
+        "errors": { "title": "Vänliga fel", "desc": "Tydliga underhållsmeddelanden istället för tekniska stackspår." },
+        "nosignup": { "title": "Ingen registrering behövs", "desc": "Skicka snabbare—ladda upp och dela omedelbart." },
+        "r2": { "title": "Snabb hosting", "desc": "Länkar serveras via snabb CDN för snabb laddning och tillförlitlig åtkomst." }
+      }
+    },
+    "testimonials": {
+      "title": "Team sparar tid med Photo to URL",
+      "subtitle": "Socialt bevis för att minska risken och påskynda adoptionen.",
+      "items": {
+        "ops": {
+          "name": "Product Ops",
+          "quote": "Vi klistrar in skärmdumpar i biljetter utan att täppa till bilagor. Länkar förblir rena."
+        },
+        "content": {
+          "name": "Content Lead",
+          "quote": "Markdown-redo länkar håller våra dokument snygga och publicerbara på minuter."
+        },
+        "support": {
+          "name": "Support",
+          "quote": "Tydliga fel och omedelbara URL:er gör det enkelt att guida kunder i chatt."
+        }
+      }
+    },
+    "cta": {
+      "title": "Gör om foton till länkar på sekunder",
+      "subtitle": "Släpp, klistra in eller ladda upp—kopiera din länk och dela överallt.",
+      "upload": "Ladda upp nu",
+      "paste": "Klistra in en skärmdump"
+    },
+    "longform": {
+      "title": "Varför Photo to URL hjälper ditt arbetsflöde",
+      "p1": "Photo to URL är byggt för skapare, marknadsförare, supportteam, grundare och alla som behöver ett snabbt, tillförlitligt sätt att göra om foton till rena länkar. Med ett direkt uppladdnings-till-länk-flöde undviker du tunga mediehanterare och hoppar över inloggningar. Länkar är snygga, lätta att klistra in i chattappar, dokument, wikis, felrapporter och biljetter. Team rör sig snabbare när skärmdumpar och produktfoton är omedelbart delbara utan bilagsbegränsningar eller röriga förhandsvisningar. Eftersom länkarna är förutsägbara och konsekventa fungerar de också bra i automatisering, QA-steg och lätta prototyper.",
+      "p2": "Upplevelsen förblir enkel: släpp, klistra in eller bläddra; få en länk; dela. Ingen extra krom, inga distraherande annonser, inga grindar. Du håller fokus på ditt innehåll medan vi hanterar de tråkiga delarna av hosting. Oavsett om du dokumenterar en funktion, förbereder ett blogginlägg, bygger en pitch deck eller skickar ett snabbt support-svar, slår en kort länk omfattande bilagor. För globala team är gränssnittet tillgängligt på flera språk samtidigt som texten hålls koncis och universell.",
+      "useCases": {
+        "title": "Användningsfall som förblir praktiska",
+        "items": {
+          "1": "Produkt och design: dela UI-mockups, komponent-skärmdumpar och snabba visuella anteckningar utan att exportera till tunga verktyg.",
+          "2": "Support och QA: bifoga reproducerbara skärmdumpar i biljetter, chatt-trådar eller runbooks; länkar förblir snygga och lätta att spåra.",
+          "3": "Dokument och bloggar: bädda in foton i Markdown, HTML eller CMS-redigerare med förutsägbara URL:er och inga layoutöverraskningar.",
+          "4": "Försäljning och CS: släpp proof-of-concept-fångster eller kundgenomgångar direkt i e-post eller meddelanden.",
+          "5": "Engineering handoff: håll byggartefakter, felsnapshotar och regressionsvisuella lättviktiga för snabbare recensioner.",
+          "6": "Gemenskap och sociala medier: klistra in länkar i Discord, Slack, Teams, Twitter/X eller forum utan uppblåsta förhandsvisningar."
+        }
+      },
+      "flow": {
+        "title": "Hur flödet fungerar från början till slut",
+        "p1": "1) Välj en bild: dra och släpp, klistra in från urklipp eller klicka för att bläddra. PNG, JPG, WEBP, GIF upp till 10MB stöds nu. 2) Vi laddar upp och returnerar en direkt länk. UI:en visar din URL omedelbart med kopiera, öppna och multi-format spara-åtgärder (.txt, .json, .md). 3) Du återanvänder länken var som helst: bloggar, dokument, biljetter, chatt, prototyper. Målet är en friktionsfri bro mellan din foto och platserna där du arbetar.",
+        "p2": "Varje steg är inställt för tydlighet: synlig status, vänliga fel och knappar som bekräftar åtgärder. Kopieringsknappen sitter bredvid länken, och spara-knapparna låter dig behålla URL:en i ditt föredragna format för bokmärkning eller automatisering. När R2 är aktiverat serveras länkar från CDN-domänen; om tjänsten är under underhåll returnerar UI:en ett tydligt meddelande istället för råa fel."
+      },
+      "best": {
+        "title": "Bästa praxis för renare länkar",
+        "items": {
+          "1": "Håll filnamn meningsfulla före uppladdning; de förblir del av URL:en och hjälper framtida sökning.",
+          "2": "Använd WEBP eller optimerade JPG/PNG för lättare nyttolaster om du förväntar dig tung delning.",
+          "3": "Kopiera länken direkt efter generering för att undvika föråldrade urklippsposter.",
+          "4": "Spara som .json när du behöver batch-lagra referenser för automatisering eller revisioner.",
+          "5": "Använd .md-utdata när du bäddar in i dokument eller wikis; den är redo att klistras in.",
+          "6": "Spara som .txt för vanliga textlänkar som är redo att kopieras och användas."
+        }
+      },
+      "roadmap": {
+        "title": "Roadmap-höjdpunkter",
+        "p1": "Kommande förbättringar inkluderar djupare Cloudflare R2-integration som standard, mer generösa uppladdningsgränser, valfri autentisering för teamutrymmen och per-länk-analys. Vi planerar också förinställda länkstilar, enklick-radering och organisation-nivå buckets. SEO-polering fortsätter över blogg, dokument och statussidor, med rikare schema och en offentlig webbplatskarta för snabb indexering."
+      },
+      "faq": {
+        "title": "Vanliga frågor",
+        "items": {
+          "1": { "q": "Är det gratis?", "a": "Ja, kärnuppladdning-till-länk är gratis. CDN-backad hosting via R2 kommer att lanseras med generösa nivåer." },
+          "2": { "q": "Vilka format stöds?", "a": "PNG, JPG, WEBP, GIF upp till 10MB idag. Fler format kan läggas till baserat på efterfrågan." },
+          "3": { "q": "Kan jag bädda in i Markdown eller HTML?", "a": "Ja. Kopiera länken som den är, eller använd enklick .txt / .json / .md-sparningar för drop-in-snippets." },
+          "4": { "q": "Håller ni mina filer publika?", "a": "Länkar är delbara; när R2 CDN är aktiverat serveras de via CDN-domänen. Vi visar tydliga underhållsmeddelanden om lagring inte är tillgänglig." },
+          "5": { "q": "Kommer det att finnas konton eller team?", "a": "Planerat. Vi prioriterar friktionsfria uppladdningar först, lägger sedan till teamutrymmen, åtkomstkontroll och analys." }
+        }
+      },
+      "keywords": {
+        "title": "Nyckelord vi bryr oss om",
+        "p1": "foto till url, bild till url, bildlänk generator, konvertera bild till länk, gratis bildhosting, direkt bild url, delbara bildlänkar, cdn bildlänkar"
+      }
+    },
     "selectRegion": {
       "title": "Välj region",
       "subtitle": "Välj ditt föredragna språk och region"
@@ -58,5 +216,3 @@
     "logoAlt": "Photo to URL-logotyp"
   }
 }
-
-

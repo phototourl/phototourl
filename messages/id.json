@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "Photo to URL",
+    "siteName": "Foto ke URL",
     "tagline": "Ubah foto menjadi tautan bersih yang mudah dibagikan dalam hitungan detik",
     "header": {
       "subtitle": "Ubah gambar menjadi tautan yang bisa dibagikan",
@@ -173,7 +173,7 @@
       },
       "keywords": {
         "title": "Kata kunci yang kami pedulikan",
-        "p1": "photo to url, image to url, hosting foto, tautan yang bisa dibagikan, tautan gambar langsung, hosting gambar gratis, tautan foto cdn, unggah dan salin tautan, tempel gambar ke tautan, tautan foto instan, tautan gambar blog, tautan gambar dokumen, tautan gambar chat, tautan gambar markdown, tautan gambar html, foto cdn, berbagi gambar cepat, hosting gambar tanpa pendaftaran, hosting foto sederhana, pengunggah gambar cepat, generator tautan untuk foto."
+        "p1": "foto ke url, gambar ke url, generator tautan gambar, konversi gambar ke tautan, hosting gambar gratis, url gambar langsung, tautan gambar yang bisa dibagikan, tautan gambar cdn"
       }
     },
     "selectRegion": {

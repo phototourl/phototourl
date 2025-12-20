@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "Photo to URL",
+    "siteName": "Photo vers URL",
     "tagline": "Transformez vos photos en liens partageables en un instant",
     "header": {
       "subtitle": "Transformez des images en liens partageables",
@@ -172,7 +172,7 @@
       },
       "keywords": {
         "title": "Mots-clés importants pour nous",
-        "p1": "photo to url, image to url, hébergement de photos, liens partageables, lien direct d'image, hébergement gratuit d'images, lien CDN pour photos, téléverser et copier le lien, coller une image pour générer un lien, lien photo instantané, liens d'images pour blogs, liens d'images pour docs, lien d'image pour chat, lien d'image en Markdown, lien d'image en HTML, CDN de photos, partage rapide d'images, hébergement sans inscription, hébergement simple de photos, outil rapide de mise en ligne d'images, générateur de liens pour photos."
+        "p1": "photo vers url, image vers url, générateur de liens d'images, convertir image en lien, hébergement gratuit d'images, url d'image directe, liens d'images partageables, liens d'images cdn"
       }
     },
     "selectRegion": {

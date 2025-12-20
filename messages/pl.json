@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "Photo to URL",
+    "siteName": "Zdjęcie do URL",
     "tagline": "Zamień zdjęcia w czyste, udostępnialne linki w kilka sekund",
     "header": {
       "subtitle": "Zamieniaj obrazy w linki do udostępniania",
@@ -29,6 +29,164 @@
     }
   },
   "home": {
+    "badge": {
+      "free": "Darmowe",
+      "cdn": "Linki CDN",
+      "nosignup": "Bez rejestracji"
+    },
+    "hero": {
+      "title1": "Darmowe",
+      "title2": "zdjęcie do URL",
+      "subtitle": "Prześlij → otrzymaj link → wklej wszędzie.",
+      "upload": "Prześlij obraz",
+      "bullet": {
+        "fast": "Szybkie udostępnianie",
+        "direct": "Bezpośrednie linki do zdjęć",
+        "nosignup": "Bez rejestracji wymaganej",
+        "paste": "Wklej ze schowka"
+      }
+    },
+    "demo": {
+      "label": "Demo",
+      "loop": "Auto demo",
+      "idleTitle": "Przeciągnij i upuść swój obraz",
+      "idleSubtitle": "Zobacz pełny przepływ przesyłania → link → kopiowanie.",
+      "processing": "Optymalizowanie i przesyłanie...",
+      "doneTitle": "Gotowe do udostępnienia",
+      "doneSubtitle": "Twój link jest gotowy do natychmiastowego udostępnienia.",
+      "thanksForWatching": "Dzięki za obejrzenie"
+    },
+    "upload": {
+      "title": "Upuść zdjęcie lub kliknij, aby przeglądać",
+      "hint": "JPG, PNG, WEBP, GIF do 10MB. Przeciągnij i upuść, kliknij lub wklej zrzuty ekranu.",
+      "orDrop": "lub upuść plik",
+      "samplesTitle": "Brak obrazu? Wypróbuj jeden z tych:",
+      "policy": "Przesyłając obraz, zgadzasz się z naszą <privacy>Polityką Prywatności</privacy> i <terms>Warunkami Użytkowania</terms>.",
+      "clear": "Wyczyść"
+    },
+    "result": {
+      "error": "Przesyłanie nie powiodło się. Spróbuj ponownie.",
+      "generated": "Wygenerowany link:",
+      "open": "Otwórz w nowej karcie",
+      "placeholder": "Jeszcze brak linku. Prześlij zdjęcie, aby wygenerować udostępnialny URL.",
+      "savePrompt": "Zapisz link, jak chcesz",
+      "copy": "Kopiuj link",
+      "copied": "Skopiowano"
+    },
+    "benefits": {
+      "title": "Dlaczego ludzie wybierają Photo to URL",
+      "subtitle": "Szybkość, czyste linki i brak potrzeby rejestracji.",
+      "items": {
+        "fast": { "title": "Szybkie udostępnianie", "desc": "Prześlij i otrzymaj link w kilka sekund bez dodatkowych kroków." },
+        "direct": { "title": "Bezpośrednie URL obrazów", "desc": "Czyste linki działające w HTML, Markdown i aplikacjach czatu." },
+        "nosignup": { "title": "Bez rejestracji wymaganej", "desc": "Użyj od razu. Konta mogą pojawić się później, gdy będziemy się rozwijać." }
+      }
+    },
+    "how": {
+      "title": "Jak to działa",
+      "step1": "1) Dodaj swoje zdjęcie (przeciągnij, wklej lub kliknij, aby wybrać plik).",
+      "step2": "2) Hostujemy je i zwracamy udostępnialny link.",
+      "step3": "3) Skopiuj i udostępnij link wszędzie, gdzie pracujesz.",
+      "note": "Twój link otwiera się szybko w dokumentach, czatach i prototypach—plus możesz pobrać go w formacie, który lubisz (.txt/.json/.md)."
+    },
+    "process": {
+      "title": "Przepływ w trzech krokach",
+      "subtitle": "Zmniejsz wysiłek, zachowaj CTA widoczne, zakończ w kilka sekund.",
+      "steps": {
+        "1": { "title": "Upuść lub wklej", "desc": "Przeciągnij plik, wklej ze schowka lub przeglądaj." },
+        "2": { "title": "Hostujemy i zwracamy link", "desc": "Natychmiastowy URL z kontrolami kopiuj/otwórz/zapisz." },
+        "3": { "title": "Udostępnij wszędzie", "desc": "Wklej do dokumentów, czatów, zgłoszeń, blogów lub prototypów." }
+      }
+    },
+    "features": {
+      "title": "Najważniejsze funkcje",
+      "subtitle": "Przejrzystość przede wszystkim: mniej tarcia, więcej udostępniania.",
+      "items": {
+        "cdn": { "title": "Bezpośrednie linki CDN", "desc": "Czyste, przewidywalne URL gotowe do osadzania w Markdown i HTML." },
+        "save": {
+          "title": "Akcje kopiuj i zapisz",
+          "desc": "Kopiuj, otwórz lub zapisz jako .txt/.json/.md jednym kliknięciem."
+        },
+        "clipboard": { "title": "Przyjazne dla schowka", "desc": "Wklej zrzuty ekranu bez szukania plików lub ponownego przesyłania." },
+        "errors": { "title": "Przyjazne błędy", "desc": "Czyste komunikaty o konserwacji zamiast technicznych śladów stosu." },
+        "nosignup": { "title": "Brak potrzeby rejestracji", "desc": "Wysyłaj szybciej—prześlij i udostępnij natychmiast." },
+        "r2": { "title": "Szybki hosting", "desc": "Linki są obsługiwane przez szybki CDN dla szybkiego ładowania i niezawodnego dostępu." }
+      }
+    },
+    "testimonials": {
+      "title": "Zespoły oszczędzają czas z Photo to URL",
+      "subtitle": "Dowód społeczny, aby zmniejszyć ryzyko i przyspieszyć adopcję.",
+      "items": {
+        "ops": {
+          "name": "Product Ops",
+          "quote": "Wklejamy zrzuty ekranu do zgłoszeń bez zatykania załączników. Linki pozostają czyste."
+        },
+        "content": {
+          "name": "Content Lead",
+          "quote": "Linki gotowe do Markdown utrzymują nasze dokumenty uporządkowane i gotowe do publikacji w kilka minut."
+        },
+        "support": {
+          "name": "Wsparcie",
+          "quote": "Czyste błędy i natychmiastowe URL ułatwiają prowadzenie klientów w czacie."
+        }
+      }
+    },
+    "cta": {
+      "title": "Zamień zdjęcia w linki w kilka sekund",
+      "subtitle": "Upuść, wklej lub prześlij—skopiuj swój link i udostępnij wszędzie.",
+      "upload": "Prześlij teraz",
+      "paste": "Wklej zrzut ekranu"
+    },
+    "longform": {
+      "title": "Dlaczego Photo to URL pomaga w Twoim przepływie pracy",
+      "p1": "Photo to URL jest zbudowane dla twórców, marketerów, zespołów wsparcia, założycieli i każdego, kto potrzebuje szybkiego, niezawodnego sposobu na zamianę zdjęć w czyste linki. Dzięki bezpośredniemu przepływowi przesyłania-do-linku unikasz ciężkich menedżerów multimediów i pomijasz logowania. Linki są uporządkowane, łatwe do wklejenia w aplikacje czatu, dokumenty, wiki, raporty błędów i zgłoszenia. Zespoły poruszają się szybciej, gdy zrzuty ekranu i zdjęcia produktów są natychmiast udostępnialne bez limitów załączników lub niechlujnych podglądów. Ponieważ linki są przewidywalne i spójne, działają również dobrze w automatyzacji, krokach QA i lekkich prototypach.",
+      "p2": "Doświadczenie pozostaje proste: upuść, wklej lub przeglądaj; otrzymaj link; udostępnij. Bez dodatkowego chrome, bez rozpraszających reklam, bez bramek. Skupiasz się na swojej treści, podczas gdy my obsługujemy nudne części hostingu. Czy dokumentujesz funkcję, przygotowujesz post na blogu, budujesz pitch deck czy wysyłasz szybką odpowiedź wsparcia, krótki link bije masywne załączniki. Dla globalnych zespołów interfejs jest dostępny w wielu językach, zachowując tekst zwięzły i uniwersalny.",
+      "useCases": {
+        "title": "Przypadki użycia, które pozostają praktyczne",
+        "items": {
+          "1": "Produkt i design: udostępniaj mockupy UI, zrzuty ekranu komponentów i szybkie notatki wizualne bez eksportowania do ciężkich narzędzi.",
+          "2": "Wsparcie i QA: dołączaj reprodukowalne zrzuty ekranu w zgłoszeniach, wątkach czatu lub runbookach; linki pozostają uporządkowane i łatwe do śledzenia.",
+          "3": "Dokumenty i blogi: osadzaj zdjęcia w Markdown, HTML lub edytorach CMS z przewidywalnymi URL i bez niespodzianek w układzie.",
+          "4": "Sprzedaż i CS: upuść przechwyty proof-of-concept lub przejścia klientów bezpośrednio do e-maila lub wiadomości.",
+          "5": "Przekazanie inżynierskie: utrzymuj artefakty budowy, migawki błędów i wizualizacje regresji lekkie dla szybszych przeglądów.",
+          "6": "Społeczność i media społecznościowe: wklejaj linki do Discord, Slack, Teams, Twitter/X lub forów bez nadętych podglądów."
+        }
+      },
+      "flow": {
+        "title": "Jak działa przepływ end-to-end",
+        "p1": "1) Wybierz obraz: przeciągnij i upuść, wklej ze schowka lub kliknij, aby przeglądać. PNG, JPG, WEBP, GIF do 10MB są teraz obsługiwane. 2) Przesyłamy i zwracamy bezpośredni link. UI natychmiast pokazuje Twój URL z akcjami kopiuj, otwórz i zapisz w wielu formatach (.txt, .json, .md). 3) Wykorzystujesz link wszędzie: blogi, dokumenty, zgłoszenia, czat, prototypy. Celem jest bezproblemowy most między Twoim zdjęciem a miejscami, w których pracujesz.",
+        "p2": "Każdy krok jest dostrojony do przejrzystości: widoczny status, przyjazne błędy i przyciski, które potwierdzają akcje. Przycisk kopiuj znajduje się obok linku, a przyciski zapisz pozwalają zachować URL w preferowanym formacie do zakładek lub automatyzacji. Gdy R2 jest włączone, linki są obsługiwane z domeny CDN; jeśli usługa jest w konserwacji, UI zwraca czysty komunikat zamiast surowych błędów."
+      },
+      "best": {
+        "title": "Najlepsze praktyki dla czystszych linków",
+        "items": {
+          "1": "Zachowaj znaczące nazwy plików przed przesłaniem; pozostają częścią URL i pomagają w przyszłym wyszukiwaniu.",
+          "2": "Użyj WEBP lub zoptymalizowanych JPG/PNG dla lżejszych ładunków, jeśli spodziewasz się intensywnego udostępniania.",
+          "3": "Skopiuj link bezpośrednio po wygenerowaniu, aby uniknąć przestarzałych wpisów w schowku.",
+          "4": "Zapisz jako .json, gdy potrzebujesz wsadowego przechowywania referencji do automatyzacji lub audytów.",
+          "5": "Użyj wyjścia .md podczas osadzania w dokumentach lub wiki; jest gotowe do wklejenia.",
+          "6": "Zapisz jako .txt dla zwykłych linków tekstowych gotowych do kopiowania i używania."
+        }
+      },
+      "roadmap": {
+        "title": "Najważniejsze punkty roadmapy",
+        "p1": "Nadchodzące ulepszenia obejmują głębszą integrację Cloudflare R2 domyślnie, bardziej hojne limity przesyłania, opcjonalną autoryzację dla przestrzeni zespołowych i analitykę per-link. Planujemy również wstępnie ustawione style linków, usuwanie jednym kliknięciem i zasobniki na poziomie organizacji. Polerowanie SEO trwa w blogach, dokumentach i stronach statusu, z bogatszym schematem i publiczną mapą witryny dla szybkiego indeksowania."
+      },
+      "faq": {
+        "title": "Najczęściej zadawane pytania",
+        "items": {
+          "1": { "q": "Czy jest darmowe?", "a": "Tak, podstawowe przesyłanie-do-linku jest darmowe. Hosting wspierany przez CDN przez R2 zostanie wdrożony z hojnymi poziomami." },
+          "2": { "q": "Jakie formaty są obsługiwane?", "a": "PNG, JPG, WEBP, GIF do 10MB dzisiaj. Więcej formatów może zostać dodanych na podstawie zapotrzebowania." },
+          "3": { "q": "Czy mogę osadzić w Markdown lub HTML?", "a": "Tak. Skopiuj link tak jak jest, lub użyj jednoklikowych zapisów .txt / .json / .md dla fragmentów drop-in." },
+          "4": { "q": "Czy przechowujecie moje pliki publicznie?", "a": "Linki są udostępnialne; gdy R2 CDN jest włączone, są obsługiwane przez domenę CDN. Pokazujemy czyste komunikaty o konserwacji, jeśli magazyn jest niedostępny." },
+          "5": { "q": "Czy będą konta lub zespoły?", "a": "Planowane. Priorytetyzujemy bezproblemowe przesyłania najpierw, następnie dodamy przestrzenie zespołowe, kontrolę dostępu i analitykę." }
+        }
+      },
+      "keywords": {
+        "title": "Słowa kluczowe, na których nam zależy",
+        "p1": "zdjęcie do url, obraz do url, generator linków obrazów, konwertuj obraz na link, darmowy hosting obrazów, bezpośredni url obrazu, udostępnialne linki obrazów, linki obrazów cdn"
+      }
+    },
     "selectRegion": {
       "title": "Wybierz region",
       "subtitle": "Wybierz preferowany język i region"
@@ -58,5 +216,3 @@
     "logoAlt": "Logo Photo to URL"
   }
 }
-
-

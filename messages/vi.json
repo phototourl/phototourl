@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "Photo to URL",
+    "siteName": "Ảnh thành URL",
     "tagline": "Biến ảnh thành liên kết gọn gàng, dễ chia sẻ chỉ trong vài giây",
     "header": {
       "subtitle": "Biến hình ảnh thành liên kết có thể chia sẻ",
@@ -29,6 +29,164 @@
     }
   },
   "home": {
+    "badge": {
+      "free": "Miễn phí",
+      "cdn": "Liên kết CDN",
+      "nosignup": "Không cần đăng ký"
+    },
+    "hero": {
+      "title1": "Miễn phí",
+      "title2": "ảnh thành URL",
+      "subtitle": "Tải lên → nhận liên kết → dán ở bất cứ đâu.",
+      "upload": "Tải lên hình ảnh",
+      "bullet": {
+        "fast": "Chia sẻ nhanh",
+        "direct": "Liên kết ảnh trực tiếp",
+        "nosignup": "Không cần đăng ký",
+        "paste": "Dán từ clipboard"
+      }
+    },
+    "demo": {
+      "label": "Demo",
+      "loop": "Demo tự động",
+      "idleTitle": "Kéo và thả hình ảnh của bạn",
+      "idleSubtitle": "Xem quy trình tải lên → liên kết → sao chép đầy đủ.",
+      "processing": "Đang tối ưu hóa và tải lên...",
+      "doneTitle": "Sẵn sàng chia sẻ",
+      "doneSubtitle": "Liên kết của bạn sẵn sàng chia sẻ ngay lập tức.",
+      "thanksForWatching": "Cảm ơn bạn đã xem"
+    },
+    "upload": {
+      "title": "Thả ảnh hoặc nhấp để duyệt",
+      "hint": "JPG, PNG, WEBP, GIF lên đến 10MB. Kéo thả, nhấp hoặc dán ảnh chụp màn hình.",
+      "orDrop": "hoặc thả tệp",
+      "samplesTitle": "Không có hình ảnh? Thử một trong những cái này:",
+      "policy": "Bằng cách tải lên hình ảnh, bạn đồng ý với <privacy>Chính sách Quyền riêng tư</privacy> và <terms>Điều khoản Sử dụng</terms> của chúng tôi.",
+      "clear": "Xóa"
+    },
+    "result": {
+      "error": "Tải lên thất bại. Vui lòng thử lại.",
+      "generated": "Liên kết đã tạo:",
+      "open": "Mở trong tab mới",
+      "placeholder": "Chưa có liên kết. Tải lên ảnh để tạo URL có thể chia sẻ.",
+      "savePrompt": "Lưu liên kết theo ý bạn",
+      "copy": "Sao chép liên kết",
+      "copied": "Đã sao chép"
+    },
+    "benefits": {
+      "title": "Tại sao mọi người chọn Photo to URL",
+      "subtitle": "Tốc độ, liên kết sạch và không cần đăng ký.",
+      "items": {
+        "fast": { "title": "Chia sẻ nhanh", "desc": "Tải lên và nhận liên kết trong vài giây mà không cần thêm bước." },
+        "direct": { "title": "URL hình ảnh trực tiếp", "desc": "Liên kết sạch hoạt động trong HTML, Markdown và ứng dụng trò chuyện." },
+        "nosignup": { "title": "Không cần đăng ký", "desc": "Sử dụng ngay. Tài khoản có thể đến sau khi chúng tôi phát triển." }
+      }
+    },
+    "how": {
+      "title": "Cách hoạt động",
+      "step1": "1) Thêm ảnh của bạn (kéo, dán hoặc nhấp để chọn tệp).",
+      "step2": "2) Chúng tôi lưu trữ và trả về liên kết có thể chia sẻ.",
+      "step3": "3) Sao chép và chia sẻ liên kết ở bất cứ đâu bạn làm việc.",
+      "note": "Liên kết của bạn mở nhanh trong tài liệu, trò chuyện và nguyên mẫu—cộng với bạn có thể tải xuống ở định dạng bạn thích (.txt/.json/.md)."
+    },
+    "process": {
+      "title": "Quy trình ba bước",
+      "subtitle": "Giảm nỗ lực, giữ CTA hiển thị, hoàn thành trong vài giây.",
+      "steps": {
+        "1": { "title": "Thả hoặc dán", "desc": "Kéo tệp, dán từ clipboard hoặc duyệt." },
+        "2": { "title": "Chúng tôi lưu trữ và trả về liên kết", "desc": "URL tức thì với điều khiển sao chép/mở/lưu." },
+        "3": { "title": "Chia sẻ ở bất cứ đâu", "desc": "Dán vào tài liệu, trò chuyện, vé, blog hoặc nguyên mẫu." }
+      }
+    },
+    "features": {
+      "title": "Điểm nổi bật tính năng",
+      "subtitle": "Rõ ràng trước: ít ma sát, chia sẻ nhiều hơn.",
+      "items": {
+        "cdn": { "title": "Liên kết CDN trực tiếp", "desc": "URL sạch, có thể dự đoán sẵn sàng cho nhúng Markdown và HTML." },
+        "save": {
+          "title": "Hành động sao chép và lưu",
+          "desc": "Sao chép, mở hoặc lưu dưới dạng .txt/.json/.md bằng một cú nhấp."
+        },
+        "clipboard": { "title": "Thân thiện với clipboard", "desc": "Dán ảnh chụp màn hình mà không cần tìm tệp hoặc tải lên lại." },
+        "errors": { "title": "Lỗi thân thiện", "desc": "Thông báo bảo trì rõ ràng thay vì dấu vết ngăn xếp kỹ thuật." },
+        "nosignup": { "title": "Không cần đăng ký", "desc": "Gửi nhanh hơn—tải lên và chia sẻ ngay lập tức." },
+        "r2": { "title": "Lưu trữ nhanh", "desc": "Liên kết được phục vụ qua CDN nhanh để tải nhanh và truy cập đáng tin cậy." }
+      }
+    },
+    "testimonials": {
+      "title": "Nhóm tiết kiệm thời gian với Photo to URL",
+      "subtitle": "Bằng chứng xã hội để giảm rủi ro và tăng tốc độ áp dụng.",
+      "items": {
+        "ops": {
+          "name": "Product Ops",
+          "quote": "Chúng tôi dán ảnh chụp màn hình vào vé mà không làm tắc nghẽn tệp đính kèm. Liên kết vẫn sạch."
+        },
+        "content": {
+          "name": "Content Lead",
+          "quote": "Liên kết sẵn sàng cho Markdown giữ tài liệu của chúng tôi gọn gàng và có thể xuất bản trong vài phút."
+        },
+        "support": {
+          "name": "Hỗ trợ",
+          "quote": "Lỗi rõ ràng và URL tức thì giúp dễ dàng hướng dẫn khách hàng trong trò chuyện."
+        }
+      }
+    },
+    "cta": {
+      "title": "Biến ảnh thành liên kết trong vài giây",
+      "subtitle": "Thả, dán hoặc tải lên—sao chép liên kết của bạn và chia sẻ ở mọi nơi.",
+      "upload": "Tải lên ngay",
+      "paste": "Dán ảnh chụp màn hình"
+    },
+    "longform": {
+      "title": "Tại sao Photo to URL giúp quy trình làm việc của bạn",
+      "p1": "Photo to URL được xây dựng cho người sáng tạo, nhà tiếp thị, nhóm hỗ trợ, người sáng lập và bất kỳ ai cần cách nhanh chóng, đáng tin cậy để biến ảnh thành liên kết sạch. Với quy trình tải lên-thành-liên kết trực tiếp, bạn tránh được các trình quản lý phương tiện nặng và bỏ qua đăng nhập. Liên kết gọn gàng, dễ dán vào ứng dụng trò chuyện, tài liệu, wiki, báo cáo lỗi và vé. Nhóm di chuyển nhanh hơn khi ảnh chụp màn hình và ảnh sản phẩm có thể chia sẻ ngay lập tức mà không có giới hạn tệp đính kèm hoặc bản xem trước lộn xộn. Vì các liên kết có thể dự đoán và nhất quán, chúng cũng hoạt động tốt trong tự động hóa, các bước QA và nguyên mẫu nhẹ.",
+      "p2": "Trải nghiệm vẫn đơn giản: thả, dán hoặc duyệt; nhận liên kết; chia sẻ. Không có chrome thêm, không có quảng cáo gây mất tập trung, không có cổng. Bạn giữ tập trung vào nội dung của mình trong khi chúng tôi xử lý các phần nhàm chán của lưu trữ. Cho dù bạn đang ghi lại một tính năng, chuẩn bị một bài đăng blog, xây dựng pitch deck hoặc gửi phản hồi hỗ trợ nhanh, một liên kết ngắn đánh bại các tệp đính kèm cồng kềnh. Đối với các nhóm toàn cầu, giao diện có sẵn bằng nhiều ngôn ngữ trong khi giữ văn bản ngắn gọn và phổ quát.",
+      "useCases": {
+        "title": "Trường hợp sử dụng vẫn thực tế",
+        "items": {
+          "1": "Sản phẩm và thiết kế: chia sẻ mockup UI, ảnh chụp màn hình thành phần và ghi chú trực quan nhanh mà không cần xuất sang các công cụ nặng.",
+          "2": "Hỗ trợ và QA: đính kèm ảnh chụp màn hình có thể tái tạo trong vé, chủ đề trò chuyện hoặc runbook; liên kết vẫn gọn gàng và dễ theo dõi.",
+          "3": "Tài liệu và blog: nhúng ảnh trong Markdown, HTML hoặc trình chỉnh sửa CMS với URL có thể dự đoán và không có bất ngờ về bố cục.",
+          "4": "Bán hàng và CS: thả ảnh chụp proof-of-concept hoặc hướng dẫn khách hàng trực tiếp vào email hoặc tin nhắn.",
+          "5": "Bàn giao kỹ thuật: giữ artifacts xây dựng, ảnh chụp lỗi và hình ảnh hồi quy nhẹ để xem xét nhanh hơn.",
+          "6": "Cộng đồng và mạng xã hội: dán liên kết vào Discord, Slack, Teams, Twitter/X hoặc diễn đàn mà không có bản xem trước phồng to."
+        }
+      },
+      "flow": {
+        "title": "Cách quy trình hoạt động từ đầu đến cuối",
+        "p1": "1) Chọn hình ảnh: kéo và thả, dán từ clipboard hoặc nhấp để duyệt. PNG, JPG, WEBP, GIF lên đến 10MB hiện được hỗ trợ. 2) Chúng tôi tải lên và trả về liên kết trực tiếp. UI hiển thị URL của bạn ngay lập tức với các hành động sao chép, mở và lưu đa định dạng (.txt, .json, .md). 3) Bạn tái sử dụng liên kết ở bất cứ đâu: blog, tài liệu, vé, trò chuyện, nguyên mẫu. Mục tiêu là một cây cầu không ma sát giữa ảnh của bạn và những nơi bạn làm việc.",
+        "p2": "Mỗi bước được điều chỉnh để rõ ràng: trạng thái hiển thị, lỗi thân thiện và nút xác nhận hành động. Nút sao chép nằm cạnh liên kết và các nút lưu cho phép bạn giữ URL ở định dạng ưa thích để đánh dấu hoặc tự động hóa. Khi R2 được bật, liên kết được phục vụ từ miền CDN; nếu dịch vụ đang bảo trì, UI trả về thông báo rõ ràng thay vì lỗi thô."
+      },
+      "best": {
+        "title": "Thực hành tốt nhất cho liên kết sạch hơn",
+        "items": {
+          "1": "Giữ tên tệp có ý nghĩa trước khi tải lên; chúng vẫn là một phần của URL và giúp tìm kiếm trong tương lai.",
+          "2": "Sử dụng WEBP hoặc JPG/PNG được tối ưu hóa cho payload nhẹ hơn nếu bạn mong đợi chia sẻ nặng.",
+          "3": "Sao chép liên kết trực tiếp sau khi tạo để tránh mục clipboard cũ.",
+          "4": "Lưu dưới dạng .json khi bạn cần lưu trữ tham chiếu hàng loạt cho tự động hóa hoặc kiểm toán.",
+          "5": "Sử dụng đầu ra .md khi nhúng trong tài liệu hoặc wiki; sẵn sàng để dán.",
+          "6": "Lưu dưới dạng .txt cho liên kết văn bản thuần túy sẵn sàng để sao chép và sử dụng."
+        }
+      },
+      "roadmap": {
+        "title": "Điểm nổi bật của lộ trình",
+        "p1": "Các cải tiến sắp tới bao gồm tích hợp Cloudflare R2 sâu hơn theo mặc định, giới hạn tải lên hào phóng hơn, xác thực tùy chọn cho không gian nhóm và phân tích theo liên kết. Chúng tôi cũng lên kế hoạch cho kiểu liên kết đặt trước, xóa một cú nhấp và buckets cấp tổ chức. Đánh bóng SEO tiếp tục trên blog, tài liệu và trang trạng thái, với schema phong phú hơn và sơ đồ trang web công khai để lập chỉ mục nhanh."
+      },
+      "faq": {
+        "title": "Câu hỏi thường gặp",
+        "items": {
+          "1": { "q": "Có miễn phí không?", "a": "Có, tải lên-thành-liên kết cốt lõi là miễn phí. Lưu trữ được hỗ trợ CDN qua R2 sẽ được triển khai với các cấp độ hào phóng." },
+          "2": { "q": "Những định dạng nào được hỗ trợ?", "a": "PNG, JPG, WEBP, GIF lên đến 10MB ngày nay. Có thể thêm nhiều định dạng hơn dựa trên nhu cầu." },
+          "3": { "q": "Tôi có thể nhúng trong Markdown hoặc HTML không?", "a": "Có. Sao chép liên kết như hiện tại, hoặc sử dụng lưu một cú nhấp .txt / .json / .md cho các đoạn mã drop-in." },
+          "4": { "q": "Bạn có giữ tệp của tôi ở chế độ công khai không?", "a": "Liên kết có thể chia sẻ; khi R2 CDN được bật, chúng được phục vụ qua miền CDN. Chúng tôi hiển thị thông báo bảo trì rõ ràng nếu lưu trữ không khả dụng." },
+          "5": { "q": "Sẽ có tài khoản hoặc nhóm không?", "a": "Đã lên kế hoạch. Chúng tôi ưu tiên tải lên không ma sát trước, sau đó thêm không gian nhóm, kiểm soát truy cập và phân tích." }
+        }
+      },
+      "keywords": {
+        "title": "Từ khóa chúng tôi quan tâm",
+        "p1": "ảnh thành url, hình ảnh thành url, trình tạo liên kết hình ảnh, chuyển đổi hình ảnh thành liên kết, lưu trữ hình ảnh miễn phí, url hình ảnh trực tiếp, liên kết hình ảnh có thể chia sẻ, liên kết hình ảnh cdn"
+      }
+    },
     "selectRegion": {
       "title": "Chọn khu vực",
       "subtitle": "Chọn ngôn ngữ và khu vực ưa thích của bạn"
@@ -58,4 +216,3 @@
     "logoAlt": "Logo Photo to URL"
   }
 }
-

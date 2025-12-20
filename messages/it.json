@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "Photo to URL",
+    "siteName": "Foto in URL",
     "tagline": "Trasforma le foto in link puliti e condivisibili in pochi secondi",
     "header": {
       "subtitle": "Trasforma immagini in link condivisibili",
@@ -29,6 +29,164 @@
     }
   },
   "home": {
+    "badge": {
+      "free": "Gratis",
+      "cdn": "Link CDN",
+      "nosignup": "Nessuna registrazione"
+    },
+    "hero": {
+      "title1": "Gratis",
+      "title2": "foto in URL",
+      "subtitle": "Carica → ottieni un link → incolla ovunque.",
+      "upload": "Carica immagine",
+      "bullet": {
+        "fast": "Condivisione veloce",
+        "direct": "Link diretti alle foto",
+        "nosignup": "Nessuna registrazione richiesta",
+        "paste": "Incolla dagli appunti"
+      }
+    },
+    "demo": {
+      "label": "Demo",
+      "loop": "Demo automatica",
+      "idleTitle": "Trascina e rilascia la tua immagine",
+      "idleSubtitle": "Vedi il flusso completo di caricamento → link → copia.",
+      "processing": "Ottimizzazione e caricamento...",
+      "doneTitle": "Pronto per la condivisione",
+      "doneSubtitle": "Il tuo link è pronto per essere condiviso all'istante.",
+      "thanksForWatching": "Grazie per aver guardato"
+    },
+    "upload": {
+      "title": "Trascina una foto o clicca per sfogliare",
+      "hint": "JPG, PNG, WEBP, GIF fino a 10MB. Trascina e rilascia, clicca o incolla screenshot.",
+      "orDrop": "o trascina un file",
+      "samplesTitle": "Nessuna immagine? Prova una di queste:",
+      "policy": "Caricando un'immagine accetti la nostra <privacy>Informativa sulla Privacy</privacy> e i <terms>Termini di Utilizzo</terms>.",
+      "clear": "Cancella"
+    },
+    "result": {
+      "error": "Caricamento fallito. Riprova.",
+      "generated": "Link generato:",
+      "open": "Apri in nuova scheda",
+      "placeholder": "Nessun link ancora. Carica una foto per generare un URL condivisibile.",
+      "savePrompt": "Salva il link come preferisci",
+      "copy": "Copia link",
+      "copied": "Copiato"
+    },
+    "benefits": {
+      "title": "Perché le persone scelgono Photo to URL",
+      "subtitle": "Velocità, link puliti e nessuna registrazione necessaria.",
+      "items": {
+        "fast": { "title": "Condivisione veloce", "desc": "Carica e ottieni un link in pochi secondi senza passaggi extra." },
+        "direct": { "title": "URL immagini dirette", "desc": "Link puliti che funzionano in HTML, Markdown e app di chat." },
+        "nosignup": { "title": "Nessuna registrazione richiesta", "desc": "Usalo subito. Gli account possono arrivare più tardi man mano che cresciamo." }
+      }
+    },
+    "how": {
+      "title": "Come funziona",
+      "step1": "1) Aggiungi la tua foto (trascina, incolla o clicca per scegliere un file).",
+      "step2": "2) La ospitiamo e restituiamo un link condivisibile.",
+      "step3": "3) Copia e condividi il link ovunque lavori.",
+      "note": "Il tuo link si apre velocemente in documenti, chat e prototipi—inoltre puoi scaricarlo nel formato che preferisci (.txt/.json/.md)."
+    },
+    "process": {
+      "title": "Flusso in tre passaggi",
+      "subtitle": "Riduci lo sforzo, mantieni il CTA visibile, finisci in pochi secondi.",
+      "steps": {
+        "1": { "title": "Trascina o incolla", "desc": "Trascina un file, incolla dagli appunti o sfoglia." },
+        "2": { "title": "Ospitiamo e restituiamo un link", "desc": "URL istantaneo con controlli copia/apri/salva." },
+        "3": { "title": "Condividi ovunque", "desc": "Incolla in documenti, chat, ticket, blog o prototipi." }
+      }
+    },
+    "features": {
+      "title": "Caratteristiche principali",
+      "subtitle": "Chiarezza prima di tutto: meno attrito, più condivisione.",
+      "items": {
+        "cdn": { "title": "Link CDN diretti", "desc": "URL puliti e prevedibili pronti per incorporamenti Markdown e HTML." },
+        "save": {
+          "title": "Azioni copia e salva",
+          "desc": "Copia, apri o salva come .txt/.json/.md con un clic."
+        },
+        "clipboard": { "title": "Compatibile con appunti", "desc": "Incolla screenshot senza cercare file o ricaricamenti." },
+        "errors": { "title": "Errori amichevoli", "desc": "Messaggi di manutenzione chiari invece di tracce di stack tecniche." },
+        "nosignup": { "title": "Nessuna registrazione necessaria", "desc": "Spedisci più velocemente—carica e condividi immediatamente." },
+        "r2": { "title": "Hosting veloce", "desc": "I link sono serviti tramite CDN veloce per caricamento rapido e accesso affidabile." }
+      }
+    },
+    "testimonials": {
+      "title": "I team risparmiano tempo con Photo to URL",
+      "subtitle": "Prova sociale per ridurre il rischio e accelerare l'adozione.",
+      "items": {
+        "ops": {
+          "name": "Product Ops",
+          "quote": "Incolliamo screenshot nei ticket senza intasare gli allegati. I link rimangono puliti."
+        },
+        "content": {
+          "name": "Content Lead",
+          "quote": "I link pronti per Markdown mantengono i nostri documenti ordinati e pubblicabili in pochi minuti."
+        },
+        "support": {
+          "name": "Supporto",
+          "quote": "Errori chiari e URL istantanei rendono facile guidare i clienti nella chat."
+        }
+      }
+    },
+    "cta": {
+      "title": "Trasforma le foto in link in pochi secondi",
+      "subtitle": "Trascina, incolla o carica—copia il tuo link e condividi ovunque.",
+      "upload": "Carica ora",
+      "paste": "Incolla uno screenshot"
+    },
+    "longform": {
+      "title": "Perché Photo to URL aiuta il tuo flusso di lavoro",
+      "p1": "Photo to URL è costruito per creatori, marketer, team di supporto, fondatori e chiunque abbia bisogno di un modo rapido e affidabile per trasformare le foto in link puliti. Con un flusso diretto di caricamento-in-link, eviti pesanti gestori di media e salti i login. I link sono ordinati, facili da incollare in app di chat, documenti, wiki, rapporti di bug e ticket. I team si muovono più velocemente quando screenshot e foto di prodotti sono istantaneamente condivisibili senza limiti di allegati o anteprime disordinate. Poiché i link sono prevedibili e coerenti, funzionano bene anche nell'automazione, nei passaggi QA e nei prototipi leggeri.",
+      "p2": "L'esperienza rimane semplice: trascina, incolla o sfoglia; ottieni un link; condividi. Nessun cromo extra, nessuna pubblicità distraente, nessun gate. Mantieni il focus sul tuo contenuto mentre gestiamo le parti noiose dell'hosting. Che tu stia documentando una funzione, preparando un post del blog, costruendo un pitch deck o inviando una risposta di supporto rapida, un link breve batte gli allegati voluminosi. Per i team globali, l'interfaccia è disponibile in più lingue mantenendo il testo conciso e universale.",
+      "useCases": {
+        "title": "Casi d'uso che rimangono pratici",
+        "items": {
+          "1": "Prodotto e design: condividi mockup UI, screenshot di componenti e note visive rapide senza esportare in strumenti pesanti.",
+          "2": "Supporto e QA: allega screenshot riproducibili in ticket, thread di chat o runbook; i link rimangono ordinati e facili da tracciare.",
+          "3": "Documenti e blog: incorpora foto in Markdown, HTML o editor CMS con URL prevedibili e nessuna sorpresa di layout.",
+          "4": "Vendite e CS: rilascia catture proof-of-concept o walkthrough dei clienti direttamente in email o messaggistica.",
+          "5": "Handoff ingegneristico: mantieni artefatti di build, snapshot di errori e visuali di regressione leggeri per revisioni più veloci.",
+          "6": "Comunità e social: incolla link in Discord, Slack, Teams, Twitter/X o forum senza anteprime gonfiate."
+        }
+      },
+      "flow": {
+        "title": "Come funziona il flusso end-to-end",
+        "p1": "1) Scegli un'immagine: trascina e rilascia, incolla dagli appunti o clicca per sfogliare. PNG, JPG, WEBP, GIF fino a 10MB sono supportati ora. 2) Carichiamo e restituiamo un link diretto. L'UI mostra immediatamente il tuo URL con azioni di copia, apertura e salvataggio multi-formato (.txt, .json, .md). 3) Riutilizzi il link ovunque: blog, documenti, ticket, chat, prototipi. L'obiettivo è un ponte senza attrito tra la tua foto e i luoghi in cui lavori.",
+        "p2": "Ogni passaggio è ottimizzato per la chiarezza: stato visibile, errori amichevoli e pulsanti che confermano le azioni. Il pulsante copia si trova accanto al link e i pulsanti salva ti permettono di mantenere l'URL nel formato preferito per bookmark o automazione. Quando R2 è abilitato, i link vengono serviti dal dominio CDN; se il servizio è in manutenzione, l'UI restituisce un messaggio chiaro invece di errori grezzi."
+      },
+      "best": {
+        "title": "Migliori pratiche per link più puliti",
+        "items": {
+          "1": "Mantieni i nomi dei file significativi prima del caricamento; rimangono parte dell'URL e aiutano la ricerca futura.",
+          "2": "Usa WEBP o JPG/PNG ottimizzati per payload più leggeri se ti aspetti una condivisione pesante.",
+          "3": "Copia il link direttamente dopo la generazione per evitare voci di appunti obsolete.",
+          "4": "Salva come .json quando hai bisogno di memorizzare riferimenti in batch per automazione o audit.",
+          "5": "Usa l'output .md quando incorpori in documenti o wiki; è pronto per essere incollato.",
+          "6": "Salva come .txt per link di testo semplice pronti per essere copiati e utilizzati."
+        }
+      },
+      "roadmap": {
+        "title": "Punti salienti della roadmap",
+        "p1": "I miglioramenti imminenti includono un'integrazione più profonda di Cloudflare R2 per impostazione predefinita, limiti di caricamento più generosi, autenticazione opzionale per spazi team e analisi per link. Pianifichiamo anche stili di link preimpostati, eliminazione con un clic e bucket a livello di organizzazione. La lucidatura SEO continua su blog, documenti e pagine di stato, con schema più ricco e una sitemap pubblica per indicizzazione rapida."
+      },
+      "faq": {
+        "title": "FAQ",
+        "items": {
+          "1": { "q": "È gratuito?", "a": "Sì, il core upload-to-link è gratuito. L'hosting supportato da CDN tramite R2 verrà lanciato con tier generosi." },
+          "2": { "q": "Quali formati sono supportati?", "a": "PNG, JPG, WEBP, GIF fino a 10MB oggi. Altri formati possono essere aggiunti in base alla domanda." },
+          "3": { "q": "Posso incorporare in Markdown o HTML?", "a": "Sì. Copia il link così com'è, o usa i salvataggi .txt / .json / .md con un clic per snippet drop-in." },
+          "4": { "q": "Mantieni i miei file pubblici?", "a": "I link sono condivisibili; quando R2 CDN è abilitato, vengono serviti tramite il dominio CDN. Mostriamo messaggi di manutenzione chiari se lo storage non è disponibile." },
+          "5": { "q": "Ci saranno account o team?", "a": "Pianificato. Diamo priorità ai caricamenti senza attrito prima, poi aggiungiamo spazi team, controllo di accesso e analisi." }
+        }
+      },
+      "keywords": {
+        "title": "Parole chiave a cui teniamo",
+        "p1": "foto in url, immagine in url, generatore link immagini, converti immagine in link, hosting immagini gratuito, url immagine diretto, link immagini condivisibili, link immagini cdn"
+      }
+    },
     "selectRegion": {
       "title": "Seleziona regione",
       "subtitle": "Scegli la tua lingua e regione preferite"
@@ -58,5 +216,3 @@
     "logoAlt": "Logo Photo to URL"
   }
 }
-
-

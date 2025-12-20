@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "Photo to URL",
+    "siteName": "Foto a URL",
     "tagline": "Convierte tus fotos en enlaces limpios y compartibles al instante",
     "header": {
       "subtitle": "Convierte imágenes en enlaces para compartir",
@@ -172,7 +172,7 @@
       },
       "keywords": {
         "title": "Palabras clave que nos importan",
-        "p1": "photo to url, image to url, alojamiento de fotos, enlaces compartibles, enlace directo de imagen, hosting de imágenes gratis, enlace CDN para fotos, subir y copiar enlace, pegar imagen para generar enlace, enlace de foto instantáneo, enlaces de imágenes para blogs, enlaces de imágenes para docs, enlace de imagen para chat, enlace de imagen para Markdown, enlace de imagen para HTML, CDN de fotos, compartir imágenes rápido, hosting de imágenes sin registro, hosting sencillo de fotos, cargador rápido de imágenes, generador de enlaces para fotos."
+        "p1": "foto a url, imagen a url, generador de enlaces de imágenes, convertir imagen a enlace, hosting de imágenes gratis, url de imagen directa, enlaces de imágenes compartibles, enlaces de imágenes cdn"
       }
     },
     "selectRegion": {

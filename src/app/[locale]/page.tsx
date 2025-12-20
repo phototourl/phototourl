@@ -805,20 +805,26 @@ export default function HomePage() {
               <h3 className="text-2xl font-bold text-slate-800">{t("selectRegion.title")}</h3>
               <p className="text-sm text-slate-600">{t("selectRegion.subtitle")}</p>
             </div>
-            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+            <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
               {[
                 { code: "en", label: "English", countryCode: "US" },
-                { code: "ar", label: "العربية (Arabic)", countryCode: "SA" },
                 { code: "zh", label: "简体中文 (Simplified Chinese)", countryCode: "CN" },
-                { code: "de", label: "Deutsch (German)", countryCode: "DE" },
                 { code: "es", label: "Español (Spanish)", countryCode: "ES" },
                 { code: "fr", label: "Français (French)", countryCode: "FR" },
-                { code: "ja", label: "日本語 (Japanese)", countryCode: "JP" },
-                { code: "ko", label: "한국어 (Korean)", countryCode: "KR" },
+                { code: "ar", label: "العربية (Arabic)", countryCode: "SA" },
                 { code: "pt", label: "Português (Portuguese)", countryCode: "PT" },
+                { code: "ja", label: "日本語 (Japanese)", countryCode: "JP" },
+                { code: "de", label: "Deutsch (German)", countryCode: "DE" },
+                { code: "ko", label: "한국어 (Korean)", countryCode: "KR" },
+                { code: "it", label: "Italiano (Italian)", countryCode: "IT" },
                 { code: "zh-TW", label: "繁體中文 (Traditional Chinese)", countryCode: "TW" },
                 { code: "tr", label: "Türkçe (Turkish)", countryCode: "TR" },
+                { code: "nl", label: "Nederlands (Dutch)", countryCode: "NL" },
+                { code: "pl", label: "Polski (Polish)", countryCode: "PL" },
+                { code: "vi", label: "Tiếng Việt (Vietnamese)", countryCode: "VN" },
+                { code: "th", label: "ไทย (Thai)", countryCode: "TH" },
                 { code: "cs", label: "Čeština (Czech)", countryCode: "CZ" },
+                { code: "sv", label: "Svenska (Swedish)", countryCode: "SE" },
               ].map((item) => {
                 const isSelected = locale === item.code;
                 return (
@@ -829,7 +835,7 @@ export default function HomePage() {
                       router.replace("/", { locale: item.code });
                     }}
                     className={cn(
-                      "flex items-center gap-2.5 rounded-xl border-2 px-4 py-3 text-left text-sm font-medium transition-all",
+                      "flex items-center gap-2 rounded-lg border-2 px-3 py-2.5 text-left text-xs sm:text-sm font-medium transition-all",
                       "hover:shadow-md hover:-translate-y-0.5",
                       isSelected
                         ? "border-brand-teal bg-brand-teal/10 text-brand-teal shadow-sm"
@@ -839,11 +845,11 @@ export default function HomePage() {
                     <ReactCountryFlag
                       countryCode={item.countryCode}
                       svg
-                      style={{ width: "1.4em", height: "1.4em" }}
+                      style={{ width: "1.2em", height: "1.2em" }}
                       className="shrink-0"
                     />
-                    <span className="flex-1 truncate">{item.label.split(" (")[0]}</span>
-                    {isSelected && <Check className="h-4 w-4 shrink-0 text-brand-teal" />}
+                    <span className="flex-1 truncate text-xs sm:text-sm">{item.label.split(" (")[0]}</span>
+                    {isSelected && <Check className="h-3.5 w-3.5 shrink-0 text-brand-teal" />}
                   </button>
                 );
               })}

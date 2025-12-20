@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "Photo to URL",
+    "siteName": "Foto na URL",
     "tagline": "Přeměňte fotky na čisté, sdílené odkazy během vteřin",
     "header": {
       "subtitle": "Přeměňte obrázky na sdílené odkazy",
@@ -184,7 +184,7 @@
       },
       "keywords": {
         "title": "Klíčová slova, na kterých nám záleží",
-        "p1": "fotka na url, obrázek na url, hostování fotek, sdílené odkazy, přímý odkaz na obrázek, bezplatné hostování obrázků, cdn odkaz na fotku, nahrát a zkopírovat odkaz, vložit obrázek na odkaz, okamžitý odkaz na fotku, odkazy na obrázky v blogu, odkazy na obrázky v dokumentaci, odkaz na obrázek v chatu, odkaz na obrázek v markdownu, odkaz na obrázek v html, foto cdn, rychlé sdílení obrázků, hostování obrázků bez registrace, jednoduché hostování fotek, rychlý nahrávač obrázků, generátor odkazů pro fotky."
+        "p1": "fotka na url, obrázek na url, generátor odkazů obrázků, převést obrázek na odkaz, bezplatné hostování obrázků, přímý url obrázku, sdílené odkazy obrázků, cdn odkazy obrázků"
       }
     },
     "selectRegion": {
