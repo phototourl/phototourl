@@ -47,7 +47,7 @@
       "step1": "1) Tambah foto (seret, tempel, atau klik untuk pilih).",
       "step2": "2) Kami jadikan tautan di CDN.",
       "step3": "3) Salin dan bagikan di mana saja.",
-      "note": "Tautan terbuka cepat di dokumen, chat, dan prototipe—bisa diunduh dalam format apa pun (.txt/.json/.csv/.md/.html)."
+      "note": "Tautan terbuka cepat di dokumen, chat, dan prototipe—bisa diunduh dalam format apa pun (.txt/.json/.md)."
     },
     "process": {
       "title": "Alur tiga langkah",
@@ -63,7 +63,7 @@
       "subtitle": "Jelas lebih dulu: hambatan kurang, berbagi lebih.",
       "items": {
         "cdn": { "title": "Tautan CDN langsung", "desc": "URL bersih dan terprediksi siap untuk Markdown dan HTML." },
-        "save": { "title": "Salin & simpan", "desc": "Salin, buka, atau simpan .txt/.json/.csv/.md/.html dengan sekali klik." },
+        "save": { "title": "Salin & simpan", "desc": "Salin, buka, atau simpan .txt/.json/.md dengan sekali klik." },
         "clipboard": { "title": "Ramah clipboard", "desc": "Tempel tangkapan layar tanpa mencari file atau unggah ulang." },
         "errors": { "title": "Error yang ramah", "desc": "Pesan perawatan yang jelas, bukan jejak teknis." },
         "nosignup": { "title": "Tanpa akun", "desc": "Gunakan dan berbagi segera, akun bisa nanti." },

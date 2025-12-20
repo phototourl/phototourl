@@ -5,6 +5,7 @@ import { useTransition, useState, useRef, useEffect } from "react";
 import { useLocale } from "next-intl";
 import { LocaleLink, useLocalePathname, useLocaleRouter } from "@/i18n/navigation";
 import { ChevronDown } from "lucide-react";
+import ReactCountryFlag from "react-country-flag";
 
 // 自定义地球图标 SVG
 const GlobeIcon = ({ className }: { className?: string }) => (
@@ -24,19 +25,35 @@ const GlobeIcon = ({ className }: { className?: string }) => (
   </svg>
 );
 
-type LocaleItem = { code: string; label: string };
+type LocaleItem = { code: string; label: string; countryCode: string };
 
 const LOCALES: LocaleItem[] = [
-  { code: "en", label: "English" },
-  { code: "zh", label: "中文(简体)" },
-  { code: "es", label: "Español (Spanish)" },
-  { code: "fr", label: "Français (French)" },
-  { code: "pt", label: "Português (Portuguese)" },
-  { code: "de", label: "Deutsch (German)" },
-  { code: "jp", label: "日本語 (Japanese)" },
-  { code: "ko", label: "한국어 (Korean)" },
-  { code: "ar", label: "العربية (Arabic)" },
+  { code: "en", label: "English", countryCode: "US" },
+  { code: "zh", label: "中文(简体)", countryCode: "CN" },
+  { code: "zh-TW", label: "中文(繁體)", countryCode: "TW" },
+  { code: "tr", label: "Türkçe (Turkish)", countryCode: "TR" },
+  { code: "cs", label: "Čeština (Czech)", countryCode: "CZ" },
+  { code: "es", label: "Español (Spanish)", countryCode: "ES" },
+  { code: "fr", label: "Français (French)", countryCode: "FR" },
+  { code: "pt", label: "Português (Portuguese)", countryCode: "PT" },
+  { code: "de", label: "Deutsch (German)", countryCode: "DE" },
+  { code: "ja", label: "日本語 (Japanese)", countryCode: "JP" },
+  { code: "ko", label: "한국어 (Korean)", countryCode: "KR" },
+  { code: "ar", label: "العربية (Arabic)", countryCode: "SA" },
 ];
+
+// 国旗图标组件
+const FlagIcon = ({ countryCode, className }: { countryCode: string; className?: string }) => (
+  <ReactCountryFlag
+    countryCode={countryCode}
+    svg
+    style={{
+      width: "1.2em",
+      height: "1.2em",
+    }}
+    className={className}
+  />
+);
 
 type LanguageSwitcherProps = {
   /** 
@@ -102,13 +119,7 @@ export function LanguageSwitcher({ variant = "header" }: LanguageSwitcherProps) 
         onClick={() => setIsOpen(!isOpen)}
         disabled={isPending}
       >
-        <GlobeIcon
-          className={
-            isFooter
-              ? "h-5 w-5 shrink-0"
-              : "h-5 w-5 shrink-0 text-white/90"
-          }
-        />
+        <FlagIcon countryCode={currentLocale.countryCode} className="shrink-0" />
         <span className={isFooter ? "whitespace-nowrap" : "whitespace-nowrap"}>
           {currentLocale.label}
         </span>
@@ -124,23 +135,24 @@ export function LanguageSwitcher({ variant = "header" }: LanguageSwitcherProps) 
           className={
             isFooter
               ? // 底部：向上展开，避免被底部栏挡住
-                "absolute right-0 bottom-full z-50 mb-1 w-auto min-w-[180px] rounded-lg border border-slate-200 bg-white shadow-lg"
+                "absolute right-0 bottom-full z-50 mb-1 w-auto min-w-[200px] rounded-lg border border-slate-200 bg-white shadow-lg"
               : // 头部：保持原来向下展开
-                "absolute right-0 top-full z-50 mt-1 w-auto min-w-[180px] rounded-lg border border-slate-200 bg-white shadow-lg"
+                "absolute right-0 top-full z-50 mt-1 w-auto min-w-[200px] rounded-lg border border-slate-200 bg-white shadow-lg"
           }
         >
           {LOCALES.map((item) => (
             <button
               key={item.code}
               type="button"
-              className={`w-full whitespace-nowrap rounded-md px-3 py-2 text-left text-sm transition first:rounded-t-lg last:rounded-b-lg ${
+              className={`w-full whitespace-nowrap rounded-md px-3 py-2 text-left text-sm transition first:rounded-t-lg last:rounded-b-lg flex items-center gap-2 ${
                 item.code === locale
                   ? "bg-brand-teal/10 text-brand-teal font-medium"
                   : "text-slate-900 hover:bg-slate-50"
               }`}
               onClick={() => handleLocaleChange(item.code)}
             >
-              {item.label}
+              <FlagIcon countryCode={item.countryCode} />
+              <span>{item.label}</span>
             </button>
           ))}
         </div>

@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import type { CSSProperties } from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import logoShowcase from "../../../public/projects/light1024logo.png";
 import {
   Upload,
@@ -26,6 +26,9 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { useTranslations, useLocale } from "next-intl";
 import dynamic from "next/dynamic";
+import ReactCountryFlag from "react-country-flag";
+import { useLocaleRouter } from "@/i18n/navigation";
+import { Star, Check } from "lucide-react";
 
 // 延迟加载演示组件以提升首屏性能
 const HeroLeftFlowDemo = dynamic(() => import("@/components/HeroLeftFlowDemo"), {
@@ -52,6 +55,7 @@ export default function HomePage() {
   const locale = useLocale();
   const t = useTranslations("home");
   const tImages = useTranslations("images");
+  const router = useLocaleRouter();
   const isRTL = locale === "ar";
 
   const [status, setStatus] = useState<UploadState>("idle");
@@ -63,6 +67,9 @@ export default function HomePage() {
   const [isDragging, setIsDragging] = useState(false);
   const [showBackToTop, setShowBackToTop] = useState(false);
   const [animatingSample, setAnimatingSample] = useState<{ src: string; key: string } | null>(null);
+  const [hoveredStar, setHoveredStar] = useState<number | null>(null);
+  const [selectedRating, setSelectedRating] = useState<number | null>(null);
+  const [showThankYou, setShowThankYou] = useState(false);
 
   useEffect(() => {
     if (!copied) return;
@@ -716,7 +723,7 @@ export default function HomePage() {
       </section>
 
       {/* Testimonials */}
-      <section className="section-bg-purple pt-0 pb-20 lg:pt-0 lg:pb-24">
+      <section className="section-bg-purple pt-12 pb-20 lg:pt-16 lg:pb-24">
         <div className="mx-auto max-w-6xl px-6 lg:max-w-7xl lg:px-10">
           <div className="space-y-8">
             <div className="text-center space-y-3">
@@ -785,6 +792,126 @@ export default function HomePage() {
                   {t("cta.paste")}
                 </Button>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Select Region */}
+      <section className="bg-white py-16">
+        <div className="mx-auto max-w-5xl px-6 lg:px-10">
+          <div className="space-y-6">
+            <div className="text-center space-y-2">
+              <h3 className="text-2xl font-bold text-slate-800">{t("selectRegion.title")}</h3>
+              <p className="text-sm text-slate-600">{t("selectRegion.subtitle")}</p>
+            </div>
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+              {[
+                { code: "en", label: "English", countryCode: "US" },
+                { code: "ar", label: "العربية (Arabic)", countryCode: "SA" },
+                { code: "zh", label: "简体中文 (Simplified Chinese)", countryCode: "CN" },
+                { code: "de", label: "Deutsch (German)", countryCode: "DE" },
+                { code: "es", label: "Español (Spanish)", countryCode: "ES" },
+                { code: "fr", label: "Français (French)", countryCode: "FR" },
+                { code: "ja", label: "日本語 (Japanese)", countryCode: "JP" },
+                { code: "ko", label: "한국어 (Korean)", countryCode: "KR" },
+                { code: "pt", label: "Português (Portuguese)", countryCode: "PT" },
+                { code: "zh-TW", label: "繁體中文 (Traditional Chinese)", countryCode: "TW" },
+                { code: "tr", label: "Türkçe (Turkish)", countryCode: "TR" },
+                { code: "cs", label: "Čeština (Czech)", countryCode: "CZ" },
+              ].map((item) => {
+                const isSelected = locale === item.code;
+                return (
+                  <button
+                    key={item.code}
+                    type="button"
+                    onClick={() => {
+                      router.replace("/", { locale: item.code });
+                    }}
+                    className={cn(
+                      "flex items-center gap-2.5 rounded-xl border-2 px-4 py-3 text-left text-sm font-medium transition-all",
+                      "hover:shadow-md hover:-translate-y-0.5",
+                      isSelected
+                        ? "border-brand-teal bg-brand-teal/10 text-brand-teal shadow-sm"
+                        : "border-slate-200 bg-white text-slate-700 hover:border-brand-teal/50 hover:bg-slate-50"
+                    )}
+                  >
+                    <ReactCountryFlag
+                      countryCode={item.countryCode}
+                      svg
+                      style={{ width: "1.4em", height: "1.4em" }}
+                      className="shrink-0"
+                    />
+                    <span className="flex-1 truncate">{item.label.split(" (")[0]}</span>
+                    {isSelected && <Check className="h-4 w-4 shrink-0 text-brand-teal" />}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Rate Service - Standalone */}
+      <section className="bg-slate-50 py-16">
+        <div className="mx-auto max-w-2xl px-6">
+          <div className="text-center space-y-4">
+            <h3 className="text-2xl font-bold text-slate-800">{t("rateService.title")}</h3>
+            
+            {/* Thank You Message */}
+            <AnimatePresence>
+              {showThankYou && (
+                <motion.div
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  className="flex items-center justify-center gap-2 text-green-600 font-medium"
+                >
+                  <Check className="h-5 w-5" />
+                  <span>{t("rateService.thankYou")}</span>
+                </motion.div>
+              )}
+            </AnimatePresence>
+            <div className="flex items-center justify-center gap-1">
+              {[1, 2, 3, 4, 5].map((star) => {
+                const displayRating = hoveredStar || selectedRating;
+                const filledStars = displayRating ? Math.floor(displayRating) : 0;
+                
+                return (
+                  <button
+                    key={star}
+                    type="button"
+                    className="transition-transform hover:scale-110"
+                    onMouseEnter={() => setHoveredStar(star)}
+                    onMouseLeave={() => setHoveredStar(null)}
+                    onClick={() => {
+                      setSelectedRating(star);
+                      setShowThankYou(true);
+                      // 模拟提交评分（实际应用中会调用API）
+                      setTimeout(() => {
+                        setSelectedRating(null);
+                        setShowThankYou(false);
+                      }, 4000);
+                    }}
+                  >
+                    <Star
+                      className={cn(
+                        "h-8 w-8 transition-colors",
+                        displayRating && star <= filledStars
+                          ? "fill-yellow-400 text-yellow-400"
+                          : "fill-none text-slate-300"
+                      )}
+                      strokeWidth={displayRating && star <= filledStars ? 0 : 1.5}
+                    />
+                  </button>
+                );
+              })}
+            </div>
+            <div className="border-t border-slate-200 pt-4">
+              <div className="text-3xl font-bold text-slate-800">
+                <span className="font-extrabold">{t("rateService.averageRating")}</span>
+              </div>
+              <div className="text-sm text-slate-500 mt-2">{t("rateService.votes")}</div>
             </div>
           </div>
         </div>

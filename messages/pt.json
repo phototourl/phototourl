@@ -87,7 +87,7 @@
       "step1": "1) Adicione sua foto (arraste, cole ou clique para escolher).",
       "step2": "2) Transformamos em um link no nosso CDN.",
       "step3": "3) Copie e compartilhe o link onde trabalhar.",
-      "note": "Seu link abre rápido em docs, chats e protótipos, e você pode baixá-lo no formato que quiser (.txt/.json/.csv/.md/.html)."
+      "note": "Seu link abre rápido em docs, chats e protótipos, e você pode baixá-lo no formato que quiser (.txt/.json/.md)."
     },
     "process": {
       "title": "Fluxo em três passos",
@@ -103,7 +103,7 @@
       "subtitle": "Clareza primeiro: menos fricção, mais compartilhamento.",
       "items": {
         "cdn": { "title": "Links CDN diretos", "desc": "URLs limpas e previsíveis prontas para Markdown e HTML." },
-        "save": { "title": "Copiar e salvar", "desc": "Copie, abra ou salve como .txt/.json/.csv/.md/.html com um clique." },
+        "save": { "title": "Copiar e salvar", "desc": "Copie, abra ou salve como .txt/.json/.md com um clique." },
         "clipboard": { "title": "Amigável ao clipboard", "desc": "Cole capturas sem procurar arquivos ou reenviar." },
         "errors": { "title": "Erros amigáveis", "desc": "Mensagens claras de manutenção em vez de rastros técnicos." },
         "nosignup": { "title": "Sem necessidade de cadastro", "desc": "Use já: envie e compartilhe imediatamente." },
@@ -142,7 +142,7 @@
       },
       "flow": {
         "title": "Como funciona de ponta a ponta",
-        "p1": "1) Escolha uma imagem: arraste e solte, cole da área de transferência ou navegue. 2) Fazemos o upload e devolvemos um link direto com copiar/abrir/salvar (.txt/.json/.csv/.md/.html). 3) Reutilize em blogs, docs, tickets, chats e protótipos.",
+        "p1": "1) Escolha uma imagem: arraste e solte, cole da área de transferência ou navegue. 2) Fazemos o upload e devolvemos um link direto com copiar/abrir/salvar (.txt/.json/.md). 3) Reutilize em blogs, docs, tickets, chats e protótipos.",
         "p2": "Cada etapa foi pensada para clareza: status visível, erros amigáveis e botões com feedback. Quando o R2 está habilitado, os links são servidos pelo domínio CDN; em manutenção, mostramos uma mensagem clara."
       },
       "best": {
@@ -151,9 +151,9 @@
           "1": "Use nomes de arquivo significativos antes do upload.",
           "2": "Prefira WEBP ou JPG/PNG otimizados se for compartilhar muito.",
           "3": "Copie o link logo após gerar para evitar clipboard desatualizado.",
-          "4": "Salve como .json ou .csv para lotes e automações.",
+          "4": "Salve como .json para lotes e automações.",
           "5": "Use .md para colar direto em docs.",
-          "6": "Use .html para demos e blocos simples."
+          "6": "Salve como .txt para links de texto prontos para usar."
         }
       },
       "roadmap": {
@@ -165,7 +165,7 @@
         "items": {
           "1": { "q": "É grátis?", "a": "Sim, o fluxo básico de upload→link é gratuito. Hospedagem com CDN/R2 terá planos generosos." },
           "2": { "q": "Quais formatos são suportados?", "a": "PNG, JPG, WEBP, GIF (de acordo com o limite atual). Podemos adicionar mais conforme a demanda." },
-          "3": { "q": "Funciona com Markdown/HTML?", "a": "Sim. Copie o link ou use os botões .md/.html." },
+          "3": { "q": "Funciona com Markdown/HTML?", "a": "Sim. Copie o link ou use os botões .txt/.json/.md." },
           "4": { "q": "Meus arquivos ficam públicos?", "a": "Os links são compartilháveis; com R2 CDN, são servidos pelo domínio CDN. Em manutenção, mostramos mensagens claras." },
           "5": { "q": "Vai ter contas/equipes?", "a": "Sim, está no plano: primeiro manter simples e confiável, depois equipes, permissões e analytics." }
         }
@@ -174,6 +174,16 @@
         "title": "Palavras-chave importantes",
         "p1": "photo to url, image to url, hospedagem de fotos, links compartilháveis, link direto de imagem, hospedagem de imagens gratuita, link CDN para fotos, enviar e copiar link, colar imagem para gerar link, link instantâneo de foto, links de imagem para blogs, links de imagem para docs, link de imagem para chat, link de imagem em Markdown, link de imagem em HTML, CDN de fotos, compartilhamento rápido de imagens, hospedagem sem cadastro, hospedagem simples de fotos, ferramenta rápida de upload de imagens, gerador de links para fotos."
       }
+    },
+    "selectRegion": {
+      "title": "Selecionar região",
+      "subtitle": "Escolha seu idioma e região preferidos"
+    },
+    "rateService": {
+      "title": "Avaliar Conversor de Fotos para URL",
+      "thankYou": "Obrigado pelo seu feedback!",
+      "averageRating": "4.5",
+      "votes": "4,992 votos"
     }
   },
   "seo": {

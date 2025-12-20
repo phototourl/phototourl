@@ -206,6 +206,19 @@ export async function SiteFooter() {
                 className="h-7 w-auto"
               />
             </a>
+            <a
+              href="https://goodaitools.com"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://goodaitools.com/assets/images/badge.png"
+                alt="Good AI Tools"
+                height={54}
+                className="h-7 w-auto"
+              />
+            </a>
           </div>
         </div>
       </div>

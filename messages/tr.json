@@ -1,0 +1,219 @@
+{
+  "common": {
+    "siteName": "Photo to URL",
+    "tagline": "Fotoğrafları saniyeler içinde temiz, paylaşılabilir bağlantılara dönüştürün",
+    "header": {
+      "subtitle": "Görselleri paylaşılabilir bağlantılara dönüştürün",
+      "prompt": "Sürükleyin, yapıştırın veya yükleyin — anında paylaşılabilir bağlantı alın"
+    },
+    "footer": {
+      "blurb": {
+        "line1": "Fotoğrafları temiz, paylaşılabilir bağlantılara dönüştürün.",
+        "line2": "Hızlı, basit, güvenilir."
+      },
+      "partners": "Ortaklar",
+      "linksTitle": "Bağlantılar",
+      "productsTitle": "Ürünler",
+      "nav": {
+        "home": "Ana Sayfa",
+        "blog": "Blog",
+        "docs": "Dökümanlar",
+        "status": "Durum",
+        "contact": "İletişim"
+      },
+      "legal": {
+        "privacy": "Gizlilik",
+        "terms": "Şartlar"
+      },
+      "copyright": "© 2025 Photo to URL. Tüm hakları saklıdır."
+    }
+  },
+  "home": {
+    "badge": {
+      "free": "Ücretsiz",
+      "cdn": "CDN bağlantıları",
+      "nosignup": "Kayıt yok"
+    },
+    "hero": {
+      "title1": "Ücretsiz",
+      "title2": "fotoğrafı URL'ye",
+      "subtitle": "Yükle → bağlantı al → her yere yapıştır.",
+      "upload": "Görsel yükle",
+      "bullet": {
+        "fast": "Hızlı paylaşım",
+        "direct": "Doğrudan fotoğraf bağlantıları",
+        "nosignup": "Kayıt gerekmez",
+        "paste": "Panodan yapıştır"
+      }
+    },
+    "demo": {
+      "label": "Demo",
+      "loop": "Otomatik demo",
+      "idleTitle": "Görselinizi sürükleyip bırakın",
+      "idleSubtitle": "Tam yükleme → bağlantı → kopyalama akışını görün.",
+      "processing": "Optimize ediliyor ve yükleniyor...",
+      "doneTitle": "Paylaşıma hazır",
+      "doneSubtitle": "Bağlantınız anında paylaşıma hazır.",
+      "thanksForWatching": "İzlediğiniz için teşekkürler"
+    },
+    "upload": {
+      "title": "Bir fotoğraf bırakın veya gözatmak için tıklayın",
+      "hint": "JPG, PNG, WEBP, GIF en fazla 10MB. Sürükle-bırak, tıkla veya ekran görüntüsü yapıştır.",
+      "orDrop": "veya bir dosya bırak",
+      "samplesTitle": "Görsel yok mu? Bunlardan birini deneyin:",
+      "policy": "Bir görsel yükleyerek <privacy>Gizlilik Politikamızı</privacy> ve <terms>Kullanım Şartlarımızı</terms> kabul etmiş olursunuz.",
+      "clear": "Temizle"
+    },
+    "result": {
+      "error": "Yükleme başarısız. Lütfen tekrar deneyin.",
+      "generated": "Oluşturulan bağlantı:",
+      "open": "Yeni sekmede aç",
+      "placeholder": "Henüz bağlantı yok. Paylaşılabilir bir URL oluşturmak için bir fotoğraf yükleyin.",
+      "savePrompt": "Bağlantıyı istediğiniz formatta kaydedin",
+      "copy": "Bağlantıyı kopyala",
+      "copied": "Kopyalandı"
+    },
+    "benefits": {
+      "title": "İnsanlar neden Photo to URL'yi seçiyor",
+      "subtitle": "Hız, temiz bağlantılar ve kayıt gerektirmez.",
+      "items": {
+        "fast": { "title": "Hızlı paylaşım", "desc": "Ekstra adım olmadan saniyeler içinde yükleyin ve bağlantı alın." },
+        "direct": { "title": "Doğrudan görsel URL'leri", "desc": "HTML, Markdown ve sohbet uygulamalarında çalışan temiz bağlantılar." },
+        "nosignup": { "title": "Kayıt gerekmez", "desc": "Hemen kullanın. Hesaplar büyüdükçe daha sonra gelebilir." }
+      }
+    },
+    "how": {
+      "title": "Nasıl çalışır",
+      "step1": "1) Fotoğrafınızı ekleyin (sürükleyin, yapıştırın veya dosya seçmek için tıklayın).",
+      "step2": "2) Barındırıyoruz ve paylaşılabilir bir bağlantı döndürüyoruz.",
+      "step3": "3) Bağlantıyı her yerde kopyalayın ve paylaşın.",
+      "note": "Bağlantınız belgelerde, sohbetlerde ve prototiplerde hızlı açılır—artı istediğiniz formatta indirebilirsiniz (.txt/.json/.md)."
+    },
+    "process": {
+      "title": "Üç adımlı akış",
+      "subtitle": "Çabayı azaltın, CTA'yı görünür tutun, saniyeler içinde bitirin.",
+      "steps": {
+        "1": { "title": "Bırak veya yapıştır", "desc": "Bir dosya sürükleyin, panodan yapıştırın veya gözatın." },
+        "2": { "title": "Barındırıyoruz ve bağlantı döndürüyoruz", "desc": "Kopyala/aç/kaydet kontrolleriyle anında URL." },
+        "3": { "title": "Her yerde paylaş", "desc": "Belgelere, sohbetlere, biletlere, bloglara veya prototiplere yapıştırın." }
+      }
+    },
+    "features": {
+      "title": "Özellik vurguları",
+      "subtitle": "Önce netlik: daha az sürtünme, daha fazla paylaşım.",
+      "items": {
+        "cdn": { "title": "Doğrudan CDN bağlantıları", "desc": "Markdown ve HTML gömüleri için hazır temiz, öngörülebilir URL'ler." },
+        "save": {
+          "title": "Kopyala ve kaydet işlemleri",
+          "desc": "Tek tıkla kopyalayın, açın veya .txt/.json/.md olarak kaydedin."
+        },
+        "clipboard": { "title": "Pano dostu", "desc": "Dosya aramadan veya yeniden yüklemeden ekran görüntülerini yapıştırın." },
+        "errors": { "title": "Dostane hatalar", "desc": "Teknik yığın izleri yerine net bakım mesajları." },
+        "nosignup": { "title": "Kayıt gerekmez", "desc": "Daha hızlı gönderin—hemen yükleyin ve paylaşın." },
+        "r2": { "title": "Hızlı barındırma", "desc": "Bağlantılar hızlı yükleme ve güvenilir erişim için hızlı CDN üzerinden sunulur." }
+      }
+    },
+    "testimonials": {
+      "title": "Photo to URL ile zaman kazanan ekipler",
+      "subtitle": "Riski azaltmak ve benimsenmeyi hızlandırmak için sosyal kanıt.",
+      "items": {
+        "ops": {
+          "name": "Ürün Operasyonları",
+          "quote": "Ekran görüntülerini ekleri tıkamadan biletlere yapıştırıyoruz. Bağlantılar temiz kalıyor."
+        },
+        "content": {
+          "name": "İçerik Lideri",
+          "quote": "Markdown'a hazır bağlantılar belgelerimizi düzenli tutuyor ve dakikalar içinde yayınlanabilir hale getiriyor."
+        },
+        "support": {
+          "name": "Destek",
+          "quote": "Net hatalar ve anında URL'ler, müşterileri sohbette yönlendirmeyi kolaylaştırıyor."
+        }
+      }
+    },
+    "cta": {
+      "title": "Fotoğrafları saniyeler içinde bağlantılara dönüştürün",
+      "subtitle": "Bırakın, yapıştırın veya yükleyin—bağlantınızı kopyalayın ve her yerde paylaşın.",
+      "upload": "Şimdi yükle",
+      "paste": "Ekran görüntüsü yapıştır"
+    },
+    "longform": {
+      "title": "Photo to URL iş akışınıza nasıl yardımcı olur",
+      "p1": "Photo to URL, içerik üreticileri, pazarlamacılar, destek ekipleri, kurucular ve fotoğrafları temiz bağlantılara dönüştürmek için hızlı ve güvenilir bir yola ihtiyaç duyan herkes için tasarlandı. Doğrudan yükleme-bağlantı akışıyla, ağır medya yöneticilerinden kaçınır ve giriş yapmayı atlarsınız. Bağlantılar düzenli, sohbet uygulamalarına, belgelere, wiki'lere, hata raporlarına ve biletlere yapıştırmak kolaydır. Ekran görüntüleri ve ürün fotoğrafları ek sınırları veya karmaşık önizlemeler olmadan anında paylaşılabilir olduğunda ekipler daha hızlı ilerler. Bağlantılar tahmin edilebilir ve tutarlı olduğu için otomasyon, QA adımları ve hafif prototiplerde de iyi çalışır.",
+      "p2": "Deneyim basit kalır: sürükle-bırak, yapıştır veya gözat; bağlantı al; paylaş. Fazladan öğe yok, dikkat dağıtıcı reklamlar yok, engel yok. Siz içeriğinize odaklanırken biz barındırmanın sıkıcı kısımlarını hallederiz. Bir özelliği belgeliyor, blog yazısı hazırlıyor, sunum oluşturuyor veya hızlı bir destek yanıtı gönderiyor olsanız da, kısa bir bağlantı hantal eklerden daha iyidir. Küresel ekipler için arayüz, metni kısa ve evrensel tutarken birden fazla dilde mevcuttur.",
+      "useCases": {
+        "title": "Pratik kullanım senaryoları",
+        "items": {
+          "1": "Ürün ve tasarım: ağır araçlara aktarmadan UI mockup'ları, bileşen ekran görüntüleri ve hızlı görsel notlar paylaşın.",
+          "2": "Destek ve QA: biletlerde, sohbet konularında veya çalışma kitaplarında yeniden üretilebilir ekran görüntüleri ekleyin; bağlantılar düzenli ve takip etmesi kolay kalır.",
+          "3": "Belgeler ve bloglar: tahmin edilebilir URL'ler ve düzen sürprizleri olmadan Markdown, HTML veya CMS düzenleyicilerinde fotoğrafları gömün.",
+          "4": "Satış ve müşteri hizmetleri: kavram kanıtı yakalamalarını veya müşteri turlarını doğrudan e-posta veya mesajlaşmaya bırakın.",
+          "5": "Mühendislik devri: daha hızlı incelemeler için yapı eserlerini, hata ekran görüntülerini ve gerileme görsellerini hafif tutun.",
+          "6": "Topluluk ve sosyal medya: şişirilmiş önizlemeler olmadan Discord, Slack, Teams, Twitter/X veya forumlara bağlantı yapıştırın."
+        }
+      },
+      "flow": {
+        "title": "Akış uçtan uca nasıl çalışır",
+        "p1": "1) Bir görsel seçin: sürükle-bırak, panodan yapıştır veya gözatmak için tıkla. Şu anda PNG, JPG, WEBP, GIF'e kadar 10MB destekleniyor. 2) Yükleyip doğrudan bir bağlantı döndürüyoruz. Arayüz URL'nizi kopyalama, açma ve çoklu format kaydetme işlemleriyle (.txt, .json, .md) hemen gösterir. 3) Bağlantıyı her yerde yeniden kullanın: bloglar, belgeler, biletler, sohbet, prototipler. Amaç, fotoğrafınız ile çalıştığınız yerler arasında sürtünmesiz bir köprü kurmaktır.",
+        "p2": "Her adım netlik için ayarlanmıştır: görünür durum, dostane hatalar ve eylemleri onaylayan düğmeler. Kopyala düğmesi bağlantının yanında oturur ve kaydet düğmeleri URL'yi yer imleri veya otomasyon için tercih ettiğiniz formatta tutmanıza olanak tanır. R2 etkinleştirildiğinde, bağlantılar CDN etki alanından sunulur; hizmet bakımdayken, arayüz ham hatalar yerine net bir mesaj döndürür."
+      },
+      "best": {
+        "title": "Daha temiz bağlantılar için en iyi uygulamalar",
+        "items": {
+          "1": "Yüklemeden önce dosya adlarını anlamlı tutun; bunlar URL'nin bir parçası olarak kalır ve gelecekteki aramaya yardımcı olur.",
+          "2": "Yoğun paylaşım bekliyorsanız daha hafif yükler için WEBP veya optimize edilmiş JPG/PNG kullanın.",
+          "3": "Eski pano girişlerinden kaçınmak için oluşturulduktan hemen sonra bağlantıyı doğrudan kopyalayın.",
+          "4": "Otomasyon veya denetimler için toplu referans depolamaya ihtiyacınız olduğunda .json olarak kaydedin.",
+          "5": "Belgelere veya wiki'lere gömülürken .md çıktısını kullanın; yapıştırmaya hazırdır.",
+          "6": "Kopyalamaya ve kullanmaya hazır düz metin bağlantıları için .txt olarak kaydedin."
+        }
+      },
+      "roadmap": {
+        "title": "Yol haritası öne çıkanları",
+        "p1": "Yaklaşan iyileştirmeler, varsayılan olarak daha derin Cloudflare R2 entegrasyonu, daha cömert yükleme limitleri, ekip alanları için isteğe bağlı kimlik doğrulama ve bağlantı başına analitik içerir. Ayrıca önceden ayarlanmış bağlantı stilleri, tek tıkla silme ve kuruluş düzeyinde depolama alanları planlıyoruz. SEO cilası, blog, belgeler ve durum sayfalarında, daha zengin şema ve hızlı indeksleme için genel bir site haritası ile devam ediyor."
+      },
+      "faq": {
+        "title": "SSS",
+        "items": {
+          "1": { "q": "Ücretsiz mi?", "a": "Evet, temel yükleme-bağlantı ücretsizdir. R2 üzerinden CDN destekli barındırma cömert katmanlarla devreye girecektir." },
+          "2": { "q": "Hangi formatlar destekleniyor?", "a": "Bugün PNG, JPG, WEBP, GIF'e kadar 10MB. Talep üzerine daha fazla format eklenebilir." },
+          "3": { "q": "Markdown veya HTML'de gömebilir miyim?", "a": "Evet. Bağlantıyı olduğu gibi kopyalayın veya hazır parçalar için tek tıkla .txt / .json / .md kaydetmelerini kullanın." },
+          "4": { "q": "Dosyalarımı herkese açık tutuyor musunuz?", "a": "Bağlantılar paylaşılabilir; R2 CDN etkinleştirildiğinde, CDN etki alanı üzerinden sunulur. Depolama kullanılamıyorsa net bakım mesajları gösteririz." },
+          "5": { "q": "Hesap veya ekipler olacak mı?", "a": "Planlandı. Önce sürtünmesiz yüklemeleri önceliklendiriyoruz, sonra ekip alanları, erişim kontrolü ve analitik ekliyoruz." }
+        }
+      },
+      "keywords": {
+        "title": "Önemsediğimiz anahtar kelimeler",
+        "p1": "fotoğrafı url'ye çevir, resmi url'ye çevir, fotoğraf barındırma, paylaşılabilir bağlantılar, doğrudan resim bağlantısı, ücretsiz resim barındırma, cdn fotoğraf bağlantısı, yükle ve bağlantı kopyala, resmi yapıştır bağlantı oluştur, anında fotoğraf bağlantısı, blog resim bağlantıları, belge resim bağlantıları, sohbet resim bağlantısı, markdown resim bağlantısı, html resim bağlantısı, fotoğraf cdn, hızlı resim paylaşımı, kayıt gerektirmeyen resim barındırma, basit fotoğraf barındırma, hızlı resim yükleyici, fotoğraflar için bağlantı oluşturucu."
+      }
+    },
+    "selectRegion": {
+      "title": "Bölge seç",
+      "subtitle": "Tercih ettiğiniz dili ve bölgeyi seçin"
+    },
+    "rateService": {
+      "title": "Fotoğrafı URL'ye Dönüştürücüyü Değerlendir",
+      "thankYou": "Geri bildiriminiz için teşekkürler!",
+      "averageRating": "4.5",
+      "votes": "4,992 oy"
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "Fotoğrafı URL'ye Dönüştürücü | Fotoğrafları paylaşılabilir bağlantılara çevirin",
+      "description": "Ücretsiz resim barındırma: fotoğrafları anında kalıcı URL'lere dönüştürün. JPG, PNG, WEBP, GIF'e kadar 10MB destekler. Pano yapıştırma, hızlı CDN, Markdown ve HTML için temiz bağlantılar."
+    }
+  },
+  "images": {
+    "previewAlt": "Yüklenen resim önizlemesi",
+    "animatingSampleAlt": "Yükleme demosunda kullanılan örnek resim",
+    "sampleThumbAlt": "Örnek yükleme resmi",
+    "useSampleAria": "Bu örnek resmi kullan",
+    "howIllustrationAlt": "Photo to URL'nin nasıl çalıştığını gösteren illüstrasyon",
+    "heroDropTitle": "Buraya bir fotoğraf sürükleyin",
+    "heroDropSubtitle": "Geliştirip barındıracağız, sonra temiz bir bağlantı döndüreceğiz.",
+    "heroDropBadge": "Sürükle veya tıkla (JPG/PNG, 10MB'a kadar)",
+    "logoAlt": "Photo to URL logosu"
+  }
+}
+

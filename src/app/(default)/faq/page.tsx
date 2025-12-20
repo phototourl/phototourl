@@ -20,7 +20,7 @@ export default function FaqPage() {
         </div>
         <div className="rounded-lg border border-slate-200 bg-white p-5">
           <div className="font-semibold text-slate-900">Can I use it in Markdown/HTML?</div>
-          <p className="mt-2 text-sm text-slate-600">Yes. Copy the URL or download as .md/.html.</p>
+          <p className="mt-2 text-sm text-slate-600">Yes. Copy the URL or download as .txt/.json/.md.</p>
         </div>
       </div>
     </div>

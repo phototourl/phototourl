@@ -87,7 +87,7 @@
       "step1": "1) Ajoutez votre photo (glisser, coller ou cliquer pour choisir un fichier).",
       "step2": "2) Nous la transformons en lien sur notre CDN.",
       "step3": "3) Copiez et partagez le lien où vous travaillez.",
-      "note": "Votre lien s’ouvre vite dans les docs, chats et prototypes, et vous pouvez le télécharger au format souhaité (.txt/.json/.csv/.md/.html)."
+      "note": "Votre lien s'ouvre vite dans les docs, chats et prototypes, et vous pouvez le télécharger au format souhaité (.txt/.json/.md)."
     },
     "process": {
       "title": "Parcours en trois étapes",
@@ -103,7 +103,7 @@
       "subtitle": "Clarté d’abord : moins de friction, plus de partage.",
       "items": {
         "cdn": { "title": "Liens CDN directs", "desc": "URLs propres et prévisibles prêtes pour Markdown et HTML." },
-        "save": { "title": "Copie & sauvegarde", "desc": "Copier, ouvrir ou sauvegarder en .txt/.json/.csv/.md/.html en un clic." },
+        "save": { "title": "Copie & sauvegarde", "desc": "Copier, ouvrir ou sauvegarder en .txt/.json/.md en un clic." },
         "clipboard": { "title": "Ami du presse-papiers", "desc": "Collez des captures sans chercher de fichiers ni re-téléverser." },
         "errors": { "title": "Erreurs claires", "desc": "Messages de maintenance clairs plutôt que des traces techniques." },
         "nosignup": { "title": "Pas de compte requis", "desc": "Allez plus vite : téléversez et partagez immédiatement." },
@@ -142,7 +142,7 @@
       },
       "flow": {
         "title": "Le flux de bout en bout",
-        "p1": "1) Choisissez une image : glisser-déposer, coller depuis le presse-papiers ou parcourir. 2) Nous téléversons et renvoyons un lien direct avec copier/ouvrir/sauvegarder (.txt/.json/.csv/.md/.html). 3) Réutilisez le lien dans blogs, docs, tickets, chats ou prototypes.",
+        "p1": "1) Choisissez une image : glisser-déposer, coller depuis le presse-papiers ou parcourir. 2) Nous téléversons et renvoyons un lien direct avec copier/ouvrir/sauvegarder (.txt/.json/.md). 3) Réutilisez le lien dans blogs, docs, tickets, chats ou prototypes.",
         "p2": "Chaque étape vise la clarté : statut visible, erreurs compréhensibles et boutons avec retour. Quand R2 est activé, les liens sont servis via le domaine CDN ; en maintenance, un message clair est affiché."
       },
       "best": {
@@ -151,9 +151,9 @@
           "1": "Utilisez des noms de fichiers explicites avant téléversement.",
           "2": "Préférez WEBP ou des JPG/PNG optimisés si vous partagez beaucoup.",
           "3": "Copiez le lien juste après génération.",
-          "4": "Sauvegardez en .json ou .csv pour le batch et l’automatisation.",
+          "4": "Sauvegardez en .json pour le batch et l'automatisation.",
           "5": "Utilisez .md pour coller directement dans la doc.",
-          "6": "Utilisez .html pour des démos ou blocs simples."
+          "6": "Sauvegardez en .txt pour des liens texte prêts à utiliser."
         }
       },
       "roadmap": {
@@ -165,15 +165,25 @@
         "items": {
           "1": { "q": "Est-ce gratuit ?", "a": "Oui, le flux de base téléverser→lien est gratuit. L’hébergement CDN/R2 proposera des offres généreuses." },
           "2": { "q": "Quels formats sont supportés ?", "a": "PNG, JPG, WEBP, GIF (selon la limite actuelle). D’autres pourront être ajoutés." },
-          "3": { "q": "Compatible Markdown/HTML ?", "a": "Oui. Copiez le lien ou utilisez les boutons .md/.html." },
+          "3": { "q": "Compatible Markdown/HTML ?", "a": "Oui. Copiez le lien ou utilisez les boutons .txt/.json/.md." },
           "4": { "q": "Les fichiers restent-ils publics ?", "a": "Les liens sont partageables ; avec R2 CDN, ils passent par le domaine CDN. En maintenance, un message clair est affiché." },
           "5": { "q": "Y aura-t-il des comptes/équipes ?", "a": "Oui, c’est prévu : d’abord simple et fiable, puis équipes, permissions et analytics." }
         }
       },
       "keywords": {
         "title": "Mots-clés importants pour nous",
-        "p1": "photo to url, image to url, hébergement de photos, liens partageables, lien direct d’image, hébergement gratuit d’images, lien CDN pour photos, téléverser et copier le lien, coller une image pour générer un lien, lien photo instantané, liens d’images pour blogs, liens d’images pour docs, lien d’image pour chat, lien d’image en Markdown, lien d’image en HTML, CDN de photos, partage rapide d’images, hébergement sans inscription, hébergement simple de photos, outil rapide de mise en ligne d’images, générateur de liens pour photos."
+        "p1": "photo to url, image to url, hébergement de photos, liens partageables, lien direct d'image, hébergement gratuit d'images, lien CDN pour photos, téléverser et copier le lien, coller une image pour générer un lien, lien photo instantané, liens d'images pour blogs, liens d'images pour docs, lien d'image pour chat, lien d'image en Markdown, lien d'image en HTML, CDN de photos, partage rapide d'images, hébergement sans inscription, hébergement simple de photos, outil rapide de mise en ligne d'images, générateur de liens pour photos."
       }
+    },
+    "selectRegion": {
+      "title": "Sélectionner la région",
+      "subtitle": "Choisissez votre langue et région préférées"
+    },
+    "rateService": {
+      "title": "Évaluer le Convertisseur de Photos en URL",
+      "thankYou": "Merci pour vos commentaires !",
+      "averageRating": "4.5",
+      "votes": "4,992 votes"
     }
   },
   "seo": {
