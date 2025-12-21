@@ -246,6 +246,20 @@ export async function SiteFooter() {
                 className="h-6 w-auto shrink-0"
               />
             </a>
+            <a
+              href="https://aiagentsdirectory.com?utm_source=badge&utm_medium=referral&utm_campaign=free_listing&utm_content=homepage"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://aiagentsdirectory.com/featured-badge.svg?v=2024"
+                alt="Featured AI Agents on AI Agents Directory"
+                width={200}
+                height={50}
+                className="h-6 w-auto shrink-0"
+              />
+            </a>
           </div>
         </div>
       </div>
