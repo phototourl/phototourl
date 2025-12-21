@@ -4,7 +4,6 @@ import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
-import YandexMetrika from "@/components/YandexMetrika";
 import { routing, type AppLocale } from "@/i18n/routing";
 import type { ReactNode } from "react";
 import { getLocaleMetadata } from "../seo-metadata";
@@ -73,7 +72,6 @@ export default async function LocaleLayout({
       <main className="min-h-screen pt-14 sm:pt-16">{children}</main>
       {Footer}
       <GoogleAnalytics />
-      <YandexMetrika />
       {analyticsDomain && analyticsSrc ? (
         <script defer data-domain={analyticsDomain} src={analyticsSrc}></script>
       ) : null}
