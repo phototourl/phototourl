@@ -219,6 +219,20 @@ export async function SiteFooter() {
                 className="h-7 w-auto"
               />
             </a>
+            <a
+              href="https://dofollow.tools"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://dofollow.tools/badge/badge_light.svg"
+                alt="Featured on Dofollow.Tools"
+                width={200}
+                height={54}
+                className="h-7 w-auto"
+              />
+            </a>
           </div>
         </div>
       </div>
