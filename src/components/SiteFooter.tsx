@@ -260,6 +260,19 @@ export async function SiteFooter() {
                 className="h-6 w-auto shrink-0"
               />
             </a>
+            <a
+              href="https://fazier.com/launches/phototourl"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://fazier.com/api/v1/public/badges/embed_image.svg?launch_id=6390&badge_type=daily&theme=light"
+                alt="Fazier badge"
+                width={270}
+                className="h-6 w-auto shrink-0"
+              />
+            </a>
           </div>
         </div>
       </div>
