@@ -108,7 +108,7 @@ export async function SiteFooter() {
             </div>
           </div>
           {/* Badge row: centered, full-width, between content and bottom border */}
-          <div className="mt-4 flex flex-wrap items-center justify-center gap-4">
+          <div className="mt-4 flex flex-nowrap items-center justify-center gap-2 overflow-hidden">
             <a
               href="https://fazier.com/launches/phototourl.com"
               target="_blank"
@@ -120,7 +120,7 @@ export async function SiteFooter() {
                 width={120}
                 height={28}
                 alt="Fazier badge"
-                className="h-7 w-auto opacity-90 hover:opacity-100 transition-opacity"
+                className="h-6 w-auto opacity-90 hover:opacity-100 transition-opacity shrink-0"
               />
             </a>
             <a
@@ -134,7 +134,7 @@ export async function SiteFooter() {
                 width={120}
                 height={28}
                 alt="Featured on ShowMeBestAI"
-                className="h-7 w-auto"
+                className="h-6 w-auto shrink-0"
               />
             </a>
             <a
@@ -148,7 +148,7 @@ export async function SiteFooter() {
                 width={120}
                 height={28}
                 alt="Submit AI Tools – The ultimate platform to discover, submit, and explore the best AI tools across various categories."
-                className="h-7 w-auto rounded-[10px]"
+                className="h-6 w-auto rounded-[10px] shrink-0"
               />
             </a>
             <a
@@ -162,7 +162,7 @@ export async function SiteFooter() {
                 width={120}
                 height={28}
                 alt="Featured on Twelve Tools"
-                className="h-7 w-auto"
+                className="h-6 w-auto shrink-0"
               />
             </a>
             <a
@@ -176,7 +176,7 @@ export async function SiteFooter() {
                 width={120}
                 height={28}
                 alt="Featured on Wired Business"
-                className="h-7 w-auto"
+                className="h-6 w-auto shrink-0"
               />
             </a>
             <a
@@ -190,7 +190,7 @@ export async function SiteFooter() {
                 width={120}
                 height={28}
                 alt="Monitor your Domain Rating with FrogDR"
-                className="h-7 w-auto"
+                className="h-6 w-auto shrink-0"
               />
             </a>
             <a
@@ -203,7 +203,7 @@ export async function SiteFooter() {
                 src="https://findly.tools/badges/findly-tools-badge-light.svg"
                 alt="Featured on findly.tools"
                 width={150}
-                className="h-7 w-auto"
+                className="h-6 w-auto shrink-0"
               />
             </a>
             <a
@@ -216,7 +216,7 @@ export async function SiteFooter() {
                 src="https://goodaitools.com/assets/images/badge.png"
                 alt="Good AI Tools"
                 height={54}
-                className="h-7 w-auto"
+                className="h-6 w-auto shrink-0"
               />
             </a>
             <a
@@ -230,7 +230,20 @@ export async function SiteFooter() {
                 alt="Featured on Dofollow.Tools"
                 width={200}
                 height={54}
-                className="h-7 w-auto"
+                className="h-6 w-auto shrink-0"
+              />
+            </a>
+            <a
+              href="https://turbo0.com/item/photo-to-url"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://img.turbo0.com/badge-listed-light.svg"
+                alt="Listed on Turbo0"
+                height={54}
+                className="h-6 w-auto shrink-0"
               />
             </a>
           </div>
