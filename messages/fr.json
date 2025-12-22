@@ -25,7 +25,7 @@
         "privacy": "Confidentialité",
         "terms": "Conditions"
       },
-      "copyright": "© 2025 Photo to URL. Tous droits réservés."
+      "copyright": "© 2025 Photo To URL. Tous droits réservés."
     }
   },
   "home": {
@@ -203,5 +203,32 @@
     "heroDropSubtitle": "Nous l’améliorons et l’hébergeons, puis nous renvoyons un lien propre.",
     "heroDropBadge": "Cliquer ou glisser (JPG/PNG, jusqu’à 10 Mo)",
     "logoAlt": "Logo Photo vers URL"
+  },
+  "circleCrop": {
+    "title": "Photo en Cercle",
+    "description": "Outil gratuit en ligne pour recadrer des photos en cercle, transformez facilement n'importe quelle photo en un cercle parfait - idéal pour les photos de profil, les réseaux sociaux et les projets de design.",
+    "upload": "Télécharger une photo",
+    "processing": "Traitement en cours...",
+    "download": "Télécharger la photo circulaire",
+    "errorSelectFile": "Veuillez sélectionner un fichier photo",
+    "errorUploadFirst": "Veuillez d'abord télécharger une photo",
+    "page": {
+      "title": "Photo en Cercle - Recadreur de Photos Circulaires Gratuit en Ligne",
+      "description": "Photo en Cercle est un outil gratuit en ligne pour transformer des photos rectangulaires en formes parfaitement circulaires. Notre outil vous aide à recadrer des photos au format circulaire instantanément, sans inscription requise. Que vous ayez besoin d'une photo de profil ronde, d'une photo circulaire pour les réseaux sociaux, ou d'une photo arrondie pour des projets de design, notre outil de recadrage circulaire rend tout cela simple et facile."
+    },
+    "seo": {
+      "title": "Photo en Cercle | Recadreur Circulaire Gratuit en Ligne",
+      "description": "Outil gratuit en ligne pour recadrer n'importe quelle photo en cercle parfait - idéal pour les photos de profil, les réseaux sociaux et les projets de design."
+    },
+    "selectRegion": {
+      "title": "Sélectionner la région",
+      "subtitle": "Choisissez votre langue et région préférées"
+    },
+    "rateService": {
+      "title": "Évaluer Photo en Cercle",
+      "thankYou": "Merci pour vos commentaires !",
+      "averageRating": "4.5",
+      "votes": "4,992 votes"
+    }
   }
 }

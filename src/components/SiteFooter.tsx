@@ -14,7 +14,7 @@ const navLinks = [
 
 const productLinks = [
   { label: "Image to URL", href: "https://www.image2url.com/" },
-  { label: "Circle Crop Image", href: "https://circlecropimage.qzboat.com/" },
+  { label: "Photo To Circle Crop", href: "https://circlecropimage.qzboat.com/" },
   { label: "Discord Wrapped", href: "https://discordwarpped.qzboat.com/" },
   { label: "qzboat", href: "https://www.qzboat.com/" },
 ];

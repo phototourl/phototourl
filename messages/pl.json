@@ -25,7 +25,7 @@
         "privacy": "Prywatność",
         "terms": "Warunki"
       },
-      "copyright": "© 2025 Photo to URL. Wszelkie prawa zastrzeżone."
+      "copyright": "© 2025 Photo To URL. Wszelkie prawa zastrzeżone."
     }
   },
   "home": {
@@ -35,8 +35,8 @@
       "nosignup": "Bez rejestracji"
     },
     "hero": {
-      "title1": "Darmowe",
-      "title2": "zdjęcie do URL",
+      "title1": "Zdjęcie",
+      "title2": "do URL",
       "subtitle": "Prześlij → otrzymaj link → wklej wszędzie.",
       "upload": "Prześlij obraz",
       "bullet": {
@@ -215,5 +215,32 @@
     "heroDropSubtitle": "Ulepszymy i udostępnimy je, a następnie zwrócimy czysty link.",
     "heroDropBadge": "Przeciągnij lub kliknij (JPG/PNG, do 10MB)",
     "logoAlt": "Logo Zdjęcie do URL"
+  },
+  "circleCrop": {
+    "title": "Zdjęcie do Koła",
+    "description": "Darmowe narzędzie online do przycinania zdjęć w kształt koła, łatwo przytnij dowolne zdjęcie do idealnego koła - idealne do zdjęć profilowych, mediów społecznościowych i projektów graficznych.",
+    "upload": "Prześlij zdjęcie",
+    "processing": "Przetwarzanie...",
+    "download": "Pobierz okrągłe zdjęcie",
+    "errorSelectFile": "Proszę wybrać plik zdjęcia",
+    "errorUploadFirst": "Proszę najpierw przesłać zdjęcie",
+    "page": {
+      "title": "Zdjęcie do Koła - Darmowy Online Przycinacz Okrągłych Zdjęć",
+      "description": "Zdjęcie do Koła to darmowe narzędzie online do przekształcania prostokątnych zdjęć w idealnie okrągłe kształty. Nasze narzędzie pomaga przycinać zdjęcia w formacie kołowym natychmiast, bez wymaganej rejestracji. Czy potrzebujesz okrągłego zdjęcia profilowego, okrągłego zdjęcia do mediów społecznościowych, czy okrągłego zdjęcia do projektów graficznych, nasze narzędzie do przycinania okrągłych zdjęć czyni to prostym i łatwym."
+    },
+    "seo": {
+      "title": "Zdjęcie do Koła | Darmowy Online Przycinacz Kół",
+      "description": "Darmowe narzędzie online do przycinania dowolnego zdjęcia do idealnego koła - idealne do zdjęć profilowych, mediów społecznościowych i projektów graficznych."
+    },
+    "selectRegion": {
+      "title": "Wybierz region",
+      "subtitle": "Wybierz preferowany język i region"
+    },
+    "rateService": {
+      "title": "Oceń Zdjęcie do Koła",
+      "thankYou": "Dziękujemy za opinię!",
+      "averageRating": "4.5",
+      "votes": "4,992 głosów"
+    }
   }
 }

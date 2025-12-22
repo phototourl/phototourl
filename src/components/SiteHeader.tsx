@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { LanguageSwitcher } from "./LanguageSwitcher";
-import { LocaleLink } from "@/i18n/navigation";
+import { HomeLink } from "./HomeLink";
 import { getTranslations } from "next-intl/server";
 
 export async function SiteHeader() {
@@ -9,14 +9,14 @@ export async function SiteHeader() {
   return (
     <header className="ez-shadow-nav fixed top-0 z-40 w-full border-b border-slate-100 bg-white text-slate-900">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-4 px-6 sm:h-16">
-        <LocaleLink href="/" className="group flex items-center gap-3">
-          <div className="relative h-9 w-9 overflow-hidden rounded-md transition-transform duration-200 group-hover:scale-105 sm:h-[55px] sm:w-[55px]">
+        <HomeLink className="group flex items-center gap-3">
+          <div className="relative h-8 w-8 overflow-hidden rounded-xl transition-all duration-300 group-hover:rotate-6 group-hover:opacity-80 sm:h-10 sm:w-10">
             <Image
               src="/icons/light_58x58.png"
               alt={tImages("logoAlt")}
               width={58}
               height={58}
-              className="h-full w-full object-contain"
+              className="h-full w-full object-contain transition-transform duration-300 group-hover:scale-110"
               priority
             />
           </div>
@@ -28,7 +28,7 @@ export async function SiteHeader() {
               {t("header.subtitle")}
             </span>
           </div>
-        </LocaleLink>
+        </HomeLink>
         <div className="flex items-center gap-4">
           <LanguageSwitcher variant="header" />
         </div>

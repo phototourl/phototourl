@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "FAQ | Photo to URL",
-  description: "Frequently asked questions about Photo to URL.",
+  title: "FAQ | Photo To URL",
+  description: "Frequently asked questions about Photo To URL.",
 };
 
 export default function FaqPage() {

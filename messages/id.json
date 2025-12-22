@@ -25,7 +25,7 @@
         "privacy": "Privasi",
         "terms": "Ketentuan"
       },
-      "copyright": "© 2025 Photo to URL. Hak cipta dilindungi."
+      "copyright": "© 2025 Photo To URL. Hak cipta dilindungi."
     }
   },
   "home": {
@@ -204,6 +204,33 @@
     "heroDropSubtitle": "Kami akan meningkatkan dan menghostingnya, lalu mengembalikan tautan bersih.",
     "heroDropBadge": "Seret atau klik (JPG/PNG, hingga 10MB)",
     "logoAlt": "Logo Foto ke URL"
+  },
+  "circleCrop": {
+    "title": "Foto ke Lingkaran",
+    "description": "Alat pemotong foto lingkaran online gratis, potong foto apa pun menjadi lingkaran sempurna dengan mudah - sempurna untuk foto profil, media sosial, dan proyek desain.",
+    "upload": "Unggah Foto",
+    "processing": "Memproses...",
+    "download": "Unduh Foto Lingkaran",
+    "errorSelectFile": "Silakan pilih file foto",
+    "errorUploadFirst": "Silakan unggah foto terlebih dahulu",
+    "page": {
+      "title": "Foto ke Lingkaran - Pemotong Foto Bulat Gratis Online",
+      "description": "Foto ke Lingkaran adalah alat online gratis untuk mengubah foto persegi panjang menjadi bentuk lingkaran sempurna. Alat kami membantu Anda memotong foto dalam format lingkaran secara instan, tanpa perlu mendaftar. Baik Anda membutuhkan foto profil bulat, foto lingkaran untuk media sosial, atau foto bulat untuk proyek desain, alat pemotong foto lingkaran kami membuat semuanya sederhana dan mudah."
+    },
+    "seo": {
+      "title": "Foto ke Lingkaran | Pemotong Lingkaran Gratis Online",
+      "description": "Alat online gratis untuk memotong foto apa pun menjadi lingkaran sempurna - sempurna untuk foto profil, media sosial, dan proyek desain."
+    },
+    "selectRegion": {
+      "title": "Pilih Wilayah",
+      "subtitle": "Pilih bahasa dan wilayah pilihan Anda"
+    },
+    "rateService": {
+      "title": "Nilai Foto ke Lingkaran",
+      "thankYou": "Terima kasih atas masukan Anda!",
+      "averageRating": "4.5",
+      "votes": "4,992 suara"
+    }
   }
 }
 

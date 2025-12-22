@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Docs | Photo to URL",
-  description: "Documentation for Photo to URL.",
+  title: "Docs | Photo To URL",
+  description: "Documentation for Photo To URL.",
 };
 
 export default function DocsPage() {

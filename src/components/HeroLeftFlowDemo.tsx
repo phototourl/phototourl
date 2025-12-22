@@ -203,7 +203,7 @@ export default function HeroLeftFlowDemo({ oldPhotoUrls }: HeroLeftFlowDemoProps
             >
               <Image
                 src="/projects/1024logo.png"
-                alt="Photo to URL logo"
+                alt="Photo To URL logo"
                 width={200}
                 height={200}
                 className="w-48 h-48 sm:w-56 sm:h-56 object-contain"

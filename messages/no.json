@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "Photo to URL",
+    "siteName": "Photo To URL",
     "tagline": "Turn photos into clean, shareable links in seconds",
     "header": {
       "subtitle": "Turn images into shareable links",
@@ -25,7 +25,7 @@
         "privacy": "Privacy",
         "terms": "Terms"
       },
-      "copyright": "© 2025 Photo to URL. All rights reserved."
+      "copyright": "© 2025 Photo To URL. All rights reserved."
     }
   },
   "home": {
@@ -36,7 +36,7 @@
     },
     "hero": {
       "title1": "Free",
-      "title2": "photo to URL",
+      "title2": "Photo To URL",
       "subtitle": "Upload → get a link → paste anywhere.",
       "upload": "Upload image",
       "bullet": {
@@ -74,7 +74,7 @@
       "copied": "Copied"
     },
     "benefits": {
-      "title": "Why people choose Photo to URL",
+      "title": "Why people choose Photo To URL",
       "subtitle": "Speed, clean links, and no signup needed.",
       "items": {
         "fast": { "title": "Fast sharing", "desc": "Upload and get a link in seconds with no extra steps." },
@@ -114,7 +114,7 @@
       }
     },
     "testimonials": {
-      "title": "Teams saving time with Photo to URL",
+      "title": "Teams saving time with Photo To URL",
       "subtitle": "Social proof to reduce risk and speed up adoption.",
       "items": {
         "ops": {
@@ -138,8 +138,8 @@
       "paste": "Paste a screenshot"
     },
     "longform": {
-      "title": "Why Photo to URL helps your workflow",
-      "p1": "Photo to URL is built for creators, marketers, support teams, founders, and anyone who needs a quick, reliable way to turn photos into clean links. With a direct upload-to-link flow, you avoid heavy media managers and skip logins. Links are tidy, easy to paste into chat apps, docs, wikis, bug reports, and tickets. Teams move faster when screenshots and product photos are instantly shareable without attachment limits or messy previews. Because the links are predictable and consistent, they also work well in automation, QA steps, and lightweight prototypes.",
+      "title": "Why Photo To URL helps your workflow",
+      "p1": "Photo To URL is built for creators, marketers, support teams, founders, and anyone who needs a quick, reliable way to turn photos into clean links. With a direct upload-to-link flow, you avoid heavy media managers and skip logins. Links are tidy, easy to paste into chat apps, docs, wikis, bug reports, and tickets. Teams move faster when screenshots and product photos are instantly shareable without attachment limits or messy previews. Because the links are predictable and consistent, they also work well in automation, QA steps, and lightweight prototypes.",
       "p2": "The experience stays simple: drop, paste, or browse; get a link; share. No extra chrome, no distracting ads, no gating. You keep focus on your content while we handle the boring parts of hosting. Whether you are documenting a feature, preparing a blog post, building a pitch deck, or sending a quick support response, a short link beats bulky attachments. For global teams, the interface is available in multiple languages while keeping copy concise and universal.",
       "useCases": {
         "title": "Use cases that stay practical",
@@ -201,7 +201,7 @@
   "seo": {
     "keywords": "photo to url, image to url, image link generator, convert image to link, free image hosting, direct image url, shareable image links, cdn image links",
     "home": {
-      "title": "Photo to URL Converter | Turn photos into shareable links",
+      "title": "Photo To URL Converter | Turn photos into shareable links",
       "description": "Free image hosting: convert photos to permanent URLs instantly. Supports JPG, PNG, WEBP, GIF up to 10MB. Clipboard paste, fast CDN, clean links for Markdown & HTML."
     }
   },
@@ -210,11 +210,38 @@
     "animatingSampleAlt": "Sample image used in upload demo",
     "sampleThumbAlt": "Sample upload image",
     "useSampleAria": "Use this sample image",
-    "howIllustrationAlt": "Illustration showing how Photo to URL works",
+    "howIllustrationAlt": "Illustration showing how Photo To URL works",
     "heroDropTitle": "Drag a photo here",
     "heroDropSubtitle": "We'll enhance and host it, then return a clean link.",
     "heroDropBadge": "Drag or click (JPG/PNG, up to 10MB)",
-    "logoAlt": "Photo to URL logo"
+    "logoAlt": "Photo To URL logo"
+  },
+  "circleCrop": {
+    "title": "Foto til Sirkel",
+    "description": "Gratis online verktøy for å beskjære bilder i sirkel, beskjær enkelt hvilket som helst foto til en perfekt sirkel - perfekt for profilbilder, sosiale medier og designprosjekter.",
+    "upload": "Last opp foto",
+    "processing": "Behandler...",
+    "download": "Last ned sirkulært foto",
+    "errorSelectFile": "Vennligst velg en fotofil",
+    "errorUploadFirst": "Vennligst last opp et foto først",
+    "page": {
+      "title": "Foto til Sirkel - Gratis Online Rund Foto Beskjærer",
+      "description": "Foto til Sirkel er et gratis online verktøy for å transformere rektangulære bilder til perfekt sirkulære former. Verktøyet vårt hjelper deg med å beskjære bilder i sirkelformat umiddelbart, uten registrering påkrevd. Enten du trenger et rundt profilbilde, et sirkulært foto for sosiale medier, eller et rundet foto for designprosjekter, gjør vårt sirkulære foto beskjæringsverktøy det enkelt og lett."
+    },
+    "seo": {
+      "title": "Foto til Sirkel | Gratis Online Sirkel Beskjærer",
+      "description": "Gratis online verktøy for å beskjære hvilket som helst foto til en perfekt sirkel - perfekt for profilbilder, sosiale medier og designprosjekter."
+    },
+    "selectRegion": {
+      "title": "Velg region",
+      "subtitle": "Velg ditt foretrukne språk og region"
+    },
+    "rateService": {
+      "title": "Vurder Foto til Sirkel",
+      "thankYou": "Takk for tilbakemeldingen!",
+      "averageRating": "4.5",
+      "votes": "4,992 stemmer"
+    }
   }
 }
 

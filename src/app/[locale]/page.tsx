@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState, useRef } from "react";
 import type { CSSProperties } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -20,6 +20,7 @@ import {
   MousePointerClick,
   ArrowUpCircle,
   ArrowUp,
+  ArrowRight,
   X,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -27,8 +28,9 @@ import { cn } from "@/lib/utils";
 import { useTranslations, useLocale } from "next-intl";
 import dynamic from "next/dynamic";
 import ReactCountryFlag from "react-country-flag";
-import { useLocaleRouter } from "@/i18n/navigation";
+import { useLocaleRouter, LocaleLink } from "@/i18n/navigation";
 import { Star, Check } from "lucide-react";
+import { CircleCropTypewriter } from "@/components/CircleCropTypewriter";
 
 // 延迟加载演示组件以提升首屏性能
 const HeroLeftFlowDemo = dynamic(() => import("@/components/HeroLeftFlowDemo"), {
@@ -76,6 +78,7 @@ export default function HomePage() {
     const t = setTimeout(() => setCopied(false), 1500);
     return () => clearTimeout(t);
   }, [copied]);
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -234,7 +237,7 @@ export default function HomePage() {
   const saveUrlAsMd = (e?: React.MouseEvent) => {
     e?.stopPropagation();
     if (!url) return;
-    const content = `[Photo to URL link](${url})\n`;
+    const content = `[Photo To URL link](${url})\n`;
     const blob = new Blob([content], { type: "text/markdown;charset=utf-8" });
     const link = document.createElement("a");
     link.href = URL.createObjectURL(blob);
@@ -285,8 +288,8 @@ export default function HomePage() {
   return (
     <div className="flex flex-col">
       {/* ezremove-like hero layout: 白底首屏（不使用渐变） + 左文案/演示 + 右上传卡片 */}
-      <section className="bg-white">
-        <div className="mx-auto grid max-w-6xl gap-8 px-6 pt-16 pb-32 sm:gap-10 sm:pt-20 sm:pb-40 lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-12 lg:px-10 lg:pt-24 lg:pb-48">
+      <section className="bg-white relative">
+        <div className="mx-auto grid max-w-6xl gap-8 px-6 pt-16 pb-40 sm:gap-10 sm:pt-20 sm:pb-48 lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-12 lg:px-10 lg:pt-24 lg:pb-56">
           {/* Left */}
           <div className="space-y-5 lg:pr-8 text-slate-900 sm:space-y-6 flex flex-col">
             <div className="space-y-4">
@@ -307,7 +310,7 @@ export default function HomePage() {
                 )}
               </h1>
               <p
-                className="max-w-xl text-base leading-relaxed text-brand-teal sm:text-lg"
+                className="max-w-xl text-sm leading-relaxed text-brand-teal sm:text-base"
                 style={{ textWrap: "balance" } as CSSProperties}
               >
                 {t("hero.subtitle")}
@@ -574,6 +577,11 @@ export default function HomePage() {
           </div>
         </section>
         </div>
+        
+        {/* Circle Crop Tool Entry - 绝对定位在首屏底部，不占用空间 */}
+        <div className="absolute bottom-20 left-0 right-0 flex justify-center pointer-events-none sm:bottom-24 lg:bottom-28">
+          <CircleCropTypewriter />
+        </div>
       </section>
 
       {/* Benefits */}
@@ -761,7 +769,7 @@ export default function HomePage() {
           <div className="flex items-center gap-5 sm:gap-6">
             <Image
               src={logoShowcase}
-              alt="Photo to URL logo"
+              alt="Photo To URL logo"
               width={260}
               height={260}
               className="h-auto w-48 md:w-52 flex-shrink-0"

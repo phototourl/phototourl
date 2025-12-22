@@ -25,7 +25,7 @@
         "privacy": "Integritet",
         "terms": "Villkor"
       },
-      "copyright": "© 2025 Photo to URL. Alla rättigheter förbehållna."
+      "copyright": "© 2025 Photo To URL. Alla rättigheter förbehållna."
     }
   },
   "home": {
@@ -215,5 +215,32 @@
     "heroDropSubtitle": "Vi kommer att förbättra och hosta den, sedan returnera en ren länk.",
     "heroDropBadge": "Dra eller klicka (JPG/PNG, upp till 10MB)",
     "logoAlt": "Foto till URL-logotyp"
+  },
+  "circleCrop": {
+    "title": "Foto till Cirkel",
+    "description": "Gratis online-verktyg för att beskära foton i cirkel, beskära enkelt vilket foto som helst till en perfekt cirkel - perfekt för profilbilder, sociala medier och designprojekt.",
+    "upload": "Ladda upp foto",
+    "processing": "Bearbetar...",
+    "download": "Ladda ner cirkulär foto",
+    "errorSelectFile": "Välj en fotofil",
+    "errorUploadFirst": "Ladda upp en foto först",
+    "page": {
+      "title": "Foto till Cirkel - Gratis Online Rund Fotobeskärning",
+      "description": "Foto till Cirkel är ett gratis online-verktyg för att omvandla rektangulära foton till perfekt cirkulära former. Vårt verktyg hjälper dig att beskära foton i cirkelformat omedelbart, utan registrering krävs. Oavsett om du behöver en rund profilbild, en cirkulär foto för sociala medier, eller en rundad foto för designprojekt, gör vårt cirkulära fotobeskärningsverktyg det enkelt och lätt."
+    },
+    "seo": {
+      "title": "Foto till Cirkel | Gratis Online Cirkelbeskärning",
+      "description": "Gratis online-verktyg för att beskära vilket foto som helst till en perfekt cirkel - perfekt för profilbilder, sociala medier och designprojekt."
+    },
+    "selectRegion": {
+      "title": "Välj region",
+      "subtitle": "Välj ditt föredragna språk och region"
+    },
+    "rateService": {
+      "title": "Betygsätt Foto till Cirkel",
+      "thankYou": "Tack för din feedback!",
+      "averageRating": "4.5",
+      "votes": "4,992 röster"
+    }
   }
 }

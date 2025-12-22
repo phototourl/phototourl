@@ -5,7 +5,7 @@ export default function TermsPage() {
     <LegalPage>
       <h1 className="text-3xl font-bold">Terms of Service</h1>
       <p className="mt-4 text-slate-700">
-        By using Photo to URL, you agree to use the service responsibly and not upload illegal content.
+        By using Photo To URL, you agree to use the service responsibly and not upload illegal content.
       </p>
       <h2 className="mt-8 text-xl font-semibold">Disclaimer</h2>
       <p className="mt-2 text-slate-700">

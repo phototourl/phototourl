@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact | Photo to URL",
-  description: "Contact Photo to URL support.",
+  title: "Contact | Photo To URL",
+  description: "Contact Photo To URL support.",
 };
 
 export default function ContactPage() {

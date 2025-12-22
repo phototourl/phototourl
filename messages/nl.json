@@ -25,7 +25,7 @@
         "privacy": "Privacy",
         "terms": "Voorwaarden"
       },
-      "copyright": "© 2025 Photo to URL. Alle rechten voorbehouden."
+      "copyright": "© 2025 Photo To URL. Alle rechten voorbehouden."
     }
   },
   "home": {
@@ -35,8 +35,8 @@
       "nosignup": "Geen registratie"
     },
     "hero": {
-      "title1": "Gratis",
-      "title2": "foto naar URL",
+      "title1": "Foto",
+      "title2": "naar URL",
       "subtitle": "Upload → krijg een link → plak overal.",
       "upload": "Upload afbeelding",
       "bullet": {
@@ -215,5 +215,32 @@
     "heroDropSubtitle": "We zullen het verbeteren en hosten, en dan een schone link teruggeven.",
     "heroDropBadge": "Sleep of klik (JPG/PNG, tot 10MB)",
     "logoAlt": "Foto naar URL logo"
+  },
+  "circleCrop": {
+    "title": "Foto naar Cirkel",
+    "description": "Gratis online tool om foto's in een cirkel bij te snijden, snijd eenvoudig elke foto bij tot een perfecte cirkel - perfect voor profielfoto's, sociale media en ontwerpprojecten.",
+    "upload": "Foto uploaden",
+    "processing": "Verwerken...",
+    "download": "Ronde foto downloaden",
+    "errorSelectFile": "Selecteer een fotobestand",
+    "errorUploadFirst": "Upload eerst een foto",
+    "page": {
+      "title": "Foto naar Cirkel - Gratis Online Ronde Foto Bijsnijder",
+      "description": "Foto naar Cirkel is een gratis online tool om rechthoekige foto's om te zetten in perfect ronde vormen. Onze tool helpt je om foto's direct in cirkelformaat bij te snijden, zonder registratie vereist. Of je nu een ronde profielfoto, een ronde foto voor sociale media, of een ronde foto voor ontwerpprojecten nodig hebt, onze ronde foto bijsnijdtool maakt het eenvoudig en gemakkelijk."
+    },
+    "seo": {
+      "title": "Foto naar Cirkel | Gratis Online Cirkel Bijsnijder",
+      "description": "Gratis online tool om elke foto bij te snijden tot een perfecte cirkel - perfect voor profielfoto's, sociale media en ontwerpprojecten."
+    },
+    "selectRegion": {
+      "title": "Regio selecteren",
+      "subtitle": "Kies uw voorkeurstaal en regio"
+    },
+    "rateService": {
+      "title": "Beoordeel Foto naar Cirkel",
+      "thankYou": "Bedankt voor uw feedback!",
+      "averageRating": "4.5",
+      "votes": "4,992 stemmen"
+    }
   }
 }

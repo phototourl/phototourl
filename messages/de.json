@@ -25,7 +25,7 @@
         "privacy": "Datenschutz",
         "terms": "AGB"
       },
-      "copyright": "© 2025 Photo to URL. Alle Rechte vorbehalten."
+      "copyright": "© 2025 Photo To URL. Alle Rechte vorbehalten."
     }
   },
   "home": {
@@ -203,5 +203,32 @@
     "heroDropSubtitle": "Wir optimieren und hosten das Bild und liefern einen sauberen Link zurück.",
     "heroDropBadge": "Klicken oder ziehen (JPG/PNG, bis 10 MB)",
     "logoAlt": "Foto zu URL Logo"
+  },
+  "circleCrop": {
+    "title": "Foto zu Kreis zuschneiden",
+    "description": "Kostenloses Online-Tool: Fotos in perfekte Kreise zuschneiden. Ideal für Profilbilder, Social Media und Design.",
+    "upload": "Foto hochladen",
+    "processing": "Wird verarbeitet...",
+    "download": "Rundes Foto herunterladen",
+    "errorSelectFile": "Bitte wählen Sie eine Fotodatei aus",
+    "errorUploadFirst": "Bitte laden Sie zuerst ein Foto hoch",
+    "page": {
+      "title": "Foto zu Kreis zuschneiden - Rundbild-Zuschneider",
+      "description": "Foto zu Kreis zuschneiden ist ein kostenloses Online-Tool zur Umwandlung rechteckiger Fotos in perfekt runde Formen. Unser Tool hilft Ihnen, Fotos sofort im Kreisformat zuzuschneiden, ohne Registrierung erforderlich. Ob Sie ein rundes Profilbild, ein rundes Foto für soziale Medien oder ein rundes Foto für Designprojekte benötigen, unser Rundfoto-Zuschneidetool macht es einfach und unkompliziert."
+    },
+    "seo": {
+      "title": "Foto zu Kreis zuschneiden | Kostenloser Online-Rundbild-Zuschneider",
+      "description": "Kostenloses Online-Tool zum Zuschneiden von Fotos in einen perfekten Kreis - perfekt für Profilbilder, soziale Medien und Designprojekte."
+    },
+    "selectRegion": {
+      "title": "Region auswählen",
+      "subtitle": "Wählen Sie Ihre bevorzugte Sprache und Region"
+    },
+    "rateService": {
+      "title": "Foto zu Kreis zuschneiden bewerten",
+      "thankYou": "Vielen Dank für Ihr Feedback!",
+      "averageRating": "4.5",
+      "votes": "4,992 Stimmen"
+    }
   }
 }

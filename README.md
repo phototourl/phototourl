@@ -1,4 +1,4 @@
-# Photo to URL  🌐 **https://phototourl.com**
+# Photo To URL  🌐 **https://phototourl.com**
 
 <div align="center">
 

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Status | Photo to URL",
-  description: "Service status for Photo to URL.",
+  title: "Status | Photo To URL",
+  description: "Service status for Photo To URL.",
 };
 
 export default function StatusPage() {

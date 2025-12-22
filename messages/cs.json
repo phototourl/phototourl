@@ -25,7 +25,7 @@
         "privacy": "Soukromí",
         "terms": "Podmínky"
       },
-      "copyright": "© 2025 Photo to URL. Všechna práva vyhrazena."
+      "copyright": "© 2025 Photo To URL. Všechna práva vyhrazena."
     }
   },
   "home": {
@@ -35,8 +35,8 @@
       "nosignup": "Bez registrace"
     },
     "hero": {
-      "title1": "Zdarma",
-      "title2": "foto na URL",
+      "title1": "Foto",
+      "title2": "na URL",
       "subtitle": "Nahrajte → získejte odkaz → vložte kamkoli.",
       "upload": "Nahrát obrázek",
       "bullet": {
@@ -215,6 +215,33 @@
     "heroDropSubtitle": "Vylepšíme a hostujeme ji, poté vrátíme čistý odkaz.",
     "heroDropBadge": "Přetáhněte nebo klikněte (JPG/PNG, do 10MB)",
     "logoAlt": "Logo Foto na URL"
+  },
+  "circleCrop": {
+    "title": "Foto do Kruhu",
+    "description": "Bezplatný online nástroj pro ořezávání fotek do kruhu, snadno ořízněte jakoukoli fotku do dokonalého kruhu - ideální pro profilové fotky, sociální média a designové projekty.",
+    "upload": "Nahrát foto",
+    "processing": "Zpracovávání...",
+    "download": "Stáhnout kruhovou fotku",
+    "errorSelectFile": "Vyberte soubor fotky",
+    "errorUploadFirst": "Nejprve nahrajte fotku",
+    "page": {
+      "title": "Foto do Kruhu - Bezplatný Online Ořezávač Kulatých Fotek",
+      "description": "Foto do Kruhu je bezplatný online nástroj pro přeměnu obdélníkových fotek na dokonale kruhové tvary. Náš nástroj vám pomůže oříznout fotky do kruhového formátu okamžitě, bez nutnosti registrace. Ať už potřebujete kulatou profilovou fotku, kruhovou fotku pro sociální média, nebo zaoblenou fotku pro designové projekty, náš nástroj pro ořezávání kruhových fotek to dělá jednoduché a snadné."
+    },
+    "seo": {
+      "title": "Foto do Kruhu | Bezplatný Online Kruhový Ořezávač",
+      "description": "Bezplatný online nástroj pro ořezání jakékoli fotky do dokonalého kruhu - ideální pro profilové fotky, sociální média a designové projekty."
+    },
+    "selectRegion": {
+      "title": "Vybrat region",
+      "subtitle": "Vyberte svůj preferovaný jazyk a region"
+    },
+    "rateService": {
+      "title": "Ohodnotit Foto do Kruhu",
+      "thankYou": "Děkujeme za vaši zpětnou vazbu!",
+      "averageRating": "4.5",
+      "votes": "4,992 hlasů"
+    }
   }
 }
 

@@ -25,7 +25,7 @@
         "privacy": "Privacidade",
         "terms": "Termos"
       },
-      "copyright": "© 2025 Photo to URL. Todos os direitos reservados."
+      "copyright": "© 2025 Photo To URL. Todos os direitos reservados."
     }
   },
   "home": {
@@ -203,6 +203,33 @@
     "heroDropSubtitle": "Vamos melhorar e hospedar a imagem e devolver um link limpo em segundos.",
     "heroDropBadge": "Clique ou arraste (JPG/PNG, até 10 MB)",
     "logoAlt": "Logotipo do Foto para URL"
+  },
+  "circleCrop": {
+    "title": "Foto para Círculo",
+    "description": "Ferramenta gratuita online para recortar fotos em círculo, recorte facilmente qualquer foto em um círculo perfeito - perfeito para fotos de perfil, redes sociais e projetos de design.",
+    "upload": "Carregar foto",
+    "processing": "Processando...",
+    "download": "Baixar foto circular",
+    "errorSelectFile": "Por favor, selecione um arquivo de foto",
+    "errorUploadFirst": "Por favor, carregue uma foto primeiro",
+    "page": {
+      "title": "Foto para Círculo - Recortador de Fotos Circulares Gratuito Online",
+      "description": "Foto para Círculo é uma ferramenta gratuita online para transformar fotos retangulares em formas perfeitamente circulares. Nossa ferramenta ajuda você a recortar fotos em formato circular instantaneamente, sem necessidade de cadastro. Seja para uma foto de perfil redonda, uma foto circular para redes sociais, ou uma foto arredondada para projetos de design, nossa ferramenta de recorte circular torna tudo simples e fácil."
+    },
+    "seo": {
+      "title": "Foto para Círculo | Recortador Circular Gratuito Online",
+      "description": "Ferramenta gratuita online para recortar qualquer foto em um círculo perfeito - perfeito para fotos de perfil, redes sociais e projetos de design."
+    },
+    "selectRegion": {
+      "title": "Selecionar região",
+      "subtitle": "Escolha seu idioma e região preferidos"
+    },
+    "rateService": {
+      "title": "Avaliar Foto para Círculo",
+      "thankYou": "Obrigado pelo seu feedback!",
+      "averageRating": "4.5",
+      "votes": "4,992 votos"
+    }
   }
 }
 

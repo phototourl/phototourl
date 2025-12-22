@@ -25,7 +25,7 @@
         "privacy": "隱私",
         "terms": "條款"
       },
-      "copyright": "© 2025 Photo to URL. 保留所有權利。"
+      "copyright": "© 2025 Photo To URL. 保留所有權利。"
     }
   },
   "home": {
@@ -203,5 +203,32 @@
     "heroDropSubtitle": "自動進行增強和託管，立即產生乾淨的存取連結。",
     "heroDropBadge": "點選或拖放 (JPG/PNG，最大 10MB)",
     "logoAlt": "圖片轉連結標誌"
+  },
+  "circleCrop": {
+    "title": "照片圓形裁剪",
+    "description": "免費線上圓形照片裁剪工具，輕鬆將任何照片裁剪成完美的圓形 - 非常適合頭像、社群媒體和設計專案。",
+    "upload": "上傳照片",
+    "processing": "處理中...",
+    "download": "下載圓形照片",
+    "errorSelectFile": "請選擇照片檔案",
+    "errorUploadFirst": "請先上傳照片",
+    "page": {
+      "title": "照片圓形裁剪 - 免費線上圓形照片裁剪工具",
+      "description": "照片圓形裁剪是一款免費的線上工具，可將矩形照片轉換為完美的圓形。我們的工具可幫助您即時將照片裁剪為圓形格式，無需註冊。無論您需要圓形頭像、社群媒體圓形照片，還是設計專案的圓形照片，我們的圓形照片裁剪工具都能讓這一切變得簡單輕鬆。"
+    },
+    "seo": {
+      "title": "照片圓形裁剪 | 免費線上圓形裁剪工具",
+      "description": "免費線上工具，可將任何照片裁剪成完美的圓形 - 非常適合頭像、社群媒體和設計專案。"
+    },
+    "selectRegion": {
+      "title": "選擇區域",
+      "subtitle": "選擇您偏好的語言和區域"
+    },
+    "rateService": {
+      "title": "為照片圓形裁剪評分",
+      "thankYou": "感謝您的回饋！",
+      "averageRating": "4.5",
+      "votes": "4,992 票"
+    }
   }
 }

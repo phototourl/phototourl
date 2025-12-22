@@ -25,7 +25,7 @@
         "privacy": "Quyền riêng tư",
         "terms": "Điều khoản"
       },
-      "copyright": "© 2025 Photo to URL. Bảo lưu mọi quyền."
+      "copyright": "© 2025 Photo To URL. Bảo lưu mọi quyền."
     }
   },
   "home": {
@@ -35,8 +35,8 @@
       "nosignup": "Không cần đăng ký"
     },
     "hero": {
-      "title1": "Miễn phí",
-      "title2": "ảnh thành URL",
+      "title1": "Ảnh",
+      "title2": "thành URL",
       "subtitle": "Tải lên → nhận liên kết → dán ở bất cứ đâu.",
       "upload": "Tải lên hình ảnh",
       "bullet": {
@@ -215,5 +215,32 @@
     "heroDropSubtitle": "Chúng tôi sẽ cải thiện và lưu trữ nó, sau đó trả về một liên kết sạch.",
     "heroDropBadge": "Kéo hoặc nhấp (JPG/PNG, lên đến 10MB)",
     "logoAlt": "Logo Ảnh thành URL"
+  },
+  "circleCrop": {
+    "title": "Ảnh Thành Hình Tròn",
+    "description": "Công cụ cắt ảnh tròn trực tuyến miễn phí, dễ dàng cắt bất kỳ ảnh nào thành hình tròn hoàn hảo - hoàn hảo cho ảnh đại diện, mạng xã hội và dự án thiết kế.",
+    "upload": "Tải ảnh lên",
+    "processing": "Đang xử lý...",
+    "download": "Tải xuống ảnh tròn",
+    "errorSelectFile": "Vui lòng chọn tệp ảnh",
+    "errorUploadFirst": "Vui lòng tải ảnh lên trước",
+    "page": {
+      "title": "Ảnh Thành Hình Tròn - Công Cụ Cắt Ảnh Tròn Trực Tuyến Miễn Phí",
+      "description": "Ảnh Thành Hình Tròn là công cụ trực tuyến miễn phí để chuyển đổi ảnh hình chữ nhật thành hình tròn hoàn hảo. Công cụ của chúng tôi giúp bạn cắt ảnh ở định dạng tròn ngay lập tức, không cần đăng ký. Dù bạn cần ảnh đại diện tròn, ảnh tròn cho mạng xã hội, hay ảnh bo tròn cho dự án thiết kế, công cụ cắt ảnh tròn của chúng tôi làm cho mọi thứ trở nên đơn giản và dễ dàng."
+    },
+    "seo": {
+      "title": "Ảnh Thành Hình Tròn | Công Cụ Cắt Tròn Trực Tuyến Miễn Phí",
+      "description": "Công cụ trực tuyến miễn phí để cắt bất kỳ ảnh nào thành hình tròn hoàn hảo - hoàn hảo cho ảnh đại diện, mạng xã hội và dự án thiết kế."
+    },
+    "selectRegion": {
+      "title": "Chọn khu vực",
+      "subtitle": "Chọn ngôn ngữ và khu vực ưa thích của bạn"
+    },
+    "rateService": {
+      "title": "Đánh giá Ảnh Thành Hình Tròn",
+      "thankYou": "Cảm ơn bạn đã phản hồi!",
+      "averageRating": "4.5",
+      "votes": "4,992 phiếu bầu"
+    }
   }
 }

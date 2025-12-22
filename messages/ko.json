@@ -25,7 +25,7 @@
         "privacy": "개인정보",
         "terms": "약관"
       },
-      "copyright": "© 2025 Photo to URL. All rights reserved."
+      "copyright": "© 2025 Photo To URL. All rights reserved."
     }
   },
   "home": {
@@ -203,6 +203,33 @@
     "heroDropSubtitle": "이미지를 자동으로 최적화·호스팅하고 깔끔한 링크를 돌려줍니다.",
     "heroDropBadge": "클릭 또는 드래그 (JPG/PNG, 최대 10MB)",
     "logoAlt": "사진을 URL로 로고"
+  },
+  "circleCrop": {
+    "title": "사진 원형 자르기",
+    "description": "무료 온라인 원형 사진 자르기 도구, 어떤 사진이든 완벽한 원형으로 쉽게 자르기 - 프로필 사진, 소셜 미디어, 디자인 프로젝트에 완벽합니다.",
+    "upload": "사진 업로드",
+    "processing": "처리 중...",
+    "download": "원형 사진 다운로드",
+    "errorSelectFile": "사진 파일을 선택해주세요",
+    "errorUploadFirst": "먼저 사진을 업로드해주세요",
+    "page": {
+      "title": "사진 원형 자르기 - 무료 온라인 원형 사진 자르기 도구",
+      "description": "사진 원형 자르기는 직사각형 사진을 완벽한 원형으로 변환하는 무료 온라인 도구입니다. 저희 도구는 등록 없이 즉시 사진을 원형 형식으로 자를 수 있도록 도와줍니다. 원형 프로필 사진, 소셜 미디어용 원형 사진, 디자인 프로젝트용 원형 사진이 필요한 경우, 저희 원형 사진 자르기 도구로 간단하고 쉽게 만들 수 있습니다."
+    },
+    "seo": {
+      "title": "사진 원형 자르기 | 무료 온라인 원형 자르기 도구",
+      "description": "어떤 사진이든 완벽한 원형으로 자르는 무료 온라인 도구 - 프로필 사진, 소셜 미디어, 디자인 프로젝트에 완벽합니다."
+    },
+    "selectRegion": {
+      "title": "지역 선택",
+      "subtitle": "선호하는 언어와 지역을 선택하세요"
+    },
+    "rateService": {
+      "title": "사진 원형 자르기 평가",
+      "thankYou": "피드백을 주셔서 감사합니다!",
+      "averageRating": "4.5",
+      "votes": "4,992표"
+    }
   }
 }
 

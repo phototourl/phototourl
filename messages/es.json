@@ -25,7 +25,7 @@
         "privacy": "Privacidad",
         "terms": "Términos"
       },
-      "copyright": "© 2025 Photo to URL. Todos los derechos reservados."
+      "copyright": "© 2025 Photo To URL. Todos los derechos reservados."
     }
   },
   "home": {
@@ -203,5 +203,32 @@
     "heroDropSubtitle": "La mejoramos y la alojamos, y te devolvemos un enlace limpio al instante.",
     "heroDropBadge": "Haz clic o arrastra (JPG/PNG, hasta 10MB)",
     "logoAlt": "Logotipo de Foto a URL"
+  },
+  "circleCrop": {
+    "title": "Foto a Círculo",
+    "description": "Herramienta gratuita en línea para recortar fotos en círculo, recorta fácilmente cualquier foto en un círculo perfecto - perfecto para fotos de perfil, redes sociales y proyectos de diseño.",
+    "upload": "Subir foto",
+    "processing": "Procesando...",
+    "download": "Descargar foto circular",
+    "errorSelectFile": "Por favor seleccione un archivo de foto",
+    "errorUploadFirst": "Por favor suba una foto primero",
+    "page": {
+      "title": "Foto a Círculo - Recortador de Fotos Circulares Gratis en Línea",
+      "description": "Foto a Círculo es una herramienta gratuita en línea para transformar fotos rectangulares en formas perfectamente circulares. Nuestra herramienta te ayuda a recortar fotos en formato circular al instante, sin necesidad de registro. Ya sea que necesites una foto de perfil redonda, una foto circular para redes sociales, o una foto redondeada para proyectos de diseño, nuestra herramienta de recorte circular lo hace simple y fácil."
+    },
+    "seo": {
+      "title": "Foto a Círculo | Recortador Circular Gratis en Línea",
+      "description": "Herramienta gratuita en línea para recortar cualquier foto en un círculo perfecto - perfecto para fotos de perfil, redes sociales y proyectos de diseño."
+    },
+    "selectRegion": {
+      "title": "Seleccionar región",
+      "subtitle": "Elija su idioma y región preferidos"
+    },
+    "rateService": {
+      "title": "Calificar Foto a Círculo",
+      "thankYou": "¡Gracias por sus comentarios!",
+      "averageRating": "4.5",
+      "votes": "4,992 votos"
+    }
   }
 }

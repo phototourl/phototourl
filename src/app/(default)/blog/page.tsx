@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog | Photo to URL",
+  title: "Blog | Photo To URL",
   description: "Articles about photo hosting, link sharing, and performance tips.",
 };
 

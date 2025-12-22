@@ -25,7 +25,7 @@
         "privacy": "Privacy",
         "terms": "Termini"
       },
-      "copyright": "© 2025 Photo to URL. Tutti i diritti riservati."
+      "copyright": "© 2025 Photo To URL. Tutti i diritti riservati."
     }
   },
   "home": {
@@ -58,7 +58,7 @@
     },
     "upload": {
       "title": "Trascina una foto o clicca per sfogliare",
-      "hint": "JPG, PNG, WEBP, GIF fino a 10MB. Trascina e rilascia, clicca o incolla screenshot.",
+      "hint": "JPG, PNG, WEBP, GIF fino a 10MB. Trascina, clicca o incolla.",
       "orDrop": "o trascina un file",
       "samplesTitle": "Nessuna immagine? Prova una di queste:",
       "policy": "Caricando un'immagine accetti la nostra <privacy>Informativa sulla Privacy</privacy> e i <terms>Termini di Utilizzo</terms>.",
@@ -215,5 +215,32 @@
     "heroDropSubtitle": "La miglioreremo e la ospiteremo, poi restituiremo un link pulito.",
     "heroDropBadge": "Trascina o clicca (JPG/PNG, fino a 10MB)",
     "logoAlt": "Logo Foto in URL"
+  },
+  "circleCrop": {
+    "title": "Foto in Cerchio",
+    "description": "Strumento gratuito online per ritagliare foto in cerchio, ritaglia facilmente qualsiasi foto in un cerchio perfetto - perfetto per foto profilo, social media e progetti di design.",
+    "upload": "Carica foto",
+    "processing": "Elaborazione...",
+    "download": "Scarica foto circolare",
+    "errorSelectFile": "Seleziona un file foto",
+    "errorUploadFirst": "Carica prima una foto",
+    "page": {
+      "title": "Foto in Cerchio - Ritagliatore di Foto Circolari Gratuito Online",
+      "description": "Foto in Cerchio è uno strumento gratuito online per trasformare foto rettangolari in forme perfettamente circolari. Il nostro strumento ti aiuta a ritagliare foto in formato circolare all'istante, senza registrazione richiesta. Che tu abbia bisogno di una foto profilo rotonda, una foto circolare per i social media, o una foto arrotondata per progetti di design, il nostro strumento di ritaglio circolare rende tutto semplice e facile."
+    },
+    "seo": {
+      "title": "Foto in Cerchio | Ritagliatore Circolare Gratuito Online",
+      "description": "Strumento gratuito online per ritagliare qualsiasi foto in un cerchio perfetto - perfetto per foto profilo, social media e progetti di design."
+    },
+    "selectRegion": {
+      "title": "Seleziona regione",
+      "subtitle": "Scegli la tua lingua e regione preferite"
+    },
+    "rateService": {
+      "title": "Valuta Foto in Cerchio",
+      "thankYou": "Grazie per il tuo feedback!",
+      "averageRating": "4.5",
+      "votes": "4,992 voti"
+    }
   }
 }

@@ -25,7 +25,7 @@
         "privacy": "Gizlilik",
         "terms": "Şartlar"
       },
-      "copyright": "© 2025 Photo to URL. Tüm hakları saklıdır."
+      "copyright": "© 2025 Photo To URL. Tüm hakları saklıdır."
     }
   },
   "home": {
@@ -35,8 +35,8 @@
       "nosignup": "Kayıt yok"
     },
     "hero": {
-      "title1": "Ücretsiz",
-      "title2": "fotoğrafı URL'ye",
+      "title1": "Fotoğraf",
+      "title2": "URL'ye",
       "subtitle": "Yükle → bağlantı al → her yere yapıştır.",
       "upload": "Görsel yükle",
       "bullet": {
@@ -58,7 +58,7 @@
     },
     "upload": {
       "title": "Bir fotoğraf bırakın veya gözatmak için tıklayın",
-      "hint": "JPG, PNG, WEBP, GIF en fazla 10MB. Sürükle-bırak, tıkla veya ekran görüntüsü yapıştır.",
+      "hint": "JPG, PNG, WEBP, GIF en fazla 10MB. Sürükle, tıkla veya yapıştır.",
       "orDrop": "veya bir dosya bırak",
       "samplesTitle": "Görsel yok mu? Bunlardan birini deneyin:",
       "policy": "Bir görsel yükleyerek <privacy>Gizlilik Politikamızı</privacy> ve <terms>Kullanım Şartlarımızı</terms> kabul etmiş olursunuz.",
@@ -215,6 +215,33 @@
     "heroDropSubtitle": "Geliştirip barındıracağız, sonra temiz bir bağlantı döndüreceğiz.",
     "heroDropBadge": "Sürükle veya tıkla (JPG/PNG, 10MB'a kadar)",
     "logoAlt": "Fotoğrafı URL'ye logosu"
+  },
+  "circleCrop": {
+    "title": "Fotoğrafı Daireye Kırp",
+    "description": "Ücretsiz çevrimiçi dairesel fotoğraf kırpma aracı, herhangi bir fotoğrafı kolayca mükemmel bir daireye kırpın - profil fotoğrafları, sosyal medya ve tasarım projeleri için mükemmel.",
+    "upload": "Fotoğraf yükle",
+    "processing": "İşleniyor...",
+    "download": "Dairesel fotoğraf indir",
+    "errorSelectFile": "Lütfen bir fotoğraf dosyası seçin",
+    "errorUploadFirst": "Lütfen önce bir fotoğraf yükleyin",
+    "page": {
+      "title": "Fotoğrafı Daireye Kırp - Ücretsiz Çevrimiçi Yuvarlak Fotoğraf Kırpıcı",
+      "description": "Fotoğrafı Daireye Kırp, dikdörtgen fotoğrafları mükemmel dairesel şekillere dönüştürmek için ücretsiz bir çevrimiçi araçtır. Aracımız, kayıt gerektirmeden fotoğrafları anında dairesel formatta kırpmanıza yardımcı olur. Yuvarlak profil fotoğrafı, sosyal medya için dairesel fotoğraf veya tasarım projeleri için yuvarlatılmış fotoğraf ihtiyacınız olsun, dairesel fotoğraf kırpma aracımız bunu basit ve kolay hale getirir."
+    },
+    "seo": {
+      "title": "Fotoğrafı Daireye Kırp | Ücretsiz Çevrimiçi Daire Kırpıcı",
+      "description": "Herhangi bir fotoğrafı mükemmel bir daireye kırpmak için ücretsiz çevrimiçi araç - profil fotoğrafları, sosyal medya ve tasarım projeleri için mükemmel."
+    },
+    "selectRegion": {
+      "title": "Bölge seç",
+      "subtitle": "Tercih ettiğiniz dili ve bölgeyi seçin"
+    },
+    "rateService": {
+      "title": "Fotoğrafı Daireye Kırp'ı Değerlendir",
+      "thankYou": "Geri bildiriminiz için teşekkürler!",
+      "averageRating": "4.5",
+      "votes": "4,992 oy"
+    }
   }
 }
 

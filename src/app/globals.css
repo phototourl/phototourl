@@ -2,6 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .slider-white-thumb::-webkit-slider-thumb {
+    appearance: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid #cbd5e1;
+    cursor: pointer;
+    transition: border-color 0.2s;
+  }
+
+  .slider-white-thumb:hover::-webkit-slider-thumb {
+    border-color: black;
+  }
+
+  .slider-white-thumb::-moz-range-thumb {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid #cbd5e1;
+    cursor: pointer;
+    transition: border-color 0.2s;
+  }
+
+  .slider-white-thumb:hover::-moz-range-thumb {
+    border-color: black;
+  }
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
