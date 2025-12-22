@@ -1,8 +1,21 @@
 import type { Metadata } from "next";
+import { siteUrl } from "@/app/seo-metadata";
 
 export const metadata: Metadata = {
   title: "Status | Photo To URL",
   description: "Service status for Photo To URL.",
+  alternates: {
+    canonical: `${siteUrl}/status`,
+  },
+  openGraph: {
+    title: "Status | Photo To URL",
+    description: "Service status for Photo To URL.",
+    url: `${siteUrl}/status`,
+  },
+  twitter: {
+    title: "Status | Photo To URL",
+    description: "Service status for Photo To URL.",
+  },
 };
 
 export default function StatusPage() {

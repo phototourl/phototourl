@@ -1,4 +1,23 @@
+import type { Metadata } from "next";
 import LegalPage from "@/components/LegalPage";
+import { siteUrl } from "@/app/seo-metadata";
+
+export const metadata: Metadata = {
+  title: "Terms of Service | Photo To URL",
+  description: "Terms of Service for Photo To URL.",
+  alternates: {
+    canonical: `${siteUrl}/legal/terms`,
+  },
+  openGraph: {
+    title: "Terms of Service | Photo To URL",
+    description: "Terms of Service for Photo To URL.",
+    url: `${siteUrl}/legal/terms`,
+  },
+  twitter: {
+    title: "Terms of Service | Photo To URL",
+    description: "Terms of Service for Photo To URL.",
+  },
+};
 
 export default function TermsPage() {
   return (

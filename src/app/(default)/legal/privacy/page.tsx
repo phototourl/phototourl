@@ -1,4 +1,23 @@
+import type { Metadata } from "next";
 import LegalPage from "@/components/LegalPage";
+import { siteUrl } from "@/app/seo-metadata";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | Photo To URL",
+  description: "Privacy Policy for Photo To URL.",
+  alternates: {
+    canonical: `${siteUrl}/legal/privacy`,
+  },
+  openGraph: {
+    title: "Privacy Policy | Photo To URL",
+    description: "Privacy Policy for Photo To URL.",
+    url: `${siteUrl}/legal/privacy`,
+  },
+  twitter: {
+    title: "Privacy Policy | Photo To URL",
+    description: "Privacy Policy for Photo To URL.",
+  },
+};
 
 export default function PrivacyPolicyPage() {
   return (

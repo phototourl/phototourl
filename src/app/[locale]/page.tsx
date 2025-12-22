@@ -828,7 +828,7 @@ export default function HomePage() {
                 { code: "fr", label: "Français (French)", countryCode: "FR" },
                 { code: "ar", label: "العربية (Arabic)", countryCode: "SA" },
                 { code: "pt", label: "Português (Portuguese)", countryCode: "PT" },
-                { code: "ja", label: "日本語 (Japanese)", countryCode: "JP" },
+                { code: "jp", label: "日本語 (Japanese)", countryCode: "JP" },
                 { code: "zh", label: "简体中文 (Simplified Chinese)", countryCode: "CN" },
                 { code: "ko", label: "한국어 (Korean)", countryCode: "KR" },
                 { code: "it", label: "Italiano (Italian)", countryCode: "IT" },

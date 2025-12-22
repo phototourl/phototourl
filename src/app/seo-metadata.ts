@@ -18,10 +18,10 @@ export const baseMetadata: Metadata = {
       fr: `${siteUrl}/fr`,
       pt: `${siteUrl}/pt`,
       de: `${siteUrl}/de`,
-      ja: `${siteUrl}/jp`, // 使用标准 ISO 代码 ja，但 URL 路径保持 /jp
+      jp: `${siteUrl}/jp`,
       ko: `${siteUrl}/ko`,
       ar: `${siteUrl}/ar`,
-    },
+    } as Record<string, string>,
   },
   openGraph: {
     title: "Photo To URL Converter | Turn photos into shareable links",

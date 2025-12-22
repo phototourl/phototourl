@@ -1,8 +1,21 @@
 import type { Metadata } from "next";
+import { siteUrl } from "@/app/seo-metadata";
 
 export const metadata: Metadata = {
   title: "Blog | Photo To URL",
   description: "Articles about photo hosting, link sharing, and performance tips.",
+  alternates: {
+    canonical: `${siteUrl}/blog`,
+  },
+  openGraph: {
+    title: "Blog | Photo To URL",
+    description: "Articles about photo hosting, link sharing, and performance tips.",
+    url: `${siteUrl}/blog`,
+  },
+  twitter: {
+    title: "Blog | Photo To URL",
+    description: "Articles about photo hosting, link sharing, and performance tips.",
+  },
 };
 
 export default function BlogPage() {

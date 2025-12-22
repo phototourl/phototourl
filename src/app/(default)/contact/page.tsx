@@ -1,8 +1,21 @@
 import type { Metadata } from "next";
+import { siteUrl } from "@/app/seo-metadata";
 
 export const metadata: Metadata = {
   title: "Contact | Photo To URL",
   description: "Contact Photo To URL support.",
+  alternates: {
+    canonical: `${siteUrl}/contact`,
+  },
+  openGraph: {
+    title: "Contact | Photo To URL",
+    description: "Contact Photo To URL support.",
+    url: `${siteUrl}/contact`,
+  },
+  twitter: {
+    title: "Contact | Photo To URL",
+    description: "Contact Photo To URL support.",
+  },
 };
 
 export default function ContactPage() {

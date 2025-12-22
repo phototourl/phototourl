@@ -1,4 +1,23 @@
+import type { Metadata } from "next";
 import LegalPage from "@/components/LegalPage";
+import { siteUrl } from "@/app/seo-metadata";
+
+export const metadata: Metadata = {
+  title: "Impressum | Photo To URL",
+  description: "Impressum for Photo To URL.",
+  alternates: {
+    canonical: `${siteUrl}/legal/impressum`,
+  },
+  openGraph: {
+    title: "Impressum | Photo To URL",
+    description: "Impressum for Photo To URL.",
+    url: `${siteUrl}/legal/impressum`,
+  },
+  twitter: {
+    title: "Impressum | Photo To URL",
+    description: "Impressum for Photo To URL.",
+  },
+};
 
 export default function ImpressumPage() {
   return (

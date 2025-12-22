@@ -1,8 +1,21 @@
 import type { Metadata } from "next";
+import { siteUrl } from "@/app/seo-metadata";
 
 export const metadata: Metadata = {
   title: "FAQ | Photo To URL",
   description: "Frequently asked questions about Photo To URL.",
+  alternates: {
+    canonical: `${siteUrl}/faq`,
+  },
+  openGraph: {
+    title: "FAQ | Photo To URL",
+    description: "Frequently asked questions about Photo To URL.",
+    url: `${siteUrl}/faq`,
+  },
+  twitter: {
+    title: "FAQ | Photo To URL",
+    description: "Frequently asked questions about Photo To URL.",
+  },
 };
 
 export default function FaqPage() {

@@ -4,6 +4,7 @@ import { SelectRegionSection } from "@/components/SelectRegionSection";
 import { RateServiceSection } from "@/components/RateServiceSection";
 import { PhotoToUrlLink } from "@/components/PhotoToUrlLink";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { siteUrl } from "@/app/seo-metadata";
 
 export async function generateMetadata({
   params,
@@ -12,9 +13,26 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "circleCrop.seo" });
+  
+  // 设置正确的 canonical URL
+  const canonicalPath = locale === "en" ? "/circlecrop" : `/${locale}/circlecrop`;
+  const canonicalUrl = `${siteUrl}${canonicalPath}`;
+  
   return {
     title: t("title"),
     description: t("description"),
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: t("title"),
+      description: t("description"),
+      url: canonicalUrl,
+    },
+    twitter: {
+      title: t("title"),
+      description: t("description"),
+    },
   };
 }
 

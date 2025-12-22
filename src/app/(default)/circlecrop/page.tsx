@@ -4,12 +4,27 @@ import { SelectRegionSection } from "@/components/SelectRegionSection";
 import { RateServiceSection } from "@/components/RateServiceSection";
 import { PhotoToUrlLink } from "@/components/PhotoToUrlLink";
 import { getTranslations } from "next-intl/server";
+import { siteUrl } from "@/app/seo-metadata";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("circleCrop.seo");
+  const canonicalUrl = `${siteUrl}/circlecrop`;
+  
   return {
     title: t("title"),
     description: t("description"),
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: t("title"),
+      description: t("description"),
+      url: canonicalUrl,
+    },
+    twitter: {
+      title: t("title"),
+      description: t("description"),
+    },
   };
 }
 

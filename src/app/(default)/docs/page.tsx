@@ -1,8 +1,21 @@
 import type { Metadata } from "next";
+import { siteUrl } from "@/app/seo-metadata";
 
 export const metadata: Metadata = {
   title: "Docs | Photo To URL",
   description: "Documentation for Photo To URL.",
+  alternates: {
+    canonical: `${siteUrl}/docs`,
+  },
+  openGraph: {
+    title: "Docs | Photo To URL",
+    description: "Documentation for Photo To URL.",
+    url: `${siteUrl}/docs`,
+  },
+  twitter: {
+    title: "Docs | Photo To URL",
+    description: "Documentation for Photo To URL.",
+  },
 };
 
 export default function DocsPage() {
