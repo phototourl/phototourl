@@ -803,7 +803,7 @@ export default function HomePage() {
 
       {/* Select Region */}
       <section className="bg-white py-16">
-        <div className="mx-auto max-w-5xl px-6 lg:px-10">
+        <div className="mx-auto max-w-6xl px-6 lg:max-w-7xl lg:px-10">
           <div className="space-y-6">
             <div className="text-center space-y-2">
               <h3 className="text-2xl font-bold text-slate-800">{t("selectRegion.title")}</h3>
@@ -813,6 +813,7 @@ export default function HomePage() {
               {[
                 { code: "en", label: "English", countryCode: "US" },
                 { code: "de", label: "Deutsch (German)", countryCode: "DE" },
+                { code: "rm", label: "Rumantsch (Romansh)", countryCode: "CH" },
                 { code: "es", label: "Español (Spanish)", countryCode: "ES" },
                 { code: "fr", label: "Français (French)", countryCode: "FR" },
                 { code: "ar", label: "العربية (Arabic)", countryCode: "SA" },
@@ -829,11 +830,10 @@ export default function HomePage() {
                 { code: "th", label: "ไทย (Thai)", countryCode: "TH" },
                 { code: "cs", label: "Čeština (Czech)", countryCode: "CZ" },
                 { code: "sv", label: "Svenska (Swedish)", countryCode: "SE" },
-                { code: "rm", label: "Rumantsch (Romansh)", countryCode: "CH" },
                 { code: "ru", label: "Русский (Russian)", countryCode: "RU" },
                 { code: "hi", label: "हिन्दी (Hindi)", countryCode: "IN" },
-                { code: "id", label: "Bahasa Indonesia (Indonesian)", countryCode: "ID" },
-                { code: "ms", label: "Bahasa Melayu (Malay)", countryCode: "MY" },
+                { code: "id", label: "Indonesia (Indonesian)", countryCode: "ID" },
+                { code: "ms", label: "Melayu (Malay)", countryCode: "MY" },
                 { code: "uk", label: "Українська (Ukrainian)", countryCode: "UA" },
               ].map((item) => {
                 const isSelected = locale === item.code;

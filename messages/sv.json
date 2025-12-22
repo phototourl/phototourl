@@ -242,5 +242,21 @@
       "averageRating": "4.5",
       "votes": "4,992 röster"
     }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blogg | Photo To URL",
+      "description": "Artiklar om fotohosting, länkdelning och prestandatips."
+    },
+    "page": {
+      "title": "Blogg",
+      "description": "Vi förbereder artiklar om fotohosting, CDN, länkdelning och SEO-tips. Innehåll kommer snart.",
+      "stayTuned": "Håll utkik efter guider om:",
+      "guides": {
+        "1": "Bästa praxis för att konvertera bilder till URL",
+        "2": "Hur man använder direkta fotolänkar i bloggar och dokument",
+        "3": "Prestanda och cachning för statiska tillgångar"
+      }
+    }
   }
 }

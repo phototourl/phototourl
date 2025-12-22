@@ -1,36 +1,48 @@
 import type { Metadata } from "next";
 import { siteUrl } from "@/app/seo-metadata";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Blog | Photo To URL",
-  description: "Articles about photo hosting, link sharing, and performance tips.",
-  alternates: {
-    canonical: `${siteUrl}/blog`,
-  },
-  openGraph: {
-    title: "Blog | Photo To URL",
-    description: "Articles about photo hosting, link sharing, and performance tips.",
-    url: `${siteUrl}/blog`,
-  },
-  twitter: {
-    title: "Blog | Photo To URL",
-    description: "Articles about photo hosting, link sharing, and performance tips.",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = "en";
+  const t = await getTranslations({ locale, namespace: "blog.seo" });
+  const canonicalPath = "/blog";
+  const canonicalUrl = `${siteUrl}${canonicalPath}`;
+  
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: t("title"),
+      description: t("description"),
+      url: canonicalUrl,
+    },
+    twitter: {
+      title: t("title"),
+      description: t("description"),
+    },
+  };
+}
 
-export default function BlogPage() {
+export default async function BlogPage() {
+  const locale = "en";
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "blog.page" });
+  
   return (
     <div className="mx-auto max-w-4xl px-6 py-12">
-      <h1 className="text-3xl font-bold text-slate-900">Blog</h1>
+      <h1 className="text-3xl font-bold text-slate-900">{t("title")}</h1>
       <p className="mt-3 text-slate-600">
-        We&apos;re preparing articles on photo hosting, CDN, link sharing, and SEO tips. Content coming soon.
+        {t("description")}
       </p>
       <div className="mt-6 rounded-lg border border-slate-200 bg-white p-4 text-sm text-slate-600">
-        Stay tuned for guides on:
+        {t("stayTuned")}
         <ul className="mt-2 list-disc pl-5">
-          <li>Best practices for image to URL conversion</li>
-          <li>How to use direct photo links in blogs and docs</li>
-          <li>Performance and caching for static assets</li>
+          <li>{t("guides.1")}</li>
+          <li>{t("guides.2")}</li>
+          <li>{t("guides.3")}</li>
         </ul>
       </div>
     </div>

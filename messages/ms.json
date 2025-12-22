@@ -243,5 +243,21 @@
       "averageRating": "4.5",
       "votes": "4,992 undian"
     }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog | Photo To URL",
+      "description": "Artikel tentang pengehosan foto, perkongsian pautan, dan tips prestasi."
+    },
+    "page": {
+      "title": "Blog",
+      "description": "Kami sedang menyediakan artikel tentang pengehosan foto, CDN, perkongsian pautan, dan tips SEO. Kandungan akan datang tidak lama lagi.",
+      "stayTuned": "Tunggu panduan tentang:",
+      "guides": {
+        "1": "Amalan terbaik untuk penukaran imej ke URL",
+        "2": "Cara menggunakan pautan foto langsung dalam blog dan dokumen",
+        "3": "Prestasi dan cache untuk aset statik"
+      }
+    }
   }
 }

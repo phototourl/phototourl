@@ -47,7 +47,7 @@ export function SelectRegionSection({ translationKey = "home.selectRegion" }: Se
 
   return (
     <section className="py-16 section-bg-purple">
-      <div className="mx-auto max-w-5xl px-6 lg:px-10">
+      <div className="mx-auto max-w-6xl px-6 lg:max-w-7xl lg:px-10">
         <div className="space-y-6">
           <div className="text-center space-y-2">
             <h3 className="text-2xl font-bold text-slate-800">{t("title")}</h3>

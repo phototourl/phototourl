@@ -242,6 +242,22 @@
       "averageRating": "4.5",
       "votes": "4,992 hlasů"
     }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog | Photo To URL",
+      "description": "Články o hostování fotek, sdílení odkazů a tipy na výkon."
+    },
+    "page": {
+      "title": "Blog",
+      "description": "Připravujeme články o hostování fotek, CDN, sdílení odkazů a SEO tipech. Obsah brzy přijde.",
+      "stayTuned": "Sledujte průvodce o:",
+      "guides": {
+        "1": "Nejlepší postupy pro převod obrázků na URL",
+        "2": "Jak používat přímé odkazy na fotky v blogech a dokumentech",
+        "3": "Výkon a ukládání do mezipaměti pro statické prostředky"
+      }
+    }
   }
 }
 

@@ -242,5 +242,21 @@
       "averageRating": "4.5",
       "votes": "4,992 stemmen"
     }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog | Photo To URL",
+      "description": "Artikelen over fotohosting, linkdeling en prestatietips."
+    },
+    "page": {
+      "title": "Blog",
+      "description": "We bereiden artikelen voor over fotohosting, CDN, linkdeling en SEO-tips. Inhoud komt binnenkort.",
+      "stayTuned": "Blijf op de hoogte voor gidsen over:",
+      "guides": {
+        "1": "Beste praktijken voor het converteren van afbeeldingen naar URL",
+        "2": "Hoe directe fotolinks te gebruiken in blogs en documenten",
+        "3": "Prestaties en caching voor statische assets"
+      }
+    }
   }
 }

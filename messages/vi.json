@@ -242,5 +242,21 @@
       "averageRating": "4.5",
       "votes": "4,992 phiếu bầu"
     }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog | Photo To URL",
+      "description": "Các bài viết về lưu trữ ảnh, chia sẻ liên kết và mẹo hiệu suất."
+    },
+    "page": {
+      "title": "Blog",
+      "description": "Chúng tôi đang chuẩn bị các bài viết về lưu trữ ảnh, CDN, chia sẻ liên kết và mẹo SEO. Nội dung sắp ra mắt.",
+      "stayTuned": "Hãy theo dõi các hướng dẫn về:",
+      "guides": {
+        "1": "Thực hành tốt nhất để chuyển đổi hình ảnh sang URL",
+        "2": "Cách sử dụng liên kết ảnh trực tiếp trong blog và tài liệu",
+        "3": "Hiệu suất và bộ nhớ đệm cho tài sản tĩnh"
+      }
+    }
   }
 }

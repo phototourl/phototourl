@@ -291,5 +291,21 @@
       "averageRating": "4.5",
       "votes": "4'992 vuschs"
     }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog | Photo To URL",
+      "description": "Artitgels davart hosting da fotografias, sparter da links e tips da prestaziun."
+    },
+    "page": {
+      "title": "Blog",
+      "description": "Nus preparain artitgels davart hosting da fotografias, CDN, sparter da links e tips SEO. Il cuntegn vegn prest.",
+      "stayTuned": "Restai sintonisads per guidas davart:",
+      "guides": {
+        "1": "Las meglieras praticas per midar maletgs en URLs",
+        "2": "Co duvrar links directas da fotografias en blogs e documents",
+        "3": "Prestaziun e caching per assets statics"
+      }
+    }
   }
 }

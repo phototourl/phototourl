@@ -230,5 +230,21 @@
       "averageRating": "4.5",
       "votes": "4,992 votos"
     }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog | Photo To URL",
+      "description": "Artículos sobre alojamiento de fotos, compartir enlaces y consejos de rendimiento."
+    },
+    "page": {
+      "title": "Blog",
+      "description": "Estamos preparando artículos sobre alojamiento de fotos, CDN, compartir enlaces y consejos de SEO. El contenido llegará pronto.",
+      "stayTuned": "Manténgase atento para guías sobre:",
+      "guides": {
+        "1": "Mejores prácticas para convertir imágenes a URL",
+        "2": "Cómo usar enlaces de fotos directos en blogs y documentos",
+        "3": "Rendimiento y almacenamiento en caché para recursos estáticos"
+      }
+    }
   }
 }

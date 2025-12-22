@@ -13,10 +13,10 @@ const navLinks = [
 ] as const;
 
 const productLinks = [
-  { label: "Image to URL", href: "https://www.image2url.com/" },
-  { label: "Photo To Circle Crop", href: "https://circlecropimage.qzboat.com/" },
-  { label: "Discord Wrapped", href: "https://discordwarpped.qzboat.com/" },
-  { label: "qzboat", href: "https://www.qzboat.com/" },
+  { label: "Image to URL", href: "https://www.image2url.com/", external: true },
+  { label: "Photo To Circle Crop", href: "/circlecrop", external: false },
+  { label: "Discord Wrapped", href: "https://discordwarpped.qzboat.com/", external: true },
+  { label: "Qzboat", href: "https://www.qzboat.com/", external: true },
 ];
 
 export async function SiteFooter() {
@@ -81,29 +81,39 @@ export async function SiteFooter() {
             <div className="space-y-3">
               <div className="text-sm font-semibold uppercase tracking-wide text-white/80">{t("footer.productsTitle")}</div>
               <div className="flex flex-col gap-2 text-sm text-white/95">
-                {productLinks.map((link) => (
-                  <a
-                    key={link.href}
-                    href={link.href}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="underline-offset-4 hover:text-white hover:underline break-words"
-                  >
-                    {link.label}
-                  </a>
-                ))}
+                {productLinks.map((link) =>
+                  link.external ? (
+                    <a
+                      key={link.href}
+                      href={link.href}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="underline-offset-4 hover:text-white hover:underline break-words"
+                    >
+                      {link.label}
+                    </a>
+                  ) : (
+                    <LocaleLink
+                      key={link.href}
+                      href={link.href}
+                      className="underline-offset-4 hover:text-white hover:underline break-words"
+                    >
+                      {link.label}
+                    </LocaleLink>
+                  )
+                )}
               </div>
             </div>
 
             <div className="space-y-3">
               <div className="text-sm font-semibold uppercase tracking-wide text-white/80">{t("footer.partners")}</div>
               <a
-                href="https://luolink.com/"
+                href="https://x.com/image2url"
                 target="_blank"
                 rel="noreferrer"
                 className="text-sm text-white/95 hover:text-white hover:underline underline-offset-4 block"
               >
-                Luolink
+                image2url
               </a>
             </div>
           </div>

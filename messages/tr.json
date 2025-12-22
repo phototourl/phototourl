@@ -242,6 +242,22 @@
       "averageRating": "4.5",
       "votes": "4,992 oy"
     }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog | Photo To URL",
+      "description": "Foto barındırma, bağlantı paylaşımı ve performans ipuçları hakkında makaleler."
+    },
+    "page": {
+      "title": "Blog",
+      "description": "Foto barındırma, CDN, bağlantı paylaşımı ve SEO ipuçları hakkında makaleler hazırlıyoruz. İçerik yakında gelecek.",
+      "stayTuned": "Şu konulardaki rehberler için bizi takip edin:",
+      "guides": {
+        "1": "Görüntüyü URL'ye dönüştürme için en iyi uygulamalar",
+        "2": "Blog ve belgelerde doğrudan foto bağlantılarını nasıl kullanılır",
+        "3": "Statik varlıklar için performans ve önbelleğe alma"
+      }
+    }
   }
 }
 

@@ -243,5 +243,21 @@
       "averageRating": "4.5",
       "votes": "4.992 suara"
     }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog | Photo To URL",
+      "description": "Artikel tentang hosting foto, berbagi tautan, dan tips performa."
+    },
+    "page": {
+      "title": "Blog",
+      "description": "Kami sedang menyiapkan artikel tentang hosting foto, CDN, berbagi tautan, dan tips SEO. Konten segera hadir.",
+      "stayTuned": "Tunggu panduan tentang:",
+      "guides": {
+        "1": "Praktik terbaik untuk konversi gambar ke URL",
+        "2": "Cara menggunakan tautan foto langsung di blog dan dokumen",
+        "3": "Performa dan caching untuk aset statis"
+      }
+    }
   }
 }
