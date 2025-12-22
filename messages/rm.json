@@ -1,0 +1,295 @@
+{
+  "common": {
+    "siteName": "Fotografia a URL",
+    "tagline": "Transfurmar fotografias en ligiaivlas nettas e spartiblas en segunds",
+    "header": {
+      "subtitle": "Transfurmar maletgs en ligiaivlas spartiblas",
+      "prompt": "Laschar ir, incollàr u chargiar — survegnir in ligiaivl spartibel immediatamain",
+      "circleCrop": "Fotografia per tagl circular"
+    },
+    "footer": {
+      "blurb": {
+        "line1": "Transfurmar fotografias en ligiaivlas nettas e spartiblas.",
+        "line2": "Spert, simpel, fidabel."
+      },
+      "partners": "Partenaris",
+      "linksTitle": "Ligiaivlas",
+      "productsTitle": "Products",
+      "nav": {
+        "home": "Chasa",
+        "blog": "Blog",
+        "docs": "Documentaziun",
+        "status": "Stadi",
+        "contact": "Contact"
+      },
+      "legal": {
+        "privacy": "Confidenzialitad",
+        "terms": "Termins"
+      },
+      "copyright": "© 2025 Photo To URL. Tut ils dretgs reservads."
+    }
+  },
+  "home": {
+    "badge": {
+      "free": "Gratis",
+      "cdn": "Ligiaivlas CDN",
+      "nosignup": "Nessina registraziun"
+    },
+    "hero": {
+      "title1": "Foto",
+      "title2": "URL",
+      "subtitle": "Chargiar → survegnir in link → incollair en mintga lieu.",
+      "upload": "Chargiar imatge",
+      "bullet": {
+        "fast": "Partiziun svelt",
+        "direct": "Links directas da fotografias",
+        "nosignup": "Nessina registraziun necessaria",
+        "paste": "Incollar dal clipboard"
+      }
+    },
+    "demo": {
+      "label": "Demonstraziun",
+      "loop": "Demonstraziun automategica",
+      "idleTitle": "Trag e lascha ir tia imatge",
+      "idleSubtitle": "Vesa il process cumplett da chargiar → link → copiar.",
+      "processing": "Optimisar e chargiar...",
+      "doneTitle": "Pront per partiziun",
+      "doneSubtitle": "Tieu link è pront per vegnir partì immediatamain.",
+      "thanksForWatching": "Grazia per vesair"
+    },
+    "upload": {
+      "title": "Lascha ir ina fotografia u clicca per tschertgar",
+      "hint": "JPG, PNG, WEBP, GIF fin a 10MB. Trag e lascha ir, clicca u incolla screenshots.",
+      "orDrop": "u lascha ir in file",
+      "samplesTitle": "Nagina imatge? Prova ina da quellas:",
+      "policy": "Tras chargiar si ina imatge acceptas ti nossa <privacy>Politica da confidenzialitad</privacy> e <terms>Condiziuns d’utilisaziun</terms>.",
+      "clear": "Net"
+    },
+    "result": {
+      "error": "Il chargiament ha manchà. Per plaschair, emprova puspè.",
+      "generated": "Ligia generada:",
+      "open": "Avrir en in nov tab",
+      "placeholder": "Anc nagina ligia. Chargia ina fotografia per generar in URL da spartir.",
+      "savePrompt": "Salva la ligia sco ti vuls",
+      "copy": "Copia la ligia",
+      "copied": "Copiau"
+    },
+    "benefits": {
+      "title": "Pertge che las persunas tschernan Fotografia a URL",
+      "subtitle": "Sveltezza, ligias nettas e nagina registraziun necessaria.",
+      "items": {
+        "fast": {
+          "title": "Partiziun svelt",
+          "desc": "Chargia e survegn in URL en tschients secundas senza pass ulteriurs."
+        },
+        "direct": {
+          "title": "URLs directas da maletgs",
+          "desc": "Ligias nettas che funcziunan en HTML, Markdown e apps da chat."
+        },
+        "nosignup": {
+          "title": "Nessina registraziun necessaria",
+          "desc": "Dovra immediatamain. Accounts pon vegnir pli tard cun la creschientscha."
+        }
+      }
+    },
+    "how": {
+      "title": "Co che quai funcziuna",
+      "step1": "1) Agiunta tia fotografia (trai, incolla u clicca per tscherner in file).",
+      "step2": "2) Nus ospitem e returnain ina ligia da spartir.",
+      "step3": "3) Copia e spart la ligia en mintga lieu nua che ti lavureschas.",
+      "note": "Tia ligia sa avra svelt en docs, chats e prototypes – e ti pos era telechargiar ella en il format che ti vuls (.txt/.json/.md)."
+    },
+    "process": {
+      "title": "Fluss en trais pass",
+      "subtitle": "Reducta sforz, mantegna il CTA visibel, finisch en segundas.",
+      "steps": {
+        "1": {
+          "title": "Lantscha u incolla",
+          "desc": "Traina in file, incolla dal clipboard u tschertga."
+        },
+        "2": {
+          "title": "Nus ospitam e returnain in link",
+          "desc": "URL instantan cun controllas per copiar/avrir/salvar."
+        },
+        "3": {
+          "title": "Partagescha en mintga lieu",
+          "desc": "Incolla en documents, chats, tickets, blogs u prototypes."
+        }
+      }
+    },
+    "features": {
+      "title": "Puncts culminants da funcziuns",
+      "subtitle": "Claredad per l’emprim: damain fricziun, dapli partiziun.",
+      "items": {
+        "cdn": {
+          "title": "Links direct dal CDN",
+          "desc": "URLs netts e predictibels pronts per integraziuns Markdown e HTML."
+        },
+        "save": {
+          "title": "Acziuns da copiar e salvar",
+          "desc": "Copiar, avrir u salvar sco .txt/.json/.md cun in clic."
+        },
+        "clipboard": {
+          "title": "Amicabel per il clipboard",
+          "desc": "Incolla screenshots senza tschertgar files u chargiar puspè."
+        },
+        "errors": {
+          "title": "Erors amichevuls",
+          "desc": "Messadis clers da mantegniment enstagl da traces tecnics da stack."
+        },
+        "nosignup": {
+          "title": "Nessina registraziun necessaria",
+          "desc": "Distribuescha pli svelt—chargia e partagescha immediatamain."
+        },
+        "r2": {
+          "title": "Ospitaziun svelt",
+          "desc": "Ils ligams vegnan servids tras in CDN svelt per in chargiament svelt e in access fidabel."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Squads che spargnan temp cun Fotografia a URL",
+      "subtitle": "Prova sociala per reducir il ristg e accelerar l’adopziun.",
+      "items": {
+        "ops": {
+          "name": "Operaziuns da product",
+          "quote": "Nus incollain screenshots en tickets senza clogiar attachments. Ils ligams restan nets."
+        },
+        "content": {
+          "name": "Responsabel da cuntegn",
+          "quote": "Ligams pronts per Markdown tegnan nossas documentaziuns ordas e publicablas en paucs minutas."
+        },
+        "support": {
+          "name": "Sustegn",
+          "quote": "Erors clers e URLs instantanas rendan facil da gidar clients en chat."
+        }
+      }
+    },
+    "cta": {
+      "title": "Transfurmar maletgs en ligams en secundas",
+      "subtitle": "Lassar ir, incollar u chargiar – copia tia ligia e parta ella en tut las parts.",
+      "upload": "Chargiar ussa",
+      "paste": "Incollar in screenshot"
+    },
+    "longform": {
+      "title": "Pertge che Fotografia a URL gida tia lavur",
+      "p1": "Fotografia a URL è sviluppà per creaturs, marketers, squads da sustegn, fundaturs e tuts quels che basegnan ina via svelt e fidabla per transfurmar maletgs en ligams nets. Cun in fluss direct da chargiar a link eviteschas gesturs da medias grevs e schlassas logins. Ils ligams èn ordads, facil da incollar en apps da chat, docs, wikis, rapports da bugs e tickets. Ils squads van pli svelt cura che screenshots e maletgs da products èn subit spartibels senza limitaziuns da attachments ni previews dischliads. Perquai che ils ligams èn predictivs e consistents, funcziunan els bain er en automaziun, pass da QA e prototypes levers.",
+      "p2": "L’experientscha resta simpla: lassar ir, incollar u navigar; survegnir in link; partir. Nagina interfaccia superflua, naginas publicitads distrahentas, nagina barriera. Ti tegnias la concentraziun sin tes cuntegn, nus ans occupain da las parts monotunas da l’hosting. Sche ti documenteschas ina funcziun, preparas in post da blog, construis in pitch deck u trametschas ina resposta svelt da sustegn, in link curt è meglier che attachments grevs. Per squads globals è l’interfaccia disponibla en plirs idioms, mantegnind la copia concisa e universala.",
+      "useCases": {
+        "title": "Cas d’utilisaziun che restan pratics",
+        "items": {
+          "1": "Product e design: parta mockups d’interfatscha, screenshots da components e notas visualas sveltas senza exportar en utensils grevs.",
+          "2": "Sustegn e QA: attatga screenshots reproducibels en tickets, chats u runbooks; ils ligams restan ordads e facil da trair en mira.",
+          "3": "Docs e blogs: integra maletgs en editors Markdown, HTML u CMS cun URLs predictivs e senza surpraisas da layout.",
+          "4": "Vendas e Servetsch al Client: lascha caschunar capturas da prova u demonstraziuns per clients directamain en email u messadis.",
+          "5": "Transmissiun a l'ingenieria: tegna artefacts da construcziun, snapshots d'error e visuals da regressiun lievs per revists pli svelts.",
+          "6": "Communitad e medias socials: incollai ligiaziuns en Discord, Slack, Teams, Twitter/X u forums senza previews grevs."
+        }
+      },
+      "flow": {
+        "title": "Co funcziuna il process da principi fin la fin",
+        "p1": "1) Tscherna ina maletg: drag-and-drop, incolla da clipboard u clicca per navigar. PNG, JPG, WEBP, GIF fin a 10MB èn ussa sustegnids. 2) Nus chargian e returnain ina ligiaziun directa. L'interfatscha mussa immediatamain tia URL cun acziuns per copiar, avrir e salvar en plirs formats (.txt, .json, .md). 3) Ti reutiliseschas la ligiaziun en mintga lieu: blogs, docs, tickets, chat, prototips. Il scopo è ina punt senza impediments tranter tia fotografia e ils lieus nua che ti lavureschas.",
+        "p2": "Mintga pass è optimà per claredad: status visibel, errors amiaivels e butschas che conferman acziuns. Il buttun da copiar è visibel a chaschun da la ligiaziun, e ils butschas da salvar permettan da tegnair la URL en il format preferì per bookmarks u automaziun. Cura che R2 è activà, servan las ligiaziuns dal domini CDN; sch'il servetsch è en mantegniment, l'interfatscha mussa in messadi cler enstagl d'errors grevs."
+      },
+      "best": {
+        "title": "Megliers practicas per ligiaziuns pli nettas",
+        "items": {
+          "1": "Mantegna numens da files significativs avant il chargiar; quels restan part da l'URL e gidar en tschertgar en l'avegnir.",
+          "2": "Derva WEBP u JPG/PNG optimizads per pachets pli lievs sch'ins spetga ina spartiziun gronda.",
+          "3": "Copiai la ligiaziun directamain suenter la generaziun per evitar entradas veglias en il clipboard.",
+          "4": "Salvai sco .json cura che vus dovrais archivar referenzas en massa per automaziun u controllas.",
+          "5": "Derva l'expressiun .md cura che ti incollas en docs u wikis; quai è pront per incollaziun.",
+          "6": "Salvai sco .txt per ligiaziuns en text plain che èn prontas per copiar e duvrar."
+        }
+      },
+      "roadmap": {
+        "title": "Puncts culminants da la via",
+        "p1": "Ils megliers svilups che vegnan includan ina integraziun pli profunda da Cloudflare R2 per defekt, limitas da chargiar pli generusas, autentificaziun facultativa per spazi da team e analytics per mintga ligiaziun. Nus planisain er stils da ligiaziun presets, in clic per sminuir e buckets a nivel d'organisaziun. Il poliment SEO cuntinuescha tras blogs, docs e paginas da status, cun schemas pli riccs e in sitemap public per indexaziun svelta."
+      },
+      "faq": {
+        "title": "Dumondas frequentas",
+        "items": {
+          "1": {
+            "q": "È quai gratuit?",
+            "a": "Gea, la funcziun fundamentala da chargiar a ligiaziun è gratuita. Hosting sustegnì da CDN via R2 vegn introducì cun limitas generusas."
+          },
+          "2": {
+            "q": "Tge formats èn sustegnids?",
+            "a": "PNG, JPG, WEBP, GIF fin a 10MB ozendi. Ulteriurs formats pon vegnir agiuntads tenor la dumonda."
+          },
+          "3": {
+            "q": "Poss jau integrar en Markdown u HTML?",
+            "a": "Gea. Copia il link uschè sco el è, u duvrar ils salvatgs cun in clic .txt / .json / .md per snippets da integrar directamain."
+          },
+          "4": {
+            "q": "Tegnìs vus mes files publics?",
+            "a": "Ils links èn da sparter; cura che R2 CDN è activà, vegnan els servids tras il domini CDN. Nus mussain messadis clers da mantegniment sch'il depositi n'è betg accessibel."
+          },
+          "5": {
+            "q": "I dat accounts u team?",
+            "a": "Planisà. Nus prioritisain chargiadas senza impediments per l'emprim, suenter agiuntain spazi per teams, controlla d'access e analitica."
+          }
+        }
+      },
+      "keywords": {
+        "title": "Parolas-clav che nus cuntegnain a cuntegn",
+        "p1": "fotografia a url, maletg a url, generator da links per maletgs, midar maletg en link, ospitar maletgs gratuit, url direct per maletg, links da maletgs da sparter, links da maletgs CDN"
+      }
+    },
+    "selectRegion": {
+      "title": "Sellectionar regiùn",
+      "subtitle": "Tscherna tia lingua e regiùn preferida"
+    },
+    "rateService": {
+      "title": "Valita il converter da fotografia a URL",
+      "thankYou": "Grazia fitg per tias retschertgas!",
+      "averageRating": "4.5",
+      "votes": "4'992 vuschs"
+    }
+  },
+  "seo": {
+    "keywords": "fotografia a url, maletg a url, generator da links per maletgs, midar maletg en link, ospitar maletgs gratuit, url direct per maletg, links da maletgs da sparter, links da maletgs CDN",
+    "home": {
+      "title": "Converter da fotografia a URL | Midar fotografias en links da sparter",
+      "description": "Ospitar maletgs gratuit: midar fotografias en URLs permanents immediatamain. Sustegna JPG, PNG, WEBP, GIF fin a 10MB. Incollaziun da clipboard, CDN svelt, links nets per Markdown & HTML."
+    }
+  },
+  "images": {
+    "previewAlt": "Prevesa dal maletg chargià",
+    "animatingSampleAlt": "Maletg d'exempel duvrà en demonstraziun da chargiament",
+    "sampleThumbAlt": "Maletg d'exempel per chargiar",
+    "useSampleAria": "Duvra quest maletg d'exempel",
+    "howIllustrationAlt": "Illustraziun che mussa co funcziuna Fotografia a URL",
+    "heroDropTitle": "Trascinar ina fotografia qua",
+    "heroDropSubtitle": "Nus meglierain e ospitain ella, lura returnain in link net.",
+    "heroDropBadge": "Trascinar u cliccar (JPG/PNG, fin a 10MB)",
+    "logoAlt": "Logo da Fotografia a URL"
+  },
+  "circleCrop": {
+    "title": "Fotografia per tagl circular",
+    "description": "Utensil online gratuit per tagliar fotografias circularas, taglia facilmain mintga fotografia en in circul perfetg - perfetg per maletgs da profil, medias socialas e projects da design.",
+    "upload": "Chargiar fotografia",
+    "processing": "En processament...",
+    "download": "Telechargiar fotografia circulära",
+    "errorSelectFile": "Per plaschair tschern in file da fotografia",
+    "errorUploadFirst": "Per plaschair chargia per l'emprima ina fotografia",
+    "page": {
+      "title": "Fotografia per tagl circular - Utensil gratuit per tagliar",
+      "description": "Fotografia per tagl circular è in utensil online gratuit per transfurmar fotografias rectangularas en furmas circularas perfettas. Noss utensil gida a tagliar fotografias en furma da circul instantaneusamain, senza ch'ins sto sa registrar. Sche ti has basegn d'in maletg da profil rund, fotografia circulära per medias socialas u fotografia rundada per projects da design, noss utensil per tagliar fotografias circularas renda quai simpel e facil."
+    },
+    "seo": {
+      "title": "Fotografia per tagl circular | Utensil online gratuit per tagliar en circul",
+      "description": "Utensil online gratuit per tagliar mintga fotografia en in circul perfetg - perfetg per maletgs da profil, medias socialas e projects da design."
+    },
+    "selectRegion": {
+      "title": "Sellectionar regiùn",
+      "subtitle": "Tscherna tia lingua e regiùn preferida"
+    },
+    "rateService": {
+      "title": "Valitar Fotografia per tagl circular",
+      "thankYou": "Grazia fitg per tias retschertgas!",
+      "averageRating": "4.5",
+      "votes": "4'992 vuschs"
+    }
+  }
+}

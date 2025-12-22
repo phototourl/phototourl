@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Upload, Download, Loader2 } from "lucide-react";
 import { useTranslations } from "next-intl";
@@ -369,7 +370,16 @@ export function CircleCropTool({ showHeading = true }: CircleCropToolProps) {
     <div className="space-y-6">
       {showHeading && (
         <div className="space-y-3 text-center">
-          <h1 className="text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl lg:text-4xl">
+          <h1 className="flex items-center justify-center gap-3 text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl lg:text-4xl">
+            <div className="h-8 w-8 rounded-xl overflow-hidden sm:h-10 sm:w-10 lg:h-12 lg:w-12">
+              <Image
+                src="/circle-crop-favicon.png"
+                alt=""
+                width={48}
+                height={48}
+                className="h-full w-full object-contain"
+              />
+            </div>
             {t("title")}
           </h1>
           <p className="mx-auto max-w-2xl text-sm text-slate-600 sm:text-base">

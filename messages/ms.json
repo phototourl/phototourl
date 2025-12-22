@@ -1,0 +1,247 @@
+{
+  "common": {
+    "siteName": "Foto ke URL",
+    "tagline": "Tukarkan foto menjadi pautan bersih yang boleh dikongsi dalam beberapa saat",
+    "header": {
+      "subtitle": "Tukarkan imej menjadi pautan boleh dikongsi",
+      "prompt": "Lepaskan, tampal, atau muat naik — dapatkan pautan boleh dikongsi serta-merta",
+      "circleCrop": "Foto ke Potongan Bulat"
+    },
+    "footer": {
+      "blurb": {
+        "line1": "Tukarkan foto menjadi pautan bersih yang boleh dikongsi.",
+        "line2": "Pantas, mudah, boleh dipercayai."
+      },
+      "partners": "Rakan Kongsi",
+      "linksTitle": "Pautan",
+      "productsTitle": "Produk",
+      "nav": {
+        "home": "Laman Utama",
+        "blog": "Blog",
+        "docs": "Dokumentasi",
+        "status": "Status",
+        "contact": "Hubungi"
+      },
+      "legal": {
+        "privacy": "Privasi",
+        "terms": "Syarat"
+      },
+      "copyright": "© 2025 Photo To URL. All rights reserved."
+    }
+  },
+  "home": {
+    "badge": {
+      "free": "Percuma",
+      "cdn": "Pautan CDN",
+      "nosignup": "Tanpa daftar"
+    },
+    "hero": {
+      "title1": "Percuma",
+      "title2": "Foto URL",
+      "subtitle": "Muat naik → dapat pautan → tampal di mana-mana.",
+      "upload": "Muat naik imej",
+      "bullet": {
+        "fast": "Perkongsian pantas",
+        "direct": "Pautan foto langsung",
+        "nosignup": "Tiada pendaftaran diperlukan",
+        "paste": "Tampal dari papan klip"
+      }
+    },
+    "demo": {
+      "label": "Demo",
+      "loop": "Demo Automatik",
+      "idleTitle": "Seret dan lepaskan imej anda",
+      "idleSubtitle": "Lihat keseluruhan proses muat naik → pautan → salin.",
+      "processing": "Mengoptimum & memuat naik...",
+      "doneTitle": "Sedia untuk dikongsi",
+      "doneSubtitle": "Pautan anda sedia untuk dikongsi serta-merta.",
+      "thanksForWatching": "Terima kasih kerana menonton"
+    },
+    "upload": {
+      "title": "Lepaskan foto atau klik untuk semak imbas",
+      "hint": "JPG, PNG, WEBP, GIF sehingga 10MB. Seret & lepaskan, klik, atau tampal tangkapan skrin.",
+      "orDrop": "atau lepaskan fail",
+      "samplesTitle": "Tiada imej? Cuba salah satu ini:",
+      "policy": "Dengan memuat naik foto, anda bersetuju dengan <privacy>Dasar Privasi</privacy> dan <terms>Syarat Perkhidmatan</terms> kami.",
+      "clear": "Kosongkan"
+    },
+    "result": {
+      "error": "Muat naik gagal. Sila cuba lagi.",
+      "generated": "Pautan yang dihasilkan:",
+      "open": "Buka dalam tab baharu",
+      "placeholder": "Belum ada pautan lagi. Muat naik foto untuk menghasilkan URL boleh dikongsi.",
+      "savePrompt": "Simpan pautan mengikut kesukaan anda",
+      "copy": "Salin pautan",
+      "copied": "Disalin"
+    },
+    "benefits": {
+      "title": "Mengapa orang memilih Foto ke URL",
+      "subtitle": "Kepantasan, pautan bersih, dan tiada pendaftaran diperlukan.",
+      "items": {
+        "fast": { "title": "Perkongsian Pantas", "desc": "Muat naik dan dapatkan pautan dalam beberapa saat tanpa langkah tambahan." },
+        "direct": { "title": "URL Imej Langsung", "desc": "Pautan bersih yang berfungsi dalam HTML, Markdown, dan aplikasi sembang." },
+        "nosignup": { "title": "Tanpa Pendaftaran", "desc": "Gunakan serta-merta. Akaun boleh dibuat kemudian semasa kami berkembang." }
+      }
+    },
+    "how": {
+      "title": "Cara Ia Berfungsi",
+      "step1": "1) Tambah foto anda (seret, tampal, atau klik untuk pilih fail).",
+      "step2": "2) Kami hoskannya dan berikan pautan boleh dikongsi.",
+      "step3": "3) Salin pautan dan tampal di mana-mana anda bekerja.",
+      "note": "Pautan anda dibuka pantas dalam dokumen, sembang, dan prototaip—ditambah pula anda boleh memuat turunnya dalam format pilihan anda (.txt/.json/.md)."
+    },
+    "process": {
+      "title": "Aliran Tiga Langkah",
+      "subtitle": "Kurangkan usaha, kekalkan tumpuan pada tindakan, selesai dalam beberapa saat.",
+      "steps": {
+        "1": { "title": "Lepas atau Tampal", "desc": "Seret fail, tampal dari papan klip, atau semak imbas." },
+        "2": { "title": "Kami Hos & Beri Pautan", "desc": "URL segera dengan kawalan salin/buka/simpan." },
+        "3": { "title": "Kongsi di Mana Sahaja", "desc": "Tampal ke dalam dokumen, sembang, tiket, blog, atau prototaip." }
+      }
+    },
+    "features": {
+      "title": "Ciri-ciri Utama",
+      "subtitle": "Kejelasan adalah utama: kurangkan geseran, lebih banyak perkongsian.",
+      "items": {
+        "cdn": { "title": "Pautan CDN Langsung", "desc": "URL bersih dan terjangka yang sedia untuk dibenamkan dalam Markdown dan HTML." },
+        "save": {
+          "title": "Tindakan Salin & Simpan",
+          "desc": "Salin, buka, atau simpan sebagai .txt/.json/.md dengan satu klik."
+        },
+        "clipboard": { "title": "Mesra Papan Klip", "desc": "Tampal tangkapan skrin tanpa perlu mencari fail atau muat naik semula." },
+        "errors": { "title": "Ralat yang Jelas", "desc": "Mesej penyelenggaraan yang jelas dan bukannya kod teknikal yang mengelirukan." },
+        "nosignup": { "title": "Tanpa Pendaftaran", "desc": "Bekerja lebih pantas—muat naik dan kongsi serta-merta." },
+        "r2": { "title": "Penyimpanan Pantas", "desc": "Pautan disediakan melalui CDN pantas untuk pemuatan segera dan akses yang boleh dipercayai." }
+      }
+    },
+    "testimonials": {
+      "title": "Pasukan yang Menjimatkan Masa dengan Perkhidmatan Kami",
+      "subtitle": "Bukti sosial untuk mengurangkan risiko dan mempercepatkan penggunaan.",
+      "items": {
+        "ops": {
+          "name": "Ops Produk",
+          "quote": "Kami menampal tangkapan skrin ke dalam tiket tanpa membebankan lampiran. Pautan tetap bersih."
+        },
+        "content": {
+          "name": "Ketua Kandungan",
+          "quote": "Pautan sedia Markdown memastikan dokumen kami tersusun dan sedia untuk diterbitkan dalam beberapa minit."
+        },
+        "support": {
+          "name": "Sokongan",
+          "quote": "Ralat yang jelas dan URL segera memudahkan kami membimbing pelanggan melalui sembang."
+        }
+      }
+    },
+    "cta": {
+      "title": "Tukarkan foto kepada pautan dalam beberapa saat",
+      "subtitle": "Lepaskan, tampal, atau muat naik—salin pautan anda dan kongsi ke mana-mana sahaja.",
+      "upload": "Muat Naik Sekarang",
+      "paste": "Tampal Tangkapan Skrin"
+    },
+    "longform": {
+      "title": "Bagaimana Foto ke URL Membantu Aliran Kerja Anda",
+      "p1": "Foto ke URL dibina untuk pencipta, pemasar, pasukan sokongan, pengasas, dan sesiapa sahaja yang memerlukan cara yang pantas dan boleh dipercayai untuk menukarkan foto menjadi pautan bersih. Dengan aliran muat naik-ke-pautan langsung, anda mengelakkan pengurus media yang berat dan keperluan untuk log masuk. Pautan tersusun rapi, mudah ditampal ke dalam aplikasi sembang, dokumen, wiki, laporan pepijat, dan tiket. Pasukan bekerja lebih pantas apabila tangkapan skrin dan foto produk boleh dikongsi serta-merta tanpa had lampiran atau pratonton yang bersepah. Memandangkan pautan adalah terjangka dan konsisten, ia juga berfungsi dengan baik dalam automasi, langkah QA, dan prototaip ringan.",
+      "p2": "Pengalamannya tetap ringkas: lepas, tampal, atau semak imbas; dapatkan pautan; kongsi. Tiada antara muka yang merumitkan, tiada iklan yang mengganggu. Anda fokus pada kandungan anda sementara kami mengendalikan bahagian pengehosan yang membosankan. Sama ada anda mendokumentasikan ciri, menyusun catatan blog, membina dek pembentangan, atau menghantar respons sokongan pantas, pautan pendek adalah lebih baik daripada lampiran yang berat. Bagi pasukan global, antara muka tersedia dalam pelbagai bahasa manakala teks tetap ringkas dan universal.",
+      "useCases": {
+        "title": "Kes Penggunaan Praktikal",
+        "items": {
+          "1": "Produk & Reka Bentuk: Kongsi mock UI, tangkapan skrin komponen, dan nota visual pantas tanpa mengeksport ke alat yang berat.",
+          "2": "Sokongan & QA: Lampirkan tangkapan skrin dalam tiket, utas sembang, atau buku panduan; pautan tetap tersusun dan mudah dikesan.",
+          "3": "Dokumentasi & Blog: Benamkan foto dalam editor Markdown, HTML, atau CMS dengan URL yang terjangka.",
+          "4": "Jualan & CS: Masukkan tangkapan bukti konsep atau panduan pelanggan terus ke dalam e-mel atau mesej.",
+          "5": "Penyerahan Kejuruteraan: Pastikan artifak binaan dan paparan ralat tetap ringan untuk semakan pantas.",
+          "6": "Komuniti & Sosial: Tampal pautan dalam Discord, Slack, Teams, Twitter/X, atau forum tanpa pratonton yang berat."
+        }
+      },
+      "flow": {
+        "title": "Cara Aliran Berfungsi Dari Mula Hingga Akhir",
+        "p1": "1) Pilih imej: seret-dan-lepas, tampal dari papan klip, atau klik untuk semak imbas. Menyokong PNG, JPG, WEBP, GIF sehingga 10MB. 2) Kami muat naik dan berikan pautan langsung. Antara muka menunjukkan URL anda dengan tindakan salin, buka, dan simpan dalam pelbagai format (.txt, .json, .md). 3) Anda gunakan semula pautan itu di mana-mana: blog, dokumen, tiket, sembang, prototaip. Matlamatnya adalah untuk mewujudkan jambatan tanpa geseran antara foto anda dan tempat anda bekerja.",
+        "p2": "Setiap langkah ditala untuk kejelasan: status visual, ralat yang jelas, dan butang yang mengesahkan tindakan. Butang salin terletak betul-betul di sebelah pautan, dan butang simpan membolehkan anda menyimpan URL dalam format kegemaran anda untuk penanda buku atau automasi. Apabila R2 didayakan, pautan disediakan dari domain CDN."
+      },
+      "best": {
+        "title": "Amalan Terbaik Untuk Pautan Bersih",
+        "items": {
+          "1": "Namakan fail anda dengan bermakna sebelum memuat naik; ia kekal sebagai sebahagian daripada URL dan membantu pencarian masa hadapan.",
+          "2": "Gunakan WEBP atau JPG/PNG yang dioptimumkan untuk muatan ringan jika anda menjangkakan banyak perkongsian.",
+          "3": "Salin pautan serta-merta selepas dihasilkan untuk mengelakkan kemasukan papan klip yang lama.",
+          "4": "Simpan sebagai .json jika anda perlu menyimpan rujukan secara pukal untuk automasi atau audit.",
+          "5": "Gunakan output .md apabila membenam dalam dokumen atau wiki; ia sedia untuk ditampal terus.",
+          "6": "Simpan sebagai .txt untuk pautan teks biasa yang sedia untuk disalin dan digunakan."
+        }
+      },
+      "roadmap": {
+        "title": "Sorotan Rancangan Masa Hadapan",
+        "p1": "Penambahbaikan akan datang termasuk integrasi Cloudflare R2 yang lebih mendalam secara lalai, had muat naik yang lebih besar, pengesahan pilihan untuk ruang pasukan, dan analitik setiap pautan. Kami juga merancang gaya pautan pratetap, padam satu klik, dan baldi peringkat organisasi."
+      },
+      "faq": {
+        "title": "Soalan Lazim (FAQ)",
+        "items": {
+          "1": { "q": "Adakah ini percuma?", "a": "Ya, perkhidmatan utama muat naik-ke-pautan adalah percuma. Pengehosan dikuasakan CDN melalui R2 akan diperkenalkan dengan tahap penggunaan yang murah hati." },
+          "2": { "q": "Format apa yang disokong?", "a": "Hari ini PNG, JPG, WEBP, GIF sehingga 10MB disokong. Format lain mungkin ditambah berdasarkan permintaan." },
+          "3": { "q": "Bolehkah saya membenam dalam Markdown atau HTML?", "a": "Ya. Salin pautan begitu sahaja, atau gunakan ciri simpan .txt / .json / .md satu klik untuk petikan kod." },
+          "4": { "q": "Adakah fail saya kekal awam?", "a": "Pautan boleh dikongsi; apabila CDN R2 didayakan, fail disediakan melalui domain CDN." },
+          "5": { "q": "Adakah akan ada akaun atau pasukan?", "a": "Dirancang. Kami mengutamakan muat naik tanpa geseran terlebih dahulu, kemudian menambah ruang pasukan dan kawalan akses." }
+        }
+      },
+      "keywords": {
+        "title": "Kata Kunci",
+        "p1": "foto ke url, imej ke url, penjana pautan imej, tukar imej ke pautan, pengehosan imej percuma, url imej langsung, pautan imej boleh dikongsi, pautan imej cdn"
+      }
+    },
+    "selectRegion": {
+      "title": "Pilih Wilayah",
+      "subtitle": "Pilih bahasa dan wilayah pilihan anda"
+    },
+    "rateService": {
+      "title": "Nilai Penukar Foto ke URL",
+      "thankYou": "Terima kasih atas maklum balas anda!",
+      "averageRating": "4.5",
+      "votes": "4,992 undian"
+    }
+  },
+  "seo": {
+    "keywords": "foto ke url, imej ke url, penjana pautan imej, tukar imej ke pautan, pengehosan imej percuma, url imej langsung, pautan imej boleh dikongsi, pautan imej cdn",
+    "home": {
+      "title": "Penukar Foto ke URL | Tukarkan Foto menjadi Pautan Boleh Dikongsi",
+      "description": "Pengehosan Imej Percuma: Tukarkan foto menjadi URL kekal serta-merta. Menyokong JPG, PNG, WEBP, GIF sehingga 10MB. Tampal papan klip, CDN pantas, pautan bersih untuk Markdown & HTML."
+    }
+  },
+  "images": {
+    "previewAlt": "Pratonton imej yang dimuat naik",
+    "animatingSampleAlt": "Imej sampel yang digunakan dalam demo muat naik",
+    "sampleThumbAlt": "Imej muat naik sampel",
+    "useSampleAria": "Gunakan imej sampel ini",
+    "howIllustrationAlt": "Ilustrasi yang menunjukkan cara Foto ke URL berfungsi",
+    "heroDropTitle": "Seret foto ke sini",
+    "heroDropSubtitle": "Kami akan mengehoskan dan memberikan pautan bersih.",
+    "heroDropBadge": "Seret atau klik (JPG/PNG, sehingga 10MB)",
+    "logoAlt": "Logo Foto ke URL"
+  },
+  "circleCrop": {
+    "title": "Foto ke Potongan Bulat",
+    "description": "Alat pemotongan foto bulat dalam talian percuma, potong sebarang foto menjadi bulatan sempurna dengan mudah - sesuai untuk gambar profil, media sosial, dan projek reka bentuk.",
+    "upload": "Muat Naik Foto",
+    "processing": "Memproses...",
+    "download": "Muat Turun Foto Bulat",
+    "errorSelectFile": "Sila pilih fail foto",
+    "errorUploadFirst": "Sila muat naik foto terlebih dahulu",
+    "page": {
+      "title": "Foto ke Potongan Bulat - Pemotong Foto Bulat Dalam Talian Percuma",
+      "description": "Foto ke Potongan Bulat ialah alat dalam talian percuma untuk menukarkan foto segi empat tepat kepada bentuk bulatan yang sempurna. Alat kami membantu anda memotong foto dalam format bulatan serta-merta, tanpa perlu mendaftar."
+    },
+    "seo": {
+      "title": "Foto ke Potongan Bulat | Pemotong Bulat Dalam Talian Percuma",
+      "description": "Alat dalam talian percuma untuk memotong sebarang foto menjadi bulatan yang sempurna - sesuai untuk gambar profil, media sosial, dan projek reka bentuk."
+    },
+    "selectRegion": {
+      "title": "Pilih Wilayah",
+      "subtitle": "Pilih bahasa dan wilayah pilihan anda"
+    },
+    "rateService": {
+      "title": "Nilai Foto ke Potongan Bulat",
+      "thankYou": "Terima kasih atas maklum balas anda!",
+      "averageRating": "4.5",
+      "votes": "4,992 undian"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { ArrowUp, ArrowDown } from "lucide-react";
+
+export function ScrollButtons() {
+  const [showBackToTop, setShowBackToTop] = useState(false);
+  const [showScrollDown, setShowScrollDown] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // 检测是否滚动超过一屏高度（100vh）
+      const scrollThreshold = window.innerHeight;
+      setShowBackToTop(window.scrollY > scrollThreshold);
+      setShowScrollDown(window.scrollY < scrollThreshold);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    // 初始检查
+    handleScroll();
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const smoothScrollTo = (targetPosition: number) => {
+    const startPosition = window.pageYOffset;
+    const distance = targetPosition - startPosition;
+    const duration = 1500; // 1.5秒
+    let start: number | null = null;
+
+    const easeInOutQuad = (t: number): number => {
+      return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+    };
+
+    const animation = (currentTime: number) => {
+      if (start === null) start = currentTime;
+      const timeElapsed = currentTime - start;
+      const progress = Math.min(timeElapsed / duration, 1);
+      const ease = easeInOutQuad(progress);
+      
+      window.scrollTo(0, startPosition + distance * ease);
+      
+      if (timeElapsed < duration) {
+        requestAnimationFrame(animation);
+      }
+    };
+
+    requestAnimationFrame(animation);
+  };
+
+  const scrollToNext = () => {
+    smoothScrollTo(document.documentElement.scrollHeight);
+  };
+
+  const scrollToTop = () => {
+    smoothScrollTo(0);
+  };
+
+  return (
+    <>
+      {/* Scroll down button - 显示在首屏 */}
+      {showScrollDown && (
+        <button
+          onClick={scrollToNext}
+          className="fixed bottom-8 right-8 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-brand-teal text-white shadow-lg transition-all duration-200 hover:scale-110 hover:shadow-xl"
+          aria-label="Scroll down"
+        >
+          <ArrowDown className="h-6 w-6" />
+        </button>
+      )}
+
+      {/* Back to top button - 滚动后显示 */}
+      {showBackToTop && (
+        <button
+          onClick={scrollToTop}
+          className="fixed bottom-8 right-8 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-brand-teal text-white shadow-lg transition-all duration-200 hover:scale-110 hover:shadow-xl"
+          aria-label="Back to top"
+        >
+          <ArrowUp className="h-6 w-6" />
+        </button>
+      )}
+    </>
+  );
+}
+

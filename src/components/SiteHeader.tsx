@@ -20,14 +20,9 @@ export async function SiteHeader() {
               priority
             />
           </div>
-          <div className="flex flex-col leading-tight">
-            <span className="text-base font-semibold text-slate-900 sm:text-lg">
-              {t("siteName")}
-            </span>
-            <span className="hidden text-xs text-slate-500 sm:block">
-              {t("header.subtitle")}
-            </span>
-          </div>
+          <span className="text-base font-semibold text-slate-900 sm:text-lg">
+            {t("siteName")}
+          </span>
         </HomeLink>
         <div className="flex items-center gap-4">
           <LanguageSwitcher variant="header" />

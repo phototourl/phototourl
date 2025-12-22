@@ -21,6 +21,7 @@ export function SelectRegionSection({ translationKey = "home.selectRegion" }: Se
   const languages = [
     { code: "en", label: "English", countryCode: "US" },
     { code: "de", label: "Deutsch (German)", countryCode: "DE" },
+    { code: "rm", label: "Rumantsch (Romansh)", countryCode: "CH" },
     { code: "es", label: "Español (Spanish)", countryCode: "ES" },
     { code: "fr", label: "Français (French)", countryCode: "FR" },
     { code: "ar", label: "العربية (Arabic)", countryCode: "SA" },
@@ -37,6 +38,11 @@ export function SelectRegionSection({ translationKey = "home.selectRegion" }: Se
     { code: "th", label: "ไทย (Thai)", countryCode: "TH" },
     { code: "cs", label: "Čeština (Czech)", countryCode: "CZ" },
     { code: "sv", label: "Svenska (Swedish)", countryCode: "SE" },
+    { code: "ru", label: "Русский (Russian)", countryCode: "RU" },
+    { code: "hi", label: "हिन्दी (Hindi)", countryCode: "IN" },
+    { code: "id", label: "Indonesia", countryCode: "ID" },
+    { code: "ms", label: "Melayu", countryCode: "MY" },
+    { code: "uk", label: "Українська", countryCode: "UA" },
   ];
 
   return (
@@ -75,7 +81,7 @@ export function SelectRegionSection({ translationKey = "home.selectRegion" }: Se
                     style={{ width: "1.2em", height: "1.2em" }}
                     className="shrink-0"
                   />
-                  <span className="flex-1 truncate text-xs sm:text-sm">{item.label.split(" (")[0]}</span>
+                  <span className="flex-1 text-xs sm:text-sm break-words">{item.label.split(" (")[0]}</span>
                   {isSelected && <Check className="h-3.5 w-3.5 shrink-0 text-brand-teal" />}
                 </button>
               );

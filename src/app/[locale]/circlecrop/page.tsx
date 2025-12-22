@@ -3,6 +3,7 @@ import { CircleCropTool } from "@/components/CircleCropTool";
 import { SelectRegionSection } from "@/components/SelectRegionSection";
 import { RateServiceSection } from "@/components/RateServiceSection";
 import { PhotoToUrlLink } from "@/components/PhotoToUrlLink";
+import { ScrollButtons } from "@/components/ScrollButtons";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { siteUrl } from "@/app/seo-metadata";
 
@@ -46,8 +47,8 @@ export default async function PhotoCircleCropPage({
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "circleCrop.page" });
   return (
-    <div className="bg-white">
-      <div className="mx-auto max-w-6xl px-6 lg:px-10">
+    <>
+      <div className="mx-auto max-w-6xl px-6 lg:px-10 bg-white">
         {/* 首屏 section - 确保至少占满一屏 */}
         <section className="relative min-h-screen pt-16 pb-32 sm:pb-40 lg:pb-48">
           <CircleCropTool showHeading={true} />
@@ -73,6 +74,9 @@ export default async function PhotoCircleCropPage({
       {/* 首屏下方的元素 - 移出内层div，让渐变可以延伸到两边 */}
       <SelectRegionSection translationKey="circleCrop.selectRegion" />
       <RateServiceSection translationKey="circleCrop.rateService" />
-    </div>
+      
+      {/* Scroll buttons */}
+      <ScrollButtons />
+    </>
   );
 }

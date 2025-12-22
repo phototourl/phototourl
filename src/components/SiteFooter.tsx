@@ -23,7 +23,7 @@ export async function SiteFooter() {
   const t = await getTranslations("common");
   const tImages = await getTranslations("images");
   return (
-    <footer className="mt-8">
+    <footer>
       <div className="border-t border-white/15 hero-gradient text-white">
         <div className="mx-auto max-w-6xl px-6 py-8 lg:px-8 lg:py-10">
           <div className="grid gap-8 md:grid-cols-4 mb-8">

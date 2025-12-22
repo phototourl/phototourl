@@ -19,7 +19,6 @@ import {
   FileCode2,
   MousePointerClick,
   ArrowUpCircle,
-  ArrowUp,
   X,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -30,6 +29,7 @@ import ReactCountryFlag from "react-country-flag";
 import { useLocaleRouter } from "@/i18n/navigation";
 import { Star, Check } from "lucide-react";
 import { CircleCropTypewriter } from "@/components/CircleCropTypewriter";
+import { ScrollButtons } from "@/components/ScrollButtons";
 
 // 延迟加载演示组件以提升首屏性能
 const HeroLeftFlowDemo = dynamic(() => import("@/components/HeroLeftFlowDemo"), {
@@ -66,7 +66,6 @@ export default function HomePage() {
   const [preview, setPreview] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
-  const [showBackToTop, setShowBackToTop] = useState(false);
   const [animatingSample, setAnimatingSample] = useState<{ src: string; key: string } | null>(null);
   const [hoveredStar, setHoveredStar] = useState<number | null>(null);
   const [selectedRating, setSelectedRating] = useState<number | null>(null);
@@ -79,16 +78,6 @@ export default function HomePage() {
   }, [copied]);
 
 
-  useEffect(() => {
-    const handleScroll = () => {
-      // 检测是否滚动超过一屏高度（100vh）
-      const scrollThreshold = window.innerHeight;
-      setShowBackToTop(window.scrollY > scrollThreshold);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   const handleUpload = useCallback(async (file: File) => {
     setStatus("uploading");
@@ -840,6 +829,12 @@ export default function HomePage() {
                 { code: "th", label: "ไทย (Thai)", countryCode: "TH" },
                 { code: "cs", label: "Čeština (Czech)", countryCode: "CZ" },
                 { code: "sv", label: "Svenska (Swedish)", countryCode: "SE" },
+                { code: "rm", label: "Rumantsch (Romansh)", countryCode: "CH" },
+                { code: "ru", label: "Русский (Russian)", countryCode: "RU" },
+                { code: "hi", label: "हिन्दी (Hindi)", countryCode: "IN" },
+                { code: "id", label: "Bahasa Indonesia (Indonesian)", countryCode: "ID" },
+                { code: "ms", label: "Bahasa Melayu (Malay)", countryCode: "MY" },
+                { code: "uk", label: "Українська (Ukrainian)", countryCode: "UA" },
               ].map((item) => {
                 const isSelected = locale === item.code;
                 return (
@@ -863,7 +858,7 @@ export default function HomePage() {
                       style={{ width: "1.2em", height: "1.2em" }}
                       className="shrink-0"
                     />
-                    <span className="flex-1 truncate text-xs sm:text-sm">{item.label.split(" (")[0]}</span>
+                    <span className="flex-1 text-xs sm:text-sm break-words">{item.label.split(" (")[0]}</span>
                     {isSelected && <Check className="h-3.5 w-3.5 shrink-0 text-brand-teal" />}
                   </button>
                 );
@@ -1019,16 +1014,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Back to top button */}
-      {showBackToTop && (
-        <button
-          onClick={scrollToUpload}
-          className="fixed bottom-8 right-8 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-brand-teal text-white shadow-lg transition-all duration-200 hover:scale-110 hover:shadow-xl"
-          aria-label="Back to top"
-        >
-          <ArrowUp className="h-6 w-6" />
-        </button>
-      )}
+      {/* Scroll buttons */}
+      <ScrollButtons />
     </div>
   );
 }

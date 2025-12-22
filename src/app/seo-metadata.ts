@@ -21,6 +21,12 @@ export const baseMetadata: Metadata = {
       jp: `${siteUrl}/jp`,
       ko: `${siteUrl}/ko`,
       ar: `${siteUrl}/ar`,
+      rm: `${siteUrl}/rm`,
+      ru: `${siteUrl}/ru`,
+      hi: `${siteUrl}/hi`,
+      id: `${siteUrl}/id`,
+      ms: `${siteUrl}/ms`,
+      uk: `${siteUrl}/uk`,
     } as Record<string, string>,
   },
   openGraph: {

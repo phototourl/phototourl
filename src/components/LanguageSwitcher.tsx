@@ -13,6 +13,7 @@ type LocaleItem = { code: string; label: string; countryCode: string };
 const LOCALES: LocaleItem[] = [
   { code: "en", label: "English", countryCode: "US" },
   { code: "de", label: "Deutsch (German)", countryCode: "DE" },
+  { code: "rm", label: "Rumantsch (Romansh)", countryCode: "CH" },
   { code: "es", label: "Español (Spanish)", countryCode: "ES" },
   { code: "fr", label: "Français (French)", countryCode: "FR" },
   { code: "ar", label: "العربية (Arabic)", countryCode: "SA" },
@@ -29,6 +30,11 @@ const LOCALES: LocaleItem[] = [
   { code: "th", label: "ไทย (Thai)", countryCode: "TH" },
   { code: "cs", label: "Čeština (Czech)", countryCode: "CZ" },
   { code: "sv", label: "Svenska (Swedish)", countryCode: "SE" },
+  { code: "ru", label: "Русский (Russian)", countryCode: "RU" },
+  { code: "hi", label: "हिन्दी (Hindi)", countryCode: "IN" },
+  { code: "id", label: "Indonesia (Indonesian)", countryCode: "ID" },
+  { code: "ms", label: "Melayu (Malay)", countryCode: "MY" },
+  { code: "uk", label: "Українська (Ukrainian)", countryCode: "UA" },
 ];
 
 // 国旗图标组件
@@ -60,6 +66,7 @@ export function LanguageSwitcher({ variant = "header" }: LanguageSwitcherProps) 
   const [isPending, startTransition] = useTransition();
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const selectedButtonRef = useRef<HTMLButtonElement | null>(null);
 
   const currentLocale = LOCALES.find((item) => item.code === locale) || LOCALES[0];
 
@@ -72,6 +79,15 @@ export function LanguageSwitcher({ variant = "header" }: LanguageSwitcherProps) 
 
     if (isOpen) {
       document.addEventListener("mousedown", handleClickOutside);
+      // 滚动到选中的语言项
+      setTimeout(() => {
+        if (selectedButtonRef.current) {
+          selectedButtonRef.current.scrollIntoView({
+            behavior: "smooth",
+            block: "nearest",
+          });
+        }
+      }, 0);
     }
 
     return () => {
@@ -124,14 +140,15 @@ export function LanguageSwitcher({ variant = "header" }: LanguageSwitcherProps) 
           className={
             isFooter
               ? // 底部：向上展开，避免被底部栏挡住
-                "absolute right-0 bottom-full z-50 mb-1 w-auto min-w-[200px] rounded-lg border border-slate-200 bg-white shadow-lg"
+                "absolute right-0 bottom-full z-50 mb-1 w-auto min-w-[200px] max-h-[630px] overflow-y-auto overflow-x-hidden custom-scrollbar rounded-lg border border-slate-200 bg-white shadow-lg"
               : // 头部：保持原来向下展开
-                "absolute right-0 top-full z-50 mt-1 w-auto min-w-[200px] rounded-lg border border-slate-200 bg-white shadow-lg"
+                "absolute right-0 top-full z-50 mt-1 w-auto min-w-[200px] max-h-[630px] overflow-y-auto overflow-x-hidden custom-scrollbar rounded-lg border border-slate-200 bg-white shadow-lg"
           }
         >
           {LOCALES.map((item) => (
             <button
               key={item.code}
+              ref={item.code === locale ? selectedButtonRef : null}
               type="button"
               className={`w-full whitespace-nowrap rounded-md px-3 py-2 text-left text-sm transition first:rounded-t-lg last:rounded-b-lg flex items-center gap-2 ${
                 item.code === locale
