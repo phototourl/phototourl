@@ -502,8 +502,16 @@ export default function HomePage() {
                         e.stopPropagation();
                         document.getElementById("file-input")?.click();
                       }}
+                      disabled={status === "uploading"}
                     >
-                      {t("hero.upload")}
+                      {status === "uploading" ? (
+                        <>
+                          <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                          {t("demo.processing")}
+                        </>
+                      ) : (
+                        t("hero.upload")
+                      )}
                     </Button>
                     {status === "success" && (
                       <Button
