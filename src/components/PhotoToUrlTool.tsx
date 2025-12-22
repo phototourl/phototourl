@@ -266,13 +266,12 @@ export function PhotoToUrlTool({ showHeading = true, showExtraContent = false }:
                 <Button
                   onClick={(e) => void copyUrl(e)}
                   disabled={!url}
+                  variant={undefined}
                   className={cn(
-                    "h-10 rounded-lg px-4 text-sm font-semibold transition whitespace-nowrap shrink-0",
+                    "h-10 rounded-lg px-4 text-sm font-semibold transition-all whitespace-nowrap shrink-0",
                     !url
                       ? "bg-slate-200 text-slate-500 cursor-not-allowed"
-                      : copied
-                        ? "bg-brand-teal text-white hover:opacity-90"
-                        : "bg-brand-teal text-white hover:opacity-90"
+                      : "bg-brand-teal text-white hover:bg-brand-teal hover:scale-105 hover:shadow-lg"
                   )}
                 >
                   <Copy className="mr-2 h-4 w-4" />

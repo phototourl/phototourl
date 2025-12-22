@@ -342,13 +342,12 @@ export default function HomePage() {
                     <Button
                       onClick={(e) => void copyUrl(e)}
                       disabled={!url}
+                      variant={undefined}
                       className={cn(
-                        "h-9 rounded-lg px-3 text-xs font-semibold transition transform whitespace-nowrap shrink-0 min-w-max sm:h-10 sm:px-4 sm:text-sm",
+                        "h-9 rounded-lg px-3 text-xs font-semibold transition-all whitespace-nowrap shrink-0 min-w-max sm:h-10 sm:px-4 sm:text-sm",
                         !url
                           ? "bg-slate-200 text-slate-500 cursor-not-allowed"
-                          : copied
-                            ? "bg-brand-teal text-white hover:opacity-90 hover:-translate-y-px"
-                            : "bg-brand-teal text-white hover:opacity-90 hover:-translate-y-px"
+                          : "bg-brand-teal text-white hover:bg-brand-teal hover:scale-105 hover:shadow-lg"
                       )}
                     >
                       <Copy className="mr-1.5 h-4 w-4 sm:mr-2" />
