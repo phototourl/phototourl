@@ -307,5 +307,48 @@
         "3": "Prestaziun e caching per assets statics"
       }
     }
+  },
+  "docs": {
+    "seo": {
+      "title": "Documentaziun | Photo To URL",
+      "description": "Documentaziun per Photo To URL."
+    },
+    "page": {
+      "title": "Documentaziun",
+      "description": "Cumenzament svelt: chargier in maletg e survegnir in URL direct. Dovrar ils buttuns copiar/avrir u telechargiar il link en format .txt/.json/.md.",
+      "features": {
+        "title": "Functiuns sustegnidas:",
+        "items": {
+          "1": "Sustegnì: JPG, PNG, WEBP, GIF",
+          "2": "Consegna svelta via CDN cura che l'archivadi è activà",
+          "3": "Messadis d'errur da mantegniment amicabels cura che il servetsch n'è betg disponibel"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Stadi | Photo To URL",
+      "description": "Stadi dal servetsch Photo To URL."
+    },
+    "page": {
+      "title": "Stadi",
+      "description": "Tut ils sistems funcziunan.",
+      "message": "L'API da chargiada ed ils links CDN funcziunan."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact | Photo To URL",
+      "description": "Contactar il sustegn Photo To URL."
+    },
+    "page": {
+      "title": "Contact",
+      "description": "Dovras agid u vuls cundivider tia resunzida? Scriver in e-mail e nus controllain la chascha d'entrada e respundain il pli svelt pussibel.",
+      "email": {
+        "label": "E-mail",
+        "address": "leeqs1010@gmail.com"
+      }
+    }
   }
 }

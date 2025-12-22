@@ -77,9 +77,18 @@
       "title": "Tại sao mọi người chọn Ảnh thành URL",
       "subtitle": "Tốc độ, liên kết sạch và không cần đăng ký.",
       "items": {
-        "fast": { "title": "Chia sẻ nhanh", "desc": "Tải lên và nhận liên kết trong vài giây mà không cần thêm bước." },
-        "direct": { "title": "URL hình ảnh trực tiếp", "desc": "Liên kết sạch hoạt động trong HTML, Markdown và ứng dụng trò chuyện." },
-        "nosignup": { "title": "Không cần đăng ký", "desc": "Sử dụng ngay. Tài khoản có thể đến sau khi chúng tôi phát triển." }
+        "fast": {
+          "title": "Chia sẻ nhanh",
+          "desc": "Tải lên và nhận liên kết trong vài giây mà không cần thêm bước."
+        },
+        "direct": {
+          "title": "URL hình ảnh trực tiếp",
+          "desc": "Liên kết sạch hoạt động trong HTML, Markdown và ứng dụng trò chuyện."
+        },
+        "nosignup": {
+          "title": "Không cần đăng ký",
+          "desc": "Sử dụng ngay. Tài khoản có thể đến sau khi chúng tôi phát triển."
+        }
       }
     },
     "how": {
@@ -93,24 +102,48 @@
       "title": "Quy trình ba bước",
       "subtitle": "Giảm nỗ lực, giữ CTA hiển thị, hoàn thành trong vài giây.",
       "steps": {
-        "1": { "title": "Thả hoặc dán", "desc": "Kéo tệp, dán từ clipboard hoặc duyệt." },
-        "2": { "title": "Chúng tôi lưu trữ và trả về liên kết", "desc": "URL tức thì với điều khiển sao chép/mở/lưu." },
-        "3": { "title": "Chia sẻ ở bất cứ đâu", "desc": "Dán vào tài liệu, trò chuyện, vé, blog hoặc nguyên mẫu." }
+        "1": {
+          "title": "Thả hoặc dán",
+          "desc": "Kéo tệp, dán từ clipboard hoặc duyệt."
+        },
+        "2": {
+          "title": "Chúng tôi lưu trữ và trả về liên kết",
+          "desc": "URL tức thì với điều khiển sao chép/mở/lưu."
+        },
+        "3": {
+          "title": "Chia sẻ ở bất cứ đâu",
+          "desc": "Dán vào tài liệu, trò chuyện, vé, blog hoặc nguyên mẫu."
+        }
       }
     },
     "features": {
       "title": "Điểm nổi bật tính năng",
       "subtitle": "Rõ ràng trước: ít ma sát, chia sẻ nhiều hơn.",
       "items": {
-        "cdn": { "title": "Liên kết CDN trực tiếp", "desc": "URL sạch, có thể dự đoán sẵn sàng cho nhúng Markdown và HTML." },
+        "cdn": {
+          "title": "Liên kết CDN trực tiếp",
+          "desc": "URL sạch, có thể dự đoán sẵn sàng cho nhúng Markdown và HTML."
+        },
         "save": {
           "title": "Hành động sao chép và lưu",
           "desc": "Sao chép, mở hoặc lưu dưới dạng .txt/.json/.md bằng một cú nhấp."
         },
-        "clipboard": { "title": "Thân thiện với clipboard", "desc": "Dán ảnh chụp màn hình mà không cần tìm tệp hoặc tải lên lại." },
-        "errors": { "title": "Lỗi thân thiện", "desc": "Thông báo bảo trì rõ ràng thay vì dấu vết ngăn xếp kỹ thuật." },
-        "nosignup": { "title": "Không cần đăng ký", "desc": "Gửi nhanh hơn—tải lên và chia sẻ ngay lập tức." },
-        "r2": { "title": "Lưu trữ nhanh", "desc": "Liên kết được phục vụ qua CDN nhanh để tải nhanh và truy cập đáng tin cậy." }
+        "clipboard": {
+          "title": "Thân thiện với clipboard",
+          "desc": "Dán ảnh chụp màn hình mà không cần tìm tệp hoặc tải lên lại."
+        },
+        "errors": {
+          "title": "Lỗi thân thiện",
+          "desc": "Thông báo bảo trì rõ ràng thay vì dấu vết ngăn xếp kỹ thuật."
+        },
+        "nosignup": {
+          "title": "Không cần đăng ký",
+          "desc": "Gửi nhanh hơn—tải lên và chia sẻ ngay lập tức."
+        },
+        "r2": {
+          "title": "Lưu trữ nhanh",
+          "desc": "Liên kết được phục vụ qua CDN nhanh để tải nhanh và truy cập đáng tin cậy."
+        }
       }
     },
     "testimonials": {
@@ -175,11 +208,26 @@
       "faq": {
         "title": "Câu hỏi thường gặp",
         "items": {
-          "1": { "q": "Có miễn phí không?", "a": "Có, tải lên-thành-liên kết cốt lõi là miễn phí. Lưu trữ được hỗ trợ CDN qua R2 sẽ được triển khai với các cấp độ hào phóng." },
-          "2": { "q": "Những định dạng nào được hỗ trợ?", "a": "PNG, JPG, WEBP, GIF lên đến 10MB ngày nay. Có thể thêm nhiều định dạng hơn dựa trên nhu cầu." },
-          "3": { "q": "Tôi có thể nhúng trong Markdown hoặc HTML không?", "a": "Có. Sao chép liên kết như hiện tại, hoặc sử dụng lưu một cú nhấp .txt / .json / .md cho các đoạn mã drop-in." },
-          "4": { "q": "Bạn có giữ tệp của tôi ở chế độ công khai không?", "a": "Liên kết có thể chia sẻ; khi R2 CDN được bật, chúng được phục vụ qua miền CDN. Chúng tôi hiển thị thông báo bảo trì rõ ràng nếu lưu trữ không khả dụng." },
-          "5": { "q": "Sẽ có tài khoản hoặc nhóm không?", "a": "Đã lên kế hoạch. Chúng tôi ưu tiên tải lên không ma sát trước, sau đó thêm không gian nhóm, kiểm soát truy cập và phân tích." }
+          "1": {
+            "q": "Có miễn phí không?",
+            "a": "Có, tải lên-thành-liên kết cốt lõi là miễn phí. Lưu trữ được hỗ trợ CDN qua R2 sẽ được triển khai với các cấp độ hào phóng."
+          },
+          "2": {
+            "q": "Những định dạng nào được hỗ trợ?",
+            "a": "PNG, JPG, WEBP, GIF lên đến 10MB ngày nay. Có thể thêm nhiều định dạng hơn dựa trên nhu cầu."
+          },
+          "3": {
+            "q": "Tôi có thể nhúng trong Markdown hoặc HTML không?",
+            "a": "Có. Sao chép liên kết như hiện tại, hoặc sử dụng lưu một cú nhấp .txt / .json / .md cho các đoạn mã drop-in."
+          },
+          "4": {
+            "q": "Bạn có giữ tệp của tôi ở chế độ công khai không?",
+            "a": "Liên kết có thể chia sẻ; khi R2 CDN được bật, chúng được phục vụ qua miền CDN. Chúng tôi hiển thị thông báo bảo trì rõ ràng nếu lưu trữ không khả dụng."
+          },
+          "5": {
+            "q": "Sẽ có tài khoản hoặc nhóm không?",
+            "a": "Đã lên kế hoạch. Chúng tôi ưu tiên tải lên không ma sát trước, sau đó thêm không gian nhóm, kiểm soát truy cập và phân tích."
+          }
         }
       },
       "keywords": {
@@ -256,6 +304,49 @@
         "1": "Thực hành tốt nhất để chuyển đổi hình ảnh sang URL",
         "2": "Cách sử dụng liên kết ảnh trực tiếp trong blog và tài liệu",
         "3": "Hiệu suất và bộ nhớ đệm cho tài sản tĩnh"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Tài liệu | Photo To URL",
+      "description": "Tài liệu cho Photo To URL."
+    },
+    "page": {
+      "title": "Tài liệu",
+      "description": "Bắt đầu nhanh: tải lên hình ảnh và nhận URL trực tiếp. Sử dụng các nút sao chép/mở hoặc tải xuống liên kết ở định dạng .txt/.json/.md.",
+      "features": {
+        "title": "Tính năng được hỗ trợ:",
+        "items": {
+          "1": "Hỗ trợ: JPG, PNG, WEBP, GIF",
+          "2": "Giao hàng nhanh qua CDN khi bộ nhớ được bật",
+          "3": "Thông báo lỗi bảo trì thân thiện khi dịch vụ không khả dụng"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Trạng thái | Photo To URL",
+      "description": "Trạng thái dịch vụ Photo To URL."
+    },
+    "page": {
+      "title": "Trạng thái",
+      "description": "Tất cả hệ thống đang hoạt động.",
+      "message": "API tải lên và liên kết CDN đang chạy."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Liên hệ | Photo To URL",
+      "description": "Liên hệ với bộ phận hỗ trợ Photo To URL."
+    },
+    "page": {
+      "title": "Liên hệ",
+      "description": "Cần trợ giúp hoặc muốn chia sẻ phản hồi? Gửi email cho chúng tôi và chúng tôi sẽ theo dõi hộp thư đến và phản hồi lại cho bạn càng sớm càng tốt.",
+      "email": {
+        "label": "Email",
+        "address": "leeqs1010@gmail.com"
       }
     }
   }

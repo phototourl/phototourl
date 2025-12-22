@@ -1,190 +1,191 @@
 {
   "common": {
-    "siteName": "Photo To URL",
-    "tagline": "Turn photos into clean, shareable links in seconds",
+    "siteName": "Bilde til URL",
+    "tagline": "Gjør bilder om til rene, delbare lenker på sekunder",
     "header": {
-      "subtitle": "Turn images into shareable links",
-      "prompt": "Drop, paste, or upload — get a shareable link instantly"
+      "subtitle": "Gjør bilder om til delbare lenker",
+      "prompt": "Slipp, lim inn eller last opp — få en delbar lenke umiddelbart",
+      "circleCrop": "Rund bildebeskjæring"
     },
     "footer": {
       "blurb": {
-        "line1": "Turn photos into clean, shareable links.",
-        "line2": "Fast, simple, reliable."
+        "line1": "Gjør bilder om til rene, delbare lenker.",
+        "line2": "Raskt, enkelt, pålitelig."
       },
-      "partners": "Partners",
-      "linksTitle": "Links",
-      "productsTitle": "Products",
+      "partners": "Partnere",
+      "linksTitle": "Lenker",
+      "productsTitle": "Produkter",
       "nav": {
-        "home": "Home",
-        "blog": "Blog",
-        "docs": "Docs",
+        "home": "Hjem",
+        "blog": "Blogg",
+        "docs": "Dokumentasjon",
         "status": "Status",
-        "contact": "Contact"
+        "contact": "Kontakt"
       },
       "legal": {
-        "privacy": "Privacy",
-        "terms": "Terms"
+        "privacy": "Personvern",
+        "terms": "Vilkår"
       },
       "copyright": "© 2025 Photo To URL. All rights reserved."
     }
   },
   "home": {
     "badge": {
-      "free": "Free",
-      "cdn": "CDN links",
-      "nosignup": "No signup"
+      "free": "Gratis",
+      "cdn": "CDN-lenker",
+      "nosignup": "Ingen registrering"
     },
     "hero": {
-      "title1": "Free",
-      "title2": "Photo To URL",
-      "subtitle": "Upload → get a link → paste anywhere.",
-      "upload": "Upload image",
+      "title1": "Gratis",
+      "title2": "Bilde til URL",
+      "subtitle": "Last opp → få lenke → lim inn hvor som helst.",
+      "upload": "Last opp bilde",
       "bullet": {
-        "fast": "Fast sharing",
-        "direct": "Direct photo links",
-        "nosignup": "No signup required",
-        "paste": "Paste from clipboard"
+        "fast": "Rask deling",
+        "direct": "Direkte bildelenker",
+        "nosignup": "Ingen registrering kreves",
+        "paste": "Lim inn fra utklippstavlen"
       }
     },
     "demo": {
       "label": "Demo",
-      "loop": "Auto demo",
-      "idleTitle": "Drag & drop your image",
-      "idleSubtitle": "See the full upload → link → copy flow.",
-      "processing": "Optimizing & uploading...",
-      "doneTitle": "Ready to share",
-      "doneSubtitle": "Your link is ready to share instantly.",
-      "thanksForWatching": "Thanks for watching"
+      "loop": "Automatisk demo",
+      "idleTitle": "Dra og slipp bildet ditt",
+      "idleSubtitle": "Se hele prosessen: opplasting → lenke → kopiering.",
+      "processing": "Optimaliserer og laster opp...",
+      "doneTitle": "Klar til deling",
+      "doneSubtitle": "Lenken din er klar for umiddelbar deling.",
+      "thanksForWatching": "Takk for at du så på"
     },
     "upload": {
-      "title": "Drop a photo or click to browse",
-      "hint": "JPG, PNG, WEBP, GIF up to 10MB. Drag & drop, click, or paste screenshots.",
-      "orDrop": "or drop a file",
-      "samplesTitle": "No image? Try one of these:",
-      "policy": "By uploading an image you agree to our <privacy>Privacy Policy</privacy> and <terms>Terms of Use</terms>.",
-      "clear": "Clear"
+      "title": "Slipp et bilde eller klikk for å bla gjennom",
+      "hint": "JPG, PNG, WEBP, GIF opptil 10MB. Dra, klikk eller lim inn skjermbilde.",
+      "orDrop": "eller slipp filen her",
+      "samplesTitle": "Har du ikke et bilde? Prøv et av disse:",
+      "policy": "Ved å laste opp et bilde godtar du våre <privacy>Personvernregler</privacy> og <terms>Brukervilkår</terms>.",
+      "clear": "Tøm"
     },
     "result": {
-      "error": "Upload failed. Please try again.",
-      "generated": "Generated link:",
-      "open": "Open in new tab",
-      "placeholder": "No link yet. Upload a photo to generate a shareable URL.",
-      "savePrompt": "Save link as you like",
-      "copy": "Copy link",
-      "copied": "Copied"
+      "error": "Opplastingen feilet. Vennligst prøv igjen.",
+      "generated": "Generert lenke:",
+      "open": "Åpne i ny fane",
+      "placeholder": "Ingen lenke ennå. Last opp et bilde for å generere en URL.",
+      "savePrompt": "Lagre lenken slik du ønsker",
+      "copy": "Kopier lenke",
+      "copied": "Kopiert"
     },
     "benefits": {
-      "title": "Why people choose Photo To URL",
-      "subtitle": "Speed, clean links, and no signup needed.",
+      "title": "Hvorfor folk velger Bilde til URL",
+      "subtitle": "Hastighet, rene lenker og ingen krav om registrering.",
       "items": {
-        "fast": { "title": "Fast sharing", "desc": "Upload and get a link in seconds with no extra steps." },
-        "direct": { "title": "Direct image URLs", "desc": "Clean links that work in HTML, Markdown, and chat apps." },
-        "nosignup": { "title": "No signup required", "desc": "Use it right away. Accounts can come later as we grow." }
+        "fast": { "title": "Rask deling", "desc": "Last opp og få en lenke på sekunder uten unødvendige trinn." },
+        "direct": { "title": "Direkte URL-er", "desc": "Rene lenker som fungerer i HTML, Markdown og chat-apper." },
+        "nosignup": { "title": "Ingen registrering", "desc": "Bruk det umiddelbart. Brukerkontoer kommer senere." }
       }
     },
     "how": {
-      "title": "How it works",
-      "step1": "1) Add your photo (drag, paste, or click to pick a file).",
-      "step2": "2) We host it and return a shareable link.",
-      "step3": "3) Copy and share the link anywhere you work.",
-      "note": "Your link opens fast in docs, chats, and prototypes—plus you can download it in the format you like (.txt/.json/.md)."
+      "title": "Slik fungerer det",
+      "step1": "1) Legg til bildet ditt (dra, lim inn eller velg fil).",
+      "step2": "2) Vi er vert for det og gir deg en delingslenke.",
+      "step3": "3) Kopier og lim inn lenken hvor som helst.",
+      "note": "Lenken din åpnes raskt i dokumenter, chatter og prototyper — i tillegg kan du laste den ned i .txt/.json/.md-format."
     },
     "process": {
-      "title": "Three-step flow",
-      "subtitle": "Reduce effort, keep the CTA visible, finish in seconds.",
+      "title": "Prosess i tre trinn",
+      "subtitle": "Mindre innsats, mer fokus, ferdig på sekunder.",
       "steps": {
-        "1": { "title": "Drop or paste", "desc": "Drag a file, paste from clipboard, or browse." },
-        "2": { "title": "We host & return a link", "desc": "Instant URL with copy/open/save controls." },
-        "3": { "title": "Share anywhere", "desc": "Paste into docs, chats, tickets, blogs, or prototypes." }
+        "1": { "title": "Slipp eller lim inn", "desc": "Dra en fil, lim inn fra utklippstavlen eller bla gjennom datamaskinen din." },
+        "2": { "title": "Vi vert og lenker", "desc": "Umiddelbar URL med kontroller for å kopiere, åpne eller lagre." },
+        "3": { "title": "Del overalt", "desc": "Lim inn i dokumenter, chatter, saker, blogger eller prototyper." }
       }
     },
     "features": {
-      "title": "Feature highlights",
-      "subtitle": "Clarity first: less friction, more sharing.",
+      "title": "Hovedfunksjoner",
+      "subtitle": "Klarhet først: mindre friksjon, mer deling.",
       "items": {
-        "cdn": { "title": "Direct CDN links", "desc": "Clean, predictable URLs ready for Markdown and HTML embeds." },
+        "cdn": { "title": "Direkte CDN-lenker", "desc": "Rene og forutsigbare URL-er, klare for Markdown og HTML." },
         "save": {
-          "title": "Copy & save actions",
-          "desc": "Copy, open, or save as .txt/.json/.md with one click."
+          "title": "Kopier og lagre-handlinger",
+          "desc": "Kopier, åpne eller lagre som .txt/.json/.md med ett klikk."
         },
-        "clipboard": { "title": "Clipboard friendly", "desc": "Paste screenshots without hunting for files or re-uploads." },
-        "errors": { "title": "Friendly errors", "desc": "Clear maintenance messages instead of technical stack traces." },
-        "nosignup": { "title": "No signup needed", "desc": "Ship faster—upload and share immediately." },
-        "r2": { "title": "Fast hosting", "desc": "Links are served via fast CDN for quick loading and reliable access." }
+        "clipboard": { "title": "Vennlig for utklippstavle", "desc": "Lim inn skjermbilder direkte uten å lete etter filer." },
+        "errors": { "title": "Forståelige feil", "desc": "Tydelige meldinger i stedet for kompliserte tekniske koder." },
+        "nosignup": { "title": "Ingen registrering nødvendig", "desc": "Jobb raskere — last opp og del umiddelbart." },
+        "r2": { "title": "Rask hosting", "desc": "Lenker levert via et raskt nettverk for pålitelig tilgang." }
       }
     },
     "testimonials": {
-      "title": "Teams saving time with Photo To URL",
-      "subtitle": "Social proof to reduce risk and speed up adoption.",
+      "title": "Team som sparer tid med Bilde til URL",
+      "subtitle": "En utprøvd løsning for raskere arbeid.",
       "items": {
         "ops": {
-          "name": "Product Ops",
-          "quote": "We paste screenshots into tickets without clogging attachments. Links stay clean."
+          "name": "Produkt Ops",
+          "quote": "Vi limer skjermbilder inn i saker uten å fylle opp lagringsplassen med vedlegg. Lenkene holder alt ryddig."
         },
         "content": {
-          "name": "Content Lead",
-          "quote": "Markdown-ready links keep our docs tidy and publishable in minutes."
+          "name": "Innholdsleder",
+          "quote": "Markdown-lenker holder dokumentene våre organiserte og klare til publisering på få minutter."
         },
         "support": {
-          "name": "Support",
-          "quote": "Clear errors and instant URLs make it easy to guide customers in chat."
+          "name": "Brukerstøtte",
+          "quote": "Tydelige feilmeldinger og umiddelbare URL-er gjør det enkelt å veilede kunder i chatten."
         }
       }
     },
     "cta": {
-      "title": "Turn photos into links in seconds",
-      "subtitle": "Drop, paste, or upload—copy your link and share everywhere.",
-      "upload": "Upload now",
-      "paste": "Paste a screenshot"
+      "title": "Gjør bilder om til lenker på sekunder",
+      "subtitle": "Slipp, lim inn eller last opp — kopier lenken og del overalt.",
+      "upload": "Last opp nå",
+      "paste": "Lim inn skjermbilde"
     },
     "longform": {
-      "title": "Why Photo To URL helps your workflow",
-      "p1": "Photo To URL is built for creators, marketers, support teams, founders, and anyone who needs a quick, reliable way to turn photos into clean links. With a direct upload-to-link flow, you avoid heavy media managers and skip logins. Links are tidy, easy to paste into chat apps, docs, wikis, bug reports, and tickets. Teams move faster when screenshots and product photos are instantly shareable without attachment limits or messy previews. Because the links are predictable and consistent, they also work well in automation, QA steps, and lightweight prototypes.",
-      "p2": "The experience stays simple: drop, paste, or browse; get a link; share. No extra chrome, no distracting ads, no gating. You keep focus on your content while we handle the boring parts of hosting. Whether you are documenting a feature, preparing a blog post, building a pitch deck, or sending a quick support response, a short link beats bulky attachments. For global teams, the interface is available in multiple languages while keeping copy concise and universal.",
+      "title": "Hvorfor tjenesten vår hjelper din arbeidsflyt",
+      "p1": "Verktøyet vårt er laget for skapere, markedsførere, støtteteam og alle som trenger en rask måte å gjøre bilder om til rene lenker. Med en direkte flyt fra opplasting til lenke slipper du tunge filbehandlingssystemer og innlogging. Lenkene er ryddige og enkle å lime inn i chat-apper, dokumenter, wikier og saker. Team beveger seg raskere når skjermbilder og produktbilder kan deles umiddelbart uten begrensninger på vedlegg.",
+      "p2": "Opplevelsen er enkel: slipp, lim inn eller bla gjennom; få lenke; del. Ingen unødvendige elementer eller forstyrrende annonser. Du fokuserer på innholdet, mens vi tar oss av hostingen. Enten du dokumenterer en funksjon eller forbereder et blogginnlegg, er en kort lenke bedre enn et tungt vedlegg.",
       "useCases": {
-        "title": "Use cases that stay practical",
+        "title": "Praktiske bruksområder",
         "items": {
-          "1": "Product and design: share UI mocks, component screenshots, and quick visual notes without exporting to heavy tools.",
-          "2": "Support and QA: attach reproducible screenshots in tickets, chat threads, or runbooks; links stay tidy and easy to track.",
-          "3": "Docs and blogs: embed photos in Markdown, HTML, or CMS editors with predictable URLs and no layout surprises.",
-          "4": "Sales and CS: drop proof-of-concept captures or customer walkthroughs straight into email or messaging.",
-          "5": "Engineering handoff: keep build artifacts, error snaps, and regression visuals lightweight for faster reviews.",
-          "6": "Community and socials: paste links into Discord, Slack, Teams, Twitter/X, or forums without bloated previews."
+          "1": "Produkt og design: Del skisser og skjermbilder av komponenter uten komplisert eksport.",
+          "2": "Støtte og QA: Legg ved skjermbilder i saker eller chatter; lenker er enkle å følge.",
+          "3": "Dokumenter og blogger: Bygg inn bilder i Markdown- eller HTML-editorer med forutsigbare URL-er.",
+          "4": "Salg og service: Legg til visuelle bevis eller demoer direkte i e-poster eller meldinger.",
+          "5": "Overlevering til utviklere: Hold feilrapporter visuelt lette for raskere gjennomgang.",
+          "6": "Samfunn og sosiale medier: Lim inn lenker i Discord, Slack eller forum uten rot."
         }
       },
       "flow": {
-        "title": "How the flow works end-to-end",
-        "p1": "1) Choose an image: drag-and-drop, paste from clipboard, or click to browse. PNG, JPG, WEBP, GIF up to 10MB are supported now. 2) We upload and return a direct link. The UI shows your URL immediately with copy, open, and multi-format save actions (.txt, .json, .md). 3) You reuse the link anywhere: blogs, docs, tickets, chat, prototypes. The goal is a frictionless bridge between your photo and the places you work.",
-        "p2": "Each step is tuned for clarity: visible status, friendly errors, and buttons that confirm actions. The copy button sits next to the link, and the save buttons let you keep the URL in your preferred format for bookmarking or automation. When R2 is enabled, links serve from the CDN domain; if the service is in maintenance, the UI returns a clear message instead of raw errors."
+        "title": "Slik fungerer hele prosessen",
+        "p1": "1) Velg et bilde: dra og slipp, lim inn fra utklippstavlen eller klikk for å bla gjennom. 2) Vi laster opp og returnerer en direkte lenke. Grensesnittet viser URL-en din umiddelbart med handlinger for å kopiere, åpne og lagre i ulike formater (.txt, .json, .md). 3) Bruk lenken overalt. Målet er en sømløs bro mellom bildet ditt og der du jobber.",
+        "p2": "Hvert trinn er designet for klarhet: synlig status, forståelige feil og knapper som bekrefter handlingene dine."
       },
       "best": {
-        "title": "Best practices for cleaner links",
+        "title": "Beste praksis for rene lenker",
         "items": {
-          "1": "Keep filenames meaningful before upload; they remain part of the URL and help future search.",
-          "2": "Use WEBP or optimized JPG/PNG for lighter payloads if you expect heavy sharing.",
-          "3": "Copy the link directly after generation to avoid stale clipboard entries.",
-          "4": "Save as .json when you need to batch store references for automation or audits.",
-          "5": "Use .md output when embedding in docs or wikis; it is ready to paste.",
-          "6": "Save as .txt for plain text links that are ready to copy and use."
+          "1": "Gi filene dine meningsfulle navn før opplasting; de forblir en del av URL-en.",
+          "2": "Bruk WEBP eller optimaliserte JPG/PNG for lettere filer.",
+          "3": "Kopier lenken rett etter generering for å unngå feil med utklippstavlen.",
+          "4": "Lagre som .json når du trenger å beholde referanser for automatisering.",
+          "5": "Bruk .md-formatet for innebygging i dokumenter eller wikier.",
+          "6": "Lagre som .txt for rene tekstlenker klare til bruk."
         }
       },
       "roadmap": {
-        "title": "Roadmap highlights",
-        "p1": "Upcoming improvements include deeper Cloudflare R2 integration by default, more generous upload limits, optional auth for team spaces, and per-link analytics. We also plan preset link styles, one-click delete, and organization-level buckets. SEO polish continues across blog, docs, and status pages, with richer schema and a public sitemap for fast indexing."
+        "title": "Fremtidige forbedringer",
+        "p1": "Kommende oppgraderinger inkluderer dypere integrasjon med lagringsløsninger, større opplastingsgrenser, valgfri teamtilgang og analyse for hver lenke."
       },
       "faq": {
-        "title": "FAQs",
+        "title": "Ofte stilte spørsmål",
         "items": {
-          "1": { "q": "Is it free?", "a": "Yes, core upload-to-link is free. CDN-backed hosting via R2 will roll out with generous tiers." },
-          "2": { "q": "What formats are supported?", "a": "PNG, JPG, WEBP, GIF up to 10MB today. More formats can be added based on demand." },
-          "3": { "q": "Can I embed in Markdown or HTML?", "a": "Yes. Copy the link as-is, or use the one-click .txt / .json / .md saves for drop-in snippets." },
-          "4": { "q": "Do you keep my files public?", "a": "Links are shareable; when R2 CDN is enabled, they are served via the CDN domain. We show clear maintenance messages if storage is unavailable." },
-          "5": { "q": "Will there be accounts or teams?", "a": "Planned. We prioritize frictionless uploads first, then add team spaces, access control, and analytics." }
+          "1": { "q": "Er det gratis?", "a": "Ja, grunnleggende konvertering fra bilde til lenke er gratis." },
+          "2": { "q": "Hvilke formater støttes?", "a": "For øyeblikket PNG, JPG, WEBP, GIF opptil 10MB." },
+          "3": { "q": "Kan jeg bygge inn i Markdown eller HTML?", "a": "Ja. Kopier lenken direkte eller bruk lagringsalternativene for .md-format." },
+          "4": { "q": "Er filene mine offentlige?", "a": "Lenkene er delbare; når de serveres via CDN, leveres de gjennom dets domene." },
+          "5": { "q": "Vil det komme team-kontoer?", "a": "Det er planlagt. Vi prioriterer enkel opplasting først, og vil deretter legge til team-områder." }
         }
       },
       "keywords": {
-        "title": "Keywords we care about",
-        "p1": "photo to url, image to url, photo hosting, shareable links, direct image link, free image hosting, cdn photo link, upload and copy link, paste image to link, instant photo link, blog image links, docs image links, chat image link, markdown image link, html image link, photo cdn, fast image sharing, no signup image host, simple photo hosting, quick image uploader, link generator for photos."
+        "title": "Nøkkelord",
+        "p1": "bilde til url, foto til url, bildelenke-generator, gjør bilde om til lenke, gratis bildehosting, direkte bilde-url"
       }
     },
     "selectRegion": {
@@ -192,56 +193,114 @@
       "subtitle": "Velg ditt foretrukne språk og region"
     },
     "rateService": {
-      "title": "Vurder Foto til URL Konverter",
-      "thankYou": "Takk for tilbakemeldingen!",
+      "title": "Vurder vår tjeneste",
+      "thankYou": "Takk for din tilbakemelding!",
       "averageRating": "4.5",
-      "votes": "4,992 stemmer"
+      "votes": "4 992 stemmer"
     }
   },
   "seo": {
-    "keywords": "photo to url, image to url, image link generator, convert image to link, free image hosting, direct image url, shareable image links, cdn image links",
+    "keywords": "bilde til url, foto til url, bildelenke-generator, gratis bildehosting, direkte bilde-url, delbare lenker, cdn",
     "home": {
-      "title": "Photo To URL Converter | Turn photos into shareable links",
-      "description": "Free image hosting: convert photos to permanent URLs instantly. Supports JPG, PNG, WEBP, GIF up to 10MB. Clipboard paste, fast CDN, clean links for Markdown & HTML."
+      "title": "Bilde til URL-konvertering | Gjør bilder om til delbare lenker",
+      "description": "Gratis bildehosting: Gjør bilder om til permanente URL-er umiddelbart. Støtter JPG, PNG, WEBP, GIF opptil 10MB. CDN og rene lenker for Markdown og HTML."
     }
   },
   "images": {
-    "previewAlt": "Uploaded image preview",
-    "animatingSampleAlt": "Sample image used in upload demo",
-    "sampleThumbAlt": "Sample upload image",
-    "useSampleAria": "Use this sample image",
-    "howIllustrationAlt": "Illustration showing how Photo To URL works",
-    "heroDropTitle": "Drag a photo here",
-    "heroDropSubtitle": "We'll enhance and host it, then return a clean link.",
-    "heroDropBadge": "Drag or click (JPG/PNG, up to 10MB)",
-    "logoAlt": "Photo To URL logo"
+    "previewAlt": "Forhåndsvisning av opplastet bilde",
+    "animatingSampleAlt": "Eksempelbilde brukt i demo",
+    "sampleThumbAlt": "Eksempelbilde for opplasting",
+    "useSampleAria": "Bruk dette eksempelbildet",
+    "howIllustrationAlt": "Illustrasjon som viser hvordan Bilde til URL fungerer",
+    "heroDropTitle": "Slipp bildet her",
+    "heroDropSubtitle": "Vi optimaliserer og vert det, og gir deg en ren lenke tilbake.",
+    "heroDropBadge": "Slipp eller klikk (JPG/PNG, opptil 10MB)",
+    "logoAlt": "Bilde til URL Logo"
   },
   "circleCrop": {
-    "title": "Foto til Sirkel",
-    "description": "Gratis online verktøy for å beskjære bilder i sirkel, beskjær enkelt hvilket som helst foto til en perfekt sirkel - perfekt for profilbilder, sosiale medier og designprosjekter.",
-    "upload": "Last opp foto",
+    "title": "Rund bildebeskjæring",
+    "description": "Gratis nettverktøy for å beskjære bilder i sirkel — gjør ethvert bilde om til en perfekt sirkel for profilbilder og design.",
+    "upload": "Last opp bilde",
     "processing": "Behandler...",
-    "download": "Last ned sirkulært foto",
-    "errorSelectFile": "Vennligst velg en fotofil",
-    "errorUploadFirst": "Vennligst last opp et foto først",
+    "download": "Last ned rundt bilde",
+    "errorSelectFile": "Vennligst velg en bildefil",
+    "errorUploadFirst": "Vennligst last opp et bilde først",
     "page": {
-      "title": "Foto til Sirkel - Gratis Online Rund Foto Beskjærer",
-      "description": "Foto til Sirkel er et gratis online verktøy for å transformere rektangulære bilder til perfekt sirkulære former. Verktøyet vårt hjelper deg med å beskjære bilder i sirkelformat umiddelbart, uten registrering påkrevd. Enten du trenger et rundt profilbilde, et sirkulært foto for sosiale medier, eller et rundet foto for designprosjekter, gjør vårt sirkulære foto beskjæringsverktøy det enkelt og lett."
+      "title": "Rund bildebeskjæring - Gratis nettverktøy",
+      "description": "Dette verktøyet er en gratis tjeneste for å gjøre rektangulære bilder om til perfekte sirkler uten krav om registrering."
     },
     "seo": {
-      "title": "Foto til Sirkel | Gratis Online Sirkel Beskjærer",
-      "description": "Gratis online verktøy for å beskjære hvilket som helst foto til en perfekt sirkel - perfekt for profilbilder, sosiale medier og designprosjekter."
+      "title": "Rund bildebeskjæring | Gratis beskjæring på nett",
+      "description": "Gratis nettverktøy for å beskjære bilder til en perfekt sirkel - ideelt for profilbilder og sosiale medier."
     },
     "selectRegion": {
       "title": "Velg region",
-      "subtitle": "Velg ditt foretrukne språk og region"
+      "subtitle": "Velg språk og region"
     },
     "rateService": {
-      "title": "Vurder Foto til Sirkel",
-      "thankYou": "Takk for tilbakemeldingen!",
+      "title": "Vurder beskjæringsverktøyet",
+      "thankYou": "Takk for din tilbakemelding!",
       "averageRating": "4.5",
-      "votes": "4,992 stemmer"
+      "votes": "4 992 stemmer"
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blogg | Bilde til URL",
+      "description": "Artikler om bildehosting, deling av lenker og tips for produktivitet."
+    },
+    "page": {
+      "title": "Blogg",
+      "description": "Vi forbereder artikler om bildehosting, CDN og SEO-tips. Kommer snart.",
+      "stayTuned": "Følg med for guider om:",
+      "guides": {
+        "1": "Beste praksis for konvertering av bilde til URL",
+        "2": "Slik bruker du direkte bildelenker i blogger og dokumenter",
+        "3": "Ytelse og caching for statiske filer"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Dokumentasjon | Bilde til URL",
+      "description": "Dokumentasjon for tjenesten vår."
+    },
+    "page": {
+      "title": "Dokumentasjon",
+      "description": "Hurtigstart: last opp et bilde og få en direkte URL. Bruk kopieringsknappene eller last ned lenken i .txt/.json/.md.",
+      "features": {
+        "title": "Støttede funksjoner:",
+        "items": {
+          "1": "Støttet: JPG, PNG, WEBP, GIF",
+          "2": "Rask levering via CDN",
+          "3": "Vennlige feilmeldinger ved vedlikehold"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Status | Bilde til URL",
+      "description": "Tjenestestatus for systemene våre."
+    },
+    "page": {
+      "title": "Status",
+      "description": "Alle systemer i drift.",
+      "message": "Opplastings-API og CDN-lenker kjører."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Kontakt | Bilde til URL",
+      "description": "Kontakt brukerstøtte."
+    },
+    "page": {
+      "title": "Kontakt",
+      "description": "Trenger du hjelp eller vil du dele tilbakemelding? Send oss en e-post, så svarer vi så snart som mulig.",
+      "email": {
+        "label": "E-post",
+        "address": "leeqs1010@gmail.com"
+      }
     }
   }
 }
-

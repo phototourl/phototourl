@@ -77,9 +77,18 @@
       "title": "İnsanlar neden Fotoğrafı URL'ye seçiyor",
       "subtitle": "Hız, temiz bağlantılar ve kayıt gerektirmez.",
       "items": {
-        "fast": { "title": "Hızlı paylaşım", "desc": "Ekstra adım olmadan saniyeler içinde yükleyin ve bağlantı alın." },
-        "direct": { "title": "Doğrudan görsel URL'leri", "desc": "HTML, Markdown ve sohbet uygulamalarında çalışan temiz bağlantılar." },
-        "nosignup": { "title": "Kayıt gerekmez", "desc": "Hemen kullanın. Hesaplar büyüdükçe daha sonra gelebilir." }
+        "fast": {
+          "title": "Hızlı paylaşım",
+          "desc": "Ekstra adım olmadan saniyeler içinde yükleyin ve bağlantı alın."
+        },
+        "direct": {
+          "title": "Doğrudan görsel URL'leri",
+          "desc": "HTML, Markdown ve sohbet uygulamalarında çalışan temiz bağlantılar."
+        },
+        "nosignup": {
+          "title": "Kayıt gerekmez",
+          "desc": "Hemen kullanın. Hesaplar büyüdükçe daha sonra gelebilir."
+        }
       }
     },
     "how": {
@@ -93,24 +102,48 @@
       "title": "Üç adımlı akış",
       "subtitle": "Çabayı azaltın, CTA'yı görünür tutun, saniyeler içinde bitirin.",
       "steps": {
-        "1": { "title": "Bırak veya yapıştır", "desc": "Bir dosya sürükleyin, panodan yapıştırın veya gözatın." },
-        "2": { "title": "Barındırıyoruz ve bağlantı döndürüyoruz", "desc": "Kopyala/aç/kaydet kontrolleriyle anında URL." },
-        "3": { "title": "Her yerde paylaş", "desc": "Belgelere, sohbetlere, biletlere, bloglara veya prototiplere yapıştırın." }
+        "1": {
+          "title": "Bırak veya yapıştır",
+          "desc": "Bir dosya sürükleyin, panodan yapıştırın veya gözatın."
+        },
+        "2": {
+          "title": "Barındırıyoruz ve bağlantı döndürüyoruz",
+          "desc": "Kopyala/aç/kaydet kontrolleriyle anında URL."
+        },
+        "3": {
+          "title": "Her yerde paylaş",
+          "desc": "Belgelere, sohbetlere, biletlere, bloglara veya prototiplere yapıştırın."
+        }
       }
     },
     "features": {
       "title": "Özellik vurguları",
       "subtitle": "Önce netlik: daha az sürtünme, daha fazla paylaşım.",
       "items": {
-        "cdn": { "title": "Doğrudan CDN bağlantıları", "desc": "Markdown ve HTML gömüleri için hazır temiz, öngörülebilir URL'ler." },
+        "cdn": {
+          "title": "Doğrudan CDN bağlantıları",
+          "desc": "Markdown ve HTML gömüleri için hazır temiz, öngörülebilir URL'ler."
+        },
         "save": {
           "title": "Kopyala ve kaydet işlemleri",
           "desc": "Tek tıkla kopyalayın, açın veya .txt/.json/.md olarak kaydedin."
         },
-        "clipboard": { "title": "Pano dostu", "desc": "Dosya aramadan veya yeniden yüklemeden ekran görüntülerini yapıştırın." },
-        "errors": { "title": "Dostane hatalar", "desc": "Teknik yığın izleri yerine net bakım mesajları." },
-        "nosignup": { "title": "Kayıt gerekmez", "desc": "Daha hızlı gönderin—hemen yükleyin ve paylaşın." },
-        "r2": { "title": "Hızlı barındırma", "desc": "Bağlantılar hızlı yükleme ve güvenilir erişim için hızlı CDN üzerinden sunulur." }
+        "clipboard": {
+          "title": "Pano dostu",
+          "desc": "Dosya aramadan veya yeniden yüklemeden ekran görüntülerini yapıştırın."
+        },
+        "errors": {
+          "title": "Dostane hatalar",
+          "desc": "Teknik yığın izleri yerine net bakım mesajları."
+        },
+        "nosignup": {
+          "title": "Kayıt gerekmez",
+          "desc": "Daha hızlı gönderin—hemen yükleyin ve paylaşın."
+        },
+        "r2": {
+          "title": "Hızlı barındırma",
+          "desc": "Bağlantılar hızlı yükleme ve güvenilir erişim için hızlı CDN üzerinden sunulur."
+        }
       }
     },
     "testimonials": {
@@ -175,11 +208,26 @@
       "faq": {
         "title": "SSS",
         "items": {
-          "1": { "q": "Ücretsiz mi?", "a": "Evet, temel yükleme-bağlantı ücretsizdir. R2 üzerinden CDN destekli barındırma cömert katmanlarla devreye girecektir." },
-          "2": { "q": "Hangi formatlar destekleniyor?", "a": "Bugün PNG, JPG, WEBP, GIF'e kadar 10MB. Talep üzerine daha fazla format eklenebilir." },
-          "3": { "q": "Markdown veya HTML'de gömebilir miyim?", "a": "Evet. Bağlantıyı olduğu gibi kopyalayın veya hazır parçalar için tek tıkla .txt / .json / .md kaydetmelerini kullanın." },
-          "4": { "q": "Dosyalarımı herkese açık tutuyor musunuz?", "a": "Bağlantılar paylaşılabilir; R2 CDN etkinleştirildiğinde, CDN etki alanı üzerinden sunulur. Depolama kullanılamıyorsa net bakım mesajları gösteririz." },
-          "5": { "q": "Hesap veya ekipler olacak mı?", "a": "Planlandı. Önce sürtünmesiz yüklemeleri önceliklendiriyoruz, sonra ekip alanları, erişim kontrolü ve analitik ekliyoruz." }
+          "1": {
+            "q": "Ücretsiz mi?",
+            "a": "Evet, temel yükleme-bağlantı ücretsizdir. R2 üzerinden CDN destekli barındırma cömert katmanlarla devreye girecektir."
+          },
+          "2": {
+            "q": "Hangi formatlar destekleniyor?",
+            "a": "Bugün PNG, JPG, WEBP, GIF'e kadar 10MB. Talep üzerine daha fazla format eklenebilir."
+          },
+          "3": {
+            "q": "Markdown veya HTML'de gömebilir miyim?",
+            "a": "Evet. Bağlantıyı olduğu gibi kopyalayın veya hazır parçalar için tek tıkla .txt / .json / .md kaydetmelerini kullanın."
+          },
+          "4": {
+            "q": "Dosyalarımı herkese açık tutuyor musunuz?",
+            "a": "Bağlantılar paylaşılabilir; R2 CDN etkinleştirildiğinde, CDN etki alanı üzerinden sunulur. Depolama kullanılamıyorsa net bakım mesajları gösteririz."
+          },
+          "5": {
+            "q": "Hesap veya ekipler olacak mı?",
+            "a": "Planlandı. Önce sürtünmesiz yüklemeleri önceliklendiriyoruz, sonra ekip alanları, erişim kontrolü ve analitik ekliyoruz."
+          }
         }
       },
       "keywords": {
@@ -258,6 +306,48 @@
         "3": "Statik varlıklar için performans ve önbelleğe alma"
       }
     }
+  },
+  "docs": {
+    "seo": {
+      "title": "Dokümantasyon | Photo To URL",
+      "description": "Photo To URL için dokümantasyon."
+    },
+    "page": {
+      "title": "Dokümantasyon",
+      "description": "Hızlı başlangıç: bir resim yükleyin ve doğrudan URL alın. Kopyala/aç düğmelerini kullanın veya bağlantıyı .txt/.json/.md formatında indirin.",
+      "features": {
+        "title": "Desteklenen özellikler:",
+        "items": {
+          "1": "Desteklenen: JPG, PNG, WEBP, GIF",
+          "2": "Depolama etkinleştirildiğinde CDN üzerinden hızlı teslimat",
+          "3": "Hizmet kullanılamadığında dostça bakım hata mesajları"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Durum | Photo To URL",
+      "description": "Photo To URL hizmet durumu."
+    },
+    "page": {
+      "title": "Durum",
+      "description": "Tüm sistemler çalışıyor.",
+      "message": "Yükleme API'si ve CDN bağlantıları çalışıyor."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "İletişim | Photo To URL",
+      "description": "Photo To URL desteği ile iletişime geçin."
+    },
+    "page": {
+      "title": "İletişim",
+      "description": "Yardıma mı ihtiyacınız var yoksa geri bildirim paylaşmak mı istiyorsunuz? Bize e-posta gönderin, gelen kutusunu takip edeceğiz ve en kısa sürede size geri döneceğiz.",
+      "email": {
+        "label": "E-posta",
+        "address": "leeqs1010@gmail.com"
+      }
+    }
   }
 }
-

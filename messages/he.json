@@ -1,190 +1,191 @@
 {
   "common": {
-    "siteName": "Photo To URL",
-    "tagline": "Turn photos into clean, shareable links in seconds",
+    "siteName": "תמונה ל-URL",
+    "tagline": "הופכים תמונות לקישורים נקיים וניתנים לשיתוף בשניות",
     "header": {
-      "subtitle": "Turn images into shareable links",
-      "prompt": "Drop, paste, or upload — get a shareable link instantly"
+      "subtitle": "הופכים תמונות לקישורים שניתן לשתף",
+      "prompt": "גררו, הדביקו או העלו — קבלו קישור לשיתוף באופן מיידי",
+      "circleCrop": "חיתוך תמונה לעיגול"
     },
     "footer": {
       "blurb": {
-        "line1": "Turn photos into clean, shareable links.",
-        "line2": "Fast, simple, reliable."
+        "line1": "הופכים תמונות לקישורים נקיים לשיתוף.",
+        "line2": "מהיר, פשוט, אמין."
       },
-      "partners": "Partners",
-      "linksTitle": "Links",
-      "productsTitle": "Products",
+      "partners": "שותפים",
+      "linksTitle": "קישורים",
+      "productsTitle": "מוצרים",
       "nav": {
-        "home": "Home",
-        "blog": "Blog",
-        "docs": "Docs",
-        "status": "Status",
-        "contact": "Contact"
+        "home": "בית",
+        "blog": "בלוג",
+        "docs": "תיעוד",
+        "status": "סטטוס",
+        "contact": "צור קשר"
       },
       "legal": {
-        "privacy": "Privacy",
-        "terms": "Terms"
+        "privacy": "פרטיות",
+        "terms": "תנאי שימוש"
       },
-      "copyright": "© 2025 Photo To URL. All rights reserved."
+      "copyright": "© 2025 Photo To URL. כל הזכויות שמורות."
     }
   },
   "home": {
     "badge": {
-      "free": "Free",
-      "cdn": "CDN links",
-      "nosignup": "No signup"
+      "free": "חינם",
+      "cdn": "קישורי CDN",
+      "nosignup": "ללא הרשמה"
     },
     "hero": {
-      "title1": "Free",
-      "title2": "Photo To URL",
-      "subtitle": "Upload → get a link → paste anywhere.",
-      "upload": "Upload image",
+      "title1": "חינם",
+      "title2": "תמונה ל-URL",
+      "subtitle": "מעלים ← מקבלים קישור ← מדביקים בכל מקום.",
+      "upload": "העלאת תמונה",
       "bullet": {
-        "fast": "Fast sharing",
-        "direct": "Direct photo links",
-        "nosignup": "No signup required",
-        "paste": "Paste from clipboard"
+        "fast": "שיתוף מהיר",
+        "direct": "קישורים ישירים לתמונות",
+        "nosignup": "אין צורך בהרשמה",
+        "paste": "הדבקה מלוח הגזירים"
       }
     },
     "demo": {
-      "label": "Demo",
-      "loop": "Auto demo",
-      "idleTitle": "Drag & drop your image",
-      "idleSubtitle": "See the full upload → link → copy flow.",
-      "processing": "Optimizing & uploading...",
-      "doneTitle": "Ready to share",
-      "doneSubtitle": "Your link is ready to share instantly.",
-      "thanksForWatching": "Thanks for watching"
+      "label": "דמו",
+      "loop": "דמו אוטומטי",
+      "idleTitle": "גררו ושחררו את התמונה שלכם",
+      "idleSubtitle": "ראו את כל התהליך: העלאה ← קישור ← העתקה.",
+      "processing": "מבצע אופטימיזציה ומעלה...",
+      "doneTitle": "מוכן לשיתוף",
+      "doneSubtitle": "הקישור שלכם מוכן לשיתוף מיידי.",
+      "thanksForWatching": "תודה על הצפייה"
     },
     "upload": {
-      "title": "Drop a photo or click to browse",
-      "hint": "JPG, PNG, WEBP, GIF up to 10MB. Drag & drop, click, or paste screenshots.",
-      "orDrop": "or drop a file",
-      "samplesTitle": "No image? Try one of these:",
-      "policy": "By uploading an image you agree to our <privacy>Privacy Policy</privacy> and <terms>Terms of Use</terms>.",
-      "clear": "Clear"
+      "title": "שחררו תמונה או לחצו לעיון",
+      "hint": "JPG, PNG, WEBP, GIF עד 10MB. גררו ושחררו, לחצו או הדביקו צילום מסך.",
+      "orDrop": "או שחררו קובץ כאן",
+      "samplesTitle": "אין לכם תמונה? נסו אחת מאלו:",
+      "policy": "בהעלאת תמונה, אתם מסכימים ל<privacy>מדיניות הפרטיות</privacy> ול<terms>תנאי השימוש</terms> שלנו.",
+      "clear": "ניקוי"
     },
     "result": {
-      "error": "Upload failed. Please try again.",
-      "generated": "Generated link:",
-      "open": "Open in new tab",
-      "placeholder": "No link yet. Upload a photo to generate a shareable URL.",
-      "savePrompt": "Save link as you like",
-      "copy": "Copy link",
-      "copied": "Copied"
+      "error": "ההעלאה נכשלה. אנא נסו שוב.",
+      "generated": "הקישור שנוצר:",
+      "open": "פתיחה בלשונית חדשה",
+      "placeholder": "אין קישור עדיין. העלו תמונה כדי ליצור URL.",
+      "savePrompt": "שמרו את הקישור כרצונכם",
+      "copy": "העתק קישור",
+      "copied": "הועתק"
     },
     "benefits": {
-      "title": "Why people choose Photo To URL",
-      "subtitle": "Speed, clean links, and no signup needed.",
+      "title": "למה אנשים בוחרים ב-'תמונה ל-URL'",
+      "subtitle": "מהירות, קישורים נקיים וללא צורך בהרשמה.",
       "items": {
-        "fast": { "title": "Fast sharing", "desc": "Upload and get a link in seconds with no extra steps." },
-        "direct": { "title": "Direct image URLs", "desc": "Clean links that work in HTML, Markdown, and chat apps." },
-        "nosignup": { "title": "No signup required", "desc": "Use it right away. Accounts can come later as we grow." }
+        "fast": { "title": "שיתוף מהיר", "desc": "מעלים ומקבלים קישור בשניות ללא שלבים מיותרים." },
+        "direct": { "title": "כתובות URL ישירות", "desc": "קישורים נקיים שעובדים ב-HTML, Markdown ואפליקציות צ'אט." },
+        "nosignup": { "title": "ללא הרשמה", "desc": "השתמשו בזה מיד. חשבונות משתמש יגיעו בהמשך." }
       }
     },
     "how": {
-      "title": "How it works",
-      "step1": "1) Add your photo (drag, paste, or click to pick a file).",
-      "step2": "2) We host it and return a shareable link.",
-      "step3": "3) Copy and share the link anywhere you work.",
-      "note": "Your link opens fast in docs, chats, and prototypes—plus you can download it in the format you like (.txt/.json/.md)."
+      "title": "איך זה עובד",
+      "step1": "1) הוסיפו את התמונה שלכם (גררו, הדביקו או בחרו קובץ).",
+      "step2": "2) אנחנו מארחים אותה ונותנים לכם קישור לשיתוף.",
+      "step3": "3) העתיקו והדביקו את הקישור בכל מקום.",
+      "note": "הקישור שלכם נפתח במהירות במסמכים, צ'אטים ופרוטוטיפים — ובנוסף תוכלו להוריד אותו בפורמט .txt/.json/.md."
     },
     "process": {
-      "title": "Three-step flow",
-      "subtitle": "Reduce effort, keep the CTA visible, finish in seconds.",
+      "title": "תהליך בשלושה שלבים",
+      "subtitle": "צמצמו מאמץ, שמרו על פוקוס, סיימו בשניות.",
       "steps": {
-        "1": { "title": "Drop or paste", "desc": "Drag a file, paste from clipboard, or browse." },
-        "2": { "title": "We host & return a link", "desc": "Instant URL with copy/open/save controls." },
-        "3": { "title": "Share anywhere", "desc": "Paste into docs, chats, tickets, blogs, or prototypes." }
+        "1": { "title": "שחררו או הדביקו", "desc": "גררו קובץ, הדביקו מהלוח או עיינו במחשב שלכם." },
+        "2": { "title": "אנחנו מארחים ומקשרים", "desc": "כתובת URL מיידית עם פקדים להעתקה, פתיחה או שמירה." },
+        "3": { "title": "שתפו בכל מקום", "desc": "הדביקו במסמכים, צ'אטים, קריאות שירות, בלוגים או פרוטוטיפים." }
       }
     },
     "features": {
-      "title": "Feature highlights",
-      "subtitle": "Clarity first: less friction, more sharing.",
+      "title": "תכונות עיקריות",
+      "subtitle": "בהירות לפני הכל: פחות חיכוך, יותר שיתוף.",
       "items": {
-        "cdn": { "title": "Direct CDN links", "desc": "Clean, predictable URLs ready for Markdown and HTML embeds." },
+        "cdn": { "title": "קישורי CDN ישירים", "desc": "כתובות URL נקיות וצפויות, מוכנות להטמעה ב-Markdown ו-HTML." },
         "save": {
-          "title": "Copy & save actions",
-          "desc": "Copy, open, or save as .txt/.json/.md with one click."
+          "title": "פעולות העתקה ושמירה",
+          "desc": "העתיקו, פתחו או שמרו כ-.txt/.json/.md בלחיצה אחת."
         },
-        "clipboard": { "title": "Clipboard friendly", "desc": "Paste screenshots without hunting for files or re-uploads." },
-        "errors": { "title": "Friendly errors", "desc": "Clear maintenance messages instead of technical stack traces." },
-        "nosignup": { "title": "No signup needed", "desc": "Ship faster—upload and share immediately." },
-        "r2": { "title": "Fast hosting", "desc": "Links are served via fast CDN for quick loading and reliable access." }
+        "clipboard": { "title": "ידידותי ללוח הגזירים", "desc": "הדביקו צילומי מסך ישירות בלי לחפש קבצים." },
+        "errors": { "title": "שגיאות מובנות", "desc": "הודעות ברורות במקום קודים טכניים מסובכים." },
+        "nosignup": { "title": "אין צורך בהרשמה", "desc": "עבדו מהר יותר — העלו ושתפו מיד." },
+        "r2": { "title": "אירוח מהיר", "desc": "קישורים המוגשים דרך רשת מהירה לגישה אמינה." }
       }
     },
     "testimonials": {
-      "title": "Teams saving time with Photo To URL",
-      "subtitle": "Social proof to reduce risk and speed up adoption.",
+      "title": "צוותים שחוסכים זמן עם 'תמונה ל-URL'",
+      "subtitle": "פתרון מוכח לעבודה מהירה יותר.",
       "items": {
         "ops": {
           "name": "Product Ops",
-          "quote": "We paste screenshots into tickets without clogging attachments. Links stay clean."
+          "quote": "אנחנו מדביקים צילומי מסך בטיקטים בלי להעמיס על קבצים מצורפים. הקישורים שומרים על הכל נקי."
         },
         "content": {
           "name": "Content Lead",
-          "quote": "Markdown-ready links keep our docs tidy and publishable in minutes."
+          "quote": "קישורי Markdown שומרים על המסמכים שלנו מסודרים ומוכנים לפרסום תוך דקות."
         },
         "support": {
           "name": "Support",
-          "quote": "Clear errors and instant URLs make it easy to guide customers in chat."
+          "quote": "הודעות שגיאה ברורות וכתובות URL מיידיות מקלות על הדרכת לקוחות בצ'אט."
         }
       }
     },
     "cta": {
-      "title": "Turn photos into links in seconds",
-      "subtitle": "Drop, paste, or upload—copy your link and share everywhere.",
-      "upload": "Upload now",
-      "paste": "Paste a screenshot"
+      "title": "הפכו תמונות לקישורים בשניות",
+      "subtitle": "שחררו, הדביקו או העלו — העתיקו את הקישור ושתפו בכל מקום.",
+      "upload": "העלו עכשיו",
+      "paste": "הדביקו צילום מסך"
     },
     "longform": {
-      "title": "Why Photo To URL helps your workflow",
-      "p1": "Photo To URL is built for creators, marketers, support teams, founders, and anyone who needs a quick, reliable way to turn photos into clean links. With a direct upload-to-link flow, you avoid heavy media managers and skip logins. Links are tidy, easy to paste into chat apps, docs, wikis, bug reports, and tickets. Teams move faster when screenshots and product photos are instantly shareable without attachment limits or messy previews. Because the links are predictable and consistent, they also work well in automation, QA steps, and lightweight prototypes.",
-      "p2": "The experience stays simple: drop, paste, or browse; get a link; share. No extra chrome, no distracting ads, no gating. You keep focus on your content while we handle the boring parts of hosting. Whether you are documenting a feature, preparing a blog post, building a pitch deck, or sending a quick support response, a short link beats bulky attachments. For global teams, the interface is available in multiple languages while keeping copy concise and universal.",
+      "title": "למה השירות שלנו עוזר לזרימת העבודה שלכם",
+      "p1": "הכלי שלנו נבנה עבור יוצרים, אנשי שיווק, צוותי תמיכה וכל מי שזקוק לדרך מהירה ואמינה להפוך תמונות לקישורים נקיים. עם זרימת עבודה ישירה מהעלאה לקישור, אתם נמנעים ממנהלי מדיה כבדים ומדלגים על כניסה לחשבון. הקישורים מסודרים וקלים להדבקה באפליקציות צ'אט, מסמכים, ויקי וטיקטים. צוותים מתקדמים מהר יותר כשצילומי מסך ותמונות מוצר ניתנים לשיתוף מיידי ללא הגבלות של קבצים מצורפים.",
+      "p2": "החוויה פשוטה: שחררו, הדביקו או עיינו; קבלו קישור; שתפו. ללא אלמנטים מיותרים וללא פרסומות מסיחות דעת. אתם מתמקדים בתוכן, בזמן שאנחנו דואגים לאירוח. בין אם אתם מתעדים פיצ'ר או מכינים פוסט לבלוג, קישור קצר עדיף על קובץ מצורף כבד.",
       "useCases": {
-        "title": "Use cases that stay practical",
+        "title": "מקרים של שימוש מעשי",
         "items": {
-          "1": "Product and design: share UI mocks, component screenshots, and quick visual notes without exporting to heavy tools.",
-          "2": "Support and QA: attach reproducible screenshots in tickets, chat threads, or runbooks; links stay tidy and easy to track.",
-          "3": "Docs and blogs: embed photos in Markdown, HTML, or CMS editors with predictable URLs and no layout surprises.",
-          "4": "Sales and CS: drop proof-of-concept captures or customer walkthroughs straight into email or messaging.",
-          "5": "Engineering handoff: keep build artifacts, error snaps, and regression visuals lightweight for faster reviews.",
-          "6": "Community and socials: paste links into Discord, Slack, Teams, Twitter/X, or forums without bloated previews."
+          "1": "מוצר ועיצוב: שתפו מוקאפים וצילומי מסך של רכיבים ללא ייצוא מורכב.",
+          "2": "תמיכה ו-QA: צרפו צילומי מסך לטיקטים או צ'אטים; הקישורים קלים למעקב.",
+          "3": "מסמכים ובלוגים: הטמיעו תמונות בעורכי Markdown או HTML עם כתובות URL צפויות.",
+          "4": "מכירות ושירות: הוסיפו הוכחות ויזואליות או דמואים ישירות במיילים או בהודעות.",
+          "5": "העברת פיתוח: שמרו על דיווחי באגים קלים ויזואלית לסקירה מהירה יותר.",
+          "6": "קהילות ורשתות חברתיות: הדביקו קישורים ב-Discord, Slack או בפורומים ללא בלאגן."
         }
       },
       "flow": {
-        "title": "How the flow works end-to-end",
-        "p1": "1) Choose an image: drag-and-drop, paste from clipboard, or click to browse. PNG, JPG, WEBP, GIF up to 10MB are supported now. 2) We upload and return a direct link. The UI shows your URL immediately with copy, open, and multi-format save actions (.txt, .json, .md). 3) You reuse the link anywhere: blogs, docs, tickets, chat, prototypes. The goal is a frictionless bridge between your photo and the places you work.",
-        "p2": "Each step is tuned for clarity: visible status, friendly errors, and buttons that confirm actions. The copy button sits next to the link, and the save buttons let you keep the URL in your preferred format for bookmarking or automation. When R2 is enabled, links serve from the CDN domain; if the service is in maintenance, the UI returns a clear message instead of raw errors."
+        "title": "איך כל התהליך עובד",
+        "p1": "1) בחרו תמונה: גררו ושחררו, הדביקו מהלוח או לחצו לעיון. 2) אנחנו מעלים ומחזירים קישור ישיר. הממשק מציג את ה-URL שלכם מיד עם פעולות להעתקה, פתיחה ושמירה בפורמטים שונים (.txt, .json, .md). 3) השתמשו בקישור בכל מקום. המטרה היא גשר חלק בין התמונה שלכם לבין המקום בו אתם עובדים.",
+        "p2": "כל שלב תוכנן לבהירות: סטטוס גלוי, שגיאות מובנות וכפתורים המאשרים את הפעולות שלכם."
       },
       "best": {
-        "title": "Best practices for cleaner links",
+        "title": "שיטות עבודה מומלצות לקישורים נקיים",
         "items": {
-          "1": "Keep filenames meaningful before upload; they remain part of the URL and help future search.",
-          "2": "Use WEBP or optimized JPG/PNG for lighter payloads if you expect heavy sharing.",
-          "3": "Copy the link directly after generation to avoid stale clipboard entries.",
-          "4": "Save as .json when you need to batch store references for automation or audits.",
-          "5": "Use .md output when embedding in docs or wikis; it is ready to paste.",
-          "6": "Save as .txt for plain text links that are ready to copy and use."
+          "1": "תנו שמות משמעותיים לקבצים לפני ההעלאה; הם נשארים חלק מה-URL.",
+          "2": "השתמשו ב-WEBP או ב-JPG/PNG מותאמים לקבצים קלים יותר.",
+          "3": "העתיקו את הקישור מיד לאחר היצירה כדי למנוע שגיאות בלוח הגזירים.",
+          "4": "שמרו כ-.json כשאתם צריכים לשמור הפניות לאוטומציה.",
+          "5": "השתמשו בפלט .md להטמעה במסמכים או ויקי.",
+          "6": "שמרו כ-.txt לקישורי טקסט נקיים המוכנים לשימוש."
         }
       },
       "roadmap": {
-        "title": "Roadmap highlights",
-        "p1": "Upcoming improvements include deeper Cloudflare R2 integration by default, more generous upload limits, optional auth for team spaces, and per-link analytics. We also plan preset link styles, one-click delete, and organization-level buckets. SEO polish continues across blog, docs, and status pages, with richer schema and a public sitemap for fast indexing."
+        "title": "דגשים לפיתוח עתידי",
+        "p1": "שיפורים קרובים כוללים אינטגרציה עמוקה יותר עם פתרונות אחסון, מגבלות העלאה גדולות יותר, הרשאות צוות אופציונליות ואנליטיקה לכל קישור."
       },
       "faq": {
-        "title": "FAQs",
+        "title": "שאלות נפוצות",
         "items": {
-          "1": { "q": "Is it free?", "a": "Yes, core upload-to-link is free. CDN-backed hosting via R2 will roll out with generous tiers." },
-          "2": { "q": "What formats are supported?", "a": "PNG, JPG, WEBP, GIF up to 10MB today. More formats can be added based on demand." },
-          "3": { "q": "Can I embed in Markdown or HTML?", "a": "Yes. Copy the link as-is, or use the one-click .txt / .json / .md saves for drop-in snippets." },
-          "4": { "q": "Do you keep my files public?", "a": "Links are shareable; when R2 CDN is enabled, they are served via the CDN domain. We show clear maintenance messages if storage is unavailable." },
-          "5": { "q": "Will there be accounts or teams?", "a": "Planned. We prioritize frictionless uploads first, then add team spaces, access control, and analytics." }
+          "1": { "q": "האם זה בחינם?", "a": "כן, ההמרה הבסיסית מתמונה לקישור היא בחינם." },
+          "2": { "q": "אילו פורמטים נתמכים?", "a": "כרגע PNG, JPG, WEBP, GIF עד 10MB." },
+          "3": { "q": "האם ניתן להטמיע ב-Markdown או HTML?", "a": "כן. העתיקו את הקישור ישירות או השתמשו באפשרויות השמירה בפורמט .md." },
+          "4": { "q": "האם הקבצים שלי ציבוריים?", "a": "הקישורים ניתנים לשיתוף; כאשר ה-CDN מופעל, הם מוגשים דרך הדומיין שלו." },
+          "5": { "q": "יהיו חשבונות לצוותים?", "a": "זה מתוכנן. אנחנו נותנים עדיפות להעלאה פשוטה קודם, ואז נוסיף מרחבי עבודה לצוותים." }
         }
       },
       "keywords": {
-        "title": "Keywords we care about",
-        "p1": "photo to url, image to url, photo hosting, shareable links, direct image link, free image hosting, cdn photo link, upload and copy link, paste image to link, instant photo link, blog image links, docs image links, chat image link, markdown image link, html image link, photo cdn, fast image sharing, no signup image host, simple photo hosting, quick image uploader, link generator for photos."
+        "title": "מילות מפתח",
+        "p1": "תמונה ל-URL, תמונה לקישור, מחולל קישורי תמונה, המרת תמונה לקישור, אחסון תמונות חינם, URL ישיר לתמונה"
       }
     },
     "selectRegion": {
@@ -192,56 +193,114 @@
       "subtitle": "בחר את השפה והאזור המועדפים עליך"
     },
     "rateService": {
-      "title": "דרג ממיר תמונות ל-URL",
-      "thankYou": "תודה על המשוב שלך!",
+      "title": "דרגו את הממיר שלנו",
+      "thankYou": "תודה על המשוב!",
       "averageRating": "4.5",
-      "votes": "4,992 קולות"
+      "votes": "4,992 הצבעות"
     }
   },
   "seo": {
-    "keywords": "photo to url, image to url, image link generator, convert image to link, free image hosting, direct image url, shareable image links, cdn image links",
+    "keywords": "תמונה ל-URL, תמונה לקישור, מחולל קישורי תמונה, אחסון תמונות חינם, URL ישיר לתמונה, קישורים לשיתוף, קישורי CDN",
     "home": {
-      "title": "Photo To URL Converter | Turn photos into shareable links",
-      "description": "Free image hosting: convert photos to permanent URLs instantly. Supports JPG, PNG, WEBP, GIF up to 10MB. Clipboard paste, fast CDN, clean links for Markdown & HTML."
+      "title": "ממיר תמונה ל-URL | הפכו תמונות לקישורים ניתנים לשיתוף",
+      "description": "אחסון תמונות חינם: המירו תמונות לכתובות URL קבועות באופן מיידי. תומך ב-JPG, PNG, WEBP, GIF עד 10MB. קישורי CDN נקיים ל-Markdown ו-HTML."
     }
   },
   "images": {
-    "previewAlt": "Uploaded image preview",
-    "animatingSampleAlt": "Sample image used in upload demo",
-    "sampleThumbAlt": "Sample upload image",
-    "useSampleAria": "Use this sample image",
-    "howIllustrationAlt": "Illustration showing how Photo To URL works",
-    "heroDropTitle": "Drag a photo here",
-    "heroDropSubtitle": "We'll enhance and host it, then return a clean link.",
-    "heroDropBadge": "Drag or click (JPG/PNG, up to 10MB)",
-    "logoAlt": "Photo To URL logo"
+    "previewAlt": "תצוגה מקדימה של התמונה שהועלתה",
+    "animatingSampleAlt": "תמונת דוגמה המשמשת בדמו",
+    "sampleThumbAlt": "תמונה לדוגמה להעלאה",
+    "useSampleAria": "השתמש בתמונת דוגמה זו",
+    "howIllustrationAlt": "איור המראה איך 'תמונה ל-URL' עובד",
+    "heroDropTitle": "שחררו תמונה כאן",
+    "heroDropSubtitle": "אנחנו נעשה אופטימיזציה ונארח אותה, ונחזיר קישור נקי.",
+    "heroDropBadge": "שחררו או לחצו (JPG/PNG, עד 10MB)",
+    "logoAlt": "לוגו תמונה ל-URL"
   },
   "circleCrop": {
-    "title": "תמונה למעגל",
-    "description": "כלי חיתוך תמונות עגולות מקוון חינם, חתוך בקלות כל תמונה למעגל מושלם - מושלם לתמונות פרופיל, מדיה חברתית ופרויקטי עיצוב.",
-    "upload": "העלה תמונה",
+    "title": "חיתוך תמונה לעיגול",
+    "description": "כלי מקוון חינמי לחיתוך תמונות בעיגול — הפכו כל תמונה לעיגול מושלם עבור תמונות פרופיל ופרויקטים עיצוביים.",
+    "upload": "העלאת תמונה",
     "processing": "מעבד...",
     "download": "הורד תמונה עגולה",
-    "errorSelectFile": "אנא בחר קובץ תמונה",
-    "errorUploadFirst": "אנא העלה תמונה תחילה",
+    "errorSelectFile": "אנא בחרו קובץ תמונה",
+    "errorUploadFirst": "אנא העלו תמונה תחילה",
     "page": {
-      "title": "תמונה למעגל - חותך תמונות עגולות חינם מקוון",
-      "description": "תמונה למעגל הוא כלי מקוון חינם להמרת תמונות מלבניות לצורות עגולות מושלמות. הכלי שלנו עוזר לך לחתוך תמונות בפורמט עגול מיידית, ללא צורך בהרשמה. בין אם אתה צריך תמונת פרופיל עגולה, תמונה עגולה למדיה חברתית, או תמונה מעוגלת לפרויקטי עיצוב, כלי חיתוך התמונות העגולות שלנו עושה את זה פשוט וקל."
+      "title": "חיתוך תמונה לעיגול - כלי מקוון חינמי",
+      "description": "כלי זה הוא שירות מקוון חינמי להמרת תמונות מלבניות לעיגולים מושלמים ללא צורך בהרשמה."
     },
     "seo": {
-      "title": "תמונה למעגל | חותך עגול חינם מקוון",
-      "description": "כלי מקוון חינם לחיתוך כל תמונה למעגל מושלם - מושלם לתמונות פרופיל, מדיה חברתית ופרויקטי עיצוב."
+      "title": "חיתוך לעיגול | חיתוך תמונות חינם באינטרנט",
+      "description": "כלי מקוון חינמי לחיתוך תמונות לעיגול מושלם - אידיאלי לתמונות פרופיל ורשתות חברתיות."
     },
     "selectRegion": {
       "title": "בחר אזור",
-      "subtitle": "בחר את השפה והאזור המועדפים עליך"
+      "subtitle": "בחר את השפה והאזור שלך"
     },
     "rateService": {
-      "title": "דרג תמונה למעגל",
-      "thankYou": "תודה על המשוב שלך!",
+      "title": "דרגו את כלי החיתוך",
+      "thankYou": "תודה על המשוב!",
       "averageRating": "4.5",
-      "votes": "4,992 קולות"
+      "votes": "4,992 הצבעות"
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "בלוג | תמונה ל-URL",
+      "description": "מאמרים על אחסון תמונות, שיתוף קישורים וטיפים לפרודוקטיביות."
+    },
+    "page": {
+      "title": "בלוג",
+      "description": "אנחנו מכינים מאמרים על אחסון תמונות, CDN וטיפי SEO. בקרוב.",
+      "stayTuned": "הישארו מעודכנים למדריכים בנושא:",
+      "guides": {
+        "1": "שיטות עבודה מומלצות להמרת תמונה ל-URL",
+        "2": "איך להשתמש בקישורי תמונה ישירים בבלוגים ומסמכים",
+        "3": "ביצועים וזיכרון מטמון עבור נכסים סטטיים"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "תיעוד | תמונה ל-URL",
+      "description": "תיעוד עבור השירות שלנו."
+    },
+    "page": {
+      "title": "תיעוד",
+      "description": "התחלה מהירה: העלו תמונה וקבלו URL ישיר. השתמשו בכפתורי ההעתקה או הורידו את הקישור ב-.txt/.json/.md.",
+      "features": {
+        "title": "תכונות נתמכות:",
+        "items": {
+          "1": "נתמך: JPG, PNG, WEBP, GIF",
+          "2": "אספקה מהירה דרך CDN",
+          "3": "הודעות תחזוקה ידידותיות"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "סטטוס | תמונה ל-URL",
+      "description": "סטטוס שירות עבור המערכות שלנו."
+    },
+    "page": {
+      "title": "סטטוס",
+      "description": "כל המערכות פועלות כשורה.",
+      "message": "ה-API להעלאה וקישורי ה-CDN פועלים."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "צור קשר | תמונה ל-URL",
+      "description": "צרו קשר עם התמיכה."
+    },
+    "page": {
+      "title": "צור קשר",
+      "description": "צריכים עזרה או רוצים לשתף משוב? שלחו לנו מייל ונחזור אליכם בהקדם האפשרי.",
+      "email": {
+        "label": "אימייל",
+        "address": "leeqs1010@gmail.com"
+      }
     }
   }
 }
-

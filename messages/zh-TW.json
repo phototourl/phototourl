@@ -246,5 +246,48 @@
         "3": "靜態資源的效能和快取"
       }
     }
+  },
+  "docs": {
+    "seo": {
+      "title": "文件 | Photo To URL",
+      "description": "Photo To URL 使用文件。"
+    },
+    "page": {
+      "title": "文件",
+      "description": "快速開始：上傳圖片並取得直鏈。使用複製/開啟按鈕或下載 .txt/.json/.md 格式的連結。",
+      "features": {
+        "title": "支援的功能：",
+        "items": {
+          "1": "支援：JPG、PNG、WEBP、GIF",
+          "2": "啟用儲存後透過 CDN 快速交付",
+          "3": "服務不可用時顯示友善的維護錯誤提示"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "狀態 | Photo To URL",
+      "description": "Photo To URL 服務狀態。"
+    },
+    "page": {
+      "title": "狀態",
+      "description": "所有系統運行正常。",
+      "message": "上傳 API 和 CDN 連結正在運行。"
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "聯絡 | Photo To URL",
+      "description": "聯絡 Photo To URL 支援。"
+    },
+    "page": {
+      "title": "聯絡",
+      "description": "需要幫助或想要分享意見？請發送郵件給我們，我們會關注收件箱並盡快回覆您。",
+      "email": {
+        "label": "電子郵件",
+        "address": "leeqs1010@gmail.com"
+      }
+    }
   }
 }

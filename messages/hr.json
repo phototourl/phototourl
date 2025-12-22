@@ -1,247 +1,306 @@
 {
   "common": {
-    "siteName": "Photo To URL",
-    "tagline": "Turn photos into clean, shareable links in seconds",
+    "siteName": "Slika u URL",
+    "tagline": "Pretvorite fotografije u čiste poveznice za dijeljenje u nekoliko sekundi",
     "header": {
-      "subtitle": "Turn images into shareable links",
-      "prompt": "Drop, paste, or upload — get a shareable link instantly"
+      "subtitle": "Pretvorite slike u poveznice za dijeljenje",
+      "prompt": "Ispustite, zalijepite ili učitajte — odmah preuzmite poveznicu",
+      "circleCrop": "Kružno izrezivanje fotografije"
     },
     "footer": {
       "blurb": {
-        "line1": "Turn photos into clean, shareable links.",
-        "line2": "Fast, simple, reliable."
+        "line1": "Pretvorite fotografije u čiste poveznice.",
+        "line2": "Brzo, jednostavno, pouzdano."
       },
-      "partners": "Partners",
-      "linksTitle": "Links",
-      "productsTitle": "Products",
+      "partners": "Partneri",
+      "linksTitle": "Poveznice",
+      "productsTitle": "Proizvodi",
       "nav": {
-        "home": "Home",
+        "home": "Početna",
         "blog": "Blog",
-        "docs": "Docs",
+        "docs": "Dokumentacija",
         "status": "Status",
-        "contact": "Contact"
+        "contact": "Kontakt"
       },
       "legal": {
-        "privacy": "Privacy",
-        "terms": "Terms"
+        "privacy": "Privatnost",
+        "terms": "Uvjeti"
       },
-      "copyright": "© 2025 Photo To URL. All rights reserved."
+      "copyright": "© 2025 Photo To URL. Sva prava pridržana."
     }
   },
   "home": {
     "badge": {
-      "free": "Free",
-      "cdn": "CDN links",
-      "nosignup": "No signup"
+      "free": "Besplatno",
+      "cdn": "CDN poveznice",
+      "nosignup": "Bez registracije"
     },
     "hero": {
-      "title1": "Free",
-      "title2": "Photo To URL",
-      "subtitle": "Upload → get a link → paste anywhere.",
-      "upload": "Upload image",
+      "title1": "Besplatno",
+      "title2": "Slika u URL",
+      "subtitle": "Učitajte → preuzmite poveznicu → zalijepite bilo gdje.",
+      "upload": "Učitaj sliku",
       "bullet": {
-        "fast": "Fast sharing",
-        "direct": "Direct photo links",
-        "nosignup": "No signup required",
-        "paste": "Paste from clipboard"
+        "fast": "Brzo dijeljenje",
+        "direct": "Izravne poveznice na slike",
+        "nosignup": "Nije potrebna registracija",
+        "paste": "Zalijepi iz međuspremnika"
       }
     },
     "demo": {
       "label": "Demo",
-      "loop": "Auto demo",
-      "idleTitle": "Drag & drop your image",
-      "idleSubtitle": "See the full upload → link → copy flow.",
-      "processing": "Optimizing & uploading...",
-      "doneTitle": "Ready to share",
-      "doneSubtitle": "Your link is ready to share instantly.",
-      "thanksForWatching": "Thanks for watching"
+      "loop": "Automatski demo",
+      "idleTitle": "Povucite i ispustite svoju sliku",
+      "idleSubtitle": "Pogledajte cijeli proces: učitavanje → poveznica → kopiranje.",
+      "processing": "Optimizacija i učitavanje...",
+      "doneTitle": "Spremno za dijeljenje",
+      "doneSubtitle": "Vaša poveznica je spremna za trenutno dijeljenje.",
+      "thanksForWatching": "Hvala na gledanju"
     },
     "upload": {
-      "title": "Drop a photo or click to browse",
-      "hint": "JPG, PNG, WEBP, GIF up to 10MB. Drag & drop, click, or paste screenshots.",
-      "orDrop": "or drop a file",
-      "samplesTitle": "No image? Try one of these:",
-      "policy": "By uploading an image you agree to our <privacy>Privacy Policy</privacy> and <terms>Terms of Use</terms>.",
-      "clear": "Clear"
+      "title": "Ispustite fotografiju ili kliknite za pregledavanje",
+      "hint": "JPG, PNG, WEBP, GIF do 10MB. Povucite, kliknite ili zalijepite snimku zaslona.",
+      "orDrop": "ili ispustite datoteku ovdje",
+      "samplesTitle": "Nemate sliku? Isprobajte jednu od ovih:",
+      "policy": "Učitavanjem slike slažete se s našim <privacy>Pravilima privatnosti</privacy> i <terms>Uvjetima pružanja usluge</terms>.",
+      "clear": "Očisti"
     },
     "result": {
-      "error": "Upload failed. Please try again.",
-      "generated": "Generated link:",
-      "open": "Open in new tab",
-      "placeholder": "No link yet. Upload a photo to generate a shareable URL.",
-      "savePrompt": "Save link as you like",
-      "copy": "Copy link",
-      "copied": "Copied"
+      "error": "Učitavanje nije uspjelo. Pokušajte ponovno.",
+      "generated": "Generirana poveznica:",
+      "open": "Otvori u novoj kartici",
+      "placeholder": "Još nema poveznice. Učitajte sliku kako biste generirali URL.",
+      "savePrompt": "Spremite poveznicu kako želite",
+      "copy": "Kopiraj poveznicu",
+      "copied": "Kopirano"
     },
     "benefits": {
-      "title": "Why people choose Photo To URL",
-      "subtitle": "Speed, clean links, and no signup needed.",
+      "title": "Zašto ljudi biraju Slika u URL",
+      "subtitle": "Brzina, čiste poveznice i rad bez registracije.",
       "items": {
-        "fast": { "title": "Fast sharing", "desc": "Upload and get a link in seconds with no extra steps." },
-        "direct": { "title": "Direct image URLs", "desc": "Clean links that work in HTML, Markdown, and chat apps." },
-        "nosignup": { "title": "No signup required", "desc": "Use it right away. Accounts can come later as we grow." }
+        "fast": { "title": "Brzo dijeljenje", "desc": "Učitajte i preuzmite poveznicu u sekundi bez suvišnih koraka." },
+        "direct": { "title": "Izravni URL-ovi", "desc": "Čiste poveznice koje rade u HTML-u, Markdownu i aplikacijama za chat." },
+        "nosignup": { "title": "Bez registracije", "desc": "Koristite odmah. Korisnički računi dolaze kasnije." }
       }
     },
     "how": {
-      "title": "How it works",
-      "step1": "1) Add your photo (drag, paste, or click to pick a file).",
-      "step2": "2) We host it and return a shareable link.",
-      "step3": "3) Copy and share the link anywhere you work.",
-      "note": "Your link opens fast in docs, chats, and prototypes—plus you can download it in the format you like (.txt/.json/.md)."
+      "title": "Kako to funkcionira",
+      "step1": "1) Dodajte svoju fotografiju (povucite, zalijepite ili odaberite datoteku).",
+      "step2": "2) Mi je pohranjujemo i dajemo vam poveznicu za dijeljenje.",
+      "step3": "3) Kopirajte i zalijepite poveznicu bilo gdje.",
+      "note": "Vaša se poveznica brzo otvara u dokumentima, chatovima i prototipovima — plus možete je preuzeti u .txt/.json/.md formatu."
     },
     "process": {
-      "title": "Three-step flow",
-      "subtitle": "Reduce effort, keep the CTA visible, finish in seconds.",
+      "title": "Proces u tri koraka",
+      "subtitle": "Smanjite napor, ostanite fokusirani, završite u sekundi.",
       "steps": {
-        "1": { "title": "Drop or paste", "desc": "Drag a file, paste from clipboard, or browse." },
-        "2": { "title": "We host & return a link", "desc": "Instant URL with copy/open/save controls." },
-        "3": { "title": "Share anywhere", "desc": "Paste into docs, chats, tickets, blogs, or prototypes." }
+        "1": { "title": "Ispustite ili zalijepite", "desc": "Povucite datoteku, zalijepite iz međuspremnika ili pregledajte svoje računalo." },
+        "2": { "title": "Pohranjujemo i povezujemo", "desc": "Trenutni URL s kontrolama za kopiranje, otvaranje ili spremanje." },
+        "3": { "title": "Dijelite svugdje", "desc": "Zalijepite u dokumente, chatove, tickete, blogove ili prototipove." }
       }
     },
     "features": {
-      "title": "Feature highlights",
-      "subtitle": "Clarity first: less friction, more sharing.",
+      "title": "Ključne značajke",
+      "subtitle": "Jasnoća na prvom mjestu: manje muke, više dijeljenja.",
       "items": {
-        "cdn": { "title": "Direct CDN links", "desc": "Clean, predictable URLs ready for Markdown and HTML embeds." },
+        "cdn": { "title": "Izravne CDN poveznice", "desc": "Čisti i predvidljivi URL-ovi, spremni za Markdown i HTML." },
         "save": {
-          "title": "Copy & save actions",
-          "desc": "Copy, open, or save as .txt/.json/.md with one click."
+          "title": "Radnje kopiranja i spremanja",
+          "desc": "Kopirajte, otvorite ili spremite kao .txt/.json/.md jednim klikom."
         },
-        "clipboard": { "title": "Clipboard friendly", "desc": "Paste screenshots without hunting for files or re-uploads." },
-        "errors": { "title": "Friendly errors", "desc": "Clear maintenance messages instead of technical stack traces." },
-        "nosignup": { "title": "No signup needed", "desc": "Ship faster—upload and share immediately." },
-        "r2": { "title": "Fast hosting", "desc": "Links are served via fast CDN for quick loading and reliable access." }
+        "clipboard": { "title": "Podrška za međuspremnik", "desc": "Zalijepite snimke zaslona izravno bez traženja datoteka." },
+        "errors": { "title": "Razumljive pogreške", "desc": "Jasne poruke umjesto kompliciranih tehničkih kodova." },
+        "nosignup": { "title": "Registracija nije potrebna", "desc": "Radite brže — učitajte i dijelite odmah." },
+        "r2": { "title": "Brza pohrana", "desc": "Poveznice se poslužuju putem brze mreže za pouzdan pristup." }
       }
     },
     "testimonials": {
-      "title": "Teams saving time with Photo To URL",
-      "subtitle": "Social proof to reduce risk and speed up adoption.",
+      "title": "Timovi koji štede vrijeme uz Slika u URL",
+      "subtitle": "Provjereno rješenje za brži rad.",
       "items": {
         "ops": {
           "name": "Product Ops",
-          "quote": "We paste screenshots into tickets without clogging attachments. Links stay clean."
+          "quote": "Lijepimo snimke zaslona u tickete bez zatrpavanja pohrane privicima. Poveznice održavaju sve čistim."
         },
         "content": {
           "name": "Content Lead",
-          "quote": "Markdown-ready links keep our docs tidy and publishable in minutes."
+          "quote": "Markdown poveznice čine naše dokumente urednima i spremnima za objavu u nekoliko minuta."
         },
         "support": {
-          "name": "Support",
-          "quote": "Clear errors and instant URLs make it easy to guide customers in chat."
+          "name": "Podrška",
+          "quote": "Jasne poruke o pogreškama i trenutni URL-ovi olakšavaju vođenje korisnika kroz chat."
         }
       }
     },
     "cta": {
-      "title": "Turn photos into links in seconds",
-      "subtitle": "Drop, paste, or upload—copy your link and share everywhere.",
-      "upload": "Upload now",
-      "paste": "Paste a screenshot"
+      "title": "Pretvorite fotografije u poveznice u sekundi",
+      "subtitle": "Ispustite, zalijepite ili učitajte — kopirajte poveznicu i dijelite svugdje.",
+      "upload": "Učitaj sada",
+      "paste": "Zalijepi snimku zaslona"
     },
     "longform": {
-      "title": "Why Photo To URL helps your workflow",
-      "p1": "Photo To URL is built for creators, marketers, support teams, founders, and anyone who needs a quick, reliable way to turn photos into clean links. With a direct upload-to-link flow, you avoid heavy media managers and skip logins. Links are tidy, easy to paste into chat apps, docs, wikis, bug reports, and tickets. Teams move faster when screenshots and product photos are instantly shareable without attachment limits or messy previews. Because the links are predictable and consistent, they also work well in automation, QA steps, and lightweight prototypes.",
-      "p2": "The experience stays simple: drop, paste, or browse; get a link; share. No extra chrome, no distracting ads, no gating. You keep focus on your content while we handle the boring parts of hosting. Whether you are documenting a feature, preparing a blog post, building a pitch deck, or sending a quick support response, a short link beats bulky attachments. For global teams, the interface is available in multiple languages while keeping copy concise and universal.",
+      "title": "Zašto naša usluga pomaže vašem tijeku rada",
+      "p1": "Naš je alat napravljen za kreativce, marketinške stručnjake, timove podrške i sve koji trebaju brz način pretvaranja fotografija u čiste poveznice. Uz izravni tijek od učitavanja do poveznice, izbjegavate teške sustave za upravljanje medijima i preskačete prijavu. Poveznice su uredne i lako se lijepe u chat aplikacije, dokumente, wikije i tickete. Timovi se kreću brže kada se snimke zaslona i slike proizvoda mogu odmah podijeliti bez ograničenja privitaka.",
+      "p2": "Iskustvo je jednostavno: ispustite, zalijepite ili pregledajte; preuzmite poveznicu; podijelite. Bez nepotrebnih elemenata ili ometajućih oglasa. Vi se usredotočite na sadržaj, dok mi brinemo o pohrani. Bez obzira dokumentirate li značajku ili pripremate objavu na blogu, kratka poveznica je bolja od teškog privitka.",
       "useCases": {
-        "title": "Use cases that stay practical",
+        "title": "Praktični primjeri upotrebe",
         "items": {
-          "1": "Product and design: share UI mocks, component screenshots, and quick visual notes without exporting to heavy tools.",
-          "2": "Support and QA: attach reproducible screenshots in tickets, chat threads, or runbooks; links stay tidy and easy to track.",
-          "3": "Docs and blogs: embed photos in Markdown, HTML, or CMS editors with predictable URLs and no layout surprises.",
-          "4": "Sales and CS: drop proof-of-concept captures or customer walkthroughs straight into email or messaging.",
-          "5": "Engineering handoff: keep build artifacts, error snaps, and regression visuals lightweight for faster reviews.",
-          "6": "Community and socials: paste links into Discord, Slack, Teams, Twitter/X, or forums without bloated previews."
+          "1": "Proizvod i dizajn: Dijelite UI skice i snimke zaslona komponenti bez složenog izvoza.",
+          "2": "Podrška i QA: Priložite snimke zaslona u tickete ili chatove; poveznice je lako pratiti.",
+          "3": "Dokumenti i blogovi: Ugradite slike u Markdown ili HTML editore s predvidljivim URL-ovima.",
+          "4": "Prodaja i usluge: Dodajte vizualne dokaze ili demo snimke izravno u e-poruke ili poruke.",
+          "5": "Inženjerska primopredaja: Održavajte izvješća o pogreškama vizualno laganima za brži pregled.",
+          "6": "Zajednice i društvene mreže: Zalijepite poveznice u Discord, Slack ili forume bez nereda."
         }
       },
       "flow": {
-        "title": "How the flow works end-to-end",
-        "p1": "1) Choose an image: drag-and-drop, paste from clipboard, or click to browse. PNG, JPG, WEBP, GIF up to 10MB are supported now. 2) We upload and return a direct link. The UI shows your URL immediately with copy, open, and multi-format save actions (.txt, .json, .md). 3) You reuse the link anywhere: blogs, docs, tickets, chat, prototypes. The goal is a frictionless bridge between your photo and the places you work.",
-        "p2": "Each step is tuned for clarity: visible status, friendly errors, and buttons that confirm actions. The copy button sits next to the link, and the save buttons let you keep the URL in your preferred format for bookmarking or automation. When R2 is enabled, links serve from the CDN domain; if the service is in maintenance, the UI returns a clear message instead of raw errors."
+        "title": "Kako funkcionira cijeli proces",
+        "p1": "1) Odaberite sliku: povucite i ispustite, zalijepite iz međuspremnika ili kliknite za pregledavanje. 2) Mi je učitavamo i vraćamo izravnu poveznicu. Sučelje odmah prikazuje vaš URL s radnjama za kopiranje, otvaranje i spremanje u različitim formatima (.txt, .json, .md). 3) Koristite poveznicu svugdje. Cilj je besprijekoran most između vaše fotografije i mjesta gdje radite.",
+        "p2": "Svaki korak dizajniran je za jasnoću: vidljiv status, razumljive pogreške i gumbi koji potvrđuju vaše radnje."
       },
       "best": {
-        "title": "Best practices for cleaner links",
+        "title": "Najbolje prakse za čiste poveznice",
         "items": {
-          "1": "Keep filenames meaningful before upload; they remain part of the URL and help future search.",
-          "2": "Use WEBP or optimized JPG/PNG for lighter payloads if you expect heavy sharing.",
-          "3": "Copy the link directly after generation to avoid stale clipboard entries.",
-          "4": "Save as .json when you need to batch store references for automation or audits.",
-          "5": "Use .md output when embedding in docs or wikis; it is ready to paste.",
-          "6": "Save as .txt for plain text links that are ready to copy and use."
+          "1": "Dodijelite smislena imena datotekama prije učitavanja; ona ostaju dio URL-a.",
+          "2": "Koristite WEBP ili optimizirani JPG/PNG za lakše datoteke.",
+          "3": "Kopirajte poveznicu odmah nakon generiranja kako biste izbjegli pogreške međuspremnika.",
+          "4": "Spremite kao .json kada trebate zadržati reference za automatizaciju.",
+          "5": "Koristite .md izlaz za ugradnju u dokumente ili wikije.",
+          "6": "Spremite kao .txt za čiste tekstualne poveznice spremne za upotrebu."
         }
       },
       "roadmap": {
-        "title": "Roadmap highlights",
-        "p1": "Upcoming improvements include deeper Cloudflare R2 integration by default, more generous upload limits, optional auth for team spaces, and per-link analytics. We also plan preset link styles, one-click delete, and organization-level buckets. SEO polish continues across blog, docs, and status pages, with richer schema and a public sitemap for fast indexing."
+        "title": "Buduća poboljšanja",
+        "p1": "Nadolazeće nadogradnje uključuju dublju integraciju s rješenjima za pohranu, veća ograničenja učitavanja, opcijski pristup za timove i analitiku za svaku poveznicu."
       },
       "faq": {
-        "title": "FAQs",
+        "title": "Često postavljana pitanja",
         "items": {
-          "1": { "q": "Is it free?", "a": "Yes, core upload-to-link is free. CDN-backed hosting via R2 will roll out with generous tiers." },
-          "2": { "q": "What formats are supported?", "a": "PNG, JPG, WEBP, GIF up to 10MB today. More formats can be added based on demand." },
-          "3": { "q": "Can I embed in Markdown or HTML?", "a": "Yes. Copy the link as-is, or use the one-click .txt / .json / .md saves for drop-in snippets." },
-          "4": { "q": "Do you keep my files public?", "a": "Links are shareable; when R2 CDN is enabled, they are served via the CDN domain. We show clear maintenance messages if storage is unavailable." },
-          "5": { "q": "Will there be accounts or teams?", "a": "Planned. We prioritize frictionless uploads first, then add team spaces, access control, and analytics." }
+          "1": { "q": "Je li besplatno?", "a": "Da, osnovna pretvorba fotografije u poveznicu je besplatna." },
+          "2": { "q": "Koji su formati podržani?", "a": "Trenutno PNG, JPG, WEBP, GIF do 10MB." },
+          "3": { "q": "Mogu li ugraditi u Markdown ili HTML?", "a": "Da. Kopirajte poveznicu izravno ili koristite opcije spremanja u .md formatu." },
+          "4": { "q": "Jesu li moje datoteke javne?", "a": "Poveznice se mogu dijeliti; kada je CDN omogućen, poslužuju se putem njegove domene." },
+          "5": { "q": "Hoće li postojati računi za timove?", "a": "To je u planu. Prioritet nam je prvo jednostavno učitavanje, a zatim ćemo dodati timske prostore." }
         }
       },
       "keywords": {
-        "title": "Keywords we care about",
-        "p1": "photo to url, image to url, photo hosting, shareable links, direct image link, free image hosting, cdn photo link, upload and copy link, paste image to link, instant photo link, blog image links, docs image links, chat image link, markdown image link, html image link, photo cdn, fast image sharing, no signup image host, simple photo hosting, quick image uploader, link generator for photos."
+        "title": "Ključne riječi",
+        "p1": "slika u url, fotografija u url, generator poveznica za slike, pretvori sliku u poveznicu, besplatan hosting slika, izravni url slike"
       }
     },
     "selectRegion": {
-      "title": "Odaberi regiju",
-      "subtitle": "Odaberi svoj preferirani jezik i regiju"
-    },
-    "rateService": {
-      "title": "Ocijeni Pretvarač Fotografija u URL",
-      "thankYou": "Hvala na povratnim informacijama!",
-      "averageRating": "4.5",
-      "votes": "4,992 glasova"
-    }
-  },
-  "seo": {
-    "keywords": "photo to url, image to url, image link generator, convert image to link, free image hosting, direct image url, shareable image links, cdn image links",
-    "home": {
-      "title": "Photo To URL Converter | Turn photos into shareable links",
-      "description": "Free image hosting: convert photos to permanent URLs instantly. Supports JPG, PNG, WEBP, GIF up to 10MB. Clipboard paste, fast CDN, clean links for Markdown & HTML."
-    }
-  },
-  "images": {
-    "previewAlt": "Uploaded image preview",
-    "animatingSampleAlt": "Sample image used in upload demo",
-    "sampleThumbAlt": "Sample upload image",
-    "useSampleAria": "Use this sample image",
-    "howIllustrationAlt": "Illustration showing how Photo To URL works",
-    "heroDropTitle": "Drag a photo here",
-    "heroDropSubtitle": "We'll enhance and host it, then return a clean link.",
-    "heroDropBadge": "Drag or click (JPG/PNG, up to 10MB)",
-    "logoAlt": "Photo To URL logo"
-  },
-  "circleCrop": {
-    "title": "Fotografija u Krug",
-    "description": "Besplatni online alat za izrezivanje fotografija u krug, lako izrežite bilo koju fotografiju u savršen krug - savršeno za profilne slike, društvene mreže i dizajnerske projekte.",
-    "upload": "Učitaj fotografiju",
-    "processing": "Obrađivanje...",
-    "download": "Preuzmi kružnu fotografiju",
-    "errorSelectFile": "Molimo odaberite datoteku fotografije",
-    "errorUploadFirst": "Molimo prvo učitajte fotografiju",
-    "page": {
-      "title": "Fotografija u Krug - Besplatni Online Okrugli Foto Rezač",
-      "description": "Fotografija u Krug je besplatni online alat za pretvaranje pravokutnih fotografija u savršeno kružne oblike. Naš alat vam pomaže izrezivati fotografije u kružnom formatu odmah, bez potrebe za registracijom. Bilo da trebate okruglu profilnu sliku, kružnu fotografiju za društvene mreže, ili zaobljenu fotografiju za dizajnerske projekte, naš alat za izrezivanje kružnih fotografija čini sve jednostavnim i lakim."
-    },
-    "seo": {
-      "title": "Fotografija u Krug | Besplatni Online Kružni Rezač",
-      "description": "Besplatni online alat za izrezivanje bilo koje fotografije u savršen krug - savršeno za profilne slike, društvene mreže i dizajnerske projekte."
-    },
-    "selectRegion": {
-      "title": "Odaberi regiju",
+      "title": "Odaberite regiju",
       "subtitle": "Odaberite željeni jezik i regiju"
     },
     "rateService": {
-      "title": "Ocijeni Fotografiju u Krug",
-      "thankYou": "Hvala vam na povratnim informacijama!",
+      "title": "Ocijenite naš pretvarač",
+      "thankYou": "Hvala na povratnim informacijama!",
       "averageRating": "4.5",
-      "votes": "4,992 glasova"
+      "votes": "4.992 glasova"
+    }
+  },
+  "seo": {
+    "keywords": "slika u url, fotografija u url, generator poveznica za slike, besplatan hosting slika, izravni url slike, poveznice za dijeljenje, cdn",
+    "home": {
+      "title": "Pretvarač slika u URL | Pretvorite fotografije u poveznice za dijeljenje",
+      "description": "Besplatan hosting slika: Odmah pretvorite fotografije u trajne URL-ove. Podržava JPG, PNG, WEBP, GIF do 10MB. CDN i čiste poveznice za Markdown i HTML."
+    }
+  },
+  "images": {
+    "previewAlt": "Pregled učitane slike",
+    "animatingSampleAlt": "Primjer slike korišten u demo prikazu",
+    "sampleThumbAlt": "Sličica primjera za učitavanje",
+    "useSampleAria": "Koristi ovu primjer sliku",
+    "howIllustrationAlt": "Ilustracija koja prikazuje kako radi Slika u URL",
+    "heroDropTitle": "Ispustite fotografiju ovdje",
+    "heroDropSubtitle": "Optimizirat ćemo je i pohraniti, te vam vratiti čistu poveznicu.",
+    "heroDropBadge": "Ispustite ili kliknite (JPG/PNG, do 10MB)",
+    "logoAlt": "Logotip Slika u URL"
+  },
+  "circleCrop": {
+    "title": "Kružno izrezivanje fotografije",
+    "description": "Besplatan mrežni alat za kružno izrezivanje fotografija — pretvorite bilo koju sliku u savršen krug za profilne slike i dizajn.",
+    "upload": "Učitaj fotografiju",
+    "processing": "Obrađivanje...",
+    "download": "Preuzmi kružnu sliku",
+    "errorSelectFile": "Odaberite slikovnu datoteku",
+    "errorUploadFirst": "Prvo učitajte fotografiju",
+    "page": {
+      "title": "Kružno izrezivanje fotografije - Besplatan mrežni alat",
+      "description": "Ovaj je alat besplatna mrežna usluga za pretvaranje pravokutnih fotografija u savršene krugove bez potrebe za registracijom."
+    },
+    "seo": {
+      "title": "Kružno izrezivanje fotografije | Besplatno mrežno izrezivanje",
+      "description": "Besplatan mrežni alat za izrezivanje fotografija u savršen krug - idealno za profilne slike i društvene mreže."
+    },
+    "selectRegion": {
+      "title": "Odaberite regiju",
+      "subtitle": "Odaberite svoj jezik i regiju"
+    },
+    "rateService": {
+      "title": "Ocijenite alat za kružno izrezivanje",
+      "thankYou": "Hvala na povratnim informacijama!",
+      "averageRating": "4.5",
+      "votes": "4.992 glasova"
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog | Slika u URL",
+      "description": "Članci o hostingu fotografija, dijeljenju poveznica i savjeti za produktivnost."
+    },
+    "page": {
+      "title": "Blog",
+      "description": "Pripremamo članke o hostingu slika, CDN-u i SEO savjetima. Dolazi uskoro.",
+      "stayTuned": "Pratite nas za vodiče o:",
+      "guides": {
+        "1": "Najbolje prakse za pretvaranje slike u URL",
+        "2": "Kako koristiti izravne poveznice na slike u blogovima i dokumentima",
+        "3": "Performanse i predmemoriranje za statičke resurse"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Dokumentacija | Slika u URL",
+      "description": "Dokumentacija za našu uslugu."
+    },
+    "page": {
+      "title": "Dokumentacija",
+      "description": "Brzi početak: učitajte sliku i preuzmite izravni URL. Koristite gumbe za kopiranje ili preuzmite poveznicu u .txt/.json/.md formatu.",
+      "features": {
+        "title": "Podržane značajke:",
+        "items": {
+          "1": "Podržano: JPG, PNG, WEBP, GIF",
+          "2": "Brza dostava putem CDN-a",
+          "3": "Jasne poruke o održavanju"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Status | Slika u URL",
+      "description": "Status usluge za naše sustave."
+    },
+    "page": {
+      "title": "Status",
+      "description": "Svi sustavi rade normalno.",
+      "message": "Upload API i CDN poveznice rade."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Kontakt | Slika u URL",
+      "description": "Kontaktirajte podršku."
+    },
+    "page": {
+      "title": "Kontakt",
+      "description": "Trebate pomoć ili želite podijeliti povratne informacije? Pošaljite nam e-poštu i odgovorit ćemo vam u najkraćem mogućem roku.",
+      "email": {
+        "label": "E-pošta",
+        "address": "leeqs1010@gmail.com"
+      }
     }
   }
 }
-

@@ -77,9 +77,18 @@
       "title": "Por que escolher o Foto para URL",
       "subtitle": "Rápido, links limpos e sem cadastro.",
       "items": {
-        "fast": { "title": "Compartilhamento rápido", "desc": "Envie e obtenha um link em segundos, sem passos extras." },
-        "direct": { "title": "Links diretos de imagem", "desc": "Links limpos que funcionam em HTML, Markdown e chats." },
-        "nosignup": { "title": "Sem cadastro necessário", "desc": "Use na hora; contas podem chegar depois." }
+        "fast": {
+          "title": "Compartilhamento rápido",
+          "desc": "Envie e obtenha um link em segundos, sem passos extras."
+        },
+        "direct": {
+          "title": "Links diretos de imagem",
+          "desc": "Links limpos que funcionam em HTML, Markdown e chats."
+        },
+        "nosignup": {
+          "title": "Sem cadastro necessário",
+          "desc": "Use na hora; contas podem chegar depois."
+        }
       }
     },
     "how": {
@@ -93,30 +102,66 @@
       "title": "Fluxo em três passos",
       "subtitle": "Menos esforço, CTA visível, termine em segundos.",
       "steps": {
-        "1": { "title": "Soltar ou colar", "desc": "Arraste um arquivo, cole da área de transferência ou navegue." },
-        "2": { "title": "Hospedamos e devolvemos o link", "desc": "URL instantânea com copiar/abrir/salvar." },
-        "3": { "title": "Compartilhe em qualquer lugar", "desc": "Cole em docs, chats, tickets, blogs ou protótipos." }
+        "1": {
+          "title": "Soltar ou colar",
+          "desc": "Arraste um arquivo, cole da área de transferência ou navegue."
+        },
+        "2": {
+          "title": "Hospedamos e devolvemos o link",
+          "desc": "URL instantânea com copiar/abrir/salvar."
+        },
+        "3": {
+          "title": "Compartilhe em qualquer lugar",
+          "desc": "Cole em docs, chats, tickets, blogs ou protótipos."
+        }
       }
     },
     "features": {
       "title": "Destaques",
       "subtitle": "Clareza primeiro: menos fricção, mais compartilhamento.",
       "items": {
-        "cdn": { "title": "Links CDN diretos", "desc": "URLs limpas e previsíveis prontas para Markdown e HTML." },
-        "save": { "title": "Copiar e salvar", "desc": "Copie, abra ou salve como .txt/.json/.md com um clique." },
-        "clipboard": { "title": "Amigável ao clipboard", "desc": "Cole capturas sem procurar arquivos ou reenviar." },
-        "errors": { "title": "Erros amigáveis", "desc": "Mensagens claras de manutenção em vez de rastros técnicos." },
-        "nosignup": { "title": "Sem necessidade de cadastro", "desc": "Use já: envie e compartilhe imediatamente." },
-        "r2": { "title": "Pronto para R2", "desc": "Projetado para servir links via CDN quando Cloudflare R2 estiver configurado." }
+        "cdn": {
+          "title": "Links CDN diretos",
+          "desc": "URLs limpas e previsíveis prontas para Markdown e HTML."
+        },
+        "save": {
+          "title": "Copiar e salvar",
+          "desc": "Copie, abra ou salve como .txt/.json/.md com um clique."
+        },
+        "clipboard": {
+          "title": "Amigável ao clipboard",
+          "desc": "Cole capturas sem procurar arquivos ou reenviar."
+        },
+        "errors": {
+          "title": "Erros amigáveis",
+          "desc": "Mensagens claras de manutenção em vez de rastros técnicos."
+        },
+        "nosignup": {
+          "title": "Sem necessidade de cadastro",
+          "desc": "Use já: envie e compartilhe imediatamente."
+        },
+        "r2": {
+          "title": "Pronto para R2",
+          "desc": "Projetado para servir links via CDN quando Cloudflare R2 estiver configurado."
+        }
       }
     },
     "testimonials": {
       "title": "Times ganhando tempo com Foto para URL",
       "subtitle": "Prova social para reduzir risco e acelerar adoção.",
       "items": {
-        "ops": { "name": "Product Ops", "quote": "Colamos capturas em tickets sem entupir anexos. Os links ficam limpos." },
-        "content": { "name": "Líder de Conteúdo", "quote": "Links prontos para Markdown mantêm nossos docs limpos e publicáveis em minutos." },
-        "support": { "name": "Suporte", "quote": "Erros claros e URLs instantâneas facilitam orientar clientes no chat." }
+        "ops": {
+          "name": "Product Ops",
+          "quote": "Colamos capturas em tickets sem entupir anexos. Os links ficam limpos."
+        },
+        "content": {
+          "name": "Líder de Conteúdo",
+          "quote": "Links prontos para Markdown mantêm nossos docs limpos e publicáveis em minutos."
+        },
+        "support": {
+          "name": "Suporte",
+          "quote": "Erros claros e URLs instantâneas facilitam orientar clientes no chat."
+        }
       }
     },
     "cta": {
@@ -163,11 +208,26 @@
       "faq": {
         "title": "Perguntas frequentes",
         "items": {
-          "1": { "q": "É grátis?", "a": "Sim, o fluxo básico de upload→link é gratuito. Hospedagem com CDN/R2 terá planos generosos." },
-          "2": { "q": "Quais formatos são suportados?", "a": "PNG, JPG, WEBP, GIF (de acordo com o limite atual). Podemos adicionar mais conforme a demanda." },
-          "3": { "q": "Funciona com Markdown/HTML?", "a": "Sim. Copie o link ou use os botões .txt/.json/.md." },
-          "4": { "q": "Meus arquivos ficam públicos?", "a": "Os links são compartilháveis; com R2 CDN, são servidos pelo domínio CDN. Em manutenção, mostramos mensagens claras." },
-          "5": { "q": "Vai ter contas/equipes?", "a": "Sim, está no plano: primeiro manter simples e confiável, depois equipes, permissões e analytics." }
+          "1": {
+            "q": "É grátis?",
+            "a": "Sim, o fluxo básico de upload→link é gratuito. Hospedagem com CDN/R2 terá planos generosos."
+          },
+          "2": {
+            "q": "Quais formatos são suportados?",
+            "a": "PNG, JPG, WEBP, GIF (de acordo com o limite atual). Podemos adicionar mais conforme a demanda."
+          },
+          "3": {
+            "q": "Funciona com Markdown/HTML?",
+            "a": "Sim. Copie o link ou use os botões .txt/.json/.md."
+          },
+          "4": {
+            "q": "Meus arquivos ficam públicos?",
+            "a": "Os links são compartilháveis; com R2 CDN, são servidos pelo domínio CDN. Em manutenção, mostramos mensagens claras."
+          },
+          "5": {
+            "q": "Vai ter contas/equipes?",
+            "a": "Sim, está no plano: primeiro manter simples e confiável, depois equipes, permissões e analytics."
+          }
         }
       },
       "keywords": {
@@ -246,6 +306,48 @@
         "3": "Desempenho e cache para recursos estáticos"
       }
     }
+  },
+  "docs": {
+    "seo": {
+      "title": "Documentação | Photo To URL",
+      "description": "Documentação para Photo To URL."
+    },
+    "page": {
+      "title": "Documentação",
+      "description": "Início rápido: carregue uma imagem e obtenha uma URL direta. Use os botões copiar/abrir ou baixe o link no formato .txt/.json/.md.",
+      "features": {
+        "title": "Recursos suportados:",
+        "items": {
+          "1": "Suportado: JPG, PNG, WEBP, GIF",
+          "2": "Entrega rápida via CDN quando o armazenamento está habilitado",
+          "3": "Mensagens de erro de manutenção amigáveis quando o serviço não está disponível"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Status | Photo To URL",
+      "description": "Status do serviço Photo To URL."
+    },
+    "page": {
+      "title": "Status",
+      "description": "Todos os sistemas operacionais.",
+      "message": "A API de upload e os links CDN estão funcionando."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Contato | Photo To URL",
+      "description": "Entre em contato com o suporte Photo To URL."
+    },
+    "page": {
+      "title": "Contato",
+      "description": "Precisa de ajuda ou quer compartilhar feedback? Envie-nos um e-mail e ficaremos de olho na caixa de entrada e retornaremos o mais rápido possível.",
+      "email": {
+        "label": "E-mail",
+        "address": "leeqs1010@gmail.com"
+      }
+    }
   }
 }
-

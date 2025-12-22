@@ -259,6 +259,49 @@
         "3": "Performance and caching for static assets"
       }
     }
+  },
+  "docs": {
+    "seo": {
+      "title": "Docs | Photo To URL",
+      "description": "Documentation for Photo To URL."
+    },
+    "page": {
+      "title": "Docs",
+      "description": "Quick start: upload an image and get a direct URL. Use the copy/open buttons or download the link in .txt/.json/.md.",
+      "features": {
+        "title": "Supported features:",
+        "items": {
+          "1": "Supported: JPG, PNG, WEBP, GIF",
+          "2": "Fast delivery via CDN when storage is enabled",
+          "3": "Friendly maintenance errors when service is unavailable"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Status | Photo To URL",
+      "description": "Service status for Photo To URL."
+    },
+    "page": {
+      "title": "Status",
+      "description": "All systems operational.",
+      "message": "Upload API and CDN links are running."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact | Photo To URL",
+      "description": "Contact Photo To URL support."
+    },
+    "page": {
+      "title": "Contact",
+      "description": "Need help or want to share feedback? Email us and we'll keep an eye on inbox and get back to you as soon as possible.",
+      "email": {
+        "label": "Email",
+        "address": "leeqs1010@gmail.com"
+      }
+    }
   }
 }
 

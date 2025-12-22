@@ -246,6 +246,49 @@
         "3": "静态资源的性能和缓存"
       }
     }
+  },
+  "docs": {
+    "seo": {
+      "title": "文档 | 图片转链接",
+      "description": "图片转链接使用文档。"
+    },
+    "page": {
+      "title": "文档",
+      "description": "快速开始：上传图片并获取直链。使用复制/打开按钮或下载 .txt/.json/.md 格式的链接。",
+      "features": {
+        "title": "支持的功能：",
+        "items": {
+          "1": "支持：JPG、PNG、WEBP、GIF",
+          "2": "启用存储后通过 CDN 快速交付",
+          "3": "服务不可用时显示友好的维护错误提示"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "状态 | 图片转链接",
+      "description": "图片转链接服务状态。"
+    },
+    "page": {
+      "title": "状态",
+      "description": "所有系统运行正常。",
+      "message": "上传 API 和 CDN 链接正在运行。"
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "联系 | 图片转链接",
+      "description": "联系图片转链接支持。"
+    },
+    "page": {
+      "title": "联系",
+      "description": "需要帮助或想要分享反馈？请发送邮件给我们，我们会关注收件箱并尽快回复您。",
+      "email": {
+        "label": "邮箱",
+        "address": "leeqs1010@gmail.com"
+      }
+    }
   }
 }
 

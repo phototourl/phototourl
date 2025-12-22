@@ -77,9 +77,18 @@
       "title": "Varför folk väljer Foto till URL",
       "subtitle": "Hastighet, rena länkar och ingen registrering behövs.",
       "items": {
-        "fast": { "title": "Snabb delning", "desc": "Ladda upp och få en länk på sekunder utan extra steg." },
-        "direct": { "title": "Direkta bild-URL:er", "desc": "Rena länkar som fungerar i HTML, Markdown och chattappar." },
-        "nosignup": { "title": "Ingen registrering krävs", "desc": "Använd det direkt. Konton kan komma senare när vi växer." }
+        "fast": {
+          "title": "Snabb delning",
+          "desc": "Ladda upp och få en länk på sekunder utan extra steg."
+        },
+        "direct": {
+          "title": "Direkta bild-URL:er",
+          "desc": "Rena länkar som fungerar i HTML, Markdown och chattappar."
+        },
+        "nosignup": {
+          "title": "Ingen registrering krävs",
+          "desc": "Använd det direkt. Konton kan komma senare när vi växer."
+        }
       }
     },
     "how": {
@@ -93,24 +102,48 @@
       "title": "Trestegsflöde",
       "subtitle": "Minska ansträngningen, håll CTA synlig, klar på sekunder.",
       "steps": {
-        "1": { "title": "Släpp eller klistra in", "desc": "Dra en fil, klistra in från urklipp eller bläddra." },
-        "2": { "title": "Vi hostar och returnerar en länk", "desc": "Omedelbar URL med kopiera/öppna/spara-kontroller." },
-        "3": { "title": "Dela var som helst", "desc": "Klistra in i dokument, chattar, biljetter, bloggar eller prototyper." }
+        "1": {
+          "title": "Släpp eller klistra in",
+          "desc": "Dra en fil, klistra in från urklipp eller bläddra."
+        },
+        "2": {
+          "title": "Vi hostar och returnerar en länk",
+          "desc": "Omedelbar URL med kopiera/öppna/spara-kontroller."
+        },
+        "3": {
+          "title": "Dela var som helst",
+          "desc": "Klistra in i dokument, chattar, biljetter, bloggar eller prototyper."
+        }
       }
     },
     "features": {
       "title": "Funktionshöjdpunkter",
       "subtitle": "Tydlighet först: mindre friktion, mer delning.",
       "items": {
-        "cdn": { "title": "Direkta CDN-länkar", "desc": "Rena, förutsägbara URL:er redo för Markdown- och HTML-inbäddningar." },
+        "cdn": {
+          "title": "Direkta CDN-länkar",
+          "desc": "Rena, förutsägbara URL:er redo för Markdown- och HTML-inbäddningar."
+        },
         "save": {
           "title": "Kopiera och spara-åtgärder",
           "desc": "Kopiera, öppna eller spara som .txt/.json/.md med ett klick."
         },
-        "clipboard": { "title": "Urklippsvänligt", "desc": "Klistra in skärmdumpar utan att jaga efter filer eller omladdningar." },
-        "errors": { "title": "Vänliga fel", "desc": "Tydliga underhållsmeddelanden istället för tekniska stackspår." },
-        "nosignup": { "title": "Ingen registrering behövs", "desc": "Skicka snabbare—ladda upp och dela omedelbart." },
-        "r2": { "title": "Snabb hosting", "desc": "Länkar serveras via snabb CDN för snabb laddning och tillförlitlig åtkomst." }
+        "clipboard": {
+          "title": "Urklippsvänligt",
+          "desc": "Klistra in skärmdumpar utan att jaga efter filer eller omladdningar."
+        },
+        "errors": {
+          "title": "Vänliga fel",
+          "desc": "Tydliga underhållsmeddelanden istället för tekniska stackspår."
+        },
+        "nosignup": {
+          "title": "Ingen registrering behövs",
+          "desc": "Skicka snabbare—ladda upp och dela omedelbart."
+        },
+        "r2": {
+          "title": "Snabb hosting",
+          "desc": "Länkar serveras via snabb CDN för snabb laddning och tillförlitlig åtkomst."
+        }
       }
     },
     "testimonials": {
@@ -175,11 +208,26 @@
       "faq": {
         "title": "Vanliga frågor",
         "items": {
-          "1": { "q": "Är det gratis?", "a": "Ja, kärnuppladdning-till-länk är gratis. CDN-backad hosting via R2 kommer att lanseras med generösa nivåer." },
-          "2": { "q": "Vilka format stöds?", "a": "PNG, JPG, WEBP, GIF upp till 10MB idag. Fler format kan läggas till baserat på efterfrågan." },
-          "3": { "q": "Kan jag bädda in i Markdown eller HTML?", "a": "Ja. Kopiera länken som den är, eller använd enklick .txt / .json / .md-sparningar för drop-in-snippets." },
-          "4": { "q": "Håller ni mina filer publika?", "a": "Länkar är delbara; när R2 CDN är aktiverat serveras de via CDN-domänen. Vi visar tydliga underhållsmeddelanden om lagring inte är tillgänglig." },
-          "5": { "q": "Kommer det att finnas konton eller team?", "a": "Planerat. Vi prioriterar friktionsfria uppladdningar först, lägger sedan till teamutrymmen, åtkomstkontroll och analys." }
+          "1": {
+            "q": "Är det gratis?",
+            "a": "Ja, kärnuppladdning-till-länk är gratis. CDN-backad hosting via R2 kommer att lanseras med generösa nivåer."
+          },
+          "2": {
+            "q": "Vilka format stöds?",
+            "a": "PNG, JPG, WEBP, GIF upp till 10MB idag. Fler format kan läggas till baserat på efterfrågan."
+          },
+          "3": {
+            "q": "Kan jag bädda in i Markdown eller HTML?",
+            "a": "Ja. Kopiera länken som den är, eller använd enklick .txt / .json / .md-sparningar för drop-in-snippets."
+          },
+          "4": {
+            "q": "Håller ni mina filer publika?",
+            "a": "Länkar är delbara; när R2 CDN är aktiverat serveras de via CDN-domänen. Vi visar tydliga underhållsmeddelanden om lagring inte är tillgänglig."
+          },
+          "5": {
+            "q": "Kommer det att finnas konton eller team?",
+            "a": "Planerat. Vi prioriterar friktionsfria uppladdningar först, lägger sedan till teamutrymmen, åtkomstkontroll och analys."
+          }
         }
       },
       "keywords": {
@@ -256,6 +304,49 @@
         "1": "Bästa praxis för att konvertera bilder till URL",
         "2": "Hur man använder direkta fotolänkar i bloggar och dokument",
         "3": "Prestanda och cachning för statiska tillgångar"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Dokumentation | Photo To URL",
+      "description": "Dokumentation för Photo To URL."
+    },
+    "page": {
+      "title": "Dokumentation",
+      "description": "Snabbstart: ladda upp en bild och få en direkt URL. Använd kopiera/öppna-knapparna eller ladda ner länken i .txt/.json/.md-format.",
+      "features": {
+        "title": "Funktioner som stöds:",
+        "items": {
+          "1": "Stöds: JPG, PNG, WEBP, GIF",
+          "2": "Snabb leverans via CDN när lagring är aktiverad",
+          "3": "Vänliga underhållsfelmeddelanden när tjänsten inte är tillgänglig"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Status | Photo To URL",
+      "description": "Tjänstestatus för Photo To URL."
+    },
+    "page": {
+      "title": "Status",
+      "description": "Alla system fungerar.",
+      "message": "Uppladdnings-API och CDN-länkar körs."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Kontakt | Photo To URL",
+      "description": "Kontakta Photo To URL-support."
+    },
+    "page": {
+      "title": "Kontakt",
+      "description": "Behöver du hjälp eller vill dela feedback? Skicka oss ett e-postmeddelande så håller vi ett öga på inkorgen och återkommer så snart som möjligt.",
+      "email": {
+        "label": "E-post",
+        "address": "leeqs1010@gmail.com"
       }
     }
   }

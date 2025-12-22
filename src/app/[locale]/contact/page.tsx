@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { siteUrl } from "@/app/seo-metadata";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 export async function generateMetadata({
   params,
@@ -7,26 +8,50 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "contact.seo" });
   const canonicalPath = locale === "en" ? "/contact" : `/${locale}/contact`;
   const canonicalUrl = `${siteUrl}${canonicalPath}`;
   
   return {
-    title: "Contact | Photo To URL",
-    description: "Contact Photo To URL support.",
+    title: t("title"),
+    description: t("description"),
     alternates: {
       canonical: canonicalUrl,
     },
     openGraph: {
-      title: "Contact | Photo To URL",
-      description: "Contact Photo To URL support.",
+      title: t("title"),
+      description: t("description"),
       url: canonicalUrl,
     },
     twitter: {
-      title: "Contact | Photo To URL",
-      description: "Contact Photo To URL support.",
+      title: t("title"),
+      description: t("description"),
     },
   };
 }
 
-export { default } from "../../(default)/contact/page";
+export default async function ContactPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "contact.page" });
+  
+  return (
+    <div className="mx-auto max-w-3xl px-6 py-12">
+      <h1 className="text-3xl font-bold text-slate-900">{t("title")}</h1>
+      <p className="mt-3 text-slate-600">
+        {t("description")}
+      </p>
+      <div className="mt-6 rounded-lg border border-slate-200 bg-white p-4 text-sm">
+        <div className="font-semibold text-slate-900">{t("email.label")}</div>
+        <a className="mt-1 inline-block text-blue-600 hover:underline" href={`mailto:${t("email.address")}`}>
+          {t("email.address")}
+        </a>
+      </div>
+    </div>
+  );
+}
 

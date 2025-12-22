@@ -77,9 +77,18 @@
       "title": "Perché le persone scelgono Foto in URL",
       "subtitle": "Velocità, link puliti e nessuna registrazione necessaria.",
       "items": {
-        "fast": { "title": "Condivisione veloce", "desc": "Carica e ottieni un link in pochi secondi senza passaggi extra." },
-        "direct": { "title": "URL immagini dirette", "desc": "Link puliti che funzionano in HTML, Markdown e app di chat." },
-        "nosignup": { "title": "Nessuna registrazione richiesta", "desc": "Usalo subito. Gli account possono arrivare più tardi man mano che cresciamo." }
+        "fast": {
+          "title": "Condivisione veloce",
+          "desc": "Carica e ottieni un link in pochi secondi senza passaggi extra."
+        },
+        "direct": {
+          "title": "URL immagini dirette",
+          "desc": "Link puliti che funzionano in HTML, Markdown e app di chat."
+        },
+        "nosignup": {
+          "title": "Nessuna registrazione richiesta",
+          "desc": "Usalo subito. Gli account possono arrivare più tardi man mano che cresciamo."
+        }
       }
     },
     "how": {
@@ -93,24 +102,48 @@
       "title": "Flusso in tre passaggi",
       "subtitle": "Riduci lo sforzo, mantieni il CTA visibile, finisci in pochi secondi.",
       "steps": {
-        "1": { "title": "Trascina o incolla", "desc": "Trascina un file, incolla dagli appunti o sfoglia." },
-        "2": { "title": "Ospitiamo e restituiamo un link", "desc": "URL istantaneo con controlli copia/apri/salva." },
-        "3": { "title": "Condividi ovunque", "desc": "Incolla in documenti, chat, ticket, blog o prototipi." }
+        "1": {
+          "title": "Trascina o incolla",
+          "desc": "Trascina un file, incolla dagli appunti o sfoglia."
+        },
+        "2": {
+          "title": "Ospitiamo e restituiamo un link",
+          "desc": "URL istantaneo con controlli copia/apri/salva."
+        },
+        "3": {
+          "title": "Condividi ovunque",
+          "desc": "Incolla in documenti, chat, ticket, blog o prototipi."
+        }
       }
     },
     "features": {
       "title": "Caratteristiche principali",
       "subtitle": "Chiarezza prima di tutto: meno attrito, più condivisione.",
       "items": {
-        "cdn": { "title": "Link CDN diretti", "desc": "URL puliti e prevedibili pronti per incorporamenti Markdown e HTML." },
+        "cdn": {
+          "title": "Link CDN diretti",
+          "desc": "URL puliti e prevedibili pronti per incorporamenti Markdown e HTML."
+        },
         "save": {
           "title": "Azioni copia e salva",
           "desc": "Copia, apri o salva come .txt/.json/.md con un clic."
         },
-        "clipboard": { "title": "Compatibile con appunti", "desc": "Incolla screenshot senza cercare file o ricaricamenti." },
-        "errors": { "title": "Errori amichevoli", "desc": "Messaggi di manutenzione chiari invece di tracce di stack tecniche." },
-        "nosignup": { "title": "Nessuna registrazione necessaria", "desc": "Spedisci più velocemente—carica e condividi immediatamente." },
-        "r2": { "title": "Hosting veloce", "desc": "I link sono serviti tramite CDN veloce per caricamento rapido e accesso affidabile." }
+        "clipboard": {
+          "title": "Compatibile con appunti",
+          "desc": "Incolla screenshot senza cercare file o ricaricamenti."
+        },
+        "errors": {
+          "title": "Errori amichevoli",
+          "desc": "Messaggi di manutenzione chiari invece di tracce di stack tecniche."
+        },
+        "nosignup": {
+          "title": "Nessuna registrazione necessaria",
+          "desc": "Spedisci più velocemente—carica e condividi immediatamente."
+        },
+        "r2": {
+          "title": "Hosting veloce",
+          "desc": "I link sono serviti tramite CDN veloce per caricamento rapido e accesso affidabile."
+        }
       }
     },
     "testimonials": {
@@ -175,11 +208,26 @@
       "faq": {
         "title": "FAQ",
         "items": {
-          "1": { "q": "È gratuito?", "a": "Sì, il core upload-to-link è gratuito. L'hosting supportato da CDN tramite R2 verrà lanciato con tier generosi." },
-          "2": { "q": "Quali formati sono supportati?", "a": "PNG, JPG, WEBP, GIF fino a 10MB oggi. Altri formati possono essere aggiunti in base alla domanda." },
-          "3": { "q": "Posso incorporare in Markdown o HTML?", "a": "Sì. Copia il link così com'è, o usa i salvataggi .txt / .json / .md con un clic per snippet drop-in." },
-          "4": { "q": "Mantieni i miei file pubblici?", "a": "I link sono condivisibili; quando R2 CDN è abilitato, vengono serviti tramite il dominio CDN. Mostriamo messaggi di manutenzione chiari se lo storage non è disponibile." },
-          "5": { "q": "Ci saranno account o team?", "a": "Pianificato. Diamo priorità ai caricamenti senza attrito prima, poi aggiungiamo spazi team, controllo di accesso e analisi." }
+          "1": {
+            "q": "È gratuito?",
+            "a": "Sì, il core upload-to-link è gratuito. L'hosting supportato da CDN tramite R2 verrà lanciato con tier generosi."
+          },
+          "2": {
+            "q": "Quali formati sono supportati?",
+            "a": "PNG, JPG, WEBP, GIF fino a 10MB oggi. Altri formati possono essere aggiunti in base alla domanda."
+          },
+          "3": {
+            "q": "Posso incorporare in Markdown o HTML?",
+            "a": "Sì. Copia il link così com'è, o usa i salvataggi .txt / .json / .md con un clic per snippet drop-in."
+          },
+          "4": {
+            "q": "Mantieni i miei file pubblici?",
+            "a": "I link sono condivisibili; quando R2 CDN è abilitato, vengono serviti tramite il dominio CDN. Mostriamo messaggi di manutenzione chiari se lo storage non è disponibile."
+          },
+          "5": {
+            "q": "Ci saranno account o team?",
+            "a": "Pianificato. Diamo priorità ai caricamenti senza attrito prima, poi aggiungiamo spazi team, controllo di accesso e analisi."
+          }
         }
       },
       "keywords": {
@@ -256,6 +304,49 @@
         "1": "Migliori pratiche per la conversione di immagini in URL",
         "2": "Come utilizzare link foto diretti in blog e documenti",
         "3": "Prestazioni e caching per risorse statiche"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Documentazione | Photo To URL",
+      "description": "Documentazione per Photo To URL."
+    },
+    "page": {
+      "title": "Documentazione",
+      "description": "Guida rapida: carica un'immagine e ottieni un URL diretto. Usa i pulsanti copia/apri o scarica il link in formato .txt/.json/.md.",
+      "features": {
+        "title": "Funzionalità supportate:",
+        "items": {
+          "1": "Supportato: JPG, PNG, WEBP, GIF",
+          "2": "Consegna rapida tramite CDN quando lo storage è abilitato",
+          "3": "Messaggi di errore di manutenzione amichevoli quando il servizio non è disponibile"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Stato | Photo To URL",
+      "description": "Stato del servizio Photo To URL."
+    },
+    "page": {
+      "title": "Stato",
+      "description": "Tutti i sistemi operativi.",
+      "message": "L'API di caricamento e i link CDN sono in esecuzione."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Contatto | Photo To URL",
+      "description": "Contatta il supporto Photo To URL."
+    },
+    "page": {
+      "title": "Contatto",
+      "description": "Hai bisogno di aiuto o vuoi condividere feedback? Inviaci un'email e terremo d'occhio la casella di posta e ti risponderemo il prima possibile.",
+      "email": {
+        "label": "Email",
+        "address": "leeqs1010@gmail.com"
       }
     }
   }

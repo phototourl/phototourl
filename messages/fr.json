@@ -77,9 +77,18 @@
       "title": "Pourquoi choisir Photo vers URL",
       "subtitle": "Rapide, liens propres, sans inscription.",
       "items": {
-        "fast": { "title": "Partage rapide", "desc": "Obtenez un lien en quelques secondes sans étapes superflues." },
-        "direct": { "title": "Liens d’image directs", "desc": "Liens propres qui fonctionnent en HTML, Markdown et messageries." },
-        "nosignup": { "title": "Sans inscription requise", "desc": "Utilisation immédiate ; les comptes viendront plus tard." }
+        "fast": {
+          "title": "Partage rapide",
+          "desc": "Obtenez un lien en quelques secondes sans étapes superflues."
+        },
+        "direct": {
+          "title": "Liens d’image directs",
+          "desc": "Liens propres qui fonctionnent en HTML, Markdown et messageries."
+        },
+        "nosignup": {
+          "title": "Sans inscription requise",
+          "desc": "Utilisation immédiate ; les comptes viendront plus tard."
+        }
       }
     },
     "how": {
@@ -93,30 +102,66 @@
       "title": "Parcours en trois étapes",
       "subtitle": "Moins d’efforts, CTA visible, terminé en quelques secondes.",
       "steps": {
-        "1": { "title": "Déposer ou coller", "desc": "Glissez un fichier, collez depuis le presse-papiers ou parcourez." },
-        "2": { "title": "On héberge et on renvoie un lien", "desc": "URL instantanée avec copier/ouvrir/sauvegarder." },
-        "3": { "title": "Partager partout", "desc": "Collez dans docs, chats, tickets, blogs ou prototypes." }
+        "1": {
+          "title": "Déposer ou coller",
+          "desc": "Glissez un fichier, collez depuis le presse-papiers ou parcourez."
+        },
+        "2": {
+          "title": "On héberge et on renvoie un lien",
+          "desc": "URL instantanée avec copier/ouvrir/sauvegarder."
+        },
+        "3": {
+          "title": "Partager partout",
+          "desc": "Collez dans docs, chats, tickets, blogs ou prototypes."
+        }
       }
     },
     "features": {
       "title": "Points forts",
       "subtitle": "Clarté d’abord : moins de friction, plus de partage.",
       "items": {
-        "cdn": { "title": "Liens CDN directs", "desc": "URLs propres et prévisibles prêtes pour Markdown et HTML." },
-        "save": { "title": "Copie & sauvegarde", "desc": "Copier, ouvrir ou sauvegarder en .txt/.json/.md en un clic." },
-        "clipboard": { "title": "Ami du presse-papiers", "desc": "Collez des captures sans chercher de fichiers ni re-téléverser." },
-        "errors": { "title": "Erreurs claires", "desc": "Messages de maintenance clairs plutôt que des traces techniques." },
-        "nosignup": { "title": "Pas de compte requis", "desc": "Allez plus vite : téléversez et partagez immédiatement." },
-        "r2": { "title": "Prêt pour R2", "desc": "Conçu pour servir des liens via CDN quand Cloudflare R2 est configuré." }
+        "cdn": {
+          "title": "Liens CDN directs",
+          "desc": "URLs propres et prévisibles prêtes pour Markdown et HTML."
+        },
+        "save": {
+          "title": "Copie & sauvegarde",
+          "desc": "Copier, ouvrir ou sauvegarder en .txt/.json/.md en un clic."
+        },
+        "clipboard": {
+          "title": "Ami du presse-papiers",
+          "desc": "Collez des captures sans chercher de fichiers ni re-téléverser."
+        },
+        "errors": {
+          "title": "Erreurs claires",
+          "desc": "Messages de maintenance clairs plutôt que des traces techniques."
+        },
+        "nosignup": {
+          "title": "Pas de compte requis",
+          "desc": "Allez plus vite : téléversez et partagez immédiatement."
+        },
+        "r2": {
+          "title": "Prêt pour R2",
+          "desc": "Conçu pour servir des liens via CDN quand Cloudflare R2 est configuré."
+        }
       }
     },
     "testimonials": {
       "title": "Des équipes gagnent du temps avec Photo vers URL",
       "subtitle": "Preuve sociale pour réduire le risque et accélérer l’adoption.",
       "items": {
-        "ops": { "name": "Product Ops", "quote": "Nous collons des captures dans les tickets sans encombrer les pièces jointes. Les liens restent propres." },
-        "content": { "name": "Responsable Contenu", "quote": "Des liens prêts pour Markdown gardent nos docs propres et publiables en minutes." },
-        "support": { "name": "Support", "quote": "Des erreurs claires et des URLs instantanées facilitent l’aide en chat." }
+        "ops": {
+          "name": "Product Ops",
+          "quote": "Nous collons des captures dans les tickets sans encombrer les pièces jointes. Les liens restent propres."
+        },
+        "content": {
+          "name": "Responsable Contenu",
+          "quote": "Des liens prêts pour Markdown gardent nos docs propres et publiables en minutes."
+        },
+        "support": {
+          "name": "Support",
+          "quote": "Des erreurs claires et des URLs instantanées facilitent l’aide en chat."
+        }
       }
     },
     "cta": {
@@ -163,11 +208,26 @@
       "faq": {
         "title": "FAQ",
         "items": {
-          "1": { "q": "Est-ce gratuit ?", "a": "Oui, le flux de base téléverser→lien est gratuit. L’hébergement CDN/R2 proposera des offres généreuses." },
-          "2": { "q": "Quels formats sont supportés ?", "a": "PNG, JPG, WEBP, GIF (selon la limite actuelle). D’autres pourront être ajoutés." },
-          "3": { "q": "Compatible Markdown/HTML ?", "a": "Oui. Copiez le lien ou utilisez les boutons .txt/.json/.md." },
-          "4": { "q": "Les fichiers restent-ils publics ?", "a": "Les liens sont partageables ; avec R2 CDN, ils passent par le domaine CDN. En maintenance, un message clair est affiché." },
-          "5": { "q": "Y aura-t-il des comptes/équipes ?", "a": "Oui, c’est prévu : d’abord simple et fiable, puis équipes, permissions et analytics." }
+          "1": {
+            "q": "Est-ce gratuit ?",
+            "a": "Oui, le flux de base téléverser→lien est gratuit. L’hébergement CDN/R2 proposera des offres généreuses."
+          },
+          "2": {
+            "q": "Quels formats sont supportés ?",
+            "a": "PNG, JPG, WEBP, GIF (selon la limite actuelle). D’autres pourront être ajoutés."
+          },
+          "3": {
+            "q": "Compatible Markdown/HTML ?",
+            "a": "Oui. Copiez le lien ou utilisez les boutons .txt/.json/.md."
+          },
+          "4": {
+            "q": "Les fichiers restent-ils publics ?",
+            "a": "Les liens sont partageables ; avec R2 CDN, ils passent par le domaine CDN. En maintenance, un message clair est affiché."
+          },
+          "5": {
+            "q": "Y aura-t-il des comptes/équipes ?",
+            "a": "Oui, c’est prévu : d’abord simple et fiable, puis équipes, permissions et analytics."
+          }
         }
       },
       "keywords": {
@@ -244,6 +304,49 @@
         "1": "Meilleures pratiques pour la conversion d'image en URL",
         "2": "Comment utiliser des liens photo directs dans les blogs et documents",
         "3": "Performance et mise en cache pour les ressources statiques"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Documentation | Photo To URL",
+      "description": "Documentation pour Photo To URL."
+    },
+    "page": {
+      "title": "Documentation",
+      "description": "Démarrage rapide : téléchargez une image et obtenez une URL directe. Utilisez les boutons copier/ouvrir ou téléchargez le lien au format .txt/.json/.md.",
+      "features": {
+        "title": "Fonctionnalités prises en charge :",
+        "items": {
+          "1": "Pris en charge : JPG, PNG, WEBP, GIF",
+          "2": "Livraison rapide via CDN lorsque le stockage est activé",
+          "3": "Messages d'erreur de maintenance conviviaux lorsque le service est indisponible"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Statut | Photo To URL",
+      "description": "Statut du service Photo To URL."
+    },
+    "page": {
+      "title": "Statut",
+      "description": "Tous les systèmes sont opérationnels.",
+      "message": "L'API de téléchargement et les liens CDN fonctionnent."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact | Photo To URL",
+      "description": "Contacter le support Photo To URL."
+    },
+    "page": {
+      "title": "Contact",
+      "description": "Besoin d'aide ou souhaitez partager vos commentaires ? Envoyez-nous un e-mail et nous surveillerons la boîte de réception et vous répondrons dans les plus brefs délais.",
+      "email": {
+        "label": "E-mail",
+        "address": "leeqs1010@gmail.com"
       }
     }
   }

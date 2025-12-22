@@ -77,9 +77,18 @@
       "title": "Waarom mensen kiezen voor Foto naar URL",
       "subtitle": "Snelheid, schone links en geen registratie nodig.",
       "items": {
-        "fast": { "title": "Snelle delen", "desc": "Upload en krijg een link in seconden zonder extra stappen." },
-        "direct": { "title": "Directe afbeeldings-URL's", "desc": "Schone links die werken in HTML, Markdown en chat-apps." },
-        "nosignup": { "title": "Geen registratie vereist", "desc": "Gebruik het direct. Accounts kunnen later komen naarmate we groeien." }
+        "fast": {
+          "title": "Snelle delen",
+          "desc": "Upload en krijg een link in seconden zonder extra stappen."
+        },
+        "direct": {
+          "title": "Directe afbeeldings-URL's",
+          "desc": "Schone links die werken in HTML, Markdown en chat-apps."
+        },
+        "nosignup": {
+          "title": "Geen registratie vereist",
+          "desc": "Gebruik het direct. Accounts kunnen later komen naarmate we groeien."
+        }
       }
     },
     "how": {
@@ -93,24 +102,48 @@
       "title": "Drie-staps flow",
       "subtitle": "Verminder inspanning, houd de CTA zichtbaar, klaar in seconden.",
       "steps": {
-        "1": { "title": "Sleep of plak", "desc": "Sleep een bestand, plak vanuit klembord of blader." },
-        "2": { "title": "We hosten en geven een link terug", "desc": "Directe URL met kopieer/open/sla controles." },
-        "3": { "title": "Deel overal", "desc": "Plak in documenten, chats, tickets, blogs of prototypes." }
+        "1": {
+          "title": "Sleep of plak",
+          "desc": "Sleep een bestand, plak vanuit klembord of blader."
+        },
+        "2": {
+          "title": "We hosten en geven een link terug",
+          "desc": "Directe URL met kopieer/open/sla controles."
+        },
+        "3": {
+          "title": "Deel overal",
+          "desc": "Plak in documenten, chats, tickets, blogs of prototypes."
+        }
       }
     },
     "features": {
       "title": "Functie hoogtepunten",
       "subtitle": "Duidelijkheid eerst: minder wrijving, meer delen.",
       "items": {
-        "cdn": { "title": "Directe CDN links", "desc": "Schone, voorspelbare URL's klaar voor Markdown en HTML-embeddingen." },
+        "cdn": {
+          "title": "Directe CDN links",
+          "desc": "Schone, voorspelbare URL's klaar voor Markdown en HTML-embeddingen."
+        },
         "save": {
           "title": "Kopieer en sla acties",
           "desc": "Kopieer, open of sla op als .txt/.json/.md met één klik."
         },
-        "clipboard": { "title": "Klembordvriendelijk", "desc": "Plak screenshots zonder naar bestanden te zoeken of opnieuw te uploaden." },
-        "errors": { "title": "Vriendelijke fouten", "desc": "Duidelijke onderhoudsberichten in plaats van technische stack traces." },
-        "nosignup": { "title": "Geen registratie nodig", "desc": "Verzend sneller—upload en deel direct." },
-        "r2": { "title": "Snelle hosting", "desc": "Links worden via snelle CDN geleverd voor snelle laadtijden en betrouwbare toegang." }
+        "clipboard": {
+          "title": "Klembordvriendelijk",
+          "desc": "Plak screenshots zonder naar bestanden te zoeken of opnieuw te uploaden."
+        },
+        "errors": {
+          "title": "Vriendelijke fouten",
+          "desc": "Duidelijke onderhoudsberichten in plaats van technische stack traces."
+        },
+        "nosignup": {
+          "title": "Geen registratie nodig",
+          "desc": "Verzend sneller—upload en deel direct."
+        },
+        "r2": {
+          "title": "Snelle hosting",
+          "desc": "Links worden via snelle CDN geleverd voor snelle laadtijden en betrouwbare toegang."
+        }
       }
     },
     "testimonials": {
@@ -175,11 +208,26 @@
       "faq": {
         "title": "Veelgestelde vragen",
         "items": {
-          "1": { "q": "Is het gratis?", "a": "Ja, core upload-naar-link is gratis. CDN-ondersteunde hosting via R2 wordt uitgerold met ruimhartige tiers." },
-          "2": { "q": "Welke formaten worden ondersteund?", "a": "PNG, JPG, WEBP, GIF tot 10MB vandaag. Meer formaten kunnen worden toegevoegd op basis van vraag." },
-          "3": { "q": "Kan ik embedden in Markdown of HTML?", "a": "Ja. Kopieer de link zoals hij is, of gebruik de één-klik .txt / .json / .md opslagen voor drop-in snippets." },
-          "4": { "q": "Houd je mijn bestanden openbaar?", "a": "Links zijn deelbaar; wanneer R2 CDN is ingeschakeld, worden ze geleverd via het CDN-domein. We tonen duidelijke onderhoudsberichten als opslag niet beschikbaar is." },
-          "5": { "q": "Zullen er accounts of teams zijn?", "a": "Gepland. We prioriteren naadloze uploads eerst, voegen dan teamruimtes, toegangscontrole en analytics toe." }
+          "1": {
+            "q": "Is het gratis?",
+            "a": "Ja, core upload-naar-link is gratis. CDN-ondersteunde hosting via R2 wordt uitgerold met ruimhartige tiers."
+          },
+          "2": {
+            "q": "Welke formaten worden ondersteund?",
+            "a": "PNG, JPG, WEBP, GIF tot 10MB vandaag. Meer formaten kunnen worden toegevoegd op basis van vraag."
+          },
+          "3": {
+            "q": "Kan ik embedden in Markdown of HTML?",
+            "a": "Ja. Kopieer de link zoals hij is, of gebruik de één-klik .txt / .json / .md opslagen voor drop-in snippets."
+          },
+          "4": {
+            "q": "Houd je mijn bestanden openbaar?",
+            "a": "Links zijn deelbaar; wanneer R2 CDN is ingeschakeld, worden ze geleverd via het CDN-domein. We tonen duidelijke onderhoudsberichten als opslag niet beschikbaar is."
+          },
+          "5": {
+            "q": "Zullen er accounts of teams zijn?",
+            "a": "Gepland. We prioriteren naadloze uploads eerst, voegen dan teamruimtes, toegangscontrole en analytics toe."
+          }
         }
       },
       "keywords": {
@@ -256,6 +304,49 @@
         "1": "Beste praktijken voor het converteren van afbeeldingen naar URL",
         "2": "Hoe directe fotolinks te gebruiken in blogs en documenten",
         "3": "Prestaties en caching voor statische assets"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Documentatie | Photo To URL",
+      "description": "Documentatie voor Photo To URL."
+    },
+    "page": {
+      "title": "Documentatie",
+      "description": "Snel starten: upload een afbeelding en krijg een directe URL. Gebruik de kopiëren/openen knoppen of download de link in .txt/.json/.md formaat.",
+      "features": {
+        "title": "Ondersteunde functies:",
+        "items": {
+          "1": "Ondersteund: JPG, PNG, WEBP, GIF",
+          "2": "Snelle levering via CDN wanneer opslag is ingeschakeld",
+          "3": "Vriendelijke onderhoudsfoutmeldingen wanneer de service niet beschikbaar is"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Status | Photo To URL",
+      "description": "Servicestatus voor Photo To URL."
+    },
+    "page": {
+      "title": "Status",
+      "description": "Alle systemen werken.",
+      "message": "Upload API en CDN-links draaien."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact | Photo To URL",
+      "description": "Neem contact op met Photo To URL ondersteuning."
+    },
+    "page": {
+      "title": "Contact",
+      "description": "Hulp nodig of feedback delen? Stuur ons een e-mail en we houden de inbox in de gaten en komen zo snel mogelijk bij u terug.",
+      "email": {
+        "label": "E-mail",
+        "address": "leeqs1010@gmail.com"
       }
     }
   }

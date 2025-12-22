@@ -1,247 +1,306 @@
 {
   "common": {
-    "siteName": "Photo To URL",
-    "tagline": "Turn photos into clean, shareable links in seconds",
+    "siteName": "Снимка към URL адрес",
+    "tagline": "Превърнете снимките в чисти връзки за споделяне за секунди",
     "header": {
-      "subtitle": "Turn images into shareable links",
-      "prompt": "Drop, paste, or upload — get a shareable link instantly"
+      "subtitle": "Превърнете изображенията във връзки за споделяне",
+      "prompt": "Пуснете, поставете или качете — получете връзка за споделяне моментално",
+      "circleCrop": "Изрязване на снимка в кръг"
     },
     "footer": {
       "blurb": {
-        "line1": "Turn photos into clean, shareable links.",
-        "line2": "Fast, simple, reliable."
+        "line1": "Превърнете снимките в чисти връзки за споделяне.",
+        "line2": "Бързо, лесно, надеждно."
       },
-      "partners": "Partners",
-      "linksTitle": "Links",
-      "productsTitle": "Products",
+      "partners": "Партньори",
+      "linksTitle": "Връзки",
+      "productsTitle": "Продукти",
       "nav": {
-        "home": "Home",
-        "blog": "Blog",
-        "docs": "Docs",
-        "status": "Status",
-        "contact": "Contact"
+        "home": "Начало",
+        "blog": "Блог",
+        "docs": "Документация",
+        "status": "Статус",
+        "contact": "Контакт"
       },
       "legal": {
-        "privacy": "Privacy",
-        "terms": "Terms"
+        "privacy": "Поверителност",
+        "terms": "Условия"
       },
-      "copyright": "© 2025 Photo To URL. All rights reserved."
+      "copyright": "© 2025 Photo To URL. Всички права запазени."
     }
   },
   "home": {
     "badge": {
-      "free": "Free",
-      "cdn": "CDN links",
-      "nosignup": "No signup"
+      "free": "Безплатно",
+      "cdn": "CDN връзки",
+      "nosignup": "Без регистрация"
     },
     "hero": {
-      "title1": "Free",
-      "title2": "Photo To URL",
-      "subtitle": "Upload → get a link → paste anywhere.",
-      "upload": "Upload image",
+      "title1": "Безплатно",
+      "title2": "Снимка към URL",
+      "subtitle": "Качете → получете връзка → поставете навсякъде.",
+      "upload": "Качи изображение",
       "bullet": {
-        "fast": "Fast sharing",
-        "direct": "Direct photo links",
-        "nosignup": "No signup required",
-        "paste": "Paste from clipboard"
+        "fast": "Бързо споделяне",
+        "direct": "Директни връзки към снимки",
+        "nosignup": "Не е необходима регистрация",
+        "paste": "Поставяне от клипборда"
       }
     },
     "demo": {
-      "label": "Demo",
-      "loop": "Auto demo",
-      "idleTitle": "Drag & drop your image",
-      "idleSubtitle": "See the full upload → link → copy flow.",
-      "processing": "Optimizing & uploading...",
-      "doneTitle": "Ready to share",
-      "doneSubtitle": "Your link is ready to share instantly.",
-      "thanksForWatching": "Thanks for watching"
+      "label": "Демо",
+      "loop": "Автоматично демо",
+      "idleTitle": "Плъзнете и пуснете вашето изображение",
+      "idleSubtitle": "Вижте пълния процес: качване → връзка → копиране.",
+      "processing": "Оптимизиране и качване...",
+      "doneTitle": "Готово за споделяне",
+      "doneSubtitle": "Вашата връзка е готова за незабавно споделяне.",
+      "thanksForWatching": "Благодарим за вниманието"
     },
     "upload": {
-      "title": "Drop a photo or click to browse",
-      "hint": "JPG, PNG, WEBP, GIF up to 10MB. Drag & drop, click, or paste screenshots.",
-      "orDrop": "or drop a file",
-      "samplesTitle": "No image? Try one of these:",
-      "policy": "By uploading an image you agree to our <privacy>Privacy Policy</privacy> and <terms>Terms of Use</terms>.",
-      "clear": "Clear"
+      "title": "Пуснете снимка или кликнете за преглед",
+      "hint": "JPG, PNG, WEBP, GIF до 10MB. Плъзнете и пуснете, кликнете или поставете скрийншот.",
+      "orDrop": "или пуснете файл тук",
+      "samplesTitle": "Нямате изображение? Опитайте едно от тези:",
+      "policy": "Качвайки изображение, вие се съгласявате с нашата <privacy>Политика за поверителност</privacy> и <terms>Условия за ползване</terms>.",
+      "clear": "Изчисти"
     },
     "result": {
-      "error": "Upload failed. Please try again.",
-      "generated": "Generated link:",
-      "open": "Open in new tab",
-      "placeholder": "No link yet. Upload a photo to generate a shareable URL.",
-      "savePrompt": "Save link as you like",
-      "copy": "Copy link",
-      "copied": "Copied"
+      "error": "Качването неуспешно. Моля, опитайте отново.",
+      "generated": "Генерирана връзка:",
+      "open": "Отвори в нов раздел",
+      "placeholder": "Все още няма връзка. Качете снимка, за да генерирате URL адрес.",
+      "savePrompt": "Запазете връзката по ваш избор",
+      "copy": "Копирай връзката",
+      "copied": "Копирано"
     },
     "benefits": {
-      "title": "Why people choose Photo To URL",
-      "subtitle": "Speed, clean links, and no signup needed.",
+      "title": "Защо хората избират Снимка към URL",
+      "subtitle": "Скорост, чисти връзки и без нужда от регистрация.",
       "items": {
-        "fast": { "title": "Fast sharing", "desc": "Upload and get a link in seconds with no extra steps." },
-        "direct": { "title": "Direct image URLs", "desc": "Clean links that work in HTML, Markdown, and chat apps." },
-        "nosignup": { "title": "No signup required", "desc": "Use it right away. Accounts can come later as we grow." }
+        "fast": { "title": "Бързо споделяне", "desc": "Качете и получете връзка за секунди без излишни стъпки." },
+        "direct": { "title": "Директни URL адреси", "desc": "Чисти връзки, които работят в HTML, Markdown и чат приложения." },
+        "nosignup": { "title": "Без регистрация", "desc": "Използвайте го веднага. Акаунтите ще се появят по-късно." }
       }
     },
     "how": {
-      "title": "How it works",
-      "step1": "1) Add your photo (drag, paste, or click to pick a file).",
-      "step2": "2) We host it and return a shareable link.",
-      "step3": "3) Copy and share the link anywhere you work.",
-      "note": "Your link opens fast in docs, chats, and prototypes—plus you can download it in the format you like (.txt/.json/.md)."
+      "title": "Как работи",
+      "step1": "1) Добавете вашата снимка (плъзнете, поставете или изберете файл).",
+      "step2": "2) Ние я хостваме и ви предоставяме връзка за споделяне.",
+      "step3": "3) Копирайте и поставете връзката навсякъде.",
+      "note": "Вашата връзка се отваря бързо в документи, чатове и прототипи — плюс можете да я изтеглите във формат по избор (.txt/.json/.md)."
     },
     "process": {
-      "title": "Three-step flow",
-      "subtitle": "Reduce effort, keep the CTA visible, finish in seconds.",
+      "title": "Процес в три стъпки",
+      "subtitle": "Намалете усилията, запазете фокуса, завършете за секунди.",
       "steps": {
-        "1": { "title": "Drop or paste", "desc": "Drag a file, paste from clipboard, or browse." },
-        "2": { "title": "We host & return a link", "desc": "Instant URL with copy/open/save controls." },
-        "3": { "title": "Share anywhere", "desc": "Paste into docs, chats, tickets, blogs, or prototypes." }
+        "1": { "title": "Пуснете или поставете", "desc": "Плъзнете файл, поставете от клипборда или потърсете в компютъра." },
+        "2": { "title": "Хостваме и връщаме връзка", "desc": "Моментален URL адрес с контроли за копиране/отваряне/запазване." },
+        "3": { "title": "Споделете навсякъде", "desc": "Поставете в документи, чатове, тикети, блогове или прототипи." }
       }
     },
     "features": {
-      "title": "Feature highlights",
-      "subtitle": "Clarity first: less friction, more sharing.",
+      "title": "Акценти на функциите",
+      "subtitle": "Яснота на първо място: по-малко триене, повече споделяне.",
       "items": {
-        "cdn": { "title": "Direct CDN links", "desc": "Clean, predictable URLs ready for Markdown and HTML embeds." },
+        "cdn": { "title": "Директни CDN връзки", "desc": "Чисти и предвидими URL адреси, готови за вграждане в Markdown и HTML." },
         "save": {
-          "title": "Copy & save actions",
-          "desc": "Copy, open, or save as .txt/.json/.md with one click."
+          "title": "Действия за копиране и запазване",
+          "desc": "Копирайте, отворете или запазете като .txt/.json/.md с един клик."
         },
-        "clipboard": { "title": "Clipboard friendly", "desc": "Paste screenshots without hunting for files or re-uploads." },
-        "errors": { "title": "Friendly errors", "desc": "Clear maintenance messages instead of technical stack traces." },
-        "nosignup": { "title": "No signup needed", "desc": "Ship faster—upload and share immediately." },
-        "r2": { "title": "Fast hosting", "desc": "Links are served via fast CDN for quick loading and reliable access." }
+        "clipboard": { "title": "Удобно за клипборда", "desc": "Поставяйте скрийншоти директно, без да търсите файлове." },
+        "errors": { "title": "Разбираеми грешки", "desc": "Ясни съобщения за поддръжка вместо сложни технически кодове." },
+        "nosignup": { "title": "Без нужда от регистрация", "desc": "Работете по-бързо — качете и споделете веднага." },
+        "r2": { "title": "Бърз хостинг", "desc": "Връзките се обслужват чрез бърза CDN мрежа за надежден достъп." }
       }
     },
     "testimonials": {
-      "title": "Teams saving time with Photo To URL",
-      "subtitle": "Social proof to reduce risk and speed up adoption.",
+      "title": "Екипи, които пестят време със Снимка към URL",
+      "subtitle": "Доказано решение за по-бърза работа.",
       "items": {
         "ops": {
           "name": "Product Ops",
-          "quote": "We paste screenshots into tickets without clogging attachments. Links stay clean."
+          "quote": "Поставяме скрийншоти в тикети, без да претоварваме прикачените файлове. Връзките остават чисти."
         },
         "content": {
           "name": "Content Lead",
-          "quote": "Markdown-ready links keep our docs tidy and publishable in minutes."
+          "quote": "Връзките, готови за Markdown, поддържат документите ни подредени и готови за публикуване за минути."
         },
         "support": {
           "name": "Support",
-          "quote": "Clear errors and instant URLs make it easy to guide customers in chat."
+          "quote": "Ясните съобщения за грешки и моменталните URL адреси улесняват насочването на клиентите в чата."
         }
       }
     },
     "cta": {
-      "title": "Turn photos into links in seconds",
-      "subtitle": "Drop, paste, or upload—copy your link and share everywhere.",
-      "upload": "Upload now",
-      "paste": "Paste a screenshot"
+      "title": "Превърнете снимките във връзки за секунди",
+      "subtitle": "Пуснете, поставете или качете — копирайте връзката и споделяйте навсякъде.",
+      "upload": "Качи сега",
+      "paste": "Постави скрийншот"
     },
     "longform": {
-      "title": "Why Photo To URL helps your workflow",
-      "p1": "Photo To URL is built for creators, marketers, support teams, founders, and anyone who needs a quick, reliable way to turn photos into clean links. With a direct upload-to-link flow, you avoid heavy media managers and skip logins. Links are tidy, easy to paste into chat apps, docs, wikis, bug reports, and tickets. Teams move faster when screenshots and product photos are instantly shareable without attachment limits or messy previews. Because the links are predictable and consistent, they also work well in automation, QA steps, and lightweight prototypes.",
-      "p2": "The experience stays simple: drop, paste, or browse; get a link; share. No extra chrome, no distracting ads, no gating. You keep focus on your content while we handle the boring parts of hosting. Whether you are documenting a feature, preparing a blog post, building a pitch deck, or sending a quick support response, a short link beats bulky attachments. For global teams, the interface is available in multiple languages while keeping copy concise and universal.",
+      "title": "Защо Снимка към URL помага на вашия работен процес",
+      "p1": "Нашата услуга е създадена за творци, маркетолози, екипи по поддръжка, основатели и всеки, който се нуждае от бърз и надежден начин да превърне снимките в чисти връзки. С директния поток от качване към връзка избягвате тромавите медийни мениджри и пропускате влизането в профили. Връзките са подредени и лесни за поставяне в приложения за чат, документи, уикита, доклади за грешки и тикети. Екипите се движат по-бързо, когато скрийншотите и снимките на продукти са незабавно споделими без ограничения за прикачени файлове или разхвърляни визуализации.",
+      "p2": "Изживяването остава просто: пуснете, поставете или прегледайте; получете връзка; споделете. Без излишни елементи, без разсейващи реклами. Вие се фокусирате върху съдържанието, докато ние се грижим за хостинга. Независимо дали документирате функция, подготвяте публикация в блог или изпращате бърз отговор на клиент, кратката връзка е по-добра от обемните прикачени файлове.",
       "useCases": {
-        "title": "Use cases that stay practical",
+        "title": "Практически случаи на употреба",
         "items": {
-          "1": "Product and design: share UI mocks, component screenshots, and quick visual notes without exporting to heavy tools.",
-          "2": "Support and QA: attach reproducible screenshots in tickets, chat threads, or runbooks; links stay tidy and easy to track.",
-          "3": "Docs and blogs: embed photos in Markdown, HTML, or CMS editors with predictable URLs and no layout surprises.",
-          "4": "Sales and CS: drop proof-of-concept captures or customer walkthroughs straight into email or messaging.",
-          "5": "Engineering handoff: keep build artifacts, error snaps, and regression visuals lightweight for faster reviews.",
-          "6": "Community and socials: paste links into Discord, Slack, Teams, Twitter/X, or forums without bloated previews."
+          "1": "Продукт и дизайн: споделяйте UI макети и скрийншоти на компоненти без тежък експорт.",
+          "2": "Поддръжка и QA: прикачвайте скрийншоти в тикети или чатове; връзките остават подредени и лесни за проследяване.",
+          "3": "Документи и блогове: вграждайте снимки в Markdown или HTML редактори с предвидими URL адреси.",
+          "4": "Продажби и обслужване: добавяйте визуални доказателства или демонстрации директно в имейли или съобщения.",
+          "5": "Инженерно предаване: поддържайте артефактите от билдове и визуализациите на грешки леки за по-бърз преглед.",
+          "6": "Общности и социални мрежи: поставяйте връзки в Discord, Slack, Teams или форуми без претоварени визуализации."
         }
       },
       "flow": {
-        "title": "How the flow works end-to-end",
-        "p1": "1) Choose an image: drag-and-drop, paste from clipboard, or click to browse. PNG, JPG, WEBP, GIF up to 10MB are supported now. 2) We upload and return a direct link. The UI shows your URL immediately with copy, open, and multi-format save actions (.txt, .json, .md). 3) You reuse the link anywhere: blogs, docs, tickets, chat, prototypes. The goal is a frictionless bridge between your photo and the places you work.",
-        "p2": "Each step is tuned for clarity: visible status, friendly errors, and buttons that confirm actions. The copy button sits next to the link, and the save buttons let you keep the URL in your preferred format for bookmarking or automation. When R2 is enabled, links serve from the CDN domain; if the service is in maintenance, the UI returns a clear message instead of raw errors."
+        "title": "Как работи целият процес",
+        "p1": "1) Изберете изображение: плъзнете и пуснете, поставете от клипборда или кликнете за преглед. 2) Ние качваме и връщаме директна връзка. Потребителският интерфейс показва вашия URL адрес веднага с действия за копиране, отваряне и запазване в различни формати (.txt, .json, .md). 3) Използвате връзката навсякъде. Целта е безпроблемен мост между вашата снимка и местата, където работите.",
+        "p2": "Всяка стъпка е настроена за яснота: видим статус, разбираеми грешки и бутони, които потвърждават действията."
       },
       "best": {
-        "title": "Best practices for cleaner links",
+        "title": "Най-добри практики за по-чисти връзки",
         "items": {
-          "1": "Keep filenames meaningful before upload; they remain part of the URL and help future search.",
-          "2": "Use WEBP or optimized JPG/PNG for lighter payloads if you expect heavy sharing.",
-          "3": "Copy the link directly after generation to avoid stale clipboard entries.",
-          "4": "Save as .json when you need to batch store references for automation or audits.",
-          "5": "Use .md output when embedding in docs or wikis; it is ready to paste.",
-          "6": "Save as .txt for plain text links that are ready to copy and use."
+          "1": "Давайте смислени имена на файловете преди качване; те остават част от URL адреса.",
+          "2": "Използвайте WEBP или оптимизирани JPG/PNG за по-леки файлове при масово споделяне.",
+          "3": "Копирайте връзката веднага след генериране, за да избегнете грешки в клипборда.",
+          "4": "Запазвайте като .json, когато трябва да съхранявате препратки за автоматизация.",
+          "5": "Използвайте .md изход при вграждане в документи или уикита.",
+          "6": "Запазвайте като .txt за чисти текстови връзки, готови за използване."
         }
       },
       "roadmap": {
-        "title": "Roadmap highlights",
-        "p1": "Upcoming improvements include deeper Cloudflare R2 integration by default, more generous upload limits, optional auth for team spaces, and per-link analytics. We also plan preset link styles, one-click delete, and organization-level buckets. SEO polish continues across blog, docs, and status pages, with richer schema and a public sitemap for fast indexing."
+        "title": "Акценти от бъдещото развитие",
+        "p1": "Предстоящите подобрения включват по-дълбока интеграция с облачно съхранение, по-големи лимити за качване, опционална оторизация за екипи и анализи за всяка връзка."
       },
       "faq": {
-        "title": "FAQs",
+        "title": "Често задавани въпроси",
         "items": {
-          "1": { "q": "Is it free?", "a": "Yes, core upload-to-link is free. CDN-backed hosting via R2 will roll out with generous tiers." },
-          "2": { "q": "What formats are supported?", "a": "PNG, JPG, WEBP, GIF up to 10MB today. More formats can be added based on demand." },
-          "3": { "q": "Can I embed in Markdown or HTML?", "a": "Yes. Copy the link as-is, or use the one-click .txt / .json / .md saves for drop-in snippets." },
-          "4": { "q": "Do you keep my files public?", "a": "Links are shareable; when R2 CDN is enabled, they are served via the CDN domain. We show clear maintenance messages if storage is unavailable." },
-          "5": { "q": "Will there be accounts or teams?", "a": "Planned. We prioritize frictionless uploads first, then add team spaces, access control, and analytics." }
+          "1": { "q": "Безплатно ли е?", "a": "Да, основното преобразуване на снимка във връзка е безплатно." },
+          "2": { "q": "Какви формати се поддържат?", "a": "В момента PNG, JPG, WEBP, GIF до 10MB." },
+          "3": { "q": "Мога ли да вграждам в Markdown или HTML?", "a": "Да. Копирайте връзката директно или използвайте опциите за запазване в .md формат." },
+          "4": { "q": "Публични ли остават файловете ми?", "a": "Връзките са споделими; когато CDN е активиран, те се обслужват чрез неговия домейн." },
+          "5": { "q": "Ще има ли акаунти или екипи?", "a": "Планирано е. Първо даваме приоритет на лесното качване, а след това ще добавим екипни пространства." }
         }
       },
       "keywords": {
-        "title": "Keywords we care about",
-        "p1": "photo to url, image to url, photo hosting, shareable links, direct image link, free image hosting, cdn photo link, upload and copy link, paste image to link, instant photo link, blog image links, docs image links, chat image link, markdown image link, html image link, photo cdn, fast image sharing, no signup image host, simple photo hosting, quick image uploader, link generator for photos."
+        "title": "Ключови думи",
+        "p1": "снимка към url, изображение към url, генератор на връзки за изображения, конвертиране на снимка във връзка, безплатен хостинг на изображения, директен url на изображение"
       }
     },
     "selectRegion": {
       "title": "Изберете регион",
-      "subtitle": "Изберете предпочитания език и регион"
+      "subtitle": "Изберете предпочитания от вас език и регион"
     },
     "rateService": {
-      "title": "Оценете Конвертор на Снимки към URL",
-      "thankYou": "Благодарим за обратната връзка!",
+      "title": "Оценете нашия конвертор",
+      "thankYou": "Благодарим ви за обратната връзка!",
       "averageRating": "4.5",
       "votes": "4,992 гласа"
     }
   },
   "seo": {
-    "keywords": "photo to url, image to url, image link generator, convert image to link, free image hosting, direct image url, shareable image links, cdn image links",
+    "keywords": "снимка към url, изображение към url, генератор на връзки за изображения, конвертиране на снимка във връзка, безплатен хостинг на изображения, директен url на изображение, връзки за споделяне, cdn връзки",
     "home": {
-      "title": "Photo To URL Converter | Turn photos into shareable links",
-      "description": "Free image hosting: convert photos to permanent URLs instantly. Supports JPG, PNG, WEBP, GIF up to 10MB. Clipboard paste, fast CDN, clean links for Markdown & HTML."
+      "title": "Конвертор от снимка към URL адрес | Превърнете снимките в споделими връзки",
+      "description": "Безплатен хостинг на изображения: конвертирайте снимки в постоянни URL адреси моментално. Поддържа JPG, PNG, WEBP, GIF до 10MB. CDN и чисти връзки за Markdown и HTML."
     }
   },
   "images": {
-    "previewAlt": "Uploaded image preview",
-    "animatingSampleAlt": "Sample image used in upload demo",
-    "sampleThumbAlt": "Sample upload image",
-    "useSampleAria": "Use this sample image",
-    "howIllustrationAlt": "Illustration showing how Photo To URL works",
-    "heroDropTitle": "Drag a photo here",
-    "heroDropSubtitle": "We'll enhance and host it, then return a clean link.",
-    "heroDropBadge": "Drag or click (JPG/PNG, up to 10MB)",
-    "logoAlt": "Photo To URL logo"
+    "previewAlt": "Преглед на каченото изображение",
+    "animatingSampleAlt": "Примерно изображение, използвано в демото",
+    "sampleThumbAlt": "Примерна снимка за качване",
+    "useSampleAria": "Използвайте това примерно изображение",
+    "howIllustrationAlt": "Илюстрация, показваща как работи процесът",
+    "heroDropTitle": "Плъзнете снимка тук",
+    "heroDropSubtitle": "Ние ще я оптимизираме и хостваме, след което ще върнем чиста връзка.",
+    "heroDropBadge": "Плъзнете или кликнете (JPG/PNG, до 10MB)",
+    "logoAlt": "Лого на услугата"
   },
   "circleCrop": {
-    "title": "Снимка в Кръг",
-    "description": "Безплатен онлайн инструмент за изрязване на снимки в кръг, лесно изрежете всяка снимка в перфектен кръг - перфектно за профилни снимки, социални медии и дизайнерски проекти.",
+    "title": "Изрязване на снимка в кръг",
+    "description": "Безплатен онлайн инструмент за изрязване на снимки в кръг — превърнете всяка снимка в перфектен кръг за профилни снимки и дизайн проекти.",
     "upload": "Качи снимка",
-    "processing": "Обработване...",
-    "download": "Изтегли кръгла снимка",
-    "errorSelectFile": "Моля, изберете файл със снимка",
+    "processing": "Обработка...",
+    "download": "Изтегли кръглата снимка",
+    "errorSelectFile": "Моля, изберете снимков файл",
     "errorUploadFirst": "Моля, първо качете снимка",
     "page": {
-      "title": "Снимка в Кръг - Безплатен Онлайн Кръгъл Фото Резач",
-      "description": "Снимка в Кръг е безплатен онлайн инструмент за трансформиране на правоъгълни снимки в перфектно кръгли форми. Нашият инструмент ви помага да изрязвате снимки в кръгъл формат веднага, без нужда от регистрация. Независимо дали имате нужда от кръгла профилна снимка, кръгла снимка за социални медии, или закръглена снимка за дизайнерски проекти, нашият инструмент за изрязване на кръгли снимки прави всичко просто и лесно."
+      "title": "Изрязване на снимка в кръг - Безплатен онлайн инструмент",
+      "description": "Този инструмент е безплатен онлайн инструмент за преобразуване на правоъгълни снимки в перфектни кръгове без нужда от регистрация."
     },
     "seo": {
-      "title": "Снимка в Кръг | Безплатен Онлайн Кръгъл Резач",
-      "description": "Безплатен онлайн инструмент за изрязване на всяка снимка в перфектен кръг - перфектно за профилни снимки, социални медии и дизайнерски проекти."
+      "title": "Изрязване в кръг | Безплатно изрязване на снимки онлайн",
+      "description": "Безплатен онлайн инструмент за изрязване на снимки в перфектен кръг - идеален за профилни снимки и социални мрежи."
     },
     "selectRegion": {
       "title": "Изберете регион",
-      "subtitle": "Изберете предпочитания език и регион"
+      "subtitle": "Изберете предпочитания от вас език и регион"
     },
     "rateService": {
-      "title": "Оценете Снимка в Кръг",
-      "thankYou": "Благодарим за вашата обратна връзка!",
+      "title": "Оценете инструмента за изрязване",
+      "thankYou": "Благодарим ви за обратната връзка!",
       "averageRating": "4.5",
       "votes": "4,992 гласа"
     }
+  },
+  "blog": {
+    "seo": {
+      "title": "Блог | Снимка към URL адрес",
+      "description": "Статии за хостинг на снимки, споделяне на връзки и съвети за производителност."
+    },
+    "page": {
+      "title": "Блог",
+      "description": "Подготвяме статии за хостинг на снимки, CDN и SEO съвети. Очаквайте скоро.",
+      "stayTuned": "Очаквайте ръководства за:",
+      "guides": {
+        "1": "Най-добри практики за конвертиране на изображение в URL",
+        "2": "Как да използвате директни фото връзки в блогове и документи",
+        "3": "Производителност и кеширане на статични активи"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Документация | Снимка към URL адрес",
+      "description": "Документация за нашата услуга."
+    },
+    "page": {
+      "title": "Документация",
+      "description": "Бърз старт: качете изображение и получете директен URL адрес. Използвайте бутоните за копиране или изтеглете връзката в различни формати.",
+      "features": {
+        "title": "Поддържани функции:",
+        "items": {
+          "1": "Поддържани формати: JPG, PNG, WEBP, GIF",
+          "2": "Бърза доставка чрез CDN",
+          "3": "Ясни съобщения за поддръжка"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Статус на услугата",
+      "description": "Проверете състоянието на нашите системи."
+    },
+    "page": {
+      "title": "Статус",
+      "description": "Всички системи работят нормално.",
+      "message": "API за качване и CDN връзките са активни."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Контакт с нас",
+      "description": "Свържете се с екипа за поддръжка."
+    },
+    "page": {
+      "title": "Контакт",
+      "description": "Нуждаете се от помощ или искате да споделите отзиви? Изпратете ни имейл и ние ще ви отговорим възможно най-скоро.",
+      "email": {
+        "label": "Имейл",
+        "address": "leeqs1010@gmail.com"
+      }
+    }
   }
 }
-

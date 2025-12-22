@@ -77,9 +77,18 @@
       "title": "Proč lidé volí Foto na URL",
       "subtitle": "Rychlost, čisté odkazy a bez registrace.",
       "items": {
-        "fast": { "title": "Rychlé sdílení", "desc": "Nahrajte a získejte odkaz během vteřin bez dalších kroků." },
-        "direct": { "title": "Přímé URL obrázků", "desc": "Čisté odkazy, které fungují v HTML, Markdownu a chatovacích aplikacích." },
-        "nosignup": { "title": "Bez registrace", "desc": "Použijte to hned. Účty mohou přijít později, jak budeme růst." }
+        "fast": {
+          "title": "Rychlé sdílení",
+          "desc": "Nahrajte a získejte odkaz během vteřin bez dalších kroků."
+        },
+        "direct": {
+          "title": "Přímé URL obrázků",
+          "desc": "Čisté odkazy, které fungují v HTML, Markdownu a chatovacích aplikacích."
+        },
+        "nosignup": {
+          "title": "Bez registrace",
+          "desc": "Použijte to hned. Účty mohou přijít později, jak budeme růst."
+        }
       }
     },
     "how": {
@@ -93,24 +102,48 @@
       "title": "Tříkrokový proces",
       "subtitle": "Snižte úsilí, udržte CTA viditelné, dokončete během vteřin.",
       "steps": {
-        "1": { "title": "Přetáhněte nebo vložte", "desc": "Přetáhněte soubor, vložte ze schránky nebo procházejte." },
-        "2": { "title": "Hostujeme a vracíme odkaz", "desc": "Okamžité URL s ovládacími prvky kopírování/otevření/uložení." },
-        "3": { "title": "Sdílejte kdekoli", "desc": "Vložte do dokumentů, chatů, tiketů, blogů nebo prototypů." }
+        "1": {
+          "title": "Přetáhněte nebo vložte",
+          "desc": "Přetáhněte soubor, vložte ze schránky nebo procházejte."
+        },
+        "2": {
+          "title": "Hostujeme a vracíme odkaz",
+          "desc": "Okamžité URL s ovládacími prvky kopírování/otevření/uložení."
+        },
+        "3": {
+          "title": "Sdílejte kdekoli",
+          "desc": "Vložte do dokumentů, chatů, tiketů, blogů nebo prototypů."
+        }
       }
     },
     "features": {
       "title": "Hlavní funkce",
       "subtitle": "Jasnost na prvním místě: méně tření, více sdílení.",
       "items": {
-        "cdn": { "title": "Přímé CDN odkazy", "desc": "Čisté, předvídatelné URL připravené pro vložení do Markdownu a HTML." },
+        "cdn": {
+          "title": "Přímé CDN odkazy",
+          "desc": "Čisté, předvídatelné URL připravené pro vložení do Markdownu a HTML."
+        },
         "save": {
           "title": "Akce kopírování a ukládání",
           "desc": "Kopírovat, otevřít nebo uložit jako .txt/.json/.md jedním kliknutím."
         },
-        "clipboard": { "title": "Přátelské ke schránce", "desc": "Vkládejte snímky obrazovky bez hledání souborů nebo opětovného nahrávání." },
-        "errors": { "title": "Přátelské chyby", "desc": "Jasné zprávy o údržbě místo technických stack trace." },
-        "nosignup": { "title": "Bez registrace", "desc": "Dostaňte to rychleji — nahrajte a sdílejte okamžitě." },
-        "r2": { "title": "Rychlý hosting", "desc": "Odkazy jsou poskytovány přes rychlé CDN pro rychlé načítání a spolehlivý přístup." }
+        "clipboard": {
+          "title": "Přátelské ke schránce",
+          "desc": "Vkládejte snímky obrazovky bez hledání souborů nebo opětovného nahrávání."
+        },
+        "errors": {
+          "title": "Přátelské chyby",
+          "desc": "Jasné zprávy o údržbě místo technických stack trace."
+        },
+        "nosignup": {
+          "title": "Bez registrace",
+          "desc": "Dostaňte to rychleji — nahrajte a sdílejte okamžitě."
+        },
+        "r2": {
+          "title": "Rychlý hosting",
+          "desc": "Odkazy jsou poskytovány přes rychlé CDN pro rychlé načítání a spolehlivý přístup."
+        }
       }
     },
     "testimonials": {
@@ -175,11 +208,26 @@
       "faq": {
         "title": "Často kladené otázky",
         "items": {
-          "1": { "q": "Je to zdarma?", "a": "Ano, základní nahrání na odkaz je zdarma. Hosting podporovaný CDN přes R2 bude spuštěn se štědrou úrovní." },
-          "2": { "q": "Jaké formáty jsou podporovány?", "a": "Dnes PNG, JPG, WEBP, GIF do 10MB. Více formátů lze přidat na základě poptávky." },
-          "3": { "q": "Mohu vložit do Markdownu nebo HTML?", "a": "Ano. Zkopírujte odkaz tak, jak je, nebo použijte ukládání jedním kliknutím .txt / .json / .md pro připravené úryvky." },
-          "4": { "q": "Uchováváte mé soubory veřejně?", "a": "Odkazy jsou sdílené; když je R2 CDN povoleno, jsou poskytovány přes CDN doménu. Zobrazujeme jasné zprávy o údržbě, pokud není úložiště k dispozici." },
-          "5": { "q": "Budou účty nebo týmy?", "a": "Plánováno. Prioritizujeme bezproblémové nahrávání nejprve, poté přidáme týmové prostory, řízení přístupu a analýzy." }
+          "1": {
+            "q": "Je to zdarma?",
+            "a": "Ano, základní nahrání na odkaz je zdarma. Hosting podporovaný CDN přes R2 bude spuštěn se štědrou úrovní."
+          },
+          "2": {
+            "q": "Jaké formáty jsou podporovány?",
+            "a": "Dnes PNG, JPG, WEBP, GIF do 10MB. Více formátů lze přidat na základě poptávky."
+          },
+          "3": {
+            "q": "Mohu vložit do Markdownu nebo HTML?",
+            "a": "Ano. Zkopírujte odkaz tak, jak je, nebo použijte ukládání jedním kliknutím .txt / .json / .md pro připravené úryvky."
+          },
+          "4": {
+            "q": "Uchováváte mé soubory veřejně?",
+            "a": "Odkazy jsou sdílené; když je R2 CDN povoleno, jsou poskytovány přes CDN doménu. Zobrazujeme jasné zprávy o údržbě, pokud není úložiště k dispozici."
+          },
+          "5": {
+            "q": "Budou účty nebo týmy?",
+            "a": "Plánováno. Prioritizujeme bezproblémové nahrávání nejprve, poté přidáme týmové prostory, řízení přístupu a analýzy."
+          }
         }
       },
       "keywords": {
@@ -258,6 +306,48 @@
         "3": "Výkon a ukládání do mezipaměti pro statické prostředky"
       }
     }
+  },
+  "docs": {
+    "seo": {
+      "title": "Dokumentace | Photo To URL",
+      "description": "Dokumentace pro Photo To URL."
+    },
+    "page": {
+      "title": "Dokumentace",
+      "description": "Rychlý start: nahrajte obrázek a získejte přímou URL. Použijte tlačítka kopírovat/otevřít nebo stáhněte odkaz ve formátu .txt/.json/.md.",
+      "features": {
+        "title": "Podporované funkce:",
+        "items": {
+          "1": "Podporováno: JPG, PNG, WEBP, GIF",
+          "2": "Rychlé doručení přes CDN, když je úložiště povoleno",
+          "3": "Přátelské chybové zprávy o údržbě, když služba není k dispozici"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Stav | Photo To URL",
+      "description": "Stav služby Photo To URL."
+    },
+    "page": {
+      "title": "Stav",
+      "description": "Všechny systémy jsou funkční.",
+      "message": "API pro nahrávání a odkazy CDN běží."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Kontakt | Photo To URL",
+      "description": "Kontaktujte podporu Photo To URL."
+    },
+    "page": {
+      "title": "Kontakt",
+      "description": "Potřebujete pomoc nebo chcete sdílet zpětnou vazbu? Napište nám e-mail a budeme sledovat doručenou poštu a co nejdříve vám odpovíme.",
+      "email": {
+        "label": "E-mail",
+        "address": "leeqs1010@gmail.com"
+      }
+    }
   }
 }
-

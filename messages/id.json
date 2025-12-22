@@ -78,9 +78,18 @@
       "title": "Mengapa orang memilih Foto ke URL",
       "subtitle": "Kecepatan, tautan bersih, dan tanpa perlu mendaftar.",
       "items": {
-        "fast": { "title": "Berbagi Cepat", "desc": "Unggah dan dapatkan tautan dalam hitungan detik tanpa langkah tambahan." },
-        "direct": { "title": "URL Gambar Langsung", "desc": "Tautan bersih yang berfungsi di HTML, Markdown, dan aplikasi obrolan." },
-        "nosignup": { "title": "Tanpa Perlu Daftar", "desc": "Gunakan secara instan. Akun dapat dibuat nanti saat kami berkembang." }
+        "fast": {
+          "title": "Berbagi Cepat",
+          "desc": "Unggah dan dapatkan tautan dalam hitungan detik tanpa langkah tambahan."
+        },
+        "direct": {
+          "title": "URL Gambar Langsung",
+          "desc": "Tautan bersih yang berfungsi di HTML, Markdown, dan aplikasi obrolan."
+        },
+        "nosignup": {
+          "title": "Tanpa Perlu Daftar",
+          "desc": "Gunakan secara instan. Akun dapat dibuat nanti saat kami berkembang."
+        }
       }
     },
     "how": {
@@ -94,24 +103,48 @@
       "title": "Alur Tiga Langkah",
       "subtitle": "Kurangi usaha, tetap fokus pada aksi, selesai dalam hitungan detik.",
       "steps": {
-        "1": { "title": "Letakkan atau Tempel", "desc": "Seret file, tempel dari papan klip, atau telusuri." },
-        "2": { "title": "Kami Simpan & Berikan Tautan", "desc": "URL instan dengan kontrol salin/buka/simpan." },
-        "3": { "title": "Bagikan di Mana Saja", "desc": "Tempel ke dokumen, obrolan, tiket, blog, atau prototipe." }
+        "1": {
+          "title": "Letakkan atau Tempel",
+          "desc": "Seret file, tempel dari papan klip, atau telusuri."
+        },
+        "2": {
+          "title": "Kami Simpan & Berikan Tautan",
+          "desc": "URL instan dengan kontrol salin/buka/simpan."
+        },
+        "3": {
+          "title": "Bagikan di Mana Saja",
+          "desc": "Tempel ke dokumen, obrolan, tiket, blog, atau prototipe."
+        }
       }
     },
     "features": {
       "title": "Fitur Utama",
       "subtitle": "Kejelasan adalah utama: kurangi hambatan, perbanyak berbagi.",
       "items": {
-        "cdn": { "title": "Tautan CDN Langsung", "desc": "URL bersih dan terprediksi yang siap untuk disematkan di Markdown dan HTML." },
+        "cdn": {
+          "title": "Tautan CDN Langsung",
+          "desc": "URL bersih dan terprediksi yang siap untuk disematkan di Markdown dan HTML."
+        },
         "save": {
           "title": "Aksi Salin & Simpan",
           "desc": "Salin, buka, atau simpan sebagai .txt/.json/.md dengan satu klik."
         },
-        "clipboard": { "title": "Ramah Papan Klip", "desc": "Tempel tangkapan layar tanpa harus mencari file atau mengunggah ulang." },
-        "errors": { "title": "Pesan Galat Jelas", "desc": "Pesan pemeliharaan yang jelas, bukan tumpukan kode teknis yang membingungkan." },
-        "nosignup": { "title": "Tanpa Perlu Daftar", "desc": "Bekerja lebih cepat—unggah dan bagikan secara instan." },
-        "r2": { "title": "Hosting Cepat", "desc": "Tautan disajikan melalui CDN cepat untuk pemuatan instan dan akses andal." }
+        "clipboard": {
+          "title": "Ramah Papan Klip",
+          "desc": "Tempel tangkapan layar tanpa harus mencari file atau mengunggah ulang."
+        },
+        "errors": {
+          "title": "Pesan Galat Jelas",
+          "desc": "Pesan pemeliharaan yang jelas, bukan tumpukan kode teknis yang membingungkan."
+        },
+        "nosignup": {
+          "title": "Tanpa Perlu Daftar",
+          "desc": "Bekerja lebih cepat—unggah dan bagikan secara instan."
+        },
+        "r2": {
+          "title": "Hosting Cepat",
+          "desc": "Tautan disajikan melalui CDN cepat untuk pemuatan instan dan akses andal."
+        }
       }
     },
     "testimonials": {
@@ -176,11 +209,26 @@
       "faq": {
         "title": "Pertanyaan Umum (FAQ)",
         "items": {
-          "1": { "q": "Apakah ini gratis?", "a": "Ya, layanan utama unggah-ke-tautan gratis. Hosting bertenaga CDN melalui R2 akan diperkenalkan dengan tingkat penggunaan yang murah hati." },
-          "2": { "q": "Format apa yang didukung?", "a": "Saat ini PNG, JPG, WEBP, GIF hingga 10MB didukung. Format lain dapat ditambahkan berdasarkan permintaan." },
-          "3": { "q": "Bisakah saya menyematkan di Markdown atau HTML?", "a": "Ya. Salin tautan apa adanya, atau gunakan fitur simpan .txt / .json / .md sekali klik untuk cuplikan kode." },
-          "4": { "q": "Apakah file saya tetap publik?", "a": "Tautan dapat dibagikan; saat CDN R2 diaktifkan, file disajikan melalui domain CDN." },
-          "5": { "q": "Akan ada akun atau tim?", "a": "Direncanakan. Kami memprioritaskan unggahan tanpa hambatan terlebih dahulu, kemudian menambahkan ruang tim dan kontrol akses." }
+          "1": {
+            "q": "Apakah ini gratis?",
+            "a": "Ya, layanan utama unggah-ke-tautan gratis. Hosting bertenaga CDN melalui R2 akan diperkenalkan dengan tingkat penggunaan yang murah hati."
+          },
+          "2": {
+            "q": "Format apa yang didukung?",
+            "a": "Saat ini PNG, JPG, WEBP, GIF hingga 10MB didukung. Format lain dapat ditambahkan berdasarkan permintaan."
+          },
+          "3": {
+            "q": "Bisakah saya menyematkan di Markdown atau HTML?",
+            "a": "Ya. Salin tautan apa adanya, atau gunakan fitur simpan .txt / .json / .md sekali klik untuk cuplikan kode."
+          },
+          "4": {
+            "q": "Apakah file saya tetap publik?",
+            "a": "Tautan dapat dibagikan; saat CDN R2 diaktifkan, file disajikan melalui domain CDN."
+          },
+          "5": {
+            "q": "Akan ada akun atau tim?",
+            "a": "Direncanakan. Kami memprioritaskan unggahan tanpa hambatan terlebih dahulu, kemudian menambahkan ruang tim dan kontrol akses."
+          }
         }
       },
       "keywords": {
@@ -257,6 +305,49 @@
         "1": "Praktik terbaik untuk konversi gambar ke URL",
         "2": "Cara menggunakan tautan foto langsung di blog dan dokumen",
         "3": "Performa dan caching untuk aset statis"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Dokumentasi | Photo To URL",
+      "description": "Dokumentasi untuk Photo To URL."
+    },
+    "page": {
+      "title": "Dokumentasi",
+      "description": "Mulai cepat: unggah gambar dan dapatkan URL langsung. Gunakan tombol salin/buka atau unduh tautan dalam format .txt/.json/.md.",
+      "features": {
+        "title": "Fitur yang didukung:",
+        "items": {
+          "1": "Didukung: JPG, PNG, WEBP, GIF",
+          "2": "Pengiriman cepat melalui CDN saat penyimpanan diaktifkan",
+          "3": "Pesan kesalahan pemeliharaan yang ramah saat layanan tidak tersedia"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Status | Photo To URL",
+      "description": "Status layanan Photo To URL."
+    },
+    "page": {
+      "title": "Status",
+      "description": "Semua sistem beroperasi.",
+      "message": "API unggah dan tautan CDN berjalan."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Kontak | Photo To URL",
+      "description": "Hubungi dukungan Photo To URL."
+    },
+    "page": {
+      "title": "Kontak",
+      "description": "Butuh bantuan atau ingin berbagi masukan? Kirimkan email kepada kami dan kami akan memantau kotak masuk dan membalas sesegera mungkin.",
+      "email": {
+        "label": "Email",
+        "address": "leeqs1010@gmail.com"
       }
     }
   }

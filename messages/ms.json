@@ -78,9 +78,18 @@
       "title": "Mengapa orang memilih Foto ke URL",
       "subtitle": "Kepantasan, pautan bersih, dan tiada pendaftaran diperlukan.",
       "items": {
-        "fast": { "title": "Perkongsian Pantas", "desc": "Muat naik dan dapatkan pautan dalam beberapa saat tanpa langkah tambahan." },
-        "direct": { "title": "URL Imej Langsung", "desc": "Pautan bersih yang berfungsi dalam HTML, Markdown, dan aplikasi sembang." },
-        "nosignup": { "title": "Tanpa Pendaftaran", "desc": "Gunakan serta-merta. Akaun boleh dibuat kemudian semasa kami berkembang." }
+        "fast": {
+          "title": "Perkongsian Pantas",
+          "desc": "Muat naik dan dapatkan pautan dalam beberapa saat tanpa langkah tambahan."
+        },
+        "direct": {
+          "title": "URL Imej Langsung",
+          "desc": "Pautan bersih yang berfungsi dalam HTML, Markdown, dan aplikasi sembang."
+        },
+        "nosignup": {
+          "title": "Tanpa Pendaftaran",
+          "desc": "Gunakan serta-merta. Akaun boleh dibuat kemudian semasa kami berkembang."
+        }
       }
     },
     "how": {
@@ -94,24 +103,48 @@
       "title": "Aliran Tiga Langkah",
       "subtitle": "Kurangkan usaha, kekalkan tumpuan pada tindakan, selesai dalam beberapa saat.",
       "steps": {
-        "1": { "title": "Lepas atau Tampal", "desc": "Seret fail, tampal dari papan klip, atau semak imbas." },
-        "2": { "title": "Kami Hos & Beri Pautan", "desc": "URL segera dengan kawalan salin/buka/simpan." },
-        "3": { "title": "Kongsi di Mana Sahaja", "desc": "Tampal ke dalam dokumen, sembang, tiket, blog, atau prototaip." }
+        "1": {
+          "title": "Lepas atau Tampal",
+          "desc": "Seret fail, tampal dari papan klip, atau semak imbas."
+        },
+        "2": {
+          "title": "Kami Hos & Beri Pautan",
+          "desc": "URL segera dengan kawalan salin/buka/simpan."
+        },
+        "3": {
+          "title": "Kongsi di Mana Sahaja",
+          "desc": "Tampal ke dalam dokumen, sembang, tiket, blog, atau prototaip."
+        }
       }
     },
     "features": {
       "title": "Ciri-ciri Utama",
       "subtitle": "Kejelasan adalah utama: kurangkan geseran, lebih banyak perkongsian.",
       "items": {
-        "cdn": { "title": "Pautan CDN Langsung", "desc": "URL bersih dan terjangka yang sedia untuk dibenamkan dalam Markdown dan HTML." },
+        "cdn": {
+          "title": "Pautan CDN Langsung",
+          "desc": "URL bersih dan terjangka yang sedia untuk dibenamkan dalam Markdown dan HTML."
+        },
         "save": {
           "title": "Tindakan Salin & Simpan",
           "desc": "Salin, buka, atau simpan sebagai .txt/.json/.md dengan satu klik."
         },
-        "clipboard": { "title": "Mesra Papan Klip", "desc": "Tampal tangkapan skrin tanpa perlu mencari fail atau muat naik semula." },
-        "errors": { "title": "Ralat yang Jelas", "desc": "Mesej penyelenggaraan yang jelas dan bukannya kod teknikal yang mengelirukan." },
-        "nosignup": { "title": "Tanpa Pendaftaran", "desc": "Bekerja lebih pantas—muat naik dan kongsi serta-merta." },
-        "r2": { "title": "Penyimpanan Pantas", "desc": "Pautan disediakan melalui CDN pantas untuk pemuatan segera dan akses yang boleh dipercayai." }
+        "clipboard": {
+          "title": "Mesra Papan Klip",
+          "desc": "Tampal tangkapan skrin tanpa perlu mencari fail atau muat naik semula."
+        },
+        "errors": {
+          "title": "Ralat yang Jelas",
+          "desc": "Mesej penyelenggaraan yang jelas dan bukannya kod teknikal yang mengelirukan."
+        },
+        "nosignup": {
+          "title": "Tanpa Pendaftaran",
+          "desc": "Bekerja lebih pantas—muat naik dan kongsi serta-merta."
+        },
+        "r2": {
+          "title": "Penyimpanan Pantas",
+          "desc": "Pautan disediakan melalui CDN pantas untuk pemuatan segera dan akses yang boleh dipercayai."
+        }
       }
     },
     "testimonials": {
@@ -176,11 +209,26 @@
       "faq": {
         "title": "Soalan Lazim (FAQ)",
         "items": {
-          "1": { "q": "Adakah ini percuma?", "a": "Ya, perkhidmatan utama muat naik-ke-pautan adalah percuma. Pengehosan dikuasakan CDN melalui R2 akan diperkenalkan dengan tahap penggunaan yang murah hati." },
-          "2": { "q": "Format apa yang disokong?", "a": "Hari ini PNG, JPG, WEBP, GIF sehingga 10MB disokong. Format lain mungkin ditambah berdasarkan permintaan." },
-          "3": { "q": "Bolehkah saya membenam dalam Markdown atau HTML?", "a": "Ya. Salin pautan begitu sahaja, atau gunakan ciri simpan .txt / .json / .md satu klik untuk petikan kod." },
-          "4": { "q": "Adakah fail saya kekal awam?", "a": "Pautan boleh dikongsi; apabila CDN R2 didayakan, fail disediakan melalui domain CDN." },
-          "5": { "q": "Adakah akan ada akaun atau pasukan?", "a": "Dirancang. Kami mengutamakan muat naik tanpa geseran terlebih dahulu, kemudian menambah ruang pasukan dan kawalan akses." }
+          "1": {
+            "q": "Adakah ini percuma?",
+            "a": "Ya, perkhidmatan utama muat naik-ke-pautan adalah percuma. Pengehosan dikuasakan CDN melalui R2 akan diperkenalkan dengan tahap penggunaan yang murah hati."
+          },
+          "2": {
+            "q": "Format apa yang disokong?",
+            "a": "Hari ini PNG, JPG, WEBP, GIF sehingga 10MB disokong. Format lain mungkin ditambah berdasarkan permintaan."
+          },
+          "3": {
+            "q": "Bolehkah saya membenam dalam Markdown atau HTML?",
+            "a": "Ya. Salin pautan begitu sahaja, atau gunakan ciri simpan .txt / .json / .md satu klik untuk petikan kod."
+          },
+          "4": {
+            "q": "Adakah fail saya kekal awam?",
+            "a": "Pautan boleh dikongsi; apabila CDN R2 didayakan, fail disediakan melalui domain CDN."
+          },
+          "5": {
+            "q": "Adakah akan ada akaun atau pasukan?",
+            "a": "Dirancang. Kami mengutamakan muat naik tanpa geseran terlebih dahulu, kemudian menambah ruang pasukan dan kawalan akses."
+          }
         }
       },
       "keywords": {
@@ -257,6 +305,49 @@
         "1": "Amalan terbaik untuk penukaran imej ke URL",
         "2": "Cara menggunakan pautan foto langsung dalam blog dan dokumen",
         "3": "Prestasi dan cache untuk aset statik"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Dokumentasi | Photo To URL",
+      "description": "Dokumentasi untuk Photo To URL."
+    },
+    "page": {
+      "title": "Dokumentasi",
+      "description": "Mula cepat: muat naik imej dan dapatkan URL terus. Gunakan butang salin/buka atau muat turun pautan dalam format .txt/.json/.md.",
+      "features": {
+        "title": "Ciri yang disokong:",
+        "items": {
+          "1": "Disokong: JPG, PNG, WEBP, GIF",
+          "2": "Penghantaran pantas melalui CDN apabila storan diaktifkan",
+          "3": "Mesej ralat penyelenggaraan yang mesra apabila perkhidmatan tidak tersedia"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Status | Photo To URL",
+      "description": "Status perkhidmatan Photo To URL."
+    },
+    "page": {
+      "title": "Status",
+      "description": "Semua sistem beroperasi.",
+      "message": "API muat naik dan pautan CDN sedang berjalan."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Hubungi | Photo To URL",
+      "description": "Hubungi sokongan Photo To URL."
+    },
+    "page": {
+      "title": "Hubungi",
+      "description": "Perlu bantuan atau ingin berkongsi maklum balas? Hantar e-mel kepada kami dan kami akan memantau peti masuk dan membalas secepat mungkin.",
+      "email": {
+        "label": "E-mel",
+        "address": "leeqs1010@gmail.com"
       }
     }
   }

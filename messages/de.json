@@ -77,9 +77,18 @@
       "title": "Warum Foto zu URL wählen",
       "subtitle": "Schnell, saubere Links, keine Anmeldung.",
       "items": {
-        "fast": { "title": "Schnelles Teilen", "desc": "In Sekunden einen Link erhalten, ohne Extraschritte." },
-        "direct": { "title": "Direkte Bild-URLs", "desc": "Saubere Links, die in HTML, Markdown und Chats funktionieren." },
-        "nosignup": { "title": "Keine Registrierung erforderlich", "desc": "Sofort nutzen; Konten können später kommen." }
+        "fast": {
+          "title": "Schnelles Teilen",
+          "desc": "In Sekunden einen Link erhalten, ohne Extraschritte."
+        },
+        "direct": {
+          "title": "Direkte Bild-URLs",
+          "desc": "Saubere Links, die in HTML, Markdown und Chats funktionieren."
+        },
+        "nosignup": {
+          "title": "Keine Registrierung erforderlich",
+          "desc": "Sofort nutzen; Konten können später kommen."
+        }
       }
     },
     "how": {
@@ -93,30 +102,66 @@
       "title": "Drei-Schritte-Flow",
       "subtitle": "Weniger Aufwand, CTA sichtbar, in Sekunden fertig.",
       "steps": {
-        "1": { "title": "Ablegen oder einfügen", "desc": "Datei ziehen, aus dem Clipboard einfügen oder browsen." },
-        "2": { "title": "Wir hosten & liefern zurück", "desc": "Sofort-URL mit Kopieren/Öffnen/Speichern-Aktionen." },
-        "3": { "title": "Überall teilen", "desc": "In Docs, Chats, Tickets, Blogs oder Prototypen einfügen." }
+        "1": {
+          "title": "Ablegen oder einfügen",
+          "desc": "Datei ziehen, aus dem Clipboard einfügen oder browsen."
+        },
+        "2": {
+          "title": "Wir hosten & liefern zurück",
+          "desc": "Sofort-URL mit Kopieren/Öffnen/Speichern-Aktionen."
+        },
+        "3": {
+          "title": "Überall teilen",
+          "desc": "In Docs, Chats, Tickets, Blogs oder Prototypen einfügen."
+        }
       }
     },
     "features": {
       "title": "Feature-Highlights",
       "subtitle": "Klarheit zuerst: weniger Reibung, mehr Teilen.",
       "items": {
-        "cdn": { "title": "Direkte CDN-Links", "desc": "Saubere, vorhersehbare URLs, bereit für Markdown und HTML." },
-        "save": { "title": "Kopieren & Speichern", "desc": "Mit einem Klick kopieren, öffnen oder als .txt/.json/.md sichern." },
-        "clipboard": { "title": "Clipboard-freundlich", "desc": "Screenshots einfügen, ohne Dateien zu suchen oder erneut hochzuladen." },
-        "errors": { "title": "Freundliche Fehler", "desc": "Klarer Wartungshinweis statt technischer Stacktraces." },
-        "nosignup": { "title": "Keine Anmeldung nötig", "desc": "Schneller arbeiten – hochladen und sofort teilen." },
-        "r2": { "title": "R2 bereit", "desc": "Ausgelegt für CDN-Links, wenn Cloudflare R2 konfiguriert ist." }
+        "cdn": {
+          "title": "Direkte CDN-Links",
+          "desc": "Saubere, vorhersehbare URLs, bereit für Markdown und HTML."
+        },
+        "save": {
+          "title": "Kopieren & Speichern",
+          "desc": "Mit einem Klick kopieren, öffnen oder als .txt/.json/.md sichern."
+        },
+        "clipboard": {
+          "title": "Clipboard-freundlich",
+          "desc": "Screenshots einfügen, ohne Dateien zu suchen oder erneut hochzuladen."
+        },
+        "errors": {
+          "title": "Freundliche Fehler",
+          "desc": "Klarer Wartungshinweis statt technischer Stacktraces."
+        },
+        "nosignup": {
+          "title": "Keine Anmeldung nötig",
+          "desc": "Schneller arbeiten – hochladen und sofort teilen."
+        },
+        "r2": {
+          "title": "R2 bereit",
+          "desc": "Ausgelegt für CDN-Links, wenn Cloudflare R2 konfiguriert ist."
+        }
       }
     },
     "testimonials": {
       "title": "Teams sparen Zeit mit Foto zu URL",
       "subtitle": "Social Proof senkt Risiko und beschleunigt Einführung.",
       "items": {
-        "ops": { "name": "Product Ops", "quote": "Wir fügen Screenshots in Tickets ein, ohne Anhänge zu verstopfen. Links bleiben sauber." },
-        "content": { "name": "Content Lead", "quote": "Markdown-fertige Links halten unsere Dokus sauber und schnell publizierbar." },
-        "support": { "name": "Support", "quote": "Klare Fehler und sofortige URLs helfen im Chat beim Anleiten." }
+        "ops": {
+          "name": "Product Ops",
+          "quote": "Wir fügen Screenshots in Tickets ein, ohne Anhänge zu verstopfen. Links bleiben sauber."
+        },
+        "content": {
+          "name": "Content Lead",
+          "quote": "Markdown-fertige Links halten unsere Dokus sauber und schnell publizierbar."
+        },
+        "support": {
+          "name": "Support",
+          "quote": "Klare Fehler und sofortige URLs helfen im Chat beim Anleiten."
+        }
       }
     },
     "cta": {
@@ -163,11 +208,26 @@
       "faq": {
         "title": "FAQs",
         "items": {
-          "1": { "q": "Ist es kostenlos?", "a": "Ja, der Basis‑Flow Upload→Link ist kostenlos. CDN/R2‑Hosting wird großzügige Pläne bieten." },
-          "2": { "q": "Welche Formate werden unterstützt?", "a": "PNG, JPG, WEBP, GIF (je nach aktuellem Limit). Weitere können folgen." },
-          "3": { "q": "Funktioniert es mit Markdown/HTML?", "a": "Ja. Link kopieren oder die .txt/.json/.md‑Buttons nutzen." },
-          "4": { "q": "Sind meine Dateien öffentlich?", "a": "Links sind teilbar; mit R2 CDN werden sie über die CDN‑Domain ausgeliefert. Bei Wartung zeigen wir klare Hinweise." },
-          "5": { "q": "Gibt es Accounts/Teams?", "a": "Geplant: zuerst simpel und zuverlässig, danach Teams, Rechte und Analytics." }
+          "1": {
+            "q": "Ist es kostenlos?",
+            "a": "Ja, der Basis‑Flow Upload→Link ist kostenlos. CDN/R2‑Hosting wird großzügige Pläne bieten."
+          },
+          "2": {
+            "q": "Welche Formate werden unterstützt?",
+            "a": "PNG, JPG, WEBP, GIF (je nach aktuellem Limit). Weitere können folgen."
+          },
+          "3": {
+            "q": "Funktioniert es mit Markdown/HTML?",
+            "a": "Ja. Link kopieren oder die .txt/.json/.md‑Buttons nutzen."
+          },
+          "4": {
+            "q": "Sind meine Dateien öffentlich?",
+            "a": "Links sind teilbar; mit R2 CDN werden sie über die CDN‑Domain ausgeliefert. Bei Wartung zeigen wir klare Hinweise."
+          },
+          "5": {
+            "q": "Gibt es Accounts/Teams?",
+            "a": "Geplant: zuerst simpel und zuverlässig, danach Teams, Rechte und Analytics."
+          }
         }
       },
       "keywords": {
@@ -244,6 +304,49 @@
         "1": "Best Practices für die Umwandlung von Bildern in URLs",
         "2": "Wie man direkte Foto-Links in Blogs und Dokumenten verwendet",
         "3": "Leistung und Caching für statische Assets"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Dokumentation | Photo To URL",
+      "description": "Dokumentation für Photo To URL."
+    },
+    "page": {
+      "title": "Dokumentation",
+      "description": "Schnellstart: Laden Sie ein Bild hoch und erhalten Sie eine direkte URL. Verwenden Sie die Kopieren/Öffnen-Schaltflächen oder laden Sie den Link im Format .txt/.json/.md herunter.",
+      "features": {
+        "title": "Unterstützte Funktionen:",
+        "items": {
+          "1": "Unterstützt: JPG, PNG, WEBP, GIF",
+          "2": "Schnelle Lieferung über CDN, wenn Speicher aktiviert ist",
+          "3": "Freundliche Wartungsfehlermeldungen, wenn der Dienst nicht verfügbar ist"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Status | Photo To URL",
+      "description": "Dienststatus für Photo To URL."
+    },
+    "page": {
+      "title": "Status",
+      "description": "Alle Systeme funktionieren.",
+      "message": "Upload-API und CDN-Links laufen."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Kontakt | Photo To URL",
+      "description": "Kontaktieren Sie den Photo To URL Support."
+    },
+    "page": {
+      "title": "Kontakt",
+      "description": "Benötigen Sie Hilfe oder möchten Sie Feedback teilen? Schreiben Sie uns eine E-Mail, wir behalten den Posteingang im Auge und melden uns so schnell wie möglich bei Ihnen.",
+      "email": {
+        "label": "E-Mail",
+        "address": "leeqs1010@gmail.com"
       }
     }
   }

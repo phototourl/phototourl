@@ -1,30 +1,42 @@
 import type { Metadata } from "next";
 import { siteUrl } from "@/app/seo-metadata";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Status | Photo To URL",
-  description: "Service status for Photo To URL.",
-  alternates: {
-    canonical: `${siteUrl}/status`,
-  },
-  openGraph: {
-    title: "Status | Photo To URL",
-    description: "Service status for Photo To URL.",
-    url: `${siteUrl}/status`,
-  },
-  twitter: {
-    title: "Status | Photo To URL",
-    description: "Service status for Photo To URL.",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = "en";
+  const t = await getTranslations({ locale, namespace: "status.seo" });
+  const canonicalPath = "/status";
+  const canonicalUrl = `${siteUrl}${canonicalPath}`;
+  
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: t("title"),
+      description: t("description"),
+      url: canonicalUrl,
+    },
+    twitter: {
+      title: t("title"),
+      description: t("description"),
+    },
+  };
+}
 
-export default function StatusPage() {
+export default async function StatusPage() {
+  const locale = "en";
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "status.page" });
+  
   return (
     <div className="mx-auto max-w-3xl px-6 py-12">
-      <h1 className="text-3xl font-bold text-slate-900">Status</h1>
-      <p className="mt-3 text-slate-600">All systems operational.</p>
+      <h1 className="text-3xl font-bold text-slate-900">{t("title")}</h1>
+      <p className="mt-3 text-slate-600">{t("description")}</p>
       <div className="mt-6 rounded-lg border border-teal-200 bg-teal-50 p-4 text-sm text-teal-800">
-        Upload API and CDN links are running.
+        {t("message")}
       </div>
     </div>
   );

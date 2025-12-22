@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { siteUrl } from "@/app/seo-metadata";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 export async function generateMetadata({
   params,
@@ -7,26 +8,52 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "docs.seo" });
   const canonicalPath = locale === "en" ? "/docs" : `/${locale}/docs`;
   const canonicalUrl = `${siteUrl}${canonicalPath}`;
   
   return {
-    title: "Docs | Photo To URL",
-    description: "Documentation for Photo To URL.",
+    title: t("title"),
+    description: t("description"),
     alternates: {
       canonical: canonicalUrl,
     },
     openGraph: {
-      title: "Docs | Photo To URL",
-      description: "Documentation for Photo To URL.",
+      title: t("title"),
+      description: t("description"),
       url: canonicalUrl,
     },
     twitter: {
-      title: "Docs | Photo To URL",
-      description: "Documentation for Photo To URL.",
+      title: t("title"),
+      description: t("description"),
     },
   };
 }
 
-export { default } from "../../(default)/docs/page";
+export default async function DocsPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "docs.page" });
+  
+  return (
+    <div className="mx-auto max-w-4xl px-6 py-12">
+      <h1 className="text-3xl font-bold text-slate-900">{t("title")}</h1>
+      <p className="mt-3 text-slate-600">
+        {t("description")}
+      </p>
+      <div className="mt-6 rounded-lg border border-slate-200 bg-white p-4 text-sm text-slate-600">
+        <div className="font-semibold mb-2">{t("features.title")}</div>
+        <ul className="list-disc pl-5">
+          <li>{t("features.items.1")}</li>
+          <li>{t("features.items.2")}</li>
+          <li>{t("features.items.3")}</li>
+        </ul>
+      </div>
+    </div>
+  );
+}
 

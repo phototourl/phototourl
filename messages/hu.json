@@ -1,247 +1,306 @@
 {
   "common": {
-    "siteName": "Photo To URL",
-    "tagline": "Turn photos into clean, shareable links in seconds",
+    "siteName": "Fotó Linkké",
+    "tagline": "Alakítsa fotóit tiszta, megosztható linkekké másodpercek alatt",
     "header": {
-      "subtitle": "Turn images into shareable links",
-      "prompt": "Drop, paste, or upload — get a shareable link instantly"
+      "subtitle": "Alakítsa képeit megosztható linkekké",
+      "prompt": "Húzza be, illessze be vagy töltse fel — kapjon linket azonnal",
+      "circleCrop": "Fotó kör alakú vágása"
     },
     "footer": {
       "blurb": {
-        "line1": "Turn photos into clean, shareable links.",
-        "line2": "Fast, simple, reliable."
+        "line1": "Alakítsa fotóit tiszta, megosztható linkekké.",
+        "line2": "Gyors, egyszerű, megbízható."
       },
-      "partners": "Partners",
-      "linksTitle": "Links",
-      "productsTitle": "Products",
+      "partners": "Partnerek",
+      "linksTitle": "Linkek",
+      "productsTitle": "Termékek",
       "nav": {
-        "home": "Home",
+        "home": "Kezdőlap",
         "blog": "Blog",
-        "docs": "Docs",
-        "status": "Status",
-        "contact": "Contact"
+        "docs": "Dokumentáció",
+        "status": "Állapot",
+        "contact": "Kapcsolat"
       },
       "legal": {
-        "privacy": "Privacy",
-        "terms": "Terms"
+        "privacy": "Adatvédelem",
+        "terms": "Feltételek"
       },
       "copyright": "© 2025 Photo To URL. All rights reserved."
     }
   },
   "home": {
     "badge": {
-      "free": "Free",
-      "cdn": "CDN links",
-      "nosignup": "No signup"
+      "free": "Ingyenes",
+      "cdn": "CDN linkek",
+      "nosignup": "Regisztráció nélkül"
     },
     "hero": {
-      "title1": "Free",
-      "title2": "Photo To URL",
-      "subtitle": "Upload → get a link → paste anywhere.",
-      "upload": "Upload image",
+      "title1": "Ingyenes",
+      "title2": "Fotó Linkké",
+      "subtitle": "Feltöltés → link kérése → beillesztés bárhová.",
+      "upload": "Kép feltöltése",
       "bullet": {
-        "fast": "Fast sharing",
-        "direct": "Direct photo links",
-        "nosignup": "No signup required",
-        "paste": "Paste from clipboard"
+        "fast": "Gyors megosztás",
+        "direct": "Közvetlen fotó linkek",
+        "nosignup": "Nincs szükség regisztrációra",
+        "paste": "Beillesztés vágólapról"
       }
     },
     "demo": {
-      "label": "Demo",
-      "loop": "Auto demo",
-      "idleTitle": "Drag & drop your image",
-      "idleSubtitle": "See the full upload → link → copy flow.",
-      "processing": "Optimizing & uploading...",
-      "doneTitle": "Ready to share",
-      "doneSubtitle": "Your link is ready to share instantly.",
-      "thanksForWatching": "Thanks for watching"
+      "label": "Demó",
+      "loop": "Automatikus demó",
+      "idleTitle": "Húzza ide a képét",
+      "idleSubtitle": "Nézze meg a folyamatot: feltöltés → link → másolás.",
+      "processing": "Optimalizálás és feltöltés...",
+      "doneTitle": "Kész a megosztásra",
+      "doneSubtitle": "A linkje azonnal készen áll a megosztásra.",
+      "thanksForWatching": "Köszönjük a figyelmet"
     },
     "upload": {
-      "title": "Drop a photo or click to browse",
-      "hint": "JPG, PNG, WEBP, GIF up to 10MB. Drag & drop, click, or paste screenshots.",
-      "orDrop": "or drop a file",
-      "samplesTitle": "No image? Try one of these:",
-      "policy": "By uploading an image you agree to our <privacy>Privacy Policy</privacy> and <terms>Terms of Use</terms>.",
-      "clear": "Clear"
+      "title": "Húzzon ide egy fotót vagy kattintson a böngészéshez",
+      "hint": "JPG, PNG, WEBP, GIF 10MB-ig. Húzza be, kattintson rá vagy illessze be a képernyőképet.",
+      "orDrop": "vagy dobja ide a fájlt",
+      "samplesTitle": "Nincs képe? Próbálja ki ezek egyikét:",
+      "policy": "A kép feltöltésével elfogadja az <privacy>Adatvédelmi szabályzatunkat</privacy> és a <terms>Szolgáltatási feltételeinket</terms>.",
+      "clear": "Törlés"
     },
     "result": {
-      "error": "Upload failed. Please try again.",
-      "generated": "Generated link:",
-      "open": "Open in new tab",
-      "placeholder": "No link yet. Upload a photo to generate a shareable URL.",
-      "savePrompt": "Save link as you like",
-      "copy": "Copy link",
-      "copied": "Copied"
+      "error": "A feltöltés sikertelen. Kérjük, próbálja újra.",
+      "generated": "Generált link:",
+      "open": "Megnyitás új lapon",
+      "placeholder": "Még nincs link. Töltsön fel egy fotót az URL generálásához.",
+      "savePrompt": "Mentse el a linket a kívánt módon",
+      "copy": "Link másolása",
+      "copied": "Másolva"
     },
     "benefits": {
-      "title": "Why people choose Photo To URL",
-      "subtitle": "Speed, clean links, and no signup needed.",
+      "title": "Miért választják az emberek a Fotó Linkké eszközt?",
+      "subtitle": "Gyorsaság, tiszta linkek és regisztrációmentes használat.",
       "items": {
-        "fast": { "title": "Fast sharing", "desc": "Upload and get a link in seconds with no extra steps." },
-        "direct": { "title": "Direct image URLs", "desc": "Clean links that work in HTML, Markdown, and chat apps." },
-        "nosignup": { "title": "No signup required", "desc": "Use it right away. Accounts can come later as we grow." }
+        "fast": { "title": "Gyors megosztás", "desc": "Töltse fel és kapjon linket másodpercek alatt felesleges lépések nélkül." },
+        "direct": { "title": "Közvetlen URL-ek", "desc": "Tiszta linkek, amelyek működnek HTML-ben, Markdownban és chat alkalmazásokban." },
+        "nosignup": { "title": "Nincs regisztráció", "desc": "Használja azonnal. A felhasználói fiókok később érkeznek." }
       }
     },
     "how": {
-      "title": "How it works",
-      "step1": "1) Add your photo (drag, paste, or click to pick a file).",
-      "step2": "2) We host it and return a shareable link.",
-      "step3": "3) Copy and share the link anywhere you work.",
-      "note": "Your link opens fast in docs, chats, and prototypes—plus you can download it in the format you like (.txt/.json/.md)."
+      "title": "Hogyan működik",
+      "step1": "1) Adja hozzá a fotót (húzás, beillesztés vagy fájl kiválasztása).",
+      "step2": "2) Mi tároljuk és adunk egy megosztható linket.",
+      "step3": "3) Másolja és illessze be a linket bárhová.",
+      "note": "A linkje gyorsan megnyílik dokumentumokban, chatekben és prototípusokban — emellett letöltheti .txt/.json/.md formátumban is."
     },
     "process": {
-      "title": "Three-step flow",
-      "subtitle": "Reduce effort, keep the CTA visible, finish in seconds.",
+      "title": "Háromlépéses folyamat",
+      "subtitle": "Kevesebb erőfeszítés, nagyobb fókusz, kész másodpercek alatt.",
       "steps": {
-        "1": { "title": "Drop or paste", "desc": "Drag a file, paste from clipboard, or browse." },
-        "2": { "title": "We host & return a link", "desc": "Instant URL with copy/open/save controls." },
-        "3": { "title": "Share anywhere", "desc": "Paste into docs, chats, tickets, blogs, or prototypes." }
+        "1": { "title": "Húzás vagy beillesztés", "desc": "Húzzon be egy fájlt, illessze be vágólapról vagy böngésszen a gépén." },
+        "2": { "title": "Tároljuk és linkeljük", "desc": "Azonnali URL másolási, megnyitási vagy mentési lehetőségekkel." },
+        "3": { "title": "Megosztás bárhol", "desc": "Illessze be dokumentumokba, chatekbe, hibajegyekbe, blogokba vagy prototípusokba." }
       }
     },
     "features": {
-      "title": "Feature highlights",
-      "subtitle": "Clarity first: less friction, more sharing.",
+      "title": "Főbb jellemzők",
+      "subtitle": "Tisztaság mindenekelőtt: kevesebb súrlódás, több megosztás.",
       "items": {
-        "cdn": { "title": "Direct CDN links", "desc": "Clean, predictable URLs ready for Markdown and HTML embeds." },
+        "cdn": { "title": "Közvetlen CDN linkek", "desc": "Tiszta és kiszámítható URL-ek, készen Markdownhoz és HTML-hez." },
         "save": {
-          "title": "Copy & save actions",
-          "desc": "Copy, open, or save as .txt/.json/.md with one click."
+          "title": "Másolási és mentési műveletek",
+          "desc": "Másolás, megnyitás vagy mentés .txt/.json/.md formátumban egy kattintással."
         },
-        "clipboard": { "title": "Clipboard friendly", "desc": "Paste screenshots without hunting for files or re-uploads." },
-        "errors": { "title": "Friendly errors", "desc": "Clear maintenance messages instead of technical stack traces." },
-        "nosignup": { "title": "No signup needed", "desc": "Ship faster—upload and share immediately." },
-        "r2": { "title": "Fast hosting", "desc": "Links are served via fast CDN for quick loading and reliable access." }
+        "clipboard": { "title": "Vágólap-barát", "desc": "Illessze be a képernyőképeket közvetlenül, fájlkeresés nélkül." },
+        "errors": { "title": "Érthető hibák", "desc": "Egyértelmű üzenetek a bonyolult technikai kódok helyett." },
+        "nosignup": { "title": "Nem kell regisztráció", "desc": "Dolgozzon gyorsabban — töltsön fel és osszon meg azonnal." },
+        "r2": { "title": "Gyors tárhely", "desc": "A linkeket gyors hálózaton keresztül szolgáljuk ki a megbízható elérésért." }
       }
     },
     "testimonials": {
-      "title": "Teams saving time with Photo To URL",
-      "subtitle": "Social proof to reduce risk and speed up adoption.",
+      "title": "Csapatok, amelyek időt spórolnak a Fotó Linkké-vel",
+      "subtitle": "Bevált megoldás a gyorsabb munkavégzéshez.",
       "items": {
         "ops": {
-          "name": "Product Ops",
-          "quote": "We paste screenshots into tickets without clogging attachments. Links stay clean."
+          "name": "Terméküzemeltetés",
+          "quote": "A képernyőképeket hibajegyekbe illesztjük anélkül, hogy telepakolnánk a tárhelyet mellékletekkel. A linkek mindent tisztán tartanak."
         },
         "content": {
-          "name": "Content Lead",
-          "quote": "Markdown-ready links keep our docs tidy and publishable in minutes."
+          "name": "Tartalomkezelő",
+          "quote": "A Markdown linkek rendben tartják a dokumentumainkat, és percek alatt készen állnak a publikálásra."
         },
         "support": {
-          "name": "Support",
-          "quote": "Clear errors and instant URLs make it easy to guide customers in chat."
+          "name": "Ügyfélszolgálat",
+          "quote": "Az egyértelmű hibaüzenetek és az azonnali URL-ek megkönnyítik az ügyfelek segítését a chaten."
         }
       }
     },
     "cta": {
-      "title": "Turn photos into links in seconds",
-      "subtitle": "Drop, paste, or upload—copy your link and share everywhere.",
-      "upload": "Upload now",
-      "paste": "Paste a screenshot"
+      "title": "Alakítsa fotóit linkekké másodpercek alatt",
+      "subtitle": "Húzza be, illessze be vagy töltse fel — másolja a linket és ossza meg bárhol.",
+      "upload": "Feltöltés most",
+      "paste": "Képernyőkép beillesztése"
     },
     "longform": {
-      "title": "Why Photo To URL helps your workflow",
-      "p1": "Photo To URL is built for creators, marketers, support teams, founders, and anyone who needs a quick, reliable way to turn photos into clean links. With a direct upload-to-link flow, you avoid heavy media managers and skip logins. Links are tidy, easy to paste into chat apps, docs, wikis, bug reports, and tickets. Teams move faster when screenshots and product photos are instantly shareable without attachment limits or messy previews. Because the links are predictable and consistent, they also work well in automation, QA steps, and lightweight prototypes.",
-      "p2": "The experience stays simple: drop, paste, or browse; get a link; share. No extra chrome, no distracting ads, no gating. You keep focus on your content while we handle the boring parts of hosting. Whether you are documenting a feature, preparing a blog post, building a pitch deck, or sending a quick support response, a short link beats bulky attachments. For global teams, the interface is available in multiple languages while keeping copy concise and universal.",
+      "title": "Miért segíti szolgáltatásunk a munkafolyamatát?",
+      "p1": "Eszközünket alkotóknak, marketingeseknek, ügyfélszolgálati csapatoknak és mindenkinek készítettük, akinek gyors és megbízható módra van szüksége a fotók tiszta linkekké alakításához. A közvetlen feltöltési folyamattal elkerülheti a nehézkes fájlkezelő rendszereket és kihagyhatja a bejelentkezést. A linkek rendezettek és könnyen beilleszthetők chat alkalmazásokba, dokumentumokba, wikikbe és hibajegyekbe. A csapatok gyorsabban haladnak, ha a képernyőképek és termékfotók azonnal megoszthatók mellékletkorlátok nélkül.",
+      "p2": "Az élmény egyszerű: húzás, beillesztés vagy böngészés; link kérése; megosztás. Felesleges elemek és zavaró hirdetések nélkül. Ön a tartalomra koncentrál, mi pedig gondoskodunk a tárhelyről. Legyen szó funkciók dokumentálásáról vagy blogposzt készítéséről, egy rövid link jobb, mint egy nehéz melléklet.",
       "useCases": {
-        "title": "Use cases that stay practical",
+        "title": "Gyakorlati felhasználási esetek",
         "items": {
-          "1": "Product and design: share UI mocks, component screenshots, and quick visual notes without exporting to heavy tools.",
-          "2": "Support and QA: attach reproducible screenshots in tickets, chat threads, or runbooks; links stay tidy and easy to track.",
-          "3": "Docs and blogs: embed photos in Markdown, HTML, or CMS editors with predictable URLs and no layout surprises.",
-          "4": "Sales and CS: drop proof-of-concept captures or customer walkthroughs straight into email or messaging.",
-          "5": "Engineering handoff: keep build artifacts, error snaps, and regression visuals lightweight for faster reviews.",
-          "6": "Community and socials: paste links into Discord, Slack, Teams, Twitter/X, or forums without bloated previews."
+          "1": "Termék és Design: Osszon meg UI terveket és képernyőképeket bonyolult exportálás nélkül.",
+          "2": "Támogatás és QA: Csatoljon képernyőképeket hibajegyekhez vagy chatekhez; a linkek könnyen követhetők.",
+          "3": "Dokumentumok és Blogok: Ágyazzon be képeket Markdown vagy HTML szerkesztőkbe kiszámítható URL-ekkel.",
+          "4": "Értékesítés és Szerviz: Adjon vizuális bizonyítékot vagy demót közvetlenül e-mailekhez vagy üzenetekhez.",
+          "5": "Fejlesztői átadás: Tartsa a hibajelentéseket vizuálisan könnyednek a gyorsabb áttekintés érdekében.",
+          "6": "Közösségek és Közösségi média: Illesszen be linkeket Discordba, Slackbe vagy fórumokba káosz nélkül."
         }
       },
       "flow": {
-        "title": "How the flow works end-to-end",
-        "p1": "1) Choose an image: drag-and-drop, paste from clipboard, or click to browse. PNG, JPG, WEBP, GIF up to 10MB are supported now. 2) We upload and return a direct link. The UI shows your URL immediately with copy, open, and multi-format save actions (.txt, .json, .md). 3) You reuse the link anywhere: blogs, docs, tickets, chat, prototypes. The goal is a frictionless bridge between your photo and the places you work.",
-        "p2": "Each step is tuned for clarity: visible status, friendly errors, and buttons that confirm actions. The copy button sits next to the link, and the save buttons let you keep the URL in your preferred format for bookmarking or automation. When R2 is enabled, links serve from the CDN domain; if the service is in maintenance, the UI returns a clear message instead of raw errors."
+        "title": "Hogyan működik a teljes folyamat",
+        "p1": "1) Válasszon egy képet: húzza be, illessze be vágólapról vagy kattintson a böngészéshez. 2) Feltöltjük és visszaküldünk egy közvetlen linket. A felület azonnal mutatja az URL-t másolási, megnyitási és mentési műveletekkel (.txt, .json, .md formátumban). 3) Használja a linket bárhol. A cél egy zökkenőmentes híd a fotója és a munkaterülete között.",
+        "p2": "Minden lépést a tisztánlátás jegyében terveztünk: látható állapot, érthető hibák és gombok, amelyek visszaigazolják a műveleteit."
       },
       "best": {
-        "title": "Best practices for cleaner links",
+        "title": "Legjobb gyakorlatok a tiszta linkekhez",
         "items": {
-          "1": "Keep filenames meaningful before upload; they remain part of the URL and help future search.",
-          "2": "Use WEBP or optimized JPG/PNG for lighter payloads if you expect heavy sharing.",
-          "3": "Copy the link directly after generation to avoid stale clipboard entries.",
-          "4": "Save as .json when you need to batch store references for automation or audits.",
-          "5": "Use .md output when embedding in docs or wikis; it is ready to paste.",
-          "6": "Save as .txt for plain text links that are ready to copy and use."
+          "1": "Adjon beszédes nevet a fájloknak feltöltés előtt; ezek az URL részei maradnak.",
+          "2": "Használjon WEBP vagy optimalizált JPG/PNG formátumot a könnyebb fájlokért.",
+          "3": "Másolja ki a linket azonnal a generálás után a vágólap-hibák elkerülése érdekében.",
+          "4": "Mentse .json formátumban, ha automatizáláshoz van szüksége referenciákra.",
+          "5": "Használja az .md kimenetet dokumentumokba vagy wikikbe való beágyazáshoz.",
+          "6": "Mentse .txt formátumban tiszta, szöveges linkekhez, amelyek használatra készek."
         }
       },
       "roadmap": {
-        "title": "Roadmap highlights",
-        "p1": "Upcoming improvements include deeper Cloudflare R2 integration by default, more generous upload limits, optional auth for team spaces, and per-link analytics. We also plan preset link styles, one-click delete, and organization-level buckets. SEO polish continues across blog, docs, and status pages, with richer schema and a public sitemap for fast indexing."
+        "title": "Jövőbeli fejlesztések",
+        "p1": "A közelgő frissítések mélyebb integrációt tartalmaznak tárolási megoldásokkal, nagyobb feltöltési korlátokat, opcionális csapathozzáférést és analitikát minden linkhez."
       },
       "faq": {
-        "title": "FAQs",
+        "title": "Gyakran Ismételt Kérdések",
         "items": {
-          "1": { "q": "Is it free?", "a": "Yes, core upload-to-link is free. CDN-backed hosting via R2 will roll out with generous tiers." },
-          "2": { "q": "What formats are supported?", "a": "PNG, JPG, WEBP, GIF up to 10MB today. More formats can be added based on demand." },
-          "3": { "q": "Can I embed in Markdown or HTML?", "a": "Yes. Copy the link as-is, or use the one-click .txt / .json / .md saves for drop-in snippets." },
-          "4": { "q": "Do you keep my files public?", "a": "Links are shareable; when R2 CDN is enabled, they are served via the CDN domain. We show clear maintenance messages if storage is unavailable." },
-          "5": { "q": "Will there be accounts or teams?", "a": "Planned. We prioritize frictionless uploads first, then add team spaces, access control, and analytics." }
+          "1": { "q": "Ingyenes?", "a": "Igen, az alapvető fotó-link konverzió ingyenes." },
+          "2": { "q": "Milyen formátumok támogatottak?", "a": "Jelenleg PNG, JPG, WEBP, GIF 10MB-ig." },
+          "3": { "q": "Beágyazhatom Markdown-ba vagy HTML-be?", "a": "Igen. Másolja a linket közvetlenül, vagy használja a .md formátumú mentési opciókat." },
+          "4": { "q": "Nyilvánosak a fájljaim?", "a": "A linkek megoszthatóak; ha a CDN engedélyezve van, azon keresztül kerülnek kiszolgálásra." },
+          "5": { "q": "Lesznek csapatfiókok?", "a": "Tervezzük. Előbb az egyszerű feltöltést helyezzük előtérbe, majd hozzáadjuk a csapatmunkatereket." }
         }
       },
       "keywords": {
-        "title": "Keywords we care about",
-        "p1": "photo to url, image to url, photo hosting, shareable links, direct image link, free image hosting, cdn photo link, upload and copy link, paste image to link, instant photo link, blog image links, docs image links, chat image link, markdown image link, html image link, photo cdn, fast image sharing, no signup image host, simple photo hosting, quick image uploader, link generator for photos."
+        "title": "Kulcsszavak",
+        "p1": "fotó url-lé, kép url-lé, képlink generátor, fotó linkké alakítása, ingyenes képtárhely, közvetlen kép url"
       }
     },
     "selectRegion": {
-      "title": "Válassz régiót",
-      "subtitle": "Válaszd ki az előnyben részesített nyelvet és régiót"
+      "title": "Régió kiválasztása",
+      "subtitle": "Válassza ki a kívánt nyelvet és régiót"
     },
     "rateService": {
-      "title": "Értékeld a Fotó URL-konvertert",
+      "title": "Értékelje konvertáló eszközünket",
       "thankYou": "Köszönjük a visszajelzést!",
       "averageRating": "4.5",
-      "votes": "4,992 szavazat"
+      "votes": "4 992 szavazat"
     }
   },
   "seo": {
-    "keywords": "photo to url, image to url, image link generator, convert image to link, free image hosting, direct image url, shareable image links, cdn image links",
+    "keywords": "fotó url-lé, kép url-lé, képlink generátor, ingyenes képtárhely, közvetlen kép url, megosztható linkek, cdn",
     "home": {
-      "title": "Photo To URL Converter | Turn photos into shareable links",
-      "description": "Free image hosting: convert photos to permanent URLs instantly. Supports JPG, PNG, WEBP, GIF up to 10MB. Clipboard paste, fast CDN, clean links for Markdown & HTML."
+      "title": "Fotó Linkké Konvertáló | Alakítsa képeit megosztható linkekké",
+      "description": "Ingyenes képtárhely: Alakítsa fotóit állandó URL-ekké azonnal. Támogatja a JPG, PNG, WEBP, GIF formátumokat 10MB-ig. CDN és tiszta linkek Markdownhoz és HTML-hez."
     }
   },
   "images": {
-    "previewAlt": "Uploaded image preview",
-    "animatingSampleAlt": "Sample image used in upload demo",
-    "sampleThumbAlt": "Sample upload image",
-    "useSampleAria": "Use this sample image",
-    "howIllustrationAlt": "Illustration showing how Photo To URL works",
-    "heroDropTitle": "Drag a photo here",
-    "heroDropSubtitle": "We'll enhance and host it, then return a clean link.",
-    "heroDropBadge": "Drag or click (JPG/PNG, up to 10MB)",
-    "logoAlt": "Photo To URL logo"
+    "previewAlt": "Feltöltött kép előnézete",
+    "animatingSampleAlt": "A demóban használt mintakép",
+    "sampleThumbAlt": "Mintakép feltöltéshez",
+    "useSampleAria": "Használja ezt a mintaképet",
+    "howIllustrationAlt": "Illusztráció a Fotó Linkké működéséről",
+    "heroDropTitle": "Húzza ide a fotót",
+    "heroDropSubtitle": "Optimalizáljuk és tároljuk, majd adunk egy tiszta linket.",
+    "heroDropBadge": "Húzás vagy kattintás (JPG/PNG, 10MB-ig)",
+    "logoAlt": "Fotó Linkké Logó"
   },
   "circleCrop": {
-    "title": "Fotó Körbe",
-    "description": "Ingyenes online körkörös fotó vágó eszköz, könnyedén vágjon bármilyen fotót tökéletes körbe - tökéletes profilképekhez, közösségi médiához és design projektekhez.",
+    "title": "Fotó kör alakú vágása",
+    "description": "Ingyenes online eszköz fotók kör alakú vágásához — alakítson bármilyen képet tökéletes körré profilképekhez és designokhoz.",
     "upload": "Fotó feltöltése",
     "processing": "Feldolgozás...",
-    "download": "Körkörös fotó letöltése",
-    "errorSelectFile": "Kérjük, válasszon egy fotófájlt",
-    "errorUploadFirst": "Kérjük, először töltsön fel egy fotót",
+    "download": "Kör alakú kép letöltése",
+    "errorSelectFile": "Kérjük, válasszon egy képfájlt",
+    "errorUploadFirst": "Kérjük, előbb töltsön fel egy fotót",
     "page": {
-      "title": "Fotó Körbe - Ingyenes Online Kerek Fotó Vágó",
-      "description": "Fotó Körbe egy ingyenes online eszköz téglalap alakú fotók tökéletes körkörös formákká alakításához. Eszközünk segít azonnal körkörös formátumban vágni a fotókat, regisztráció nélkül. Akár kerek profilképet, közösségi médiához körkörös fotót, vagy design projektekhez kerekített fotót igényel, körkörös fotó vágó eszközünk egyszerűvé és könnyűvé teszi."
+      "title": "Fotó kör alakú vágása - Ingyenes online eszköz",
+      "description": "Ez az eszköz egy ingyenes online szolgáltatás téglalap alakú fotók tökéletes körré alakításához regisztráció nélkül."
     },
     "seo": {
-      "title": "Fotó Körbe | Ingyenes Online Körkörös Vágó",
-      "description": "Ingyenes online eszköz bármilyen fotó tökéletes körbe vágásához - tökéletes profilképekhez, közösségi médiához és design projektekhez."
+      "title": "Fotó kör alakú vágása | Ingyenes online vágás",
+      "description": "Ingyenes online eszköz fotók tökéletes körré vágásához - ideális profilképekhez és közösségi médiához."
     },
     "selectRegion": {
       "title": "Régió kiválasztása",
-      "subtitle": "Válassza ki az előnyben részesített nyelvet és régiót"
+      "subtitle": "Válassza ki a nyelvet és a régiót"
     },
     "rateService": {
-      "title": "Fotó Körbe értékelése",
+      "title": "Értékelje a körvágó eszközt",
       "thankYou": "Köszönjük a visszajelzést!",
       "averageRating": "4.5",
-      "votes": "4,992 szavazat"
+      "votes": "4 992 szavazat"
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog | Fotó Linkké",
+      "description": "Cikkek a képtárhelyről, linkmegosztásról és produktivitási tippek."
+    },
+    "page": {
+      "title": "Blog",
+      "description": "Cikkeket készítünk a képtárhelyekről, CDN-ről és SEO tippekről. Hamarosan.",
+      "stayTuned": "Figyelje útmutatóinkat a következő témákban:",
+      "guides": {
+        "1": "Legjobb gyakorlatok kép-link konverzióhoz",
+        "2": "Hogyan használjunk közvetlen fotólinkeket blogokban és doksikban",
+        "3": "Teljesítmény és gyorsítótárazás statikus fájlokhoz"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Dokumentáció | Fotó Linkké",
+      "description": "Dokumentáció a szolgáltatásunkhoz."
+    },
+    "page": {
+      "title": "Dokumentáció",
+      "description": "Gyors indítás: töltsön fel egy képet és kapjon közvetlen URL-t. Használja a másolás gombokat vagy töltse le a linket .txt/.json/.md formátumban.",
+      "features": {
+        "title": "Támogatott funkciók:",
+        "items": {
+          "1": "Támogatott: JPG, PNG, WEBP, GIF",
+          "2": "Gyors kézbesítés CDN-en keresztül",
+          "3": "Barátságos hibaüzenetek karbantartás alatt"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Állapot | Fotó Linkké",
+      "description": "Rendszereink állapota."
+    },
+    "page": {
+      "title": "Állapot",
+      "description": "Minden rendszer megfelelően működik.",
+      "message": "A feltöltési API és a CDN linkek aktívak."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Kapcsolat | Fotó Linkké",
+      "description": "Lépjen kapcsolatba az ügyfélszolgálattal."
+    },
+    "page": {
+      "title": "Kapcsolat",
+      "description": "Segítségre van szüksége vagy visszajelzést küldene? Írjon nekünk e-mailt, és a lehető leghamarabb válaszolunk.",
+      "email": {
+        "label": "E-mail",
+        "address": "leeqs1010@gmail.com"
+      }
     }
   }
 }
-

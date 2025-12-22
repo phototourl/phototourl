@@ -1,34 +1,46 @@
 import type { Metadata } from "next";
 import { siteUrl } from "@/app/seo-metadata";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Contact | Photo To URL",
-  description: "Contact Photo To URL support.",
-  alternates: {
-    canonical: `${siteUrl}/contact`,
-  },
-  openGraph: {
-    title: "Contact | Photo To URL",
-    description: "Contact Photo To URL support.",
-    url: `${siteUrl}/contact`,
-  },
-  twitter: {
-    title: "Contact | Photo To URL",
-    description: "Contact Photo To URL support.",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = "en";
+  const t = await getTranslations({ locale, namespace: "contact.seo" });
+  const canonicalPath = "/contact";
+  const canonicalUrl = `${siteUrl}${canonicalPath}`;
+  
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: t("title"),
+      description: t("description"),
+      url: canonicalUrl,
+    },
+    twitter: {
+      title: t("title"),
+      description: t("description"),
+    },
+  };
+}
 
-export default function ContactPage() {
+export default async function ContactPage() {
+  const locale = "en";
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "contact.page" });
+  
   return (
     <div className="mx-auto max-w-3xl px-6 py-12">
-      <h1 className="text-3xl font-bold text-slate-900">Contact</h1>
+      <h1 className="text-3xl font-bold text-slate-900">{t("title")}</h1>
       <p className="mt-3 text-slate-600">
-        Need help or want to share feedback? Email us and we&apos;ll keep an eye on inbox and get back to you as soon as possible.
+        {t("description")}
       </p>
       <div className="mt-6 rounded-lg border border-slate-200 bg-white p-4 text-sm">
-        <div className="font-semibold text-slate-900">Email</div>
-        <a className="mt-1 inline-block text-blue-600 hover:underline" href="mailto:leeqs1010@gmail.com">
-          leeqs1010@gmail.com
+        <div className="font-semibold text-slate-900">{t("email.label")}</div>
+        <a className="mt-1 inline-block text-blue-600 hover:underline" href={`mailto:${t("email.address")}`}>
+          {t("email.address")}
         </a>
       </div>
     </div>

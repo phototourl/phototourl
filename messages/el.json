@@ -1,247 +1,306 @@
 {
   "common": {
-    "siteName": "Photo To URL",
-    "tagline": "Turn photos into clean, shareable links in seconds",
+    "siteName": "Φωτογραφία σε URL",
+    "tagline": "Μετατρέψτε τις φωτογραφίες σε καθαρούς, κοινοποιήσιμους συνδέσμους σε δευτερόλεπτα",
     "header": {
-      "subtitle": "Turn images into shareable links",
-      "prompt": "Drop, paste, or upload — get a shareable link instantly"
+      "subtitle": "Μετατρέψτε εικόνες σε κοινοποιήσιμους συνδέσμους",
+      "prompt": "Σύρετε, επικολλήστε ή ανεβάστε — αποκτήστε έναν σύνδεσμο αμέσως",
+      "circleCrop": "Κυκλική Περικοπή Φωτογραφίας"
     },
     "footer": {
       "blurb": {
-        "line1": "Turn photos into clean, shareable links.",
-        "line2": "Fast, simple, reliable."
+        "line1": "Μετατρέψτε τις φωτογραφίες σε καθαρούς συνδέσμους.",
+        "line2": "Γρήγορα, απλά, αξιόπιστα."
       },
-      "partners": "Partners",
-      "linksTitle": "Links",
-      "productsTitle": "Products",
+      "partners": "Συνεργάτες",
+      "linksTitle": "Σύνδεσμοι",
+      "productsTitle": "Προϊόντα",
       "nav": {
-        "home": "Home",
+        "home": "Αρχική",
         "blog": "Blog",
-        "docs": "Docs",
-        "status": "Status",
-        "contact": "Contact"
+        "docs": "Έγγραφα",
+        "status": "Κατάσταση",
+        "contact": "Επικοινωνία"
       },
       "legal": {
-        "privacy": "Privacy",
-        "terms": "Terms"
+        "privacy": "Απόρρητο",
+        "terms": "Όροι"
       },
       "copyright": "© 2025 Photo To URL. All rights reserved."
     }
   },
   "home": {
     "badge": {
-      "free": "Free",
-      "cdn": "CDN links",
-      "nosignup": "No signup"
+      "free": "Δωρεάν",
+      "cdn": "Σύνδεσμοι CDN",
+      "nosignup": "Χωρίς εγγραφή"
     },
     "hero": {
-      "title1": "Free",
-      "title2": "Photo To URL",
-      "subtitle": "Upload → get a link → paste anywhere.",
-      "upload": "Upload image",
+      "title1": "Δωρεάν",
+      "title2": "Φωτογραφία σε URL",
+      "subtitle": "Ανεβάστε → λάβετε σύνδεσμο → επικολλήστε οπουδήποτε.",
+      "upload": "Ανέβασμα εικόνας",
       "bullet": {
-        "fast": "Fast sharing",
-        "direct": "Direct photo links",
-        "nosignup": "No signup required",
-        "paste": "Paste from clipboard"
+        "fast": "Γρήγορη κοινοποίηση",
+        "direct": "Άμεσοι σύνδεσμοι φωτογραφιών",
+        "nosignup": "Δεν απαιτείται εγγραφή",
+        "paste": "Επικόλληση από το πρόχειρο"
       }
     },
     "demo": {
       "label": "Demo",
-      "loop": "Auto demo",
-      "idleTitle": "Drag & drop your image",
-      "idleSubtitle": "See the full upload → link → copy flow.",
-      "processing": "Optimizing & uploading...",
-      "doneTitle": "Ready to share",
-      "doneSubtitle": "Your link is ready to share instantly.",
-      "thanksForWatching": "Thanks for watching"
+      "loop": "Αυτόματο demo",
+      "idleTitle": "Σύρετε και αφήστε την εικόνα σας",
+      "idleSubtitle": "Δείτε όλη τη διαδικασία: ανέβασμα → σύνδεσμος → αντιγραφή.",
+      "processing": "Βελτιστοποίηση και ανέβασμα...",
+      "doneTitle": "Έτοιμο για κοινοποίηση",
+      "doneSubtitle": "Ο σύνδεσμός σας είναι έτοιμος για άμεση χρήση.",
+      "thanksForWatching": "Ευχαριστούμε για την παρακολούθηση"
     },
     "upload": {
-      "title": "Drop a photo or click to browse",
-      "hint": "JPG, PNG, WEBP, GIF up to 10MB. Drag & drop, click, or paste screenshots.",
-      "orDrop": "or drop a file",
-      "samplesTitle": "No image? Try one of these:",
-      "policy": "By uploading an image you agree to our <privacy>Privacy Policy</privacy> and <terms>Terms of Use</terms>.",
-      "clear": "Clear"
+      "title": "Αφήστε μια φωτογραφία ή κάντε κλικ για περιήγηση",
+      "hint": "JPG, PNG, WEBP, GIF έως 10MB. Σύρετε, κάντε κλικ ή επικολλήστε screenshot.",
+      "orDrop": "ή αφήστε το αρχείο εδώ",
+      "samplesTitle": "Δεν έχετε εικόνα; Δοκιμάστε μία από αυτές:",
+      "policy": "Ανεβάζοντας μια εικόνα, συμφωνείτε με την <privacy>Πολιτική Απορρήτου</privacy> και τους <terms>Όρους Χρήσης</terms> μας.",
+      "clear": "Καθαρισμός"
     },
     "result": {
-      "error": "Upload failed. Please try again.",
-      "generated": "Generated link:",
-      "open": "Open in new tab",
-      "placeholder": "No link yet. Upload a photo to generate a shareable URL.",
-      "savePrompt": "Save link as you like",
-      "copy": "Copy link",
-      "copied": "Copied"
+      "error": "Το ανέβασμα απέτυχε. Παρακαλούμε δοκιμάστε ξανά.",
+      "generated": "Σύνδεσμος που δημιουργήθηκε:",
+      "open": "Άνοιγμα σε νέα καρτέλα",
+      "placeholder": "Δεν υπάρχει σύνδεσμος ακόμα. Ανεβάστε μια φωτογραφία για να δημιουργήσετε ένα URL.",
+      "savePrompt": "Αποθηκεύστε τον σύνδεσμο όπως προτιμάτε",
+      "copy": "Αντιγραφή συνδέσμου",
+      "copied": "Αντιγράφηκε"
     },
     "benefits": {
-      "title": "Why people choose Photo To URL",
-      "subtitle": "Speed, clean links, and no signup needed.",
+      "title": "Γιατί οι χρήστες επιλέγουν το Φωτογραφία σε URL",
+      "subtitle": "Ταχύτητα, καθαροί σύνδεσμοι και χωρίς ανάγκη εγγραφής.",
       "items": {
-        "fast": { "title": "Fast sharing", "desc": "Upload and get a link in seconds with no extra steps." },
-        "direct": { "title": "Direct image URLs", "desc": "Clean links that work in HTML, Markdown, and chat apps." },
-        "nosignup": { "title": "No signup required", "desc": "Use it right away. Accounts can come later as we grow." }
+        "fast": { "title": "Γρήγορη κοινοποίηση", "desc": "Ανεβάστε και λάβετε σύνδεσμο σε δευτερόλεπτα χωρίς περιττά βήματα." },
+        "direct": { "title": "Άμεσα URL", "desc": "Καθαροί σύνδεσμοι που λειτουργούν σε HTML, Markdown και εφαρμογές συνομιλίας." },
+        "nosignup": { "title": "Χωρίς εγγραφή", "desc": "Χρησιμοποιήστε το αμέσως. Οι λογαριασμοί θα προστεθούν αργότερα." }
       }
     },
     "how": {
-      "title": "How it works",
-      "step1": "1) Add your photo (drag, paste, or click to pick a file).",
-      "step2": "2) We host it and return a shareable link.",
-      "step3": "3) Copy and share the link anywhere you work.",
-      "note": "Your link opens fast in docs, chats, and prototypes—plus you can download it in the format you like (.txt/.json/.md)."
+      "title": "Πώς λειτουργεί",
+      "step1": "1) Προσθέστε τη φωτογραφία σας (σύρετε, επικολλήστε ή επιλέξτε αρχείο).",
+      "step2": "2) Τη φιλοξενούμε και σας δίνουμε έναν σύνδεσμο κοινοποίησης.",
+      "step3": "3) Αντιγράψτε και επικολλήστε τον σύνδεσμο οπουδήποτε.",
+      "note": "Ο σύνδεσμός σας ανοίγει γρήγορα σε έγγραφα, συνομιλίες και πρωτότυπα — επιπλέον μπορείτε να τον κατεβάσετε σε μορφή .txt/.json/.md."
     },
     "process": {
-      "title": "Three-step flow",
-      "subtitle": "Reduce effort, keep the CTA visible, finish in seconds.",
+      "title": "Διαδικασία τριών βημάτων",
+      "subtitle": "Μειώστε την προσπάθεια, μείνετε συγκεντρωμένοι, τελειώστε σε δευτερόλεπτα.",
       "steps": {
-        "1": { "title": "Drop or paste", "desc": "Drag a file, paste from clipboard, or browse." },
-        "2": { "title": "We host & return a link", "desc": "Instant URL with copy/open/save controls." },
-        "3": { "title": "Share anywhere", "desc": "Paste into docs, chats, tickets, blogs, or prototypes." }
+        "1": { "title": "Αφήστε ή επικολλήστε", "desc": "Σύρετε ένα αρχείο, επικολλήστε από το πρόχειρο ή περιηγηθείτε στον υπολογιστή σας." },
+        "2": { "title": "Φιλοξενούμε και συνδέουμε", "desc": "Άμεσο URL με επιλογές για αντιγραφή, άνοιγμα ή αποθήκευση." },
+        "3": { "title": "Κοινοποιήστε παντού", "desc": "Επικολλήστε σε έγγραφα, συνομιλίες, tickets, blogs ή πρωτότυπα." }
       }
     },
     "features": {
-      "title": "Feature highlights",
-      "subtitle": "Clarity first: less friction, more sharing.",
+      "title": "Κύρια Χαρακτηριστικά",
+      "subtitle": "Προτεραιότητα στην καθαρότητα: λιγότερη τριβή, περισσότερη κοινοποίηση.",
       "items": {
-        "cdn": { "title": "Direct CDN links", "desc": "Clean, predictable URLs ready for Markdown and HTML embeds." },
+        "cdn": { "title": "Άμεσοι σύνδεσμοι CDN", "desc": "Καθαρά και προβλέψιμα URL, έτοιμα για ενσωμάτωση σε Markdown και HTML." },
         "save": {
-          "title": "Copy & save actions",
-          "desc": "Copy, open, or save as .txt/.json/.md with one click."
+          "title": "Ενέργειες Αντιγραφής & Αποθήκευσης",
+          "desc": "Αντιγραφή, άνοιγμα ή αποθήκευση ως .txt/.json/.md με ένα κλικ."
         },
-        "clipboard": { "title": "Clipboard friendly", "desc": "Paste screenshots without hunting for files or re-uploads." },
-        "errors": { "title": "Friendly errors", "desc": "Clear maintenance messages instead of technical stack traces." },
-        "nosignup": { "title": "No signup needed", "desc": "Ship faster—upload and share immediately." },
-        "r2": { "title": "Fast hosting", "desc": "Links are served via fast CDN for quick loading and reliable access." }
+        "clipboard": { "title": "Φιλικό προς το Πρόχειρο", "desc": "Επικολλήστε screenshots απευθείας χωρίς αναζήτηση αρχείων." },
+        "errors": { "title": "Κατανοητά σφάλματα", "desc": "Σαφή μηνύματα αντί για περίπλοκους τεχνικούς κώδικες." },
+        "nosignup": { "title": "Δεν απαιτείται εγγραφή", "desc": "Δουλέψτε πιο γρήγορα — ανεβάστε και κοινοποιήστε αμέσως." },
+        "r2": { "title": "Γρήγορη φιλοξενία", "desc": "Σύνδεσμοι που εξυπηρετούνται μέσω γρήγορου δικτύου για αξιόπιστη πρόσβαση." }
       }
     },
     "testimonials": {
-      "title": "Teams saving time with Photo To URL",
-      "subtitle": "Social proof to reduce risk and speed up adoption.",
+      "title": "Ομάδες που εξοικονομούν χρόνο με το Φωτογραφία σε URL",
+      "subtitle": "Μια δοκιμασμένη λύση για ταχύτερη εργασία.",
       "items": {
         "ops": {
           "name": "Product Ops",
-          "quote": "We paste screenshots into tickets without clogging attachments. Links stay clean."
+          "quote": "Επικολλούμε screenshots σε tickets χωρίς να επιβαρύνουμε τα συνημμένα αρχεία. Οι σύνδεσμοι διατηρούν τα πάντα καθαρά."
         },
         "content": {
           "name": "Content Lead",
-          "quote": "Markdown-ready links keep our docs tidy and publishable in minutes."
+          "quote": "Οι σύνδεσμοι Markdown διατηρούν τα έγγραφά μας τακτοποιημένα και έτοιμα για δημοσίευση σε λίγα λεπτά."
         },
         "support": {
           "name": "Support",
-          "quote": "Clear errors and instant URLs make it easy to guide customers in chat."
+          "quote": "Τα σαφή μηνύματα σφάλματος και τα άμεσα URL διευκολύνουν την καθοδήγηση των πελατών στη συνομιλία."
         }
       }
     },
     "cta": {
-      "title": "Turn photos into links in seconds",
-      "subtitle": "Drop, paste, or upload—copy your link and share everywhere.",
-      "upload": "Upload now",
-      "paste": "Paste a screenshot"
+      "title": "Μετατρέψτε φωτογραφίες σε συνδέσμους σε δευτερόλεπτα",
+      "subtitle": "Αφήστε, επικολλήστε ή ανεβάστε — αντιγράψτε τον σύνδεσμο και κοινοποιήστε παντού.",
+      "upload": "Ανέβασμα τώρα",
+      "paste": "Επικόλληση screenshot"
     },
     "longform": {
-      "title": "Why Photo To URL helps your workflow",
-      "p1": "Photo To URL is built for creators, marketers, support teams, founders, and anyone who needs a quick, reliable way to turn photos into clean links. With a direct upload-to-link flow, you avoid heavy media managers and skip logins. Links are tidy, easy to paste into chat apps, docs, wikis, bug reports, and tickets. Teams move faster when screenshots and product photos are instantly shareable without attachment limits or messy previews. Because the links are predictable and consistent, they also work well in automation, QA steps, and lightweight prototypes.",
-      "p2": "The experience stays simple: drop, paste, or browse; get a link; share. No extra chrome, no distracting ads, no gating. You keep focus on your content while we handle the boring parts of hosting. Whether you are documenting a feature, preparing a blog post, building a pitch deck, or sending a quick support response, a short link beats bulky attachments. For global teams, the interface is available in multiple languages while keeping copy concise and universal.",
+      "title": "Γιατί η υπηρεσία μας βοηθά τη ροή εργασίας σας",
+      "p1": "Το εργαλείο μας είναι φτιαγμένο για δημιουργούς, marketers, ομάδες υποστήριξης και οποιονδήποτε χρειάζεται έναν γρήγορο τρόπο να μετατρέπει φωτογραφίες σε καθαρούς συνδέσμους. Με την άμεση ροή από το ανέβασμα στον σύνδεσμο, αποφεύγετε τους βαριούς διαχειριστές αρχείων και παρακάμπτετε την είσοδο σε λογαριασμούς. Οι σύνδεσμοι είναι τακτοποιημένοι και εύκολοι στην επικόλληση σε εφαρμογές συνομιλίας, έγγραφα, wikis και tickets. Οι ομάδες κινούνται ταχύτερα όταν τα screenshots και οι εικόνες προϊόντων είναι άμεσα κοινοποιήσιμα χωρίς περιορισμούς συνημμένων αρχείων.",
+      "p2": "Η εμπειρία είναι απλή: αφήστε, επικολλήστε ή περιηγηθείτε, λάβετε σύνδεσμο, κοινοποιήστε. Χωρίς περιττά στοιχεία ή ενοχλητικές διαφημίσεις. Εσείς εστιάζετε στο περιεχόμενο, ενώ εμείς φροντίζουμε τη φιλοξενία. Είτε τεκμηριώνετε μια λειτουργία είτε προετοιμάζετε ένα blog post, ένας σύντομος σύνδεσμος είναι καλύτερος από ένα βαρύ συνημμένο.",
       "useCases": {
-        "title": "Use cases that stay practical",
+        "title": "Πρακτικές περιπτώσεις χρήσης",
         "items": {
-          "1": "Product and design: share UI mocks, component screenshots, and quick visual notes without exporting to heavy tools.",
-          "2": "Support and QA: attach reproducible screenshots in tickets, chat threads, or runbooks; links stay tidy and easy to track.",
-          "3": "Docs and blogs: embed photos in Markdown, HTML, or CMS editors with predictable URLs and no layout surprises.",
-          "4": "Sales and CS: drop proof-of-concept captures or customer walkthroughs straight into email or messaging.",
-          "5": "Engineering handoff: keep build artifacts, error snaps, and regression visuals lightweight for faster reviews.",
-          "6": "Community and socials: paste links into Discord, Slack, Teams, Twitter/X, or forums without bloated previews."
+          "1": "Προϊόν & Σχεδίαση: Κοινοποιήστε UI μακέτες και screenshots χωρίς περίπλοκες εξαγωγές.",
+          "2": "Υποστήριξη & QA: Επισυνάψτε screenshots σε tickets ή συνομιλίες. Οι σύνδεσμοι είναι εύκολοι στην παρακολούθηση.",
+          "3": "Έγγραφα & Blogs: Ενσωματώστε εικόνες σε Markdown ή HTML με προβλέψιμα URL.",
+          "4": "Πωλήσεις & Εξυπηρέτηση: Προσθέστε οπτικές αποδείξεις ή demos απευθείας σε emails ή μηνύματα.",
+          "5": "Engineering Handoff: Διατηρήστε τις αναφορές σφαλμάτων οπτικά ελαφριές για γρήγορη αναθεώρηση.",
+          "6": "Κοινότητες & Κοινωνικά Δίκτυα: Επικολλήστε συνδέσμους σε Discord, Slack ή forums χωρίς ακαταστασία."
         }
       },
       "flow": {
-        "title": "How the flow works end-to-end",
-        "p1": "1) Choose an image: drag-and-drop, paste from clipboard, or click to browse. PNG, JPG, WEBP, GIF up to 10MB are supported now. 2) We upload and return a direct link. The UI shows your URL immediately with copy, open, and multi-format save actions (.txt, .json, .md). 3) You reuse the link anywhere: blogs, docs, tickets, chat, prototypes. The goal is a frictionless bridge between your photo and the places you work.",
-        "p2": "Each step is tuned for clarity: visible status, friendly errors, and buttons that confirm actions. The copy button sits next to the link, and the save buttons let you keep the URL in your preferred format for bookmarking or automation. When R2 is enabled, links serve from the CDN domain; if the service is in maintenance, the UI returns a clear message instead of raw errors."
+        "title": "Πώς λειτουργεί όλη η διαδικασία",
+        "p1": "1) Επιλέξτε μια εικόνα: σύρετε και αφήστε, επικολλήστε από το πρόχειρο ή κάντε κλικ για περιήγηση. 2) Ανεβάζουμε και επιστρέφουμε έναν άμεσο σύνδεσμο. Το περιβάλλον χρήστη δείχνει το URL σας αμέσως με ενέργειες για αντιγραφή, άνοιγμα και αποθήκευση σε διάφορες μορφές (.txt, .json, .md). 3) Χρησιμοποιήστε τον σύνδεσμο παντού. Ο στόχος είναι μια απρόσκοπτη γέφυρα μεταξύ της φωτογραφίας σας και του χώρου εργασίας σας.",
+        "p2": "Κάθε βήμα είναι σχεδιασμένο για σαφήνεια: ορατή κατάσταση, κατανοητά σφάλματα και κουμπιά που επιβεβαιώνουν τις ενέργειές σας."
       },
       "best": {
-        "title": "Best practices for cleaner links",
+        "title": "Βέλτιστες πρακτικές για καθαρούς συνδέσμους",
         "items": {
-          "1": "Keep filenames meaningful before upload; they remain part of the URL and help future search.",
-          "2": "Use WEBP or optimized JPG/PNG for lighter payloads if you expect heavy sharing.",
-          "3": "Copy the link directly after generation to avoid stale clipboard entries.",
-          "4": "Save as .json when you need to batch store references for automation or audits.",
-          "5": "Use .md output when embedding in docs or wikis; it is ready to paste.",
-          "6": "Save as .txt for plain text links that are ready to copy and use."
+          "1": "Δώστε ουσιαστικά ονόματα στα αρχεία σας πριν το ανέβασμα, καθώς παραμένουν μέρος του URL.",
+          "2": "Χρησιμοποιήστε WEBP ή βελτιστοποιημένα JPG/PNG για ελαφρύτερα αρχεία.",
+          "3": "Αντιγράψτε τον σύνδεσμο αμέσως για να αποφύγετε σφάλματα στο πρόχειρο.",
+          "4": "Αποθηκεύστε ως .json όταν χρειάζεται να κρατήσετε αναφορές για αυτοματοποίηση.",
+          "5": "Χρησιμοποιήστε την έξοδο .md για ενσωμάτωση σε έγγραφα ή wikis.",
+          "6": "Αποθηκεύστε ως .txt για καθαρούς συνδέσμους κειμένου έτοιμους για χρήση."
         }
       },
       "roadmap": {
-        "title": "Roadmap highlights",
-        "p1": "Upcoming improvements include deeper Cloudflare R2 integration by default, more generous upload limits, optional auth for team spaces, and per-link analytics. We also plan preset link styles, one-click delete, and organization-level buckets. SEO polish continues across blog, docs, and status pages, with richer schema and a public sitemap for fast indexing."
+        "title": "Μελλοντικές βελτιώσεις",
+        "p1": "Οι επερχόμενες αναβαθμίσεις περιλαμβάνουν βαθύτερη ενσωμάτωση με λύσεις αποθήκευσης, μεγαλύτερα όρια ανεβάσματος, προαιρετική πρόσβαση για ομάδες και αναλυτικά στοιχεία για κάθε σύνδεσμο."
       },
       "faq": {
-        "title": "FAQs",
+        "title": "Συχνές Ερωτήσεις",
         "items": {
-          "1": { "q": "Is it free?", "a": "Yes, core upload-to-link is free. CDN-backed hosting via R2 will roll out with generous tiers." },
-          "2": { "q": "What formats are supported?", "a": "PNG, JPG, WEBP, GIF up to 10MB today. More formats can be added based on demand." },
-          "3": { "q": "Can I embed in Markdown or HTML?", "a": "Yes. Copy the link as-is, or use the one-click .txt / .json / .md saves for drop-in snippets." },
-          "4": { "q": "Do you keep my files public?", "a": "Links are shareable; when R2 CDN is enabled, they are served via the CDN domain. We show clear maintenance messages if storage is unavailable." },
-          "5": { "q": "Will there be accounts or teams?", "a": "Planned. We prioritize frictionless uploads first, then add team spaces, access control, and analytics." }
+          "1": { "q": "Είναι δωρεάν;", "a": "Ναι, η βασική μετατροπή φωτογραφίας σε σύνδεσμο είναι δωρεάν." },
+          "2": { "q": "Ποιες μορφές υποστηρίζονται;", "a": "Επί του παρόντος PNG, JPG, WEBP, GIF έως 10MB." },
+          "3": { "q": "Μπορώ να κάνω ενσωμάτωση σε Markdown ή HTML;", "a": "Ναι. Αντιγράψτε τον σύνδεσμο απευθείας ή χρησιμοποιήστε τις επιλογές αποθήκευσης σε μορφή .md." },
+          "4": { "q": "Είναι τα αρχεία μου δημόσια;", "a": "Οι σύνδεσμοι είναι κοινοποιήσιμοι. Όταν είναι ενεργοποιημένο το CDN, εξυπηρετούνται μέσω του τομέα του." },
+          "5": { "q": "Θα υπάρχουν λογαριασμοί για ομάδες;", "a": "Είναι προγραμματισμένο. Δίνουμε προτεραιότητα στο απλό ανέβασμα και στη συνέχεια θα προσθέσουμε ομαδικούς χώρους." }
         }
       },
       "keywords": {
-        "title": "Keywords we care about",
-        "p1": "photo to url, image to url, photo hosting, shareable links, direct image link, free image hosting, cdn photo link, upload and copy link, paste image to link, instant photo link, blog image links, docs image links, chat image link, markdown image link, html image link, photo cdn, fast image sharing, no signup image host, simple photo hosting, quick image uploader, link generator for photos."
+        "title": "Λέξεις-κλειδιά",
+        "p1": "φωτογραφία σε url, εικόνα σε url, δημιουργία συνδέσμων εικόνας, μετατροπή φωτογραφίας σε σύνδεσμο, δωρεάν φιλοξενία εικόνων, άμεσο url εικόνας"
       }
     },
     "selectRegion": {
-      "title": "Επιλέξτε περιοχή",
-      "subtitle": "Επιλέξτε την προτιμώμενη γλώσσα και περιοχή σας"
+      "title": "Επιλογή Περιοχής",
+      "subtitle": "Επιλέξτε τη γλώσσα και την περιοχή που προτιμάτε"
     },
     "rateService": {
-      "title": "Αξιολογήστε τον Μετατροπέα Φωτογραφιών σε URL",
-      "thankYou": "Ευχαριστούμε για τα σχόλιά σας!",
+      "title": "Αξιολογήστε τον μετατροπέα μας",
+      "thankYou": "Σας ευχαριστούμε για την κριτική σας!",
       "averageRating": "4.5",
-      "votes": "4,992 ψήφοι"
+      "votes": "4.992 ψήφοι"
     }
   },
   "seo": {
-    "keywords": "photo to url, image to url, image link generator, convert image to link, free image hosting, direct image url, shareable image links, cdn image links",
+    "keywords": "φωτογραφία σε url, εικόνα σε url, δημιουργία συνδέσμων εικόνας, δωρεάν φιλοξενία εικόνων, άμεσο url εικόνας, κοινοποιήσιμοι σύνδεσμοι, cdn",
     "home": {
-      "title": "Photo To URL Converter | Turn photos into shareable links",
-      "description": "Free image hosting: convert photos to permanent URLs instantly. Supports JPG, PNG, WEBP, GIF up to 10MB. Clipboard paste, fast CDN, clean links for Markdown & HTML."
+      "title": "Μετατροπέας Φωτογραφίας σε URL | Μετατρέψτε εικόνες σε συνδέσμους",
+      "description": "Δωρεάν φιλοξενία εικόνων: Μετατρέψτε φωτογραφίες σε μόνιμα URL αμέσως. Υποστηρίζει JPG, PNG, WEBP, GIF έως 10MB. CDN και καθαροί σύνδεσμοι για Markdown και HTML."
     }
   },
   "images": {
-    "previewAlt": "Uploaded image preview",
-    "animatingSampleAlt": "Sample image used in upload demo",
-    "sampleThumbAlt": "Sample upload image",
-    "useSampleAria": "Use this sample image",
-    "howIllustrationAlt": "Illustration showing how Photo To URL works",
-    "heroDropTitle": "Drag a photo here",
-    "heroDropSubtitle": "We'll enhance and host it, then return a clean link.",
-    "heroDropBadge": "Drag or click (JPG/PNG, up to 10MB)",
-    "logoAlt": "Photo To URL logo"
+    "previewAlt": "Προεπισκόπηση ανεβασμένης εικόνας",
+    "animatingSampleAlt": "Δείγμα εικόνας που χρησιμοποιείται στο demo",
+    "sampleThumbAlt": "Μικρογραφία δείγματος για ανέβασμα",
+    "useSampleAria": "Χρησιμοποιήστε αυτή τη δείγμα εικόνας",
+    "howIllustrationAlt": "Εικονογράφηση που δείχνει πώς λειτουργεί το Φωτογραφία σε URL",
+    "heroDropTitle": "Αφήστε τη φωτογραφία εδώ",
+    "heroDropSubtitle": "Θα τη βελτιστοποιήσουμε και θα τη φιλοξενήσουμε, επιστρέφοντας έναν καθαρό σύνδεσμο.",
+    "heroDropBadge": "Αφήστε ή κάντε κλικ (JPG/PNG, έως 10MB)",
+    "logoAlt": "Λογότυπο Φωτογραφία σε URL"
   },
   "circleCrop": {
-    "title": "Φωτογραφία σε Κύκλο",
-    "description": "Δωρεάν online εργαλείο για κοπή φωτογραφιών σε κύκλο, κόψτε εύκολα οποιαδήποτε φωτογραφία σε τέλειο κύκλο - ιδανικό για προφίλ, κοινωνικά δίκτυα και σχέδια σχεδίασης.",
+    "title": "Κυκλική Περικοπή Φωτογραφίας",
+    "description": "Δωρεάν online εργαλείο για κυκλική περικοπή φωτογραφιών — μετατρέψτε οποιαδήποτε εικόνα σε τέλειο κύκλο για φωτογραφίες προφίλ και σχέδια.",
     "upload": "Ανέβασμα φωτογραφίας",
     "processing": "Επεξεργασία...",
     "download": "Λήψη κυκλικής φωτογραφίας",
-    "errorSelectFile": "Παρακαλώ επιλέξτε αρχείο φωτογραφίας",
-    "errorUploadFirst": "Παρακαλώ ανεβάστε πρώτα μια φωτογραφία",
+    "errorSelectFile": "Παρακαλούμε επιλέξτε ένα αρχείο εικόνας",
+    "errorUploadFirst": "Παρακαλούμε ανεβάστε πρώτα μια φωτογραφία",
     "page": {
-      "title": "Φωτογραφία σε Κύκλο - Δωρεάν Online Κυκλικός Φωτοκόπτης",
-      "description": "Η Φωτογραφία σε Κύκλο είναι ένα δωρεάν online εργαλείο για μετατροπή ορθογωνίων φωτογραφιών σε τέλεια κυκλικά σχήματα. Το εργαλείο μας σας βοηθά να κόβετε φωτογραφίες σε κυκλική μορφή αμέσως, χωρίς απαιτούμενη εγγραφή. Είτε χρειάζεστε κυκλική φωτογραφία προφίλ, κυκλική φωτογραφία για κοινωνικά δίκτυα, είτε στρογγυλεμένη φωτογραφία για σχέδια σχεδίασης, το εργαλείο κοπής κυκλικών φωτογραφιών μας το κάνει απλό και εύκολο."
+      "title": "Κυκλική Περικοπή Φωτογραφίας - Δωρεάν Online Εργαλείο",
+      "description": "Αυτό το εργαλείο είναι μια δωρεάν online υπηρεσία για τη μετατροπή ορθογώνιων φωτογραφιών σε τέλειους κύκλους χωρίς ανάγκη εγγραφής."
     },
     "seo": {
-      "title": "Φωτογραφία σε Κύκλο | Δωρεάν Online Κυκλικός Κόπτης",
-      "description": "Δωρεάν online εργαλείο για κοπή οποιασδήποτε φωτογραφίας σε τέλειο κύκλο - ιδανικό για προφίλ, κοινωνικά δίκτυα και σχέδια σχεδίασης."
+      "title": "Κυκλική Περικοπή Φωτογραφίας | Δωρεάν Online Περικοπή",
+      "description": "Δωρεάν online εργαλείο για περικοπή φωτογραφιών σε τέλειο κύκλο - ιδανικό για φωτογραφίες προφίλ και κοινωνικά δίκτυα."
     },
     "selectRegion": {
-      "title": "Επιλέξτε περιοχή",
-      "subtitle": "Επιλέξτε την προτιμώμενη γλώσσα και περιοχή σας"
+      "title": "Επιλογή Περιοχής",
+      "subtitle": "Επιλέξτε τη γλώσσα και την περιοχή σας"
     },
     "rateService": {
-      "title": "Αξιολογήστε τη Φωτογραφία σε Κύκλο",
-      "thankYou": "Ευχαριστούμε για τα σχόλιά σας!",
+      "title": "Αξιολογήστε το εργαλείο κυκλικής περικοπής",
+      "thankYou": "Σας ευχαριστούμε για την κριτική σας!",
       "averageRating": "4.5",
-      "votes": "4,992 ψήφοι"
+      "votes": "4.992 ψήφοι"
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog | Φωτογραφία σε URL",
+      "description": "Άρθρα για τη φιλοξενία φωτογραφιών, την κοινοποίηση συνδέσμων και συμβουλές παραγωγικότητας."
+    },
+    "page": {
+      "title": "Blog",
+      "description": "Ετοιμάζουμε άρθρα για τη φιλοξενία εικόνων, το CDN και συμβουλές SEO. Σύντομα κοντά σας.",
+      "stayTuned": "Μείνετε συντονισμένοι για οδηγούς σχετικά με:",
+      "guides": {
+        "1": "Βέλτιστες πρακτικές για μετατροπή εικόνας σε URL",
+        "2": "Πώς να χρησιμοποιείτε άμεσους συνδέσμους φωτογραφιών σε blogs και έγγραφα",
+        "3": "Απόδοση και προσωρινή αποθήκευση (caching) για στατικά στοιχεία"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Έγγραφα | Φωτογραφία σε URL",
+      "description": "Τεκμηρίωση για την υπηρεσία μας."
+    },
+    "page": {
+      "title": "Έγγραφα",
+      "description": "Γρήγορη εκκίνηση: ανεβάστε μια εικόνα και λάβετε ένα άμεσο URL. Χρησιμοποιήστε τα κουμπιά αντιγραφής ή κατεβάστε τον σύνδεσμο σε .txt/.json/.md.",
+      "features": {
+        "title": "Υποστηριζόμενες λειτουργίες:",
+        "items": {
+          "1": "Υποστηριζόμενες μορφές: JPG, PNG, WEBP, GIF",
+          "2": "Γρήγορη παράδοση μέσω CDN",
+          "3": "Σαφή μηνύματα σφάλματος κατά τη συντήρηση"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Κατάσταση | Φωτογραφία σε URL",
+      "description": "Κατάσταση υπηρεσίας των συστημάτων μας."
+    },
+    "page": {
+      "title": "Κατάσταση",
+      "description": "Όλα τα συστήματα λειτουργούν κανονικά.",
+      "message": "Το API ανεβάσματος και οι σύνδεσμοι CDN είναι ενεργοί."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Εικοινωνία | Φωτογραφία σε URL",
+      "description": "Επικοινωνήστε με την υποστήριξη."
+    },
+    "page": {
+      "title": "Εικοινωνία",
+      "description": "Χρειάζεστε βοήθεια ή θέλετε να μοιραστείτε σχόλια; Στείλτε μας ένα email και θα σας απαντήσουμε το συντομότερο δυνατό.",
+      "email": {
+        "label": "Email",
+        "address": "leeqs1010@gmail.com"
+      }
     }
   }
 }
-
