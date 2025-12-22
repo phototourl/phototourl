@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState, useRef } from "react";
+import { useCallback, useEffect, useState } from "react";
 import type { CSSProperties } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -20,7 +20,6 @@ import {
   MousePointerClick,
   ArrowUpCircle,
   ArrowUp,
-  ArrowRight,
   X,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -28,7 +27,7 @@ import { cn } from "@/lib/utils";
 import { useTranslations, useLocale } from "next-intl";
 import dynamic from "next/dynamic";
 import ReactCountryFlag from "react-country-flag";
-import { useLocaleRouter, LocaleLink } from "@/i18n/navigation";
+import { useLocaleRouter } from "@/i18n/navigation";
 import { Star, Check } from "lucide-react";
 import { CircleCropTypewriter } from "@/components/CircleCropTypewriter";
 

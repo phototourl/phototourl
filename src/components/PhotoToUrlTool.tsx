@@ -1,8 +1,6 @@
 "use client";
 
 import { useCallback, useState } from "react";
-import type { CSSProperties } from "react";
-import Image from "next/image";
 import { motion } from "framer-motion";
 import {
   Upload,
