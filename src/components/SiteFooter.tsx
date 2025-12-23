@@ -283,6 +283,20 @@ export async function SiteFooter() {
                 className="h-6 w-auto shrink-0"
               />
             </a>
+            <a
+              href="https://aitop10.tools/"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://aitop10.tools/badge.png"
+                alt="AiTop10 Tools Directory"
+                width={120}
+                height={28}
+                className="h-6 w-auto shrink-0"
+              />
+            </a>
           </div>
         </div>
       </div>
