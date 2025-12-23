@@ -307,6 +307,19 @@ export async function SiteFooter() {
                 className="h-6 w-auto shrink-0"
               />
             </a>
+            <a
+              href="https://drchecker.net/item/phototourl.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://drchecker.net/api/badge?domain=phototourl.com"
+                alt="Monitor your Domain Rating with DRChecker"
+                height={54}
+                className="h-6 w-auto shrink-0"
+              />
+            </a>
           </div>
       </div>
       <div className="border-t border-white/15 hero-gradient text-white">
