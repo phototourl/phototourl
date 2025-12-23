@@ -320,6 +320,19 @@ export async function SiteFooter() {
                 className="h-6 w-auto shrink-0"
               />
             </a>
+            <a
+              href="https://startuptostartup.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://startuptostartup.com/badages-awards.svg"
+                alt="Featured on Startup To Startup"
+                height={54}
+                className="h-6 w-auto shrink-0"
+              />
+            </a>
           </div>
       </div>
       <div className="border-t border-white/15 hero-gradient text-white">
