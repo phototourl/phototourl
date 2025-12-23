@@ -118,7 +118,7 @@ export async function SiteFooter() {
             </div>
           </div>
           {/* Badge row: centered, full-width, between content and bottom border */}
-          <div className="mt-4 flex flex-nowrap items-center justify-center gap-2 overflow-x-auto">
+          <div className="mt-4 flex flex-nowrap items-center justify-center gap-2 overflow-hidden -mx-6 lg:-mx-8 px-6 lg:px-8">
             <a
               href="https://fazier.com/launches/phototourl.com"
               target="_blank"
