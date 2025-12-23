@@ -289,7 +289,7 @@ export async function SiteFooter() {
               rel="noreferrer"
               className="inline-block transition-transform hover:scale-105"
             >
-              <div className="h-6 px-3 flex items-center justify-center rounded bg-white/10 text-white text-xs font-medium whitespace-nowrap shrink-0">
+              <div className="h-6 px-3 flex items-center justify-center rounded bg-black text-white text-xs font-medium whitespace-nowrap shrink-0">
                 AiTop10 Tools Directory
               </div>
             </a>
