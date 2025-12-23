@@ -293,6 +293,19 @@ export async function SiteFooter() {
                 AiTop10 Tools Directory
               </div>
             </a>
+            <a
+              href="https://dayslaunch.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://dayslaunch.com/badages-awards.svg"
+                alt="Featured on Days Launch"
+                height={54}
+                className="h-6 w-auto shrink-0"
+              />
+            </a>
           </div>
         </div>
       </div>
