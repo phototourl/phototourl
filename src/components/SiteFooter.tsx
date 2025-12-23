@@ -118,7 +118,7 @@ export async function SiteFooter() {
             </div>
           </div>
           {/* Badge row: centered, full-width, between content and bottom border */}
-          <div className="mt-4 flex flex-nowrap items-center justify-center gap-2 overflow-hidden">
+          <div className="mt-4 flex flex-nowrap items-center justify-center gap-2 overflow-x-auto">
             <a
               href="https://fazier.com/launches/phototourl.com"
               target="_blank"
@@ -289,7 +289,7 @@ export async function SiteFooter() {
               rel="noreferrer"
               className="inline-block transition-transform hover:scale-105"
             >
-              <div className="h-6 px-3 flex items-center justify-center rounded bg-black text-white text-xs font-medium whitespace-nowrap shrink-0">
+              <div className="h-6 px-2 flex items-center justify-center rounded bg-black text-white text-[10px] font-medium whitespace-nowrap shrink-0 leading-none">
                 AiTop10 Tools Directory
               </div>
             </a>
