@@ -349,5 +349,41 @@
         "address": "leeqs1010@gmail.com"
       }
     }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Zásady ochrany osobních údajů | Photo To URL",
+        "description": "Zásady ochrany osobních údajů pro Photo To URL."
+      },
+      "page": {
+        "title": "Zásady ochrany osobních údajů",
+        "content": "Shromažďujeme minimální nezbytné údaje pro provoz služby. Nahrané obrázky jsou uloženy pro vygenerování sdíleného odkazu.",
+        "contact": {
+          "title": "Kontakt",
+          "text": "Otázky? Pošlete e-mail na",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Podmínky použití | Photo To URL",
+        "description": "Podmínky použití pro Photo To URL."
+      },
+      "page": {
+        "title": "Podmínky použití",
+        "content": "Používáním Photo To URL souhlasíte s odpovědným používáním služby a nesouhlasíte s nahráváním nezákonného obsahu.",
+        "disclaimer": {
+          "title": "Vyloučení odpovědnosti",
+          "text": "Služba je poskytována \"tak, jak je\" bez záruk. Dostupnost se může změnit z důvodu údržby."
+        },
+        "contact": {
+          "title": "Kontakt",
+          "text": "Pošlete e-mail na",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    }
   }
 }

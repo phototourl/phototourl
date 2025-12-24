@@ -349,5 +349,41 @@
         "address": "leeqs1010@gmail.com"
       }
     }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "プライバシーポリシー | Photo To URL",
+        "description": "Photo To URLのプライバシーポリシー。"
+      },
+      "page": {
+        "title": "プライバシーポリシー",
+        "content": "サービスを運営するために必要な最小限のデータを収集します。アップロードされた画像は、共有可能なリンクを生成するために保存されます。",
+        "contact": {
+          "title": "お問い合わせ",
+          "text": "ご質問は？メールで",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "利用規約 | Photo To URL",
+        "description": "Photo To URLの利用規約。"
+      },
+      "page": {
+        "title": "利用規約",
+        "content": "Photo To URLを使用することで、サービスを責任を持って使用し、違法なコンテンツをアップロードしないことに同意したことになります。",
+        "disclaimer": {
+          "title": "免責事項",
+          "text": "サービスは「現状のまま」保証なしで提供されます。メンテナンスにより可用性が変更される場合があります。"
+        },
+        "contact": {
+          "title": "お問い合わせ",
+          "text": "メールで",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    }
   }
 }

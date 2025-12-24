@@ -349,5 +349,41 @@
         "address": "leeqs1010@gmail.com"
       }
     }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "개인정보 보호정책 | Photo To URL",
+        "description": "Photo To URL의 개인정보 보호정책."
+      },
+      "page": {
+        "title": "개인정보 보호정책",
+        "content": "서비스를 운영하는 데 필요한 최소한의 데이터를 수집합니다. 업로드된 이미지는 공유 가능한 링크를 생성하기 위해 저장됩니다.",
+        "contact": {
+          "title": "문의",
+          "text": "질문이 있으신가요? 이메일로",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "서비스 약관 | Photo To URL",
+        "description": "Photo To URL의 서비스 약관."
+      },
+      "page": {
+        "title": "서비스 약관",
+        "content": "Photo To URL을 사용하면 서비스를 책임감 있게 사용하고 불법 콘텐츠를 업로드하지 않기에 동의하는 것입니다.",
+        "disclaimer": {
+          "title": "면책 조항",
+          "text": "서비스는 보증 없이 \"있는 그대로\" 제공됩니다. 유지보수로 인해 가용성이 변경될 수 있습니다."
+        },
+        "contact": {
+          "title": "문의",
+          "text": "이메일로",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    }
   }
 }

@@ -78,9 +78,18 @@
       "title": "De ce aleg oamenii Imagine în URL",
       "subtitle": "Viteză, linkuri curate și fără bătaia de cap a înregistrării.",
       "items": {
-        "fast": { "title": "Partajare rapidă", "desc": "Încarci și primești linkul în câteva secunde, fără pași inutili." },
-        "direct": { "title": "URL-uri directe", "desc": "Linkuri curate care funcționează în HTML, Markdown și aplicații de chat." },
-        "nosignup": { "title": "Fără înregistrare", "desc": "Folosește-l instantaneu. Conturile de utilizator vor fi disponibile ulterior." }
+        "fast": {
+          "title": "Partajare rapidă",
+          "desc": "Încarci și primești linkul în câteva secunde, fără pași inutili."
+        },
+        "direct": {
+          "title": "URL-uri directe",
+          "desc": "Linkuri curate care funcționează în HTML, Markdown și aplicații de chat."
+        },
+        "nosignup": {
+          "title": "Fără înregistrare",
+          "desc": "Folosește-l instantaneu. Conturile de utilizator vor fi disponibile ulterior."
+        }
       }
     },
     "how": {
@@ -94,24 +103,48 @@
       "title": "Proces în trei pași",
       "subtitle": "Mai puțin efort, mai multă concentrare, gata în secunde.",
       "steps": {
-        "1": { "title": "Plasează sau lipește", "desc": "Trage un fișier, lipește din clipboard sau răsfoiește computerul." },
-        "2": { "title": "Găzduim și legăm", "desc": "URL instantaneu cu opțiuni de copiere, deschidere sau salvare." },
-        "3": { "title": "Partajează oriunde", "desc": "Lipește în documente, chat-uri, tichete, bloguri sau prototipuri." }
+        "1": {
+          "title": "Plasează sau lipește",
+          "desc": "Trage un fișier, lipește din clipboard sau răsfoiește computerul."
+        },
+        "2": {
+          "title": "Găzduim și legăm",
+          "desc": "URL instantaneu cu opțiuni de copiere, deschidere sau salvare."
+        },
+        "3": {
+          "title": "Partajează oriunde",
+          "desc": "Lipește în documente, chat-uri, tichete, bloguri sau prototipuri."
+        }
       }
     },
     "features": {
       "title": "Funcționalități cheie",
       "subtitle": "Claritate înainte de toate: mai puțină fricțiune, mai multă partajare.",
       "items": {
-        "cdn": { "title": "Linkuri CDN directe", "desc": "URL-uri curate și previzibile, gata pentru Markdown și HTML." },
+        "cdn": {
+          "title": "Linkuri CDN directe",
+          "desc": "URL-uri curate și previzibile, gata pentru Markdown și HTML."
+        },
         "save": {
           "title": "Acțiuni de copiere și salvare",
           "desc": "Copiază, deschide sau salvează ca .txt/.json/.md cu un singur clic."
         },
-        "clipboard": { "title": "Suport clipboard", "desc": "Lipește capturi de ecran direct, fără a căuta fișierele." },
-        "errors": { "title": "Erori inteligibile", "desc": "Mesaje clare în locul codurilor tehnice complicate." },
-        "nosignup": { "title": "Fără cont necesar", "desc": "Lucrează mai rapid — încarcă și partajează imediat." },
-        "r2": { "title": "Găzduire rapidă", "desc": "Linkuri servite printr-o rețea rapidă pentru acces fiabil." }
+        "clipboard": {
+          "title": "Suport clipboard",
+          "desc": "Lipește capturi de ecran direct, fără a căuta fișierele."
+        },
+        "errors": {
+          "title": "Erori inteligibile",
+          "desc": "Mesaje clare în locul codurilor tehnice complicate."
+        },
+        "nosignup": {
+          "title": "Fără cont necesar",
+          "desc": "Lucrează mai rapid — încarcă și partajează imediat."
+        },
+        "r2": {
+          "title": "Găzduire rapidă",
+          "desc": "Linkuri servite printr-o rețea rapidă pentru acces fiabil."
+        }
       }
     },
     "testimonials": {
@@ -176,11 +209,26 @@
       "faq": {
         "title": "Întrebări frecvente",
         "items": {
-          "1": { "q": "Este gratuit?", "a": "Da, conversia de bază de la fotografie la link este gratuită." },
-          "2": { "q": "Ce formate sunt suportate?", "a": "În prezent PNG, JPG, WEBP, GIF până la 10MB." },
-          "3": { "q": "Pot insera în Markdown sau HTML?", "a": "Da. Copiază linkul direct sau folosește opțiunile de salvare în format .md." },
-          "4": { "q": "Sunt fișierele mele publice?", "a": "Linkurile pot fi partajate; când sunt servite prin CDN, acestea sunt livrate prin domeniul respectiv." },
-          "5": { "q": "Vor exista conturi pentru echipe?", "a": "Este în plan. Prioritizăm încărcarea simplă acum, apoi vom adăuga spații de lucru pentru echipe." }
+          "1": {
+            "q": "Este gratuit?",
+            "a": "Da, conversia de bază de la fotografie la link este gratuită."
+          },
+          "2": {
+            "q": "Ce formate sunt suportate?",
+            "a": "În prezent PNG, JPG, WEBP, GIF până la 10MB."
+          },
+          "3": {
+            "q": "Pot insera în Markdown sau HTML?",
+            "a": "Da. Copiază linkul direct sau folosește opțiunile de salvare în format .md."
+          },
+          "4": {
+            "q": "Sunt fișierele mele publice?",
+            "a": "Linkurile pot fi partajate; când sunt servite prin CDN, acestea sunt livrate prin domeniul respectiv."
+          },
+          "5": {
+            "q": "Vor exista conturi pentru echipe?",
+            "a": "Este în plan. Prioritizăm încărcarea simplă acum, apoi vom adăuga spații de lucru pentru echipe."
+          }
         }
       },
       "keywords": {
@@ -300,6 +348,42 @@
       "email": {
         "label": "E-mail",
         "address": "leeqs1010@gmail.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Privacy Policy | Photo To URL",
+        "description": "Privacy Policy for Photo To URL."
+      },
+      "page": {
+        "title": "Privacy Policy",
+        "content": "We collect the minimum necessary data to operate the service. Uploaded images are stored to generate a shareable link.",
+        "contact": {
+          "title": "Contact",
+          "text": "Questions? Email",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Terms of Service | Photo To URL",
+        "description": "Terms of Service for Photo To URL."
+      },
+      "page": {
+        "title": "Terms of Service",
+        "content": "By using Photo To URL, you agree to use the service responsibly and not upload illegal content.",
+        "disclaimer": {
+          "title": "Disclaimer",
+          "text": "The service is provided \"as is\" without warranties. Availability may change due to maintenance."
+        },
+        "contact": {
+          "title": "Contact",
+          "text": "Email",
+          "email": "leeqs1010@gmail.com"
+        }
       }
     }
   }

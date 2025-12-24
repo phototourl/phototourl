@@ -78,9 +78,18 @@
       "title": "Prečo si vybrať Fotka na URL",
       "subtitle": "Rýchlosť, čisté odkazy a žiadne zdržiavanie s registráciou.",
       "items": {
-        "fast": { "title": "Rýchle zdieľanie", "desc": "Nahrajte a získajte odkaz v priebehu sekúnd bez zbytočných krokov." },
-        "direct": { "title": "Priame URL adresy", "desc": "Čisté odkazy, ktoré fungujú v HTML, Markdowne a chatovacích aplikáciách." },
-        "nosignup": { "title": "Bez registrácie", "desc": "Používajte okamžite. Používateľské kontá pribudnú neskôr." }
+        "fast": {
+          "title": "Rýchle zdieľanie",
+          "desc": "Nahrajte a získajte odkaz v priebehu sekúnd bez zbytočných krokov."
+        },
+        "direct": {
+          "title": "Priame URL adresy",
+          "desc": "Čisté odkazy, ktoré fungujú v HTML, Markdowne a chatovacích aplikáciách."
+        },
+        "nosignup": {
+          "title": "Bez registrácie",
+          "desc": "Používajte okamžite. Používateľské kontá pribudnú neskôr."
+        }
       }
     },
     "how": {
@@ -94,24 +103,48 @@
       "title": "Proces v troch krokoch",
       "subtitle": "Menej úsilia, viac sústredenia, hotovo za pár sekúnd.",
       "steps": {
-        "1": { "title": "Pustite alebo prilepte", "desc": "Presuňte súbor, prilepte zo schránky alebo prehľadávajte počítač." },
-        "2": { "title": "Ukladáme a odkazujeme", "desc": "Okamžitá URL s ovládacími prvkami na kopírovanie, otvorenie alebo uloženie." },
-        "3": { "title": "Zdieľajte všade", "desc": "Vložte do dokumentov, chatov, ticketov, blogov alebo prototypov." }
+        "1": {
+          "title": "Pustite alebo prilepte",
+          "desc": "Presuňte súbor, prilepte zo schránky alebo prehľadávajte počítač."
+        },
+        "2": {
+          "title": "Ukladáme a odkazujeme",
+          "desc": "Okamžitá URL s ovládacími prvkami na kopírovanie, otvorenie alebo uloženie."
+        },
+        "3": {
+          "title": "Zdieľajte všade",
+          "desc": "Vložte do dokumentov, chatov, ticketov, blogov alebo prototypov."
+        }
       }
     },
     "features": {
       "title": "Kľúčové funkcie",
       "subtitle": "Jasnosť na prvom mieste: menej trenia, viac zdieľania.",
       "items": {
-        "cdn": { "title": "Priame CDN odkazy", "desc": "Čisté a predvídateľné URL adresy, pripravené pre Markdown a HTML." },
+        "cdn": {
+          "title": "Priame CDN odkazy",
+          "desc": "Čisté a predvídateľné URL adresy, pripravené pre Markdown a HTML."
+        },
         "save": {
           "title": "Akcie kopírovania a ukladania",
           "desc": "Kopírujte, otvárajte alebo ukladajte ako .txt/.json/.md jedným kliknutím."
         },
-        "clipboard": { "title": "Podpora schránky", "desc": "Prilepte snímky obrazovky priamo bez hľadania súborov." },
-        "errors": { "title": "Zrozumiteľné chyby", "desc": "Jasné správy namiesto komplikovaných technických kódov." },
-        "nosignup": { "title": "Registrácia nie je potrebná", "desc": "Pracujte rýchlejšie — nahrávajte a zdieľajte okamžite." },
-        "r2": { "title": "Rýchly hosting", "desc": "Odkazy sú poskytované prostredníctvom rýchlej siete pre spoľahlivý prístup." }
+        "clipboard": {
+          "title": "Podpora schránky",
+          "desc": "Prilepte snímky obrazovky priamo bez hľadania súborov."
+        },
+        "errors": {
+          "title": "Zrozumiteľné chyby",
+          "desc": "Jasné správy namiesto komplikovaných technických kódov."
+        },
+        "nosignup": {
+          "title": "Registrácia nie je potrebná",
+          "desc": "Pracujte rýchlejšie — nahrávajte a zdieľajte okamžite."
+        },
+        "r2": {
+          "title": "Rýchly hosting",
+          "desc": "Odkazy sú poskytované prostredníctvom rýchlej siete pre spoľahlivý prístup."
+        }
       }
     },
     "testimonials": {
@@ -176,11 +209,26 @@
       "faq": {
         "title": "Často kladené otázky",
         "items": {
-          "1": { "q": "Je to zadarmo?", "a": "Áno, základná konverzia fotky na odkaz je bezplatná." },
-          "2": { "q": "Aké formáty sú podporované?", "a": "Momentálne PNG, JPG, WEBP, GIF do 10MB." },
-          "3": { "q": "Môžem vkladať do Markdownu alebo HTML?", "a": "Áno. Skopírujte odkaz priamo alebo použite možnosti uloženia vo formáte .md." },
-          "4": { "q": "Sú moje súbory verejné?", "a": "Odkazy sú zdieľateľné; keď sú poskytované cez CDN, prechádzajú cez jeho doménu." },
-          "5": { "q": "Budú existovať kontá pre tímy?", "a": "Je to v pláne. Najprv prioritizujeme jednoduché nahrávanie, potom pridáme tímové pracovné priestory." }
+          "1": {
+            "q": "Je to zadarmo?",
+            "a": "Áno, základná konverzia fotky na odkaz je bezplatná."
+          },
+          "2": {
+            "q": "Aké formáty sú podporované?",
+            "a": "Momentálne PNG, JPG, WEBP, GIF do 10MB."
+          },
+          "3": {
+            "q": "Môžem vkladať do Markdownu alebo HTML?",
+            "a": "Áno. Skopírujte odkaz priamo alebo použite možnosti uloženia vo formáte .md."
+          },
+          "4": {
+            "q": "Sú moje súbory verejné?",
+            "a": "Odkazy sú zdieľateľné; keď sú poskytované cez CDN, prechádzajú cez jeho doménu."
+          },
+          "5": {
+            "q": "Budú existovať kontá pre tímy?",
+            "a": "Je to v pláne. Najprv prioritizujeme jednoduché nahrávanie, potom pridáme tímové pracovné priestory."
+          }
         }
       },
       "keywords": {
@@ -300,6 +348,42 @@
       "email": {
         "label": "E-mail",
         "address": "leeqs1010@gmail.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Privacy Policy | Photo To URL",
+        "description": "Privacy Policy for Photo To URL."
+      },
+      "page": {
+        "title": "Privacy Policy",
+        "content": "We collect the minimum necessary data to operate the service. Uploaded images are stored to generate a shareable link.",
+        "contact": {
+          "title": "Contact",
+          "text": "Questions? Email",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Terms of Service | Photo To URL",
+        "description": "Terms of Service for Photo To URL."
+      },
+      "page": {
+        "title": "Terms of Service",
+        "content": "By using Photo To URL, you agree to use the service responsibly and not upload illegal content.",
+        "disclaimer": {
+          "title": "Disclaimer",
+          "text": "The service is provided \"as is\" without warranties. Availability may change due to maintenance."
+        },
+        "contact": {
+          "title": "Contact",
+          "text": "Email",
+          "email": "leeqs1010@gmail.com"
+        }
       }
     }
   }

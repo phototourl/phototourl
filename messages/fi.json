@@ -78,9 +78,18 @@
       "title": "Miksi valita Kuva URL-osoitteeksi",
       "subtitle": "Nopeus, selkeät linkit ja ilman rekisteröitymistä.",
       "items": {
-        "fast": { "title": "Nopea jakaminen", "desc": "Lataa ja saa linkki sekunneissa ilman turhia vaiheita." },
-        "direct": { "title": "Suorat URL-osoitteet", "desc": "Selkeät linkit, jotka toimivat HTML-, Markdown- ja chat-sovelluksissa." },
-        "nosignup": { "title": "Ei rekisteröitymistä", "desc": "Käytä heti. Käyttäjätilit lisätään myöhemmin." }
+        "fast": {
+          "title": "Nopea jakaminen",
+          "desc": "Lataa ja saa linkki sekunneissa ilman turhia vaiheita."
+        },
+        "direct": {
+          "title": "Suorat URL-osoitteet",
+          "desc": "Selkeät linkit, jotka toimivat HTML-, Markdown- ja chat-sovelluksissa."
+        },
+        "nosignup": {
+          "title": "Ei rekisteröitymistä",
+          "desc": "Käytä heti. Käyttäjätilit lisätään myöhemmin."
+        }
       }
     },
     "how": {
@@ -94,24 +103,48 @@
       "title": "Kolmen vaiheen prosessi",
       "subtitle": "Vähemmän vaivaa, enemmän keskittymistä, valmista sekunneissa.",
       "steps": {
-        "1": { "title": "Pudota tai liitä", "desc": "Vedä tiedosto, liitä leikepöydältä tai selaa tietokonettasi." },
-        "2": { "title": "Isännöimme ja linkitämme", "desc": "Välitön URL-osoite kopiointi-, avaus- ja tallennustoiminnoilla." },
-        "3": { "title": "Jaa kaikkialla", "desc": "Liitä dokumentteihin, chatteihin, tukipyyntöihin, blogeihin tai prototyyppeihin." }
+        "1": {
+          "title": "Pudota tai liitä",
+          "desc": "Vedä tiedosto, liitä leikepöydältä tai selaa tietokonettasi."
+        },
+        "2": {
+          "title": "Isännöimme ja linkitämme",
+          "desc": "Välitön URL-osoite kopiointi-, avaus- ja tallennustoiminnoilla."
+        },
+        "3": {
+          "title": "Jaa kaikkialla",
+          "desc": "Liitä dokumentteihin, chatteihin, tukipyyntöihin, blogeihin tai prototyyppeihin."
+        }
       }
     },
     "features": {
       "title": "Keskeiset ominaisuudet",
       "subtitle": "Selkeys ensin: vähemmän kitkaa, enemmän jakamista.",
       "items": {
-        "cdn": { "title": "Suorat CDN-linkit", "desc": "Selkeät ja ennakoitavat URL-osoitteet, valmiina Markdowniin ja HTML:ään." },
+        "cdn": {
+          "title": "Suorat CDN-linkit",
+          "desc": "Selkeät ja ennakoitavat URL-osoitteet, valmiina Markdowniin ja HTML:ään."
+        },
         "save": {
           "title": "Kopioi- ja tallennustoiminnot",
           "desc": "Kopioi, avaa tai tallenna .txt/.json/.md muodossa yhdellä klikkauksella."
         },
-        "clipboard": { "title": "Leikepöytäystävällinen", "desc": "Liitä kuvakaappaukset suoraan etsimättä tiedostoja." },
-        "errors": { "title": "Ymmärrettävät virheet", "desc": "Selkeät viestit monimutkaisten teknisten koodien sijaan." },
-        "nosignup": { "title": "Ei vaadi rekisteröitymistä", "desc": "Työskentele nopeammin — lataa ja jaa heti." },
-        "r2": { "title": "Nopea isännöinti", "desc": "Linkit tarjoillaan nopean verkon kautta luotettavaa käyttöä varten." }
+        "clipboard": {
+          "title": "Leikepöytäystävällinen",
+          "desc": "Liitä kuvakaappaukset suoraan etsimättä tiedostoja."
+        },
+        "errors": {
+          "title": "Ymmärrettävät virheet",
+          "desc": "Selkeät viestit monimutkaisten teknisten koodien sijaan."
+        },
+        "nosignup": {
+          "title": "Ei vaadi rekisteröitymistä",
+          "desc": "Työskentele nopeammin — lataa ja jaa heti."
+        },
+        "r2": {
+          "title": "Nopea isännöinti",
+          "desc": "Linkit tarjoillaan nopean verkon kautta luotettavaa käyttöä varten."
+        }
       }
     },
     "testimonials": {
@@ -176,11 +209,26 @@
       "faq": {
         "title": "Usein kysytyt kysymykset",
         "items": {
-          "1": { "q": "Onko se ilmaista?", "a": "Kyllä, perusmuunnos kuvasta linkiksi on ilmainen." },
-          "2": { "q": "Mitä tiedostomuotoja tuetaan?", "a": "Tällä hetkellä PNG, JPG, WEBP, GIF enintään 10MB." },
-          "3": { "q": "Voinko upottaa Markdowniin tai HTML:ään?", "a": "Kyllä. Kopioi linkki suoraan tai käytä .md-tallennusvaihtoehtoa." },
-          "4": { "q": "Ovatko tiedostoni julkisia?", "a": "Linkit ovat jaettavissa; kun niitä käytetään CDN:n kautta, ne tarjoillaan sen verkon kautta." },
-          "5": { "q": "Tuleeko palveluun tiimitilejä?", "a": "Se on suunnitteilla. Priorisoimme ensin helpon latauksen ja lisäämme tiimiominaisuudet myöhemmin." }
+          "1": {
+            "q": "Onko se ilmaista?",
+            "a": "Kyllä, perusmuunnos kuvasta linkiksi on ilmainen."
+          },
+          "2": {
+            "q": "Mitä tiedostomuotoja tuetaan?",
+            "a": "Tällä hetkellä PNG, JPG, WEBP, GIF enintään 10MB."
+          },
+          "3": {
+            "q": "Voinko upottaa Markdowniin tai HTML:ään?",
+            "a": "Kyllä. Kopioi linkki suoraan tai käytä .md-tallennusvaihtoehtoa."
+          },
+          "4": {
+            "q": "Ovatko tiedostoni julkisia?",
+            "a": "Linkit ovat jaettavissa; kun niitä käytetään CDN:n kautta, ne tarjoillaan sen verkon kautta."
+          },
+          "5": {
+            "q": "Tuleeko palveluun tiimitilejä?",
+            "a": "Se on suunnitteilla. Priorisoimme ensin helpon latauksen ja lisäämme tiimiominaisuudet myöhemmin."
+          }
         }
       },
       "keywords": {
@@ -300,6 +348,42 @@
       "email": {
         "label": "Sähköposti",
         "address": "leeqs1010@gmail.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Privacy Policy | Photo To URL",
+        "description": "Privacy Policy for Photo To URL."
+      },
+      "page": {
+        "title": "Privacy Policy",
+        "content": "We collect the minimum necessary data to operate the service. Uploaded images are stored to generate a shareable link.",
+        "contact": {
+          "title": "Contact",
+          "text": "Questions? Email",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Terms of Service | Photo To URL",
+        "description": "Terms of Service for Photo To URL."
+      },
+      "page": {
+        "title": "Terms of Service",
+        "content": "By using Photo To URL, you agree to use the service responsibly and not upload illegal content.",
+        "disclaimer": {
+          "title": "Disclaimer",
+          "text": "The service is provided \"as is\" without warranties. Availability may change due to maintenance."
+        },
+        "contact": {
+          "title": "Contact",
+          "text": "Email",
+          "email": "leeqs1010@gmail.com"
+        }
       }
     }
   }

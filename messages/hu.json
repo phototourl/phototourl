@@ -78,9 +78,18 @@
       "title": "Miért választják az emberek a Fotó Linkké eszközt?",
       "subtitle": "Gyorsaság, tiszta linkek és regisztrációmentes használat.",
       "items": {
-        "fast": { "title": "Gyors megosztás", "desc": "Töltse fel és kapjon linket másodpercek alatt felesleges lépések nélkül." },
-        "direct": { "title": "Közvetlen URL-ek", "desc": "Tiszta linkek, amelyek működnek HTML-ben, Markdownban és chat alkalmazásokban." },
-        "nosignup": { "title": "Nincs regisztráció", "desc": "Használja azonnal. A felhasználói fiókok később érkeznek." }
+        "fast": {
+          "title": "Gyors megosztás",
+          "desc": "Töltse fel és kapjon linket másodpercek alatt felesleges lépések nélkül."
+        },
+        "direct": {
+          "title": "Közvetlen URL-ek",
+          "desc": "Tiszta linkek, amelyek működnek HTML-ben, Markdownban és chat alkalmazásokban."
+        },
+        "nosignup": {
+          "title": "Nincs regisztráció",
+          "desc": "Használja azonnal. A felhasználói fiókok később érkeznek."
+        }
       }
     },
     "how": {
@@ -94,24 +103,48 @@
       "title": "Háromlépéses folyamat",
       "subtitle": "Kevesebb erőfeszítés, nagyobb fókusz, kész másodpercek alatt.",
       "steps": {
-        "1": { "title": "Húzás vagy beillesztés", "desc": "Húzzon be egy fájlt, illessze be vágólapról vagy böngésszen a gépén." },
-        "2": { "title": "Tároljuk és linkeljük", "desc": "Azonnali URL másolási, megnyitási vagy mentési lehetőségekkel." },
-        "3": { "title": "Megosztás bárhol", "desc": "Illessze be dokumentumokba, chatekbe, hibajegyekbe, blogokba vagy prototípusokba." }
+        "1": {
+          "title": "Húzás vagy beillesztés",
+          "desc": "Húzzon be egy fájlt, illessze be vágólapról vagy böngésszen a gépén."
+        },
+        "2": {
+          "title": "Tároljuk és linkeljük",
+          "desc": "Azonnali URL másolási, megnyitási vagy mentési lehetőségekkel."
+        },
+        "3": {
+          "title": "Megosztás bárhol",
+          "desc": "Illessze be dokumentumokba, chatekbe, hibajegyekbe, blogokba vagy prototípusokba."
+        }
       }
     },
     "features": {
       "title": "Főbb jellemzők",
       "subtitle": "Tisztaság mindenekelőtt: kevesebb súrlódás, több megosztás.",
       "items": {
-        "cdn": { "title": "Közvetlen CDN linkek", "desc": "Tiszta és kiszámítható URL-ek, készen Markdownhoz és HTML-hez." },
+        "cdn": {
+          "title": "Közvetlen CDN linkek",
+          "desc": "Tiszta és kiszámítható URL-ek, készen Markdownhoz és HTML-hez."
+        },
         "save": {
           "title": "Másolási és mentési műveletek",
           "desc": "Másolás, megnyitás vagy mentés .txt/.json/.md formátumban egy kattintással."
         },
-        "clipboard": { "title": "Vágólap-barát", "desc": "Illessze be a képernyőképeket közvetlenül, fájlkeresés nélkül." },
-        "errors": { "title": "Érthető hibák", "desc": "Egyértelmű üzenetek a bonyolult technikai kódok helyett." },
-        "nosignup": { "title": "Nem kell regisztráció", "desc": "Dolgozzon gyorsabban — töltsön fel és osszon meg azonnal." },
-        "r2": { "title": "Gyors tárhely", "desc": "A linkeket gyors hálózaton keresztül szolgáljuk ki a megbízható elérésért." }
+        "clipboard": {
+          "title": "Vágólap-barát",
+          "desc": "Illessze be a képernyőképeket közvetlenül, fájlkeresés nélkül."
+        },
+        "errors": {
+          "title": "Érthető hibák",
+          "desc": "Egyértelmű üzenetek a bonyolult technikai kódok helyett."
+        },
+        "nosignup": {
+          "title": "Nem kell regisztráció",
+          "desc": "Dolgozzon gyorsabban — töltsön fel és osszon meg azonnal."
+        },
+        "r2": {
+          "title": "Gyors tárhely",
+          "desc": "A linkeket gyors hálózaton keresztül szolgáljuk ki a megbízható elérésért."
+        }
       }
     },
     "testimonials": {
@@ -176,11 +209,26 @@
       "faq": {
         "title": "Gyakran Ismételt Kérdések",
         "items": {
-          "1": { "q": "Ingyenes?", "a": "Igen, az alapvető fotó-link konverzió ingyenes." },
-          "2": { "q": "Milyen formátumok támogatottak?", "a": "Jelenleg PNG, JPG, WEBP, GIF 10MB-ig." },
-          "3": { "q": "Beágyazhatom Markdown-ba vagy HTML-be?", "a": "Igen. Másolja a linket közvetlenül, vagy használja a .md formátumú mentési opciókat." },
-          "4": { "q": "Nyilvánosak a fájljaim?", "a": "A linkek megoszthatóak; ha a CDN engedélyezve van, azon keresztül kerülnek kiszolgálásra." },
-          "5": { "q": "Lesznek csapatfiókok?", "a": "Tervezzük. Előbb az egyszerű feltöltést helyezzük előtérbe, majd hozzáadjuk a csapatmunkatereket." }
+          "1": {
+            "q": "Ingyenes?",
+            "a": "Igen, az alapvető fotó-link konverzió ingyenes."
+          },
+          "2": {
+            "q": "Milyen formátumok támogatottak?",
+            "a": "Jelenleg PNG, JPG, WEBP, GIF 10MB-ig."
+          },
+          "3": {
+            "q": "Beágyazhatom Markdown-ba vagy HTML-be?",
+            "a": "Igen. Másolja a linket közvetlenül, vagy használja a .md formátumú mentési opciókat."
+          },
+          "4": {
+            "q": "Nyilvánosak a fájljaim?",
+            "a": "A linkek megoszthatóak; ha a CDN engedélyezve van, azon keresztül kerülnek kiszolgálásra."
+          },
+          "5": {
+            "q": "Lesznek csapatfiókok?",
+            "a": "Tervezzük. Előbb az egyszerű feltöltést helyezzük előtérbe, majd hozzáadjuk a csapatmunkatereket."
+          }
         }
       },
       "keywords": {
@@ -300,6 +348,42 @@
       "email": {
         "label": "E-mail",
         "address": "leeqs1010@gmail.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Privacy Policy | Photo To URL",
+        "description": "Privacy Policy for Photo To URL."
+      },
+      "page": {
+        "title": "Privacy Policy",
+        "content": "We collect the minimum necessary data to operate the service. Uploaded images are stored to generate a shareable link.",
+        "contact": {
+          "title": "Contact",
+          "text": "Questions? Email",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Terms of Service | Photo To URL",
+        "description": "Terms of Service for Photo To URL."
+      },
+      "page": {
+        "title": "Terms of Service",
+        "content": "By using Photo To URL, you agree to use the service responsibly and not upload illegal content.",
+        "disclaimer": {
+          "title": "Disclaimer",
+          "text": "The service is provided \"as is\" without warranties. Availability may change due to maintenance."
+        },
+        "contact": {
+          "title": "Contact",
+          "text": "Email",
+          "email": "leeqs1010@gmail.com"
+        }
       }
     }
   }

@@ -349,5 +349,41 @@
         "address": "leeqs1010@gmail.com"
       }
     }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Política de privacidad | Photo To URL",
+        "description": "Política de privacidad para Photo To URL."
+      },
+      "page": {
+        "title": "Política de privacidad",
+        "content": "Recopilamos los datos mínimos necesarios para operar el servicio. Las imágenes cargadas se almacenan para generar un enlace compartible.",
+        "contact": {
+          "title": "Contacto",
+          "text": "¿Preguntas? Envíe un correo electrónico a",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Términos de servicio | Photo To URL",
+        "description": "Términos de servicio para Photo To URL."
+      },
+      "page": {
+        "title": "Términos de servicio",
+        "content": "Al usar Photo To URL, acepta usar el servicio de manera responsable y no cargar contenido ilegal.",
+        "disclaimer": {
+          "title": "Descargo de responsabilidad",
+          "text": "El servicio se proporciona \"tal cual\" sin garantías. La disponibilidad puede cambiar debido al mantenimiento."
+        },
+        "contact": {
+          "title": "Contacto",
+          "text": "Envíe un correo electrónico a",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    }
   }
 }

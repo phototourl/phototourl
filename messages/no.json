@@ -78,9 +78,18 @@
       "title": "Hvorfor folk velger Bilde til URL",
       "subtitle": "Hastighet, rene lenker og ingen krav om registrering.",
       "items": {
-        "fast": { "title": "Rask deling", "desc": "Last opp og få en lenke på sekunder uten unødvendige trinn." },
-        "direct": { "title": "Direkte URL-er", "desc": "Rene lenker som fungerer i HTML, Markdown og chat-apper." },
-        "nosignup": { "title": "Ingen registrering", "desc": "Bruk det umiddelbart. Brukerkontoer kommer senere." }
+        "fast": {
+          "title": "Rask deling",
+          "desc": "Last opp og få en lenke på sekunder uten unødvendige trinn."
+        },
+        "direct": {
+          "title": "Direkte URL-er",
+          "desc": "Rene lenker som fungerer i HTML, Markdown og chat-apper."
+        },
+        "nosignup": {
+          "title": "Ingen registrering",
+          "desc": "Bruk det umiddelbart. Brukerkontoer kommer senere."
+        }
       }
     },
     "how": {
@@ -94,24 +103,48 @@
       "title": "Prosess i tre trinn",
       "subtitle": "Mindre innsats, mer fokus, ferdig på sekunder.",
       "steps": {
-        "1": { "title": "Slipp eller lim inn", "desc": "Dra en fil, lim inn fra utklippstavlen eller bla gjennom datamaskinen din." },
-        "2": { "title": "Vi vert og lenker", "desc": "Umiddelbar URL med kontroller for å kopiere, åpne eller lagre." },
-        "3": { "title": "Del overalt", "desc": "Lim inn i dokumenter, chatter, saker, blogger eller prototyper." }
+        "1": {
+          "title": "Slipp eller lim inn",
+          "desc": "Dra en fil, lim inn fra utklippstavlen eller bla gjennom datamaskinen din."
+        },
+        "2": {
+          "title": "Vi vert og lenker",
+          "desc": "Umiddelbar URL med kontroller for å kopiere, åpne eller lagre."
+        },
+        "3": {
+          "title": "Del overalt",
+          "desc": "Lim inn i dokumenter, chatter, saker, blogger eller prototyper."
+        }
       }
     },
     "features": {
       "title": "Hovedfunksjoner",
       "subtitle": "Klarhet først: mindre friksjon, mer deling.",
       "items": {
-        "cdn": { "title": "Direkte CDN-lenker", "desc": "Rene og forutsigbare URL-er, klare for Markdown og HTML." },
+        "cdn": {
+          "title": "Direkte CDN-lenker",
+          "desc": "Rene og forutsigbare URL-er, klare for Markdown og HTML."
+        },
         "save": {
           "title": "Kopier og lagre-handlinger",
           "desc": "Kopier, åpne eller lagre som .txt/.json/.md med ett klikk."
         },
-        "clipboard": { "title": "Vennlig for utklippstavle", "desc": "Lim inn skjermbilder direkte uten å lete etter filer." },
-        "errors": { "title": "Forståelige feil", "desc": "Tydelige meldinger i stedet for kompliserte tekniske koder." },
-        "nosignup": { "title": "Ingen registrering nødvendig", "desc": "Jobb raskere — last opp og del umiddelbart." },
-        "r2": { "title": "Rask hosting", "desc": "Lenker levert via et raskt nettverk for pålitelig tilgang." }
+        "clipboard": {
+          "title": "Vennlig for utklippstavle",
+          "desc": "Lim inn skjermbilder direkte uten å lete etter filer."
+        },
+        "errors": {
+          "title": "Forståelige feil",
+          "desc": "Tydelige meldinger i stedet for kompliserte tekniske koder."
+        },
+        "nosignup": {
+          "title": "Ingen registrering nødvendig",
+          "desc": "Jobb raskere — last opp og del umiddelbart."
+        },
+        "r2": {
+          "title": "Rask hosting",
+          "desc": "Lenker levert via et raskt nettverk for pålitelig tilgang."
+        }
       }
     },
     "testimonials": {
@@ -176,11 +209,26 @@
       "faq": {
         "title": "Ofte stilte spørsmål",
         "items": {
-          "1": { "q": "Er det gratis?", "a": "Ja, grunnleggende konvertering fra bilde til lenke er gratis." },
-          "2": { "q": "Hvilke formater støttes?", "a": "For øyeblikket PNG, JPG, WEBP, GIF opptil 10MB." },
-          "3": { "q": "Kan jeg bygge inn i Markdown eller HTML?", "a": "Ja. Kopier lenken direkte eller bruk lagringsalternativene for .md-format." },
-          "4": { "q": "Er filene mine offentlige?", "a": "Lenkene er delbare; når de serveres via CDN, leveres de gjennom dets domene." },
-          "5": { "q": "Vil det komme team-kontoer?", "a": "Det er planlagt. Vi prioriterer enkel opplasting først, og vil deretter legge til team-områder." }
+          "1": {
+            "q": "Er det gratis?",
+            "a": "Ja, grunnleggende konvertering fra bilde til lenke er gratis."
+          },
+          "2": {
+            "q": "Hvilke formater støttes?",
+            "a": "For øyeblikket PNG, JPG, WEBP, GIF opptil 10MB."
+          },
+          "3": {
+            "q": "Kan jeg bygge inn i Markdown eller HTML?",
+            "a": "Ja. Kopier lenken direkte eller bruk lagringsalternativene for .md-format."
+          },
+          "4": {
+            "q": "Er filene mine offentlige?",
+            "a": "Lenkene er delbare; når de serveres via CDN, leveres de gjennom dets domene."
+          },
+          "5": {
+            "q": "Vil det komme team-kontoer?",
+            "a": "Det er planlagt. Vi prioriterer enkel opplasting først, og vil deretter legge til team-områder."
+          }
         }
       },
       "keywords": {
@@ -300,6 +348,42 @@
       "email": {
         "label": "E-post",
         "address": "leeqs1010@gmail.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Privacy Policy | Photo To URL",
+        "description": "Privacy Policy for Photo To URL."
+      },
+      "page": {
+        "title": "Privacy Policy",
+        "content": "We collect the minimum necessary data to operate the service. Uploaded images are stored to generate a shareable link.",
+        "contact": {
+          "title": "Contact",
+          "text": "Questions? Email",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Terms of Service | Photo To URL",
+        "description": "Terms of Service for Photo To URL."
+      },
+      "page": {
+        "title": "Terms of Service",
+        "content": "By using Photo To URL, you agree to use the service responsibly and not upload illegal content.",
+        "disclaimer": {
+          "title": "Disclaimer",
+          "text": "The service is provided \"as is\" without warranties. Availability may change due to maintenance."
+        },
+        "contact": {
+          "title": "Contact",
+          "text": "Email",
+          "email": "leeqs1010@gmail.com"
+        }
       }
     }
   }

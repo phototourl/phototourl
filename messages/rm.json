@@ -350,5 +350,41 @@
         "address": "leeqs1010@gmail.com"
       }
     }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Politica da sfera privata | Photo To URL",
+        "description": "Politica da sfera privata per Photo To URL."
+      },
+      "page": {
+        "title": "Politica da sfera privata",
+        "content": "Nus rimnain il minimum da datas necessarias per operar il servetsch. Las maletgs chargiadas vegnan memorisadas per generar in link cumpartgibel.",
+        "contact": {
+          "title": "Contact",
+          "text": "Dumondas? Trametter in e-mail a",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Cundiziuns d'utilisaziun | Photo To URL",
+        "description": "Cundiziuns d'utilisaziun per Photo To URL."
+      },
+      "page": {
+        "title": "Cundiziuns d'utilisaziun",
+        "content": "Cun utilisar Photo To URL, acceptais vus d'utilisar il servetsch responsablamain e da betg chargiar cuntegn illegal.",
+        "disclaimer": {
+          "title": "Disclaim",
+          "text": "Il servetsch vegn porschiù \"uschia ch'el è\" senza garantias. La disponibilitad po midar pervi da mantegniment."
+        },
+        "contact": {
+          "title": "Contact",
+          "text": "Trametter in e-mail a",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    }
   }
 }

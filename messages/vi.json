@@ -349,5 +349,41 @@
         "address": "leeqs1010@gmail.com"
       }
     }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Chính sách bảo mật | Photo To URL",
+        "description": "Chính sách bảo mật cho Photo To URL."
+      },
+      "page": {
+        "title": "Chính sách bảo mật",
+        "content": "Chúng tôi thu thập dữ liệu tối thiểu cần thiết để vận hành dịch vụ. Hình ảnh đã tải lên được lưu trữ để tạo liên kết có thể chia sẻ.",
+        "contact": {
+          "title": "Liên hệ",
+          "text": "Câu hỏi? Gửi email đến",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Điều khoản dịch vụ | Photo To URL",
+        "description": "Điều khoản dịch vụ cho Photo To URL."
+      },
+      "page": {
+        "title": "Điều khoản dịch vụ",
+        "content": "Bằng cách sử dụng Photo To URL, bạn đồng ý sử dụng dịch vụ một cách có trách nhiệm và không tải lên nội dung bất hợp pháp.",
+        "disclaimer": {
+          "title": "Từ chối trách nhiệm",
+          "text": "Dịch vụ được cung cấp \"nguyên trạng\" không có bảo đảm. Khả năng sử dụng có thể thay đổi do bảo trì."
+        },
+        "contact": {
+          "title": "Liên hệ",
+          "text": "Gửi email đến",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    }
   }
 }

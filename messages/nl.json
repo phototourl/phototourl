@@ -349,5 +349,41 @@
         "address": "leeqs1010@gmail.com"
       }
     }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Privacybeleid | Photo To URL",
+        "description": "Privacybeleid voor Photo To URL."
+      },
+      "page": {
+        "title": "Privacybeleid",
+        "content": "We verzamelen de minimaal benodigde gegevens om de service te bedienen. Geüploade afbeeldingen worden opgeslagen om een deelbare link te genereren.",
+        "contact": {
+          "title": "Contact",
+          "text": "Vragen? Stuur een e-mail naar",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Servicevoorwaarden | Photo To URL",
+        "description": "Servicevoorwaarden voor Photo To URL."
+      },
+      "page": {
+        "title": "Servicevoorwaarden",
+        "content": "Door Photo To URL te gebruiken, stemt u ermee in de service verantwoord te gebruiken en geen illegale inhoud te uploaden.",
+        "disclaimer": {
+          "title": "Disclaimer",
+          "text": "De service wordt \"zoals het is\" geleverd zonder garanties. Beschikbaarheid kan veranderen vanwege onderhoud."
+        },
+        "contact": {
+          "title": "Contact",
+          "text": "Stuur een e-mail naar",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    }
   }
 }

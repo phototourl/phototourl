@@ -350,5 +350,41 @@
         "address": "leeqs1010@gmail.com"
       }
     }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Kebijakan Privasi | Photo To URL",
+        "description": "Kebijakan Privasi untuk Photo To URL."
+      },
+      "page": {
+        "title": "Kebijakan Privasi",
+        "content": "Kami mengumpulkan data minimum yang diperlukan untuk mengoperasikan layanan. Gambar yang diunggah disimpan untuk menghasilkan tautan yang dapat dibagikan.",
+        "contact": {
+          "title": "Kontak",
+          "text": "Pertanyaan? Kirim email ke",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Ketentuan Layanan | Photo To URL",
+        "description": "Ketentuan Layanan untuk Photo To URL."
+      },
+      "page": {
+        "title": "Ketentuan Layanan",
+        "content": "Dengan menggunakan Photo To URL, Anda setuju untuk menggunakan layanan secara bertanggung jawab dan tidak mengunggah konten ilegal.",
+        "disclaimer": {
+          "title": "Penyangkalan",
+          "text": "Layanan disediakan \"apa adanya\" tanpa jaminan. Ketersediaan dapat berubah karena pemeliharaan."
+        },
+        "contact": {
+          "title": "Kontak",
+          "text": "Kirim email ke",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    }
   }
 }

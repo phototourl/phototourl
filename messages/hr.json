@@ -78,9 +78,18 @@
       "title": "Zašto ljudi biraju Slika u URL",
       "subtitle": "Brzina, čiste poveznice i rad bez registracije.",
       "items": {
-        "fast": { "title": "Brzo dijeljenje", "desc": "Učitajte i preuzmite poveznicu u sekundi bez suvišnih koraka." },
-        "direct": { "title": "Izravni URL-ovi", "desc": "Čiste poveznice koje rade u HTML-u, Markdownu i aplikacijama za chat." },
-        "nosignup": { "title": "Bez registracije", "desc": "Koristite odmah. Korisnički računi dolaze kasnije." }
+        "fast": {
+          "title": "Brzo dijeljenje",
+          "desc": "Učitajte i preuzmite poveznicu u sekundi bez suvišnih koraka."
+        },
+        "direct": {
+          "title": "Izravni URL-ovi",
+          "desc": "Čiste poveznice koje rade u HTML-u, Markdownu i aplikacijama za chat."
+        },
+        "nosignup": {
+          "title": "Bez registracije",
+          "desc": "Koristite odmah. Korisnički računi dolaze kasnije."
+        }
       }
     },
     "how": {
@@ -94,24 +103,48 @@
       "title": "Proces u tri koraka",
       "subtitle": "Smanjite napor, ostanite fokusirani, završite u sekundi.",
       "steps": {
-        "1": { "title": "Ispustite ili zalijepite", "desc": "Povucite datoteku, zalijepite iz međuspremnika ili pregledajte svoje računalo." },
-        "2": { "title": "Pohranjujemo i povezujemo", "desc": "Trenutni URL s kontrolama za kopiranje, otvaranje ili spremanje." },
-        "3": { "title": "Dijelite svugdje", "desc": "Zalijepite u dokumente, chatove, tickete, blogove ili prototipove." }
+        "1": {
+          "title": "Ispustite ili zalijepite",
+          "desc": "Povucite datoteku, zalijepite iz međuspremnika ili pregledajte svoje računalo."
+        },
+        "2": {
+          "title": "Pohranjujemo i povezujemo",
+          "desc": "Trenutni URL s kontrolama za kopiranje, otvaranje ili spremanje."
+        },
+        "3": {
+          "title": "Dijelite svugdje",
+          "desc": "Zalijepite u dokumente, chatove, tickete, blogove ili prototipove."
+        }
       }
     },
     "features": {
       "title": "Ključne značajke",
       "subtitle": "Jasnoća na prvom mjestu: manje muke, više dijeljenja.",
       "items": {
-        "cdn": { "title": "Izravne CDN poveznice", "desc": "Čisti i predvidljivi URL-ovi, spremni za Markdown i HTML." },
+        "cdn": {
+          "title": "Izravne CDN poveznice",
+          "desc": "Čisti i predvidljivi URL-ovi, spremni za Markdown i HTML."
+        },
         "save": {
           "title": "Radnje kopiranja i spremanja",
           "desc": "Kopirajte, otvorite ili spremite kao .txt/.json/.md jednim klikom."
         },
-        "clipboard": { "title": "Podrška za međuspremnik", "desc": "Zalijepite snimke zaslona izravno bez traženja datoteka." },
-        "errors": { "title": "Razumljive pogreške", "desc": "Jasne poruke umjesto kompliciranih tehničkih kodova." },
-        "nosignup": { "title": "Registracija nije potrebna", "desc": "Radite brže — učitajte i dijelite odmah." },
-        "r2": { "title": "Brza pohrana", "desc": "Poveznice se poslužuju putem brze mreže za pouzdan pristup." }
+        "clipboard": {
+          "title": "Podrška za međuspremnik",
+          "desc": "Zalijepite snimke zaslona izravno bez traženja datoteka."
+        },
+        "errors": {
+          "title": "Razumljive pogreške",
+          "desc": "Jasne poruke umjesto kompliciranih tehničkih kodova."
+        },
+        "nosignup": {
+          "title": "Registracija nije potrebna",
+          "desc": "Radite brže — učitajte i dijelite odmah."
+        },
+        "r2": {
+          "title": "Brza pohrana",
+          "desc": "Poveznice se poslužuju putem brze mreže za pouzdan pristup."
+        }
       }
     },
     "testimonials": {
@@ -176,11 +209,26 @@
       "faq": {
         "title": "Često postavljana pitanja",
         "items": {
-          "1": { "q": "Je li besplatno?", "a": "Da, osnovna pretvorba fotografije u poveznicu je besplatna." },
-          "2": { "q": "Koji su formati podržani?", "a": "Trenutno PNG, JPG, WEBP, GIF do 10MB." },
-          "3": { "q": "Mogu li ugraditi u Markdown ili HTML?", "a": "Da. Kopirajte poveznicu izravno ili koristite opcije spremanja u .md formatu." },
-          "4": { "q": "Jesu li moje datoteke javne?", "a": "Poveznice se mogu dijeliti; kada je CDN omogućen, poslužuju se putem njegove domene." },
-          "5": { "q": "Hoće li postojati računi za timove?", "a": "To je u planu. Prioritet nam je prvo jednostavno učitavanje, a zatim ćemo dodati timske prostore." }
+          "1": {
+            "q": "Je li besplatno?",
+            "a": "Da, osnovna pretvorba fotografije u poveznicu je besplatna."
+          },
+          "2": {
+            "q": "Koji su formati podržani?",
+            "a": "Trenutno PNG, JPG, WEBP, GIF do 10MB."
+          },
+          "3": {
+            "q": "Mogu li ugraditi u Markdown ili HTML?",
+            "a": "Da. Kopirajte poveznicu izravno ili koristite opcije spremanja u .md formatu."
+          },
+          "4": {
+            "q": "Jesu li moje datoteke javne?",
+            "a": "Poveznice se mogu dijeliti; kada je CDN omogućen, poslužuju se putem njegove domene."
+          },
+          "5": {
+            "q": "Hoće li postojati računi za timove?",
+            "a": "To je u planu. Prioritet nam je prvo jednostavno učitavanje, a zatim ćemo dodati timske prostore."
+          }
         }
       },
       "keywords": {
@@ -300,6 +348,42 @@
       "email": {
         "label": "E-pošta",
         "address": "leeqs1010@gmail.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Privacy Policy | Photo To URL",
+        "description": "Privacy Policy for Photo To URL."
+      },
+      "page": {
+        "title": "Privacy Policy",
+        "content": "We collect the minimum necessary data to operate the service. Uploaded images are stored to generate a shareable link.",
+        "contact": {
+          "title": "Contact",
+          "text": "Questions? Email",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Terms of Service | Photo To URL",
+        "description": "Terms of Service for Photo To URL."
+      },
+      "page": {
+        "title": "Terms of Service",
+        "content": "By using Photo To URL, you agree to use the service responsibly and not upload illegal content.",
+        "disclaimer": {
+          "title": "Disclaimer",
+          "text": "The service is provided \"as is\" without warranties. Availability may change due to maintenance."
+        },
+        "contact": {
+          "title": "Contact",
+          "text": "Email",
+          "email": "leeqs1010@gmail.com"
+        }
       }
     }
   }

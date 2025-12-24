@@ -78,9 +78,18 @@
       "title": "Bakit pinipili ng mga tao ang Larawan sa URL",
       "subtitle": "Bilis, malinis na mga link, at walang abala sa pag-signup.",
       "items": {
-        "fast": { "title": "Mabilis na Pag-share", "desc": "Mag-upload at kumuha ng link sa loob ng ilang segundo nang walang dagdag na hakbang." },
-        "direct": { "title": "Mga Direct URL", "desc": "Malinis na mga link na gumagana sa HTML, Markdown, at mga chat app." },
-        "nosignup": { "title": "Walang Signup", "desc": "Gamitin agad. Ang mga user account ay darating sa hinaharap." }
+        "fast": {
+          "title": "Mabilis na Pag-share",
+          "desc": "Mag-upload at kumuha ng link sa loob ng ilang segundo nang walang dagdag na hakbang."
+        },
+        "direct": {
+          "title": "Mga Direct URL",
+          "desc": "Malinis na mga link na gumagana sa HTML, Markdown, at mga chat app."
+        },
+        "nosignup": {
+          "title": "Walang Signup",
+          "desc": "Gamitin agad. Ang mga user account ay darating sa hinaharap."
+        }
       }
     },
     "how": {
@@ -94,24 +103,48 @@
       "title": "Prosesong may tatlong hakbang",
       "subtitle": "Bawasan ang pagod, manatiling nakatutok, tapos sa ilang segundo.",
       "steps": {
-        "1": { "title": "I-drop o I-paste", "desc": "I-drag ang file, i-paste mula sa clipboard, o mag-browse sa iyong computer." },
-        "2": { "title": "Kami ang Bahala sa Link", "desc": "Instant URL na may kontrol para i-copy, buksan, o i-save." },
-        "3": { "title": "I-share Kahit Saan", "desc": "I-paste sa mga dokumento, chat, ticket, blog, o prototype." }
+        "1": {
+          "title": "I-drop o I-paste",
+          "desc": "I-drag ang file, i-paste mula sa clipboard, o mag-browse sa iyong computer."
+        },
+        "2": {
+          "title": "Kami ang Bahala sa Link",
+          "desc": "Instant URL na may kontrol para i-copy, buksan, o i-save."
+        },
+        "3": {
+          "title": "I-share Kahit Saan",
+          "desc": "I-paste sa mga dokumento, chat, ticket, blog, o prototype."
+        }
       }
     },
     "features": {
       "title": "Mga Pangunahing Feature",
       "subtitle": "Kalinawan muna: mas madaling proseso, mas maraming pag-share.",
       "items": {
-        "cdn": { "title": "Direct CDN Links", "desc": "Malinis at predictable na mga URL, handa para sa Markdown at HTML." },
+        "cdn": {
+          "title": "Direct CDN Links",
+          "desc": "Malinis at predictable na mga URL, handa para sa Markdown at HTML."
+        },
         "save": {
           "title": "Copy at Save Actions",
           "desc": "I-copy, buksan, o i-save bilang .txt/.json/.md sa isang click."
         },
-        "clipboard": { "title": "Clipboard Friendly", "desc": "I-paste ang mga screenshot nang direkta nang hindi na naghahanap ng file." },
-        "errors": { "title": "Madaling Intindihing Error", "desc": "Malinaw na mensahe imbes na mga nakakalitong technical code." },
-        "nosignup": { "title": "Hindi Kailangan ng Signup", "desc": "Magtrabaho nang mas mabilis — mag-upload at i-share agad." },
-        "r2": { "title": "Mabilis na Hosting", "desc": "Ang mga link ay hatid ng mabilis na network para sa maaasahang access." }
+        "clipboard": {
+          "title": "Clipboard Friendly",
+          "desc": "I-paste ang mga screenshot nang direkta nang hindi na naghahanap ng file."
+        },
+        "errors": {
+          "title": "Madaling Intindihing Error",
+          "desc": "Malinaw na mensahe imbes na mga nakakalitong technical code."
+        },
+        "nosignup": {
+          "title": "Hindi Kailangan ng Signup",
+          "desc": "Magtrabaho nang mas mabilis — mag-upload at i-share agad."
+        },
+        "r2": {
+          "title": "Mabilis na Hosting",
+          "desc": "Ang mga link ay hatid ng mabilis na network para sa maaasahang access."
+        }
       }
     },
     "testimonials": {
@@ -176,11 +209,26 @@
       "faq": {
         "title": "Mga Madalas Itanong",
         "items": {
-          "1": { "q": "Libre ba ito?", "a": "Oo, ang basic na paggawa ng link mula sa larawan ay libre." },
-          "2": { "q": "Anong mga format ang supported?", "a": "Sa ngayon, PNG, JPG, WEBP, GIF hanggang 10MB." },
-          "3": { "q": "Maaari ko ba itong i-embed sa Markdown o HTML?", "a": "Oo. I-copy ang link nang direkta o gamitin ang .md format save options." },
-          "4": { "q": "Public ba ang mga file ko?", "a": "Ang mga link ay shareable; kapag ang CDN ay naka-enable, idinedeliver ito gamit ang domain nito." },
-          "5": { "q": "Magkakaroon ba ng mga account para sa mga team?", "a": "Plano ito sa hinaharap. Inuuna muna namin ang madaling pag-upload, pagkatapos ay magdadagdag kami ng mga team workspace." }
+          "1": {
+            "q": "Libre ba ito?",
+            "a": "Oo, ang basic na paggawa ng link mula sa larawan ay libre."
+          },
+          "2": {
+            "q": "Anong mga format ang supported?",
+            "a": "Sa ngayon, PNG, JPG, WEBP, GIF hanggang 10MB."
+          },
+          "3": {
+            "q": "Maaari ko ba itong i-embed sa Markdown o HTML?",
+            "a": "Oo. I-copy ang link nang direkta o gamitin ang .md format save options."
+          },
+          "4": {
+            "q": "Public ba ang mga file ko?",
+            "a": "Ang mga link ay shareable; kapag ang CDN ay naka-enable, idinedeliver ito gamit ang domain nito."
+          },
+          "5": {
+            "q": "Magkakaroon ba ng mga account para sa mga team?",
+            "a": "Plano ito sa hinaharap. Inuuna muna namin ang madaling pag-upload, pagkatapos ay magdadagdag kami ng mga team workspace."
+          }
         }
       },
       "keywords": {
@@ -300,6 +348,42 @@
       "email": {
         "label": "Email",
         "address": "leeqs1010@gmail.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Privacy Policy | Photo To URL",
+        "description": "Privacy Policy for Photo To URL."
+      },
+      "page": {
+        "title": "Privacy Policy",
+        "content": "We collect the minimum necessary data to operate the service. Uploaded images are stored to generate a shareable link.",
+        "contact": {
+          "title": "Contact",
+          "text": "Questions? Email",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Terms of Service | Photo To URL",
+        "description": "Terms of Service for Photo To URL."
+      },
+      "page": {
+        "title": "Terms of Service",
+        "content": "By using Photo To URL, you agree to use the service responsibly and not upload illegal content.",
+        "disclaimer": {
+          "title": "Disclaimer",
+          "text": "The service is provided \"as is\" without warranties. Availability may change due to maintenance."
+        },
+        "contact": {
+          "title": "Contact",
+          "text": "Email",
+          "email": "leeqs1010@gmail.com"
+        }
       }
     }
   }

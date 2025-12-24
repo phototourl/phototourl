@@ -349,5 +349,41 @@
         "address": "leeqs1010@gmail.com"
       }
     }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Integritetspolicy | Photo To URL",
+        "description": "Integritetspolicy för Photo To URL."
+      },
+      "page": {
+        "title": "Integritetspolicy",
+        "content": "Vi samlar in de minsta nödvändiga uppgifterna för att driva tjänsten. Uppladdade bilder lagras för att generera en delbar länk.",
+        "contact": {
+          "title": "Kontakt",
+          "text": "Frågor? Skicka ett e-postmeddelande till",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Användarvillkor | Photo To URL",
+        "description": "Användarvillkor för Photo To URL."
+      },
+      "page": {
+        "title": "Användarvillkor",
+        "content": "Genom att använda Photo To URL godkänner du att använda tjänsten ansvarsfullt och inte ladda upp olagligt innehåll.",
+        "disclaimer": {
+          "title": "Friskrivning",
+          "text": "Tjänsten tillhandahålls \"som den är\" utan garantier. Tillgängligheten kan ändras på grund av underhåll."
+        },
+        "contact": {
+          "title": "Kontakt",
+          "text": "Skicka ett e-postmeddelande till",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    }
   }
 }

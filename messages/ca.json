@@ -78,9 +78,18 @@
       "title": "Per què escollir Foto a URL",
       "subtitle": "Velocitat, enllaços nets i sense necessitat de registre.",
       "items": {
-        "fast": { "title": "Compartició ràpida", "desc": "Puja i obtén un enllaç en segons sense passos innecessaris." },
-        "direct": { "title": "URLs directes", "desc": "Enllaços nets que funcionen en HTML, Markdown i aplicacions de xat." },
-        "nosignup": { "title": "Sense registre", "desc": "Fes-lo servir immediatament. Els comptes arribaran més endavant." }
+        "fast": {
+          "title": "Compartició ràpida",
+          "desc": "Puja i obtén un enllaç en segons sense passos innecessaris."
+        },
+        "direct": {
+          "title": "URLs directes",
+          "desc": "Enllaços nets que funcionen en HTML, Markdown i aplicacions de xat."
+        },
+        "nosignup": {
+          "title": "Sense registre",
+          "desc": "Fes-lo servir immediatament. Els comptes arribaran més endavant."
+        }
       }
     },
     "how": {
@@ -94,24 +103,48 @@
       "title": "Procés en tres passos",
       "subtitle": "Redueix l'esforç, mantén el focus i acaba en segons.",
       "steps": {
-        "1": { "title": "Arrossega o enganxa", "desc": "Deixa anar un fitxer, enganxa des del porta-retalls o busca al teu equip." },
-        "2": { "title": "Allotgem i retornem l'enllaç", "desc": "URL instantània amb controls per copiar, obrir o desar." },
-        "3": { "title": "Comparteix a tot arreu", "desc": "Enganxa-ho en documents, xats, tiquets, blogs o prototips." }
+        "1": {
+          "title": "Arrossega o enganxa",
+          "desc": "Deixa anar un fitxer, enganxa des del porta-retalls o busca al teu equip."
+        },
+        "2": {
+          "title": "Allotgem i retornem l'enllaç",
+          "desc": "URL instantània amb controls per copiar, obrir o desar."
+        },
+        "3": {
+          "title": "Comparteix a tot arreu",
+          "desc": "Enganxa-ho en documents, xats, tiquets, blogs o prototips."
+        }
       }
     },
     "features": {
       "title": "Característiques destacades",
       "subtitle": "Claredat primer: menys fricció, més facilitat per compartir.",
       "items": {
-        "cdn": { "title": "Enllaços directes CDN", "desc": "URLs netes i estables, llestes per incrustar en Markdown i HTML." },
+        "cdn": {
+          "title": "Enllaços directes CDN",
+          "desc": "URLs netes i estables, llestes per incrustar en Markdown i HTML."
+        },
         "save": {
           "title": "Còpia i desament ràpid",
           "desc": "Copia, obre o desa com a .txt, .json o .md amb un sol clic."
         },
-        "clipboard": { "title": "Compatible amb el porta-retalls", "desc": "Enganxa captures de pantalla directament sense buscar fitxers." },
-        "errors": { "title": "Errors entenedors", "desc": "Missatges clars en lloc de codis tècnics complicats." },
-        "nosignup": { "title": "Sense necessitat de registre", "desc": "Treballa més ràpid: puja i comparteix a l'instant." },
-        "r2": { "title": "Allotjament ràpid", "desc": "Enllaços servits mitjançant una xarxa ràpida per a un accés fiable." }
+        "clipboard": {
+          "title": "Compatible amb el porta-retalls",
+          "desc": "Enganxa captures de pantalla directament sense buscar fitxers."
+        },
+        "errors": {
+          "title": "Errors entenedors",
+          "desc": "Missatges clars en lloc de codis tècnics complicats."
+        },
+        "nosignup": {
+          "title": "Sense necessitat de registre",
+          "desc": "Treballa més ràpid: puja i comparteix a l'instant."
+        },
+        "r2": {
+          "title": "Allotjament ràpid",
+          "desc": "Enllaços servits mitjançant una xarxa ràpida per a un accés fiable."
+        }
       }
     },
     "testimonials": {
@@ -176,11 +209,26 @@
       "faq": {
         "title": "Preguntes freqüents",
         "items": {
-          "1": { "q": "És gratuït?", "a": "Sí, la conversió bàsica de foto a enllaç és gratuïta." },
-          "2": { "q": "Quins formats s'accepten?", "a": "Actualment PNG, JPG, WEBP i GIF fins a 10MB." },
-          "3": { "q": "Puc incrustar-ho en Markdown o HTML?", "a": "Sí. Copia l'enllaç directament o usa les opcions de desament en format .md." },
-          "4": { "q": "Els meus fitxers són públics?", "a": "Els enllaços es poden compartir; quan s'activa el CDN, es serveixen a través del seu domini." },
-          "5": { "q": "Hi haurà comptes per a equips?", "a": "Està previst. Prioritzem la senzillesa de pujada i després afegirem espais per a equips." }
+          "1": {
+            "q": "És gratuït?",
+            "a": "Sí, la conversió bàsica de foto a enllaç és gratuïta."
+          },
+          "2": {
+            "q": "Quins formats s'accepten?",
+            "a": "Actualment PNG, JPG, WEBP i GIF fins a 10MB."
+          },
+          "3": {
+            "q": "Puc incrustar-ho en Markdown o HTML?",
+            "a": "Sí. Copia l'enllaç directament o usa les opcions de desament en format .md."
+          },
+          "4": {
+            "q": "Els meus fitxers són públics?",
+            "a": "Els enllaços es poden compartir; quan s'activa el CDN, es serveixen a través del seu domini."
+          },
+          "5": {
+            "q": "Hi haurà comptes per a equips?",
+            "a": "Està previst. Prioritzem la senzillesa de pujada i després afegirem espais per a equips."
+          }
         }
       },
       "keywords": {
@@ -300,6 +348,42 @@
       "email": {
         "label": "Correu electrònic",
         "address": "leeqs1010@gmail.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Privacy Policy | Photo To URL",
+        "description": "Privacy Policy for Photo To URL."
+      },
+      "page": {
+        "title": "Privacy Policy",
+        "content": "We collect the minimum necessary data to operate the service. Uploaded images are stored to generate a shareable link.",
+        "contact": {
+          "title": "Contact",
+          "text": "Questions? Email",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Terms of Service | Photo To URL",
+        "description": "Terms of Service for Photo To URL."
+      },
+      "page": {
+        "title": "Terms of Service",
+        "content": "By using Photo To URL, you agree to use the service responsibly and not upload illegal content.",
+        "disclaimer": {
+          "title": "Disclaimer",
+          "text": "The service is provided \"as is\" without warranties. Availability may change due to maintenance."
+        },
+        "contact": {
+          "title": "Contact",
+          "text": "Email",
+          "email": "leeqs1010@gmail.com"
+        }
       }
     }
   }

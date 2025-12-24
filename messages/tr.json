@@ -349,5 +349,41 @@
         "address": "leeqs1010@gmail.com"
       }
     }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Gizlilik Politikası | Photo To URL",
+        "description": "Photo To URL için Gizlilik Politikası."
+      },
+      "page": {
+        "title": "Gizlilik Politikası",
+        "content": "Hizmeti çalıştırmak için gereken minimum verileri topluyoruz. Yüklenen görüntüler paylaşılabilir bir bağlantı oluşturmak için saklanır.",
+        "contact": {
+          "title": "İletişim",
+          "text": "Sorularınız mı var? E-posta gönderin",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Hizmet Şartları | Photo To URL",
+        "description": "Photo To URL için Hizmet Şartları."
+      },
+      "page": {
+        "title": "Hizmet Şartları",
+        "content": "Photo To URL'yi kullanarak, hizmeti sorumlu bir şekilde kullanmayı ve yasadışı içerik yüklememeyi kabul edersiniz.",
+        "disclaimer": {
+          "title": "Sorumluluk Reddi",
+          "text": "Hizmet \"olduğu gibi\" garanti olmadan sağlanır. Kullanılabilirlik bakım nedeniyle değişebilir."
+        },
+        "contact": {
+          "title": "İletişim",
+          "text": "E-posta gönderin",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    }
   }
 }
