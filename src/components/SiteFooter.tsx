@@ -184,9 +184,9 @@ export async function SiteFooter() {
             >
               <img
                 src="https://wired.business/badge3-dark.svg"
-                width={120}
-                height={28}
                 alt="Featured on Wired Business"
+                width={200}
+                height={54}
                 className="h-6 w-auto shrink-0"
               />
             </a>
