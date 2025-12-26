@@ -72,7 +72,9 @@
       "placeholder": "Ei linkkiä vielä. Lataa kuva luodaksesi URL-osoitteen.",
       "savePrompt": "Tallenna linkki haluamassasi muodossa",
       "copy": "Kopioi linkki",
-      "copied": "Kopioitu"
+      "copied": "Kopioitu",
+      "saveHint": "Tallenna tämä linkki, jos tarvitset sitä myöhemmin",
+      "tryCircleCrop": "Kokeile Pyöreä kuvan rajaus"
     },
     "benefits": {
       "title": "Miksi valita Kuva URL-osoitteeksi",

@@ -429,8 +429,7 @@ export default function HomePage() {
                             }
                           }}
                         >
-                          <ArrowUpRight className="h-4 w-4" />
-                          {t("result.tryCircleCrop")}
+                          👉 {t("result.tryCircleCrop")}
                         </LocaleLink>
                       </div>
                       <div className="relative h-48 w-full overflow-hidden rounded-lg bg-transparent sm:h-56">

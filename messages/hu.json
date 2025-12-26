@@ -65,14 +65,16 @@
       "policy": "A kép feltöltésével elfogadja az <privacy>Adatvédelmi szabályzatunkat</privacy> és a <terms>Szolgáltatási feltételeinket</terms>.",
       "clear": "Törlés"
     },
-    "result": {
-      "error": "A feltöltés sikertelen. Kérjük, próbálja újra.",
+   "result": {
+      "error": "A feltöltés sikertelen. Próbálja újra.",
       "generated": "Generált link:",
       "open": "Megnyitás új lapon",
-      "placeholder": "Még nincs link. Töltsön fel egy fotót az URL generálásához.",
-      "savePrompt": "Mentse el a linket a kívánt módon",
-      "copy": "Link másolása",
-      "copied": "Másolva"
+      "placeholder": "Még nincs link. Töltsön fel egy képet a megosztható URL generálásához.",
+      "savePrompt": "Link mentése másként:",
+      "copy": "Másolás",
+      "copied": "Másolva",
+      "saveHint": "Mentse el ezt a linket, ha később szüksége lesz rá",
+      "tryCircleCrop": "Kör alakú vágás kipróbálása"
     },
     "benefits": {
       "title": "Miért választják az emberek a Fotó Linkké eszközt?",

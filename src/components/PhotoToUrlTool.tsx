@@ -5,14 +5,12 @@ import { motion } from "framer-motion";
 import {
   Upload,
   Link as LinkIcon,
-  Loader2,
   Image as ImageIcon,
   ArrowUpRight,
   Copy,
   FileText,
   FileJson,
   FileCode2,
-  MousePointerClick,
   X,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -342,8 +340,7 @@ export function PhotoToUrlTool({ showHeading = true, showExtraContent = false }:
                         }
                       }}
                     >
-                      <ArrowUpRight className="h-4 w-4" />
-                      {t("result.tryCircleCrop")}
+                      👉 {t("result.tryCircleCrop")}
                     </LocaleLink>
                   </div>
                   <div className="relative h-48 w-full overflow-hidden rounded-lg bg-slate-100 sm:h-56">

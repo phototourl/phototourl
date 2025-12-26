@@ -72,7 +72,9 @@
       "placeholder": "Intet link endnu. Upload et foto for at generere en URL.",
       "savePrompt": "Gem linket som du ønsker",
       "copy": "Kopiér link",
-      "copied": "Kopieret"
+      "copied": "Kopieret",
+      "saveHint": "Gem dette link, hvis du har brug for det senere",
+      "tryCircleCrop": "Prøv Beskær foto til cirkel"
     },
     "benefits": {
       "title": "Hvorfor folk vælger Foto til URL",

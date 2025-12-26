@@ -72,7 +72,9 @@
       "placeholder": "Encara no hi ha cap enllaç. Puja una foto per generar un URL.",
       "savePrompt": "Desa l'enllaç com prefereixis",
       "copy": "Copia enllaç",
-      "copied": "Copiat"
+      "copied": "Copiat",
+      "saveHint": "Desa aquest enllaç si el necessites més tard",
+      "tryCircleCrop": "Prova Retall circular de fotos"
     },
     "benefits": {
       "title": "Per què escollir Foto a URL",

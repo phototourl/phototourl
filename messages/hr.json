@@ -66,13 +66,15 @@
       "clear": "Očisti"
     },
     "result": {
-      "error": "Učitavanje nije uspjelo. Pokušajte ponovno.",
+      "error": "Nahrana nije uspjela. Pokušajte ponovno.",
       "generated": "Generirana poveznica:",
       "open": "Otvori u novoj kartici",
-      "placeholder": "Još nema poveznice. Učitajte sliku kako biste generirali URL.",
-      "savePrompt": "Spremite poveznicu kako želite",
-      "copy": "Kopiraj poveznicu",
-      "copied": "Kopirano"
+      "placeholder": "Još nema poveznice. Prenesite sliku da biste generirali URL za dijeljenje.",
+      "savePrompt": "Spremi poveznicu kao:",
+      "copy": "Kopiraj",
+      "copied": "Kopirano",
+      "saveHint": "Spremite ovu poveznicu ako će vam trebati kasnije",
+      "tryCircleCrop": "Isprobaj okrugli izrez"
     },
     "benefits": {
       "title": "Zašto ljudi biraju Slika u URL",
