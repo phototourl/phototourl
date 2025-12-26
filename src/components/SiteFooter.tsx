@@ -33,17 +33,17 @@ export async function SiteFooter() {
         <div className="mx-auto max-w-6xl px-6 py-8 lg:px-8 lg:py-10">
           <div className="grid gap-8 md:grid-cols-4 mb-8">
             <div className="space-y-3">
-              <LocaleLink href="/" className="flex items-center gap-3">
-                <div className="relative h-8 w-8 overflow-hidden rounded-md bg-white/10">
+              <LocaleLink href="/" className="flex items-center gap-3 group">
+                <div className="relative h-8 w-8 overflow-hidden rounded-md bg-white/10 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12 group-hover:bg-white/20">
                   <Image
                     src="/icons/light_58x58.png"
                     alt={tImages("logoAlt")}
                     width={32}
                     height={32}
-                    className="h-full w-full object-contain"
+                    className="h-full w-full object-contain transition-transform duration-300 group-hover:scale-110"
                   />
                 </div>
-                <div className="text-xl font-semibold text-white">{t("siteName")}</div>
+                <div className="text-xl font-semibold text-white transition-colors duration-300 group-hover:text-white/90">{t("siteName")}</div>
               </LocaleLink>
               <div className="pt-2">
                 <CircleCropTypewriter />
