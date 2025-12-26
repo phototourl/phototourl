@@ -294,26 +294,6 @@ export function PhotoToUrlTool({ showHeading = true, showExtraContent = false }:
                   <FileText className="mr-1.5 h-4 w-4" />
                   .txt
                 </Button>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  disabled={!url}
-                  className="h-9 rounded-lg border px-3 text-xs font-semibold transition sm:px-4 sm:text-sm"
-                  onClick={saveUrlAsJson}
-                >
-                  <FileJson className="mr-1.5 h-4 w-4" />
-                  .json
-                </Button>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  disabled={!url}
-                  className="h-9 rounded-lg border px-3 text-xs font-semibold transition sm:px-4 sm:text-sm"
-                  onClick={saveUrlAsMd}
-                >
-                  <FileCode2 className="mr-1.5 h-4 w-4" />
-                  .md
-                </Button>
               </div>
 
               {preview && (

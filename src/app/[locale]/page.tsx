@@ -373,36 +373,6 @@ export default function HomePage() {
                       <FileText className="mr-1.5 h-4 w-4 sm:mr-2" />
                       .txt
                     </Button>
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      disabled={!url}
-                      className={cn(
-                        "h-9 rounded-lg border px-3 text-xs font-semibold transition sm:h-10 sm:px-4 sm:text-sm",
-                        !url
-                          ? "border-slate-200 bg-white text-slate-400 cursor-not-allowed"
-                          : "border-slate-200 bg-white text-slate-800"
-                      )}
-                      onClick={(e) => saveUrlAsJson(e)}
-                    >
-                      <FileJson className="mr-1.5 h-4 w-4 sm:mr-2" />
-                      .json
-                    </Button>
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      disabled={!url}
-                      className={cn(
-                        "h-9 rounded-lg border px-3 text-xs font-semibold transition sm:h-10 sm:px-4 sm:text-sm",
-                        !url
-                          ? "border-slate-200 bg-white text-slate-400 cursor-not-allowed"
-                          : "border-slate-200 bg-white text-slate-800"
-                      )}
-                      onClick={(e) => saveUrlAsMd(e)}
-                    >
-                      <FileCode2 className="mr-1.5 h-4 w-4 sm:mr-2" />
-                      .md
-                    </Button>
                   </div>
                   {preview && (
                     <div className="mt-4">
