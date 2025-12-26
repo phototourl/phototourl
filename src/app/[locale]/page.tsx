@@ -15,8 +15,6 @@ import {
   ArrowUpRight,
   Copy,
   FileText,
-  FileJson,
-  FileCode2,
   ArrowUpCircle,
   X,
 } from "lucide-react";
