@@ -384,6 +384,7 @@ export default function HomePage() {
                           className="inline-flex items-center gap-1.5 text-sm text-brand-teal hover:underline transition-colors"
                           onClick={(e) => {
                             if (originalFile) {
+                              e.preventDefault();
                               // 将文件转换为 base64 并保存到 sessionStorage
                               const reader = new FileReader();
                               reader.onloadend = () => {
@@ -391,6 +392,8 @@ export default function HomePage() {
                                 sessionStorage.setItem('circleCropImage', base64);
                                 sessionStorage.setItem('circleCropFileName', originalFile.name);
                                 sessionStorage.setItem('circleCropFileType', originalFile.type);
+                                // 保存完成后再跳转
+                                router.push('/circlecrop');
                               };
                               reader.readAsDataURL(originalFile);
                             }
