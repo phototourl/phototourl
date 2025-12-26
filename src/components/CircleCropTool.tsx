@@ -5,6 +5,7 @@ import NextImage from "next/image";
 import { Button } from "@/components/ui/button";
 import { Upload, Download, Loader2 } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { useSearchParams } from "next/navigation";
 
 type LoadedImage = {
   url: string;
@@ -18,6 +19,7 @@ interface CircleCropToolProps {
 
 export function CircleCropTool({ showHeading = true }: CircleCropToolProps) {
   const t = useTranslations("circleCrop");
+  const searchParams = useSearchParams();
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const previewContainerRef = useRef<HTMLDivElement | null>(null);
   const [loadedImage, setLoadedImage] = useState<LoadedImage | null>(null);
@@ -37,10 +39,45 @@ export function CircleCropTool({ showHeading = true }: CircleCropToolProps) {
     };
   }, [loadedImage]);
 
-  // 从 sessionStorage 加载图片（如果是从 Photo To URL 页面跳转过来的）
+  // 从 URL 参数或 sessionStorage 加载图片（如果是从 Photo To URL 页面跳转过来的）
   useEffect(() => {
     if (loadedImage) return; // 如果已经有图片了，不加载
     
+    // 优先从 URL 参数获取图片地址
+    const imageUrl = searchParams.get('imageUrl');
+    
+    if (imageUrl) {
+      // 从 URL 加载图片
+      (async () => {
+        try {
+          // 从 URL 获取图片
+          const response = await fetch(imageUrl);
+          if (!response.ok) throw new Error('Failed to fetch image');
+          const blob = await response.blob();
+          const fileName = imageUrl.split('/').pop()?.split('?')[0] || 'image.jpg';
+          const file = new File([blob], fileName, { type: blob.type });
+          
+          // 创建 Image 对象用于显示
+          const img = new Image();
+          img.onload = () => {
+            const objectUrl = URL.createObjectURL(blob);
+            setLoadedImage({ url: objectUrl, element: img, originalFile: file });
+            setScale(1);
+            setOffsetX(0);
+            setOffsetY(0);
+          };
+          img.onerror = () => {
+            console.error('Failed to load image from URL');
+          };
+          img.src = URL.createObjectURL(blob);
+        } catch (error) {
+          console.error('Failed to load image from URL:', error);
+        }
+      })();
+      return;
+    }
+    
+    // 兼容旧方式：从 sessionStorage 加载（base64）
     const base64 = sessionStorage.getItem('circleCropImage');
     const fileName = sessionStorage.getItem('circleCropFileName');
     const fileType = sessionStorage.getItem('circleCropFileType');
@@ -71,7 +108,7 @@ export function CircleCropTool({ showHeading = true }: CircleCropToolProps) {
       };
       img.src = objectUrl;
     }
-  }, [loadedImage]);
+  }, [loadedImage, searchParams]);
 
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
