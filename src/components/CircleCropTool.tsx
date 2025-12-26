@@ -37,6 +37,42 @@ export function CircleCropTool({ showHeading = true }: CircleCropToolProps) {
     };
   }, [loadedImage]);
 
+  // 从 sessionStorage 加载图片（如果是从 Photo To URL 页面跳转过来的）
+  useEffect(() => {
+    if (loadedImage) return; // 如果已经有图片了，不加载
+    
+    const base64 = sessionStorage.getItem('circleCropImage');
+    const fileName = sessionStorage.getItem('circleCropFileName');
+    const fileType = sessionStorage.getItem('circleCropFileType');
+    
+    if (base64 && fileName && fileType) {
+      // 将 base64 转换为 File 对象
+      const byteString = atob(base64.split(',')[1]);
+      const mimeString = base64.split(',')[0].split(':')[1].split(';')[0];
+      const ab = new ArrayBuffer(byteString.length);
+      const ia = new Uint8Array(ab);
+      for (let i = 0; i < byteString.length; i++) {
+        ia[i] = byteString.charCodeAt(i);
+      }
+      const blob = new Blob([ab], { type: mimeString });
+      const file = new File([blob], fileName, { type: mimeString });
+
+      const objectUrl = URL.createObjectURL(file);
+      const img = new Image();
+      img.onload = () => {
+        setLoadedImage({ url: objectUrl, element: img, originalFile: file });
+        setScale(1);
+        setOffsetX(0);
+        setOffsetY(0);
+        // 清除 sessionStorage
+        sessionStorage.removeItem('circleCropImage');
+        sessionStorage.removeItem('circleCropFileName');
+        sessionStorage.removeItem('circleCropFileType');
+      };
+      img.src = objectUrl;
+    }
+  }, [loadedImage]);
+
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
     if (!file) return;

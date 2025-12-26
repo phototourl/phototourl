@@ -72,7 +72,9 @@
       "placeholder": "Belum ada pautan lagi. Muat naik foto untuk menghasilkan URL boleh dikongsi.",
       "savePrompt": "Simpan pautan mengikut kesukaan anda",
       "copy": "Salin pautan",
-      "copied": "Disalin"
+      "copied": "Disalin",
+      "saveHint": "Simpan pautan ini jika anda memerlukannya kemudian",
+      "tryCircleCrop": "Cuba Foto ke Potongan Bulat"
     },
     "benefits": {
       "title": "Mengapa orang memilih Foto ke URL",

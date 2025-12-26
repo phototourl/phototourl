@@ -3,6 +3,11 @@ import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { Github, Twitter } from "lucide-react";
+import dynamic from "next/dynamic";
+
+const CircleCropTypewriter = dynamic(() => import("./CircleCropTypewriter").then(mod => ({ default: mod.CircleCropTypewriter })), {
+  ssr: false,
+});
 
 const navLinks = [
   { key: "blog", href: "/blog" },
@@ -28,7 +33,7 @@ export async function SiteFooter() {
         <div className="mx-auto max-w-6xl px-6 py-8 lg:px-8 lg:py-10">
           <div className="grid gap-8 md:grid-cols-4 mb-8">
             <div className="space-y-3">
-              <div className="flex items-center gap-3">
+              <LocaleLink href="/" className="flex items-center gap-3">
                 <div className="relative h-8 w-8 overflow-hidden rounded-md bg-white/10">
                   <Image
                     src="/icons/light_58x58.png"
@@ -39,6 +44,9 @@ export async function SiteFooter() {
                   />
                 </div>
                 <div className="text-xl font-semibold text-white">{t("siteName")}</div>
+              </LocaleLink>
+              <div className="pt-2">
+                <CircleCropTypewriter />
               </div>
               <div className="flex items-center gap-2">
                 <a

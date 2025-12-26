@@ -72,7 +72,9 @@
       "placeholder": "Belum ada tautan. Unggah foto untuk membuat URL yang dapat dibagikan.",
       "savePrompt": "Simpan tautan sesuka Anda",
       "copy": "Salin tautan",
-      "copied": "Tersalin"
+      "copied": "Tersalin",
+      "saveHint": "Simpan tautan ini jika Anda membutuhkannya nanti",
+      "tryCircleCrop": "Coba Foto ke Potong Lingkaran"
     },
     "benefits": {
       "title": "Mengapa orang memilih Foto ke URL",

@@ -71,7 +71,9 @@
       "placeholder": "尚無連結，先上傳一張圖片產生可分享的 URL。",
       "savePrompt": "儲存成您想要的格式",
       "copy": "複製連結",
-      "copied": "已複製"
+      "copied": "已複製",
+      "saveHint": "如需後續使用，請儲存此連結",
+      "tryCircleCrop": "試試照片圓形裁剪"
     },
     "benefits": {
       "title": "為什麼選擇圖片轉連結",

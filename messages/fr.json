@@ -71,7 +71,9 @@
       "placeholder": "Pas encore de lien. Téléversez une image pour générer une URL partageable.",
       "savePrompt": "Enregistrer :",
       "copy": "Copier",
-      "copied": "Copié"
+      "copied": "Copié",
+      "saveHint": "Enregistrez ce lien si vous en avez besoin plus tard",
+      "tryCircleCrop": "Essayer Photo en Cercle"
     },
     "benefits": {
       "title": "Pourquoi choisir Photo vers URL",

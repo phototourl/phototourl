@@ -72,7 +72,9 @@
       "placeholder": "Niciun link încă. Încarcă o fotografie pentru a genera un URL.",
       "savePrompt": "Salvează linkul în formatul dorit",
       "copy": "Copiază linkul",
-      "copied": "Copiat"
+      "copied": "Copiat",
+      "saveHint": "Salvează acest link dacă îl vei avea nevoie mai târziu",
+      "tryCircleCrop": "Încearcă Decupare circulară foto"
     },
     "benefits": {
       "title": "De ce aleg oamenii Imagine în URL",

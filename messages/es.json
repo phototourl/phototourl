@@ -71,7 +71,9 @@
       "placeholder": "Aún no hay enlace. Sube una imagen para generar un URL compartible.",
       "savePrompt": "Guardar enlace como:",
       "copy": "Copiar",
-      "copied": "Copiado"
+      "copied": "Copiado",
+      "saveHint": "Guarda este enlace si lo necesitas más tarde",
+      "tryCircleCrop": "Probar Foto a Círculo"
     },
     "benefits": {
       "title": "Por qué la gente elige Foto a URL",

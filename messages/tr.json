@@ -71,7 +71,9 @@
       "placeholder": "Henüz bağlantı yok. Paylaşılabilir bir URL oluşturmak için bir fotoğraf yükleyin.",
       "savePrompt": "Bağlantıyı istediğiniz formatta kaydedin",
       "copy": "Bağlantıyı kopyala",
-      "copied": "Kopyalandı"
+      "copied": "Kopyalandı",
+      "saveHint": "Daha sonra ihtiyacınız olursa bu bağlantıyı kaydedin",
+      "tryCircleCrop": "Fotoğrafı Daireye Kırp"
     },
     "benefits": {
       "title": "İnsanlar neden Fotoğrafı URL'ye seçiyor",

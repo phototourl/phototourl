@@ -71,7 +71,9 @@
       "placeholder": "Ingen länk än. Ladda upp en foto för att generera en delbar URL.",
       "savePrompt": "Spara länk som du vill",
       "copy": "Kopiera länk",
-      "copied": "Kopierad"
+      "copied": "Kopierad",
+      "saveHint": "Spara denna länk om du behöver den senare",
+      "tryCircleCrop": "Prova Foto till Cirkel"
     },
     "benefits": {
       "title": "Varför folk väljer Foto till URL",

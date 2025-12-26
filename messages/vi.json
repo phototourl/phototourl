@@ -71,7 +71,9 @@
       "placeholder": "Chưa có liên kết. Tải lên ảnh để tạo URL có thể chia sẻ.",
       "savePrompt": "Lưu liên kết theo ý bạn",
       "copy": "Sao chép liên kết",
-      "copied": "Đã sao chép"
+      "copied": "Đã sao chép",
+      "saveHint": "Lưu liên kết này nếu bạn cần sau này",
+      "tryCircleCrop": "Thử Ảnh Thành Hình Tròn"
     },
     "benefits": {
       "title": "Tại sao mọi người chọn Ảnh thành URL",

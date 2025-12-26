@@ -71,7 +71,9 @@
       "placeholder": "まだリンクがありません。写真をアップロードして共有URLを作成してください。",
       "savePrompt": "好きな形式でリンクを保存",
       "copy": "コピー",
-      "copied": "コピー済み"
+      "copied": "コピー済み",
+      "saveHint": "後で必要になる場合は、このリンクを保存してください",
+      "tryCircleCrop": "円形クロップを試す"
     },
     "benefits": {
       "title": "写真をURLにが選ばれる理由",

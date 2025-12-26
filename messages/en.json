@@ -72,15 +72,26 @@
       "placeholder": "No link yet. Upload a photo to generate a shareable URL.",
       "savePrompt": "Save link as you like",
       "copy": "Copy link",
-      "copied": "Copied"
+      "copied": "Copied",
+      "saveHint": "Save this link if you need it later",
+      "tryCircleCrop": "Try Photo To Circle Crop"
     },
     "benefits": {
       "title": "Why people choose Photo To URL",
       "subtitle": "Speed, clean links, and no signup needed.",
       "items": {
-        "fast": { "title": "Fast sharing", "desc": "Upload and get a link in seconds with no extra steps." },
-        "direct": { "title": "Direct image URLs", "desc": "Clean links that work in HTML, Markdown, and chat apps." },
-        "nosignup": { "title": "No signup required", "desc": "Use it right away. Accounts can come later as we grow." }
+        "fast": {
+          "title": "Fast sharing",
+          "desc": "Upload and get a link in seconds with no extra steps."
+        },
+        "direct": {
+          "title": "Direct image URLs",
+          "desc": "Clean links that work in HTML, Markdown, and chat apps."
+        },
+        "nosignup": {
+          "title": "No signup required",
+          "desc": "Use it right away. Accounts can come later as we grow."
+        }
       }
     },
     "how": {
@@ -94,24 +105,48 @@
       "title": "Three-step flow",
       "subtitle": "Reduce effort, keep the CTA visible, finish in seconds.",
       "steps": {
-        "1": { "title": "Drop or paste", "desc": "Drag a file, paste from clipboard, or browse." },
-        "2": { "title": "We host & return a link", "desc": "Instant URL with copy/open/save controls." },
-        "3": { "title": "Share anywhere", "desc": "Paste into docs, chats, tickets, blogs, or prototypes." }
+        "1": {
+          "title": "Drop or paste",
+          "desc": "Drag a file, paste from clipboard, or browse."
+        },
+        "2": {
+          "title": "We host & return a link",
+          "desc": "Instant URL with copy/open/save controls."
+        },
+        "3": {
+          "title": "Share anywhere",
+          "desc": "Paste into docs, chats, tickets, blogs, or prototypes."
+        }
       }
     },
     "features": {
       "title": "Feature highlights",
       "subtitle": "Clarity first: less friction, more sharing.",
       "items": {
-        "cdn": { "title": "Direct CDN links", "desc": "Clean, predictable URLs ready for Markdown and HTML embeds." },
+        "cdn": {
+          "title": "Direct CDN links",
+          "desc": "Clean, predictable URLs ready for Markdown and HTML embeds."
+        },
         "save": {
           "title": "Copy & save actions",
           "desc": "Copy, open, or save as .txt/.json/.md with one click."
         },
-        "clipboard": { "title": "Clipboard friendly", "desc": "Paste screenshots without hunting for files or re-uploads." },
-        "errors": { "title": "Friendly errors", "desc": "Clear maintenance messages instead of technical stack traces." },
-        "nosignup": { "title": "No signup needed", "desc": "Ship faster—upload and share immediately." },
-        "r2": { "title": "Fast hosting", "desc": "Links are served via fast CDN for quick loading and reliable access." }
+        "clipboard": {
+          "title": "Clipboard friendly",
+          "desc": "Paste screenshots without hunting for files or re-uploads."
+        },
+        "errors": {
+          "title": "Friendly errors",
+          "desc": "Clear maintenance messages instead of technical stack traces."
+        },
+        "nosignup": {
+          "title": "No signup needed",
+          "desc": "Ship faster—upload and share immediately."
+        },
+        "r2": {
+          "title": "Fast hosting",
+          "desc": "Links are served via fast CDN for quick loading and reliable access."
+        }
       }
     },
     "testimonials": {
@@ -176,11 +211,26 @@
       "faq": {
         "title": "FAQs",
         "items": {
-          "1": { "q": "Is it free?", "a": "Yes, core upload-to-link is free. CDN-backed hosting via R2 will roll out with generous tiers." },
-          "2": { "q": "What formats are supported?", "a": "PNG, JPG, WEBP, GIF up to 10MB today. More formats can be added based on demand." },
-          "3": { "q": "Can I embed in Markdown or HTML?", "a": "Yes. Copy the link as-is, or use the one-click .txt / .json / .md saves for drop-in snippets." },
-          "4": { "q": "Do you keep my files public?", "a": "Links are shareable; when R2 CDN is enabled, they are served via the CDN domain. We show clear maintenance messages if storage is unavailable." },
-          "5": { "q": "Will there be accounts or teams?", "a": "Planned. We prioritize frictionless uploads first, then add team spaces, access control, and analytics." }
+          "1": {
+            "q": "Is it free?",
+            "a": "Yes, core upload-to-link is free. CDN-backed hosting via R2 will roll out with generous tiers."
+          },
+          "2": {
+            "q": "What formats are supported?",
+            "a": "PNG, JPG, WEBP, GIF up to 10MB today. More formats can be added based on demand."
+          },
+          "3": {
+            "q": "Can I embed in Markdown or HTML?",
+            "a": "Yes. Copy the link as-is, or use the one-click .txt / .json / .md saves for drop-in snippets."
+          },
+          "4": {
+            "q": "Do you keep my files public?",
+            "a": "Links are shareable; when R2 CDN is enabled, they are served via the CDN domain. We show clear maintenance messages if storage is unavailable."
+          },
+          "5": {
+            "q": "Will there be accounts or teams?",
+            "a": "Planned. We prioritize frictionless uploads first, then add team spaces, access control, and analytics."
+          }
         }
       },
       "keywords": {
@@ -340,4 +390,3 @@
     }
   }
 }
-

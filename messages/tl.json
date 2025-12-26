@@ -72,7 +72,9 @@
       "placeholder": "Wala pang link. Mag-upload ng larawan para makakuha ng URL.",
       "savePrompt": "I-save ang link sa paraang gusto mo",
       "copy": "I-copy ang link",
-      "copied": "Nakopya na"
+      "copied": "Nakopya na",
+      "saveHint": "I-save ang link na ito kung kailangan mo ito mamaya",
+      "tryCircleCrop": "Subukan ang Larawan sa Circle Crop"
     },
     "benefits": {
       "title": "Bakit pinipili ng mga tao ang Larawan sa URL",

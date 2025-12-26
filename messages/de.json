@@ -71,7 +71,9 @@
       "placeholder": "Noch kein Link. Bild hochladen, um eine teilbare URL zu erzeugen.",
       "savePrompt": "Link speichern als:",
       "copy": "Kopieren",
-      "copied": "Kopiert"
+      "copied": "Kopiert",
+      "saveHint": "Speichern Sie diesen Link, falls Sie ihn später benötigen",
+      "tryCircleCrop": "Foto zu Kreis zuschneiden ausprobieren"
     },
     "benefits": {
       "title": "Warum Foto zu URL wählen",

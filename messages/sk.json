@@ -72,7 +72,9 @@
       "placeholder": "Zatiaľ žiadny odkaz. Nahrajte fotku a vygenerujte URL.",
       "savePrompt": "Uložte si odkaz v požadovanom formáte",
       "copy": "Kopírovať odkaz",
-      "copied": "Skopírované"
+      "copied": "Skopírované",
+      "saveHint": "Uložte si tento odkaz, ak ho budete potrebovať neskôr",
+      "tryCircleCrop": "Vyskúšajte Kruhový orez fotografie"
     },
     "benefits": {
       "title": "Prečo si vybrať Fotka na URL",

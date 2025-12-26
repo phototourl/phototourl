@@ -71,7 +71,9 @@
       "placeholder": "Jeszcze brak linku. Prześlij zdjęcie, aby wygenerować udostępnialny URL.",
       "savePrompt": "Zapisz link, jak chcesz",
       "copy": "Kopiuj link",
-      "copied": "Skopiowano"
+      "copied": "Skopiowano",
+      "saveHint": "Zapisz ten link, jeśli będziesz go potrzebować później",
+      "tryCircleCrop": "Wypróbuj Zdjęcie do Koła"
     },
     "benefits": {
       "title": "Dlaczego ludzie wybierają Zdjęcie do URL",

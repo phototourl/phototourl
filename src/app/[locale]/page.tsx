@@ -26,9 +26,8 @@ import { cn } from "@/lib/utils";
 import { useTranslations, useLocale } from "next-intl";
 import dynamic from "next/dynamic";
 import ReactCountryFlag from "react-country-flag";
-import { useLocaleRouter } from "@/i18n/navigation";
+import { useLocaleRouter, LocaleLink } from "@/i18n/navigation";
 import { Star, Check } from "lucide-react";
-import { CircleCropTypewriter } from "@/components/CircleCropTypewriter";
 import { ScrollButtons } from "@/components/ScrollButtons";
 
 // 延迟加载演示组件以提升首屏性能
@@ -64,6 +63,7 @@ export default function HomePage() {
   const [url, setUrl] = useState<string | null>(null);
   const [fileName, setFileName] = useState<string | null>(null);
   const [preview, setPreview] = useState<string | null>(null);
+  const [originalFile, setOriginalFile] = useState<File | null>(null);
   const [copied, setCopied] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
   const [animatingSample, setAnimatingSample] = useState<{ src: string; key: string } | null>(null);
@@ -84,6 +84,7 @@ export default function HomePage() {
     setError(null);
     setUrl(null);
     setFileName(file.name);
+    setOriginalFile(file);
 
     try {
       const formData = new FormData();
@@ -356,8 +357,7 @@ export default function HomePage() {
                   </div>
                   <div className="flex flex-nowrap items-center gap-2 text-sm text-slate-600">
                     <span className="hidden sm:inline-flex items-center gap-1 font-medium text-slate-700 whitespace-nowrap">
-                      {t("result.savePrompt")}
-                      <MousePointerClick className="h-4 w-4 text-brand-teal rotate-90" />
+                      💡 {t("result.saveHint")}
                     </span>
                     <Button
                       variant="outline"
@@ -407,9 +407,31 @@ export default function HomePage() {
                   </div>
                   {preview && (
                     <div className="mt-4">
-                      <div className="mb-3 flex items-center gap-2 text-sm text-slate-500">
-                        <ImageIcon className="h-4 w-4" />
-                        {fileName}
+                      <div className="mb-3 flex items-center justify-between gap-2 text-sm text-slate-500">
+                        <div className="flex items-center gap-2">
+                          <ImageIcon className="h-4 w-4" />
+                          {fileName}
+                        </div>
+                        <LocaleLink
+                          href="/circlecrop"
+                          className="inline-flex items-center gap-1.5 text-sm text-brand-teal hover:underline transition-colors"
+                          onClick={(e) => {
+                            if (originalFile) {
+                              // 将文件转换为 base64 并保存到 sessionStorage
+                              const reader = new FileReader();
+                              reader.onloadend = () => {
+                                const base64 = reader.result as string;
+                                sessionStorage.setItem('circleCropImage', base64);
+                                sessionStorage.setItem('circleCropFileName', originalFile.name);
+                                sessionStorage.setItem('circleCropFileType', originalFile.type);
+                              };
+                              reader.readAsDataURL(originalFile);
+                            }
+                          }}
+                        >
+                          <ArrowUpRight className="h-4 w-4" />
+                          {t("result.tryCircleCrop")}
+                        </LocaleLink>
                       </div>
                       <div className="relative h-48 w-full overflow-hidden rounded-lg bg-transparent sm:h-56">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -472,13 +494,7 @@ export default function HomePage() {
                       transition={{ duration: 0.8, ease: "easeOut" }}
                     />
                   ) : (
-                    <>
-                      {status === "uploading" ? (
-                        <Loader2 className="h-6 w-6 animate-spin relative z-10" />
-                      ) : (
-                        <Upload className="h-7 w-7 relative z-10" />
-                      )}
-                    </>
+                    <Upload className="h-7 w-7 relative z-10" />
                   )}
                 </div>
                 <div className="mt-4 space-y-2">
@@ -571,11 +587,6 @@ export default function HomePage() {
 
           </div>
         </section>
-        </div>
-        
-        {/* Circle Crop Tool Entry - 绝对定位在首屏底部，不占用空间 */}
-        <div className="absolute bottom-20 left-0 right-0 flex justify-center pointer-events-none sm:bottom-24 lg:bottom-28">
-          <CircleCropTypewriter />
         </div>
       </section>
 

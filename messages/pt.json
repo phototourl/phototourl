@@ -71,7 +71,9 @@
       "placeholder": "Ainda sem link. Envie uma foto para gerar uma URL compartilhável.",
       "savePrompt": "Salve o link como quiser",
       "copy": "Copiar",
-      "copied": "Copiado"
+      "copied": "Copiado",
+      "saveHint": "Salve este link se precisar mais tarde",
+      "tryCircleCrop": "Foto para Círculo"
     },
     "benefits": {
       "title": "Por que escolher o Foto para URL",

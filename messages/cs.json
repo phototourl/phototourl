@@ -71,7 +71,9 @@
       "placeholder": "Zatím žádný odkaz. Nahrajte fotku pro vygenerování sdíleného URL.",
       "savePrompt": "Uložte odkaz, jak chcete",
       "copy": "Kopírovat odkaz",
-      "copied": "Zkopírováno"
+      "copied": "Zkopírováno",
+      "saveHint": "Uložte tento odkaz, pokud ho budete potřebovat později",
+      "tryCircleCrop": "Vyzkoušet Foto do Kruhu"
     },
     "benefits": {
       "title": "Proč lidé volí Foto na URL",

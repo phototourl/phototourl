@@ -71,7 +71,9 @@
       "placeholder": "Nessun link ancora. Carica una foto per generare un URL condivisibile.",
       "savePrompt": "Salva il link come preferisci",
       "copy": "Copia link",
-      "copied": "Copiato"
+      "copied": "Copiato",
+      "saveHint": "Salva questo link se ne avrai bisogno in seguito",
+      "tryCircleCrop": "Prova Foto in Cerchio"
     },
     "benefits": {
       "title": "Perché le persone scelgono Foto in URL",

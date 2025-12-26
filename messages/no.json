@@ -72,7 +72,9 @@
       "placeholder": "Ingen lenke ennå. Last opp et bilde for å generere en URL.",
       "savePrompt": "Lagre lenken slik du ønsker",
       "copy": "Kopier lenke",
-      "copied": "Kopiert"
+      "copied": "Kopiert",
+      "saveHint": "Lagre denne lenken hvis du trenger den senere",
+      "tryCircleCrop": "Prøv Rund bildebeskjæring"
     },
     "benefits": {
       "title": "Hvorfor folk velger Bilde til URL",

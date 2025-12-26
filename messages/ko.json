@@ -71,7 +71,9 @@
       "placeholder": "아직 링크가 없습니다. 사진을 업로드해 공유 URL을 만드세요.",
       "savePrompt": "원하는 형식으로 링크 저장",
       "copy": "복사",
-      "copied": "복사됨"
+      "copied": "복사됨",
+      "saveHint": "나중에 필요하면 이 링크를 저장하세요",
+      "tryCircleCrop": "사진 원형 자르기"
     },
     "benefits": {
       "title": "왜 사진을 URL로인가",
