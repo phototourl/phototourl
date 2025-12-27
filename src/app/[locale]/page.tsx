@@ -1,7 +1,6 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import type { CSSProperties } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import logoShowcase from "../../../public/projects/light1024logo.png";
