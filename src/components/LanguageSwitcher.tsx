@@ -5,7 +5,6 @@ import { useTransition, useState, useRef, useEffect } from "react";
 import { useLocale } from "next-intl";
 import { LocaleLink, useLocalePathname, useLocaleRouter } from "@/i18n/navigation";
 import { ChevronDown } from "lucide-react";
-import ReactCountryFlag from "react-country-flag";
 
 
 type LocaleItem = { code: string; label: string; countryCode: string };
@@ -38,17 +37,23 @@ const LOCALES: LocaleItem[] = [
 ];
 
 // 国旗图标组件
-const FlagIcon = ({ countryCode, className }: { countryCode: string; className?: string }) => (
-  <ReactCountryFlag
-    countryCode={countryCode}
-    svg
-    style={{
-      width: "1.2em",
-      height: "1.2em",
-    }}
-    className={className}
-  />
-);
+const FlagIcon = ({ countryCode, className, label }: { countryCode: string; className?: string; label?: string }) => {
+  const countryName = label || countryCode;
+  return (
+    <img
+      src={`https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/${countryCode.toLowerCase()}.svg`}
+      alt={countryName}
+      title={countryName}
+      aria-label={countryName}
+      style={{
+        width: "1.2em",
+        height: "1.2em",
+        display: "inline-block",
+      }}
+      className={className}
+    />
+  );
+};
 
 type LanguageSwitcherProps = {
   /** 
@@ -124,7 +129,7 @@ export function LanguageSwitcher({ variant = "header" }: LanguageSwitcherProps) 
         onClick={() => setIsOpen(!isOpen)}
         disabled={isPending}
       >
-        <FlagIcon countryCode={currentLocale.countryCode} className="shrink-0" />
+        <FlagIcon countryCode={currentLocale.countryCode} className="shrink-0" label={currentLocale.label} />
         <span className={isFooter ? "whitespace-nowrap" : "whitespace-nowrap"}>
           {currentLocale.label}
         </span>
@@ -157,7 +162,7 @@ export function LanguageSwitcher({ variant = "header" }: LanguageSwitcherProps) 
               }`}
               onClick={() => handleLocaleChange(item.code)}
             >
-              <FlagIcon countryCode={item.countryCode} />
+              <FlagIcon countryCode={item.countryCode} label={item.label} />
               <span>{item.label}</span>
             </button>
           ))}

@@ -3,7 +3,6 @@
 import { useLocale, useTranslations } from "next-intl";
 import { useLocaleRouter, useLocalePathname } from "@/i18n/navigation";
 import { useParams } from "next/navigation";
-import ReactCountryFlag from "react-country-flag";
 import { Check } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -75,10 +74,12 @@ export function SelectRegionSection({ translationKey = "home.selectRegion" }: Se
                       : "border-slate-200 bg-white text-slate-700 hover:border-brand-teal/50 hover:bg-slate-50"
                   )}
                 >
-                  <ReactCountryFlag
-                    countryCode={item.countryCode}
-                    svg
-                    style={{ width: "1.2em", height: "1.2em" }}
+                  <img
+                    src={`https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/${item.countryCode.toLowerCase()}.svg`}
+                    alt={item.label}
+                    title={item.label}
+                    aria-label={item.label}
+                    style={{ width: "1.2em", height: "1.2em", display: "inline-block" }}
                     className="shrink-0"
                   />
                   <span className="flex-1 text-xs sm:text-sm break-words">{item.label.split(" (")[0]}</span>
