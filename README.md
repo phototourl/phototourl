@@ -12,7 +12,6 @@
 
 
 
-
 ## ✨ Features
 
 - 🚀 **Fast & Simple** - Upload and get a shareable link in seconds
