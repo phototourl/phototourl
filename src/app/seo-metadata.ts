@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { KEYWORDS } from "../../content/keywords";
 
 export const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL || "https://phototourl.com";
@@ -56,7 +55,6 @@ export const baseMetadata: Metadata = {
       },
     ],
   },
-  keywords: KEYWORDS,
   icons: {
     icon: [
       { url: "/favicon.png", sizes: "96x96", type: "image/png" },
@@ -90,7 +88,7 @@ export function getLocaleMetadata(
     ...baseMetadata,
     title,
     description,
-    keywords: keywords || baseMetadata.keywords,
+    keywords: keywords,
     alternates: {
       ...alternates,
       canonical,
