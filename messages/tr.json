@@ -249,9 +249,9 @@
     }
   },
   "seo": {
-    "keywords": "fotoğraf url,resim url,bağlantı oluşturucu,dönüştür,resim barındırma,url direkt,paylaşılabilir linkler,CDN",
+    "keywords": "fotoğraf url,resim url,bağlantı oluşturucu,resim barındırma,url direkt,cdn",
     "home": {
-      "title": "Fotoğrafları URL'ye Dönüştür | Kolay Paylaşılabilir Bağlantılar",
+      "title": "Fotoğrafları URL'ye Dönüştür | Paylaşılabilir Bağlantılar",
       "description": "Ücretsiz resim barındırma: fotoğrafları anında kalıcı URL'lere dönüştürün. JPG, PNG, WEBP, GIF desteklenir. Markdown ve HTML için temiz bağlantılar."
     }
   },

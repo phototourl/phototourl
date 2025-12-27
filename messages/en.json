@@ -250,10 +250,10 @@
     }
   },
   "seo": {
-    "keywords": "photo to url, image to url, image link generator, convert image to link, free image hosting, direct image url, shareable image links, cdn image links",
+    "keywords": "photo to url,image to url,image link generator,convert image to link,free image hosting,cdn image",
     "home": {
       "title": "Photo To URL Converter | Turn photos into shareable links",
-      "description": "Free image hosting: convert photos to permanent URLs instantly. Supports JPG, PNG, WEBP, GIF up to 10MB. Clipboard paste, fast CDN, clean links for Markdown & HTML."
+      "description": "Free image hosting: convert photos to permanent URLs instantly. Supports JPG, PNG, WEBP, GIF up to 10MB. Clipboard paste, fast CDN, clean links."
     }
   },
   "images": {
