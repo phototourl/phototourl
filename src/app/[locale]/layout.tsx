@@ -66,10 +66,11 @@ export default async function LocaleLayout({
 
   const Header = await SiteHeader();
   const Footer = await SiteFooter();
+  const StructuredDataContent = await StructuredData({ locale });
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
-      <StructuredData locale={locale} />
+      {StructuredDataContent}
       {Header}
       <main className="min-h-screen pt-14 sm:pt-16">{children}</main>
       {Footer}
