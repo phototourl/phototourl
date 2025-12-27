@@ -38,8 +38,8 @@
     "hero": {
       "title1": "Free",
       "title2": "Photo To URL",
-      "subtitle": "Upload → get a link → paste anywhere.",
-      "upload": "Upload image",
+      "subtitle": "Upload your photo → get a link → paste it anywhere",
+      "upload": "Upload Image",
       "bullet": {
         "fast": "Fast sharing",
         "direct": "Direct photo links",

@@ -35,9 +35,9 @@
       "nosignup": "Nessuna registrazione"
     },
     "hero": {
-      "title1": "Gratis",
-      "title2": "foto in URL",
-      "subtitle": "Carica → ottieni un link → incolla ovunque.",
+      "title1": "Foto",
+      "title2": "gratis in URL",
+      "subtitle": "Carica la tua foto → ottieni il link → incolla dove vuoi",
       "upload": "Carica immagine",
       "bullet": {
         "fast": "Condivisione veloce",
@@ -249,10 +249,10 @@
     }
   },
   "seo": {
-    "keywords": "foto in url, immagine in url, generatore link immagini, converti immagine in link, hosting immagini gratuito, url immagine diretto, link immagini condivisibili, link immagini cdn",
+    "keywords": "foto url,immagini url,generatore,converti link,hosting gratuito,url diretto,link condivisibili,CDN",
     "home": {
-      "title": "Convertitore Foto in URL | Trasforma foto in link condivisibili",
-      "description": "Hosting immagini gratuito: converti foto in URL permanenti all'istante. Supporta JPG, PNG, WEBP, GIF fino a 10MB. Incolla da appunti, CDN veloce, link puliti per Markdown e HTML."
+      "title": "Foto in URL | Trasforma foto in link condivisibili",
+      "description": "Hosting immagini gratuito: converti foto in URL permanenti all'istante. Supporta JPG, PNG, WEBP e GIF. Link puliti per Markdown e HTML."
     }
   },
   "images": {

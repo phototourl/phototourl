@@ -35,9 +35,9 @@
       "nosignup": "Bez rejestracji"
     },
     "hero": {
-      "title1": "Zdjęcie",
-      "title2": "do URL",
-      "subtitle": "Prześlij → otrzymaj link → wklej wszędzie.",
+      "title1": "Darmowe",
+      "title2": "Zdjęcie do URL",
+      "subtitle": "Prześlij → otrzymaj link → wklej wszędzie",
       "upload": "Prześlij obraz",
       "bullet": {
         "fast": "Szybkie udostępnianie",
@@ -249,10 +249,10 @@
     }
   },
   "seo": {
-    "keywords": "zdjęcie do url, obraz do url, generator linków obrazów, konwertuj obraz na link, darmowy hosting obrazów, bezpośredni url obrazu, udostępnialne linki obrazów, linki obrazów cdn",
+    "keywords": "zdjęcia url,obrazy url,generator,konwertuj link,darmowy hosting,url bezpośredni,udostępnialne,CDN",
     "home": {
-      "title": "Konwerter Zdjęć na URL | Zamień zdjęcia w linki do udostępniania",
-      "description": "Darmowy hosting obrazów: konwertuj zdjęcia na stałe URL natychmiast. Obsługuje JPG, PNG, WEBP, GIF do 10MB. Wklejanie ze schowka, szybki CDN, czyste linki dla Markdown i HTML."
+      "title": "Zdjęcia na URL | Zamień je w łatwe linki do udostępniania",
+      "description": "Darmowy hosting obrazów: konwertuj zdjęcia na stałe URL od razu. Obsługuje JPG, PNG, WEBP i GIF. Czyste linki dla Markdown i HTML."
     }
   },
   "images": {

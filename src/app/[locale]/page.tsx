@@ -275,13 +275,15 @@ export default function HomePage() {
     <div className="flex flex-col">
       {/* ezremove-like hero layout: 白底首屏（不使用渐变） + 左文案/演示 + 右上传卡片 */}
       <section className="bg-white relative">
-        <div className="mx-auto grid max-w-6xl gap-8 px-6 pt-16 pb-40 sm:gap-10 sm:pt-20 sm:pb-48 lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-12 lg:px-10 lg:pt-24 lg:pb-56">
+        <div className="mx-auto grid max-w-6xl gap-8 px-6 pt-16 pb-40 sm:gap-10 sm:pt-20 sm:pb-48 lg:max-w-7xl lg:grid-cols-2 lg:items-stretch lg:gap-16 lg:px-10 lg:pt-24 lg:pb-56">
           {/* Left */}
-          <div className="space-y-5 lg:pr-8 text-slate-900 sm:space-y-6 flex flex-col">
+          <div className="space-y-5 lg:pr-6 text-slate-900 sm:space-y-6 flex flex-col lg:h-full">
             <div className="space-y-4">
               <h1
-                className="text-4xl font-extrabold leading-[1.06] tracking-tight sm:text-5xl lg:text-6xl"
-                style={{ textWrap: "balance" } as CSSProperties}
+                className={cn(
+                  "text-4xl font-extrabold leading-[1.06] tracking-tight sm:text-5xl lg:text-6xl",
+                  !["ru", "uk", "vi", "pl", "tr", "fr"].includes(locale) && "whitespace-nowrap"
+                )}
               >
                 {isRTL ? (
                   <>
@@ -295,14 +297,11 @@ export default function HomePage() {
                   </>
                 )}
               </h1>
-              <p
-                className="max-w-xl text-sm leading-relaxed text-brand-teal sm:text-base"
-                style={{ textWrap: "balance" } as CSSProperties}
-              >
+              <p className="text-sm leading-relaxed text-brand-teal sm:text-base whitespace-nowrap">
                 {t("hero.subtitle")}
               </p>
             </div>
-            <div className="pt-4">
+            <div className="pt-4 lg:flex-1 lg:flex lg:flex-col">
               {status === "success" ? (
                 <div
                   className="space-y-3 rounded-xl border border-slate-200 bg-white p-4 text-left"
@@ -414,16 +413,18 @@ export default function HomePage() {
                   )}
                 </div>
               ) : (
-                <HeroLeftFlowDemo oldPhotoUrls={OLD_PHOTO_URLS} />
+                <div className="lg:flex-1 lg:flex lg:items-start">
+                  <HeroLeftFlowDemo oldPhotoUrls={OLD_PHOTO_URLS} />
+                </div>
               )}
             </div>
           </div>
 
           {/* Right */}
-          <section id="upload-card" className="flex justify-center lg:justify-end lg:self-start">
+          <section id="upload-card" className="flex justify-center lg:justify-end lg:h-full">
             <div
               className={cn(
-                "ez-shadow-card group relative w-full max-w-xl rounded-3xl border border-slate-200 p-7 sm:p-8"
+                "ez-shadow-card group relative w-full max-w-xl rounded-3xl border border-slate-200 p-7 sm:p-8 lg:h-full lg:flex lg:flex-col"
               )}
               style={{ backgroundColor: 'transparent' }}
             >
@@ -437,7 +438,7 @@ export default function HomePage() {
 
               <div
                 className={cn(
-                  "relative rounded-2xl border-2 border-dashed border-slate-200 p-12 text-center transition-colors sm:p-16 min-h-[320px] sm:min-h-[360px]",
+                  "relative rounded-2xl border-2 border-dashed border-slate-200 p-12 text-center transition-colors sm:p-16 min-h-[320px] sm:min-h-[360px] lg:flex-1",
                   "cursor-pointer hover:bg-teal-50/30",
                   isDragging || animatingSample ? "bg-teal-50/50" : "bg-white"
                 )}

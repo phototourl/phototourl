@@ -35,9 +35,9 @@
       "nosignup": "Sans inscription"
     },
     "hero": {
-      "title1": "Photo",
-      "title2": "gratuite URL",
-      "subtitle": "Téléversez → obtenez le lien → collez partout.",
+      "title1": "Gratuite",
+      "title2": "Photo vers URL",
+      "subtitle": "Téléversez votre photo gratuite → obtenez le lien → collez où vous voulez",
       "upload": "Mettre en ligne une image",
       "bullet": {
         "fast": "Partage rapide",
@@ -249,10 +249,10 @@
     }
   },
   "seo": {
-    "keywords": "photo vers url, image vers url, générateur de liens d'images, convertir image en lien, hébergement gratuit d'images, url d'image directe, liens d'images partageables, liens d'images cdn",
+    "keywords": "photos url,images url,générateur,convertir lien,hébergement gratuit,url directe,liens,CDN",
     "home": {
-      "title": "Convertisseur de photos en URL | Partagez vos images en un clic",
-      "description": "Hébergement d'images gratuit : convertissez des photos en URLs permanentes instantanément. Supporte JPG, PNG, WEBP, GIF jusqu'à 10MB. Collage depuis presse-papiers, CDN rapide, liens propres pour Markdown et HTML."
+      "title": "Photos en URL | Partage facile de vos images",
+      "description": "Hébergement gratuit : convertissez vos photos en URLs permanentes instantanément. Supporte JPG, PNG, WEBP et GIF. Liens propres pour Markdown et HTML."
     }
   },
   "images": {

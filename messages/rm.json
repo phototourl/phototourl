@@ -38,7 +38,7 @@
     "hero": {
       "title1": "Gratis",
       "title2": "Foto URL",
-      "subtitle": "Chargiar → survegnir in link → incollair en mintga lieu.",
+      "subtitle": "Chargiar in foto → survegnir in link → incollair en mintga lieu",
       "upload": "Chargiar imatge",
       "bullet": {
         "fast": "Partiziun svelt",
@@ -248,10 +248,10 @@
     }
   },
   "seo": {
-    "keywords": "fotografia a url, maletg a url, generator da links per maletgs, midar maletg en link, ospitar maletgs gratuit, url direct per maletg, links da maletgs da sparter, links da maletgs CDN",
+    "keywords": "fotografias a url,maletgs a url,generator,midar en link,ospitar gratuit,url direct,links sparter,CDN",
     "home": {
-      "title": "Converter da fotografia a URL | Midar fotografias en links da sparter",
-      "description": "Ospitar maletgs gratuit: midar fotografias en URLs permanents immediatamain. Sustegna JPG, PNG, WEBP, GIF fin a 10MB. Incollaziun da clipboard, CDN svelt, links nets per Markdown & HTML."
+      "title": "Fotografias a URL | Midar maletgs en links da sparter",
+      "description": "Ospitar maletgs gratuit: midar fotografias en URLs permanents immediatamain. Sustegna JPG, PNG, WEBP, GIF fin a 10MB. Links nets per Markdown & HTML."
     }
   },
   "images": {

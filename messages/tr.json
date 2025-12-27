@@ -35,9 +35,9 @@
       "nosignup": "Kayıt yok"
     },
     "hero": {
-      "title1": "Fotoğraf",
-      "title2": "URL'ye",
-      "subtitle": "Yükle → bağlantı al → her yere yapıştır.",
+      "title1": "Ücretsiz",
+      "title2": "Fotoğraf URL'ye",
+      "subtitle": "otoğrafını yükle → bağlantını al → istediğin yere yapıştır",
       "upload": "Görsel yükle",
       "bullet": {
         "fast": "Hızlı paylaşım",
@@ -249,10 +249,10 @@
     }
   },
   "seo": {
-    "keywords": "fotoğrafı url'ye çevir, resmi url'ye çevir, resim bağlantı oluşturucu, resmi bağlantıya dönüştür, ücretsiz resim barındırma, doğrudan resim url, paylaşılabilir resim bağlantıları, cdn resim bağlantıları",
+    "keywords": "fotoğraf url,resim url,bağlantı oluşturucu,dönüştür,resim barındırma,url direkt,paylaşılabilir linkler,CDN",
     "home": {
-      "title": "Fotoğrafı URL'ye Dönüştürücü | Fotoğrafları paylaşılabilir bağlantılara çevirin",
-      "description": "Ücretsiz resim barındırma: fotoğrafları anında kalıcı URL'lere dönüştürün. JPG, PNG, WEBP, GIF'e kadar 10MB destekler. Pano yapıştırma, hızlı CDN, Markdown ve HTML için temiz bağlantılar."
+      "title": "Fotoğrafları URL'ye Dönüştür | Kolay Paylaşılabilir Bağlantılar",
+      "description": "Ücretsiz resim barındırma: fotoğrafları anında kalıcı URL'lere dönüştürün. JPG, PNG, WEBP, GIF desteklenir. Markdown ve HTML için temiz bağlantılar."
     }
   },
   "images": {

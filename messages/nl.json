@@ -35,9 +35,9 @@
       "nosignup": "Geen registratie"
     },
     "hero": {
-      "title1": "Foto",
-      "title2": "naar URL",
-      "subtitle": "Upload → krijg een link → plak overal.",
+      "title1": "Gratis",
+      "title2": "foto naar URL",
+      "subtitle": "Upload je foto → krijg een link → plak waar je wilt",
       "upload": "Upload afbeelding",
       "bullet": {
         "fast": "Snelle delen",
@@ -249,10 +249,10 @@
     }
   },
   "seo": {
-    "keywords": "foto naar url, afbeelding naar url, afbeelding link generator, converteer afbeelding naar link, gratis afbeelding hosting, directe afbeelding url, deelbare afbeelding links, cdn afbeelding links",
+    "keywords": "foto url,afbeeldingen url,generator,afbeelding omzetten,gratis hosting,url direct,deelbare links,CDN",
     "home": {
-      "title": "Foto naar URL Converter | Zet foto's om in deelbare links",
-      "description": "Gratis afbeelding hosting: converteer foto's direct naar permanente URL's. Ondersteunt JPG, PNG, WEBP, GIF tot 10MB. Plakken vanuit klembord, snelle CDN, schone links voor Markdown & HTML."
+      "title": "Foto naar URL | Foto's omzetten in deelbare links",
+      "description": "Gratis afbeelding hosting: zet foto's direct om in permanente URL's. Ondersteunt JPG, PNG, WEBP en GIF. Schone links voor Markdown & HTML."
     }
   },
   "images": {

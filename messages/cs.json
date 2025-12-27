@@ -35,9 +35,9 @@
       "nosignup": "Bez registrace"
     },
     "hero": {
-      "title1": "Foto",
-      "title2": "na URL",
-      "subtitle": "Nahrajte → získejte odkaz → vložte kamkoli.",
+      "title1": "Zdarma",
+      "title2": "Foto na URL",
+      "subtitle": "Nahraj foto → získej odkaz → vlož kamkoliv",
       "upload": "Nahrát obrázek",
       "bullet": {
         "fast": "Rychlé sdílení",
@@ -249,10 +249,10 @@
     }
   },
   "seo": {
-    "keywords": "fotka na url, obrázek na url, generátor odkazů obrázků, převést obrázek na odkaz, bezplatné hostování obrázků, přímý url obrázku, sdílené odkazy obrázků, cdn odkazy obrázků",
+    "keywords": "fotka url,obrázek url,generátor,převést obrázek,hostování zdarma,přímý url,sdílené odkazy",
     "home": {
-      "title": "Převodník Foto na URL | Převeďte fotky na sdílené odkazy",
-      "description": "Bezplatné hostování obrázků: okamžitě převeďte fotky na trvalé URL. Podporuje JPG, PNG, WEBP, GIF do 10MB. Vložení ze schránky, rychlé CDN, čisté odkazy pro Markdown a HTML."
+      "title": "Foto na URL | Snadné sdílení fotek",
+      "description": "Bezplatné hostování: okamžitě převeďte fotky na trvalé URL. Podporuje JPG, PNG, WEBP a GIF. Čisté odkazy pro Markdown a HTML."
     }
   },
   "images": {

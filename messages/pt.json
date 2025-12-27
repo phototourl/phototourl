@@ -36,8 +36,8 @@
     },
     "hero": {
       "title1": "Foto",
-      "title2": "grátis URL",
-      "subtitle": "Envie → pegue o link → cole em qualquer lugar.",
+      "title2": "grátis para URL",
+      "subtitle": "Carregue sua foto → obtenha o link → cole onde quiser",
       "upload": "Enviar imagem",
       "bullet": {
         "fast": "Compartilhamento rápido",
@@ -249,10 +249,10 @@
     }
   },
   "seo": {
-    "keywords": "foto para url, imagem para url, gerador de links de imagens, converter imagem em link, hospedagem de imagens gratuita, url de imagem direta, links de imagens compartilháveis, links de imagens cdn",
+    "keywords": "fotos para url,imagens para url,gerador,converter imagem,hosting grátis,url direta,links fáceis,CDN",
     "home": {
-      "title": "Conversor de fotos para URL | Transforme imagens em links compartilháveis",
-      "description": "Hospedagem gratuita de imagens: converta fotos em URLs permanentes instantaneamente. Suporta JPG, PNG, WEBP, GIF até 10MB. Colar da área de transferência, CDN rápido, links limpos para Markdown e HTML."
+      "title": "Fotos para URL | Links prontos para compartilhar",
+      "description": "Hospedagem gratuita de imagens: converta fotos em URLs permanentes instantaneamente. Suporta JPG, PNG, WEBP e GIF. Links limpos para Markdown e HTML."
     }
   },
   "images": {

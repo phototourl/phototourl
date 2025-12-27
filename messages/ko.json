@@ -37,7 +37,7 @@
     "hero": {
       "title1": "무료",
       "title2": "사진 URL 변환",
-      "subtitle": "업로드 → 링크 생성 → 어디든 붙여넣기.",
+      "subtitle": "업로드 → 링크 생성 → 어디든 붙여넣기",
       "upload": "이미지 업로드",
       "bullet": {
         "fast": "빠른 공유",
@@ -249,10 +249,10 @@
     }
   },
   "seo": {
-    "keywords": "사진을 url로, 이미지를 url로, 이미지 링크 생성기, 이미지를 링크로 변환, 무료 이미지 호스팅, 직접 이미지 url, 공유 가능한 이미지 링크, cdn 이미지 링크",
+    "keywords": "사진 url,이미지 url,링크 생성기,이미지 변환,무료 호스팅,직접 url,공유 링크,CDN",
     "home": {
-      "title": "사진을 URL로 변환 | 쉽고 빠른 이미지 링크 생성",
-      "description": "무료 이미지 호스팅: 사진을 즉시 영구 URL로 변환합니다. JPG, PNG, WEBP, GIF 최대 10MB 지원. 클립보드 붙여넣기, 빠른 CDN, Markdown 및 HTML용 깔끔한 링크."
+      "title": "사진을 URL로 변환 | 쉽고 빠른 이미지 공유",
+      "description": "무료 이미지 호스팅: 사진을 즉시 영구 URL로 변환합니다. JPG, PNG, WEBP, GIF 지원. Markdown 및 HTML용 깔끔한 링크."
     }
   },
   "images": {

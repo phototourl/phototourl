@@ -38,7 +38,7 @@
     "hero": {
       "title1": "Gratis",
       "title2": "Foto ke URL",
-      "subtitle": "Unggah → dapatkan tautan → tempel di mana saja.",
+      "subtitle": "Unggah → dapatkan tautan → tempel di mana saja",
       "upload": "Unggah gambar",
       "bullet": {
         "fast": "Berbagi dengan cepat",
@@ -250,10 +250,10 @@
     }
   },
   "seo": {
-    "keywords": "foto ke url, gambar ke url, pembuat tautan gambar, ubah gambar ke tautan, hosting gambar gratis, url gambar langsung, tautan gambar yang dapat dibagikan, tautan gambar cdn",
+    "keywords": "foto url,gambar url,pembuat tautan,ubah gambar,hosting gratis,url langsung,tautan mudah",
     "home": {
-      "title": "Konverter Foto ke URL | Ubah Foto menjadi Tautan yang Dapat Dibagikan",
-      "description": "Hosting Gambar Gratis: Ubah foto menjadi URL permanen secara instan. Mendukung JPG, PNG, WEBP, GIF hingga 10MB. Tempel papan klip, CDN cepat, tautan bersih untuk Markdown & HTML."
+      "title": "Foto ke URL | Bagikan dengan mudah",
+      "description": "Hosting gratis: ubah foto jadi URL permanen instan. Mendukung JPG, PNG, WEBP, GIF. Tautan bersih untuk Markdown & HTML."
     }
   },
   "images": {

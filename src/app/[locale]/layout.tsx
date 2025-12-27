@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import { StructuredData } from "@/components/StructuredData";
 import { routing, type AppLocale } from "@/i18n/routing";
 import type { ReactNode } from "react";
 import { getLocaleMetadata } from "../seo-metadata";
@@ -68,6 +69,7 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
+      <StructuredData locale={locale} />
       {Header}
       <main className="min-h-screen pt-14 sm:pt-16">{children}</main>
       {Footer}

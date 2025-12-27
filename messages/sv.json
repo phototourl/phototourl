@@ -37,7 +37,7 @@
     "hero": {
       "title1": "Gratis",
       "title2": "foto till URL",
-      "subtitle": "Ladda upp → få en länk → klistra in var som helst.",
+      "subtitle": "Ladda upp → få en länk → klistra in var som helst",
       "upload": "Ladda upp bild",
       "bullet": {
         "fast": "Snabb delning",
@@ -249,10 +249,10 @@
     }
   },
   "seo": {
-    "keywords": "foto till url, bild till url, bildlänk generator, konvertera bild till länk, gratis bildhosting, direkt bild url, delbara bildlänkar, cdn bildlänkar",
+    "keywords": "foto url,bild url,generator,konvertera bild,gratis hosting,direkt url,delbara länkar",
     "home": {
-      "title": "Foto till URL-konverterare | Gör om foton till delbara länkar",
-      "description": "Gratis bildhosting: konvertera foton till permanenta URL:er direkt. Stöder JPG, PNG, WEBP, GIF upp till 10MB. Klistra in från urklipp, snabb CDN, rena länkar för Markdown & HTML."
+      "title": "Foto till URL | Dela foton enkelt",
+      "description": "Gratis bildhosting: konvertera foton till permanenta URL direkt. Stöder JPG, PNG, WEBP och GIF. Rena länkar för Markdown & HTML."
     }
   },
   "images": {

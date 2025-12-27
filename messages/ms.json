@@ -38,7 +38,7 @@
     "hero": {
       "title1": "Percuma",
       "title2": "Foto URL",
-      "subtitle": "Muat naik → dapat pautan → tampal di mana-mana.",
+      "subtitle": "Muat naik → dapat pautan → tampal di mana-mana",
       "upload": "Muat naik imej",
       "bullet": {
         "fast": "Perkongsian pantas",
@@ -250,16 +250,16 @@
     }
   },
   "seo": {
-    "keywords": "foto ke url, imej ke url, penjana pautan imej, tukar imej ke pautan, pengehosan imej percuma, url imej langsung, pautan imej boleh dikongsi, pautan imej cdn",
+    "keywords": "foto url,imej url,penjana pautan,tukar imej,pengehosan percuma,url langsung,pautan mudah",
     "home": {
-      "title": "Penukar Foto ke URL | Tukarkan Foto menjadi Pautan Boleh Dikongsi",
-      "description": "Pengehosan Imej Percuma: Tukarkan foto menjadi URL kekal serta-merta. Menyokong JPG, PNG, WEBP, GIF sehingga 10MB. Tampal papan klip, CDN pantas, pautan bersih untuk Markdown & HTML."
+      "title": "Foto ke URL | Kongsi dengan mudah",
+      "description": "Pengehosan percuma: tukar foto jadi URL kekal serta-merta. Sokong JPG, PNG, WEBP, GIF. Pautan bersih untuk Markdown & HTML."
     }
   },
   "images": {
     "previewAlt": "Pratonton imej yang dimuat naik",
     "animatingSampleAlt": "Imej sampel yang digunakan dalam demo muat naik",
-    "sampleThumbAlt": "Imej muat naik sampel",
+    "sampleThumbAlt": "Contoh imej dimuat naik",
     "useSampleAria": "Gunakan imej sampel ini",
     "howIllustrationAlt": "Ilustrasi yang menunjukkan cara Foto ke URL berfungsi",
     "heroDropTitle": "Seret foto ke sini",

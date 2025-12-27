@@ -3,7 +3,7 @@
     "siteName": "Foto zu URL",
     "tagline": "Wandeln Sie Fotos in saubere, teilbare Links in Sekunden um",
     "header": {
-      "subtitle": "Bilder in teilbare Links verwandeln",
+      "subtitle": "Bilder als Link teilen",
       "prompt": "Ziehen, einfügen oder hochladen — sofort einen Link erhalten"
     },
     "footer": {
@@ -35,9 +35,9 @@
       "nosignup": "Keine Anmeldung"
     },
     "hero": {
-      "title1": "Foto",
-      "title2": "zu URL",
-      "subtitle": "Hochladen → Link bekommen → überall einfügen.",
+      "title1": "Gratis",
+      "title2": "Bild zu URL",
+      "subtitle": "Hochladen → URL kopieren → überall einfügen",
       "upload": "Bild hochladen",
       "bullet": {
         "fast": "Schnelles Teilen",
@@ -211,30 +211,30 @@
         "title": "FAQs",
         "items": {
           "1": {
+            "q": "Wie bekomme ich eine URL für ein Bild?",
+            "a": "Bild hochladen, wir erstellen sofort eine teilbare URL zum Kopieren."
+          },
+          "2": {
             "q": "Ist es kostenlos?",
             "a": "Ja, der Basis‑Flow Upload→Link ist kostenlos. CDN/R2‑Hosting wird großzügige Pläne bieten."
           },
-          "2": {
+          "3": {
             "q": "Welche Formate werden unterstützt?",
             "a": "PNG, JPG, WEBP, GIF (je nach aktuellem Limit). Weitere können folgen."
           },
-          "3": {
+          "4": {
             "q": "Funktioniert es mit Markdown/HTML?",
             "a": "Ja. Link kopieren oder die .txt/.json/.md‑Buttons nutzen."
           },
-          "4": {
+          "5": {
             "q": "Sind meine Dateien öffentlich?",
             "a": "Links sind teilbar; mit R2 CDN werden sie über die CDN‑Domain ausgeliefert. Bei Wartung zeigen wir klare Hinweise."
-          },
-          "5": {
-            "q": "Gibt es Accounts/Teams?",
-            "a": "Geplant: zuerst simpel und zuverlässig, danach Teams, Rechte und Analytics."
           }
         }
       },
       "keywords": {
         "title": "Wichtige Suchbegriffe",
-        "p1": "foto zu url, bild zu url, bildlink generator, bild in link umwandeln, kostenloses bildhosting, direkte bild url, teilbare bildlinks, cdn bildlinks"
+        "p1": "foto zu url,bild zu url,bildlink generator,kostenloses hosting,direkte url,teilbare links,cdn"
       }
     },
     "selectRegion": {
@@ -249,10 +249,10 @@
     }
   },
   "seo": {
-    "keywords": "foto zu url, bild zu url, bildlink generator, bild in link umwandeln, kostenloses bildhosting, direkte bild url, teilbare bildlinks, cdn bildlinks",
+    "keywords": "Bilder zu URL,Fotos zu URL,Link Generator,kostenloses Hosting,direkte URL,teilbare Links,CDN",
     "home": {
-      "title": "Foto-zu-URL-Konverter | Bilder in teilbare Links umwandeln",
-      "description": "Kostenloses Bildhosting: Konvertieren Sie Fotos sofort in permanente URLs. Unterstützt JPG, PNG, WEBP, GIF bis zu 10MB. Zwischenablage einfügen, schnelles CDN, saubere Links für Markdown und HTML."
+      "title": "Bilder zu URL – kostenlos & ohne Anmeldung",
+      "description": "Bilder zu URL umwandeln – schnell und ohne Anmeldung. Foto hochladen, URL kopieren und überall teilen. Unterstützt JPG, PNG, WEBP und GIF."
     }
   },
   "images": {

@@ -35,9 +35,9 @@
       "nosignup": "Không cần đăng ký"
     },
     "hero": {
-      "title1": "Ảnh",
-      "title2": "thành URL",
-      "subtitle": "Tải lên → nhận liên kết → dán ở bất cứ đâu.",
+      "title1": "Miễn phí",
+      "title2": "ảnh thành URL",
+      "subtitle": "Tải lên → nhận liên kết → dán ở bất cứ đâu",
       "upload": "Tải lên hình ảnh",
       "bullet": {
         "fast": "Chia sẻ nhanh",
@@ -249,10 +249,10 @@
     }
   },
   "seo": {
-    "keywords": "ảnh thành url, hình ảnh thành url, trình tạo liên kết hình ảnh, chuyển đổi hình ảnh thành liên kết, lưu trữ hình ảnh miễn phí, url hình ảnh trực tiếp, liên kết hình ảnh có thể chia sẻ, liên kết hình ảnh cdn",
+    "keywords": "ảnh url,hình ảnh url,trình tạo liên kết,chuyển ảnh,lưu trữ miễn phí,url trực tiếp,liên kết chia sẻ",
     "home": {
-      "title": "Bộ chuyển đổi Ảnh sang URL | Biến ảnh thành liên kết có thể chia sẻ",
-      "description": "Lưu trữ hình ảnh miễn phí: chuyển đổi ảnh thành URL vĩnh viễn ngay lập tức. Hỗ trợ JPG, PNG, WEBP, GIF lên đến 10MB. Dán từ clipboard, CDN nhanh, liên kết sạch cho Markdown & HTML."
+      "title": "Ảnh sang URL | Biến ảnh thành liên kết dễ chia sẻ",
+      "description": "Lưu trữ ảnh miễn phí: chuyển ảnh thành URL vĩnh viễn ngay lập tức. Hỗ trợ JPG, PNG, WEBP, GIF. Liên kết sạch cho Markdown & HTML."
     }
   },
   "images": {
