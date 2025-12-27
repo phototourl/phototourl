@@ -37,7 +37,7 @@
     "hero": {
       "title1": "免費",
       "title2": "圖片轉連結",
-      "subtitle": "上傳 → 產生連結 → 一鍵複製分享",
+      "subtitle": "上傳 → 產生連結 → 一鍵複製分享。",
       "upload": "上傳圖片",
       "bullet": {
         "fast": "快速分享",
@@ -51,7 +51,7 @@
       "loop": "自動示範",
       "idleTitle": "拖曳上傳圖片",
       "idleSubtitle": "直觀看到：上傳 → 產生連結 → 複製分享。",
-      "processing": "優化並上傳中…",
+      "processing": "上傳中…",
       "doneTitle": "可以分享了",
       "doneSubtitle": "已產生可存取的 CDN 連結。",
       "thanksForWatching": "感謝您的觀看"
