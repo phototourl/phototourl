@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { CircleCropTool } from "@/components/CircleCropTool";
 import { SelectRegionSection } from "@/components/SelectRegionSection";
 import { RateServiceSection } from "@/components/RateServiceSection";
-import { PhotoToUrlLink } from "@/components/PhotoToUrlLink";
 import { ScrollButtons } from "@/components/ScrollButtons";
 import { getTranslations } from "next-intl/server";
 import { siteUrl } from "@/app/seo-metadata";
@@ -34,11 +33,11 @@ export default async function PhotoCircleCropPage() {
   return (
     <>
       <div className="mx-auto max-w-6xl px-6 lg:px-10 bg-white">
-        {/* 首屏 section - 确保至少占满一屏 */}
-        <section className="relative min-h-screen pt-16 pb-32 sm:pb-40 lg:pb-48">
+        {/* 首屏 section - 参考首页布局 */}
+        <section className="bg-white relative pt-8 pb-32 sm:pt-20 sm:pb-36 lg:pt-24 lg:pb-44">
           <CircleCropTool showHeading={true} />
           
-          <div className="mt-8">
+          <div className="mt-12">
             <div className="mx-auto max-w-5xl space-y-4 text-center">
               <h2 className="text-2xl font-semibold text-slate-900 sm:text-3xl">
                 {t("title")}
@@ -47,11 +46,6 @@ export default async function PhotoCircleCropPage() {
                 {t("description")}
               </p>
             </div>
-          </div>
-
-          {/* Photo To URL Link - 绝对定位在文案和首屏底部的中间位置，参考首页的比例 */}
-          <div className="absolute bottom-20 left-0 right-0 flex justify-center pointer-events-none sm:bottom-24 lg:bottom-28">
-            <PhotoToUrlLink />
           </div>
         </section>
       </div>

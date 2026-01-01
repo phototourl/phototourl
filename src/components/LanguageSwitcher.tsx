@@ -83,6 +83,10 @@ export function LanguageSwitcher({ variant = "header" }: LanguageSwitcherProps) 
     };
 
     if (isOpen) {
+      // 禁用 body 滚动
+      const originalStyle = window.getComputedStyle(document.body).overflow;
+      document.body.style.overflow = 'hidden';
+      
       document.addEventListener("mousedown", handleClickOutside);
       // 滚动到选中的语言项
       setTimeout(() => {
@@ -93,6 +97,12 @@ export function LanguageSwitcher({ variant = "header" }: LanguageSwitcherProps) 
           });
         }
       }, 0);
+
+      return () => {
+        document.removeEventListener("mousedown", handleClickOutside);
+        // 恢复 body 滚动
+        document.body.style.overflow = originalStyle;
+      };
     }
 
     return () => {
@@ -101,6 +111,14 @@ export function LanguageSwitcher({ variant = "header" }: LanguageSwitcherProps) 
   }, [isOpen]);
 
   const handleLocaleChange = (newLocale: string) => {
+    // 如果当前在 circlecrop 页面，设置标记以保留图片缓存
+    if (pathname.includes('/circlecrop')) {
+      sessionStorage.setItem('circleCropLanguageSwitch', 'true');
+    }
+    // 如果当前在首页，设置标记以保留图片状态
+    if (pathname === '/' || pathname === '') {
+      sessionStorage.setItem('homePageLanguageSwitch', 'true');
+    }
     startTransition(() => {
       router.replace(
         // @ts-expect-error -- TypeScript will validate that only known `params`
@@ -149,6 +167,14 @@ export function LanguageSwitcher({ variant = "header" }: LanguageSwitcherProps) 
               : // 头部：保持原来向下展开
                 "absolute right-0 top-full z-50 mt-1 w-auto min-w-[200px] max-h-[630px] overflow-y-auto overflow-x-hidden custom-scrollbar rounded-lg border border-slate-200 bg-white shadow-lg"
           }
+          onWheel={(e) => {
+            // 阻止下拉框滚动时触发外部页面滚动
+            e.stopPropagation();
+          }}
+          onTouchMove={(e) => {
+            // 移动端也阻止滚动传播
+            e.stopPropagation();
+          }}
         >
           {LOCALES.map((item) => (
             <button

@@ -72,6 +72,100 @@ export default function HomePage() {
     return () => clearTimeout(t);
   }, [copied]);
 
+  // 组件挂载时：从 sessionStorage 恢复图片状态（切换语言后）
+  useEffect(() => {
+    // 检查是否是语言切换
+    const isLanguageSwitch = sessionStorage.getItem('homePageLanguageSwitch') === 'true';
+    
+    // 如果不是语言切换，清空缓存
+    if (!isLanguageSwitch) {
+      sessionStorage.removeItem('homePageStatus');
+      sessionStorage.removeItem('homePageUrl');
+      sessionStorage.removeItem('homePageFileName');
+      sessionStorage.removeItem('homePagePreview');
+      sessionStorage.removeItem('homePageImageBase64');
+      sessionStorage.removeItem('homePageFileType');
+      return;
+    }
+    
+    // 清除语言切换标记
+    sessionStorage.removeItem('homePageLanguageSwitch');
+    
+    const savedStatus = sessionStorage.getItem('homePageStatus');
+    const savedUrl = sessionStorage.getItem('homePageUrl');
+    const savedFileName = sessionStorage.getItem('homePageFileName');
+    const savedPreview = sessionStorage.getItem('homePagePreview');
+    const savedImageBase64 = sessionStorage.getItem('homePageImageBase64');
+    const savedFileType = sessionStorage.getItem('homePageFileType');
+    const savedFileSize = sessionStorage.getItem('homePageFileSize');
+
+    if (savedStatus === 'success' && savedUrl && savedFileName && savedImageBase64 && savedFileType) {
+      // 恢复文件对象
+      const base64Data = savedImageBase64.includes(',') ? savedImageBase64.split(',')[1] : savedImageBase64;
+      const byteString = atob(base64Data);
+      const ab = new ArrayBuffer(byteString.length);
+      const ia = new Uint8Array(ab);
+      for (let i = 0; i < byteString.length; i++) {
+        ia[i] = byteString.charCodeAt(i);
+      }
+      const blob = new Blob([ab], { type: savedFileType });
+      const file = new File([blob], savedFileName, { type: savedFileType });
+      
+      // 验证文件大小是否匹配（确保是同一张图片）
+      if (savedFileSize && file.size.toString() !== savedFileSize) {
+        // 文件大小不匹配，可能是旧缓存，清空并返回
+        sessionStorage.removeItem('homePageStatus');
+        sessionStorage.removeItem('homePageUrl');
+        sessionStorage.removeItem('homePageFileName');
+        sessionStorage.removeItem('homePagePreview');
+        sessionStorage.removeItem('homePageImageBase64');
+        sessionStorage.removeItem('homePageFileType');
+        sessionStorage.removeItem('homePageFileSize');
+        sessionStorage.removeItem('homePageTimestamp');
+        return;
+      }
+      
+      // 恢复状态
+      setStatus('success');
+      setUrl(savedUrl);
+      setFileName(savedFileName);
+      setPreview(savedPreview);
+      setOriginalFile(file);
+    }
+  }, []);
+
+  // 当状态变化时，保存到 sessionStorage（用于切换语言时恢复）
+  // 使用 URL 作为唯一标识符，确保缓存的是最新上传的图片
+  useEffect(() => {
+    if (status === 'success' && url && fileName && originalFile) {
+      // 将文件转换为 base64 保存
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        const base64 = reader.result as string;
+        // 使用 URL 作为唯一标识符，确保是同一张图片
+        sessionStorage.setItem('homePageStatus', status);
+        sessionStorage.setItem('homePageUrl', url); // URL 是唯一的，每次上传都会生成新的
+        sessionStorage.setItem('homePageFileName', fileName);
+        sessionStorage.setItem('homePagePreview', preview || '');
+        sessionStorage.setItem('homePageImageBase64', base64);
+        sessionStorage.setItem('homePageFileType', originalFile.type);
+        sessionStorage.setItem('homePageFileSize', originalFile.size.toString()); // 添加文件大小作为验证
+        sessionStorage.setItem('homePageTimestamp', Date.now().toString()); // 添加时间戳
+      };
+      reader.readAsDataURL(originalFile);
+    } else if (status === 'idle') {
+      // 清空缓存
+      sessionStorage.removeItem('homePageStatus');
+      sessionStorage.removeItem('homePageUrl');
+      sessionStorage.removeItem('homePageFileName');
+      sessionStorage.removeItem('homePagePreview');
+      sessionStorage.removeItem('homePageImageBase64');
+      sessionStorage.removeItem('homePageFileType');
+      sessionStorage.removeItem('homePageFileSize');
+      sessionStorage.removeItem('homePageTimestamp');
+    }
+  }, [status, url, fileName, preview, originalFile]);
+
 
 
   const handleUpload = useCallback(async (file: File) => {
@@ -272,8 +366,8 @@ export default function HomePage() {
   return (
     <div className="flex flex-col">
       {/* ezremove-like hero layout: 白底首屏（不使用渐变） + 左文案/演示 + 右上传卡片 */}
-      <section className="bg-white relative">
-        <div className="mx-auto grid max-w-6xl gap-8 px-6 pt-16 pb-40 sm:gap-10 sm:pt-20 sm:pb-48 lg:max-w-7xl lg:grid-cols-2 lg:items-stretch lg:gap-16 lg:px-10 lg:pt-24 lg:pb-56">
+      <section className="bg-white relative" style={{ minHeight: '100vh' }}>
+        <div className="mx-auto grid max-w-6xl gap-8 px-6 pt-16 pb-10 sm:gap-10 sm:pt-20 sm:pb-14 lg:max-w-7xl lg:grid-cols-2 lg:items-stretch lg:gap-16 lg:px-10 lg:pt-24 lg:pb-20">
           {/* Left */}
           <div className="space-y-5 lg:pr-6 text-slate-900 sm:space-y-6 flex flex-col lg:h-full">
             <div className="space-y-4">
@@ -371,33 +465,9 @@ export default function HomePage() {
                   </div>
                   {preview && (
                     <div className="mt-4">
-                      <div className="mb-3 flex items-center justify-between gap-2 text-sm text-slate-500">
-                        <div className="flex items-center gap-2">
-                          <ImageIcon className="h-4 w-4" />
-                          {fileName}
-                        </div>
-                        <LocaleLink
-                          href="/circlecrop"
-                          className="inline-flex items-center gap-1.5 text-sm text-brand-teal hover:underline transition-colors"
-                          onClick={(e) => {
-                            if (originalFile) {
-                              e.preventDefault();
-                              // 将文件转换为 base64 并保存到 sessionStorage
-                              const reader = new FileReader();
-                              reader.onloadend = () => {
-                                const base64 = reader.result as string;
-                                sessionStorage.setItem('circleCropImage', base64);
-                                sessionStorage.setItem('circleCropFileName', originalFile.name);
-                                sessionStorage.setItem('circleCropFileType', originalFile.type);
-                                // 保存完成后再跳转
-                                router.push('/circlecrop');
-                              };
-                              reader.readAsDataURL(originalFile);
-                            }
-                          }}
-                        >
-                          👉 {t("result.tryCircleCrop")}
-                        </LocaleLink>
+                      <div className="mb-3 flex items-center gap-2 text-sm text-slate-500">
+                        <ImageIcon className="h-4 w-4" />
+                        {fileName}
                       </div>
                       <div className="relative h-48 w-full overflow-hidden rounded-lg bg-transparent sm:h-56">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -556,6 +626,87 @@ export default function HomePage() {
           </div>
         </section>
         </div>
+        
+        {/* Circle Crop Guidance - Fixed at viewport bottom, aligned with scroll button (bottom-8 = 32px) - Only show after upload success */}
+        {status === "success" && url && (
+          <div className="fixed bottom-8 left-0 right-0 z-20 pointer-events-none">
+            <div className="mx-auto max-w-6xl px-6 lg:px-10">
+              <div className="text-center pointer-events-auto">
+                <LocaleLink
+                  href="/circlecrop"
+                  className="inline-flex items-center gap-1.5 text-base sm:text-lg font-medium text-brand-teal transition-colors"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    
+                    // 优先使用 originalFile，如果没有则从 sessionStorage 恢复
+                    let fileToUse = originalFile;
+                    
+                    if (!fileToUse) {
+                      // 从 sessionStorage 恢复文件
+                      const savedImageBase64 = sessionStorage.getItem('homePageImageBase64');
+                      const savedFileName = sessionStorage.getItem('homePageFileName');
+                      const savedFileType = sessionStorage.getItem('homePageFileType');
+                      const savedFileSize = sessionStorage.getItem('homePageFileSize');
+                      const savedUrl = sessionStorage.getItem('homePageUrl');
+                      
+                      // 验证：确保当前显示的 URL 和缓存的 URL 一致（确保是同一张图片）
+                      if (savedImageBase64 && savedFileName && savedFileType && savedUrl && url && savedUrl === url) {
+                        const base64Data = savedImageBase64.includes(',') ? savedImageBase64.split(',')[1] : savedImageBase64;
+                        const byteString = atob(base64Data);
+                        const ab = new ArrayBuffer(byteString.length);
+                        const ia = new Uint8Array(ab);
+                        for (let i = 0; i < byteString.length; i++) {
+                          ia[i] = byteString.charCodeAt(i);
+                        }
+                        const blob = new Blob([ab], { type: savedFileType });
+                        fileToUse = new File([blob], savedFileName, { type: savedFileType });
+                        
+                        // 验证文件大小是否匹配
+                        if (savedFileSize && fileToUse.size.toString() !== savedFileSize) {
+                          fileToUse = null; // 文件大小不匹配，不使用
+                        }
+                      }
+                    }
+                    
+                    if (fileToUse) {
+                      // 设置标记，表示这是从首页跳转过来的
+                      sessionStorage.setItem('circleCropFromHome', 'true');
+                      // 将文件转换为 base64 并保存到 sessionStorage
+                      const reader = new FileReader();
+                      reader.onloadend = () => {
+                        const base64 = reader.result as string;
+                        sessionStorage.setItem('circleCropImage', base64);
+                        sessionStorage.setItem('circleCropFileName', fileToUse.name);
+                        sessionStorage.setItem('circleCropFileType', fileToUse.type);
+                        // 保存完成后再跳转
+                        router.push('/circlecrop');
+                      };
+                      reader.readAsDataURL(fileToUse);
+                    } else {
+                      // 如果没有文件，直接跳转
+                      router.push('/circlecrop');
+                    }
+                  }}
+                >
+                  <motion.span
+                    animate={{
+                      x: [0, 4, 0],
+                    }}
+                    transition={{
+                      duration: 1.5,
+                      repeat: Infinity,
+                      ease: "easeInOut",
+                    }}
+                    className="inline-block"
+                  >
+                    👉
+                  </motion.span>
+                  <span className="hover:underline">{t("result.tryCircleCrop")}</span>
+                </LocaleLink>
+              </div>
+            </div>
+          </div>
+        )}
       </section>
 
       {/* Benefits */}
@@ -820,6 +971,8 @@ export default function HomePage() {
                     key={item.code}
                     type="button"
                     onClick={() => {
+                      // 设置标记以保留图片状态
+                      sessionStorage.setItem('homePageLanguageSwitch', 'true');
                       router.replace("/", { locale: item.code });
                     }}
                     className={cn(
