@@ -56,7 +56,7 @@ export function CircleCropTool({ showHeading = true }: CircleCropToolProps) {
       sessionStorage.removeItem('circleCropFileName');
       sessionStorage.removeItem('circleCropFileType');
       // 滚动条归位
-      window.scrollTo({ top: 0, behavior: 'instant' });
+      window.scrollTo({ top: 0, behavior: 'auto' });
     }
   }, []);
 
