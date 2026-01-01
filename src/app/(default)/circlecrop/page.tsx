@@ -34,7 +34,7 @@ export default async function PhotoCircleCropPage() {
     <>
       <div className="mx-auto max-w-6xl px-6 lg:px-10 bg-white">
         {/* 首屏 section - 参考首页布局 */}
-        <section className="bg-white relative pt-8 pb-36 sm:pt-20 sm:pb-40 lg:pt-24 lg:pb-48">
+        <section className="bg-white relative pt-8 pb-40 sm:pt-20 sm:pb-44 lg:pt-24 lg:pb-52">
           <CircleCropTool showHeading={true} />
           
           <div className="mt-12">
