@@ -672,16 +672,17 @@ export default function HomePage() {
                       // 设置标记，表示这是从首页跳转过来的
                       sessionStorage.setItem('circleCropFromHome', 'true');
                       // 将文件转换为 base64 并保存到 sessionStorage
+                      const file = fileToUse; // 保存引用，避免在异步回调中可能为 null
                       const reader = new FileReader();
                       reader.onloadend = () => {
                         const base64 = reader.result as string;
                         sessionStorage.setItem('circleCropImage', base64);
-                        sessionStorage.setItem('circleCropFileName', fileToUse.name);
-                        sessionStorage.setItem('circleCropFileType', fileToUse.type);
+                        sessionStorage.setItem('circleCropFileName', file.name);
+                        sessionStorage.setItem('circleCropFileType', file.type);
                         // 保存完成后再跳转
                         router.push('/circlecrop');
                       };
-                      reader.readAsDataURL(fileToUse);
+                      reader.readAsDataURL(file);
                     } else {
                       // 如果没有文件，直接跳转
                       router.push('/circlecrop');
