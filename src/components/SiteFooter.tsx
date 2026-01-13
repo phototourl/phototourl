@@ -308,12 +308,9 @@ export async function SiteFooter() {
               rel="noopener noreferrer"
               className="inline-block transition-transform hover:scale-105"
             >
-              <img
-                src="https://dayslaunch.com/badages-awards.svg"
-                alt="Featured on Days Launch"
-                height={54}
-                className="h-6 w-auto shrink-0"
-              />
+              <div className="h-6 px-2 flex items-center justify-center rounded bg-slate-800 text-white text-[10px] font-medium whitespace-nowrap shrink-0 leading-none">
+                Days Launch
+              </div>
             </a>
             <a
               href="https://drchecker.net/item/phototourl.com"
