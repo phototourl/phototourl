@@ -127,7 +127,7 @@ export async function SiteFooter() {
           </div>
         </div>
         {/* Badge row: centered, full-width, between content and bottom border */}
-        <div className="flex flex-nowrap items-center justify-center gap-1.5 overflow-hidden px-4 py-4">
+        <div className="flex flex-wrap items-center justify-center gap-1.5 px-4 py-4">
             <a
               href="https://fazier.com/launches/phototourl.com"
               target="_blank"
@@ -311,32 +311,6 @@ export async function SiteFooter() {
               <div className="h-6 px-2 flex items-center justify-center rounded bg-slate-800 text-white text-[10px] font-medium whitespace-nowrap shrink-0 leading-none">
                 Days Launch
               </div>
-            </a>
-            <a
-              href="https://drchecker.net/item/phototourl.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block transition-transform hover:scale-105"
-            >
-              <img
-                src="https://drchecker.net/api/badge?domain=phototourl.com"
-                alt="Monitor your Domain Rating with DRChecker"
-                height={54}
-                className="h-6 w-auto shrink-0"
-              />
-            </a>
-            <a
-              href="https://startuptostartup.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block transition-transform hover:scale-105"
-            >
-              <img
-                src="https://startuptostartup.com/badages-awards.svg"
-                alt="Featured on Startup To Startup"
-                height={54}
-                className="h-6 w-auto shrink-0"
-              />
             </a>
           </div>
       </div>
