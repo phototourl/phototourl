@@ -1,10 +1,12 @@
 import Image from "next/image";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { HomeLink } from "./HomeLink";
+import { LocaleLink } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 
 export async function SiteHeader() {
   const t = await getTranslations("common");
+  const tCircleCrop = await getTranslations("circleCrop");
   const tImages = await getTranslations("images");
   return (
     <header className="ez-shadow-nav fixed top-0 z-40 w-full border-b border-slate-100 bg-white text-slate-900">
@@ -24,9 +26,15 @@ export async function SiteHeader() {
             {t("siteName")}
           </span>
         </HomeLink>
-        <div className="flex items-center gap-4">
+        <nav className="flex items-center gap-2 sm:gap-3">
+          <LocaleLink
+            href="/circlecrop"
+            className="rounded-lg px-2.5 py-1.5 text-sm font-medium text-slate-600 transition-colors hover:bg-teal-50 hover:text-brand-teal"
+          >
+            {tCircleCrop("title")}
+          </LocaleLink>
           <LanguageSwitcher variant="header" />
-        </div>
+        </nav>
       </div>
     </header>
   );

@@ -62,6 +62,7 @@ module.exports = {
           900: "#6d5316",
           950: "#3f2d09",
         },
+        "brand-teal": "#0abab5",
       },
       borderRadius: {
         lg: "var(--radius)",

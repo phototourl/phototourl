@@ -19,13 +19,14 @@ const navLinks = [
 
 const productLinks = [
   { label: "Image to URL", href: "https://www.image2url.com/", external: true },
-  { label: "Photo To Circle Crop", href: "/circlecrop", external: false },
+  { labelKey: "title", ns: "circleCrop", href: "/circlecrop", external: false },
   { label: "Discord Wrapped", href: "https://discordwarpped.qzboat.com/", external: true },
   { label: "Qzboat", href: "https://www.qzboat.com/", external: true },
 ];
 
 export async function SiteFooter() {
   const t = await getTranslations("common");
+  const tCircleCrop = await getTranslations("circleCrop");
   const tImages = await getTranslations("images");
   return (
     <footer>
@@ -89,8 +90,12 @@ export async function SiteFooter() {
             <div className="space-y-3">
               <div className="text-sm font-semibold uppercase tracking-wide text-white/80">{t("footer.productsTitle")}</div>
               <div className="flex flex-col gap-2 text-sm text-white/95">
-                {productLinks.map((link) =>
-                  link.external ? (
+                {productLinks.map((link) => {
+                  const label =
+                    "ns" in link && "labelKey" in link
+                      ? tCircleCrop(link.labelKey)
+                      : link.label;
+                  return link.external ? (
                     <a
                       key={link.href}
                       href={link.href}
@@ -98,7 +103,7 @@ export async function SiteFooter() {
                       rel="noreferrer"
                       className="underline-offset-4 hover:text-white hover:underline break-words"
                     >
-                      {link.label}
+                      {label}
                     </a>
                   ) : (
                     <LocaleLink
@@ -106,10 +111,10 @@ export async function SiteFooter() {
                       href={link.href}
                       className="underline-offset-4 hover:text-white hover:underline break-words"
                     >
-                      {link.label}
+                      {label}
                     </LocaleLink>
-                  )
-                )}
+                  );
+                })}
               </div>
             </div>
 
