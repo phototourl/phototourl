@@ -19,7 +19,7 @@ function storeKey(ip: string) {
 /** 清理过期 key（保留当天），避免内存无限增长 */
 function prune() {
   const today = getDateKey();
-  for (const key of store.keys()) {
+  for (const key of Array.from(store.keys())) {
     const keyDate = key.slice(-10); // key 格式 "ip-yyyy-mm-dd"，日期为最后 10 位
     if (keyDate !== today) store.delete(key);
   }
