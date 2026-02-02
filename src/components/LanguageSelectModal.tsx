@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { useParams } from "next/navigation";
 import { useTransition } from "react";
 import { useLocale } from "next-intl";
