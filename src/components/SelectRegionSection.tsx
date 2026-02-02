@@ -5,6 +5,7 @@ import { useLocaleRouter, useLocalePathname } from "@/i18n/navigation";
 import { useParams } from "next/navigation";
 import { Check } from "lucide-react";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 interface SelectRegionSectionProps {
   translationKey?: string; // 默认为 "home.selectRegion"，可以传入 "circleCrop.selectRegion"
@@ -86,13 +87,14 @@ export function SelectRegionSection({ translationKey = "home.selectRegion" }: Se
                       : "border-slate-200 bg-white text-slate-700 hover:border-brand-teal/50 hover:bg-slate-50"
                   )}
                 >
-                  <img
+                  <Image
                     src={`https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/${item.countryCode.toLowerCase()}.svg`}
                     alt={item.label}
                     title={item.label}
-                    aria-label={item.label}
-                    style={{ width: "1.2em", height: "1.2em", display: "inline-block" }}
+                    width={20}
+                    height={15}
                     className="shrink-0"
+                    unoptimized
                   />
                   <span className="flex-1 text-xs sm:text-sm break-words">{item.label.split(" (")[0]}</span>
                   {isSelected && <Check className="h-3.5 w-3.5 shrink-0 text-brand-teal" />}

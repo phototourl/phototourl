@@ -143,6 +143,7 @@ export async function SiteFooter() {
         </div>
         {/* Badge row: centered, full-width, between content and bottom border */}
         <div className="flex flex-wrap items-center justify-center gap-1.5 px-6 py-4 lg:px-10">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <a
               href="https://fazier.com/launches/phototourl.com"
               target="_blank"
@@ -157,6 +158,7 @@ export async function SiteFooter() {
                 className="h-6 w-auto opacity-90 hover:opacity-100 transition-opacity shrink-0"
               />
             </a>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <a
               href="https://showmebest.ai"
               target="_blank"
@@ -171,6 +173,7 @@ export async function SiteFooter() {
                 className="h-6 w-auto shrink-0"
               />
             </a>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <a
               href="https://submitaitools.org"
               target="_blank"
@@ -185,6 +188,7 @@ export async function SiteFooter() {
                 className="h-6 w-auto rounded-[10px] shrink-0"
               />
             </a>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <a
               href="https://twelve.tools"
               target="_blank"
@@ -199,6 +203,7 @@ export async function SiteFooter() {
                 className="h-6 w-auto shrink-0"
               />
             </a>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <a
               href="https://wired.business"
               target="_blank"
@@ -213,6 +218,7 @@ export async function SiteFooter() {
                 className="h-6 w-auto shrink-0"
               />
             </a>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <a
               href="https://frogdr.com/phototourl.com?utm_source=phototourl.com"
               target="_blank"
@@ -227,6 +233,7 @@ export async function SiteFooter() {
                 className="h-6 w-auto shrink-0"
               />
             </a>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <a
               href="https://findly.tools/photo-to-url?utm_source=photo-to-url"
               target="_blank"
@@ -240,6 +247,7 @@ export async function SiteFooter() {
                 className="h-6 w-auto shrink-0"
               />
             </a>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <a
               href="https://goodaitools.com"
               target="_blank"
@@ -253,6 +261,7 @@ export async function SiteFooter() {
                 className="h-6 w-auto shrink-0"
               />
             </a>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <a
               href="https://dofollow.tools"
               target="_blank"
@@ -267,6 +276,7 @@ export async function SiteFooter() {
                 className="h-6 w-auto shrink-0"
               />
             </a>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <a
               href="https://turbo0.com/item/photo-to-url"
               target="_blank"
@@ -280,6 +290,7 @@ export async function SiteFooter() {
                 className="h-6 w-auto shrink-0"
               />
             </a>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <a
               href="https://aiagentsdirectory.com?utm_source=badge&utm_medium=referral&utm_campaign=free_listing&utm_content=homepage"
               target="_blank"
@@ -294,6 +305,7 @@ export async function SiteFooter() {
                 className="h-6 w-auto shrink-0"
               />
             </a>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <a
               href="https://fazier.com/launches/phototourl"
               target="_blank"

@@ -288,7 +288,7 @@ export default function HomePage() {
     URL.revokeObjectURL(link.href);
   };
 
-  const saveUrlAsJson = (e?: React.MouseEvent) => {
+  const _saveUrlAsJson = (e?: React.MouseEvent) => {
     e?.stopPropagation();
     if (!url) return;
     const content = JSON.stringify({ link: url }, null, 2);
@@ -316,7 +316,7 @@ export default function HomePage() {
     URL.revokeObjectURL(link.href);
   };
 
-  const saveUrlAsMd = (e?: React.MouseEvent) => {
+  const _saveUrlAsMd = (e?: React.MouseEvent) => {
     e?.stopPropagation();
     if (!url) return;
     const content = `[Photo To URL link](${url})\n`;
