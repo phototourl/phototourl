@@ -487,8 +487,9 @@
           "text": "Stuur een e-mail naar",
           "email": "leeqs1010@gmail.com"
         }
-      },
-      "cookie": {
+      }
+    },
+    "cookie": {
         "seo": {
           "title": "Cookiebeleid | Photo To URL",
           "description": "Cookiebeleid voor Photo To URL - Ontdek hoe we cookies en trackingtechnologieën gebruiken."
@@ -546,4 +547,3 @@
       }
     }
   }
-}

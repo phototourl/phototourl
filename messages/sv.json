@@ -487,14 +487,15 @@
           "text": "Skicka ett e-postmeddelande till",
           "email": "leeqs1010@gmail.com"
         }
-      },
-      "cookie": {
-        "seo": {
+      }
+    },
+    "cookie": {
+      "seo": {
           "title": "Cookiepolicy | Photo To URL",
           "description": "Cookiepolicy för Photo To URL - Lär dig hur vi använder cookies och spårningsteknologier."
         },
         "page": {
-          "title": "Cookiepolicy",
+        "title": "Cookiepolicy",
           "lastUpdated": "Senast uppdaterad: januari 2026",
           "introduction": "Denna cookiepolicy förklarar hur Photo To URL använder cookies och liknande spårningsteknologier när du besöker vår webbplats. Genom att använda vår tjänst samtycker du till användningen av cookies i enlighet med denna policy.",
           "whatAreCookies": {
@@ -543,7 +544,6 @@
             "email": "leeqs1010@gmail.com"
           }
         }
-      }
     }
   }
 }

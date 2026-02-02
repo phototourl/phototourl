@@ -487,14 +487,15 @@
           "text": "Kirim email ke",
           "email": "leeqs1010@gmail.com"
         }
-      },
-      "cookie": {
-        "seo": {
+      }
+    },
+    "cookie": {
+      "seo": {
           "title": "Kebijakan Cookie | Photo To URL",
           "description": "Kebijakan Cookie untuk Photo To URL - Pelajari cara kami menggunakan cookie dan teknologi pelacakan."
         },
         "page": {
-          "title": "Kebijakan Cookie",
+        "title": "Kebijakan Cookie",
           "lastUpdated": "Terakhir Diperbarui: Januari 2026",
           "introduction": "Kebijakan Cookie ini menjelaskan cara Photo To URL menggunakan cookie dan teknologi pelacakan serupa saat Anda mengunjungi situs web kami. Dengan menggunakan layanan kami, Anda menyetujui penggunaan cookie sesuai dengan kebijakan ini.",
           "whatAreCookies": {
@@ -543,7 +544,6 @@
             "email": "leeqs1010@gmail.com"
           }
         }
-      }
     }
   }
 }

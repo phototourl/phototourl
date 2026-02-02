@@ -295,14 +295,15 @@
           "text": "Send e-post til",
           "email": "leeqs1010@gmail.com"
         }
-      },
-      "cookie": {
-        "seo": {
+      }
+    },
+    "cookie": {
+      "seo": {
           "title": "Informasjonskapselpolicy | Photo To URL",
           "description": "Informasjonskapselpolicy for Photo To URL - Lær hvordan vi bruker informasjonskapsler og sporings teknologier."
         },
         "page": {
-          "title": "Informasjonskapselpolicy",
+        "title": "Informasjonskapselpolicy",
           "lastUpdated": "Sist oppdatert: januar 2026",
           "introduction": "Denne informasjonskapselpolicyen forklarer hvordan Photo To URL bruker informasjonskapsler og lignende sporings teknologier når du besøker nettstedet vårt. Ved å bruke tjenesten vår samtykker du til bruk av informasjonskapsler i samsvar med denne policyen.",
           "whatAreCookies": {
@@ -351,7 +352,6 @@
             "email": "leeqs1010@gmail.com"
           }
         }
-      }
     }
   }
 }

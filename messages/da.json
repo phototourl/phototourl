@@ -328,14 +328,15 @@
           "text": "Send en e-mail til",
           "email": "leeqs1010@gmail.com"
         }
-      },
-      "cookie": {
-        "seo": {
+      }
+    },
+    "cookie": {
+      "seo": {
           "title": "Cookiepolitik | Photo To URL",
           "description": "Cookiepolitik for Photo To URL - Lær, hvordan vi bruger cookies og sporingsteknologier."
         },
         "page": {
-          "title": "Cookiepolitik",
+        "title": "Cookiepolitik",
           "lastUpdated": "Sidst opdateret: januar 2026",
           "introduction": "Denne Cookiepolitik forklarer, hvordan Photo To URL bruger cookies og lignende sporingsteknologier, når du besøger vores websted. Ved at bruge vores tjeneste samtykker du til brugen af cookies i overensstemmelse med denne politik.",
           "whatAreCookies": {
@@ -384,7 +385,6 @@
             "email": "leeqs1010@gmail.com"
           }
         }
-      }
     }
   }
 }

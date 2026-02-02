@@ -302,14 +302,15 @@
           "text": "Στείλτε email στο",
           "email": "leeqs1010@gmail.com"
         }
-      },
-      "cookie": {
-        "seo": {
+      }
+    },
+    "cookie": {
+      "seo": {
           "title": "Πολιτική Cookies | Photo To URL",
           "description": "Πολιτική Cookies για το Photo To URL - Μάθετε πώς χρησιμοποιούμε cookies και τεχνολογίες παρακολούθησης."
         },
         "page": {
-          "title": "Πολιτική Cookies",
+        "title": "Πολιτική Cookies",
           "lastUpdated": "Τελευταία ενημέρωση: Ιανουάριος 2026",
           "introduction": "Αυτή η Πολιτική Cookies εξηγεί πώς το Photo To URL χρησιμοποιεί cookies και παρόμοιες τεχνολογίες παρακολούθησης όταν επισκέπτεστε τον ιστότοπό μας. Χρησιμοποιώντας την υπηρεσία μας, συναινείτε στη χρήση cookies σύμφωνα με αυτή την πολιτική.",
           "whatAreCookies": {
@@ -358,7 +359,6 @@
             "email": "leeqs1010@gmail.com"
           }
         }
-      }
     }
   }
 }

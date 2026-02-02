@@ -11,7 +11,7 @@ export function CircleCropTypewriter() {
       href="/circlecrop"
       className="flex items-center gap-3 group pointer-events-auto"
     >
-      <div className="relative h-8 w-8 overflow-hidden rounded-md bg-white/10 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12 group-hover:bg-white/20">
+      <div className="relative h-8 w-8 flex-shrink-0 overflow-hidden rounded-md bg-white/10 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12 group-hover:bg-white/20">
         <Image
           src="/circle-crop-favicon.png"
           alt={t("title")}
@@ -20,7 +20,7 @@ export function CircleCropTypewriter() {
           className="h-full w-full object-contain transition-transform duration-300 group-hover:scale-110"
         />
       </div>
-      <div className="text-xl font-semibold text-white transition-colors duration-300 group-hover:text-white/90">
+      <div className="text-xl font-semibold text-white transition-colors duration-300 group-hover:text-white/90 whitespace-nowrap">
         {t("title")}
       </div>
     </LocaleLink>

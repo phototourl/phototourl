@@ -487,61 +487,61 @@
           "text": "E-Mail an",
           "email": "leeqs1010@gmail.com"
         }
+      }
+    },
+    "cookie": {
+      "seo": {
+        "title": "Cookie-Richtlinie | Photo To URL",
+        "description": "Cookie-Richtlinie für Photo To URL - Erfahren Sie, wie wir Cookies und Tracking-Technologien verwenden."
       },
-      "cookie": {
-        "seo": {
-          "title": "Cookie-Richtlinie | Photo To URL",
-          "description": "Cookie-Richtlinie für Photo To URL - Erfahren Sie, wie wir Cookies und Tracking-Technologien verwenden."
+      "page": {
+        "title": "Cookie-Richtlinie",
+        "lastUpdated": "Zuletzt aktualisiert: Januar 2026",
+        "introduction": "Diese Cookie-Richtlinie erklärt, wie Photo To URL Cookies und ähnliche Tracking-Technologien verwendet, wenn Sie unsere Website besuchen. Durch die Nutzung unseres Services stimmen Sie der Verwendung von Cookies gemäß dieser Richtlinie zu.",
+        "whatAreCookies": {
+          "title": "Was sind Cookies",
+          "content": "Cookies sind kleine Textdateien, die auf Ihrem Gerät platziert werden, wenn Sie eine Website besuchen. Sie werden häufig verwendet, um Websites effizienter zu machen und Website-Besitzern Informationen zu liefern."
         },
-        "page": {
-          "title": "Cookie-Richtlinie",
-          "lastUpdated": "Zuletzt aktualisiert: Januar 2026",
-          "introduction": "Diese Cookie-Richtlinie erklärt, wie Photo To URL Cookies und ähnliche Tracking-Technologien verwendet, wenn Sie unsere Website besuchen. Durch die Nutzung unseres Services stimmen Sie der Verwendung von Cookies gemäß dieser Richtlinie zu.",
-          "whatAreCookies": {
-            "title": "Was sind Cookies",
-            "content": "Cookies sind kleine Textdateien, die auf Ihrem Gerät platziert werden, wenn Sie eine Website besuchen. Sie werden häufig verwendet, um Websites effizienter zu machen und Website-Besitzern Informationen zu liefern."
+        "howWeUseCookies": {
+          "title": "Wie wir Cookies verwenden",
+          "content": "Wir verwenden Cookies für folgende Zwecke:",
+          "item1": "Zur Speicherung Ihres Upload-Verlaufs und Ihrer Spracheinstellungen",
+          "item2": "Zur Analyse des Website-Traffics und des Benutzerverhaltens",
+          "item3": "Zur Anzeige personalisierter Werbung"
+        },
+        "typesOfCookies": {
+          "title": "Arten von Cookies, die wir verwenden",
+          "essential": {
+            "title": "Notwendige Cookies",
+            "content": "Diese Cookies sind für das ordnungsgemäße Funktionieren der Website erforderlich. Sie ermöglichen Kernfunktionen wie die Speicherung Ihrer Spracheinstellungen und Ihres Upload-Verlaufs."
           },
-          "howWeUseCookies": {
-            "title": "Wie wir Cookies verwenden",
-            "content": "Wir verwenden Cookies für folgende Zwecke:",
-            "item1": "Zur Speicherung Ihres Upload-Verlaufs und Ihrer Spracheinstellungen",
-            "item2": "Zur Analyse des Website-Traffics und des Benutzerverhaltens",
-            "item3": "Zur Anzeige personalisierter Werbung"
+          "analytics": {
+            "title": "Analyse-Cookies",
+            "content": "Wir verwenden Yandex Metrika, um zu analysieren, wie Besucher unsere Website nutzen. Diese Cookies sammeln anonyme Informationen über die Website-Nutzung, um uns bei der Verbesserung unseres Services zu helfen."
           },
-          "typesOfCookies": {
-            "title": "Arten von Cookies, die wir verwenden",
-            "essential": {
-              "title": "Notwendige Cookies",
-              "content": "Diese Cookies sind für das ordnungsgemäße Funktionieren der Website erforderlich. Sie ermöglichen Kernfunktionen wie die Speicherung Ihrer Spracheinstellungen und Ihres Upload-Verlaufs."
-            },
-            "analytics": {
-              "title": "Analyse-Cookies",
-              "content": "Wir verwenden Yandex Metrika, um zu analysieren, wie Besucher unsere Website nutzen. Diese Cookies sammeln anonyme Informationen über die Website-Nutzung, um uns bei der Verbesserung unseres Services zu helfen."
-            },
-            "advertising": {
-              "title": "Werbungs-Cookies",
-              "content": "Wir verwenden Google AdSense zur Anzeige von Werbung. Diese Cookies helfen dabei, personalisierte Werbung basierend auf Ihrem Surfverhalten und Ihren Interessen zu liefern."
-            }
-          },
-          "thirdPartyCookies": {
-            "title": "Cookies von Drittanbietern",
-            "content": "Wir verwenden die folgenden Drittanbieter-Services, die Cookies setzen können:",
-            "item1": "Google AdSense - Für Werbung (unterliegt der Datenschutzrichtlinie von Google)",
-            "item2": "Yandex Metrika - Zur Website-Analyse (unterliegt der Datenschutzrichtlinie von Yandex)"
-          },
-          "manageCookies": {
-            "title": "Cookies verwalten",
-            "content": "Sie können Cookies über Ihre Browsereinstellungen steuern und verwalten. Die meisten Browser ermöglichen es Ihnen, Cookies abzulehnen oder zu akzeptieren, vorhandene Cookies zu löschen oder Einstellungen für bestimmte Websites festzulegen. Das Deaktivieren von Cookies kann jedoch die Funktionalität unseres Services beeinträchtigen."
-          },
-          "changes": {
-            "title": "Änderungen an dieser Cookie-Richtlinie",
-            "content": "Wir können diese Cookie-Richtlinie von Zeit zu Zeit aktualisieren. Wir werden Sie über Änderungen informieren, indem wir die neue Cookie-Richtlinie auf dieser Seite veröffentlichen und das Datum \"Zuletzt aktualisiert\" aktualisieren."
-          },
-          "contact": {
-            "title": "Kontaktieren Sie uns",
-            "text": "Wenn Sie Fragen zu dieser Cookie-Richtlinie haben, kontaktieren Sie uns bitte unter",
-            "email": "leeqs1010@gmail.com"
+          "advertising": {
+            "title": "Werbungs-Cookies",
+            "content": "Wir verwenden Google AdSense zur Anzeige von Werbung. Diese Cookies helfen dabei, personalisierte Werbung basierend auf Ihrem Surfverhalten und Ihren Interessen zu liefern."
           }
+        },
+        "thirdPartyCookies": {
+          "title": "Cookies von Drittanbietern",
+          "content": "Wir verwenden die folgenden Drittanbieter-Services, die Cookies setzen können:",
+          "item1": "Google AdSense - Für Werbung (unterliegt der Datenschutzrichtlinie von Google)",
+          "item2": "Yandex Metrika - Zur Website-Analyse (unterliegt der Datenschutzrichtlinie von Yandex)"
+        },
+        "manageCookies": {
+          "title": "Cookies verwalten",
+          "content": "Sie können Cookies über Ihre Browsereinstellungen steuern und verwalten. Die meisten Browser ermöglichen es Ihnen, Cookies abzulehnen oder zu akzeptieren, vorhandene Cookies zu löschen oder Einstellungen für bestimmte Websites festzulegen. Das Deaktivieren von Cookies kann jedoch die Funktionalität unseres Services beeinträchtigen."
+        },
+        "changes": {
+          "title": "Änderungen an dieser Cookie-Richtlinie",
+          "content": "Wir können diese Cookie-Richtlinie von Zeit zu Zeit aktualisieren. Wir werden Sie über Änderungen informieren, indem wir die neue Cookie-Richtlinie auf dieser Seite veröffentlichen und das Datum \"Zuletzt aktualisiert\" aktualisieren."
+        },
+        "contact": {
+          "title": "Kontaktieren Sie uns",
+          "text": "Wenn Sie Fragen zu dieser Cookie-Richtlinie haben, kontaktieren Sie uns bitte unter",
+          "email": "leeqs1010@gmail.com"
         }
       }
     }

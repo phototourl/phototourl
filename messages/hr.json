@@ -302,14 +302,15 @@
           "text": "Pošaljite e-poštu na",
           "email": "leeqs1010@gmail.com"
         }
-      },
-      "cookie": {
-        "seo": {
+      }
+    },
+    "cookie": {
+      "seo": {
           "title": "Pravila kolačića | Photo To URL",
           "description": "Pravila kolačića za Photo To URL - Saznajte kako koristimo kolačiće i tehnologije praćenja."
         },
         "page": {
-          "title": "Pravila kolačića",
+        "title": "Pravila kolačića",
           "lastUpdated": "Posljednje ažuriranje: siječanj 2026",
           "introduction": "Ova Pravila kolačića objašnjavaju kako Photo To URL koristi kolačiće i slične tehnologije praćenja kada posjećujete našu web stranicu. Korištenjem naše usluge pristajete na korištenje kolačića u skladu s ovim pravilima.",
           "whatAreCookies": {
@@ -358,7 +359,6 @@
             "email": "leeqs1010@gmail.com"
           }
         }
-      }
     }
   }
 }

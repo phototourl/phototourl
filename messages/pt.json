@@ -487,8 +487,9 @@
           "text": "Envie um e-mail para",
           "email": "leeqs1010@gmail.com"
         }
-      },
-      "cookie": {
+      }
+    },
+    "cookie": {
         "seo": {
           "title": "Política de cookies | Photo To URL",
           "description": "Política de cookies para Photo To URL - Saiba como usamos cookies e tecnologias de rastreamento."
@@ -546,4 +547,3 @@
       }
     }
   }
-}

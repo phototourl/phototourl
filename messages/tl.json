@@ -312,14 +312,15 @@
           "text": "Magpadala ng email sa",
           "email": "leeqs1010@gmail.com"
         }
-      },
-      "cookie": {
-        "seo": {
+      }
+    },
+    "cookie": {
+      "seo": {
           "title": "Cookie Policy | Photo To URL",
           "description": "Cookie Policy para sa Photo To URL - Alamin kung paano namin ginagamit ang cookies at tracking technologies."
         },
         "page": {
-          "title": "Cookie Policy",
+        "title": "Cookie Policy",
           "lastUpdated": "Huling Update: Enero 2026",
           "introduction": "Ang Cookie Policy na ito ay nagpapaliwanag kung paano ginagamit ng Photo To URL ang cookies at similar tracking technologies kapag binibisita ninyo ang aming website. Sa paggamit ng aming serbisyo, sumasang-ayon kayo sa paggamit ng cookies ayon sa policy na ito.",
           "whatAreCookies": {
@@ -368,7 +369,6 @@
             "email": "leeqs1010@gmail.com"
           }
         }
-      }
     }
   }
 }

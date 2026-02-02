@@ -91,7 +91,9 @@
       "placeholder": "Anc nagina ligia. Chargia ina fotografia per generar in URL da spartir.",
       "savePrompt": "Salva la ligia sco ti vuls",
       "copy": "Copia la ligia",
-      "copied": "Copiau"
+      "copied": "Copiau",
+      "saveHint": "Salva questa ligia sche ti dovras ella pli tard",
+      "tryCircleCrop": "Emprovar Fotografia per tagl circular"
     },
     "benefits": {
       "title": "Pertge che las persunas tschernan Fotografia a URL",
@@ -460,8 +462,9 @@
           "text": "Trametter in e-mail a",
           "email": "leeqs1010@gmail.com"
         }
-      },
-      "cookie": {
+      }
+    },
+    "cookie": {
         "seo": {
           "title": "Politica da cookies | Photo To URL",
           "description": "Politica da cookies per Photo To URL - Ve a savair co nus utilisain cookies e tecnologias da persequitar."
@@ -517,7 +520,6 @@
           }
         }
       }
-    }
   },
   "about": {
     "seo": {

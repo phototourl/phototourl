@@ -487,8 +487,9 @@
           "text": "Hantar e-mel kepada",
           "email": "leeqs1010@gmail.com"
         }
-      },
-      "cookie": {
+      }
+    },
+    "cookie": {
         "seo": {
           "title": "Dasar Kuki | Photo To URL",
           "description": "Dasar Kuki untuk Photo To URL - Ketahui cara kami menggunakan kuki dan teknologi penjejakan."
@@ -546,4 +547,4 @@
       }
     }
   }
-}
+

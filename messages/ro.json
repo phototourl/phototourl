@@ -302,14 +302,15 @@
           "text": "Trimiteți un e-mail la",
           "email": "leeqs1010@gmail.com"
         }
-      },
-      "cookie": {
-        "seo": {
+      }
+    },
+    "cookie": {
+      "seo": {
           "title": "Politica cookie-urilor | Photo To URL",
           "description": "Politica cookie-urilor pentru Photo To URL - Aflați cum folosim cookie-urile și tehnologiile de urmărire."
         },
         "page": {
-          "title": "Politica cookie-urilor",
+        "title": "Politica cookie-urilor",
           "lastUpdated": "Ultima actualizare: ianuarie 2026",
           "introduction": "Această Politică de Cookie-uri explică modul în care Photo To URL folosește cookie-uri și tehnologii similare de urmărire când vizitați site-ul nostru web. Prin utilizarea serviciului nostru, sunteți de acord cu utilizarea cookie-urilor în conformitate cu această politică.",
           "whatAreCookies": {
@@ -358,7 +359,6 @@
             "email": "leeqs1010@gmail.com"
           }
         }
-      }
     }
   }
 }

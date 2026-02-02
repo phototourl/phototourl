@@ -487,14 +487,15 @@
           "text": "Envíe un correo electrónico a",
           "email": "leeqs1010@gmail.com"
         }
-      },
-      "cookie": {
-        "seo": {
+      }
+    },
+    "cookie": {
+      "seo": {
           "title": "Política de cookies | Photo To URL",
           "description": "Política de cookies para Photo To URL - Aprenda sobre cómo usamos cookies y tecnologías de seguimiento."
         },
         "page": {
-          "title": "Política de cookies",
+        "title": "Política de cookies",
           "lastUpdated": "Última actualización: enero 2026",
           "introduction": "Esta Política de Cookies explica cómo Photo To URL utiliza cookies y tecnologías de seguimiento similares cuando visita nuestro sitio web. Al usar nuestro servicio, acepta el uso de cookies de acuerdo con esta política.",
           "whatAreCookies": {
@@ -543,7 +544,6 @@
             "email": "leeqs1010@gmail.com"
           }
         }
-      }
     }
   }
 }

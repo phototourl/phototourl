@@ -487,8 +487,9 @@
           "text": "E-posta gönderin",
           "email": "leeqs1010@gmail.com"
         }
-      },
-      "cookie": {
+      }
+    },
+    "cookie": {
         "seo": {
           "title": "Çerez Politikası | Photo To URL",
           "description": "Photo To URL için Çerez Politikası - Çerezleri ve izleme teknolojilerini nasıl kullandığımızı öğrenin."
@@ -546,4 +547,3 @@
       }
     }
   }
-}

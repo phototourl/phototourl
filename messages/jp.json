@@ -487,14 +487,15 @@
           "text": "メールで",
           "email": "leeqs1010@gmail.com"
         }
-      },
-      "cookie": {
-        "seo": {
+      }
+    },
+    "cookie": {
+      "seo": {
           "title": "Cookie ポリシー | Photo To URL",
           "description": "Photo To URLのCookieポリシー - Cookieと追跡技術の使用方法について学ぶ。"
         },
         "page": {
-          "title": "Cookie ポリシー",
+        "title": "Cookie ポリシー",
           "lastUpdated": "最終更新：2026年1月",
           "introduction": "このCookieポリシーは、お客様が当社のウェブサイトを訪問する際に、Photo To URLがCookieおよび類似の追跡技術をどのように使用するかを説明しています。当社のサービスを使用することで、お客様はこのポリシーに従ったCookieの使用に同意したことになります。",
           "whatAreCookies": {
@@ -543,7 +544,6 @@
             "email": "leeqs1010@gmail.com"
           }
         }
-      }
     }
   }
 }

@@ -339,14 +339,15 @@
           "text": "Küldjön e-mailt a következő címre:",
           "email": "leeqs1010@gmail.com"
         }
-      },
-      "cookie": {
-        "seo": {
+      }
+    },
+    "cookie": {
+      "seo": {
           "title": "Süti szabályzat | Photo To URL",
           "description": "Süti szabályzat a Photo To URL számára - Ismerje meg, hogyan használjuk a sütiket és a követési technológiákat."
         },
         "page": {
-          "title": "Süti szabályzat",
+        "title": "Süti szabályzat",
           "lastUpdated": "Utolsó frissítés: 2026 január",
           "introduction": "Ez a Süti Szabályzat elmagyarázza, hogyan használja a Photo To URL a sütiket és hasonló követési technológiákat, amikor meglátogatja webhelyünket. Szolgáltatásunk használatával Ön beleegyezik a sütik használatába e szabályzatnak megfelelően.",
           "whatAreCookies": {
@@ -395,7 +396,6 @@
             "email": "leeqs1010@gmail.com"
           }
         }
-      }
     }
   }
 }

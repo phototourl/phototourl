@@ -487,14 +487,15 @@
           "text": "Pošlete e-mail na",
           "email": "leeqs1010@gmail.com"
         }
-      },
-      "cookie": {
-        "seo": {
+      }
+    },
+    "cookie": {
+      "seo": {
           "title": "Zásady používání souborů cookie | Photo To URL",
           "description": "Zásady používání souborů cookie pro Photo To URL - Zjistěte, jak používáme cookies a technologie sledování."
         },
         "page": {
-          "title": "Zásady používání souborů cookie",
+        "title": "Zásady používání souborů cookie",
           "lastUpdated": "Poslední aktualizace: leden 2026",
           "introduction": "Tyto Zásady používání souborů cookie vysvětlují, jak Photo To URL používá cookies a podobné technologie sledování při návštěvě našich webových stránek. Používáním naší služby souhlasíte s používáním cookies v souladu s těmito zásadami.",
           "whatAreCookies": {
@@ -543,7 +544,6 @@
             "email": "leeqs1010@gmail.com"
           }
         }
-      }
     }
   }
 }

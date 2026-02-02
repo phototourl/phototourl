@@ -487,61 +487,61 @@
           "text": "Email",
           "email": "leeqs1010@gmail.com"
         }
+      }
+    },
+    "cookie": {
+      "seo": {
+        "title": "Cookie Policy | Photo To URL",
+        "description": "Cookie Policy for Photo To URL - Learn about how we use cookies and tracking technologies."
       },
-      "cookie": {
-        "seo": {
-          "title": "Cookie Policy | Photo To URL",
-          "description": "Cookie Policy for Photo To URL - Learn about how we use cookies and tracking technologies."
+      "page": {
+        "title": "Cookie Policy",
+        "lastUpdated": "Last Updated: January 2026",
+        "introduction": "This Cookie Policy explains how Photo To URL uses cookies and similar tracking technologies when you visit our website. By using our service, you consent to the use of cookies in accordance with this policy.",
+        "whatAreCookies": {
+          "title": "What Are Cookies",
+          "content": "Cookies are small text files that are placed on your device when you visit a website. They are widely used to make websites work more efficiently and provide information to website owners."
         },
-        "page": {
-          "title": "Cookie Policy",
-          "lastUpdated": "Last Updated: January 2026",
-          "introduction": "This Cookie Policy explains how Photo To URL uses cookies and similar tracking technologies when you visit our website. By using our service, you consent to the use of cookies in accordance with this policy.",
-          "whatAreCookies": {
-            "title": "What Are Cookies",
-            "content": "Cookies are small text files that are placed on your device when you visit a website. They are widely used to make websites work more efficiently and provide information to website owners."
+        "howWeUseCookies": {
+          "title": "How We Use Cookies",
+          "content": "We use cookies for the following purposes:",
+          "item1": "To store your upload history and language preferences",
+          "item2": "To analyze website traffic and user behavior",
+          "item3": "To display personalized advertisements"
+        },
+        "typesOfCookies": {
+          "title": "Types of Cookies We Use",
+          "essential": {
+            "title": "Essential Cookies",
+            "content": "These cookies are necessary for the website to function properly. They enable core functionality such as storing your language preferences and upload history."
           },
-          "howWeUseCookies": {
-            "title": "How We Use Cookies",
-            "content": "We use cookies for the following purposes:",
-            "item1": "To store your upload history and language preferences",
-            "item2": "To analyze website traffic and user behavior",
-            "item3": "To display personalized advertisements"
+          "analytics": {
+            "title": "Analytics Cookies",
+            "content": "We use Yandex Metrika to analyze how visitors use our website. These cookies collect anonymous information about website usage to help us improve our service."
           },
-          "typesOfCookies": {
-            "title": "Types of Cookies We Use",
-            "essential": {
-              "title": "Essential Cookies",
-              "content": "These cookies are necessary for the website to function properly. They enable core functionality such as storing your language preferences and upload history."
-            },
-            "analytics": {
-              "title": "Analytics Cookies",
-              "content": "We use Yandex Metrika to analyze how visitors use our website. These cookies collect anonymous information about website usage to help us improve our service."
-            },
-            "advertising": {
-              "title": "Advertising Cookies",
-              "content": "We use Google AdSense to display advertisements. These cookies help deliver personalized ads based on your browsing behavior and interests."
-            }
-          },
-          "thirdPartyCookies": {
-            "title": "Third-Party Cookies",
-            "content": "We use the following third-party services that may set cookies:",
-            "item1": "Google AdSense - For advertising (subject to Google's Privacy Policy)",
-            "item2": "Yandex Metrika - For website analytics (subject to Yandex's Privacy Policy)"
-          },
-          "manageCookies": {
-            "title": "Managing Cookies",
-            "content": "You can control and manage cookies through your browser settings. Most browsers allow you to refuse or accept cookies, delete existing cookies, or set preferences for certain websites. However, disabling cookies may affect the functionality of our service."
-          },
-          "changes": {
-            "title": "Changes to This Cookie Policy",
-            "content": "We may update this Cookie Policy from time to time. We will notify you of any changes by posting the new Cookie Policy on this page and updating the \"Last Updated\" date."
-          },
-          "contact": {
-            "title": "Contact Us",
-            "text": "If you have questions about this Cookie Policy, please contact us at",
-            "email": "leeqs1010@gmail.com"
+          "advertising": {
+            "title": "Advertising Cookies",
+            "content": "We use Google AdSense to display advertisements. These cookies help deliver personalized ads based on your browsing behavior and interests."
           }
+        },
+        "thirdPartyCookies": {
+          "title": "Third-Party Cookies",
+          "content": "We use the following third-party services that may set cookies:",
+          "item1": "Google AdSense - For advertising (subject to Google's Privacy Policy)",
+          "item2": "Yandex Metrika - For website analytics (subject to Yandex's Privacy Policy)"
+        },
+        "manageCookies": {
+          "title": "Managing Cookies",
+          "content": "You can control and manage cookies through your browser settings. Most browsers allow you to refuse or accept cookies, delete existing cookies, or set preferences for certain websites. However, disabling cookies may affect the functionality of our service."
+        },
+        "changes": {
+          "title": "Changes to This Cookie Policy",
+          "content": "We may update this Cookie Policy from time to time. We will notify you of any changes by posting the new Cookie Policy on this page and updating the \"Last Updated\" date."
+        },
+        "contact": {
+          "title": "Contact Us",
+          "text": "If you have questions about this Cookie Policy, please contact us at",
+          "email": "leeqs1010@gmail.com"
         }
       }
     }

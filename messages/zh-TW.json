@@ -487,8 +487,9 @@
           "text": "發送郵件至",
           "email": "leeqs1010@gmail.com"
         }
-      },
-      "cookie": {
+      }
+    },
+    "cookie": {
         "seo": {
           "title": "Cookie 政策 | Photo To URL",
           "description": "Photo To URL 的 Cookie 政策 - 了解我們如何使用 Cookie 和追蹤技術。"
@@ -546,4 +547,3 @@
       }
     }
   }
-}

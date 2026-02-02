@@ -487,8 +487,9 @@
           "text": "Gửi email đến",
           "email": "leeqs1010@gmail.com"
         }
-      },
-      "cookie": {
+      }
+    },
+    "cookie": {
         "seo": {
           "title": "Chính sách Cookie | Photo To URL",
           "description": "Chính sách Cookie cho Photo To URL - Tìm hiểu cách chúng tôi sử dụng cookie và công nghệ theo dõi."
@@ -602,4 +603,3 @@
       }
     }
   }
-}
