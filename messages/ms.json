@@ -28,18 +28,21 @@
         "line2": "Pantas, mudah, boleh dipercayai."
       },
       "partners": "Rakan Kongsi",
-      "linksTitle": "Pautan",
+      "linksTitle": "Sumber",
       "productsTitle": "Produk",
       "nav": {
         "home": "Laman Utama",
         "blog": "Blog",
         "docs": "Dokumentasi",
         "status": "Status",
+        "about": "Tentang Kami",
         "contact": "Hubungi"
       },
       "legal": {
+        "title": "Undang-undang",
         "privacy": "Privasi",
-        "terms": "Syarat"
+        "terms": "Syarat",
+        "cookie": "Dasar Kuki"
       },
       "copyright": "© 2025 Photo To URL. All rights reserved."
     }
@@ -369,18 +372,100 @@
       }
     }
   },
+  "about": {
+    "seo": {
+      "title": "Tentang Kami | Photo To URL",
+      "description": "Ketahui lebih lanjut mengenai Photo To URL - perkhidmatan hosting imej percuma yang menukar foto kepada pautan yang boleh dikongsi."
+    },
+    "page": {
+      "title": "Tentang Kami",
+      "mission": {
+        "title": "Misi Kami",
+        "content": "Photo To URL adalah perkhidmatan hosting imej percuma, pantas dan boleh dipercayai yang direka untuk membantu pencipta, pemasar dan pasukan menukar imej kepada pautan yang boleh dikongsi dengan serta-merta. Kami percaya pada kesederhanaan, kelajuan dan privasi pengguna."
+      },
+      "features": {
+        "title": "Apa yang Kami Tawarkan",
+        "item1": "Hosting imej percuma dengan sokongan CDN",
+        "item2": "Penjanaan pautan serta-merta untuk perkongsian pantas",
+        "item3": "Sokongan untuk pelbagai format imej (JPG, PNG, WEBP, GIF)",
+        "item4": "Tiada pendaftaran diperlukan - gunakan serta-merta"
+      },
+      "contact": {
+        "title": "Hubungi Kami",
+        "text": "Ada soalan atau maklum balas? Hubungi kami di",
+        "email": "leeqs1010@gmail.com"
+      }
+    }
+  },
   "legal": {
     "privacy": {
       "seo": {
         "title": "Dasar Privasi | Photo To URL",
-        "description": "Dasar Privasi untuk Photo To URL."
+        "description": "Dasar Privasi untuk Photo To URL - Ketahui cara kami mengumpul, menggunakan dan melindungi data anda."
       },
       "page": {
         "title": "Dasar Privasi",
-        "content": "Kami mengumpulkan data minimum yang diperlukan untuk mengendalikan perkhidmatan. Imej yang dimuat naik disimpan untuk menghasilkan pautan yang boleh dikongsi.",
+        "lastUpdated": "Kemaskini Terakhir: Januari 2026",
+        "introduction": "Di Photo To URL, kami menghormati privasi anda dan komited untuk melindungi maklumat peribadi anda. Dasar Privasi ini menerangkan cara kami mengumpul, menggunakan, mendedahkan dan melindungi maklumat anda semasa anda menggunakan perkhidmatan kami.",
+        "dataCollection": {
+          "title": "Maklumat yang Kami Kumpulkan",
+          "content1": "Apabila anda memuat naik imej, kami mengumpulkan:",
+          "item1": "Fail imej yang anda muat naik (disimpan sementara untuk menghasilkan pautan yang boleh dikongsi)",
+          "item2": "Metadata fail (nama fail, saiz, jenis)",
+          "item3": "Alamat IP (untuk had kadar dan tujuan keselamatan)",
+          "item4": "Cap masa muat naik",
+          "content2": "Kami tidak mengumpulkan maklumat peribadi seperti nama, alamat e-mel atau nombor telefon anda melainkan anda memberikannya secara sukarela melalui borang hubungan kami."
+        },
+        "dataUsage": {
+          "title": "Cara Kami Menggunakan Maklumat Anda",
+          "item1": "Untuk menjana dan menyediakan pautan imej yang boleh dikongsi",
+          "item2": "Untuk mencegah penyalahgunaan dan menguatkuasakan had muat naik",
+          "item3": "Untuk meningkatkan perkhidmatan dan pengalaman pengguna kami",
+          "item4": "Untuk mematuhi kewajipan undang-undang"
+        },
+        "dataStorage": {
+          "title": "Penyimpanan dan Pengekalan Data",
+          "content": "Imej yang dimuat naik disimpan pada storan Cloudflare R2. Kami mengekalkan imej selama yang diperlukan untuk menyediakan perkhidmatan. Imej mungkin dipadamkan secara automatik selepas tempoh tidak aktif atau disebabkan pelanggaran dasar."
+        },
+        "cookies": {
+          "title": "Kuki dan Teknologi Penjejakan",
+          "content1": "Kami menggunakan teknologi berikut:",
+          "item1": "Penyimpanan tempatan: Untuk menyimpan sejarah muat naik dan pilihan bahasa anda",
+          "item2": "Google AdSense: Untuk memaparkan iklan (menggunakan kuki untuk personalisasi iklan)",
+          "item3": "Yandex Metrika: Untuk analisis laman web (data tanpa nama)",
+          "content2": "Anda boleh mengawal kuki melalui tetapan pelayar anda. Walau bagaimanapun, melumpuhkan kuki mungkin menjejaskan beberapa fungsi perkhidmatan kami."
+        },
+        "thirdParty": {
+          "title": "Perkhidmatan Pihak Ketiga",
+          "content1": "Kami menggunakan perkhidmatan pihak ketiga berikut:",
+          "item1": "Cloudflare R2: Untuk penyimpanan imej dan penghantaran CDN",
+          "item2": "Google AdSense: Untuk pengiklanan (tertakluk kepada Dasar Privasi Google)",
+          "item3": "Yandex Metrika: Untuk analisis laman web (tertakluk kepada Dasar Privasi Yandex)",
+          "content2": "Perkhidmatan ini mungkin mengumpulkan maklumat mengikut dasar privasi mereka sendiri. Kami menggalakkan anda untuk menyemak dasar privasi mereka."
+        },
+        "dataSecurity": {
+          "title": "Keselamatan Data",
+          "content": "Kami melaksanakan langkah teknikal dan organisasi yang sesuai untuk melindungi data anda daripada akses tanpa kebenaran, perubahan, pendedahan atau kemusnahan. Walau bagaimanapun, tiada kaedah penghantaran melalui internet adalah 100% selamat."
+        },
+        "yourRights": {
+          "title": "Hak Anda",
+          "content": "Anda berhak untuk:",
+          "item1": "Mengakses imej yang anda muat naik dan data yang berkaitan",
+          "item2": "Meminta penghapusan imej anda",
+          "item3": "Tidak bersetuju dengan amalan pengumpulan data tertentu",
+          "item4": "Menghubungi kami dengan kebimbangan privasi"
+        },
+        "children": {
+          "title": "Privasi Kanak-kanak",
+          "content": "Perkhidmatan kami tidak ditujukan untuk kanak-kanak di bawah umur 13 tahun. Kami tidak sengaja mengumpulkan maklumat peribadi daripada kanak-kanak di bawah umur 13 tahun."
+        },
+        "changes": {
+          "title": "Perubahan pada Dasar Privasi ini",
+          "content": "Kami mungkin mengemas kini Dasar Privasi ini dari semasa ke semasa. Kami akan memberitahu anda tentang sebarang perubahan dengan menyiarkan Dasar Privasi baharu pada halaman ini dan mengemas kini tarikh \"Kemaskini Terakhir\"."
+        },
         "contact": {
-          "title": "Hubungi",
-          "text": "Soalan? Hantar e-mel kepada",
+          "title": "Hubungi Kami",
+          "text": "Jika anda mempunyai soalan mengenai Dasar Privasi ini, sila hubungi kami di",
           "email": "leeqs1010@gmail.com"
         }
       }
@@ -401,6 +486,62 @@
           "title": "Hubungi",
           "text": "Hantar e-mel kepada",
           "email": "leeqs1010@gmail.com"
+        }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Dasar Kuki | Photo To URL",
+          "description": "Dasar Kuki untuk Photo To URL - Ketahui cara kami menggunakan kuki dan teknologi penjejakan."
+        },
+        "page": {
+          "title": "Dasar Kuki",
+          "lastUpdated": "Kemaskini Terakhir: Januari 2026",
+          "introduction": "Dasar Kuki ini menerangkan cara Photo To URL menggunakan kuki dan teknologi penjejakan yang serupa apabila anda melawat laman web kami. Dengan menggunakan perkhidmatan kami, anda bersetuju dengan penggunaan kuki mengikut dasar ini.",
+          "whatAreCookies": {
+            "title": "Apakah Kuki",
+            "content": "Kuki adalah fail teks kecil yang diletakkan pada peranti anda apabila anda melawat laman web. Ia digunakan secara meluas untuk menjadikan laman web berfungsi dengan lebih cekap dan memberikan maklumat kepada pemilik laman web."
+          },
+          "howWeUseCookies": {
+            "title": "Cara Kami Menggunakan Kuki",
+            "content": "Kami menggunakan kuki untuk tujuan berikut:",
+            "item1": "Untuk menyimpan sejarah muat naik dan pilihan bahasa anda",
+            "item2": "Untuk menganalisis trafik laman web dan tingkah laku pengguna",
+            "item3": "Untuk memaparkan iklan yang diperibadikan"
+          },
+          "typesOfCookies": {
+            "title": "Jenis Kuki yang Kami Gunakan",
+            "essential": {
+              "title": "Kuki Penting",
+              "content": "Kuki ini diperlukan untuk laman web berfungsi dengan betul. Ia membolehkan fungsi teras seperti menyimpan pilihan bahasa dan sejarah muat naik anda."
+            },
+            "analytics": {
+              "title": "Kuki Analitik",
+              "content": "Kami menggunakan Yandex Metrika untuk menganalisis cara pelawat menggunakan laman web kami. Kuki ini mengumpulkan maklumat tanpa nama tentang penggunaan laman web untuk membantu kami meningkatkan perkhidmatan kami."
+            },
+            "advertising": {
+              "title": "Kuki Iklan",
+              "content": "Kami menggunakan Google AdSense untuk memaparkan iklan. Kuki ini membantu menyampaikan iklan yang diperibadikan berdasarkan tingkah laku pelayaran dan minat anda."
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "Kuki Pihak Ketiga",
+            "content": "Kami menggunakan perkhidmatan pihak ketiga berikut yang mungkin menetapkan kuki:",
+            "item1": "Google AdSense - Untuk pengiklanan (tertakluk kepada Dasar Privasi Google)",
+            "item2": "Yandex Metrika - Untuk analisis laman web (tertakluk kepada Dasar Privasi Yandex)"
+          },
+          "manageCookies": {
+            "title": "Menguruskan Kuki",
+            "content": "Anda boleh mengawal dan menguruskan kuki melalui tetapan pelayar anda. Kebanyakan pelayar membolehkan anda menolak atau menerima kuki, memadamkan kuki yang sedia ada atau menetapkan pilihan untuk laman web tertentu. Walau bagaimanapun, melumpuhkan kuki mungkin menjejaskan fungsi perkhidmatan kami."
+          },
+          "changes": {
+            "title": "Perubahan pada Dasar Kuki ini",
+            "content": "Kami mungkin mengemas kini Dasar Kuki ini dari semasa ke semasa. Kami akan memberitahu anda tentang sebarang perubahan dengan menyiarkan Dasar Kuki baharu pada halaman ini dan mengemas kini tarikh \"Kemaskini Terakhir\"."
+          },
+          "contact": {
+            "title": "Hubungi Kami",
+            "text": "Jika anda mempunyai soalan mengenai Dasar Kuki ini, sila hubungi kami di",
+            "email": "leeqs1010@gmail.com"
+          }
         }
       }
     }

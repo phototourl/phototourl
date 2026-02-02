@@ -28,18 +28,21 @@
         "line2": "Mabilis, simple, at maaasahan."
       },
       "partners": "Mga Partner",
-      "linksTitle": "Mga Link",
+      "linksTitle": "Mga Mapagkukunan",
       "productsTitle": "Mga Produkto",
       "nav": {
         "home": "Home",
         "blog": "Blog",
         "docs": "Docs",
         "status": "Status",
+        "about": "Tungkol sa Amin",
         "contact": "Contact"
       },
       "legal": {
+        "title": "Legal",
         "privacy": "Privacy",
-        "terms": "Terms"
+        "terms": "Terms",
+        "cookie": "Patakaran sa Cookie"
       },
       "copyright": "© 2025 Photo To URL. Lahat ng karapatan ay rezebado."
     }
@@ -191,6 +194,180 @@
         "thankYou": "Salamat sa iyong feedback!",
         "averageRating": "4.5",
         "votes": "4,992 boto"
+      }
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "Tungkol sa Amin | Photo To URL",
+      "description": "Matuto pa tungkol sa Photo To URL - isang libreng image hosting service na nagko-convert ng mga larawan sa shareable na links."
+    },
+    "page": {
+      "title": "Tungkol sa Amin",
+      "mission": {
+        "title": "Ang Aming Misyon",
+        "content": "Ang Photo To URL ay isang libreng, mabilis, at maaasahang image hosting service na idinisenyo upang tulungan ang mga creators, marketers, at teams na i-convert ang mga larawan sa shareable na links agad-agad. Naniniwala kami sa pagiging simple, bilis, at privacy ng mga user."
+      },
+      "features": {
+        "title": "Ano ang Aming Inaalok",
+        "item1": "Libreng image hosting na may CDN support",
+        "item2": "Instant link generation para sa mabilis na pag-share",
+        "item3": "Suporta sa maraming image formats (JPG, PNG, WEBP, GIF)",
+        "item4": "Walang registration na kailangan - gamitin agad"
+      },
+      "contact": {
+        "title": "Makipag-ugnayan sa Amin",
+        "text": "May mga tanong o feedback? Makipag-ugnayan sa amin sa",
+        "email": "leeqs1010@gmail.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Privacy Policy | Photo To URL",
+        "description": "Privacy Policy para sa Photo To URL - Alamin kung paano namin kinokolekta, ginagamit, at pinoprotektahan ang inyong data."
+      },
+      "page": {
+        "title": "Privacy Policy",
+        "lastUpdated": "Huling Update: Enero 2026",
+        "introduction": "Sa Photo To URL, iginagalang namin ang inyong privacy at nakatuon kami sa pagprotekta ng inyong personal na impormasyon. Ang Privacy Policy na ito ay nagpapaliwanag kung paano namin kinokolekta, ginagamit, inilalantad, at pinoprotektahan ang inyong impormasyon kapag ginagamit ninyo ang aming serbisyo.",
+        "dataCollection": {
+          "title": "Impormasyon na Kinokolekta Namin",
+          "content1": "Kapag nag-upload kayo ng larawan, kinokolekta namin:",
+          "item1": "Ang image file na inyong ina-upload (temporarily na naka-store para makagawa ng shareable na link)",
+          "item2": "File metadata (filename, size, type)",
+          "item3": "IP address (para sa rate limiting at security purposes)",
+          "item4": "Upload timestamp",
+          "content2": "Hindi namin kinokolekta ang personal na impormasyon tulad ng inyong pangalan, email address, o phone number maliban kung boluntaryo ninyo itong ibibigay sa pamamagitan ng aming contact form."
+        },
+        "dataUsage": {
+          "title": "Paano Namin Ginagamit ang Inyong Impormasyon",
+          "item1": "Para makagawa at magbigay ng shareable na image links",
+          "item2": "Para maiwasan ang abuse at ipatupad ang upload limits",
+          "item3": "Para mapabuti ang aming serbisyo at user experience",
+          "item4": "Para sumunod sa legal obligations"
+        },
+        "dataStorage": {
+          "title": "Data Storage at Retention",
+          "content": "Ang mga uploaded na larawan ay naka-store sa Cloudflare R2 storage. Pinapanatili namin ang mga larawan hangga't kailangan para sa serbisyo. Maaaring ma-delete ang mga larawan nang awtomatiko pagkatapos ng period ng inactivity o dahil sa policy violations."
+        },
+        "cookies": {
+          "title": "Cookies at Tracking Technologies",
+          "content1": "Ginagamit namin ang mga sumusunod na teknolohiya:",
+          "item1": "Local Storage: Para i-store ang inyong upload history at language preferences",
+          "item2": "Google AdSense: Para mag-display ng advertisements (gumagamit ng cookies para sa ad personalization)",
+          "item3": "Yandex Metrika: Para sa website analytics (anonymized data)",
+          "content2": "Maaari ninyong kontrolin ang cookies sa pamamagitan ng inyong browser settings. Gayunpaman, ang pag-disable ng cookies ay maaaring makaapekto sa ilang functionality ng aming serbisyo."
+        },
+        "thirdParty": {
+          "title": "Third-Party Services",
+          "content1": "Ginagamit namin ang mga sumusunod na third-party services:",
+          "item1": "Cloudflare R2: Para sa image storage at CDN delivery",
+          "item2": "Google AdSense: Para sa advertising (subject sa Google's Privacy Policy)",
+          "item3": "Yandex Metrika: Para sa website analytics (subject sa Yandex's Privacy Policy)",
+          "content2": "Ang mga serbisyong ito ay maaaring mangolekta ng impormasyon ayon sa kanilang sariling privacy policies. Hinihikayat namin kayo na suriin ang kanilang privacy policies."
+        },
+        "dataSecurity": {
+          "title": "Data Security",
+          "content": "Nag-i-implement kami ng naaangkop na technical at organizational measures para protektahan ang inyong data laban sa unauthorized access, alteration, disclosure, o destruction. Gayunpaman, walang paraan ng transmission sa internet ang 100% secure."
+        },
+        "yourRights": {
+          "title": "Ang Inyong Mga Karapatan",
+          "content": "May karapatan kayo na:",
+          "item1": "Ma-access ang inyong uploaded na larawan at associated data",
+          "item2": "Humiling ng deletion ng inyong mga larawan",
+          "item3": "Mag-opt out sa ilang data collection practices",
+          "item4": "Makipag-ugnayan sa amin tungkol sa privacy concerns"
+        },
+        "children": {
+          "title": "Privacy ng mga Bata",
+          "content": "Ang aming serbisyo ay hindi para sa mga batang wala pang 13 taong gulang. Hindi namin sinasadyang kinokolekta ang personal na impormasyon mula sa mga batang wala pang 13 taong gulang."
+        },
+        "changes": {
+          "title": "Mga Pagbabago sa Privacy Policy na Ito",
+          "content": "Maaari naming i-update ang Privacy Policy na ito paminsan-minsan. Ipaaalam namin sa inyo ang anumang pagbabago sa pamamagitan ng pag-post ng bagong Privacy Policy sa pahinang ito at pag-update ng \"Last Updated\" date."
+        },
+        "contact": {
+          "title": "Makipag-ugnayan sa Amin",
+          "text": "Kung may mga tanong kayo tungkol sa Privacy Policy na ito, mangyaring makipag-ugnayan sa amin sa",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Terms of Service | Photo To URL",
+        "description": "Terms of Service para sa Photo To URL."
+      },
+      "page": {
+        "title": "Terms of Service",
+        "content": "Sa paggamit ng Photo To URL, sumasang-ayon kayo na gamitin ang serbisyo nang responsable at huwag mag-upload ng illegal na content.",
+        "disclaimer": {
+          "title": "Disclaimer",
+          "text": "Ang serbisyo ay ibinibigay \"as is\" nang walang warranties. Maaaring magbago ang availability dahil sa maintenance."
+        },
+        "contact": {
+          "title": "Contact",
+          "text": "Magpadala ng email sa",
+          "email": "leeqs1010@gmail.com"
+        }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Cookie Policy | Photo To URL",
+          "description": "Cookie Policy para sa Photo To URL - Alamin kung paano namin ginagamit ang cookies at tracking technologies."
+        },
+        "page": {
+          "title": "Cookie Policy",
+          "lastUpdated": "Huling Update: Enero 2026",
+          "introduction": "Ang Cookie Policy na ito ay nagpapaliwanag kung paano ginagamit ng Photo To URL ang cookies at similar tracking technologies kapag binibisita ninyo ang aming website. Sa paggamit ng aming serbisyo, sumasang-ayon kayo sa paggamit ng cookies ayon sa policy na ito.",
+          "whatAreCookies": {
+            "title": "Ano ang Cookies",
+            "content": "Ang cookies ay maliliit na text files na inilalagay sa inyong device kapag binibisita ninyo ang isang website. Malawakang ginagamit ang mga ito para mas maging efficient ang mga website at magbigay ng impormasyon sa mga website owners."
+          },
+          "howWeUseCookies": {
+            "title": "Paano Namin Ginagamit ang Cookies",
+            "content": "Ginagamit namin ang cookies para sa mga sumusunod na layunin:",
+            "item1": "Para i-store ang inyong upload history at language preferences",
+            "item2": "Para i-analyze ang website traffic at user behavior",
+            "item3": "Para mag-display ng personalized advertisements"
+          },
+          "typesOfCookies": {
+            "title": "Mga Uri ng Cookies na Ginagamit Namin",
+            "essential": {
+              "title": "Essential Cookies",
+              "content": "Ang mga cookies na ito ay kailangan para sa tamang paggana ng website. Pinapagana nila ang core functionality tulad ng pag-store ng inyong language preferences at upload history."
+            },
+            "analytics": {
+              "title": "Analytics Cookies",
+              "content": "Ginagamit namin ang Yandex Metrika para i-analyze kung paano ginagamit ng mga visitors ang aming website. Ang mga cookies na ito ay nangongolekta ng anonymous na impormasyon tungkol sa website usage para matulungan kaming mapabuti ang aming serbisyo."
+            },
+            "advertising": {
+              "title": "Advertising Cookies",
+              "content": "Ginagamit namin ang Google AdSense para mag-display ng advertisements. Ang mga cookies na ito ay tumutulong mag-deliver ng personalized ads batay sa inyong browsing behavior at interests."
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "Third-Party Cookies",
+            "content": "Ginagamit namin ang mga sumusunod na third-party services na maaaring mag-set ng cookies:",
+            "item1": "Google AdSense - Para sa advertising (subject sa Google's Privacy Policy)",
+            "item2": "Yandex Metrika - Para sa website analytics (subject sa Yandex's Privacy Policy)"
+          },
+          "manageCookies": {
+            "title": "Pag-manage ng Cookies",
+            "content": "Maaari ninyong kontrolin at i-manage ang cookies sa pamamagitan ng inyong browser settings. Karamihan sa mga browser ay nagpapahintulot sa inyo na tanggihan o tanggapin ang cookies, tanggalin ang existing cookies, o mag-set ng preferences para sa ilang websites. Gayunpaman, ang pag-disable ng cookies ay maaaring makaapekto sa functionality ng aming serbisyo."
+          },
+          "changes": {
+            "title": "Mga Pagbabago sa Cookie Policy na Ito",
+            "content": "Maaari naming i-update ang Cookie Policy na ito paminsan-minsan. Ipaaalam namin sa inyo ang anumang pagbabago sa pamamagitan ng pag-post ng bagong Cookie Policy sa pahinang ito at pag-update ng \"Last Updated\" date."
+          },
+          "contact": {
+            "title": "Makipag-ugnayan sa Amin",
+            "text": "Kung may mga tanong kayo tungkol sa Cookie Policy na ito, mangyaring makipag-ugnayan sa amin sa",
+            "email": "leeqs1010@gmail.com"
+          }
+        }
       }
     }
   }

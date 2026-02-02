@@ -28,18 +28,21 @@
         "line2": "Brzo, jednostavno, pouzdano."
       },
       "partners": "Partneri",
-      "linksTitle": "Poveznice",
+      "linksTitle": "Resursi",
       "productsTitle": "Proizvodi",
       "nav": {
         "home": "Početna",
         "blog": "Blog",
         "docs": "Dokumentacija",
         "status": "Status",
+        "about": "O nama",
         "contact": "Kontakt"
       },
       "legal": {
+        "title": "Pravno",
         "privacy": "Privatnost",
-        "terms": "Uvjeti"
+        "terms": "Uvjeti",
+        "cookie": "Pravila kolačića"
       },
       "copyright": "© 2025 Photo To URL. Sva prava pridržana."
     }
@@ -181,6 +184,180 @@
         "thankYou": "Hvala vam na povratnim informacijama!",
         "averageRating": "4.5",
         "votes": "4,992 glasova"
+      }
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "O nama | Photo To URL",
+      "description": "Saznajte više o Photo To URL - besplatnoj usluzi hostiranja slika koja pretvara fotografije u dijeljive veze."
+    },
+    "page": {
+      "title": "O nama",
+      "mission": {
+        "title": "Naša misija",
+        "content": "Photo To URL je besplatna, brza i pouzdana usluga hostiranja slika dizajnirana da pomogne kreatorima, marketarima i timovima da pretvore slike u dijeljive veze odmah. Vjerujemo u jednostavnost, brzinu i privatnost korisnika."
+      },
+      "features": {
+        "title": "Što nudimo",
+        "item1": "Besplatno hostiranje slika s CDN podrškom",
+        "item2": "Trenutno generiranje veza za brzo dijeljenje",
+        "item3": "Podrška za više formata slika (JPG, PNG, WEBP, GIF)",
+        "item4": "Nije potrebna registracija - koristite odmah"
+      },
+      "contact": {
+        "title": "Kontaktirajte nas",
+        "text": "Imate pitanja ili povratne informacije? Kontaktirajte nas na",
+        "email": "leeqs1010@gmail.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Pravila privatnosti | Photo To URL",
+        "description": "Pravila privatnosti za Photo To URL - Saznajte kako prikupljamo, koristimo i štitimo vaše podatke."
+      },
+      "page": {
+        "title": "Pravila privatnosti",
+        "lastUpdated": "Posljednje ažuriranje: siječanj 2026",
+        "introduction": "U Photo To URL poštujemo vašu privatnost i posvećeni smo zaštiti vaših osobnih podataka. Ova Pravila privatnosti objašnjavaju kako prikupljamo, koristimo, otkrivamo i štitimo vaše informacije kada koristite našu uslugu.",
+        "dataCollection": {
+          "title": "Informacije koje prikupljamo",
+          "content1": "Kada učitavate sliku, prikupljamo:",
+          "item1": "Datoteku slike koju učitavate (privremeno pohranjena za generiranje dijeljive veze)",
+          "item2": "Metapodatke datoteke (ime datoteke, veličina, tip)",
+          "item3": "IP adresu (za ograničenje brzine i sigurnosne svrhe)",
+          "item4": "Vremensku oznaku učitavanja",
+          "content2": "Ne prikupljamo osobne informacije kao što su vaše ime, adresa e-pošte ili broj telefona osim ako ih ne pružite dobrovoljno putem našeg obrasca za kontakt."
+        },
+        "dataUsage": {
+          "title": "Kako koristimo vaše informacije",
+          "item1": "Za generiranje i pružanje dijeljivih veza slika",
+          "item2": "Za sprječavanje zlouporabe i provođenje ograničenja učitavanja",
+          "item3": "Za poboljšanje naše usluge i korisničkog iskustva",
+          "item4": "Za usklađivanje s pravnim obvezama"
+        },
+        "dataStorage": {
+          "title": "Pohrana i zadržavanje podataka",
+          "content": "Učitane slike pohranjuju se u Cloudflare R2 pohranu. Zadržavamo slike onoliko dugo koliko je potrebno za pružanje usluge. Slike mogu biti automatski obrisane nakon razdoblja neaktivnosti ili zbog kršenja pravila."
+        },
+        "cookies": {
+          "title": "Kolačići i tehnologije praćenja",
+          "content1": "Koristimo sljedeće tehnologije:",
+          "item1": "Lokalno pohranjivanje: Za pohranu vaše povijesti učitavanja i jezičnih postavki",
+          "item2": "Google AdSense: Za prikazivanje oglasa (koristi kolačiće za personalizaciju oglasa)",
+          "item3": "Yandex Metrika: Za analitiku web stranice (anonimni podaci)",
+          "content2": "Možete kontrolirati kolačiće putem postavki vašeg preglednika. Međutim, onemogućavanje kolačića može utjecati na neke funkcije naše usluge."
+        },
+        "thirdParty": {
+          "title": "Usluge trećih strana",
+          "content1": "Koristimo sljedeće usluge trećih strana:",
+          "item1": "Cloudflare R2: Za pohranu slika i CDN isporuku",
+          "item2": "Google AdSense: Za oglašavanje (podliježe Pravilima privatnosti Googlea)",
+          "item3": "Yandex Metrika: Za analitiku web stranice (podliježe Pravilima privatnosti Yandexa)",
+          "content2": "Ove usluge mogu prikupljati informacije u skladu s vlastitim pravilima privatnosti. Preporučujemo vam da pregledate njihova pravila privatnosti."
+        },
+        "dataSecurity": {
+          "title": "Sigurnost podataka",
+          "content": "Primjenjujemo odgovarajuće tehničke i organizacijske mjere za zaštitu vaših podataka od neovlaštenog pristupa, izmjene, otkrivanja ili uništenja. Međutim, nijedna metoda prijenosa putem interneta nije 100% sigurna."
+        },
+        "yourRights": {
+          "title": "Vaša prava",
+          "content": "Imate pravo:",
+          "item1": "Pristupiti vašim učitanim slikama i povezanim podacima",
+          "item2": "Zatražiti brisanje vaših slika",
+          "item3": "Odustati od određenih praksi prikupljanja podataka",
+          "item4": "Kontaktirati nas s zabrinutostima o privatnosti"
+        },
+        "children": {
+          "title": "Privatnost djece",
+          "content": "Naša usluga nije namijenjena djeci mlađoj od 13 godina. Ne prikupljamo svjesno osobne informacije od djece mlađe od 13 godina."
+        },
+        "changes": {
+          "title": "Promjene u ovim Pravilima privatnosti",
+          "content": "Možemo ažurirati ova Pravila privatnosti s vremena na vrijeme. Obavijestit ćemo vas o svim promjenama objavljivanjem novih Pravila privatnosti na ovoj stranici i ažuriranjem datuma \"Posljednje ažuriranje\"."
+        },
+        "contact": {
+          "title": "Kontaktirajte nas",
+          "text": "Ako imate pitanja o ovim Pravilima privatnosti, molimo kontaktirajte nas na",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Uvjeti korištenja | Photo To URL",
+        "description": "Uvjeti korištenja za Photo To URL."
+      },
+      "page": {
+        "title": "Uvjeti korištenja",
+        "content": "Korištenjem Photo To URL pristajete koristiti uslugu odgovorno i ne učitavati nezakonit sadržaj.",
+        "disclaimer": {
+          "title": "Odricanje od odgovornosti",
+          "text": "Usluga se pruža \"kako jest\" bez jamstava. Dostupnost se može promijeniti zbog održavanja."
+        },
+        "contact": {
+          "title": "Kontakt",
+          "text": "Pošaljite e-poštu na",
+          "email": "leeqs1010@gmail.com"
+        }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Pravila kolačića | Photo To URL",
+          "description": "Pravila kolačića za Photo To URL - Saznajte kako koristimo kolačiće i tehnologije praćenja."
+        },
+        "page": {
+          "title": "Pravila kolačića",
+          "lastUpdated": "Posljednje ažuriranje: siječanj 2026",
+          "introduction": "Ova Pravila kolačića objašnjavaju kako Photo To URL koristi kolačiće i slične tehnologije praćenja kada posjećujete našu web stranicu. Korištenjem naše usluge pristajete na korištenje kolačića u skladu s ovim pravilima.",
+          "whatAreCookies": {
+            "title": "Što su kolačići",
+            "content": "Kolačići su male tekstualne datoteke koje se postavljaju na vaš uređaj kada posjećujete web stranicu. Široko se koriste kako bi web stranice radile učinkovitije i pružale informacije vlasnicima web stranica."
+          },
+          "howWeUseCookies": {
+            "title": "Kako koristimo kolačiće",
+            "content": "Koristimo kolačiće u sljedeće svrhe:",
+            "item1": "Za pohranu vaše povijesti učitavanja i jezičnih postavki",
+            "item2": "Za analizu prometa web stranice i ponašanja korisnika",
+            "item3": "Za prikazivanje personaliziranih oglasa"
+          },
+          "typesOfCookies": {
+            "title": "Vrste kolačića koje koristimo",
+            "essential": {
+              "title": "Osnovni kolačići",
+              "content": "Ovi kolačići su neophodni za pravilno funkcioniranje web stranice. Omogućuju osnovne funkcije kao što su pohrana vaših jezičnih postavki i povijesti učitavanja."
+            },
+            "analytics": {
+              "title": "Analitički kolačići",
+              "content": "Koristimo Yandex Metrika za analizu načina na koji posjetitelji koriste našu web stranicu. Ovi kolačići prikupljaju anonimne informacije o korištenju web stranice kako bi nam pomogli poboljšati našu uslugu."
+            },
+            "advertising": {
+              "title": "Oglasni kolačići",
+              "content": "Koristimo Google AdSense za prikazivanje oglasa. Ovi kolačići pomažu u isporuci personaliziranih oglasa na temelju vašeg ponašanja pregledavanja i interesa."
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "Kolačići trećih strana",
+            "content": "Koristimo sljedeće usluge trećih strana koje mogu postaviti kolačiće:",
+            "item1": "Google AdSense - Za oglašavanje (podliježe Pravilima privatnosti Googlea)",
+            "item2": "Yandex Metrika - Za analitiku web stranice (podliježe Pravilima privatnosti Yandexa)"
+          },
+          "manageCookies": {
+            "title": "Upravljanje kolačićima",
+            "content": "Možete kontrolirati i upravljati kolačićima putem postavki vašeg preglednika. Većina preglednika vam omogućuje odbijanje ili prihvaćanje kolačića, brisanje postojećih kolačića ili postavljanje postavki za određene web stranice. Međutim, onemogućavanje kolačića može utjecati na funkcionalnost naše usluge."
+          },
+          "changes": {
+            "title": "Promjene u ovim Pravilima kolačića",
+            "content": "Možemo ažurirati ova Pravila kolačića s vremena na vrijeme. Obavijestit ćemo vas o svim promjenama objavljivanjem novih Pravila kolačića na ovoj stranici i ažuriranjem datuma \"Posljednje ažuriranje\"."
+          },
+          "contact": {
+            "title": "Kontaktirajte nas",
+            "text": "Ako imate pitanja o ovim Pravilima kolačića, molimo kontaktirajte nas na",
+            "email": "leeqs1010@gmail.com"
+          }
+        }
       }
     }
   }

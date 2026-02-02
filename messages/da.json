@@ -28,18 +28,21 @@
         "line2": "Hurtigt, enkelt, pålideligt."
       },
       "partners": "Partnere",
-      "linksTitle": "Links",
+      "linksTitle": "Ressourcer",
       "productsTitle": "Produkter",
       "nav": {
         "home": "Hjem",
         "blog": "Blog",
         "docs": "Dokumentation",
         "status": "Status",
+        "about": "Om os",
         "contact": "Kontakt"
       },
       "legal": {
+        "title": "Juridisk",
         "privacy": "Privatliv",
-        "terms": "Vilkår"
+        "terms": "Vilkår",
+        "cookie": "Cookiepolitik"
       },
       "copyright": "© 2025 Photo To URL. Alle rettigheder forbeholdes."
     }
@@ -207,6 +210,180 @@
         "thankYou": "Tak for din feedback!",
         "averageRating": "4.5",
         "votes": "4,992 stemmer"
+      }
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "Om os | Photo To URL",
+      "description": "Lær mere om Photo To URL - en gratis billedhostingstjeneste, der konverterer fotos til delbare links."
+    },
+    "page": {
+      "title": "Om os",
+      "mission": {
+        "title": "Vores mission",
+        "content": "Photo To URL er en gratis, hurtig og pålidelig billedhostingstjeneste designet til at hjælpe skabere, markedsføringsfolk og teams med at konvertere billeder til delbare links med det samme. Vi tror på enkelhed, hastighed og brugerens privatliv."
+      },
+      "features": {
+        "title": "Hvad vi tilbyder",
+        "item1": "Gratis billedhosting med CDN-support",
+        "item2": "Øjeblikkelig linkgenerering til hurtig deling",
+        "item3": "Support til flere billedformater (JPG, PNG, WEBP, GIF)",
+        "item4": "Ingen registrering påkrævet - brug med det samme"
+      },
+      "contact": {
+        "title": "Kontakt os",
+        "text": "Har du spørgsmål eller feedback? Kontakt os på",
+        "email": "leeqs1010@gmail.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Fortrolighedspolitik | Photo To URL",
+        "description": "Fortrolighedspolitik for Photo To URL - Lær, hvordan vi indsamler, bruger og beskytter dine data."
+      },
+      "page": {
+        "title": "Fortrolighedspolitik",
+        "lastUpdated": "Sidst opdateret: januar 2026",
+        "introduction": "På Photo To URL respekterer vi dit privatliv og er forpligtet til at beskytte dine personlige oplysninger. Denne Fortrolighedspolitik forklarer, hvordan vi indsamler, bruger, videregiver og beskytter dine oplysninger, når du bruger vores tjeneste.",
+        "dataCollection": {
+          "title": "Oplysninger, vi indsamler",
+          "content1": "Når du uploader et billede, indsamler vi:",
+          "item1": "Billedfilen, du uploader (gemmes midlertidigt for at generere et delbart link)",
+          "item2": "Filmetadata (filnavn, størrelse, type)",
+          "item3": "IP-adresse (til hastighedsbegrænsning og sikkerhedsformål)",
+          "item4": "Upload-tidsstempel",
+          "content2": "Vi indsamler ikke personlige oplysninger som dit navn, e-mailadresse eller telefonnummer, medmindre du frivilligt giver dem via vores kontaktformular."
+        },
+        "dataUsage": {
+          "title": "Sådan bruger vi dine oplysninger",
+          "item1": "Til at generere og levere delbare billedlinks",
+          "item2": "Til at forhindre misbrug og håndhæve uploadgrænser",
+          "item3": "Til at forbedre vores tjeneste og brugeroplevelse",
+          "item4": "Til at overholde juridiske forpligtelser"
+        },
+        "dataStorage": {
+          "title": "Datalagring og opbevaring",
+          "content": "Uploadede billeder gemmes på Cloudflare R2-lagring. Vi bevarer billeder så længe, som det er nødvendigt for at levere tjenesten. Billeder kan slettes automatisk efter en periode med inaktivitet eller på grund af politikovertrædelser."
+        },
+        "cookies": {
+          "title": "Cookies og sporingsteknologier",
+          "content1": "Vi bruger følgende teknologier:",
+          "item1": "Lokal lagring: Til at gemme din uploadhistorik og sprogpræferencer",
+          "item2": "Google AdSense: Til at vise annoncer (bruger cookies til annonceringspersonalisering)",
+          "item3": "Yandex Metrika: Til webstedanalyse (anonymiserede data)",
+          "content2": "Du kan kontrollere cookies via dine browserindstillinger. At deaktivere cookies kan dog påvirke nogle funktioner i vores tjeneste."
+        },
+        "thirdParty": {
+          "title": "Tredjepartstjenester",
+          "content1": "Vi bruger følgende tredjepartstjenester:",
+          "item1": "Cloudflare R2: Til billedlagring og CDN-levering",
+          "item2": "Google AdSense: Til reklamer (underlagt Googles Fortrolighedspolitik)",
+          "item3": "Yandex Metrika: Til webstedanalyse (underlagt Yandex' Fortrolighedspolitik)",
+          "content2": "Disse tjenester kan indsamle oplysninger i overensstemmelse med deres egne fortrolighedspolitikker. Vi opfordrer dig til at gennemgå deres fortrolighedspolitikker."
+        },
+        "dataSecurity": {
+          "title": "Datasikkerhed",
+          "content": "Vi implementerer passende tekniske og organisatoriske foranstaltninger for at beskytte dine data mod uautoriseret adgang, ændring, videregivelse eller ødelæggelse. Ingen overførselsmetode via internettet er dog 100% sikker."
+        },
+        "yourRights": {
+          "title": "Dine rettigheder",
+          "content": "Du har ret til:",
+          "item1": "Få adgang til dine uploadede billeder og tilhørende data",
+          "item2": "Anmode om sletning af dine billeder",
+          "item3": "Vælge fra visse dataindsamlingspraksisser",
+          "item4": "Kontakte os med bekymringer om privatliv"
+        },
+        "children": {
+          "title": "Børns privatliv",
+          "content": "Vores tjeneste er ikke beregnet til børn under 13 år. Vi indsamler ikke bevidst personlige oplysninger fra børn under 13 år."
+        },
+        "changes": {
+          "title": "Ændringer i denne Fortrolighedspolitik",
+          "content": "Vi kan opdatere denne Fortrolighedspolitik fra tid til anden. Vi vil underrette dig om eventuelle ændringer ved at offentliggøre den nye Fortrolighedspolitik på denne side og opdatere datoen \"Sidst opdateret\"."
+        },
+        "contact": {
+          "title": "Kontakt os",
+          "text": "Hvis du har spørgsmål om denne Fortrolighedspolitik, bedes du kontakte os på",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Servicevilkår | Photo To URL",
+        "description": "Servicevilkår for Photo To URL."
+      },
+      "page": {
+        "title": "Servicevilkår",
+        "content": "Ved at bruge Photo To URL accepterer du at bruge tjenesten ansvarligt og ikke uploade ulovligt indhold.",
+        "disclaimer": {
+          "title": "Ansvarsfraskrivelse",
+          "text": "Tjenesten leveres \"som den er\" uden garantier. Tilgængeligheden kan ændres på grund af vedligeholdelse."
+        },
+        "contact": {
+          "title": "Kontakt",
+          "text": "Send en e-mail til",
+          "email": "leeqs1010@gmail.com"
+        }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Cookiepolitik | Photo To URL",
+          "description": "Cookiepolitik for Photo To URL - Lær, hvordan vi bruger cookies og sporingsteknologier."
+        },
+        "page": {
+          "title": "Cookiepolitik",
+          "lastUpdated": "Sidst opdateret: januar 2026",
+          "introduction": "Denne Cookiepolitik forklarer, hvordan Photo To URL bruger cookies og lignende sporingsteknologier, når du besøger vores websted. Ved at bruge vores tjeneste samtykker du til brugen af cookies i overensstemmelse med denne politik.",
+          "whatAreCookies": {
+            "title": "Hvad er cookies",
+            "content": "Cookies er små tekstfiler, der placeres på din enhed, når du besøger et websted. De bruges bredt til at gøre websteder mere effektive og give information til webstedejere."
+          },
+          "howWeUseCookies": {
+            "title": "Sådan bruger vi cookies",
+            "content": "Vi bruger cookies til følgende formål:",
+            "item1": "Til at gemme din uploadhistorik og sprogpræferencer",
+            "item2": "Til at analysere webstedstrafik og brugeradfærd",
+            "item3": "Til at vise personaliserede annoncer"
+          },
+          "typesOfCookies": {
+            "title": "Typer af cookies, vi bruger",
+            "essential": {
+              "title": "Nødvendige cookies",
+              "content": "Disse cookies er nødvendige for, at webstedet fungerer korrekt. De muliggør kernfunktioner som at gemme dine sprogpræferencer og uploadhistorik."
+            },
+            "analytics": {
+              "title": "Analytiske cookies",
+              "content": "Vi bruger Yandex Metrika til at analysere, hvordan besøgende bruger vores websted. Disse cookies indsamler anonyme oplysninger om webstedsbrug for at hjælpe os med at forbedre vores tjeneste."
+            },
+            "advertising": {
+              "title": "Reklamecookies",
+              "content": "Vi bruger Google AdSense til at vise annoncer. Disse cookies hjælper med at levere personaliserede annoncer baseret på din browseradfærd og interesser."
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "Tredjepartscookies",
+            "content": "Vi bruger følgende tredjepartstjenester, der kan indstille cookies:",
+            "item1": "Google AdSense - Til reklamer (underlagt Googles Fortrolighedspolitik)",
+            "item2": "Yandex Metrika - Til webstedanalyse (underlagt Yandex' Fortrolighedspolitik)"
+          },
+          "manageCookies": {
+            "title": "Administrere cookies",
+            "content": "Du kan kontrollere og administrere cookies via dine browserindstillinger. De fleste browsere giver dig mulighed for at afvise eller acceptere cookies, slette eksisterende cookies eller indstille præferencer for visse websteder. At deaktivere cookies kan dog påvirke funktionaliteten af vores tjeneste."
+          },
+          "changes": {
+            "title": "Ændringer i denne Cookiepolitik",
+            "content": "Vi kan opdatere denne Cookiepolitik fra tid til anden. Vi vil underrette dig om eventuelle ændringer ved at offentliggøre den nye Cookiepolitik på denne side og opdatere datoen \"Sidst opdateret\"."
+          },
+          "contact": {
+            "title": "Kontakt os",
+            "text": "Hvis du har spørgsmål om denne Cookiepolitik, bedes du kontakte os på",
+            "email": "leeqs1010@gmail.com"
+          }
+        }
       }
     }
   }

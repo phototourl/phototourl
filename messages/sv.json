@@ -5,6 +5,7 @@
     "header": {
       "subtitle": "Gör om bilder till delbara länkar",
       "prompt": "Dra, klistra in eller ladda upp — få en länk direkt",
+      "circleCrop": "Cirkulär bildbeskärning",
       "history": "Uppladdningshistorik"
     },
     "history": {
@@ -27,18 +28,21 @@
         "line2": "Snabbt, enkelt, pålitligt."
       },
       "partners": "Partners",
-      "linksTitle": "Länkar",
+      "linksTitle": "Resurser",
       "productsTitle": "Produkter",
       "nav": {
         "home": "Hem",
         "blog": "Blogg",
         "docs": "Dokumentation",
         "status": "Status",
+        "about": "Om oss",
         "contact": "Kontakt"
       },
       "legal": {
+        "title": "Juridisk",
         "privacy": "Integritet",
-        "terms": "Villkor"
+        "terms": "Villkor",
+        "cookie": "Cookiepolicy"
       },
       "copyright": "© 2025 Photo To URL. Alla rättigheter förbehållna."
     }
@@ -368,18 +372,100 @@
       }
     }
   },
+  "about": {
+    "seo": {
+      "title": "Om oss | Photo To URL",
+      "description": "Lär dig mer om Photo To URL - en gratis bildhostingstjänst som konverterar foton till delbara länkar."
+    },
+    "page": {
+      "title": "Om oss",
+      "mission": {
+        "title": "Vårt uppdrag",
+        "content": "Photo To URL är en gratis, snabb och pålitlig bildhostingstjänst utformad för att hjälpa skapare, marknadsförare och team att konvertera bilder till delbara länkar omedelbart. Vi tror på enkelhet, hastighet och användarintegritet."
+      },
+      "features": {
+        "title": "Vad vi erbjuder",
+        "item1": "Gratis bildhosting med CDN-stöd",
+        "item2": "Omedelbar länkgenerering för snabb delning",
+        "item3": "Stöd för flera bildformat (JPG, PNG, WEBP, GIF)",
+        "item4": "Ingen registrering krävs - använd direkt"
+      },
+      "contact": {
+        "title": "Kontakta oss",
+        "text": "Har du frågor eller feedback? Kontakta oss på",
+        "email": "leeqs1010@gmail.com"
+      }
+    }
+  },
   "legal": {
     "privacy": {
       "seo": {
         "title": "Integritetspolicy | Photo To URL",
-        "description": "Integritetspolicy för Photo To URL."
+        "description": "Integritetspolicy för Photo To URL - Lär dig hur vi samlar in, använder och skyddar dina uppgifter."
       },
       "page": {
         "title": "Integritetspolicy",
-        "content": "Vi samlar in de minsta nödvändiga uppgifterna för att driva tjänsten. Uppladdade bilder lagras för att generera en delbar länk.",
+        "lastUpdated": "Senast uppdaterad: januari 2026",
+        "introduction": "På Photo To URL respekterar vi din integritet och är dedikerade till att skydda din personliga information. Denna integritetspolicy förklarar hur vi samlar in, använder, avslöjar och skyddar din information när du använder vår tjänst.",
+        "dataCollection": {
+          "title": "Information vi samlar in",
+          "content1": "När du laddar upp en bild samlar vi in:",
+          "item1": "Bildfilen du laddar upp (lagras tillfälligt för att generera en delbar länk)",
+          "item2": "Filmetadata (filnamn, storlek, typ)",
+          "item3": "IP-adress (för hastighetsbegränsning och säkerhetssyften)",
+          "item4": "Uppladdningstidsstämpel",
+          "content2": "Vi samlar inte in personlig information som ditt namn, e-postadress eller telefonnummer om du inte frivilligt tillhandahåller det via vårt kontaktformulär."
+        },
+        "dataUsage": {
+          "title": "Hur vi använder din information",
+          "item1": "För att generera och tillhandahålla delbara bildlänkar",
+          "item2": "För att förhindra missbruk och tillämpa uppladdningsgränser",
+          "item3": "För att förbättra vår tjänst och användarupplevelse",
+          "item4": "För att följa juridiska skyldigheter"
+        },
+        "dataStorage": {
+          "title": "Datalagring och kvarhållande",
+          "content": "Uppladdade bilder lagras på Cloudflare R2-lagring. Vi behåller bilder så länge som nödvändigt för att tillhandahålla tjänsten. Bilder kan raderas automatiskt efter en period av inaktivitet eller på grund av policyöverträdelser."
+        },
+        "cookies": {
+          "title": "Cookies och spårningsteknologier",
+          "content1": "Vi använder följande teknologier:",
+          "item1": "Lokal lagring: För att lagra din uppladdningshistorik och språkpreferenser",
+          "item2": "Google AdSense: För att visa annonser (använder cookies för annonspersonalisering)",
+          "item3": "Yandex Metrika: För webbplatsanalys (anonymiserade data)",
+          "content2": "Du kan kontrollera cookies via dina webbläsarinställningar. Att inaktivera cookies kan dock påverka vissa funktioner i vår tjänst."
+        },
+        "thirdParty": {
+          "title": "Tredjepartstjänster",
+          "content1": "Vi använder följande tredjepartstjänster:",
+          "item1": "Cloudflare R2: För bildlagring och CDN-leverans",
+          "item2": "Google AdSense: För reklam (underkastad Googles integritetspolicy)",
+          "item3": "Yandex Metrika: För webbplatsanalys (underkastad Yandex integritetspolicy)",
+          "content2": "Dessa tjänster kan samla in information enligt sina egna integritetspolicys. Vi uppmuntrar dig att granska deras integritetspolicys."
+        },
+        "dataSecurity": {
+          "title": "Datasäkerhet",
+          "content": "Vi implementerar lämpliga tekniska och organisatoriska åtgärder för att skydda dina uppgifter mot obehörig åtkomst, ändring, avslöjande eller förstörelse. Ingen överföringsmetod via internet är dock 100% säker."
+        },
+        "yourRights": {
+          "title": "Dina rättigheter",
+          "content": "Du har rätt att:",
+          "item1": "Få tillgång till dina uppladdade bilder och associerade data",
+          "item2": "Begära radering av dina bilder",
+          "item3": "Välja bort vissa datainsamlingsmetoder",
+          "item4": "Kontakta oss med integritetsfrågor"
+        },
+        "children": {
+          "title": "Barns integritet",
+          "content": "Vår tjänst är inte avsedd för barn under 13 år. Vi samlar inte medvetet in personlig information från barn under 13 år."
+        },
+        "changes": {
+          "title": "Ändringar i denna integritetspolicy",
+          "content": "Vi kan uppdatera denna integritetspolicy från tid till annan. Vi meddelar dig om eventuella ändringar genom att publicera den nya integritetspolicyn på denna sida och uppdatera datumet \"Senast uppdaterad\"."
+        },
         "contact": {
-          "title": "Kontakt",
-          "text": "Frågor? Skicka ett e-postmeddelande till",
+          "title": "Kontakta oss",
+          "text": "Om du har frågor om denna integritetspolicy, vänligen kontakta oss på",
           "email": "leeqs1010@gmail.com"
         }
       }
@@ -400,6 +486,62 @@
           "title": "Kontakt",
           "text": "Skicka ett e-postmeddelande till",
           "email": "leeqs1010@gmail.com"
+        }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Cookiepolicy | Photo To URL",
+          "description": "Cookiepolicy för Photo To URL - Lär dig hur vi använder cookies och spårningsteknologier."
+        },
+        "page": {
+          "title": "Cookiepolicy",
+          "lastUpdated": "Senast uppdaterad: januari 2026",
+          "introduction": "Denna cookiepolicy förklarar hur Photo To URL använder cookies och liknande spårningsteknologier när du besöker vår webbplats. Genom att använda vår tjänst samtycker du till användningen av cookies i enlighet med denna policy.",
+          "whatAreCookies": {
+            "title": "Vad är cookies",
+            "content": "Cookies är små textfiler som placeras på din enhet när du besöker en webbplats. De används ofta för att göra webbplatser mer effektiva och ge information till webbplatsägare."
+          },
+          "howWeUseCookies": {
+            "title": "Hur vi använder cookies",
+            "content": "Vi använder cookies för följande ändamål:",
+            "item1": "För att lagra din uppladdningshistorik och språkpreferenser",
+            "item2": "För att analysera webbplatstrafik och användarbeteende",
+            "item3": "För att visa personifierade annonser"
+          },
+          "typesOfCookies": {
+            "title": "Typer av cookies vi använder",
+            "essential": {
+              "title": "Nödvändiga cookies",
+              "content": "Dessa cookies är nödvändiga för att webbplatsen ska fungera korrekt. De möjliggör kärnfunktioner som att lagra dina språkpreferenser och uppladdningshistorik."
+            },
+            "analytics": {
+              "title": "Analytiska cookies",
+              "content": "Vi använder Yandex Metrika för att analysera hur besökare använder vår webbplats. Dessa cookies samlar in anonym information om webbplatsanvändning för att hjälpa oss förbättra vår tjänst."
+            },
+            "advertising": {
+              "title": "Reklamcookies",
+              "content": "Vi använder Google AdSense för att visa annonser. Dessa cookies hjälper till att leverera personifierade annonser baserat på ditt surfbeteende och dina intressen."
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "Tredjepartscookies",
+            "content": "Vi använder följande tredjepartstjänster som kan ställa in cookies:",
+            "item1": "Google AdSense - För reklam (underkastad Googles integritetspolicy)",
+            "item2": "Yandex Metrika - För webbplatsanalys (underkastad Yandex integritetspolicy)"
+          },
+          "manageCookies": {
+            "title": "Hantera cookies",
+            "content": "Du kan kontrollera och hantera cookies via dina webbläsarinställningar. De flesta webbläsare låter dig vägra eller acceptera cookies, ta bort befintliga cookies eller ställa in preferenser för vissa webbplatser. Att inaktivera cookies kan dock påverka funktionaliteten i vår tjänst."
+          },
+          "changes": {
+            "title": "Ändringar i denna cookiepolicy",
+            "content": "Vi kan uppdatera denna cookiepolicy från tid till annan. Vi meddelar dig om eventuella ändringar genom att publicera den nya cookiepolicyn på denna sida och uppdatera datumet \"Senast uppdaterad\"."
+          },
+          "contact": {
+            "title": "Kontakta oss",
+            "text": "Om du har frågor om denna cookiepolicy, vänligen kontakta oss på",
+            "email": "leeqs1010@gmail.com"
+          }
         }
       }
     }

@@ -5,6 +5,7 @@
     "header": {
       "subtitle": "Transforme imagens em links compartilháveis",
       "prompt": "Solte, cole ou envie — obtenha um link compartilhável na hora",
+      "circleCrop": "Foto para Recorte Circular",
       "history": "Registro de envios"
     },
     "history": {
@@ -27,18 +28,21 @@
         "line2": "Rápido, simples, confiável."
       },
       "partners": "Parceiros",
-      "linksTitle": "Links",
+      "linksTitle": "Recursos",
       "productsTitle": "Produtos",
       "nav": {
         "home": "Início",
         "blog": "Blog",
         "docs": "Docs",
         "status": "Status",
+        "about": "Sobre",
         "contact": "Contato"
       },
       "legal": {
+        "title": "Legal",
         "privacy": "Privacidade",
-        "terms": "Termos"
+        "terms": "Termos",
+        "cookie": "Política de cookies"
       },
       "copyright": "© 2025 Photo To URL. Todos os direitos reservados."
     }
@@ -368,18 +372,100 @@
       }
     }
   },
+  "about": {
+    "seo": {
+      "title": "Sobre | Photo To URL",
+      "description": "Saiba mais sobre Photo To URL - um serviço gratuito de hospedagem de imagens que converte fotos em links compartilháveis."
+    },
+    "page": {
+      "title": "Sobre",
+      "mission": {
+        "title": "Nossa missão",
+        "content": "Photo To URL é um serviço gratuito, rápido e confiável de hospedagem de imagens projetado para ajudar criadores, profissionais de marketing e equipes a converter imagens em links compartilháveis instantaneamente. Acreditamos em simplicidade, velocidade e privacidade do usuário."
+      },
+      "features": {
+        "title": "O que oferecemos",
+        "item1": "Hospedagem gratuita de imagens com suporte CDN",
+        "item2": "Geração instantânea de links para compartilhamento rápido",
+        "item3": "Suporte para múltiplos formatos de imagem (JPG, PNG, WEBP, GIF)",
+        "item4": "Nenhum registro necessário - use imediatamente"
+      },
+      "contact": {
+        "title": "Entre em contato",
+        "text": "Tem perguntas ou comentários? Entre em contato conosco em",
+        "email": "leeqs1010@gmail.com"
+      }
+    }
+  },
   "legal": {
     "privacy": {
       "seo": {
         "title": "Política de privacidade | Photo To URL",
-        "description": "Política de privacidade para Photo To URL."
+        "description": "Política de privacidade para Photo To URL - Saiba como coletamos, usamos e protegemos seus dados."
       },
       "page": {
         "title": "Política de privacidade",
-        "content": "Coletamos os dados mínimos necessários para operar o serviço. As imagens carregadas são armazenadas para gerar um link compartilhável.",
+        "lastUpdated": "Última atualização: janeiro de 2026",
+        "introduction": "No Photo To URL, respeitamos sua privacidade e nos comprometemos a proteger suas informações pessoais. Esta Política de Privacidade explica como coletamos, usamos, divulgamos e protegemos suas informações ao usar nosso serviço.",
+        "dataCollection": {
+          "title": "Informações que coletamos",
+          "content1": "Quando você carrega uma imagem, coletamos:",
+          "item1": "O arquivo de imagem que você carrega (armazenado temporariamente para gerar um link compartilhável)",
+          "item2": "Metadados do arquivo (nome, tamanho, tipo)",
+          "item3": "Endereço IP (para limitação de taxa e fins de segurança)",
+          "item4": "Timestamp de carregamento",
+          "content2": "Não coletamos informações pessoais como seu nome, endereço de e-mail ou número de telefone, a menos que você as forneça voluntariamente através do nosso formulário de contato."
+        },
+        "dataUsage": {
+          "title": "Como usamos suas informações",
+          "item1": "Para gerar e fornecer links de imagens compartilháveis",
+          "item2": "Para prevenir abusos e fazer cumprir limites de carregamento",
+          "item3": "Para melhorar nosso serviço e experiência do usuário",
+          "item4": "Para cumprir obrigações legais"
+        },
+        "dataStorage": {
+          "title": "Armazenamento e retenção de dados",
+          "content": "As imagens carregadas são armazenadas no armazenamento Cloudflare R2. Mantemos as imagens pelo tempo necessário para fornecer o serviço. As imagens podem ser excluídas automaticamente após um período de inatividade ou devido a violações de políticas."
+        },
+        "cookies": {
+          "title": "Cookies e tecnologias de rastreamento",
+          "content1": "Usamos as seguintes tecnologias:",
+          "item1": "Armazenamento local: Para armazenar seu histórico de carregamento e preferências de idioma",
+          "item2": "Google AdSense: Para exibir anúncios (usa cookies para personalização de anúncios)",
+          "item3": "Yandex Metrika: Para análise do site (dados anônimos)",
+          "content2": "Você pode controlar cookies através das configurações do navegador. No entanto, desabilitar cookies pode afetar algumas funcionalidades do nosso serviço."
+        },
+        "thirdParty": {
+          "title": "Serviços de terceiros",
+          "content1": "Usamos os seguintes serviços de terceiros:",
+          "item1": "Cloudflare R2: Para armazenamento de imagens e entrega CDN",
+          "item2": "Google AdSense: Para publicidade (sujeito à Política de Privacidade do Google)",
+          "item3": "Yandex Metrika: Para análise do site (sujeito à Política de Privacidade do Yandex)",
+          "content2": "Esses serviços podem coletar informações de acordo com suas próprias políticas de privacidade. Encorajamos você a revisar suas políticas de privacidade."
+        },
+        "dataSecurity": {
+          "title": "Segurança de dados",
+          "content": "Implementamos medidas técnicas e organizacionais apropriadas para proteger seus dados contra acesso não autorizado, alteração, divulgação ou destruição. No entanto, nenhum método de transmissão pela Internet é 100% seguro."
+        },
+        "yourRights": {
+          "title": "Seus direitos",
+          "content": "Você tem o direito de:",
+          "item1": "Acessar suas imagens carregadas e dados associados",
+          "item2": "Solicitar a exclusão de suas imagens",
+          "item3": "Optar por não participar de certas práticas de coleta de dados",
+          "item4": "Entrar em contato conosco com preocupações sobre privacidade"
+        },
+        "children": {
+          "title": "Privacidade de crianças",
+          "content": "Nosso serviço não se destina a crianças menores de 13 anos. Não coletamos intencionalmente informações pessoais de crianças menores de 13 anos."
+        },
+        "changes": {
+          "title": "Alterações nesta Política de Privacidade",
+          "content": "Podemos atualizar esta Política de Privacidade periodicamente. Notificaremos você sobre quaisquer alterações publicando a nova Política de Privacidade nesta página e atualizando a data de \"Última atualização\"."
+        },
         "contact": {
-          "title": "Contato",
-          "text": "Dúvidas? Envie um e-mail para",
+          "title": "Entre em contato",
+          "text": "Se você tiver perguntas sobre esta Política de Privacidade, entre em contato conosco em",
           "email": "leeqs1010@gmail.com"
         }
       }
@@ -400,6 +486,62 @@
           "title": "Contato",
           "text": "Envie um e-mail para",
           "email": "leeqs1010@gmail.com"
+        }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Política de cookies | Photo To URL",
+          "description": "Política de cookies para Photo To URL - Saiba como usamos cookies e tecnologias de rastreamento."
+        },
+        "page": {
+          "title": "Política de cookies",
+          "lastUpdated": "Última atualização: janeiro de 2026",
+          "introduction": "Esta Política de Cookies explica como o Photo To URL usa cookies e tecnologias de rastreamento semelhantes quando você visita nosso site. Ao usar nosso serviço, você concorda com o uso de cookies de acordo com esta política.",
+          "whatAreCookies": {
+            "title": "O que são cookies",
+            "content": "Cookies são pequenos arquivos de texto que são colocados em seu dispositivo quando você visita um site. Eles são amplamente usados para tornar os sites mais eficientes e fornecer informações aos proprietários de sites."
+          },
+          "howWeUseCookies": {
+            "title": "Como usamos cookies",
+            "content": "Usamos cookies para os seguintes propósitos:",
+            "item1": "Para armazenar seu histórico de carregamento e preferências de idioma",
+            "item2": "Para analisar o tráfego do site e o comportamento do usuário",
+            "item3": "Para exibir anúncios personalizados"
+          },
+          "typesOfCookies": {
+            "title": "Tipos de cookies que usamos",
+            "essential": {
+              "title": "Cookies essenciais",
+              "content": "Esses cookies são necessários para o funcionamento adequado do site. Eles permitem funcionalidades essenciais, como armazenar suas preferências de idioma e histórico de carregamento."
+            },
+            "analytics": {
+              "title": "Cookies de análise",
+              "content": "Usamos Yandex Metrika para analisar como os visitantes usam nosso site. Esses cookies coletam informações anônimas sobre o uso do site para nos ajudar a melhorar nosso serviço."
+            },
+            "advertising": {
+              "title": "Cookies de publicidade",
+              "content": "Usamos Google AdSense para exibir anúncios. Esses cookies ajudam a fornecer anúncios personalizados com base no seu comportamento de navegação e interesses."
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "Cookies de terceiros",
+            "content": "Usamos os seguintes serviços de terceiros que podem definir cookies:",
+            "item1": "Google AdSense - Para publicidade (sujeito à Política de Privacidade do Google)",
+            "item2": "Yandex Metrika - Para análise do site (sujeito à Política de Privacidade do Yandex)"
+          },
+          "manageCookies": {
+            "title": "Gerenciar cookies",
+            "content": "Você pode controlar e gerenciar cookies através das configurações do navegador. A maioria dos navegadores permite recusar ou aceitar cookies, excluir cookies existentes ou definir preferências para determinados sites. No entanto, desabilitar cookies pode afetar a funcionalidade do nosso serviço."
+          },
+          "changes": {
+            "title": "Alterações nesta Política de Cookies",
+            "content": "Podemos atualizar esta Política de Cookies periodicamente. Notificaremos você sobre quaisquer alterações publicando a nova Política de Cookies nesta página e atualizando a data de \"Última atualização\"."
+          },
+          "contact": {
+            "title": "Entre em contato",
+            "text": "Se você tiver perguntas sobre esta Política de Cookies, entre em contato conosco em",
+            "email": "leeqs1010@gmail.com"
+          }
         }
       }
     }

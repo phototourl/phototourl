@@ -5,6 +5,7 @@
     "header": {
       "subtitle": "Görselleri paylaşılabilir bağlantılara dönüştürün",
       "prompt": "Sürükleyin, yapıştırın veya yükleyin — anında paylaşılabilir bağlantı alın",
+      "circleCrop": "Fotoğrafı Daire Şeklinde Kırp",
       "history": "Yükleme kaydı"
     },
     "history": {
@@ -27,18 +28,21 @@
         "line2": "Hızlı, basit, güvenilir."
       },
       "partners": "Ortaklar",
-      "linksTitle": "Bağlantılar",
+      "linksTitle": "Kaynaklar",
       "productsTitle": "Ürünler",
       "nav": {
         "home": "Ana Sayfa",
         "blog": "Blog",
         "docs": "Dökümanlar",
         "status": "Durum",
+        "about": "Hakkımızda",
         "contact": "İletişim"
       },
       "legal": {
+        "title": "Yasal",
         "privacy": "Gizlilik",
-        "terms": "Şartlar"
+        "terms": "Şartlar",
+        "cookie": "Çerez Politikası"
       },
       "copyright": "© 2025 Photo To URL. Tüm hakları saklıdır."
     }
@@ -368,18 +372,100 @@
       }
     }
   },
+  "about": {
+    "seo": {
+      "title": "Hakkımızda | Photo To URL",
+      "description": "Photo To URL hakkında daha fazla bilgi edinin - fotoğrafları paylaşılabilir bağlantılara dönüştüren ücretsiz bir görüntü barındırma hizmeti."
+    },
+    "page": {
+      "title": "Hakkımızda",
+      "mission": {
+        "title": "Misyonumuz",
+        "content": "Photo To URL, içerik üreticileri, pazarlamacılar ve ekiplerin görüntüleri anında paylaşılabilir bağlantılara dönüştürmelerine yardımcı olmak için tasarlanmış ücretsiz, hızlı ve güvenilir bir görüntü barındırma hizmetidir. Basitlik, hız ve kullanıcı gizliliğine inanıyoruz."
+      },
+      "features": {
+        "title": "Sunduklarımız",
+        "item1": "CDN desteği ile ücretsiz görüntü barındırma",
+        "item2": "Hızlı paylaşım için anında bağlantı oluşturma",
+        "item3": "Birden fazla görüntü formatı desteği (JPG, PNG, WEBP, GIF)",
+        "item4": "Kayıt gerekmez - hemen kullanın"
+      },
+      "contact": {
+        "title": "Bize Ulaşın",
+        "text": "Sorularınız veya geri bildirimleriniz mi var? Bize şu adresten ulaşın:",
+        "email": "leeqs1010@gmail.com"
+      }
+    }
+  },
   "legal": {
     "privacy": {
       "seo": {
         "title": "Gizlilik Politikası | Photo To URL",
-        "description": "Photo To URL için Gizlilik Politikası."
+        "description": "Photo To URL için Gizlilik Politikası - Verilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu öğrenin."
       },
       "page": {
         "title": "Gizlilik Politikası",
-        "content": "Hizmeti çalıştırmak için gereken minimum verileri topluyoruz. Yüklenen görüntüler paylaşılabilir bir bağlantı oluşturmak için saklanır.",
+        "lastUpdated": "Son güncelleme: Ocak 2026",
+        "introduction": "Photo To URL'de gizliliğinize saygı duyuyor ve kişisel bilgilerinizi korumaya kararlıyız. Bu Gizlilik Politikası, hizmetimizi kullandığınızda bilgilerinizi nasıl topladığımızı, kullandığımızı, açıkladığımızı ve koruduğumuzu açıklar.",
+        "dataCollection": {
+          "title": "Topladığımız Bilgiler",
+          "content1": "Bir görüntü yüklediğinizde şunları topluyoruz:",
+          "item1": "Yüklediğiniz görüntü dosyası (paylaşılabilir bir bağlantı oluşturmak için geçici olarak saklanır)",
+          "item2": "Dosya meta verileri (dosya adı, boyut, tür)",
+          "item3": "IP adresi (hız sınırlama ve güvenlik amaçları için)",
+          "item4": "Yükleme zaman damgası",
+          "content2": "İletişim formumuz aracılığıyla gönüllü olarak sağlamadığınız sürece adınız, e-posta adresiniz veya telefon numaranız gibi kişisel bilgileri toplamıyoruz."
+        },
+        "dataUsage": {
+          "title": "Bilgilerinizi Nasıl Kullanıyoruz",
+          "item1": "Paylaşılabilir görüntü bağlantıları oluşturmak ve sağlamak için",
+          "item2": "Kötüye kullanımı önlemek ve yükleme limitlerini uygulamak için",
+          "item3": "Hizmetimizi ve kullanıcı deneyimini iyileştirmek için",
+          "item4": "Yasal yükümlülüklere uymak için"
+        },
+        "dataStorage": {
+          "title": "Veri Depolama ve Saklama",
+          "content": "Yüklenen görüntüler Cloudflare R2 depolama alanında saklanır. Görüntüleri hizmeti sağlamak için gereken süre boyunca saklarız. Görüntüler bir süre hareketsizlikten sonra veya politika ihlalleri nedeniyle otomatik olarak silinebilir."
+        },
+        "cookies": {
+          "title": "Çerezler ve İzleme Teknolojileri",
+          "content1": "Aşağıdaki teknolojileri kullanıyoruz:",
+          "item1": "Yerel depolama: Yükleme geçmişinizi ve dil tercihlerinizi saklamak için",
+          "item2": "Google AdSense: Reklam göstermek için (reklam kişiselleştirmesi için çerezler kullanır)",
+          "item3": "Yandex Metrika: Web sitesi analizi için (anonim veriler)",
+          "content2": "Çerezleri tarayıcı ayarlarınız aracılığıyla kontrol edebilirsiniz. Ancak çerezleri devre dışı bırakmak hizmetimizin bazı işlevlerini etkileyebilir."
+        },
+        "thirdParty": {
+          "title": "Üçüncü Taraf Hizmetleri",
+          "content1": "Aşağıdaki üçüncü taraf hizmetlerini kullanıyoruz:",
+          "item1": "Cloudflare R2: Görüntü depolama ve CDN teslimatı için",
+          "item2": "Google AdSense: Reklam için (Google'ın Gizlilik Politikasına tabidir)",
+          "item3": "Yandex Metrika: Web sitesi analizi için (Yandex'in Gizlilik Politikasına tabidir)",
+          "content2": "Bu hizmetler kendi gizlilik politikalarına göre bilgi toplayabilir. Gizlilik politikalarını gözden geçirmenizi öneririz."
+        },
+        "dataSecurity": {
+          "title": "Veri Güvenliği",
+          "content": "Verilerinizi yetkisiz erişim, değişiklik, ifşa veya yıkımdan korumak için uygun teknik ve organizasyonel önlemler uyguluyoruz. Ancak internet üzerinden hiçbir iletim yöntemi %100 güvenli değildir."
+        },
+        "yourRights": {
+          "title": "Haklarınız",
+          "content": "Şu haklara sahipsiniz:",
+          "item1": "Yüklediğiniz görüntülere ve ilişkili verilere erişim",
+          "item2": "Görüntülerinizin silinmesini talep etme",
+          "item3": "Belirli veri toplama uygulamalarından vazgeçme",
+          "item4": "Gizlilik endişeleriyle bizimle iletişime geçme"
+        },
+        "children": {
+          "title": "Çocuk Gizliliği",
+          "content": "Hizmetimiz 13 yaşın altındaki çocuklara yönelik değildir. 13 yaşın altındaki çocuklardan bilerek kişisel bilgi toplamıyoruz."
+        },
+        "changes": {
+          "title": "Bu Gizlilik Politikasındaki Değişiklikler",
+          "content": "Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Herhangi bir değişiklik olduğunda yeni Gizlilik Politikasını bu sayfada yayınlayarak ve \"Son güncelleme\" tarihini güncelleyerek sizi bilgilendireceğiz."
+        },
         "contact": {
-          "title": "İletişim",
-          "text": "Sorularınız mı var? E-posta gönderin",
+          "title": "Bize Ulaşın",
+          "text": "Bu Gizlilik Politikası hakkında sorularınız varsa, lütfen bizimle iletişime geçin:",
           "email": "leeqs1010@gmail.com"
         }
       }
@@ -400,6 +486,62 @@
           "title": "İletişim",
           "text": "E-posta gönderin",
           "email": "leeqs1010@gmail.com"
+        }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Çerez Politikası | Photo To URL",
+          "description": "Photo To URL için Çerez Politikası - Çerezleri ve izleme teknolojilerini nasıl kullandığımızı öğrenin."
+        },
+        "page": {
+          "title": "Çerez Politikası",
+          "lastUpdated": "Son güncelleme: Ocak 2026",
+          "introduction": "Bu Çerez Politikası, web sitemizi ziyaret ettiğinizde Photo To URL'nin çerezleri ve benzer izleme teknolojilerini nasıl kullandığını açıklar. Hizmetimizi kullanarak, bu politikaya uygun olarak çerez kullanımını kabul edersiniz.",
+          "whatAreCookies": {
+            "title": "Çerez Nedir",
+            "content": "Çerezler, bir web sitesini ziyaret ettiğinizde cihazınıza yerleştirilen küçük metin dosyalarıdır. Web sitelerini daha verimli hale getirmek ve web sitesi sahiplerine bilgi sağlamak için yaygın olarak kullanılırlar."
+          },
+          "howWeUseCookies": {
+            "title": "Çerezleri Nasıl Kullanıyoruz",
+            "content": "Çerezleri aşağıdaki amaçlar için kullanıyoruz:",
+            "item1": "Yükleme geçmişinizi ve dil tercihlerinizi saklamak için",
+            "item2": "Web sitesi trafiğini ve kullanıcı davranışını analiz etmek için",
+            "item3": "Kişiselleştirilmiş reklamlar göstermek için"
+          },
+          "typesOfCookies": {
+            "title": "Kullandığımız Çerez Türleri",
+            "essential": {
+              "title": "Gerekli Çerezler",
+              "content": "Bu çerezler web sitesinin düzgün çalışması için gereklidir. Dil tercihlerinizi ve yükleme geçmişinizi saklamak gibi temel işlevleri etkinleştirirler."
+            },
+            "analytics": {
+              "title": "Analitik Çerezler",
+              "content": "Ziyaretçilerin web sitemizi nasıl kullandığını analiz etmek için Yandex Metrika kullanıyoruz. Bu çerezler, hizmetimizi iyileştirmemize yardımcı olmak için web sitesi kullanımı hakkında anonim bilgiler toplar."
+            },
+            "advertising": {
+              "title": "Reklam Çerezleri",
+              "content": "Reklam göstermek için Google AdSense kullanıyoruz. Bu çerezler, tarama davranışınıza ve ilgi alanlarınıza göre kişiselleştirilmiş reklamlar sunmaya yardımcı olur."
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "Üçüncü Taraf Çerezleri",
+            "content": "Çerez ayarlayabilecek aşağıdaki üçüncü taraf hizmetlerini kullanıyoruz:",
+            "item1": "Google AdSense - Reklam için (Google'ın Gizlilik Politikasına tabidir)",
+            "item2": "Yandex Metrika - Web sitesi analizi için (Yandex'in Gizlilik Politikasına tabidir)"
+          },
+          "manageCookies": {
+            "title": "Çerezleri Yönetme",
+            "content": "Çerezleri tarayıcı ayarlarınız aracılığıyla kontrol edebilir ve yönetebilirsiniz. Çoğu tarayıcı, çerezleri reddetmenize veya kabul etmenize, mevcut çerezleri silmenize veya belirli web siteleri için tercihler ayarlamanıza olanak tanır. Ancak çerezleri devre dışı bırakmak hizmetimizin işlevselliğini etkileyebilir."
+          },
+          "changes": {
+            "title": "Bu Çerez Politikasındaki Değişiklikler",
+            "content": "Bu Çerez Politikasını zaman zaman güncelleyebiliriz. Herhangi bir değişiklik olduğunda yeni Çerez Politikasını bu sayfada yayınlayarak ve \"Son güncelleme\" tarihini güncelleyerek sizi bilgilendireceğiz."
+          },
+          "contact": {
+            "title": "Bize Ulaşın",
+            "text": "Bu Çerez Politikası hakkında sorularınız varsa, lütfen bizimle iletişime geçin:",
+            "email": "leeqs1010@gmail.com"
+          }
         }
       }
     }

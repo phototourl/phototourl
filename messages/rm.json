@@ -28,18 +28,21 @@
         "line2": "Spert, simpel, fidabel."
       },
       "partners": "Partenaris",
-      "linksTitle": "Ligiaivlas",
+      "linksTitle": "Resursas",
       "productsTitle": "Products",
       "nav": {
         "home": "Chasa",
         "blog": "Blog",
         "docs": "Documentaziun",
         "status": "Stadi",
+        "about": "Davart nus",
         "contact": "Contact"
       },
       "legal": {
+        "title": "Legal",
         "privacy": "Confidenzialitad",
-        "terms": "Termins"
+        "terms": "Termins",
+        "cookie": "Politica da cookies"
       },
       "copyright": "© 2025 Photo To URL. Tut ils dretgs reservads."
     }
@@ -375,10 +378,67 @@
       },
       "page": {
         "title": "Politica da sfera privata",
-        "content": "Nus rimnain il minimum da datas necessarias per operar il servetsch. Las maletgs chargiadas vegnan memorisadas per generar in link cumpartgibel.",
+        "lastUpdated": "Ultima actualisaziun: schaner 2026",
+        "introduction": "Tar Photo To URL respektin nus vossa sfera privata e sun engaschads da proteger vossas infurmaziuns persunalas. Questa Politica da sfera privata explitgescha co nus rimnain, utilisain, revelain e protegin vossas infurmaziuns cura che vus utilisais noss servetsch.",
+        "dataCollection": {
+          "title": "Infurmaziuns che nus rimnain",
+          "content1": "Cura che vus chargiais si in maletg, rimnain nus:",
+          "item1": "Il datoteca da maletg che vus chargiais si (memorisada temporarmain per generar in ligam cumpartgibel)",
+          "item2": "Metadatas da datoteca (num da datoteca, grondezza, tip)",
+          "item3": "Adressa IP (per limitar la sveltezza e per finamiras da segirtad)",
+          "item4": "Timestamp da chargiada",
+          "content2": "Nus na rimnain betg infurmaziuns persunalas sco voss num, adressa d'e-mail u numer da telefon, nun ch'il cas che vus las furnissais voluntarmain via noss formular da contact."
+        },
+        "dataUsage": {
+          "title": "Co nus utilisain vossas infurmaziuns",
+          "item1": "Per generar e porscher ligams da maletgs cumpartgiabels",
+          "item2": "Per impedir abus e far valair limits da chargiada",
+          "item3": "Per meglierar noss servetsch e l'experientscha d'utilisader",
+          "item4": "Per ademplir obligaziuns legalas"
+        },
+        "dataStorage": {
+          "title": "Memorisaziun e retenziun da datas",
+          "content": "Maletgs chargiads si vegnan memorisads sin Cloudflare R2 storage. Nus tegnain maletgs uschè ditg sco ch'è necessari per porscher il servetsch. Maletgs pon vegnir stizzads automaticamain suenter in period d'inactivitad u pervi da violaziuns da la politica."
+        },
+        "cookies": {
+          "title": "Cookies e tecnologias da persequitar",
+          "content1": "Nus utilisain las suandantas tecnologias:",
+          "item1": "Memorisaziun locala: Per memorisar vossa cronologia da chargiadas e preferenzas da lingua",
+          "item2": "Google AdSense: Per mussar reclamas (utilisescha cookies per personalisaziun da reclamas)",
+          "item3": "Yandex Metrika: Per analitica da website (datas anonimisadas)",
+          "content2": "Vus pudais controllar cookies via vossas configuraziuns da browser. Deactivar cookies po però influenzar tschertas funcziuns da noss servetsch."
+        },
+        "thirdParty": {
+          "title": "Servetschs da terzas partidas",
+          "content1": "Nus utilisain ils suandants servetschs da terzas partidas:",
+          "item1": "Cloudflare R2: Per memorisar maletgs e per la consegna CDN",
+          "item2": "Google AdSense: Per reclama (suttamess a la Politica da sfera privata da Google)",
+          "item3": "Yandex Metrika: Per analitica da website (suttamess a la Politica da sfera privata da Yandex)",
+          "content2": "Quest servetschs pon rimnar infurmaziuns tenor lur agens politics da sfera privata. Nus recumandain a vus da repassar lur politics da sfera privata."
+        },
+        "dataSecurity": {
+          "title": "Segirtad da datas",
+          "content": "Nus implementain mesiras tecnicas ed organizatoricas adattadas per proteger vossas datas cunter access nunautorisà, midada, revelaziun u destrucziun. Nagina metoda da transmissiun via internet n'è però 100% segira."
+        },
+        "yourRights": {
+          "title": "Vossas dretgs",
+          "content": "Vus avais il dretg da:",
+          "item1": "Acceder a vossas maletgs chargiads si e datas associadas",
+          "item2": "Pretender la stizzada da vossas maletgs",
+          "item3": "S'extrar da tschertas praticas da rimnada da datas",
+          "item4": "Contactar nus cun preocupaziuns da sfera privata"
+        },
+        "children": {
+          "title": "Sfera privata d'uffants",
+          "content": "Noss servetsch n'è betg destinà per uffants sut 13 onns. Nus na rimnain betg a savair infurmaziuns persunalas d'uffants sut 13 onns."
+        },
+        "changes": {
+          "title": "Midadas en questa Politica da sfera privata",
+          "content": "Nus pudain actualisar questa Politica da sfera privata da temp en temp. Nus vus infurmain da tuttas midadas cun publitgar la nova Politica da sfera privata sin questa pagina e cun actualisar la data \"Ultima actualisaziun\"."
+        },
         "contact": {
-          "title": "Contact",
-          "text": "Dumondas? Trametter in e-mail a",
+          "title": "Contactar nus",
+          "text": "Sche vus avais dumondas davart questa Politica da sfera privata, contactai per plaschair nus a",
           "email": "leeqs1010@gmail.com"
         }
       }
@@ -400,6 +460,87 @@
           "text": "Trametter in e-mail a",
           "email": "leeqs1010@gmail.com"
         }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Politica da cookies | Photo To URL",
+          "description": "Politica da cookies per Photo To URL - Ve a savair co nus utilisain cookies e tecnologias da persequitar."
+        },
+        "page": {
+          "title": "Politica da cookies",
+          "lastUpdated": "Ultima actualisaziun: schaner 2026",
+          "introduction": "Questa Politica da cookies explitgescha co Photo To URL utilisescha cookies e tecnologias sumegliantas da persequitar cura che vus visitais nossa website. Cun utilisar noss servetsch acceptais vus l'utilisaziun da cookies tenor questa politica.",
+          "whatAreCookies": {
+            "title": "Tge che cookies èn",
+            "content": "Cookies èn pitschnas datotecas da text che vegnan messas sin voss apparat cura che vus visitais ina website. Els vegnan utilisads per render websites pli efficients e per porscher infurmaziuns als proprietaris da websites."
+          },
+          "howWeUseCookies": {
+            "title": "Co nus utilisain cookies",
+            "content": "Nus utilisain cookies per ils suandants finamiras:",
+            "item1": "Per memorisar vossa cronologia da chargiadas e preferenzas da lingua",
+            "item2": "Per analisar il traffic da website e il cumpurtament d'utilisader",
+            "item3": "Per mussar reclamas personalisadas"
+          },
+          "typesOfCookies": {
+            "title": "Tipos da cookies che nus utilisain",
+            "essential": {
+              "title": "Cookies essenzials",
+              "content": "Quest cookies èn necessaris per il funcziunament correct da la website. Els pussibilteschan funcziuns centralas sco memorisar vossas preferenzas da lingua e vossa cronologia da chargiadas."
+            },
+            "analytics": {
+              "title": "Cookies d'analitica",
+              "content": "Nus utilisain Yandex Metrika per analisar co visitaders utilisain nossa website. Quest cookies rimnan infurmaziuns anonimas davart l'utilisaziun da la website per gidar nus da meglierar noss servetsch."
+            },
+            "advertising": {
+              "title": "Cookies da reclama",
+              "content": "Nus utilisain Google AdSense per mussar reclamas. Quest cookies gidan a porscher reclamas personalisadas basadas sin voss cumpurtament da navigar e voss interess."
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "Cookies da terzas partidas",
+            "content": "Nus utilisain ils suandants servetschs da terzas partidas che pon definir cookies:",
+            "item1": "Google AdSense - Per reclama (suttamess a la Politica da sfera privata da Google)",
+            "item2": "Yandex Metrika - Per analitica da website (suttamess a la Politica da sfera privata da Yandex)"
+          },
+          "manageCookies": {
+            "title": "Administrar cookies",
+            "content": "Vus pudais controllar ed administrar cookies via vossas configuraziuns da browser. La gronda part dals browsers permetta a vus da refusar u acceptar cookies, stizzar cookies existents u definir preferenzas per tschertas websites. Deactivar cookies po però influenzar la funcziunalitad da noss servetsch."
+          },
+          "changes": {
+            "title": "Midadas en questa Politica da cookies",
+            "content": "Nus pudain actualisar questa Politica da cookies da temp en temp. Nus vus infurmain da tuttas midadas cun publitgar la nova Politica da cookies sin questa pagina e cun actualisar la data \"Ultima actualisaziun\"."
+          },
+          "contact": {
+            "title": "Contactar nus",
+            "text": "Sche vus avais dumondas davart questa Politica da cookies, contactai per plaschair nus a",
+            "email": "leeqs1010@gmail.com"
+          }
+        }
+      }
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "Davart nus | Photo To URL",
+      "description": "Ve a savair dapli davart Photo To URL - in servetsch gratuit da hosting da maletgs che convertescha fotos en ligams cumpartgiabels."
+    },
+    "page": {
+      "title": "Davart nus",
+      "mission": {
+        "title": "Nossa missiun",
+        "content": "Photo To URL è in servetsch gratuit, svelt e fidabel da hosting da maletgs concepì per gidar creaturs, marketers e teams da convertir maletgs en ligams cumpartgiabels immediat. Nus crein en simplicitad, sveltezza e sfera privata dals utilisaders."
+      },
+      "features": {
+        "title": "Tge che nus offrin",
+        "item1": "Hosting gratuit da maletgs cun sustegn CDN",
+        "item2": "Generaziun immediata da ligams per cumpartir svelt",
+        "item3": "Sustegn per plirs formats da maletgs (JPG, PNG, WEBP, GIF)",
+        "item4": "Nagin registraziun necessari - utilisar immediat"
+      },
+      "contact": {
+        "title": "Contactar nus",
+        "text": "Avais dumondas u feedback? Contactai nus a",
+        "email": "leeqs1010@gmail.com"
       }
     }
   }

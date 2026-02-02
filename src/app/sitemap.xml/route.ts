@@ -16,13 +16,15 @@ const staticPaths = [
   "status",
   "contact",
   "faq",
+  "about",
   "legal/privacy",
   "legal/terms",
+  "legal/cookie",
   "legal/impressum",
 ] as const;
 
-// 旧版 sitemap 中只包含除阿拉伯语外的多语言路径，这里保持一致
-const SITEMAP_LOCALES = LOCALES.filter((locale) => locale !== "ar");
+// 包含所有支持的语言
+const SITEMAP_LOCALES = LOCALES;
 
 export async function GET() {
   const now = new Date().toISOString();

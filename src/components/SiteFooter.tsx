@@ -10,18 +10,16 @@ const CircleCropTypewriter = dynamic(() => import("./CircleCropTypewriter").then
 });
 
 const navLinks = [
-  { key: "blog", href: "/blog" },
+  { key: "about", href: "/about" },
   { key: "docs", href: "/docs" },
+  { key: "blog", href: "/blog" },
   { key: "status", href: "/status" },
   { key: "contact", href: "/contact" },
-  { key: "home", href: "/" },
 ] as const;
 
 const productLinks = [
-  { label: "Image to URL", href: "https://www.image2url.com/", external: true },
   { labelKey: "title", ns: "circleCrop", href: "/circlecrop", external: false },
-  { label: "Discord Wrapped", href: "https://discordwarpped.qzboat.com/", external: true },
-  { label: "Qzboat", href: "https://www.qzboat.com/", external: true },
+  { label: "Image to URL", href: "https://www.image2url.com/", external: true },
 ];
 
 export async function SiteFooter() {
@@ -31,8 +29,8 @@ export async function SiteFooter() {
   return (
     <footer>
       <div className="border-t border-white/15 hero-gradient text-white">
-        <div className="mx-auto max-w-6xl px-6 py-8 lg:px-8 lg:py-10">
-          <div className="grid gap-8 md:grid-cols-4 mb-8">
+        <div className="mx-auto max-w-6xl px-6 py-8 lg:px-10 lg:py-10">
+          <div className="grid gap-8 md:grid-cols-4 mb-8 md:gap-12 lg:gap-16">
             <div className="space-y-3">
               <LocaleLink href="/" className="flex items-center gap-3 group">
                 <div className="relative h-8 w-8 overflow-hidden rounded-md bg-white/10 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12 group-hover:bg-white/20">
@@ -49,7 +47,7 @@ export async function SiteFooter() {
               <div className="pt-2">
                 <CircleCropTypewriter />
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 pt-2">
                 <a
                   href="https://github.com/phototourl"
                   target="_blank"
@@ -119,20 +117,32 @@ export async function SiteFooter() {
             </div>
 
             <div className="space-y-3">
-              <div className="text-sm font-semibold uppercase tracking-wide text-white/80">{t("footer.partners")}</div>
-              <a
-                href="https://x.com/image2url"
-                target="_blank"
-                rel="noreferrer"
-                className="text-sm text-white/95 hover:text-white hover:underline underline-offset-4 block"
-              >
-                image2url
-              </a>
+              <div className="text-sm font-semibold uppercase tracking-wide text-white/80">{t("footer.legal.title")}</div>
+              <div className="flex flex-col gap-2 text-sm text-white/95">
+                <LocaleLink
+                  href="/legal/privacy"
+                  className="underline-offset-4 hover:text-white hover:underline"
+                >
+                  {t("footer.legal.privacy")}
+                </LocaleLink>
+                <LocaleLink
+                  href="/legal/terms"
+                  className="underline-offset-4 hover:text-white hover:underline"
+                >
+                  {t("footer.legal.terms")}
+                </LocaleLink>
+                <LocaleLink
+                  href="/legal/cookie"
+                  className="underline-offset-4 hover:text-white hover:underline"
+                >
+                  {t("footer.legal.cookie")}
+                </LocaleLink>
+              </div>
             </div>
           </div>
         </div>
         {/* Badge row: centered, full-width, between content and bottom border */}
-        <div className="flex flex-wrap items-center justify-center gap-1.5 px-4 py-4">
+        <div className="flex flex-wrap items-center justify-center gap-1.5 px-6 py-4 lg:px-10">
             <a
               href="https://fazier.com/launches/phototourl.com"
               target="_blank"
@@ -320,19 +330,8 @@ export async function SiteFooter() {
           </div>
       </div>
       <div className="border-t border-white/15 hero-gradient text-white">
-        <div className="mx-auto flex max-w-6xl items-center justify-center px-6 py-3 text-xs lg:px-8">
-          <div className="flex items-center gap-4">
-            <span className="text-white/90">{t("footer.copyright").replace("2025", new Date().getFullYear().toString())}</span>
-            <div className="flex items-center">
-              <LocaleLink href="/legal/privacy" className="hover:text-white">
-                {t("footer.legal.privacy")}
-              </LocaleLink>
-              <span className="mx-3 text-white/40">•</span>
-              <LocaleLink href="/legal/terms" className="hover:text-white">
-                {t("footer.legal.terms")}
-              </LocaleLink>
-            </div>
-          </div>
+        <div className="mx-auto flex max-w-6xl items-center justify-center px-6 py-4 text-xs lg:px-10">
+          <span className="text-white/90 text-center">{t("footer.copyright").replace("2025", new Date().getFullYear().toString())}</span>
         </div>
       </div>
     </footer>

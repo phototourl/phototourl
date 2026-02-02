@@ -28,18 +28,21 @@
         "line2": "Gyors, egyszerű, megbízható."
       },
       "partners": "Partnerek",
-      "linksTitle": "Linkek",
+      "linksTitle": "Erőforrások",
       "productsTitle": "Termékek",
       "nav": {
         "home": "Kezdőlap",
         "blog": "Blog",
         "docs": "Dokumentáció",
         "status": "Állapot",
+        "about": "Rólunk",
         "contact": "Kapcsolat"
       },
       "legal": {
+        "title": "Jogi",
         "privacy": "Adatvédelem",
-        "terms": "Feltételek"
+        "terms": "Feltételek",
+        "cookie": "Süti szabályzat"
       },
       "copyright": "© 2025 Photo To URL. Minden jog fenntartva."
     }
@@ -219,18 +222,178 @@
           "label": "E-mail"
         }
       }
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "Rólunk | Photo To URL",
+      "description": "Tudjon meg többet a Photo To URL-ról - egy ingyenes képhosztolási szolgáltatásról, amely fényképeket megosztható linkekké alakít."
     },
-    "legal": {
-      "privacy": {
-        "page": {
-          "title": "Adatvédelmi irányelvek",
-          "content": "Csak a szolgáltatás működtetéséhez szükséges minimális adatokat gyűjtjük."
+    "page": {
+      "title": "Rólunk",
+      "mission": {
+        "title": "Küldetésünk",
+        "content": "A Photo To URL egy ingyenes, gyors és megbízható képhosztolási szolgáltatás, amelyet azért terveztünk, hogy segítsen a tartalomkészítőknek, marketingeseknek és csapatoknak azonnal megosztható linkekké alakítani a képeket. Hiszünk az egyszerűségben, a sebességben és a felhasználók magánéletében."
+      },
+      "features": {
+        "title": "Mit kínálunk",
+        "item1": "Ingyenes képhosztolás CDN támogatással",
+        "item2": "Azonnali linkgenerálás gyors megosztáshoz",
+        "item3": "Több képformátum támogatása (JPG, PNG, WEBP, GIF)",
+        "item4": "Nincs regisztráció szükséges - használja azonnal"
+      },
+      "contact": {
+        "title": "Lépjen kapcsolatba velünk",
+        "text": "Kérdései vagy visszajelzései vannak? Lépjen kapcsolatba velünk a következő címen:",
+        "email": "leeqs1010@gmail.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Adatvédelmi irányelvek | Photo To URL",
+        "description": "Adatvédelmi irányelvek a Photo To URL számára - Ismerje meg, hogyan gyűjtjük, használjuk és védjük az Ön adatait."
+      },
+      "page": {
+        "title": "Adatvédelmi irányelvek",
+        "lastUpdated": "Utolsó frissítés: 2026 január",
+        "introduction": "A Photo To URL-nál tiszteletben tartjuk az Ön magánéletét és elkötelezettek vagyunk az Ön személyes adatainak védelme mellett. Ez az Adatvédelmi Irányelv elmagyarázza, hogyan gyűjtjük, használjuk, közöljük és védjük az Ön információit, amikor használja szolgáltatásunkat.",
+        "dataCollection": {
+          "title": "Az általunk gyűjtött információk",
+          "content1": "Amikor képet tölt fel, gyűjtünk:",
+          "item1": "A feltöltött képfájlt (ideiglenesen tárolva megosztható link generálásához)",
+          "item2": "Fájl metaadatokat (fájlnév, méret, típus)",
+          "item3": "IP-címet (sebességkorlátozás és biztonsági célokra)",
+          "item4": "Feltöltési időbélyeget",
+          "content2": "Nem gyűjtünk személyes információkat, például az Ön nevét, e-mail címét vagy telefonszámát, kivéve, ha önkéntesen megadja kapcsolatfelvételi űrlapunkon keresztül."
+        },
+        "dataUsage": {
+          "title": "Hogyan használjuk az Ön információit",
+          "item1": "Megosztható képlinkek generálásához és biztosításához",
+          "item2": "A visszaélések megelőzéséhez és a feltöltési korlátok betartatásához",
+          "item3": "Szolgáltatásunk és felhasználói élmény javításához",
+          "item4": "Jogi kötelezettségek teljesítéséhez"
+        },
+        "dataStorage": {
+          "title": "Adattárolás és megőrzés",
+          "content": "A feltöltött képek a Cloudflare R2 tárolóban vannak tárolva. A képeket addig őrizzük meg, ameddig szükséges a szolgáltatás nyújtásához. A képek automatikusan törölhetők inaktivitási időszak után vagy szabályzatok megsértése miatt."
+        },
+        "cookies": {
+          "title": "Sütik és követési technológiák",
+          "content1": "A következő technológiákat használjuk:",
+          "item1": "Helyi tárolás: Feltöltési előzményeinek és nyelvi beállításainak tárolásához",
+          "item2": "Google AdSense: Hirdetések megjelenítéséhez (sütiket használ hirdetésszemélyre szabáshoz)",
+          "item3": "Yandex Metrika: Webhelyelemzéshez (anonimizált adatok)",
+          "content2": "A sütiket böngészőbeállításain keresztül vezérelheti. A sütik letiltása azonban befolyásolhatja szolgáltatásunk egyes funkcióit."
+        },
+        "thirdParty": {
+          "title": "Harmadik fél szolgáltatásai",
+          "content1": "A következő harmadik fél szolgáltatásokat használjuk:",
+          "item1": "Cloudflare R2: Képtároláshoz és CDN kézbesítéshez",
+          "item2": "Google AdSense: Hirdetéshez (a Google Adatvédelmi Irányelvének alárendelve)",
+          "item3": "Yandex Metrika: Webhelyelemzéshez (a Yandex Adatvédelmi Irányelvének alárendelve)",
+          "content2": "Ezek a szolgáltatások saját adatvédelmi irányelveik szerint gyűjthetnek információkat. Javasoljuk, hogy tekintse át azok adatvédelmi irányelveit."
+        },
+        "dataSecurity": {
+          "title": "Adatbiztonság",
+          "content": "Megfelelő technikai és szervezési intézkedéseket alkalmazunk az Ön adatainak védelmére a jogosulatlan hozzáférés, módosítás, nyilvánosságra hozatal vagy megsemmisítés ellen. Azonban az interneten keresztüli adatátvitel egyetlen módszere sem 100%-ban biztonságos."
+        },
+        "yourRights": {
+          "title": "Az Ön jogai",
+          "content": "Önnek joga van:",
+          "item1": "Hozzáférni feltöltött képeihez és kapcsolódó adataihoz",
+          "item2": "Képei törlését kérni",
+          "item3": "Bizonyos adatgyűjtési gyakorlatokból kizárni magát",
+          "item4": "Kapcsolatba lépni velünk magánéleti aggályokkal"
+        },
+        "children": {
+          "title": "Gyermekek magánélete",
+          "content": "Szolgáltatásunk nem 13 év alatti gyermekeknek szól. Tudatosan nem gyűjtünk személyes információkat 13 év alatti gyermekektől."
+        },
+        "changes": {
+          "title": "Változások ebben az Adatvédelmi Irányelvben",
+          "content": "Időnként frissíthetjük ezt az Adatvédelmi Irányelvet. Értesítjük Önt minden változásról az új Adatvédelmi Irányelv ezen az oldalon való közzétételével és a \"Utolsó frissítés\" dátumának frissítésével."
+        },
+        "contact": {
+          "title": "Lépjen kapcsolatba velünk",
+          "text": "Ha kérdései vannak ezzel az Adatvédelmi Irányelvvel kapcsolatban, kérjük, lépjen kapcsolatba velünk a következő címen:",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Felhasználási feltételek | Photo To URL",
+        "description": "Felhasználási feltételek a Photo To URL számára."
+      },
+      "page": {
+        "title": "Felhasználási feltételek",
+        "content": "A Photo To URL használatával Ön beleegyezik, hogy felelősségteljesen használja a szolgáltatást és nem tölt fel törvénytelen tartalmat.",
+        "disclaimer": {
+          "title": "Felelősségkizárás",
+          "text": "A szolgáltatás \"ahogy van\" alapon kerül nyújtásra, garancia nélkül. A rendelkezésre állás karbantartás miatt változhat."
+        },
+        "contact": {
+          "title": "Kapcsolat",
+          "text": "Küldjön e-mailt a következő címre:",
+          "email": "leeqs1010@gmail.com"
         }
       },
-      "terms": {
+      "cookie": {
+        "seo": {
+          "title": "Süti szabályzat | Photo To URL",
+          "description": "Süti szabályzat a Photo To URL számára - Ismerje meg, hogyan használjuk a sütiket és a követési technológiákat."
+        },
         "page": {
-          "title": "Felhasználási feltételek",
-          "content": "A szolgáltatás használatával beleegyezik a felelősségteljes használatba."
+          "title": "Süti szabályzat",
+          "lastUpdated": "Utolsó frissítés: 2026 január",
+          "introduction": "Ez a Süti Szabályzat elmagyarázza, hogyan használja a Photo To URL a sütiket és hasonló követési technológiákat, amikor meglátogatja webhelyünket. Szolgáltatásunk használatával Ön beleegyezik a sütik használatába e szabályzatnak megfelelően.",
+          "whatAreCookies": {
+            "title": "Mik a sütik",
+            "content": "A sütik kis szöveges fájlok, amelyeket az Ön eszközére helyeznek, amikor egy webhelyet látogat meg. Széles körben használják, hogy a webhelyek hatékonyabban működjenek és információkat szolgáltassanak a webhelytulajdonosoknak."
+          },
+          "howWeUseCookies": {
+            "title": "Hogyan használjuk a sütiket",
+            "content": "A sütiket a következő célokra használjuk:",
+            "item1": "Feltöltési előzményeinek és nyelvi beállításainak tárolásához",
+            "item2": "Webhelyforgalom és felhasználói viselkedés elemzéséhez",
+            "item3": "Személyre szabott hirdetések megjelenítéséhez"
+          },
+          "typesOfCookies": {
+            "title": "A használt sütik típusai",
+            "essential": {
+              "title": "Alapvető sütik",
+              "content": "Ezek a sütik szükségesek a webhely megfelelő működéséhez. Lehetővé teszik az alapvető funkciókat, például nyelvi beállításainak és feltöltési előzményeinek tárolását."
+            },
+            "analytics": {
+              "title": "Elemző sütik",
+              "content": "A Yandex Metrikát használjuk annak elemzésére, hogyan használják a látogatók webhelyünket. Ezek a sütik névtelen információkat gyűjtenek a webhelyhasználatról, hogy segítsenek nekünk javítani szolgáltatásunkat."
+            },
+            "advertising": {
+              "title": "Hirdetési sütik",
+              "content": "A Google AdSense-t használjuk hirdetések megjelenítéséhez. Ezek a sütik segítenek személyre szabott hirdetéseket szállítani böngészési viselkedése és érdeklődési körei alapján."
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "Harmadik fél sütik",
+            "content": "A következő harmadik fél szolgáltatásokat használjuk, amelyek sütiket állíthatnak be:",
+            "item1": "Google AdSense - Hirdetéshez (a Google Adatvédelmi Irányelvének alárendelve)",
+            "item2": "Yandex Metrika - Webhelyelemzéshez (a Yandex Adatvédelmi Irányelvének alárendelve)"
+          },
+          "manageCookies": {
+            "title": "Sütik kezelése",
+            "content": "A sütiket böngészőbeállításain keresztül vezérelheti és kezelheti. A legtöbb böngésző lehetővé teszi, hogy elutasítsa vagy elfogadja a sütiket, törölje a meglévő sütiket, vagy beállítsa a beállításokat bizonyos webhelyekhez. A sütik letiltása azonban befolyásolhatja szolgáltatásunk funkcionalitását."
+          },
+          "changes": {
+            "title": "Változások ebben a Süti Szabályzatban",
+            "content": "Időnként frissíthetjük ezt a Süti Szabályzatot. Értesítjük Önt minden változásról az új Süti Szabályzat ezen az oldalon való közzétételével és a \"Utolsó frissítés\" dátumának frissítésével."
+          },
+          "contact": {
+            "title": "Lépjen kapcsolatba velünk",
+            "text": "Ha kérdései vannak ezzel a Süti Szabályzattal kapcsolatban, kérjük, lépjen kapcsolatba velünk a következő címen:",
+            "email": "leeqs1010@gmail.com"
+          }
         }
       }
     }

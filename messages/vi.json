@@ -5,6 +5,7 @@
     "header": {
       "subtitle": "Biến hình ảnh thành liên kết có thể chia sẻ",
       "prompt": "Kéo thả, dán hoặc tải lên — nhận liên kết ngay lập tức",
+      "circleCrop": "Cắt ảnh thành hình tròn",
       "history": "Lịch sử tải lên"
     },
     "history": {
@@ -27,18 +28,21 @@
         "line2": "Nhanh, đơn giản, đáng tin cậy."
       },
       "partners": "Đối tác",
-      "linksTitle": "Liên kết",
+      "linksTitle": "Tài nguyên",
       "productsTitle": "Sản phẩm",
       "nav": {
         "home": "Trang chủ",
         "blog": "Blog",
         "docs": "Tài liệu",
         "status": "Trạng thái",
+        "about": "Về chúng tôi",
         "contact": "Liên hệ"
       },
       "legal": {
+        "title": "Pháp lý",
         "privacy": "Quyền riêng tư",
-        "terms": "Điều khoản"
+        "terms": "Điều khoản",
+        "cookie": "Chính sách Cookie"
       },
       "copyright": "© 2025 Photo To URL. Bảo lưu mọi quyền."
     }
@@ -368,18 +372,100 @@
       }
     }
   },
+  "about": {
+    "seo": {
+      "title": "Về chúng tôi | Photo To URL",
+      "description": "Tìm hiểu thêm về Photo To URL - dịch vụ lưu trữ hình ảnh miễn phí chuyển đổi ảnh thành liên kết có thể chia sẻ."
+    },
+    "page": {
+      "title": "Về chúng tôi",
+      "mission": {
+        "title": "Sứ mệnh của chúng tôi",
+        "content": "Photo To URL là dịch vụ lưu trữ hình ảnh miễn phí, nhanh chóng và đáng tin cậy được thiết kế để giúp người sáng tạo, nhà tiếp thị và nhóm chuyển đổi hình ảnh thành liên kết có thể chia sẻ ngay lập tức. Chúng tôi tin vào sự đơn giản, tốc độ và quyền riêng tư của người dùng."
+      },
+      "features": {
+        "title": "Những gì chúng tôi cung cấp",
+        "item1": "Lưu trữ hình ảnh miễn phí với hỗ trợ CDN",
+        "item2": "Tạo liên kết tức thì để chia sẻ nhanh chóng",
+        "item3": "Hỗ trợ nhiều định dạng hình ảnh (JPG, PNG, WEBP, GIF)",
+        "item4": "Không cần đăng ký - sử dụng ngay"
+      },
+      "contact": {
+        "title": "Liên hệ với chúng tôi",
+        "text": "Có câu hỏi hoặc phản hồi? Liên hệ với chúng tôi tại",
+        "email": "leeqs1010@gmail.com"
+      }
+    }
+  },
   "legal": {
     "privacy": {
       "seo": {
         "title": "Chính sách bảo mật | Photo To URL",
-        "description": "Chính sách bảo mật cho Photo To URL."
+        "description": "Chính sách bảo mật cho Photo To URL - Tìm hiểu cách chúng tôi thu thập, sử dụng và bảo vệ dữ liệu của bạn."
       },
       "page": {
         "title": "Chính sách bảo mật",
-        "content": "Chúng tôi thu thập dữ liệu tối thiểu cần thiết để vận hành dịch vụ. Hình ảnh đã tải lên được lưu trữ để tạo liên kết có thể chia sẻ.",
+        "lastUpdated": "Cập nhật lần cuối: Tháng 1 năm 2026",
+        "introduction": "Tại Photo To URL, chúng tôi tôn trọng quyền riêng tư của bạn và cam kết bảo vệ thông tin cá nhân của bạn. Chính sách Bảo mật này giải thích cách chúng tôi thu thập, sử dụng, tiết lộ và bảo vệ thông tin của bạn khi bạn sử dụng dịch vụ của chúng tôi.",
+        "dataCollection": {
+          "title": "Thông tin chúng tôi thu thập",
+          "content1": "Khi bạn tải lên hình ảnh, chúng tôi thu thập:",
+          "item1": "Tệp hình ảnh bạn tải lên (được lưu trữ tạm thời để tạo liên kết có thể chia sẻ)",
+          "item2": "Siêu dữ liệu tệp (tên tệp, kích thước, loại)",
+          "item3": "Địa chỉ IP (để giới hạn tốc độ và mục đích bảo mật)",
+          "item4": "Dấu thời gian tải lên",
+          "content2": "Chúng tôi không thu thập thông tin cá nhân như tên, địa chỉ email hoặc số điện thoại của bạn trừ khi bạn tự nguyện cung cấp thông qua biểu mẫu liên hệ của chúng tôi."
+        },
+        "dataUsage": {
+          "title": "Cách chúng tôi sử dụng thông tin của bạn",
+          "item1": "Để tạo và cung cấp liên kết hình ảnh có thể chia sẻ",
+          "item2": "Để ngăn chặn lạm dụng và thực thi giới hạn tải lên",
+          "item3": "Để cải thiện dịch vụ và trải nghiệm người dùng của chúng tôi",
+          "item4": "Để tuân thủ các nghĩa vụ pháp lý"
+        },
+        "dataStorage": {
+          "title": "Lưu trữ và giữ lại dữ liệu",
+          "content": "Hình ảnh đã tải lên được lưu trữ trên lưu trữ Cloudflare R2. Chúng tôi giữ hình ảnh trong thời gian cần thiết để cung cấp dịch vụ. Hình ảnh có thể bị xóa tự động sau một khoảng thời gian không hoạt động hoặc do vi phạm chính sách."
+        },
+        "cookies": {
+          "title": "Cookie và công nghệ theo dõi",
+          "content1": "Chúng tôi sử dụng các công nghệ sau:",
+          "item1": "Lưu trữ cục bộ: Để lưu trữ lịch sử tải lên và tùy chọn ngôn ngữ của bạn",
+          "item2": "Google AdSense: Để hiển thị quảng cáo (sử dụng cookie để cá nhân hóa quảng cáo)",
+          "item3": "Yandex Metrika: Để phân tích trang web (dữ liệu ẩn danh)",
+          "content2": "Bạn có thể kiểm soát cookie thông qua cài đặt trình duyệt của mình. Tuy nhiên, vô hiệu hóa cookie có thể ảnh hưởng đến một số chức năng của dịch vụ của chúng tôi."
+        },
+        "thirdParty": {
+          "title": "Dịch vụ của bên thứ ba",
+          "content1": "Chúng tôi sử dụng các dịch vụ của bên thứ ba sau:",
+          "item1": "Cloudflare R2: Để lưu trữ hình ảnh và phân phối CDN",
+          "item2": "Google AdSense: Để quảng cáo (tuân theo Chính sách Bảo mật của Google)",
+          "item3": "Yandex Metrika: Để phân tích trang web (tuân theo Chính sách Bảo mật của Yandex)",
+          "content2": "Các dịch vụ này có thể thu thập thông tin theo chính sách bảo mật riêng của họ. Chúng tôi khuyến khích bạn xem xét chính sách bảo mật của họ."
+        },
+        "dataSecurity": {
+          "title": "Bảo mật dữ liệu",
+          "content": "Chúng tôi thực hiện các biện pháp kỹ thuật và tổ chức phù hợp để bảo vệ dữ liệu của bạn khỏi truy cập trái phép, thay đổi, tiết lộ hoặc phá hủy. Tuy nhiên, không có phương pháp truyền qua Internet nào là an toàn 100%."
+        },
+        "yourRights": {
+          "title": "Quyền của bạn",
+          "content": "Bạn có quyền:",
+          "item1": "Truy cập hình ảnh đã tải lên và dữ liệu liên quan của bạn",
+          "item2": "Yêu cầu xóa hình ảnh của bạn",
+          "item3": "Từ chối một số thực hành thu thập dữ liệu",
+          "item4": "Liên hệ với chúng tôi về các mối quan tâm về quyền riêng tư"
+        },
+        "children": {
+          "title": "Quyền riêng tư của trẻ em",
+          "content": "Dịch vụ của chúng tôi không dành cho trẻ em dưới 13 tuổi. Chúng tôi không cố ý thu thập thông tin cá nhân từ trẻ em dưới 13 tuổi."
+        },
+        "changes": {
+          "title": "Thay đổi đối với Chính sách Bảo mật này",
+          "content": "Chúng tôi có thể cập nhật Chính sách Bảo mật này theo thời gian. Chúng tôi sẽ thông báo cho bạn về bất kỳ thay đổi nào bằng cách đăng Chính sách Bảo mật mới trên trang này và cập nhật ngày \"Cập nhật lần cuối\"."
+        },
         "contact": {
-          "title": "Liên hệ",
-          "text": "Câu hỏi? Gửi email đến",
+          "title": "Liên hệ với chúng tôi",
+          "text": "Nếu bạn có câu hỏi về Chính sách Bảo mật này, vui lòng liên hệ với chúng tôi tại",
           "email": "leeqs1010@gmail.com"
         }
       }
@@ -400,6 +486,118 @@
           "title": "Liên hệ",
           "text": "Gửi email đến",
           "email": "leeqs1010@gmail.com"
+        }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Chính sách Cookie | Photo To URL",
+          "description": "Chính sách Cookie cho Photo To URL - Tìm hiểu cách chúng tôi sử dụng cookie và công nghệ theo dõi."
+        },
+        "page": {
+          "title": "Chính sách Cookie",
+          "lastUpdated": "Cập nhật lần cuối: Tháng 1 năm 2026",
+          "introduction": "Chính sách Cookie này giải thích cách Photo To URL sử dụng cookie và công nghệ theo dõi tương tự khi bạn truy cập trang web của chúng tôi. Bằng cách sử dụng dịch vụ của chúng tôi, bạn đồng ý với việc sử dụng cookie theo chính sách này.",
+          "whatAreCookies": {
+            "title": "Cookie là gì",
+            "content": "Cookie là các tệp văn bản nhỏ được đặt trên thiết bị của bạn khi bạn truy cập một trang web. Chúng được sử dụng rộng rãi để làm cho trang web hoạt động hiệu quả hơn và cung cấp thông tin cho chủ sở hữu trang web."
+          },
+          "howWeUseCookies": {
+            "title": "Cách chúng tôi sử dụng Cookie",
+            "content": "Chúng tôi sử dụng cookie cho các mục đích sau:",
+            "item1": "Để lưu trữ lịch sử tải lên và tùy chọn ngôn ngữ của bạn",
+            "item2": "Để phân tích lưu lượng trang web và hành vi người dùng",
+            "item3": "Để hiển thị quảng cáo được cá nhân hóa"
+          },
+          "typesOfCookies": {
+            "title": "Các loại Cookie chúng tôi sử dụng",
+            "essential": {
+              "title": "Cookie cần thiết",
+              "content": "Những cookie này cần thiết cho hoạt động đúng của trang web. Chúng cho phép các chức năng cốt lõi như lưu trữ tùy chọn ngôn ngữ và lịch sử tải lên của bạn."
+            },
+            "analytics": {
+              "title": "Cookie phân tích",
+              "content": "Chúng tôi sử dụng Yandex Metrika để phân tích cách khách truy cập sử dụng trang web của chúng tôi. Những cookie này thu thập thông tin ẩn danh về việc sử dụng trang web để giúp chúng tôi cải thiện dịch vụ của mình."
+            },
+            "advertising": {
+              "title": "Cookie quảng cáo",
+              "content": "Chúng tôi sử dụng Google AdSense để hiển thị quảng cáo. Những cookie này giúp cung cấp quảng cáo được cá nhân hóa dựa trên hành vi duyệt web và sở thích của bạn."
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "Cookie của bên thứ ba",
+            "content": "Chúng tôi sử dụng các dịch vụ của bên thứ ba sau có thể đặt cookie:",
+            "item1": "Google AdSense - Để quảng cáo (tuân theo Chính sách Bảo mật của Google)",
+            "item2": "Yandex Metrika - Để phân tích trang web (tuân theo Chính sách Bảo mật của Yandex)"
+          },
+          "manageCookies": {
+            "title": "Quản lý Cookie",
+            "content": "Bạn có thể kiểm soát và quản lý cookie thông qua cài đặt trình duyệt của mình. Hầu hết các trình duyệt cho phép bạn từ chối hoặc chấp nhận cookie, xóa cookie hiện có hoặc đặt tùy chọn cho các trang web cụ thể. Tuy nhiên, vô hiệu hóa cookie có thể ảnh hưởng đến chức năng của dịch vụ của chúng tôi."
+          },
+          "changes": {
+            "title": "Thay đổi đối với Chính sách Cookie này",
+            "content": "Chúng tôi có thể cập nhật Chính sách Cookie này theo thời gian. Chúng tôi sẽ thông báo cho bạn về bất kỳ thay đổi nào bằng cách đăng Chính sách Cookie mới trên trang này và cập nhật ngày \"Cập nhật lần cuối\"."
+          },
+          "contact": {
+            "title": "Liên hệ với chúng tôi",
+            "text": "Nếu bạn có câu hỏi về Chính sách Cookie này, vui lòng liên hệ với chúng tôi tại",
+            "email": "leeqs1010@gmail.com"
+          }
+        }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Chính sách Cookie | Photo To URL",
+          "description": "Chính sách Cookie cho Photo To URL - Tìm hiểu cách chúng tôi sử dụng cookie và công nghệ theo dõi."
+        },
+        "page": {
+          "title": "Chính sách Cookie",
+          "lastUpdated": "Cập nhật lần cuối: Tháng 1 năm 2026",
+          "introduction": "Chính sách Cookie này giải thích cách Photo To URL sử dụng cookie và công nghệ theo dõi tương tự khi bạn truy cập trang web của chúng tôi. Bằng cách sử dụng dịch vụ của chúng tôi, bạn đồng ý với việc sử dụng cookie theo chính sách này.",
+          "whatAreCookies": {
+            "title": "Cookie là gì",
+            "content": "Cookie là các tệp văn bản nhỏ được đặt trên thiết bị của bạn khi bạn truy cập một trang web. Chúng được sử dụng rộng rãi để làm cho trang web hoạt động hiệu quả hơn và cung cấp thông tin cho chủ sở hữu trang web."
+          },
+          "howWeUseCookies": {
+            "title": "Cách chúng tôi sử dụng Cookie",
+            "content": "Chúng tôi sử dụng cookie cho các mục đích sau:",
+            "item1": "Để lưu trữ lịch sử tải lên và tùy chọn ngôn ngữ của bạn",
+            "item2": "Để phân tích lưu lượng trang web và hành vi người dùng",
+            "item3": "Để hiển thị quảng cáo được cá nhân hóa"
+          },
+          "typesOfCookies": {
+            "title": "Các loại Cookie chúng tôi sử dụng",
+            "essential": {
+              "title": "Cookie cần thiết",
+              "content": "Những cookie này cần thiết cho hoạt động đúng của trang web. Chúng cho phép các chức năng cốt lõi như lưu trữ tùy chọn ngôn ngữ và lịch sử tải lên của bạn."
+            },
+            "analytics": {
+              "title": "Cookie phân tích",
+              "content": "Chúng tôi sử dụng Yandex Metrika để phân tích cách khách truy cập sử dụng trang web của chúng tôi. Những cookie này thu thập thông tin ẩn danh về việc sử dụng trang web để giúp chúng tôi cải thiện dịch vụ của mình."
+            },
+            "advertising": {
+              "title": "Cookie quảng cáo",
+              "content": "Chúng tôi sử dụng Google AdSense để hiển thị quảng cáo. Những cookie này giúp cung cấp quảng cáo được cá nhân hóa dựa trên hành vi duyệt web và sở thích của bạn."
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "Cookie của bên thứ ba",
+            "content": "Chúng tôi sử dụng các dịch vụ của bên thứ ba sau có thể đặt cookie:",
+            "item1": "Google AdSense - Để quảng cáo (tuân theo Chính sách Bảo mật của Google)",
+            "item2": "Yandex Metrika - Để phân tích trang web (tuân theo Chính sách Bảo mật của Yandex)"
+          },
+          "manageCookies": {
+            "title": "Quản lý Cookie",
+            "content": "Bạn có thể kiểm soát và quản lý cookie thông qua cài đặt trình duyệt của mình. Hầu hết các trình duyệt cho phép bạn từ chối hoặc chấp nhận cookie, xóa cookie hiện có hoặc đặt tùy chọn cho các trang web cụ thể. Tuy nhiên, vô hiệu hóa cookie có thể ảnh hưởng đến chức năng của dịch vụ của chúng tôi."
+          },
+          "changes": {
+            "title": "Thay đổi đối với Chính sách Cookie này",
+            "content": "Chúng tôi có thể cập nhật Chính sách Cookie này theo thời gian. Chúng tôi sẽ thông báo cho bạn về bất kỳ thay đổi nào bằng cách xuất bản Chính sách Cookie mới trên trang này và cập nhật ngày \"Cập nhật lần cuối\"."
+          },
+          "contact": {
+            "title": "Liên hệ với chúng tôi",
+            "text": "Nếu bạn có câu hỏi về Chính sách Cookie này, vui lòng liên hệ với chúng tôi tại",
+            "email": "leeqs1010@gmail.com"
+          }
         }
       }
     }

@@ -28,18 +28,21 @@
         "line2": "Nopea, yksinkertainen, luotettava."
       },
       "partners": "Kumppanit",
-      "linksTitle": "Linkit",
+      "linksTitle": "Resurssit",
       "productsTitle": "Tuotteet",
       "nav": {
         "home": "Etusivu",
         "blog": "Blogi",
         "docs": "Dokumentaatio",
         "status": "Tila",
+        "about": "Tietoa meistä",
         "contact": "Ota yhteyttä"
       },
       "legal": {
+        "title": "Oikeudellinen",
         "privacy": "Tietosuoja",
-        "terms": "Ehdot"
+        "terms": "Ehdot",
+        "cookie": "Evästekäytäntö"
       },
       "copyright": "© 2025 Photo To URL. Kaikki oikeudet pidätetään."
     }
@@ -181,6 +184,180 @@
         "thankYou": "Kiitos palautteestasi!",
         "averageRating": "4.5",
         "votes": "4,992 ääntä"
+      }
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "Tietoa meistä | Photo To URL",
+      "description": "Lue lisää Photo To URL:sta - ilmainen kuvahostauspalvelu, joka muuntaa valokuvat jaettaviksi linkeiksi."
+    },
+    "page": {
+      "title": "Tietoa meistä",
+      "mission": {
+        "title": "Tehtävämme",
+        "content": "Photo To URL on ilmainen, nopea ja luotettava kuvahostauspalvelu, joka on suunniteltu auttamaan sisällöntuottajia, markkinoijia ja tiimejä muuttamaan kuvat jaettaviksi linkeiksi heti. Uskomme yksinkertaisuuteen, nopeuteen ja käyttäjien yksityisyyteen."
+      },
+      "features": {
+        "title": "Mitä tarjoamme",
+        "item1": "Ilmainen kuvahostaus CDN-tuella",
+        "item2": "Hetkellinen linkkien luominen nopeaa jakamista varten",
+        "item3": "Tuki useille kuvamuodoille (JPG, PNG, WEBP, GIF)",
+        "item4": "Rekisteröitymistä ei vaadita - käytä heti"
+      },
+      "contact": {
+        "title": "Ota yhteyttä",
+        "text": "Onko sinulla kysymyksiä tai palautetta? Ota yhteyttä meihin osoitteessa",
+        "email": "leeqs1010@gmail.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Tietosuojakäytäntö | Photo To URL",
+        "description": "Tietosuojakäytäntö Photo To URL:lle - Opi, miten keräämme, käytämme ja suojaamme tietojasi."
+      },
+      "page": {
+        "title": "Tietosuojakäytäntö",
+        "lastUpdated": "Viimeksi päivitetty: tammikuu 2026",
+        "introduction": "Photo To URL:ssa kunnioitamme yksityisyyttäsi ja sitoudumme suojaamaan henkilötietojasi. Tämä Tietosuojakäytäntö selittää, miten keräämme, käytämme, paljastamme ja suojaamme tietojasi palvelua käyttäessäsi.",
+        "dataCollection": {
+          "title": "Tiedot, joita keräämme",
+          "content1": "Kun lähetät kuvan, keräämme:",
+          "item1": "Lähettämäsi kuvatiedoston (tallennetaan väliaikaisesti jaettavan linkin luomiseksi)",
+          "item2": "Tiedoston metatiedot (tiedostonimi, koko, tyyppi)",
+          "item3": "IP-osoite (nopeuden rajoittamiseen ja turvallisuustarkoituksiin)",
+          "item4": "Latauksen aikaleima",
+          "content2": "Emme kerää henkilötietoja, kuten nimeäsi, sähköpostiosoitetta tai puhelinnumeroa, ellet vapaaehtoisesti anna niitä yhteystolomme kautta."
+        },
+        "dataUsage": {
+          "title": "Miten käytämme tietojasi",
+          "item1": "Luodaksemme ja tarjotaksemme jaettavia kuvalinkkejä",
+          "item2": "Estääksemme väärinkäytökset ja valvoaksemme latausrajoja",
+          "item3": "Parantaaksemme palveluamme ja käyttökokemusta",
+          "item4": "Noudattaaksemme lakisääteisiä velvoitteita"
+        },
+        "dataStorage": {
+          "title": "Tietojen tallennus ja säilytys",
+          "content": "Lähetetyt kuvat tallennetaan Cloudflare R2 -tallennustilaan. Säilytämme kuvia niin kauan kuin on tarpeen palvelun tarjoamiseksi. Kuvat voidaan poistaa automaattisesti käyttämättömyysjakson jälkeen tai käytäntöjen rikkomusten vuoksi."
+        },
+        "cookies": {
+          "title": "Evästeet ja seurantateknologiat",
+          "content1": "Käytämme seuraavia teknologioita:",
+          "item1": "Paikallinen tallennus: Tallentamaan lataushistoriasi ja kieliasetuksesi",
+          "item2": "Google AdSense: Mainosten näyttämiseen (käyttää evästeitä mainosten personointiin)",
+          "item3": "Yandex Metrika: Verkkosivuston analysointiin (anonyymit tiedot)",
+          "content2": "Voit hallita evästeitä selaimen asetuksien kautta. Evästeiden poistaminen käytöstä voi kuitenkin vaikuttaa joihinkin palvelumme toimintoihin."
+        },
+        "thirdParty": {
+          "title": "Kolmannen osapuolen palvelut",
+          "content1": "Käytämme seuraavia kolmannen osapuolen palveluja:",
+          "item1": "Cloudflare R2: Kuvien tallennukseen ja CDN-toimitukseen",
+          "item2": "Google AdSense: Mainontaan (Googlen tietosuojakäytännön alainen)",
+          "item3": "Yandex Metrika: Verkkosivuston analysointiin (Yandexin tietosuojakäytännön alainen)",
+          "content2": "Nämä palvelut voivat kerätä tietoja omien tietosuojakäytäntöjensä mukaisesti. Suosittelemme, että tarkistat niiden tietosuojakäytännöt."
+        },
+        "dataSecurity": {
+          "title": "Tietoturva",
+          "content": "Toteutamme asianmukaiset tekniset ja organisatoriset toimenpiteet suojataksemme tietojasi luvattomalta pääsyltä, muutokselta, paljastumiselta tai tuhoutumiselta. Mikään internetin välitysmenetelmä ei kuitenkaan ole 100% turvallinen."
+        },
+        "yourRights": {
+          "title": "Oikeutesi",
+          "content": "Sinulla on oikeus:",
+          "item1": "Päästä käsiksi lähettämiisi kuviiin ja niihin liittyviin tietoihin",
+          "item2": "Pyytää kuviesi poistamista",
+          "item3": "Kieltäytyä tietyistä tietojenkeruukäytännöistä",
+          "item4": "Otta meihin yhteyttä yksityisyydestä huolissasi"
+        },
+        "children": {
+          "title": "Lasten yksityisyys",
+          "content": "Palvelumme ei ole tarkoitettu alle 13-vuotiaille lapsille. Emme tietoisesti kerää henkilötietoja alle 13-vuotiailta lapsilta."
+        },
+        "changes": {
+          "title": "Muutokset tähän tietosuojakäytäntöön",
+          "content": "Voimme päivittää tätä tietosuojakäytäntöä ajoittain. Ilmoitamme sinulle kaikista muutoksista julkaisemalla uuden tietosuojakäytännön tällä sivulla ja päivittämällä \"Viimeksi päivitetty\" -päivämäärän."
+        },
+        "contact": {
+          "title": "Ota yhteyttä",
+          "text": "Jos sinulla on kysymyksiä tästä tietosuojakäytännöstä, ota yhteyttä meihin osoitteessa",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Käyttöehdot | Photo To URL",
+        "description": "Käyttöehdot Photo To URL:lle."
+      },
+      "page": {
+        "title": "Käyttöehdot",
+        "content": "Käyttämällä Photo To URL:ia hyväksyt palvelun vastuullisen käytön ja sitoutumisen olla lähettämättä laittomia sisältöjä.",
+        "disclaimer": {
+          "title": "Vastuuvapauslauseke",
+          "text": "Palvelu tarjotaan \"sellaisenaan\" ilman takuita. Saatavuus voi muuttua huollon vuoksi."
+        },
+        "contact": {
+          "title": "Yhteystiedot",
+          "text": "Lähetä sähköpostia osoitteeseen",
+          "email": "leeqs1010@gmail.com"
+        }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Evästekäytäntö | Photo To URL",
+          "description": "Evästekäytäntö Photo To URL:lle - Opi, miten käytämme evästeitä ja seurantateknologioita."
+        },
+        "page": {
+          "title": "Evästekäytäntö",
+          "lastUpdated": "Viimeksi päivitetty: tammikuu 2026",
+          "introduction": "Tämä Evästekäytäntö selittää, miten Photo To URL käyttää evästeitä ja vastaavia seurantateknologioita, kun vierailet verkkosivustollamme. Käyttämällä palveluamme hyväksyt evästeiden käytön tämän käytännön mukaisesti.",
+          "whatAreCookies": {
+            "title": "Mitä evästeet ovat",
+            "content": "Evästeet ovat pieniä tekstitiedostoja, jotka asetetaan laitteellesi, kun vierailet verkkosivustolla. Niitä käytetään laajalti tehdäksemme verkkosivustot tehokkaammiksi ja tarjotaksemme tietoja verkkosivustojen omistajille."
+          },
+          "howWeUseCookies": {
+            "title": "Miten käytämme evästeitä",
+            "content": "Käytämme evästeitä seuraaviin tarkoituksiin:",
+            "item1": "Tallentamaan lataushistoriasi ja kieliasetuksesi",
+            "item2": "Analysoimaan verkkosivuston liikennettä ja käyttäjien käyttäytymistä",
+            "item3": "Näyttämään personoituja mainoksia"
+          },
+          "typesOfCookies": {
+            "title": "Käyttämämme evästetyypit",
+            "essential": {
+              "title": "Välttämättömät evästeet",
+              "content": "Nämä evästeet ovat välttämättömiä verkkosivuston oikean toiminnan kannalta. Ne mahdollistavat keskeiset toiminnot, kuten kieliasetusten ja lataushistorian tallentamisen."
+            },
+            "analytics": {
+              "title": "Analyyttiset evästeet",
+              "content": "Käytämme Yandex Metrikaa analysoimaan, miten vierailijat käyttävät verkkosivustoamme. Nämä evästeet keräävät anonyymiä tietoa verkkosivuston käytöstä auttaakseen meitä parantamaan palveluamme."
+            },
+            "advertising": {
+              "title": "Mainosevästeet",
+              "content": "Käytämme Google AdSensea näyttämään mainoksia. Nämä evästeet auttavat tarjoamaan personoituja mainoksia selauskäyttäytymisesi ja kiinnostustesi perusteella."
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "Kolmannen osapuolen evästeet",
+            "content": "Käytämme seuraavia kolmannen osapuolen palveluja, jotka voivat asettaa evästeitä:",
+            "item1": "Google AdSense - Mainontaan (Googlen tietosuojakäytännön alainen)",
+            "item2": "Yandex Metrika - Verkkosivuston analysointiin (Yandexin tietosuojakäytännön alainen)"
+          },
+          "manageCookies": {
+            "title": "Evästeiden hallinta",
+            "content": "Voit hallita evästeitä selaimen asetuksien kautta. Useimmat selaimet antavat sinun kieltäytyä tai hyväksyä evästeet, poistaa olemassa olevat evästeet tai asettaa asetuksia tietyille verkkosivustoille. Evästeiden poistaminen käytöstä voi kuitenkin vaikuttaa palvelumme toiminnallisuuteen."
+          },
+          "changes": {
+            "title": "Muutokset tähän evästekäytäntöön",
+            "content": "Voimme päivittää tätä evästekäytäntöä ajoittain. Ilmoitamme sinulle kaikista muutoksista julkaisemalla uuden evästekäytännön tällä sivulla ja päivittämällä \"Viimeksi päivitetty\" -päivämäärän."
+          },
+          "contact": {
+            "title": "Ota yhteyttä",
+            "text": "Jos sinulla on kysymyksiä tästä evästekäytännöstä, ota yhteyttä meihin osoitteessa",
+            "email": "leeqs1010@gmail.com"
+          }
+        }
       }
     }
   }

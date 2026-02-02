@@ -5,6 +5,7 @@
     "header": {
       "subtitle": "把图片变成可分享的链接",
       "prompt": "拖拽、粘贴或上传 — 立刻获得可分享链接",
+      "circleCrop": "照片圆形裁剪",
       "history": "上传记录"
     },
     "history": {
@@ -27,18 +28,21 @@
         "line2": "快速、简单、可靠。"
       },
       "partners": "合作伙伴",
-      "linksTitle": "链接",
+      "linksTitle": "资源",
       "productsTitle": "产品",
       "nav": {
         "home": "首页",
         "blog": "博客",
         "docs": "文档",
         "status": "状态",
+        "about": "关于",
         "contact": "联系"
       },
       "legal": {
+        "title": "法律",
         "privacy": "隐私",
-        "terms": "条款"
+        "terms": "条款",
+        "cookie": "Cookie 政策"
       },
       "copyright": "© 2025 Photo To URL. 保留所有权利。"
     }
@@ -368,18 +372,100 @@
       }
     }
   },
+  "about": {
+    "seo": {
+      "title": "关于我们 | 图片转链接",
+      "description": "了解更多关于图片转链接 - 一个将照片转换为可分享链接的免费图片托管服务。"
+    },
+    "page": {
+      "title": "关于我们",
+      "mission": {
+        "title": "我们的使命",
+        "content": "图片转链接是一个免费、快速、可靠的图片托管服务，旨在帮助创作者、营销人员和团队将图片即时转换为可分享的链接。我们相信简单、速度和用户隐私。"
+      },
+      "features": {
+        "title": "我们提供的服务",
+        "item1": "免费图片托管，支持 CDN 加速",
+        "item2": "即时生成链接，快速分享",
+        "item3": "支持多种图片格式（JPG、PNG、WEBP、GIF）",
+        "item4": "无需注册，立即使用"
+      },
+      "contact": {
+        "title": "联系我们",
+        "text": "有问题或反馈？请通过以下方式联系我们：",
+        "email": "leeqs1010@gmail.com"
+      }
+    }
+  },
   "legal": {
     "privacy": {
       "seo": {
-        "title": "隐私政策 | Photo To URL",
-        "description": "Photo To URL 的隐私政策。"
+        "title": "隐私政策 | 图片转链接",
+        "description": "图片转链接的隐私政策 - 了解我们如何收集、使用和保护您的数据。"
       },
       "page": {
         "title": "隐私政策",
-        "content": "我们收集运营服务所需的最少数据。上传的图片会被存储以生成可分享的链接。",
+        "lastUpdated": "最后更新：2026年1月",
+        "introduction": "在图片转链接，我们尊重您的隐私并致力于保护您的个人信息。本隐私政策说明了您使用我们的服务时，我们如何收集、使用、披露和保护您的信息。",
+        "dataCollection": {
+          "title": "我们收集的信息",
+          "content1": "当您上传图片时，我们收集：",
+          "item1": "您上传的图片文件（临时存储以生成可分享的链接）",
+          "item2": "文件元数据（文件名、大小、类型）",
+          "item3": "IP 地址（用于速率限制和安全目的）",
+          "item4": "上传时间戳",
+          "content2": "除非您通过我们的联系表单自愿提供，否则我们不会收集您的姓名、电子邮件地址或电话号码等个人信息。"
+        },
+        "dataUsage": {
+          "title": "我们如何使用您的信息",
+          "item1": "生成并提供可分享的图片链接",
+          "item2": "防止滥用并执行上传限制",
+          "item3": "改进我们的服务和用户体验",
+          "item4": "遵守法律义务"
+        },
+        "dataStorage": {
+          "title": "数据存储和保留",
+          "content": "上传的图片存储在 Cloudflare R2 存储中。我们会保留图片，直到不再需要提供服务为止。图片可能会在一段时间不活动后自动删除，或因违反政策而被删除。"
+        },
+        "cookies": {
+          "title": "Cookie 和跟踪技术",
+          "content1": "我们使用以下技术：",
+          "item1": "本地存储：用于存储您的上传历史和语言偏好",
+          "item2": "Google AdSense：用于显示广告（使用 Cookie 进行广告个性化）",
+          "item3": "Yandex Metrika：用于网站分析（匿名数据）",
+          "content2": "您可以通过浏览器设置控制 Cookie。但是，禁用 Cookie 可能会影响我们服务的某些功能。"
+        },
+        "thirdParty": {
+          "title": "第三方服务",
+          "content1": "我们使用以下第三方服务：",
+          "item1": "Cloudflare R2：用于图片存储和 CDN 分发",
+          "item2": "Google AdSense：用于广告（受 Google 隐私政策约束）",
+          "item3": "Yandex Metrika：用于网站分析（受 Yandex 隐私政策约束）",
+          "content2": "这些服务可能会根据其自己的隐私政策收集信息。我们建议您查看他们的隐私政策。"
+        },
+        "dataSecurity": {
+          "title": "数据安全",
+          "content": "我们实施适当的技术和组织措施，以保护您的数据免受未经授权的访问、更改、披露或破坏。但是，通过互联网传输的方法并非100%安全。"
+        },
+        "yourRights": {
+          "title": "您的权利",
+          "content": "您有权：",
+          "item1": "访问您上传的图片和相关数据",
+          "item2": "请求删除您的图片",
+          "item3": "选择退出某些数据收集做法",
+          "item4": "就隐私问题联系我们"
+        },
+        "children": {
+          "title": "儿童隐私",
+          "content": "我们的服务不适用于13岁以下的儿童。我们不会故意收集13岁以下儿童的个人信息。"
+        },
+        "changes": {
+          "title": "隐私政策的变更",
+          "content": "我们可能会不时更新本隐私政策。我们将在本页面上发布新的隐私政策并更新\"最后更新\"日期来通知您任何变更。"
+        },
         "contact": {
-          "title": "联系方式",
-          "text": "有问题？发送邮件至",
+          "title": "联系我们",
+          "text": "如果您对本隐私政策有任何疑问，请通过以下方式联系我们：",
           "email": "leeqs1010@gmail.com"
         }
       }
@@ -400,6 +486,62 @@
           "title": "联系方式",
           "text": "发送邮件至",
           "email": "leeqs1010@gmail.com"
+        }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Cookie 政策 | 图片转链接",
+          "description": "图片转链接的 Cookie 政策 - 了解我们如何使用 Cookie 和跟踪技术。"
+        },
+        "page": {
+          "title": "Cookie 政策",
+          "lastUpdated": "最后更新：2026年1月",
+          "introduction": "本 Cookie 政策说明了图片转链接在您访问我们的网站时如何使用 Cookie 和类似的跟踪技术。使用我们的服务，即表示您同意根据本政策使用 Cookie。",
+          "whatAreCookies": {
+            "title": "什么是 Cookie",
+            "content": "Cookie 是访问网站时放置在您设备上的小型文本文件。它们被广泛用于使网站更高效地工作，并向网站所有者提供信息。"
+          },
+          "howWeUseCookies": {
+            "title": "我们如何使用 Cookie",
+            "content": "我们使用 Cookie 用于以下目的：",
+            "item1": "存储您的上传历史和语言偏好",
+            "item2": "分析网站流量和用户行为",
+            "item3": "显示个性化广告"
+          },
+          "typesOfCookies": {
+            "title": "我们使用的 Cookie 类型",
+            "essential": {
+              "title": "必要 Cookie",
+              "content": "这些 Cookie 是网站正常运行所必需的。它们启用核心功能，例如存储您的语言偏好和上传历史。"
+            },
+            "analytics": {
+              "title": "分析 Cookie",
+              "content": "我们使用 Yandex Metrika 来分析访问者如何使用我们的网站。这些 Cookie 收集有关网站使用情况的匿名信息，以帮助我们改进服务。"
+            },
+            "advertising": {
+              "title": "广告 Cookie",
+              "content": "我们使用 Google AdSense 来显示广告。这些 Cookie 有助于根据您的浏览行为和兴趣提供个性化广告。"
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "第三方 Cookie",
+            "content": "我们使用以下可能设置 Cookie 的第三方服务：",
+            "item1": "Google AdSense - 用于广告（受 Google 隐私政策约束）",
+            "item2": "Yandex Metrika - 用于网站分析（受 Yandex 隐私政策约束）"
+          },
+          "manageCookies": {
+            "title": "管理 Cookie",
+            "content": "您可以通过浏览器设置控制和管理 Cookie。大多数浏览器允许您拒绝或接受 Cookie、删除现有 Cookie 或为某些网站设置偏好。但是，禁用 Cookie 可能会影响我们服务的功能。"
+          },
+          "changes": {
+            "title": "Cookie 政策的变更",
+            "content": "我们可能会不时更新本 Cookie 政策。我们将在本页面上发布新的 Cookie 政策并更新\"最后更新\"日期来通知您任何变更。"
+          },
+          "contact": {
+            "title": "联系我们",
+            "text": "如果您对本 Cookie 政策有任何疑问，请通过以下方式联系我们：",
+            "email": "leeqs1010@gmail.com"
+          }
         }
       }
     }

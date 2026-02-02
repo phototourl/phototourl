@@ -5,6 +5,7 @@
     "header": {
       "subtitle": "Přeměňte obrázky na sdílené odkazy",
       "prompt": "Přetáhněte, vložte nebo nahrajte — okamžitě získejte sdílený odkaz",
+      "circleCrop": "Kruhový výrez fotky",
       "history": "Záznam nahrávání"
     },
     "history": {
@@ -27,18 +28,21 @@
         "line2": "Rychlé, jednoduché, spolehlivé."
       },
       "partners": "Partneři",
-      "linksTitle": "Odkazy",
+      "linksTitle": "Zdroje",
       "productsTitle": "Produkty",
       "nav": {
         "home": "Domů",
         "blog": "Blog",
         "docs": "Dokumentace",
         "status": "Stav",
+        "about": "O nás",
         "contact": "Kontakt"
       },
       "legal": {
+        "title": "Právní",
         "privacy": "Soukromí",
-        "terms": "Podmínky"
+        "terms": "Podmínky",
+        "cookie": "Zásady používání souborů cookie"
       },
       "copyright": "© 2025 Photo To URL. Všechna práva vyhrazena."
     }
@@ -368,18 +372,100 @@
       }
     }
   },
+  "about": {
+    "seo": {
+      "title": "O nás | Photo To URL",
+      "description": "Zjistěte více o Photo To URL - bezplatné službě pro hostování obrázků, která převádí fotografie na sdílené odkazy."
+    },
+    "page": {
+      "title": "O nás",
+      "mission": {
+        "title": "Naše mise",
+        "content": "Photo To URL je bezplatná, rychlá a spolehlivá služba pro hostování obrázků navržená tak, aby pomohla tvůrcům, marketérům a týmům okamžitě převádět obrázky na sdílené odkazy. Věříme v jednoduchost, rychlost a soukromí uživatelů."
+      },
+      "features": {
+        "title": "Co nabízíme",
+        "item1": "Bezplatné hostování obrázků s podporou CDN",
+        "item2": "Okamžité generování odkazů pro rychlé sdílení",
+        "item3": "Podpora více formátů obrázků (JPG, PNG, WEBP, GIF)",
+        "item4": "Bez registrace - použijte okamžitě"
+      },
+      "contact": {
+        "title": "Kontaktujte nás",
+        "text": "Máte otázky nebo připomínky? Kontaktujte nás na",
+        "email": "leeqs1010@gmail.com"
+      }
+    }
+  },
   "legal": {
     "privacy": {
       "seo": {
         "title": "Zásady ochrany osobních údajů | Photo To URL",
-        "description": "Zásady ochrany osobních údajů pro Photo To URL."
+        "description": "Zásady ochrany osobních údajů pro Photo To URL - Zjistěte, jak shromažďujeme, používáme a chráníme vaše údaje."
       },
       "page": {
         "title": "Zásady ochrany osobních údajů",
-        "content": "Shromažďujeme minimální nezbytné údaje pro provoz služby. Nahrané obrázky jsou uloženy pro vygenerování sdíleného odkazu.",
+        "lastUpdated": "Poslední aktualizace: leden 2026",
+        "introduction": "V Photo To URL respektujeme vaše soukromí a jsme odhodláni chránit vaše osobní údaje. Tyto Zásady ochrany osobních údajů vysvětlují, jak shromažďujeme, používáme, zveřejňujeme a chráníme vaše informace při používání naší služby.",
+        "dataCollection": {
+          "title": "Informace, které shromažďujeme",
+          "content1": "Když nahrajete obrázek, shromažďujeme:",
+          "item1": "Soubor obrázku, který nahrajete (dočasně uložen pro vygenerování sdíleného odkazu)",
+          "item2": "Metadata souboru (název souboru, velikost, typ)",
+          "item3": "IP adresa (pro omezení rychlosti a bezpečnostní účely)",
+          "item4": "Časová značka nahrání",
+          "content2": "Neshromažďujeme osobní informace, jako je vaše jméno, e-mailová adresa nebo telefonní číslo, pokud je nedobrovolně neposkytnete prostřednictvím našeho kontaktního formuláře."
+        },
+        "dataUsage": {
+          "title": "Jak používáme vaše informace",
+          "item1": "Pro generování a poskytování odkazů na sdílené obrázky",
+          "item2": "Pro prevenci zneužití a vynucování limitů nahrávání",
+          "item3": "Pro zlepšení naší služby a uživatelského zážitku",
+          "item4": "Pro plnění právních povinností"
+        },
+        "dataStorage": {
+          "title": "Ukládání a uchovávání dat",
+          "content": "Nahrané obrázky jsou uloženy v úložišti Cloudflare R2. Uchováváme obrázky tak dlouho, jak je nutné pro poskytování služby. Obrázky mohou být automaticky smazány po období nečinnosti nebo z důvodu porušení zásad."
+        },
+        "cookies": {
+          "title": "Cookies a technologie sledování",
+          "content1": "Používáme následující technologie:",
+          "item1": "Místní úložiště: Pro ukládání historie nahrávání a jazykových preferencí",
+          "item2": "Google AdSense: Pro zobrazování reklam (používá cookies pro personalizaci reklam)",
+          "item3": "Yandex Metrika: Pro analýzu webových stránek (anonymizovaná data)",
+          "content2": "Cookies můžete ovládat prostřednictvím nastavení vašeho prohlížeče. Deaktivace cookies však může ovlivnit některé funkce naší služby."
+        },
+        "thirdParty": {
+          "title": "Služby třetích stran",
+          "content1": "Používáme následující služby třetích stran:",
+          "item1": "Cloudflare R2: Pro ukládání obrázků a doručování CDN",
+          "item2": "Google AdSense: Pro reklamu (podléhá Zásadám ochrany osobních údajů společnosti Google)",
+          "item3": "Yandex Metrika: Pro analýzu webových stránek (podléhá Zásadám ochrany osobních údajů společnosti Yandex)",
+          "content2": "Tyto služby mohou shromažďovat informace podle svých vlastních zásad ochrany osobních údajů. Doporučujeme vám, abyste si prohlédli jejich zásady ochrany osobních údajů."
+        },
+        "dataSecurity": {
+          "title": "Zabezpečení dat",
+          "content": "Implementujeme vhodná technická a organizační opatření k ochraně vašich údajů před neoprávněným přístupem, změnou, zveřejněním nebo zničením. Žádná metoda přenosu přes internet však není 100% bezpečná."
+        },
+        "yourRights": {
+          "title": "Vaše práva",
+          "content": "Máte právo:",
+          "item1": "Přístup k vašim nahraným obrázkům a souvisejícím údajům",
+          "item2": "Požádat o smazání vašich obrázků",
+          "item3": "Odhlásit se z určitých praktik shromažďování dat",
+          "item4": "Kontaktovat nás s obavami ohledně soukromí"
+        },
+        "children": {
+          "title": "Soukromí dětí",
+          "content": "Naše služba není určena pro děti mladší 13 let. Vědomě neshromažďujeme osobní informace od dětí mladších 13 let."
+        },
+        "changes": {
+          "title": "Změny těchto Zásad ochrany osobních údajů",
+          "content": "Tyto Zásady ochrany osobních údajů můžeme čas od času aktualizovat. O jakýchkoli změnách vás budeme informovat zveřejněním nových Zásad ochrany osobních údajů na této stránce a aktualizací data \"Poslední aktualizace\"."
+        },
         "contact": {
-          "title": "Kontakt",
-          "text": "Otázky? Pošlete e-mail na",
+          "title": "Kontaktujte nás",
+          "text": "Pokud máte otázky ohledně těchto Zásad ochrany osobních údajů, kontaktujte nás na",
           "email": "leeqs1010@gmail.com"
         }
       }
@@ -400,6 +486,62 @@
           "title": "Kontakt",
           "text": "Pošlete e-mail na",
           "email": "leeqs1010@gmail.com"
+        }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Zásady používání souborů cookie | Photo To URL",
+          "description": "Zásady používání souborů cookie pro Photo To URL - Zjistěte, jak používáme cookies a technologie sledování."
+        },
+        "page": {
+          "title": "Zásady používání souborů cookie",
+          "lastUpdated": "Poslední aktualizace: leden 2026",
+          "introduction": "Tyto Zásady používání souborů cookie vysvětlují, jak Photo To URL používá cookies a podobné technologie sledování při návštěvě našich webových stránek. Používáním naší služby souhlasíte s používáním cookies v souladu s těmito zásadami.",
+          "whatAreCookies": {
+            "title": "Co jsou cookies",
+            "content": "Cookies jsou malé textové soubory, které jsou umístěny na vašem zařízení při návštěvě webové stránky. Jsou široce používány k tomu, aby webové stránky fungovaly efektivněji a poskytovaly informace vlastníkům webových stránek."
+          },
+          "howWeUseCookies": {
+            "title": "Jak používáme cookies",
+            "content": "Používáme cookies pro následující účely:",
+            "item1": "Pro ukládání historie nahrávání a jazykových preferencí",
+            "item2": "Pro analýzu provozu na webových stránkách a chování uživatelů",
+            "item3": "Pro zobrazování personalizovaných reklam"
+          },
+          "typesOfCookies": {
+            "title": "Typy cookies, které používáme",
+            "essential": {
+              "title": "Nezbytné cookies",
+              "content": "Tyto cookies jsou nezbytné pro správné fungování webových stránek. Umožňují základní funkce, jako je ukládání vašich jazykových preferencí a historie nahrávání."
+            },
+            "analytics": {
+              "title": "Analytické cookies",
+              "content": "Používáme Yandex Metrika k analýze způsobu, jakým návštěvníci používají naše webové stránky. Tyto cookies shromažďují anonymní informace o používání webových stránek, aby nám pomohly zlepšit naši službu."
+            },
+            "advertising": {
+              "title": "Reklamní cookies",
+              "content": "Používáme Google AdSense k zobrazování reklam. Tyto cookies pomáhají poskytovat personalizované reklamy na základě vašeho chování při procházení a vašich zájmů."
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "Cookies třetích stran",
+            "content": "Používáme následující služby třetích stran, které mohou nastavovat cookies:",
+            "item1": "Google AdSense - Pro reklamu (podléhá Zásadám ochrany osobních údajů společnosti Google)",
+            "item2": "Yandex Metrika - Pro analýzu webových stránek (podléhá Zásadám ochrany osobních údajů společnosti Yandex)"
+          },
+          "manageCookies": {
+            "title": "Správa cookies",
+            "content": "Cookies můžete ovládat a spravovat prostřednictvím nastavení vašeho prohlížeče. Většina prohlížečů vám umožňuje odmítnout nebo přijmout cookies, smazat existující cookies nebo nastavit preference pro určité webové stránky. Deaktivace cookies však může ovlivnit funkčnost naší služby."
+          },
+          "changes": {
+            "title": "Změny těchto Zásad používání souborů cookie",
+            "content": "Tyto Zásady používání souborů cookie můžeme čas od času aktualizovat. O jakýchkoli změnách vás budeme informovat zveřejněním nových Zásad používání souborů cookie na této stránce a aktualizací data \"Poslední aktualizace\"."
+          },
+          "contact": {
+            "title": "Kontaktujte nás",
+            "text": "Pokud máte otázky ohledně těchto Zásad používání souborů cookie, kontaktujte nás na",
+            "email": "leeqs1010@gmail.com"
+          }
         }
       }
     }

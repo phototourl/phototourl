@@ -11,6 +11,10 @@ type UploadHistoryDrawerProps = {
 };
 
 function formatTime(ts: number) {
+  if (typeof window === "undefined") {
+    // 服务器端渲染时返回固定格式，避免 hydration 错误
+    return new Date(ts).toISOString();
+  }
   const d = new Date(ts);
   return d.toLocaleString(undefined, {
     year: "numeric",
@@ -26,10 +30,15 @@ export function UploadHistoryDrawer({ open, onClose }: UploadHistoryDrawerProps)
   const t = useTranslations("common");
   const [items, setItems] = useState<UploadHistoryItem[]>([]);
   const [copiedUrl, setCopiedUrl] = useState<string | null>(null);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    if (open) setItems(getUploadHistory());
-  }, [open]);
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (open && mounted) setItems(getUploadHistory());
+  }, [open, mounted]);
 
   useEffect(() => {
     if (!open) return;
@@ -62,7 +71,7 @@ export function UploadHistoryDrawer({ open, onClose }: UploadHistoryDrawerProps)
     setCopiedUrl(url);
   };
 
-  if (!open) return null;
+  if (!open || !mounted) return null;
 
   const isCopied = (url: string) => copiedUrl === url;
 
@@ -78,21 +87,21 @@ export function UploadHistoryDrawer({ open, onClose }: UploadHistoryDrawerProps)
         role="dialog"
         aria-label={t("history.drawerTitle")}
       >
-        <div className="border-b border-slate-100 px-4 py-3">
+        <div className="border-b border-white/15 hero-gradient flex h-14 flex-col justify-center px-4 sm:h-16">
           <div className="flex items-center justify-between">
-            <h2 className="text-base font-semibold text-slate-900">{t("history.drawerTitle")}</h2>
+            <h2 className="text-base font-semibold text-white sm:text-lg">{t("history.drawerTitle")}</h2>
             <button
             type="button"
             onClick={onClose}
-            className="rounded-lg p-2 text-slate-500 hover:bg-slate-100 hover:text-slate-700"
+            className="rounded-lg p-2 text-white/90 hover:bg-white/20 hover:text-white"
             aria-label={t("history.close")}
           >
             <X className="h-5 w-5" />
           </button>
           </div>
-          <p className="mt-1 text-xs text-slate-500">{t("history.hint")}</p>
+          <p className="mt-0.5 text-xs text-white/80">{t("history.hint")}</p>
         </div>
-        <div className="custom-scrollbar max-h-[calc(100vh-3.5rem)] overflow-y-auto p-3">
+        <div className="custom-scrollbar max-h-[calc(100vh-3.5rem)] overflow-y-auto p-3 sm:max-h-[calc(100vh-4rem)]">
           {items.length === 0 ? (
             <p className="py-8 text-center text-sm text-slate-500">{t("history.empty")}</p>
           ) : (

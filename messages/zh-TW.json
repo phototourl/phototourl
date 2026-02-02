@@ -5,6 +5,7 @@
     "header": {
       "subtitle": "把圖片變成可分享的連結",
       "prompt": "拖曳、貼上或上傳 — 立刻獲得可分享連結",
+      "circleCrop": "照片圓形裁剪",
       "history": "上傳記錄"
     },
     "history": {
@@ -27,18 +28,21 @@
         "line2": "快速、簡單、可靠。"
       },
       "partners": "合作夥伴",
-      "linksTitle": "連結",
+      "linksTitle": "資源",
       "productsTitle": "產品",
       "nav": {
         "home": "首頁",
         "blog": "部落格",
         "docs": "文件",
         "status": "狀態",
+        "about": "關於",
         "contact": "聯絡"
       },
       "legal": {
+        "title": "法律",
         "privacy": "隱私",
-        "terms": "條款"
+        "terms": "條款",
+        "cookie": "Cookie 政策"
       },
       "copyright": "© 2025 Photo To URL. 保留所有權利。"
     }
@@ -368,18 +372,100 @@
       }
     }
   },
+  "about": {
+    "seo": {
+      "title": "關於我們 | Photo To URL",
+      "description": "了解更多關於 Photo To URL - 一個將照片轉換為可分享連結的免費圖片託管服務。"
+    },
+    "page": {
+      "title": "關於我們",
+      "mission": {
+        "title": "我們的使命",
+        "content": "Photo To URL 是一個免費、快速、可靠的圖片託管服務，旨在幫助創作者、行銷人員和團隊將圖片即時轉換為可分享的連結。我們相信簡單、速度和用戶隱私。"
+      },
+      "features": {
+        "title": "我們提供的服務",
+        "item1": "免費圖片託管，支援 CDN 加速",
+        "item2": "即時產生連結，快速分享",
+        "item3": "支援多種圖片格式（JPG、PNG、WEBP、GIF）",
+        "item4": "無需註冊，立即使用"
+      },
+      "contact": {
+        "title": "聯絡我們",
+        "text": "有問題或意見回饋？請透過以下方式聯絡我們：",
+        "email": "leeqs1010@gmail.com"
+      }
+    }
+  },
   "legal": {
     "privacy": {
       "seo": {
         "title": "隱私政策 | Photo To URL",
-        "description": "Photo To URL 的隱私政策。"
+        "description": "Photo To URL 的隱私政策 - 了解我們如何收集、使用和保護您的資料。"
       },
       "page": {
         "title": "隱私政策",
-        "content": "我們收集營運服務所需的最少資料。上傳的圖片會被儲存以產生可分享的連結。",
+        "lastUpdated": "最後更新：2026年1月",
+        "introduction": "在 Photo To URL，我們尊重您的隱私並致力於保護您的個人資訊。本隱私政策說明了您使用我們的服務時，我們如何收集、使用、揭露和保護您的資訊。",
+        "dataCollection": {
+          "title": "我們收集的資訊",
+          "content1": "當您上傳圖片時，我們收集：",
+          "item1": "您上傳的圖片檔案（臨時儲存以產生可分享的連結）",
+          "item2": "檔案元資料（檔案名稱、大小、類型）",
+          "item3": "IP 位址（用於速率限制和安全目的）",
+          "item4": "上傳時間戳記",
+          "content2": "除非您透過我們的聯絡表單自願提供，否則我們不會收集您的姓名、電子郵件地址或電話號碼等個人資訊。"
+        },
+        "dataUsage": {
+          "title": "我們如何使用您的資訊",
+          "item1": "產生並提供可分享的圖片連結",
+          "item2": "防止濫用並執行上傳限制",
+          "item3": "改進我們的服務和用戶體驗",
+          "item4": "遵守法律義務"
+        },
+        "dataStorage": {
+          "title": "資料儲存和保留",
+          "content": "上傳的圖片儲存在 Cloudflare R2 儲存中。我們會保留圖片，直到不再需要提供服務為止。圖片可能會在一段時間不活動後自動刪除，或因違反政策而被刪除。"
+        },
+        "cookies": {
+          "title": "Cookie 和追蹤技術",
+          "content1": "我們使用以下技術：",
+          "item1": "本地儲存：用於儲存您的上傳歷史和語言偏好",
+          "item2": "Google AdSense：用於顯示廣告（使用 Cookie 進行廣告個人化）",
+          "item3": "Yandex Metrika：用於網站分析（匿名資料）",
+          "content2": "您可以透過瀏覽器設定控制 Cookie。但是，停用 Cookie 可能會影響我們服務的某些功能。"
+        },
+        "thirdParty": {
+          "title": "第三方服務",
+          "content1": "我們使用以下第三方服務：",
+          "item1": "Cloudflare R2：用於圖片儲存和 CDN 分發",
+          "item2": "Google AdSense：用於廣告（受 Google 隱私政策約束）",
+          "item3": "Yandex Metrika：用於網站分析（受 Yandex 隱私政策約束）",
+          "content2": "這些服務可能會根據其自己的隱私政策收集資訊。我們建議您查看他們的隱私政策。"
+        },
+        "dataSecurity": {
+          "title": "資料安全",
+          "content": "我們實施適當的技術和組織措施，以保護您的資料免受未經授權的存取、變更、揭露或破壞。但是，透過網際網路傳輸的方法並非100%安全。"
+        },
+        "yourRights": {
+          "title": "您的權利",
+          "content": "您有權：",
+          "item1": "存取您上傳的圖片和相關資料",
+          "item2": "請求刪除您的圖片",
+          "item3": "選擇退出某些資料收集做法",
+          "item4": "就隱私問題聯絡我們"
+        },
+        "children": {
+          "title": "兒童隱私",
+          "content": "我們的服務不適用於13歲以下的兒童。我們不會故意收集13歲以下兒童的個人資訊。"
+        },
+        "changes": {
+          "title": "隱私政策的變更",
+          "content": "我們可能會不時更新本隱私政策。我們將在本頁面上發布新的隱私政策並更新「最後更新」日期來通知您任何變更。"
+        },
         "contact": {
-          "title": "聯絡方式",
-          "text": "有問題？發送郵件至",
+          "title": "聯絡我們",
+          "text": "如果您對本隱私政策有任何疑問，請透過以下方式聯絡我們：",
           "email": "leeqs1010@gmail.com"
         }
       }
@@ -400,6 +486,62 @@
           "title": "聯絡方式",
           "text": "發送郵件至",
           "email": "leeqs1010@gmail.com"
+        }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Cookie 政策 | Photo To URL",
+          "description": "Photo To URL 的 Cookie 政策 - 了解我們如何使用 Cookie 和追蹤技術。"
+        },
+        "page": {
+          "title": "Cookie 政策",
+          "lastUpdated": "最後更新：2026年1月",
+          "introduction": "本 Cookie 政策說明了您造訪我們的網站時，Photo To URL 如何使用 Cookie 及類似的追蹤技術。使用我們的服務，即表示您同意根據本政策使用 Cookie。",
+          "whatAreCookies": {
+            "title": "什麼是 Cookie",
+            "content": "Cookie 是造訪網站時放置在您裝置上的小型文字檔案。它們被廣泛用於使網站更有效率地運作，並向網站擁有者提供資訊。"
+          },
+          "howWeUseCookies": {
+            "title": "我們如何使用 Cookie",
+            "content": "我們使用 Cookie 用於以下目的：",
+            "item1": "儲存您的上傳歷史和語言偏好",
+            "item2": "分析網站流量和使用者行為",
+            "item3": "顯示個人化廣告"
+          },
+          "typesOfCookies": {
+            "title": "我們使用的 Cookie 類型",
+            "essential": {
+              "title": "必要 Cookie",
+              "content": "這些 Cookie 是網站正常運作所必需的。它們啟用核心功能，例如儲存您的語言偏好和上傳歷史。"
+            },
+            "analytics": {
+              "title": "分析 Cookie",
+              "content": "我們使用 Yandex Metrika 來分析訪客如何使用我們的網站。這些 Cookie 收集有關網站使用情況的匿名資訊，以幫助我們改進服務。"
+            },
+            "advertising": {
+              "title": "廣告 Cookie",
+              "content": "我們使用 Google AdSense 來顯示廣告。這些 Cookie 有助於根據您的瀏覽行為和興趣提供個人化廣告。"
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "第三方 Cookie",
+            "content": "我們使用以下可能設定 Cookie 的第三方服務：",
+            "item1": "Google AdSense - 用於廣告（受 Google 隱私政策約束）",
+            "item2": "Yandex Metrika - 用於網站分析（受 Yandex 隱私政策約束）"
+          },
+          "manageCookies": {
+            "title": "管理 Cookie",
+            "content": "您可以透過瀏覽器設定控制和管理 Cookie。大多數瀏覽器允許您拒絕或接受 Cookie、刪除現有 Cookie 或為某些網站設定偏好。但是，停用 Cookie 可能會影響我們服務的功能。"
+          },
+          "changes": {
+            "title": "Cookie 政策的變更",
+            "content": "我們可能會不時更新本 Cookie 政策。我們將在本頁面上發布新的 Cookie 政策並更新「最後更新」日期來通知您任何變更。"
+          },
+          "contact": {
+            "title": "聯絡我們",
+            "text": "如果您對本 Cookie 政策有任何疑問，請透過以下方式聯絡我們：",
+            "email": "leeqs1010@gmail.com"
+          }
         }
       }
     }

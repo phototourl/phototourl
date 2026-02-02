@@ -5,6 +5,7 @@
     "header": {
       "subtitle": "Bilder als Link teilen",
       "prompt": "Ziehen, einfügen oder hochladen — sofort einen Link erhalten",
+      "circleCrop": "Foto zu Kreis zuschneiden",
       "history": "Upload-Verlauf"
     },
     "history": {
@@ -27,18 +28,21 @@
         "line2": "Schnell, einfach, zuverlässig."
       },
       "partners": "Partner",
-      "linksTitle": "Links",
+      "linksTitle": "Ressourcen",
       "productsTitle": "Produkte",
       "nav": {
         "home": "Start",
         "blog": "Blog",
         "docs": "Docs",
         "status": "Status",
+        "about": "Über uns",
         "contact": "Kontakt"
       },
       "legal": {
+        "title": "Rechtliches",
         "privacy": "Datenschutz",
-        "terms": "AGB"
+        "terms": "AGB",
+        "cookie": "Cookie-Richtlinie"
       },
       "copyright": "© 2025 Photo To URL. Alle Rechte vorbehalten."
     }
@@ -368,18 +372,100 @@
       }
     }
   },
+  "about": {
+    "seo": {
+      "title": "Über uns | Photo To URL",
+      "description": "Erfahren Sie mehr über Photo To URL - einen kostenlosen Bildhosting-Service, der Fotos in teilbare Links umwandelt."
+    },
+    "page": {
+      "title": "Über uns",
+      "mission": {
+        "title": "Unsere Mission",
+        "content": "Photo To URL ist ein kostenloser, schneller und zuverlässiger Bildhosting-Service, der darauf ausgelegt ist, Kreativen, Marketern und Teams dabei zu helfen, Bilder sofort in teilbare Links umzuwandeln. Wir glauben an Einfachheit, Geschwindigkeit und Datenschutz der Nutzer."
+      },
+      "features": {
+        "title": "Was wir bieten",
+        "item1": "Kostenloses Bildhosting mit CDN-Unterstützung",
+        "item2": "Sofortige Linkgenerierung für schnelles Teilen",
+        "item3": "Unterstützung für mehrere Bildformate (JPG, PNG, WEBP, GIF)",
+        "item4": "Keine Registrierung erforderlich - sofort nutzbar"
+      },
+      "contact": {
+        "title": "Kontaktieren Sie uns",
+        "text": "Haben Sie Fragen oder Feedback? Kontaktieren Sie uns unter",
+        "email": "leeqs1010@gmail.com"
+      }
+    }
+  },
   "legal": {
     "privacy": {
       "seo": {
         "title": "Datenschutzrichtlinie | Photo To URL",
-        "description": "Datenschutzrichtlinie für Photo To URL."
+        "description": "Datenschutzrichtlinie für Photo To URL - Erfahren Sie, wie wir Ihre Daten sammeln, verwenden und schützen."
       },
       "page": {
         "title": "Datenschutzrichtlinie",
-        "content": "Wir sammeln die für den Betrieb des Dienstes erforderlichen Mindestdaten. Hochgeladene Bilder werden gespeichert, um einen teilbaren Link zu generieren.",
+        "lastUpdated": "Zuletzt aktualisiert: Januar 2026",
+        "introduction": "Bei Photo To URL respektieren wir Ihre Privatsphäre und sind dem Schutz Ihrer persönlichen Informationen verpflichtet. Diese Datenschutzrichtlinie erklärt, wie wir Ihre Informationen sammeln, verwenden, offenlegen und schützen, wenn Sie unseren Service nutzen.",
+        "dataCollection": {
+          "title": "Informationen, die wir sammeln",
+          "content1": "Wenn Sie ein Bild hochladen, sammeln wir:",
+          "item1": "Die von Ihnen hochgeladene Bilddatei (temporär gespeichert, um einen teilbaren Link zu generieren)",
+          "item2": "Datei-Metadaten (Dateiname, Größe, Typ)",
+          "item3": "IP-Adresse (für Ratenbegrenzung und Sicherheitszwecke)",
+          "item4": "Upload-Zeitstempel",
+          "content2": "Wir sammeln keine persönlichen Informationen wie Ihren Namen, Ihre E-Mail-Adresse oder Telefonnummer, es sei denn, Sie stellen diese freiwillig über unser Kontaktformular zur Verfügung."
+        },
+        "dataUsage": {
+          "title": "Wie wir Ihre Informationen verwenden",
+          "item1": "Zur Generierung und Bereitstellung teilbarer Bildlinks",
+          "item2": "Zur Verhinderung von Missbrauch und Durchsetzung von Upload-Limits",
+          "item3": "Zur Verbesserung unseres Services und der Benutzererfahrung",
+          "item4": "Zur Erfüllung gesetzlicher Verpflichtungen"
+        },
+        "dataStorage": {
+          "title": "Datenspeicherung und -aufbewahrung",
+          "content": "Hochgeladene Bilder werden auf Cloudflare R2-Speicher gespeichert. Wir behalten Bilder so lange, wie es zur Bereitstellung des Services erforderlich ist. Bilder können automatisch nach einer Inaktivitätsperiode oder aufgrund von Richtlinienverstößen gelöscht werden."
+        },
+        "cookies": {
+          "title": "Cookies und Tracking-Technologien",
+          "content1": "Wir verwenden die folgenden Technologien:",
+          "item1": "Lokaler Speicher: Zur Speicherung Ihres Upload-Verlaufs und Ihrer Spracheinstellungen",
+          "item2": "Google AdSense: Zur Anzeige von Werbung (verwendet Cookies zur Werbepersonalisierung)",
+          "item3": "Yandex Metrika: Zur Website-Analyse (anonymisierte Daten)",
+          "content2": "Sie können Cookies über Ihre Browsereinstellungen steuern. Das Deaktivieren von Cookies kann jedoch einige Funktionen unseres Services beeinträchtigen."
+        },
+        "thirdParty": {
+          "title": "Drittanbieter-Services",
+          "content1": "Wir verwenden die folgenden Drittanbieter-Services:",
+          "item1": "Cloudflare R2: Zur Bildspeicherung und CDN-Bereitstellung",
+          "item2": "Google AdSense: Für Werbung (unterliegt der Datenschutzrichtlinie von Google)",
+          "item3": "Yandex Metrika: Zur Website-Analyse (unterliegt der Datenschutzrichtlinie von Yandex)",
+          "content2": "Diese Services können Informationen gemäß ihren eigenen Datenschutzrichtlinien sammeln. Wir empfehlen Ihnen, deren Datenschutzrichtlinien zu überprüfen."
+        },
+        "dataSecurity": {
+          "title": "Datensicherheit",
+          "content": "Wir implementieren angemessene technische und organisatorische Maßnahmen, um Ihre Daten vor unbefugtem Zugriff, Änderung, Offenlegung oder Zerstörung zu schützen. Jedoch ist keine Übertragungsmethode über das Internet zu 100% sicher."
+        },
+        "yourRights": {
+          "title": "Ihre Rechte",
+          "content": "Sie haben das Recht:",
+          "item1": "Auf Ihre hochgeladenen Bilder und zugehörige Daten zuzugreifen",
+          "item2": "Die Löschung Ihrer Bilder anzufordern",
+          "item3": "Sich von bestimmten Datensammlungspraktiken abzumelden",
+          "item4": "Uns bei Datenschutzbedenken zu kontaktieren"
+        },
+        "children": {
+          "title": "Datenschutz von Kindern",
+          "content": "Unser Service richtet sich nicht an Kinder unter 13 Jahren. Wir sammeln wissentlich keine persönlichen Informationen von Kindern unter 13 Jahren."
+        },
+        "changes": {
+          "title": "Änderungen an dieser Datenschutzrichtlinie",
+          "content": "Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Wir werden Sie über Änderungen informieren, indem wir die neue Datenschutzrichtlinie auf dieser Seite veröffentlichen und das Datum \"Zuletzt aktualisiert\" aktualisieren."
+        },
         "contact": {
-          "title": "Kontakt",
-          "text": "Fragen? E-Mail an",
+          "title": "Kontaktieren Sie uns",
+          "text": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter",
           "email": "leeqs1010@gmail.com"
         }
       }
@@ -400,6 +486,62 @@
           "title": "Kontakt",
           "text": "E-Mail an",
           "email": "leeqs1010@gmail.com"
+        }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Cookie-Richtlinie | Photo To URL",
+          "description": "Cookie-Richtlinie für Photo To URL - Erfahren Sie, wie wir Cookies und Tracking-Technologien verwenden."
+        },
+        "page": {
+          "title": "Cookie-Richtlinie",
+          "lastUpdated": "Zuletzt aktualisiert: Januar 2026",
+          "introduction": "Diese Cookie-Richtlinie erklärt, wie Photo To URL Cookies und ähnliche Tracking-Technologien verwendet, wenn Sie unsere Website besuchen. Durch die Nutzung unseres Services stimmen Sie der Verwendung von Cookies gemäß dieser Richtlinie zu.",
+          "whatAreCookies": {
+            "title": "Was sind Cookies",
+            "content": "Cookies sind kleine Textdateien, die auf Ihrem Gerät platziert werden, wenn Sie eine Website besuchen. Sie werden häufig verwendet, um Websites effizienter zu machen und Website-Besitzern Informationen zu liefern."
+          },
+          "howWeUseCookies": {
+            "title": "Wie wir Cookies verwenden",
+            "content": "Wir verwenden Cookies für folgende Zwecke:",
+            "item1": "Zur Speicherung Ihres Upload-Verlaufs und Ihrer Spracheinstellungen",
+            "item2": "Zur Analyse des Website-Traffics und des Benutzerverhaltens",
+            "item3": "Zur Anzeige personalisierter Werbung"
+          },
+          "typesOfCookies": {
+            "title": "Arten von Cookies, die wir verwenden",
+            "essential": {
+              "title": "Notwendige Cookies",
+              "content": "Diese Cookies sind für das ordnungsgemäße Funktionieren der Website erforderlich. Sie ermöglichen Kernfunktionen wie die Speicherung Ihrer Spracheinstellungen und Ihres Upload-Verlaufs."
+            },
+            "analytics": {
+              "title": "Analyse-Cookies",
+              "content": "Wir verwenden Yandex Metrika, um zu analysieren, wie Besucher unsere Website nutzen. Diese Cookies sammeln anonyme Informationen über die Website-Nutzung, um uns bei der Verbesserung unseres Services zu helfen."
+            },
+            "advertising": {
+              "title": "Werbungs-Cookies",
+              "content": "Wir verwenden Google AdSense zur Anzeige von Werbung. Diese Cookies helfen dabei, personalisierte Werbung basierend auf Ihrem Surfverhalten und Ihren Interessen zu liefern."
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "Cookies von Drittanbietern",
+            "content": "Wir verwenden die folgenden Drittanbieter-Services, die Cookies setzen können:",
+            "item1": "Google AdSense - Für Werbung (unterliegt der Datenschutzrichtlinie von Google)",
+            "item2": "Yandex Metrika - Zur Website-Analyse (unterliegt der Datenschutzrichtlinie von Yandex)"
+          },
+          "manageCookies": {
+            "title": "Cookies verwalten",
+            "content": "Sie können Cookies über Ihre Browsereinstellungen steuern und verwalten. Die meisten Browser ermöglichen es Ihnen, Cookies abzulehnen oder zu akzeptieren, vorhandene Cookies zu löschen oder Einstellungen für bestimmte Websites festzulegen. Das Deaktivieren von Cookies kann jedoch die Funktionalität unseres Services beeinträchtigen."
+          },
+          "changes": {
+            "title": "Änderungen an dieser Cookie-Richtlinie",
+            "content": "Wir können diese Cookie-Richtlinie von Zeit zu Zeit aktualisieren. Wir werden Sie über Änderungen informieren, indem wir die neue Cookie-Richtlinie auf dieser Seite veröffentlichen und das Datum \"Zuletzt aktualisiert\" aktualisieren."
+          },
+          "contact": {
+            "title": "Kontaktieren Sie uns",
+            "text": "Wenn Sie Fragen zu dieser Cookie-Richtlinie haben, kontaktieren Sie uns bitte unter",
+            "email": "leeqs1010@gmail.com"
+          }
         }
       }
     }

@@ -5,6 +5,7 @@
     "header": {
       "subtitle": "Zamieniaj obrazy w linki do udostępniania",
       "prompt": "Przeciągnij, wklej lub wyślij — otrzymaj link natychmiast",
+      "circleCrop": "Okrągłe przycinanie zdjęć",
       "history": "Zapis przesyłania"
     },
     "history": {
@@ -27,18 +28,21 @@
         "line2": "Szybko, prosto, niezawodnie."
       },
       "partners": "Partnerzy",
-      "linksTitle": "Linki",
+      "linksTitle": "Zasoby",
       "productsTitle": "Produkty",
       "nav": {
         "home": "Strona główna",
         "blog": "Blog",
         "docs": "Dokumentacja",
         "status": "Status",
+        "about": "O nas",
         "contact": "Kontakt"
       },
       "legal": {
+        "title": "Prawne",
         "privacy": "Prywatność",
-        "terms": "Warunki"
+        "terms": "Warunki",
+        "cookie": "Polityka plików cookie"
       },
       "copyright": "© 2025 Photo To URL. Wszelkie prawa zastrzeżone."
     }
@@ -368,18 +372,100 @@
       }
     }
   },
+  "about": {
+    "seo": {
+      "title": "O nas | Photo To URL",
+      "description": "Dowiedz się więcej o Photo To URL - darmowej usłudze hostingu obrazów, która zamienia zdjęcia na linki do udostępniania."
+    },
+    "page": {
+      "title": "O nas",
+      "mission": {
+        "title": "Nasza misja",
+        "content": "Photo To URL to darmowa, szybka i niezawodna usługa hostingu obrazów zaprojektowana, aby pomóc twórcom, marketerom i zespołom w natychmiastowym przekształcaniu obrazów w linki do udostępniania. Wierzymy w prostotę, szybkość i prywatność użytkowników."
+      },
+      "features": {
+        "title": "Co oferujemy",
+        "item1": "Darmowy hosting obrazów z obsługą CDN",
+        "item2": "Natychmiastowe generowanie linków do szybkiego udostępniania",
+        "item3": "Obsługa wielu formatów obrazów (JPG, PNG, WEBP, GIF)",
+        "item4": "Brak rejestracji wymaganej - użyj od razu"
+      },
+      "contact": {
+        "title": "Skontaktuj się z nami",
+        "text": "Masz pytania lub uwagi? Skontaktuj się z nami pod adresem",
+        "email": "leeqs1010@gmail.com"
+      }
+    }
+  },
   "legal": {
     "privacy": {
       "seo": {
         "title": "Polityka prywatności | Photo To URL",
-        "description": "Polityka prywatności dla Photo To URL."
+        "description": "Polityka prywatności dla Photo To URL - Dowiedz się, jak zbieramy, wykorzystujemy i chronimy Twoje dane."
       },
       "page": {
         "title": "Polityka prywatności",
-        "content": "Zbieramy minimalne dane niezbędne do obsługi serwisu. Przesłane obrazy są przechowywane w celu wygenerowania linku do udostępnienia.",
+        "lastUpdated": "Ostatnia aktualizacja: styczeń 2026",
+        "introduction": "W Photo To URL szanujemy Twoją prywatność i jesteśmy zobowiązani do ochrony Twoich danych osobowych. Ta Polityka Prywatności wyjaśnia, jak zbieramy, wykorzystujemy, ujawniamy i chronimy Twoje informacje podczas korzystania z naszej usługi.",
+        "dataCollection": {
+          "title": "Informacje, które zbieramy",
+          "content1": "Gdy przesyłasz obraz, zbieramy:",
+          "item1": "Plik obrazu, który przesyłasz (tymczasowo przechowywany w celu wygenerowania linku do udostępnienia)",
+          "item2": "Metadane pliku (nazwa, rozmiar, typ)",
+          "item3": "Adres IP (w celu ograniczenia szybkości i celów bezpieczeństwa)",
+          "item4": "Znacznik czasu przesłania",
+          "content2": "Nie zbieramy informacji osobowych, takich jak Twoje imię, adres e-mail lub numer telefonu, chyba że podasz je dobrowolnie za pośrednictwem naszego formularza kontaktowego."
+        },
+        "dataUsage": {
+          "title": "Jak wykorzystujemy Twoje informacje",
+          "item1": "Aby generować i dostarczać linki do obrazów do udostępniania",
+          "item2": "Aby zapobiegać nadużyciom i egzekwować limity przesyłania",
+          "item3": "Aby ulepszać naszą usługę i doświadczenia użytkownika",
+          "item4": "Aby przestrzegać zobowiązań prawnych"
+        },
+        "dataStorage": {
+          "title": "Przechowywanie i przechowywanie danych",
+          "content": "Przesłane obrazy są przechowywane w magazynie Cloudflare R2. Przechowujemy obrazy tak długo, jak jest to konieczne do świadczenia usługi. Obrazy mogą być automatycznie usuwane po okresie braku aktywności lub z powodu naruszeń polityki."
+        },
+        "cookies": {
+          "title": "Pliki cookie i technologie śledzące",
+          "content1": "Używamy następujących technologii:",
+          "item1": "Magazyn lokalny: Do przechowywania historii przesyłania i preferencji językowych",
+          "item2": "Google AdSense: Do wyświetlania reklam (używa plików cookie do personalizacji reklam)",
+          "item3": "Yandex Metrika: Do analizy strony internetowej (dane anonimowe)",
+          "content2": "Możesz kontrolować pliki cookie za pośrednictwem ustawień przeglądarki. Jednak wyłączenie plików cookie może wpłynąć na niektóre funkcje naszej usługi."
+        },
+        "thirdParty": {
+          "title": "Usługi stron trzecich",
+          "content1": "Używamy następujących usług stron trzecich:",
+          "item1": "Cloudflare R2: Do przechowywania obrazów i dostarczania CDN",
+          "item2": "Google AdSense: Do reklamy (zgodnie z Polityką Prywatności Google)",
+          "item3": "Yandex Metrika: Do analizy strony internetowej (zgodnie z Polityką Prywatności Yandex)",
+          "content2": "Te usługi mogą zbierać informacje zgodnie z własnymi politykami prywatności. Zachęcamy do zapoznania się z ich politykami prywatności."
+        },
+        "dataSecurity": {
+          "title": "Bezpieczeństwo danych",
+          "content": "Wdrażamy odpowiednie środki techniczne i organizacyjne w celu ochrony Twoich danych przed nieautoryzowanym dostępem, zmianą, ujawnieniem lub zniszczeniem. Jednak żadna metoda transmisji przez Internet nie jest w 100% bezpieczna."
+        },
+        "yourRights": {
+          "title": "Twoje prawa",
+          "content": "Masz prawo do:",
+          "item1": "Dostępu do przesłanych obrazów i powiązanych danych",
+          "item2": "Żądania usunięcia Twoich obrazów",
+          "item3": "Rezygnacji z niektórych praktyk zbierania danych",
+          "item4": "Kontaktu z nami w sprawach dotyczących prywatności"
+        },
+        "children": {
+          "title": "Prywatność dzieci",
+          "content": "Nasza usługa nie jest przeznaczona dla dzieci poniżej 13 roku życia. Nie zbieramy świadomie informacji osobowych od dzieci poniżej 13 roku życia."
+        },
+        "changes": {
+          "title": "Zmiany w tej Polityce Prywatności",
+          "content": "Możemy od czasu do czasu aktualizować tę Politykę Prywatności. Powiadomimy Cię o wszelkich zmianach, publikując nową Politykę Prywatności na tej stronie i aktualizując datę \"Ostatnia aktualizacja\"."
+        },
         "contact": {
-          "title": "Kontakt",
-          "text": "Pytania? Wyślij e-mail na",
+          "title": "Skontaktuj się z nami",
+          "text": "Jeśli masz pytania dotyczące tej Polityki Prywatności, skontaktuj się z nami pod adresem",
           "email": "leeqs1010@gmail.com"
         }
       }
@@ -400,6 +486,62 @@
           "title": "Kontakt",
           "text": "Wyślij e-mail na",
           "email": "leeqs1010@gmail.com"
+        }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Polityka plików cookie | Photo To URL",
+          "description": "Polityka plików cookie dla Photo To URL - Dowiedz się, jak używamy plików cookie i technologii śledzących."
+        },
+        "page": {
+          "title": "Polityka plików cookie",
+          "lastUpdated": "Ostatnia aktualizacja: styczeń 2026",
+          "introduction": "Ta Polityka plików cookie wyjaśnia, jak Photo To URL używa plików cookie i podobnych technologii śledzących podczas odwiedzania naszej strony internetowej. Korzystając z naszej usługi, zgadzasz się na użycie plików cookie zgodnie z tą polityką.",
+          "whatAreCookies": {
+            "title": "Czym są pliki cookie",
+            "content": "Pliki cookie to małe pliki tekstowe, które są umieszczane na Twoim urządzeniu podczas odwiedzania strony internetowej. Są szeroko stosowane, aby strony internetowe działały wydajniej i dostarczały informacji właścicielom stron."
+          },
+          "howWeUseCookies": {
+            "title": "Jak używamy plików cookie",
+            "content": "Używamy plików cookie do następujących celów:",
+            "item1": "Do przechowywania historii przesyłania i preferencji językowych",
+            "item2": "Do analizy ruchu na stronie internetowej i zachowania użytkowników",
+            "item3": "Do wyświetlania spersonalizowanych reklam"
+          },
+          "typesOfCookies": {
+            "title": "Rodzaje plików cookie, których używamy",
+            "essential": {
+              "title": "Niezbędne pliki cookie",
+              "content": "Te pliki cookie są niezbędne do prawidłowego funkcjonowania strony internetowej. Umożliwiają podstawowe funkcje, takie jak przechowywanie preferencji językowych i historii przesyłania."
+            },
+            "analytics": {
+              "title": "Pliki cookie analityczne",
+              "content": "Używamy Yandex Metrika do analizowania, jak odwiedzający korzystają z naszej strony internetowej. Te pliki cookie zbierają anonimowe informacje o korzystaniu ze strony, aby pomóc nam ulepszyć naszą usługę."
+            },
+            "advertising": {
+              "title": "Pliki cookie reklamowe",
+              "content": "Używamy Google AdSense do wyświetlania reklam. Te pliki cookie pomagają dostarczać spersonalizowane reklamy na podstawie Twojego zachowania podczas przeglądania i zainteresowań."
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "Pliki cookie stron trzecich",
+            "content": "Używamy następujących usług stron trzecich, które mogą ustawiać pliki cookie:",
+            "item1": "Google AdSense - Do reklamy (zgodnie z Polityką Prywatności Google)",
+            "item2": "Yandex Metrika - Do analizy strony internetowej (zgodnie z Polityką Prywatności Yandex)"
+          },
+          "manageCookies": {
+            "title": "Zarządzanie plikami cookie",
+            "content": "Możesz kontrolować i zarządzać plikami cookie za pośrednictwem ustawień przeglądarki. Większość przeglądarek pozwala na odrzucanie lub akceptowanie plików cookie, usuwanie istniejących plików cookie lub ustawianie preferencji dla określonych stron internetowych. Jednak wyłączenie plików cookie może wpłynąć na funkcjonalność naszej usługi."
+          },
+          "changes": {
+            "title": "Zmiany w tej Polityce plików cookie",
+            "content": "Możemy od czasu do czasu aktualizować tę Politykę plików cookie. Powiadomimy Cię o wszelkich zmianach, publikując nową Politykę plików cookie na tej stronie i aktualizując datę \"Ostatnia aktualizacja\"."
+          },
+          "contact": {
+            "title": "Skontaktuj się z nami",
+            "text": "Jeśli masz pytania dotyczące tej Polityki plików cookie, skontaktuj się z nami pod adresem",
+            "email": "leeqs1010@gmail.com"
+          }
         }
       }
     }

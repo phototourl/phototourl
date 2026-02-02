@@ -28,18 +28,21 @@
         "line2": "Rapid, simplu, de încredere."
       },
       "partners": "Parteneri",
-      "linksTitle": "Linkuri",
+      "linksTitle": "Resurse",
       "productsTitle": "Produse",
       "nav": {
         "home": "Acasă",
         "blog": "Blog",
         "docs": "Documentație",
         "status": "Stare",
+        "about": "Despre noi",
         "contact": "Contact"
       },
       "legal": {
+        "title": "Legal",
         "privacy": "Confidențialitate",
-        "terms": "Termeni"
+        "terms": "Termeni",
+        "cookie": "Politica de cookie-uri"
       },
       "copyright": "© 2025 Photo To URL. Toate drepturile rezervate."
     }
@@ -181,6 +184,180 @@
         "thankYou": "Vă mulțumim pentru feedback!",
         "averageRating": "4.5",
         "votes": "4,992 voturi"
+      }
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "Despre noi | Photo To URL",
+      "description": "Aflați mai multe despre Photo To URL - un serviciu gratuit de găzduire imagini care transformă fotografii în linkuri partajabile."
+    },
+    "page": {
+      "title": "Despre noi",
+      "mission": {
+        "title": "Misiunea noastră",
+        "content": "Photo To URL este un serviciu gratuit, rapid și de încredere de găzduire imagini, conceput pentru a ajuta creatori, marketeri și echipe să transforme imagini în linkuri partajabile instant. Credem în simplitate, viteză și confidențialitatea utilizatorilor."
+      },
+      "features": {
+        "title": "Ce oferim",
+        "item1": "Găzduire imagini gratuită cu suport CDN",
+        "item2": "Generare instantanee de linkuri pentru partajare rapidă",
+        "item3": "Suport pentru multiple formate de imagini (JPG, PNG, WEBP, GIF)",
+        "item4": "Nu este necesară înregistrarea - folosiți imediat"
+      },
+      "contact": {
+        "title": "Contactați-ne",
+        "text": "Aveți întrebări sau feedback? Contactați-ne la",
+        "email": "leeqs1010@gmail.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Politica de confidențialitate | Photo To URL",
+        "description": "Politica de confidențialitate pentru Photo To URL - Aflați cum colectăm, folosim și protejăm datele dvs."
+      },
+      "page": {
+        "title": "Politica de confidențialitate",
+        "lastUpdated": "Ultima actualizare: ianuarie 2026",
+        "introduction": "La Photo To URL, respectăm confidențialitatea dvs. și suntem dedicați protejării informațiilor dvs. personale. Această Politică de Confidențialitate explică cum colectăm, folosim, dezvăluim și protejăm informațiile dvs. când folosiți serviciul nostru.",
+        "dataCollection": {
+          "title": "Informații pe care le colectăm",
+          "content1": "Când încărcați o imagine, colectăm:",
+          "item1": "Fișierul de imagine pe care îl încărcați (stocat temporar pentru a genera un link partajabil)",
+          "item2": "Metadatele fișierului (numele fișierului, dimensiunea, tipul)",
+          "item3": "Adresa IP (pentru limitarea ratei și scopuri de securitate)",
+          "item4": "Marcajul temporal al încărcării",
+          "content2": "Nu colectăm informații personale precum numele dvs., adresa de e-mail sau numărul de telefon, cu excepția cazului în care le furnizați voluntar prin formularul nostru de contact."
+        },
+        "dataUsage": {
+          "title": "Cum folosim informațiile dvs.",
+          "item1": "Pentru a genera și oferi linkuri de imagini partajabile",
+          "item2": "Pentru a preveni abuzul și a aplica limitele de încărcare",
+          "item3": "Pentru a îmbunătăți serviciul nostru și experiența utilizatorului",
+          "item4": "Pentru a respecta obligațiile legale"
+        },
+        "dataStorage": {
+          "title": "Stocarea și păstrarea datelor",
+          "content": "Imaginile încărcate sunt stocate pe stocarea Cloudflare R2. Păstrăm imagini atât timp cât este necesar pentru a oferi serviciul. Imaginile pot fi șterse automat după o perioadă de inactivitate sau din cauza încălcărilor politicii."
+        },
+        "cookies": {
+          "title": "Cookie-uri și tehnologii de urmărire",
+          "content1": "Folosim următoarele tehnologii:",
+          "item1": "Stocare locală: Pentru a stoca istoricul dvs. de încărcări și preferințele de limbă",
+          "item2": "Google AdSense: Pentru afișarea anunțurilor (folosește cookie-uri pentru personalizarea anunțurilor)",
+          "item3": "Yandex Metrika: Pentru analiza site-ului web (date anonimizate)",
+          "content2": "Puteți controla cookie-urile prin setările browserului dvs. Cu toate acestea, dezactivarea cookie-urilor poate afecta unele funcționalități ale serviciului nostru."
+        },
+        "thirdParty": {
+          "title": "Servicii terțe",
+          "content1": "Folosim următoarele servicii terțe:",
+          "item1": "Cloudflare R2: Pentru stocarea imaginilor și livrarea CDN",
+          "item2": "Google AdSense: Pentru publicitate (subiect la Politica de Confidențialitate Google)",
+          "item3": "Yandex Metrika: Pentru analiza site-ului web (subiect la Politica de Confidențialitate Yandex)",
+          "content2": "Aceste servicii pot colecta informații în conformitate cu propriile lor politici de confidențialitate. Vă încurajăm să le examinați politicile de confidențialitate."
+        },
+        "dataSecurity": {
+          "title": "Securitatea datelor",
+          "content": "Implementăm măsuri tehnice și organizaționale adecvate pentru a vă proteja datele împotriva accesului neautorizat, modificării, dezvăluirii sau distrugerii. Cu toate acestea, nicio metodă de transmisie prin internet nu este 100% sigură."
+        },
+        "yourRights": {
+          "title": "Drepturile dvs.",
+          "content": "Aveți dreptul să:",
+          "item1": "Accesați imaginile dvs. încărcate și datele asociate",
+          "item2": "Solicitați ștergerea imaginilor dvs.",
+          "item3": "Să vă excludeți din anumite practici de colectare a datelor",
+          "item4": "Să ne contactați cu preocupări privind confidențialitatea"
+        },
+        "children": {
+          "title": "Confidențialitatea copiilor",
+          "content": "Serviciul nostru nu este destinat copiilor sub 13 ani. Nu colectăm în mod conștient informații personale de la copiii sub 13 ani."
+        },
+        "changes": {
+          "title": "Modificări ale acestei Politici de Confidențialitate",
+          "content": "Putem actualiza această Politică de Confidențialitate din când în când. Vă vom notifica despre orice modificări prin publicarea noii Politici de Confidențialitate pe această pagină și actualizarea datei \"Ultima actualizare\"."
+        },
+        "contact": {
+          "title": "Contactați-ne",
+          "text": "Dacă aveți întrebări despre această Politică de Confidențialitate, vă rugăm să ne contactați la",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Termenii de utilizare | Photo To URL",
+        "description": "Termenii de utilizare pentru Photo To URL."
+      },
+      "page": {
+        "title": "Termenii de utilizare",
+        "content": "Prin utilizarea Photo To URL, sunteți de acord să folosiți serviciul în mod responsabil și să nu încărcați conținut ilegal.",
+        "disclaimer": {
+          "title": "Declinare de răspundere",
+          "text": "Serviciul este furnizat \"așa cum este\" fără garanții. Disponibilitatea poate fi modificată din cauza întreținerii."
+        },
+        "contact": {
+          "title": "Contact",
+          "text": "Trimiteți un e-mail la",
+          "email": "leeqs1010@gmail.com"
+        }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Politica cookie-urilor | Photo To URL",
+          "description": "Politica cookie-urilor pentru Photo To URL - Aflați cum folosim cookie-urile și tehnologiile de urmărire."
+        },
+        "page": {
+          "title": "Politica cookie-urilor",
+          "lastUpdated": "Ultima actualizare: ianuarie 2026",
+          "introduction": "Această Politică de Cookie-uri explică modul în care Photo To URL folosește cookie-uri și tehnologii similare de urmărire când vizitați site-ul nostru web. Prin utilizarea serviciului nostru, sunteți de acord cu utilizarea cookie-urilor în conformitate cu această politică.",
+          "whatAreCookies": {
+            "title": "Ce sunt cookie-urile",
+            "content": "Cookie-urile sunt fișiere text mici care sunt plasate pe dispozitivul dvs. când vizitați un site web. Sunt utilizate pe scară largă pentru a face site-urile web să funcționeze mai eficient și pentru a furniza informații proprietarilor de site-uri web."
+          },
+          "howWeUseCookies": {
+            "title": "Cum folosim cookie-urile",
+            "content": "Folosim cookie-uri în următoarele scopuri:",
+            "item1": "Pentru a stoca istoricul dvs. de încărcări și preferințele de limbă",
+            "item2": "Pentru a analiza traficul site-ului web și comportamentul utilizatorilor",
+            "item3": "Pentru a afișa anunțuri personalizate"
+          },
+          "typesOfCookies": {
+            "title": "Tipuri de cookie-uri pe care le folosim",
+            "essential": {
+              "title": "Cookie-uri esențiale",
+              "content": "Aceste cookie-uri sunt necesare pentru funcționarea corectă a site-ului web. Ele permit funcționalități de bază precum stocarea preferințelor dvs. de limbă și a istoricului de încărcări."
+            },
+            "analytics": {
+              "title": "Cookie-uri de analiză",
+              "content": "Folosim Yandex Metrika pentru a analiza modul în care vizitatorii folosesc site-ul nostru web. Aceste cookie-uri colectează informații anonime despre utilizarea site-ului web pentru a ne ajuta să îmbunătățim serviciul nostru."
+            },
+            "advertising": {
+              "title": "Cookie-uri publicitare",
+              "content": "Folosim Google AdSense pentru afișarea anunțurilor. Aceste cookie-uri ajută la livrarea anunțurilor personalizate pe baza comportamentului dvs. de navigare și a intereselor dvs."
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "Cookie-uri terțe",
+            "content": "Folosim următoarele servicii terțe care pot seta cookie-uri:",
+            "item1": "Google AdSense - Pentru publicitate (subiect la Politica de Confidențialitate Google)",
+            "item2": "Yandex Metrika - Pentru analiza site-ului web (subiect la Politica de Confidențialitate Yandex)"
+          },
+          "manageCookies": {
+            "title": "Gestionarea cookie-urilor",
+            "content": "Puteți controla și gestiona cookie-urile prin setările browserului dvs. Majoritatea browserelor vă permit să refuzați sau să acceptați cookie-uri, să ștergeți cookie-urile existente sau să setați preferințe pentru anumite site-uri web. Cu toate acestea, dezactivarea cookie-urilor poate afecta funcționalitatea serviciului nostru."
+          },
+          "changes": {
+            "title": "Modificări ale acestei Politici de Cookie-uri",
+            "content": "Putem actualiza această Politică de Cookie-uri din când în când. Vă vom notifica despre orice modificări prin publicarea noii Politici de Cookie-uri pe această pagină și actualizarea datei \"Ultima actualizare\"."
+          },
+          "contact": {
+            "title": "Contactați-ne",
+            "text": "Dacă aveți întrebări despre această Politică de Cookie-uri, vă rugăm să ne contactați la",
+            "email": "leeqs1010@gmail.com"
+          }
+        }
       }
     }
   }

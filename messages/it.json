@@ -5,6 +5,7 @@
     "header": {
       "subtitle": "Trasforma immagini in link condivisibili",
       "prompt": "Trascina, incolla o carica — ottieni un link subito",
+      "circleCrop": "Ritaglio Circolare Foto",
       "history": "Cronologia caricamenti"
     },
     "history": {
@@ -27,18 +28,21 @@
         "line2": "Veloce, semplice, affidabile."
       },
       "partners": "Partner",
-      "linksTitle": "Link",
+      "linksTitle": "Risorse",
       "productsTitle": "Prodotti",
       "nav": {
         "home": "Home",
         "blog": "Blog",
         "docs": "Documenti",
         "status": "Stato",
+        "about": "Chi siamo",
         "contact": "Contatti"
       },
       "legal": {
+        "title": "Legale",
         "privacy": "Privacy",
-        "terms": "Termini"
+        "terms": "Termini",
+        "cookie": "Informativa sui cookie"
       },
       "copyright": "© 2025 Photo To URL. Tutti i diritti riservati."
     }
@@ -368,18 +372,100 @@
       }
     }
   },
+  "about": {
+    "seo": {
+      "title": "Chi siamo | Photo To URL",
+      "description": "Scopri di più su Photo To URL - un servizio gratuito di hosting immagini che converte le foto in link condivisibili."
+    },
+    "page": {
+      "title": "Chi siamo",
+      "mission": {
+        "title": "La nostra missione",
+        "content": "Photo To URL è un servizio gratuito, veloce e affidabile di hosting immagini progettato per aiutare creatori, marketer e team a convertire immagini in link condivisibili istantaneamente. Crediamo nella semplicità, nella velocità e nella privacy degli utenti."
+      },
+      "features": {
+        "title": "Cosa offriamo",
+        "item1": "Hosting immagini gratuito con supporto CDN",
+        "item2": "Generazione istantanea di link per condivisione rapida",
+        "item3": "Supporto per più formati immagine (JPG, PNG, WEBP, GIF)",
+        "item4": "Nessuna registrazione richiesta - usa subito"
+      },
+      "contact": {
+        "title": "Contattaci",
+        "text": "Hai domande o feedback? Contattaci a",
+        "email": "leeqs1010@gmail.com"
+      }
+    }
+  },
   "legal": {
     "privacy": {
       "seo": {
         "title": "Informativa sulla privacy | Photo To URL",
-        "description": "Informativa sulla privacy per Photo To URL."
+        "description": "Informativa sulla privacy per Photo To URL - Scopri come raccogliamo, utilizziamo e proteggiamo i tuoi dati."
       },
       "page": {
         "title": "Informativa sulla privacy",
-        "content": "Raccogliamo i dati minimi necessari per operare il servizio. Le immagini caricate vengono memorizzate per generare un link condivisibile.",
+        "lastUpdated": "Ultimo aggiornamento: gennaio 2026",
+        "introduction": "In Photo To URL rispettiamo la tua privacy e ci impegniamo a proteggere le tue informazioni personali. Questa Informativa sulla Privacy spiega come raccogliamo, utilizziamo, divulghiamo e proteggiamo le tue informazioni quando utilizzi il nostro servizio.",
+        "dataCollection": {
+          "title": "Informazioni che raccogliamo",
+          "content1": "Quando carichi un'immagine, raccogliamo:",
+          "item1": "Il file immagine che carichi (memorizzato temporaneamente per generare un link condivisibile)",
+          "item2": "Metadati del file (nome, dimensione, tipo)",
+          "item3": "Indirizzo IP (per limitazione della velocità e scopi di sicurezza)",
+          "item4": "Timestamp di caricamento",
+          "content2": "Non raccogliamo informazioni personali come nome, indirizzo email o numero di telefono a meno che tu non le fornisca volontariamente tramite il nostro modulo di contatto."
+        },
+        "dataUsage": {
+          "title": "Come utilizziamo le tue informazioni",
+          "item1": "Per generare e fornire link di immagini condivisibili",
+          "item2": "Per prevenire abusi e far rispettare i limiti di caricamento",
+          "item3": "Per migliorare il nostro servizio e l'esperienza utente",
+          "item4": "Per conformarci agli obblighi legali"
+        },
+        "dataStorage": {
+          "title": "Archiviazione e conservazione dei dati",
+          "content": "Le immagini caricate sono memorizzate su Cloudflare R2 storage. Conserviamo le immagini per tutto il tempo necessario per fornire il servizio. Le immagini possono essere eliminate automaticamente dopo un periodo di inattività o a causa di violazioni delle policy."
+        },
+        "cookies": {
+          "title": "Cookie e tecnologie di tracciamento",
+          "content1": "Utilizziamo le seguenti tecnologie:",
+          "item1": "Archiviazione locale: Per memorizzare la cronologia di caricamento e le preferenze linguistiche",
+          "item2": "Google AdSense: Per visualizzare annunci (utilizza cookie per la personalizzazione degli annunci)",
+          "item3": "Yandex Metrika: Per l'analisi del sito web (dati anonimi)",
+          "content2": "Puoi controllare i cookie tramite le impostazioni del browser. Tuttavia, disabilitare i cookie può influenzare alcune funzionalità del nostro servizio."
+        },
+        "thirdParty": {
+          "title": "Servizi di terze parti",
+          "content1": "Utilizziamo i seguenti servizi di terze parti:",
+          "item1": "Cloudflare R2: Per l'archiviazione di immagini e la consegna CDN",
+          "item2": "Google AdSense: Per la pubblicità (soggetto alla Politica sulla Privacy di Google)",
+          "item3": "Yandex Metrika: Per l'analisi del sito web (soggetto alla Politica sulla Privacy di Yandex)",
+          "content2": "Questi servizi possono raccogliere informazioni secondo le proprie politiche sulla privacy. Ti incoraggiamo a rivedere le loro politiche sulla privacy."
+        },
+        "dataSecurity": {
+          "title": "Sicurezza dei dati",
+          "content": "Implementiamo misure tecniche e organizzative appropriate per proteggere i tuoi dati da accesso non autorizzato, alterazione, divulgazione o distruzione. Tuttavia, nessun metodo di trasmissione su Internet è sicuro al 100%."
+        },
+        "yourRights": {
+          "title": "I tuoi diritti",
+          "content": "Hai il diritto di:",
+          "item1": "Accedere alle tue immagini caricate e ai dati associati",
+          "item2": "Richiedere l'eliminazione delle tue immagini",
+          "item3": "Rinunciare a determinate pratiche di raccolta dati",
+          "item4": "Contattarci con preoccupazioni sulla privacy"
+        },
+        "children": {
+          "title": "Privacy dei minori",
+          "content": "Il nostro servizio non è destinato a minori di 13 anni. Non raccogliamo consapevolmente informazioni personali da minori di 13 anni."
+        },
+        "changes": {
+          "title": "Modifiche a questa Informativa sulla Privacy",
+          "content": "Possiamo aggiornare questa Informativa sulla Privacy di tanto in tanto. Ti informeremo di eventuali modifiche pubblicando la nuova Informativa sulla Privacy su questa pagina e aggiornando la data di \"Ultimo aggiornamento\"."
+        },
         "contact": {
-          "title": "Contatto",
-          "text": "Domande? Invia un'email a",
+          "title": "Contattaci",
+          "text": "Se hai domande su questa Informativa sulla Privacy, contattaci a",
           "email": "leeqs1010@gmail.com"
         }
       }
@@ -400,6 +486,62 @@
           "title": "Contatto",
           "text": "Invia un'email a",
           "email": "leeqs1010@gmail.com"
+        }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Informativa sui cookie | Photo To URL",
+          "description": "Informativa sui cookie per Photo To URL - Scopri come utilizziamo cookie e tecnologie di tracciamento."
+        },
+        "page": {
+          "title": "Informativa sui cookie",
+          "lastUpdated": "Ultimo aggiornamento: gennaio 2026",
+          "introduction": "Questa Informativa sui Cookie spiega come Photo To URL utilizza cookie e tecnologie di tracciamento simili quando visiti il nostro sito web. Utilizzando il nostro servizio, accetti l'utilizzo di cookie secondo questa informativa.",
+          "whatAreCookies": {
+            "title": "Cosa sono i cookie",
+            "content": "I cookie sono piccoli file di testo che vengono posizionati sul tuo dispositivo quando visiti un sito web. Sono ampiamente utilizzati per rendere i siti web più efficienti e fornire informazioni ai proprietari di siti web."
+          },
+          "howWeUseCookies": {
+            "title": "Come utilizziamo i cookie",
+            "content": "Utilizziamo i cookie per i seguenti scopi:",
+            "item1": "Per memorizzare la cronologia di caricamento e le preferenze linguistiche",
+            "item2": "Per analizzare il traffico del sito web e il comportamento degli utenti",
+            "item3": "Per visualizzare annunci personalizzati"
+          },
+          "typesOfCookies": {
+            "title": "Tipi di cookie che utilizziamo",
+            "essential": {
+              "title": "Cookie essenziali",
+              "content": "Questi cookie sono necessari per il corretto funzionamento del sito web. Abilitano funzionalità essenziali come la memorizzazione delle preferenze linguistiche e della cronologia di caricamento."
+            },
+            "analytics": {
+              "title": "Cookie di analisi",
+              "content": "Utilizziamo Yandex Metrika per analizzare come i visitatori utilizzano il nostro sito web. Questi cookie raccolgono informazioni anonime sull'utilizzo del sito web per aiutarci a migliorare il nostro servizio."
+            },
+            "advertising": {
+              "title": "Cookie pubblicitari",
+              "content": "Utilizziamo Google AdSense per visualizzare annunci. Questi cookie aiutano a fornire annunci personalizzati basati sul tuo comportamento di navigazione e sui tuoi interessi."
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "Cookie di terze parti",
+            "content": "Utilizziamo i seguenti servizi di terze parti che possono impostare cookie:",
+            "item1": "Google AdSense - Per la pubblicità (soggetto alla Politica sulla Privacy di Google)",
+            "item2": "Yandex Metrika - Per l'analisi del sito web (soggetto alla Politica sulla Privacy di Yandex)"
+          },
+          "manageCookies": {
+            "title": "Gestione dei cookie",
+            "content": "Puoi controllare e gestire i cookie tramite le impostazioni del browser. La maggior parte dei browser ti consente di rifiutare o accettare i cookie, eliminare i cookie esistenti o impostare preferenze per determinati siti web. Tuttavia, disabilitare i cookie può influenzare la funzionalità del nostro servizio."
+          },
+          "changes": {
+            "title": "Modifiche a questa Informativa sui Cookie",
+            "content": "Possiamo aggiornare questa Informativa sui Cookie di tanto in tanto. Ti informeremo di eventuali modifiche pubblicando la nuova Informativa sui Cookie su questa pagina e aggiornando la data di \"Ultimo aggiornamento\"."
+          },
+          "contact": {
+            "title": "Contattaci",
+            "text": "Se hai domande su questa Informativa sui Cookie, contattaci a",
+            "email": "leeqs1010@gmail.com"
+          }
         }
       }
     }

@@ -28,18 +28,21 @@
         "line2": "Raskt, enkelt, pålitelig."
       },
       "partners": "Partnere",
-      "linksTitle": "Lenker",
+      "linksTitle": "Ressurser",
       "productsTitle": "Produkter",
       "nav": {
         "home": "Hjem",
         "blog": "Blogg",
         "docs": "Dokumentasjon",
         "status": "Status",
+        "about": "Om oss",
         "contact": "Kontakt"
       },
       "legal": {
+        "title": "Juridisk",
         "privacy": "Personvern",
-        "terms": "Vilkår"
+        "terms": "Vilkår",
+        "cookie": "Informasjonskapselpolitikk"
       },
       "copyright": "© 2025 Photo To URL. Alle rettigheter forbeholdt."
     }
@@ -174,6 +177,180 @@
         "thankYou": "Takk for tilbakemeldingen!",
         "averageRating": "4.5",
         "votes": "4,992 stemmer"
+      }
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "Om oss | Photo To URL",
+      "description": "Lær mer om Photo To URL - en gratis bildhostingstjeneste som konverterer bilder til delbare lenker."
+    },
+    "page": {
+      "title": "Om oss",
+      "mission": {
+        "title": "Vår misjon",
+        "content": "Photo To URL er en gratis, rask og pålitelig bildhostingstjeneste designet for å hjelpe skapere, markedsførere og team med å konvertere bilder til delbare lenker umiddelbart. Vi tror på enkelhet, hastighet og brukerens personvern."
+      },
+      "features": {
+        "title": "Hva vi tilbyr",
+        "item1": "Gratis bildhosting med CDN-støtte",
+        "item2": "Umiddelbar lenkegenerering for rask deling",
+        "item3": "Støtte for flere bildeformater (JPG, PNG, WEBP, GIF)",
+        "item4": "Ingen registrering påkrevd - bruk umiddelbart"
+      },
+      "contact": {
+        "title": "Kontakt oss",
+        "text": "Har du spørsmål eller tilbakemeldinger? Ta kontakt med oss på",
+        "email": "leeqs1010@gmail.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Personvernpolicy | Photo To URL",
+        "description": "Personvernpolicy for Photo To URL - Lær hvordan vi samler inn, bruker og beskytter dine data."
+      },
+      "page": {
+        "title": "Personvernpolicy",
+        "lastUpdated": "Sist oppdatert: januar 2026",
+        "introduction": "På Photo To URL respekterer vi ditt personvern og er forpliktet til å beskytte din personlige informasjon. Denne personvernpolicyen forklarer hvordan vi samler inn, bruker, avslører og beskytter din informasjon når du bruker tjenesten vår.",
+        "dataCollection": {
+          "title": "Informasjon vi samler inn",
+          "content1": "Når du laster opp et bilde, samler vi inn:",
+          "item1": "Bildefilen du laster opp (lagres midlertidig for å generere en delbar lenke)",
+          "item2": "Filmetadata (filnavn, størrelse, type)",
+          "item3": "IP-adresse (for hastighetsbegrensning og sikkerhetsformål)",
+          "item4": "Opplastings tidsstempel",
+          "content2": "Vi samler ikke inn personlig informasjon som navnet ditt, e-postadressen eller telefonnummeret ditt med mindre du frivillig gir det gjennom kontaktskjemaet vårt."
+        },
+        "dataUsage": {
+          "title": "Hvordan vi bruker din informasjon",
+          "item1": "For å generere og tilby delbare bildelenker",
+          "item2": "For å forhindre misbruk og håndheve opplastingsgrenser",
+          "item3": "For å forbedre tjenesten vår og brukeropplevelsen",
+          "item4": "For å overholde juridiske forpliktelser"
+        },
+        "dataStorage": {
+          "title": "Datalagring og oppbevaring",
+          "content": "Opplastede bilder lagres på Cloudflare R2-lagring. Vi beholder bilder så lenge det er nødvendig for å tilby tjenesten. Bilder kan slettes automatisk etter en periode med inaktivitet eller på grunn av policybrudd."
+        },
+        "cookies": {
+          "title": "Informasjonskapsler og sporings teknologier",
+          "content1": "Vi bruker følgende teknologier:",
+          "item1": "Lokal lagring: For å lagre opplastingshistorikken og språkpreferansene dine",
+          "item2": "Google AdSense: For å vise annonser (bruker informasjonskapsler for annonsepersonalisering)",
+          "item3": "Yandex Metrika: For nettstedsanalyse (anonymiserte data)",
+          "content2": "Du kan kontrollere informasjonskapsler gjennom nettleserinnstillingene dine. Deaktivering av informasjonskapsler kan imidlertid påvirke noen funksjoner i tjenesten vår."
+        },
+        "thirdParty": {
+          "title": "Tredjepartstjenester",
+          "content1": "Vi bruker følgende tredjepartstjenester:",
+          "item1": "Cloudflare R2: For bildelagring og CDN-levering",
+          "item2": "Google AdSense: For annonsering (underlagt Googles personvernpolicy)",
+          "item3": "Yandex Metrika: For nettstedsanalyse (underlagt Yandex personvernpolicy)",
+          "content2": "Disse tjenestene kan samle inn informasjon i henhold til sine egne personvernpolicyer. Vi oppfordrer deg til å gjennomgå deres personvernpolicyer."
+        },
+        "dataSecurity": {
+          "title": "Datasikkerhet",
+          "content": "Vi implementerer passende tekniske og organisatoriske tiltak for å beskytte dataene dine mot uautorisert tilgang, endring, avsløring eller ødeleggelse. Ingen overføringsmetode over internett er imidlertid 100% sikker."
+        },
+        "yourRights": {
+          "title": "Dine rettigheter",
+          "content": "Du har rett til:",
+          "item1": "Tilgang til dine opplastede bilder og tilknyttede data",
+          "item2": "Be om sletting av bildene dine",
+          "item3": "Velge bort visse datainnsamlingspraksiser",
+          "item4": "Kontakte oss med personvernbekymringer"
+        },
+        "children": {
+          "title": "Barns personvern",
+          "content": "Tjenesten vår er ikke ment for barn under 13 år. Vi samler ikke bevisst inn personlig informasjon fra barn under 13 år."
+        },
+        "changes": {
+          "title": "Endringer i denne personvernpolicyen",
+          "content": "Vi kan oppdatere denne personvernpolicyen fra tid til annen. Vi vil varsle deg om eventuelle endringer ved å publisere den nye personvernpolicyen på denne siden og oppdatere \"Sist oppdatert\"-datoen."
+        },
+        "contact": {
+          "title": "Kontakt oss",
+          "text": "Hvis du har spørsmål om denne personvernpolicyen, vennligst kontakt oss på",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Tjenestevilkår | Photo To URL",
+        "description": "Tjenestevilkår for Photo To URL."
+      },
+      "page": {
+        "title": "Tjenestevilkår",
+        "content": "Ved å bruke Photo To URL godtar du å bruke tjenesten ansvarlig og ikke laste opp ulovlig innhold.",
+        "disclaimer": {
+          "title": "Ansvarsfraskrivelse",
+          "text": "Tjenesten leveres \"som den er\" uten garantier. Tilgjengeligheten kan endres på grunn av vedlikehold."
+        },
+        "contact": {
+          "title": "Kontakt",
+          "text": "Send e-post til",
+          "email": "leeqs1010@gmail.com"
+        }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Informasjonskapselpolicy | Photo To URL",
+          "description": "Informasjonskapselpolicy for Photo To URL - Lær hvordan vi bruker informasjonskapsler og sporings teknologier."
+        },
+        "page": {
+          "title": "Informasjonskapselpolicy",
+          "lastUpdated": "Sist oppdatert: januar 2026",
+          "introduction": "Denne informasjonskapselpolicyen forklarer hvordan Photo To URL bruker informasjonskapsler og lignende sporings teknologier når du besøker nettstedet vårt. Ved å bruke tjenesten vår samtykker du til bruk av informasjonskapsler i samsvar med denne policyen.",
+          "whatAreCookies": {
+            "title": "Hva er informasjonskapsler",
+            "content": "Informasjonskapsler er små tekstfiler som plasseres på enheten din når du besøker et nettsted. De brukes mye for å gjøre nettsteder mer effektive og gi informasjon til nettstedeiere."
+          },
+          "howWeUseCookies": {
+            "title": "Hvordan vi bruker informasjonskapsler",
+            "content": "Vi bruker informasjonskapsler til følgende formål:",
+            "item1": "For å lagre opplastingshistorikken og språkpreferansene dine",
+            "item2": "For å analysere nettstedstrafikk og brukeratferd",
+            "item3": "For å vise personlige annonser"
+          },
+          "typesOfCookies": {
+            "title": "Typer informasjonskapsler vi bruker",
+            "essential": {
+              "title": "Nødvendige informasjonskapsler",
+              "content": "Disse informasjonskapslene er nødvendige for at nettstedet skal fungere ordentlig. De muliggjør kjernefunksjoner som å lagre språkpreferansene og opplastingshistorikken dine."
+            },
+            "analytics": {
+              "title": "Analytiske informasjonskapsler",
+              "content": "Vi bruker Yandex Metrika for å analysere hvordan besøkende bruker nettstedet vårt. Disse informasjonskapslene samler inn anonym informasjon om nettstedsbruk for å hjelpe oss med å forbedre tjenesten vår."
+            },
+            "advertising": {
+              "title": "Annonseinformasjonskapsler",
+              "content": "Vi bruker Google AdSense for å vise annonser. Disse informasjonskapslene hjelper med å levere personlige annonser basert på nettlesingsatferden og interessene dine."
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "Tredjeparts informasjonskapsler",
+            "content": "Vi bruker følgende tredjepartstjenester som kan sette informasjonskapsler:",
+            "item1": "Google AdSense - For annonsering (underlagt Googles personvernpolicy)",
+            "item2": "Yandex Metrika - For nettstedsanalyse (underlagt Yandex personvernpolicy)"
+          },
+          "manageCookies": {
+            "title": "Administrere informasjonskapsler",
+            "content": "Du kan kontrollere og administrere informasjonskapsler gjennom nettleserinnstillingene dine. De fleste nettlesere lar deg avslå eller akseptere informasjonskapsler, slette eksisterende informasjonskapsler eller sette preferanser for visse nettsteder. Deaktivering av informasjonskapsler kan imidlertid påvirke funksjonaliteten til tjenesten vår."
+          },
+          "changes": {
+            "title": "Endringer i denne informasjonskapselpolicyen",
+            "content": "Vi kan oppdatere denne informasjonskapselpolicyen fra tid til annen. Vi vil varsle deg om eventuelle endringer ved å publisere den nye informasjonskapselpolicyen på denne siden og oppdatere \"Sist oppdatert\"-datoen."
+          },
+          "contact": {
+            "title": "Kontakt oss",
+            "text": "Hvis du har spørsmål om denne informasjonskapselpolicyen, vennligst kontakt oss på",
+            "email": "leeqs1010@gmail.com"
+          }
+        }
       }
     }
   }

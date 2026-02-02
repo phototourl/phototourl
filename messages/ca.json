@@ -28,18 +28,21 @@
         "line2": "Ràpid, senzill, fiable."
       },
       "partners": "Partners",
-      "linksTitle": "Enllaços",
+      "linksTitle": "Recursos",
       "productsTitle": "Productes",
       "nav": {
         "home": "Inici",
         "blog": "Blog",
         "docs": "Docs",
         "status": "Estat",
+        "about": "Sobre nosaltres",
         "contact": "Contacte"
       },
       "legal": {
+        "title": "Legal",
         "privacy": "Privadesa",
-        "terms": "Termes"
+        "terms": "Termes",
+        "cookie": "Política de cookies"
       },
       "copyright": "© 2025 Photo To URL. Tots els drets reservats."
     }
@@ -225,6 +228,180 @@
         "thankYou": "Gràcies per la vostra opinió!",
         "averageRating": "4.5",
         "votes": "4,992 vots"
+      }
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "Sobre nosaltres | Photo To URL",
+      "description": "Més informació sobre Photo To URL - un servei gratuït d'allotjament d'imatges que converteix fotos en enllaços compartibles."
+    },
+    "page": {
+      "title": "Sobre nosaltres",
+      "mission": {
+        "title": "La nostra missió",
+        "content": "Photo To URL és un servei gratuït, ràpid i fiable d'allotjament d'imatges dissenyat per ajudar creadors, especialistes en màrqueting i equips a convertir imatges en enllaços compartibles de manera instantània. Creiem en la simplicitat, la velocitat i la privacitat de l'usuari."
+      },
+      "features": {
+        "title": "El que oferim",
+        "item1": "Allotjament gratuït d'imatges amb suport CDN",
+        "item2": "Generació instantània d'enllaços per compartir ràpidament",
+        "item3": "Suport per a múltiples formats d'imatge (JPG, PNG, WEBP, GIF)",
+        "item4": "No cal registre - utilitzeu immediatament"
+      },
+      "contact": {
+        "title": "Contacteu-nos",
+        "text": "Teniu preguntes o comentaris? Contacteu-nos a",
+        "email": "leeqs1010@gmail.com"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "seo": {
+        "title": "Política de privacitat | Photo To URL",
+        "description": "Política de privacitat per a Photo To URL - Apreneu com recopilem, utilitzem i protegeix les vostres dades."
+      },
+      "page": {
+        "title": "Política de privacitat",
+        "lastUpdated": "Última actualització: gener 2026",
+        "introduction": "A Photo To URL, respectem la vostra privacitat i ens comprometem a protegir la vostra informació personal. Aquesta Política de Privacitat explica com recopilem, utilitzem, divulgem i protegeix la vostra informació quan utilitzeu el nostre servei.",
+        "dataCollection": {
+          "title": "Informació que recopilem",
+          "content1": "Quan carregueu una imatge, recopilem:",
+          "item1": "El fitxer d'imatge que carregueu (emmagatzemat temporalment per generar un enllaç compartible)",
+          "item2": "Metadades del fitxer (nom, mida, tipus)",
+          "item3": "Adreça IP (per limitació de velocitat i finalitats de seguretat)",
+          "item4": "Marca de temps de càrrega",
+          "content2": "No recopilem informació personal com el vostre nom, adreça de correu electrònic o número de telèfon tret que la proporcioneu voluntàriament a través del nostre formulari de contacte."
+        },
+        "dataUsage": {
+          "title": "Com utilitzem la vostra informació",
+          "item1": "Per generar i proporcionar enllaços d'imatges compartibles",
+          "item2": "Per prevenir abusos i fer complir els límits de càrrega",
+          "item3": "Per millorar el nostre servei i l'experiència de l'usuari",
+          "item4": "Per complir amb les obligacions legals"
+        },
+        "dataStorage": {
+          "title": "Emmagatzematge i retenció de dades",
+          "content": "Les imatges carregades s'emmagatzemen a l'emmagatzematge Cloudflare R2. Conservem les imatges durant el temps necessari per proporcionar el servei. Les imatges poden eliminar-se automàticament després d'un període d'inactivitat o a causa de violacions de polítiques."
+        },
+        "cookies": {
+          "title": "Cookies i tecnologies de seguiment",
+          "content1": "Utilitzem les següents tecnologies:",
+          "item1": "Emmagatzematge local: Per emmagatzemar el vostre historial de càrrega i preferències d'idioma",
+          "item2": "Google AdSense: Per mostrar anuncis (utilitza cookies per personalització d'anuncis)",
+          "item3": "Yandex Metrika: Per anàlisi del lloc web (dades anònimes)",
+          "content2": "Podeu controlar les cookies a través de la configuració del vostre navegador. Tanmateix, desactivar les cookies pot afectar algunes funcionalitats del nostre servei."
+        },
+        "thirdParty": {
+          "title": "Serveis de tercers",
+          "content1": "Utilitzem els següents serveis de tercers:",
+          "item1": "Cloudflare R2: Per emmagatzematge d'imatges i lliurament CDN",
+          "item2": "Google AdSense: Per publicitat (subjecte a la Política de Privacitat de Google)",
+          "item3": "Yandex Metrika: Per anàlisi del lloc web (subjecte a la Política de Privacitat de Yandex)",
+          "content2": "Aquests serveis poden recopilar informació d'acord amb les seves pròpies polítiques de privacitat. Us recomanem que reviseu les seves polítiques de privacitat."
+        },
+        "dataSecurity": {
+          "title": "Seguretat de les dades",
+          "content": "Implementem mesures tècniques i organitzatives apropiades per protegir les vostres dades contra accés no autoritzat, alteració, divulgació o destrucció. Tanmateix, cap mètode de transmissió per Internet és 100% segur."
+        },
+        "yourRights": {
+          "title": "Els vostres drets",
+          "content": "Teniu dret a:",
+          "item1": "Accedir a les vostres imatges carregades i dades associades",
+          "item2": "Sol·licitar l'eliminació de les vostres imatges",
+          "item3": "Optar per no participar en certes pràctiques de recopilació de dades",
+          "item4": "Contactar-nos amb preocupacions sobre privacitat"
+        },
+        "children": {
+          "title": "Privacitat dels menors",
+          "content": "El nostre servei no està dirigit a menors de 13 anys. No recopilem intencionalment informació personal de menors de 13 anys."
+        },
+        "changes": {
+          "title": "Canvis en aquesta Política de Privacitat",
+          "content": "Podem actualitzar aquesta Política de Privacitat de tant en tant. Us notificarem qualsevol canvi publicant la nova Política de Privacitat en aquesta pàgina i actualitzant la data de \"Última actualització\"."
+        },
+        "contact": {
+          "title": "Contacteu-nos",
+          "text": "Si teniu preguntes sobre aquesta Política de Privacitat, contacteu-nos a",
+          "email": "leeqs1010@gmail.com"
+        }
+      }
+    },
+    "terms": {
+      "seo": {
+        "title": "Termes de servei | Photo To URL",
+        "description": "Termes de servei per a Photo To URL."
+      },
+      "page": {
+        "title": "Termes de servei",
+        "content": "En utilitzar Photo To URL, accepteu utilitzar el servei de manera responsable i no carregar contingut il·legal.",
+        "disclaimer": {
+          "title": "Descàrrec de responsabilitat",
+          "text": "El servei es proporciona \"tal com està\" sense garanties. La disponibilitat pot canviar a causa del manteniment."
+        },
+        "contact": {
+          "title": "Contacte",
+          "text": "Envieu un correu electrònic a",
+          "email": "leeqs1010@gmail.com"
+        }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Política de cookies | Photo To URL",
+          "description": "Política de cookies per a Photo To URL - Apreneu com utilitzem cookies i tecnologies de seguiment."
+        },
+        "page": {
+          "title": "Política de cookies",
+          "lastUpdated": "Última actualització: gener 2026",
+          "introduction": "Aquesta Política de Cookies explica com Photo To URL utilitza cookies i tecnologies de seguiment similars quan visiteu el nostre lloc web. En utilitzar el nostre servei, accepteu l'ús de cookies d'acord amb aquesta política.",
+          "whatAreCookies": {
+            "title": "Què són les cookies",
+            "content": "Les cookies són petits fitxers de text que es col·loquen al vostre dispositiu quan visiteu un lloc web. S'utilitzen àmpliament per fer que els llocs web funcionin de manera més eficient i proporcionar informació als propietaris de llocs web."
+          },
+          "howWeUseCookies": {
+            "title": "Com utilitzem les cookies",
+            "content": "Utilitzem cookies per als següents propòsits:",
+            "item1": "Per emmagatzemar el vostre historial de càrrega i preferències d'idioma",
+            "item2": "Per analitzar el trànsit del lloc web i el comportament de l'usuari",
+            "item3": "Per mostrar anuncis personalitzats"
+          },
+          "typesOfCookies": {
+            "title": "Tipus de cookies que utilitzem",
+            "essential": {
+              "title": "Cookies essencials",
+              "content": "Aquestes cookies són necessàries perquè el lloc web funcioni correctament. Permeten funcionalitats bàsiques com emmagatzemar les vostres preferències d'idioma i historial de càrrega."
+            },
+            "analytics": {
+              "title": "Cookies d'anàlisi",
+              "content": "Utilitzem Yandex Metrika per analitzar com els visitants utilitzen el nostre lloc web. Aquestes cookies recopilen informació anònima sobre l'ús del lloc web per ajudar-nos a millorar el nostre servei."
+            },
+            "advertising": {
+              "title": "Cookies publicitàries",
+              "content": "Utilitzem Google AdSense per mostrar anuncis. Aquestes cookies ajuden a lliurar anuncis personalitzats basats en el vostre comportament de navegació i interessos."
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "Cookies de tercers",
+            "content": "Utilitzem els següents serveis de tercers que poden establir cookies:",
+            "item1": "Google AdSense - Per publicitat (subjecte a la Política de Privacitat de Google)",
+            "item2": "Yandex Metrika - Per anàlisi del lloc web (subjecte a la Política de Privacitat de Yandex)"
+          },
+          "manageCookies": {
+            "title": "Gestionar cookies",
+            "content": "Podeu controlar i gestionar les cookies a través de la configuració del vostre navegador. La majoria dels navegadors us permeten rebutjar o acceptar cookies, eliminar cookies existents o establir preferències per a determinats llocs web. Tanmateix, desactivar les cookies pot afectar la funcionalitat del nostre servei."
+          },
+          "changes": {
+            "title": "Canvis en aquesta Política de Cookies",
+            "content": "Podem actualitzar aquesta Política de Cookies de tant en tant. Us notificarem qualsevol canvi publicant la nova Política de Cookies en aquesta pàgina i actualitzant la data de \"Última actualització\"."
+          },
+          "contact": {
+            "title": "Contacteu-nos",
+            "text": "Si teniu preguntes sobre aquesta Política de Cookies, contacteu-nos a",
+            "email": "leeqs1010@gmail.com"
+          }
+        }
       }
     }
   }

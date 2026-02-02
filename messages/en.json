@@ -28,18 +28,21 @@
         "line2": "Fast, simple, reliable."
       },
       "partners": "Partners",
-      "linksTitle": "Links",
+      "linksTitle": "Resources",
       "productsTitle": "Products",
       "nav": {
         "home": "Home",
         "blog": "Blog",
         "docs": "Docs",
         "status": "Status",
+        "about": "About",
         "contact": "Contact"
       },
       "legal": {
+        "title": "Legal",
         "privacy": "Privacy",
-        "terms": "Terms"
+        "terms": "Terms",
+        "cookie": "Cookie Policy"
       },
       "copyright": "© 2025 Photo To URL. All rights reserved."
     }
@@ -369,18 +372,100 @@
       }
     }
   },
+  "about": {
+    "seo": {
+      "title": "About Us | Photo To URL",
+      "description": "Learn more about Photo To URL - a free image hosting service that converts photos into shareable links."
+    },
+    "page": {
+      "title": "About Us",
+      "mission": {
+        "title": "Our Mission",
+        "content": "Photo To URL is a free, fast, and reliable image hosting service designed to help creators, marketers, and teams convert images into shareable links instantly. We believe in simplicity, speed, and user privacy."
+      },
+      "features": {
+        "title": "What We Offer",
+        "item1": "Free image hosting with CDN support",
+        "item2": "Instant link generation for quick sharing",
+        "item3": "Support for multiple image formats (JPG, PNG, WEBP, GIF)",
+        "item4": "No registration required - use immediately"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "text": "Have questions or feedback? Reach out to us at",
+        "email": "leeqs1010@gmail.com"
+      }
+    }
+  },
   "legal": {
     "privacy": {
       "seo": {
         "title": "Privacy Policy | Photo To URL",
-        "description": "Privacy Policy for Photo To URL."
+        "description": "Privacy Policy for Photo To URL - Learn how we collect, use, and protect your data."
       },
       "page": {
         "title": "Privacy Policy",
-        "content": "We collect the minimum necessary data to operate the service. Uploaded images are stored to generate a shareable link.",
+        "lastUpdated": "Last Updated: January 2026",
+        "introduction": "At Photo To URL, we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our service.",
+        "dataCollection": {
+          "title": "Information We Collect",
+          "content1": "When you upload an image, we collect:",
+          "item1": "The image file you upload (stored temporarily to generate a shareable link)",
+          "item2": "File metadata (filename, size, type)",
+          "item3": "IP address (for rate limiting and security purposes)",
+          "item4": "Upload timestamp",
+          "content2": "We do not collect personal information such as your name, email address, or phone number unless you voluntarily provide it through our contact form."
+        },
+        "dataUsage": {
+          "title": "How We Use Your Information",
+          "item1": "To generate and provide shareable image links",
+          "item2": "To prevent abuse and enforce upload limits",
+          "item3": "To improve our service and user experience",
+          "item4": "To comply with legal obligations"
+        },
+        "dataStorage": {
+          "title": "Data Storage and Retention",
+          "content": "Uploaded images are stored on Cloudflare R2 storage. We retain images for as long as necessary to provide the service. Images may be deleted automatically after a period of inactivity or due to policy violations."
+        },
+        "cookies": {
+          "title": "Cookies and Tracking Technologies",
+          "content1": "We use the following technologies:",
+          "item1": "Local Storage: To store your upload history and language preferences",
+          "item2": "Google AdSense: For displaying advertisements (uses cookies for ad personalization)",
+          "item3": "Yandex Metrika: For website analytics (anonymized data)",
+          "content2": "You can control cookies through your browser settings. However, disabling cookies may affect some functionality of our service."
+        },
+        "thirdParty": {
+          "title": "Third-Party Services",
+          "content1": "We use the following third-party services:",
+          "item1": "Cloudflare R2: For image storage and CDN delivery",
+          "item2": "Google AdSense: For advertising (subject to Google's Privacy Policy)",
+          "item3": "Yandex Metrika: For website analytics (subject to Yandex's Privacy Policy)",
+          "content2": "These services may collect information in accordance with their own privacy policies. We encourage you to review their privacy policies."
+        },
+        "dataSecurity": {
+          "title": "Data Security",
+          "content": "We implement appropriate technical and organizational measures to protect your data against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the Internet is 100% secure."
+        },
+        "yourRights": {
+          "title": "Your Rights",
+          "content": "You have the right to:",
+          "item1": "Access your uploaded images and associated data",
+          "item2": "Request deletion of your images",
+          "item3": "Opt-out of certain data collection practices",
+          "item4": "Contact us with privacy concerns"
+        },
+        "children": {
+          "title": "Children's Privacy",
+          "content": "Our service is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13."
+        },
+        "changes": {
+          "title": "Changes to This Privacy Policy",
+          "content": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the \"Last Updated\" date."
+        },
         "contact": {
-          "title": "Contact",
-          "text": "Questions? Email",
+          "title": "Contact Us",
+          "text": "If you have questions about this Privacy Policy, please contact us at",
           "email": "leeqs1010@gmail.com"
         }
       }
@@ -401,6 +486,62 @@
           "title": "Contact",
           "text": "Email",
           "email": "leeqs1010@gmail.com"
+        }
+      },
+      "cookie": {
+        "seo": {
+          "title": "Cookie Policy | Photo To URL",
+          "description": "Cookie Policy for Photo To URL - Learn about how we use cookies and tracking technologies."
+        },
+        "page": {
+          "title": "Cookie Policy",
+          "lastUpdated": "Last Updated: January 2026",
+          "introduction": "This Cookie Policy explains how Photo To URL uses cookies and similar tracking technologies when you visit our website. By using our service, you consent to the use of cookies in accordance with this policy.",
+          "whatAreCookies": {
+            "title": "What Are Cookies",
+            "content": "Cookies are small text files that are placed on your device when you visit a website. They are widely used to make websites work more efficiently and provide information to website owners."
+          },
+          "howWeUseCookies": {
+            "title": "How We Use Cookies",
+            "content": "We use cookies for the following purposes:",
+            "item1": "To store your upload history and language preferences",
+            "item2": "To analyze website traffic and user behavior",
+            "item3": "To display personalized advertisements"
+          },
+          "typesOfCookies": {
+            "title": "Types of Cookies We Use",
+            "essential": {
+              "title": "Essential Cookies",
+              "content": "These cookies are necessary for the website to function properly. They enable core functionality such as storing your language preferences and upload history."
+            },
+            "analytics": {
+              "title": "Analytics Cookies",
+              "content": "We use Yandex Metrika to analyze how visitors use our website. These cookies collect anonymous information about website usage to help us improve our service."
+            },
+            "advertising": {
+              "title": "Advertising Cookies",
+              "content": "We use Google AdSense to display advertisements. These cookies help deliver personalized ads based on your browsing behavior and interests."
+            }
+          },
+          "thirdPartyCookies": {
+            "title": "Third-Party Cookies",
+            "content": "We use the following third-party services that may set cookies:",
+            "item1": "Google AdSense - For advertising (subject to Google's Privacy Policy)",
+            "item2": "Yandex Metrika - For website analytics (subject to Yandex's Privacy Policy)"
+          },
+          "manageCookies": {
+            "title": "Managing Cookies",
+            "content": "You can control and manage cookies through your browser settings. Most browsers allow you to refuse or accept cookies, delete existing cookies, or set preferences for certain websites. However, disabling cookies may affect the functionality of our service."
+          },
+          "changes": {
+            "title": "Changes to This Cookie Policy",
+            "content": "We may update this Cookie Policy from time to time. We will notify you of any changes by posting the new Cookie Policy on this page and updating the \"Last Updated\" date."
+          },
+          "contact": {
+            "title": "Contact Us",
+            "text": "If you have questions about this Cookie Policy, please contact us at",
+            "email": "leeqs1010@gmail.com"
+          }
         }
       }
     }
