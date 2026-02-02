@@ -264,8 +264,8 @@ export function CircleCropTool({ showHeading = true }: CircleCropToolProps) {
     
     const size = canvas.width;
     const circleRadius = (size - CIRCLE_PADDING * 2) / 2;
-    const centerX = size / 2;
-    const centerY = size / 2;
+    const _centerX = size / 2;
+    const _centerY = size / 2;
     const circleDiameter = circleRadius * 2;
     
     // 计算图片绘制尺寸

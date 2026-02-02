@@ -129,7 +129,7 @@ export function LanguageSwitcher({ variant = "header", showModal = false, onModa
     };
   }, [isOpen]);
 
-  const handleLocaleChange = (newLocale: string) => {
+  const _handleLocaleChange = (newLocale: string) => {
     // 如果当前在 circlecrop 页面，设置标记以保留图片缓存
     if (pathname.includes('/circlecrop')) {
       sessionStorage.setItem('circleCropLanguageSwitch', 'true');
