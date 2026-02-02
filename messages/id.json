@@ -5,7 +5,22 @@
     "header": {
       "subtitle": "Ubah gambar menjadi tautan yang dapat dibagikan",
       "prompt": "Letakkan, tempel, atau unggah — dapatkan tautan instan",
-      "circleCrop": "Foto ke Potong Lingkaran"
+      "circleCrop": "Foto ke Potong Lingkaran",
+      "history": "Riwayat unggahan"
+    },
+    "history": {
+      "drawerTitle": "Riwayat unggahan",
+      "hint": "Tampilkan 10 unggahan terakhir.",
+      "close": "Tutup",
+      "empty": "Belum ada unggahan.",
+      "copy": "Salin tautan",
+      "copied": "Disalin",
+      "open": "Buka di tab baru"
+    },
+    "languageSelect": {
+      "title": "Pilih wilayah Anda",
+      "subtitle": "Memilih wilayah akan mengubah bahasa dan konten.",
+      "close": "Tutup"
     },
     "footer": {
       "blurb": {
@@ -67,6 +82,7 @@
     },
     "result": {
       "error": "Unggahan gagal. Silakan coba lagi.",
+      "dailyLimitReached": "Batas harian (20 per hari) tercapai. Coba lagi besok.",
       "generated": "Tautan yang dibuat:",
       "open": "Buka di tab baru",
       "placeholder": "Belum ada tautan. Unggah foto untuk membuat URL yang dapat dibagikan.",

@@ -5,7 +5,22 @@
     "header": {
       "subtitle": "Transfurmar maletgs en ligiaivlas spartiblas",
       "prompt": "Laschar ir, incollàr u chargiar — survegnir in ligiaivl spartibel immediatamain",
-      "circleCrop": "Fotografia per tagl circular"
+      "circleCrop": "Fotografia per tagl circular",
+      "history": "Cronologia da chargiar"
+    },
+    "history": {
+      "drawerTitle": "Cronologia da chargiar",
+      "hint": "Mussar las ultimas 10 chargiadas.",
+      "close": "Serrar",
+      "empty": "Anc naginas chargiadas.",
+      "copy": "Copia la ligia",
+      "copied": "Copiau",
+      "open": "Avrir en in nov tab"
+    },
+    "languageSelect": {
+      "title": "Tscherner voss regiun",
+      "subtitle": "Tscherner ina regiun midarà la lingua ed il cuntegn.",
+      "close": "Serrar"
     },
     "footer": {
       "blurb": {
@@ -67,6 +82,7 @@
     },
     "result": {
       "error": "Il chargiament ha manchà. Per plaschair, emprova puspè.",
+      "dailyLimitReached": "Limit per di (20 per di) cuntanschà. Emprova damaun.",
       "generated": "Ligia generada:",
       "open": "Avrir en in nov tab",
       "placeholder": "Anc nagina ligia. Chargia ina fotografia per generar in URL da spartir.",

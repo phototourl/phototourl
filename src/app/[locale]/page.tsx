@@ -24,6 +24,7 @@ import dynamic from "next/dynamic";
 import { useLocaleRouter, LocaleLink } from "@/i18n/navigation";
 import { Star, Check } from "lucide-react";
 import { ScrollButtons } from "@/components/ScrollButtons";
+import { addUploadRecord } from "@/lib/upload-history";
 
 // 延迟加载演示组件以提升首屏性能
 const HeroLeftFlowDemo = dynamic(() => import("@/components/HeroLeftFlowDemo"), {
@@ -186,17 +187,20 @@ export default function HomePage() {
 
       const data = await res.json();
       if (!res.ok) {
-        throw new Error(data?.error || "Upload failed");
+        const message =
+          res.status === 429 ? t("result.dailyLimitReached") : data?.error || t("result.error");
+        throw new Error(message);
       }
 
       setStatus("success");
       setUrl(data.url);
       setPreview(URL.createObjectURL(file));
+      addUploadRecord({ url: data.url, fileName: file.name, timestamp: Date.now() });
     } catch (err) {
       setStatus("error");
-      setError(err instanceof Error ? err.message : "Upload failed");
+      setError(err instanceof Error ? err.message : t("result.error"));
     }
-  }, []);
+  }, [t]);
 
   const uploadSample = useCallback(
     async (src: string, fileNameForUi: string) => {
@@ -374,7 +378,7 @@ export default function HomePage() {
               <h1
                 className={cn(
                   "text-4xl font-extrabold leading-[1.06] tracking-tight sm:text-5xl lg:text-6xl",
-                  !["ru", "uk", "vi", "pl", "tr", "fr"].includes(locale) && "whitespace-nowrap"
+                  !["ru", "uk", "vi", "pl", "tr", "fr", "fi"].includes(locale) && "whitespace-nowrap"
                 )}
               >
                 {isRTL ? (
@@ -965,6 +969,18 @@ export default function HomePage() {
                 { code: "id", label: "Indonesia (Indonesian)", countryCode: "ID" },
                 { code: "ms", label: "Melayu (Malay)", countryCode: "MY" },
                 { code: "uk", label: "Українська (Ukrainian)", countryCode: "UA" },
+                { code: "bg", label: "Български (Bulgarian)", countryCode: "BG" },
+                { code: "ca", label: "Català (Catalan)", countryCode: "ES" },
+                { code: "da", label: "Dansk (Danish)", countryCode: "DK" },
+                { code: "el", label: "Ελληνικά (Greek)", countryCode: "GR" },
+                { code: "fi", label: "Suomi (Finnish)", countryCode: "FI" },
+                { code: "he", label: "עברית (Hebrew)", countryCode: "IL" },
+                { code: "hr", label: "Hrvatski (Croatian)", countryCode: "HR" },
+                { code: "hu", label: "Magyar (Hungarian)", countryCode: "HU" },
+                { code: "no", label: "Norsk (Norwegian)", countryCode: "NO" },
+                { code: "ro", label: "Română (Romanian)", countryCode: "RO" },
+                { code: "sk", label: "Slovenčina (Slovak)", countryCode: "SK" },
+                { code: "tl", label: "Tagalog", countryCode: "PH" },
               ].map((item) => {
                 const isSelected = locale === item.code;
                 return (

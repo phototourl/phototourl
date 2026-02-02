@@ -4,7 +4,22 @@
     "tagline": "Přeměňte fotky na čisté, sdílené odkazy během vteřin",
     "header": {
       "subtitle": "Přeměňte obrázky na sdílené odkazy",
-      "prompt": "Přetáhněte, vložte nebo nahrajte — okamžitě získejte sdílený odkaz"
+      "prompt": "Přetáhněte, vložte nebo nahrajte — okamžitě získejte sdílený odkaz",
+      "history": "Záznam nahrávání"
+    },
+    "history": {
+      "drawerTitle": "Záznam nahrávání",
+      "hint": "Zobrazit posledních 10 nahrání.",
+      "close": "Zavřít",
+      "empty": "Zatím žádná nahrání.",
+      "copy": "Kopírovat odkaz",
+      "copied": "Zkopírováno",
+      "open": "Otevřít v novém panelu"
+    },
+    "languageSelect": {
+      "title": "Vyberte svou oblast",
+      "subtitle": "Výběr oblasti změní jazyk a obsah.",
+      "close": "Zavřít"
     },
     "footer": {
       "blurb": {
@@ -66,6 +81,7 @@
     },
     "result": {
       "error": "Nahrání se nezdařilo. Zkuste to prosím znovu.",
+      "dailyLimitReached": "Denní limit nahrávání (20 denně) dosažen. Zkuste to zítra.",
       "generated": "Vygenerovaný odkaz:",
       "open": "Otevřít v novém panelu",
       "placeholder": "Zatím žádný odkaz. Nahrajte fotku pro vygenerování sdíleného URL.",

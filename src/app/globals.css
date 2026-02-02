@@ -200,6 +200,16 @@
   --tw-ring-color: #0abab5;
 }
 
+/* 打开抽屉时给固定头部补偿滚动条宽度，避免抖动 */
+body[data-drawer-open] header {
+  padding-right: var(--scrollbar-gap, 0);
+}
+
+/* 打开语言选择弹框时给固定头部补偿滚动条宽度，避免抖动 */
+body[data-modal-open] header {
+  padding-right: var(--scrollbar-gap, 0);
+}
+
 /* ezremove-like soft, premium shadows */
 .ez-shadow-nav {
   /* tighter, more "attached" shadow like ezremove header */

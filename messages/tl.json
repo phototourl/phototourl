@@ -1,15 +1,30 @@
 {
   "common": {
     "siteName": "Larawan sa URL",
-    "tagline": "Gawing malinis at madaling i-share na link ang iyong mga larawan sa loob ng ilang segundo",
+    "tagline": "Gawing malinis at mababahaging link ang iyong mga larawan sa loob ng ilang segundo",
     "header": {
-      "subtitle": "Gawing shareable link ang mga larawan",
-      "prompt": "I-drag, i-paste, o i-upload — kumuha agad ng shareable link",
-      "circleCrop": "Photo To Circle Crop"
+      "subtitle": "Gawing mga link ang iyong mga imahe",
+      "prompt": "I-drop, i-paste, o i-upload — kumuha ng link agad-agad",
+      "circleCrop": "Photo To Circle Crop",
+      "history": "Kasaysayan ng mga upload"
+    },
+    "history": {
+      "drawerTitle": "Kasaysayan ng mga upload",
+      "hint": "Ipinapakita ang huling 10 record ng upload.",
+      "close": "Isara",
+      "empty": "Wala pang mga upload.",
+      "copy": "Kopyahin ang link",
+      "copied": "Nakopya na",
+      "open": "Buksan sa bagong tab"
+    },
+    "languageSelect": {
+      "title": "Piliin ang inyong rehiyon",
+      "subtitle": "Ang pagpili ng rehiyon ay magbabago ng wika at nilalaman.",
+      "close": "Isara"
     },
     "footer": {
       "blurb": {
-        "line1": "Gawing malinis at shareable link ang mga larawan.",
+        "line1": "Gawing malinis at mababahaging link ang iyong mga larawan.",
         "line2": "Mabilis, simple, at maaasahan."
       },
       "partners": "Mga Partner",
@@ -24,368 +39,158 @@
       },
       "legal": {
         "privacy": "Privacy",
-        "terms": "Kasunduan"
+        "terms": "Terms"
       },
-      "copyright": "© 2025 Photo To URL. All rights reserved."
+      "copyright": "© 2025 Photo To URL. Lahat ng karapatan ay rezebado."
     }
   },
   "home": {
     "badge": {
       "free": "Libre",
-      "cdn": "Mga CDN link",
+      "cdn": "CDN links",
       "nosignup": "Walang signup"
     },
     "hero": {
       "title1": "Libre",
       "title2": "Larawan sa URL",
-      "subtitle": "I-upload → kumuha ng link → i-paste kahit saan",
-      "upload": "I-upload ang larawan",
+      "subtitle": "I-upload ang larawan → kumuha ng link → i-paste kahit saan",
+      "upload": "I-upload ang Imahe",
       "bullet": {
-        "fast": "Mabilis na pag-share",
+        "fast": "Mabilis na pagbabahagi",
         "direct": "Direct photo links",
-        "nosignup": "Walang kailangang registration",
+        "nosignup": "Hindi kailangan ng signup",
         "paste": "I-paste mula sa clipboard"
       }
     },
     "demo": {
       "label": "Demo",
-      "loop": "Auto-loop demo",
-      "idleTitle": "I-drag at i-drop ang iyong larawan",
-      "idleSubtitle": "Panoorin ang proseso: upload → link → copy.",
+      "loop": "Auto demo",
+      "idleTitle": "I-drag at i-drop ang iyong imahe",
+      "idleSubtitle": "Tingnan ang daloy: upload → link → kopya.",
       "processing": "Nag-o-optimize at nag-u-upload...",
-      "doneTitle": "Handa na i-share",
-      "doneSubtitle": "Handa na ang iyong link para sa mabilis na pag-share.",
+      "doneTitle": "Handa nang ibahagi",
+      "doneSubtitle": "Handa na ang iyong link para sa agarang pagbabahagi.",
       "thanksForWatching": "Salamat sa panonood"
     },
     "upload": {
       "title": "I-drop ang larawan o i-click para mag-browse",
-      "hint": "JPG, PNG, WEBP, GIF hanggang 10MB. I-drag, i-click, o i-paste ang screenshot.",
-      "orDrop": "o i-drop ang file dito",
+      "hint": "JPG, PNG, WEBP, GIF hanggang 10MB. I-drag, i-click, o i-paste ang mga screenshot.",
+      "orDrop": "o i-drop ang file",
       "samplesTitle": "Walang larawan? Subukan ang isa sa mga ito:",
-      "policy": "Sa pag-upload ng larawan, sumasang-ayon ka sa aming <privacy>Privacy Policy</privacy> at <terms>Terms of Service</terms>.",
-      "clear": "I-clear"
+      "policy": "Sa pag-upload ng imahe, sumasang-ayon ka sa aming <privacy>Privacy Policy</privacy> at <terms>Terms of Use</terms>.",
+      "clear": "Linisin"
     },
     "result": {
-      "error": "Nagkaproblema sa pag-upload. Pakisubukan muli.",
-      "generated": "Generated na link:",
+      "error": "Bigo ang pag-upload. Pakisubukang muli.",
+      "dailyLimitReached": "Naabot na ang limitasyon sa pag-upload (20 bawat araw). Subukang muli bukas.",
+      "generated": "Nagawa na link:",
       "open": "Buksan sa bagong tab",
-      "placeholder": "Wala pang link. Mag-upload ng larawan para makakuha ng URL.",
+      "placeholder": "Wala pang link. Mag-upload ng larawan para makagawa ng URL.",
       "savePrompt": "I-save ang link sa paraang gusto mo",
-      "copy": "I-copy ang link",
+      "copy": "Kopyahin ang link",
       "copied": "Nakopya na",
       "saveHint": "I-save ang link na ito kung kailangan mo ito mamaya",
-      "tryCircleCrop": "Subukan ang Larawan sa Circle Crop"
+      "tryCircleCrop": "Subukan ang Circle Crop"
     },
     "benefits": {
-      "title": "Bakit pinipili ng mga tao ang Larawan sa URL",
-      "subtitle": "Bilis, malinis na mga link, at walang abala sa pag-signup.",
+      "title": "Bakit pinipili ng mga tao ang Photo To URL",
+      "subtitle": "Bilis, malinis na link, at walang kailangang signup.",
       "items": {
         "fast": {
-          "title": "Mabilis na Pag-share",
+          "title": "Mabilis na pagbabahagi",
           "desc": "Mag-upload at kumuha ng link sa loob ng ilang segundo nang walang dagdag na hakbang."
         },
         "direct": {
-          "title": "Mga Direct URL",
+          "title": "Direct image URLs",
           "desc": "Malinis na mga link na gumagana sa HTML, Markdown, at mga chat app."
         },
         "nosignup": {
-          "title": "Walang Signup",
-          "desc": "Gamitin agad. Ang mga user account ay darating sa hinaharap."
+          "title": "Walang kailangang signup",
+          "desc": "Gamitin agad. Darating ang mga account sa susunod habang lumalaki kami."
         }
       }
     },
     "how": {
       "title": "Paano ito gumagana",
-      "step1": "1) Idagdag ang iyong larawan (i-drag, i-paste, o piliin ang file).",
-      "step2": "2) I-ho-host namin ito at bibigyan ka ng share link.",
-      "step3": "3) I-copy at i-paste ang link kahit saan.",
-      "note": "Mabilis bumukas ang iyong link sa mga docs, chat, at prototype — at maaari mo ring i-download ito sa .txt/.json/.md format."
-    },
-    "process": {
-      "title": "Prosesong may tatlong hakbang",
-      "subtitle": "Bawasan ang pagod, manatiling nakatutok, tapos sa ilang segundo.",
-      "steps": {
-        "1": {
-          "title": "I-drop o I-paste",
-          "desc": "I-drag ang file, i-paste mula sa clipboard, o mag-browse sa iyong computer."
-        },
-        "2": {
-          "title": "Kami ang Bahala sa Link",
-          "desc": "Instant URL na may kontrol para i-copy, buksan, o i-save."
-        },
-        "3": {
-          "title": "I-share Kahit Saan",
-          "desc": "I-paste sa mga dokumento, chat, ticket, blog, o prototype."
-        }
-      }
+      "step1": "1) Idagdag ang iyong larawan (i-drag, i-paste, o i-click para pumili ng file).",
+      "step2": "2) I-ho-host namin ito at ibibigay ang isang mababahaging link.",
+      "step3": "3) Kopyahin at ibahagi ang link kahit saan mo kailangan.",
+      "note": "Mabilis bumukas ang iyong link sa mga docs at chat — maaari mo ring i-download sa (.txt/.json/.md)."
     },
     "features": {
-      "title": "Mga Pangunahing Feature",
-      "subtitle": "Kalinawan muna: mas madaling proseso, mas maraming pag-share.",
+      "title": "Mga Tampok",
+      "subtitle": "Linaw muna: mas kaunting abala, mas maraming pagbabahagi.",
       "items": {
         "cdn": {
-          "title": "Direct CDN Links",
-          "desc": "Malinis at predictable na mga URL, handa para sa Markdown at HTML."
+          "title": "Direct CDN links",
+          "desc": "Malinis at madaling hulaang mga URL na handa para sa Markdown at HTML."
         },
         "save": {
-          "title": "Copy at Save Actions",
-          "desc": "I-copy, buksan, o i-save bilang .txt/.json/.md sa isang click."
+          "title": "Kopyahin at i-save",
+          "desc": "Kopyahin, buksan, o i-save bilang .txt/.json/.md sa isang click."
         },
         "clipboard": {
-          "title": "Clipboard Friendly",
-          "desc": "I-paste ang mga screenshot nang direkta nang hindi na naghahanap ng file."
-        },
-        "errors": {
-          "title": "Madaling Intindihing Error",
-          "desc": "Malinaw na mensahe imbes na mga nakakalitong technical code."
+          "title": "Clipboard friendly",
+          "desc": "I-paste ang mga screenshot nang hindi na naghahanap ng mga file."
         },
         "nosignup": {
-          "title": "Hindi Kailangan ng Signup",
-          "desc": "Magtrabaho nang mas mabilis — mag-upload at i-share agad."
-        },
-        "r2": {
-          "title": "Mabilis na Hosting",
-          "desc": "Ang mga link ay hatid ng mabilis na network para sa maaasahang access."
+          "title": "Walang signup",
+          "desc": "Mas mabilis na trabaho — mag-upload at magbahagi agad."
         }
       }
-    },
-    "testimonials": {
-      "title": "Mga team na nakakatipid ng oras gamit ang Larawan sa URL",
-      "subtitle": "Subok na solusyon para sa mas mabilis na pagtatrabaho.",
-      "items": {
-        "ops": {
-          "name": "Product Ops",
-          "quote": "Nag-i-paste kami ng mga screenshot sa mga ticket nang hindi napupuno ang storage ng mga attachment. Malinis tingnan ang lahat dahil sa mga link."
-        },
-        "content": {
-          "name": "Content Lead",
-          "quote": "Ang mga Markdown link ay nagpapanatiling maayos sa aming mga dokumento at handa na para sa pag-publish sa loob ng ilang minuto."
-        },
-        "support": {
-          "name": "Support",
-          "quote": "Madaling intindihin ang mga error message at instant na mga URL kaya mas madaling gabayan ang mga customer sa chat."
-        }
-      }
-    },
-    "cta": {
-      "title": "Gawing link ang mga larawan sa ilang segundo",
-      "subtitle": "I-drag, i-paste, o i-upload — i-copy ang link at i-share kahit saan.",
-      "upload": "Mag-upload na",
-      "paste": "I-paste ang screenshot"
     },
     "longform": {
-      "title": "Bakit nakakatulong ang aming serbisyo sa iyong workflow",
-      "p1": "Ang aming tool ay binuo para sa mga creator, marketer, support team, at sinumang nangangailangan ng mabilis na paraan para gawing malinis na link ang mga larawan. Dahil sa diretsong proseso mula upload hanggang link, maiiwasan mo ang mabibigat na media management system at hindi mo na kailangang mag-log in. Ang mga link ay maayos at madaling i-paste sa mga chat app, docs, wikis, at mga ticket. Mas mabilis kumilos ang mga team kapag ang mga screenshot at product photo ay madaling ma-share nang walang limitasyon ng mga attachment.",
-      "p2": "Simple lang ang karanasan: i-drop, i-paste, o mag-browse; kumuha ng link; i-share. Walang kalat at walang nakakaabalang mga ad. Nakatutok ka sa content, habang kami ang bahala sa hosting. Nagdodokumento ka man ng feature o naghahanda ng blog post, mas maganda ang maikling link kaysa sa mabigat na attachment.",
+      "title": "Bakit nakakatulong ang Photo To URL sa iyong workflow",
+      "p1": "Ang Photo To URL ay ginawa para sa mga creator, marketer, at team na nangangailangan ng mabilis na paraan para gawing link ang mga larawan. Iwasan ang matatagal na media manager at laktawan ang mga login. Ang mga link ay maayos at madaling i-paste sa mga chat app, docs, at tickets.",
+      "p2": "Simple lang ang karanasan: i-drop, i-paste, o mag-browse; kumuha ng link; magbahagi. Walang nakakaabalang mga ad. Mag-focus sa iyong content habang kami ang bahala sa hosting.",
       "useCases": {
-        "title": "Mga Praktikal na Paggagamitan",
+        "title": "Mga praktikal na paggamit",
         "items": {
-          "1": "Product at Design: I-share ang mga UI mockup at component screenshot nang walang kumplikadong export.",
-          "2": "Support at QA: Maglagay ng mga screenshot sa mga ticket o chat; madaling i-trace ang mga link.",
-          "3": "Docs at Blogs: Mag-embed ng mga larawan sa Markdown o HTML editor gamit ang mga predictable na URL.",
-          "4": "Sales at Service: Magdagdag ng visual proof o mga demo nang direkta sa mga email o mensahe.",
-          "5": "Engineering Handoff: Panatilihing magaan ang mga bug report para sa mas mabilis na review.",
-          "6": "Communities at Social: I-paste ang mga link sa Discord, Slack, o mga forum nang walang kalat."
+          "1": "Design: Ibahagi ang mga UI mock at visual notes nang mabilis.",
+          "2": "Support: Mag-attach ng mga screenshot sa mga ticket nang maayos.",
+          "3": "Blog: I-embed ang mga larawan sa Markdown o HTML editor.",
+          "4": "Sales: Mag-drop ng mga walkthrough o proof-of-concept sa email.",
+          "5": "Engineering: Gawing magaan ang pagbabahagi ng mga error snap para sa review.",
+          "6": "Community: I-paste ang mga link sa Discord o Slack nang walang kalat."
         }
-      },
-      "flow": {
-        "title": "Paano gumagana ang buong proseso",
-        "p1": "1) Pumili ng larawan: i-drag at i-drop, i-paste mula sa clipboard, o i-click para mag-browse. 2) I-u-upload namin ito at magbibigay ng direct link. Ipapakita agad ng interface ang iyong URL kasama ang mga option para i-copy, buksan, at i-save sa iba't ibang format (.txt, .json, .md). 3) Gamitin ang link kahit saan. Ang layunin ay magkaroon ng maayos na tulay sa pagitan ng iyong larawan at ng lugar kung saan ka nagtatrabaho.",
-        "p2": "Ang bawat hakbang ay idinisenyo para sa kalinawan: makikita ang status, madaling intindihin ang mga error, at may mga button na nagkukumpirma sa iyong mga ginawa."
-      },
-      "best": {
-        "title": "Mga Best Practice para sa Malinis na Link",
-        "items": {
-          "1": "Bigyan ng maayos na pangalan ang mga file bago i-upload; mananatili ito bilang bahagi ng URL.",
-          "2": "Gumamit ng WEBP o optimized na JPG/PNG para sa mas magaan na file.",
-          "3": "I-copy ang link agad pagkatapos ma-generate para maiwasan ang clipboard error.",
-          "4": "I-save bilang .json kung kailangan mong itago ang mga reference para sa automation.",
-          "5": "Gamitin ang .md output para sa pag-embed sa mga dokumento o wikis.",
-          "6": "I-save bilang .txt para sa malinis na text links na handa nang gamitin."
-        }
-      },
-      "roadmap": {
-        "title": "Mga Plano sa Hinaharap",
-        "p1": "Ang mga darating na update ay may kasamang mas malalim na integration sa mga storage solution, mas mataas na upload limit, opsyonal na team access, at analytics para sa bawat link."
-      },
-      "faq": {
-        "title": "Mga Madalas Itanong",
-        "items": {
-          "1": {
-            "q": "Libre ba ito?",
-            "a": "Oo, ang basic na paggawa ng link mula sa larawan ay libre."
-          },
-          "2": {
-            "q": "Anong mga format ang supported?",
-            "a": "Sa ngayon, PNG, JPG, WEBP, GIF hanggang 10MB."
-          },
-          "3": {
-            "q": "Maaari ko ba itong i-embed sa Markdown o HTML?",
-            "a": "Oo. I-copy ang link nang direkta o gamitin ang .md format save options."
-          },
-          "4": {
-            "q": "Public ba ang mga file ko?",
-            "a": "Ang mga link ay shareable; kapag ang CDN ay naka-enable, idinedeliver ito gamit ang domain nito."
-          },
-          "5": {
-            "q": "Magkakaroon ba ng mga account para sa mga team?",
-            "a": "Plano ito sa hinaharap. Inuuna muna namin ang madaling pag-upload, pagkatapos ay magdadagdag kami ng mga team workspace."
-          }
-        }
-      },
-      "keywords": {
-        "title": "Mga Keyword",
-        "p1": "larawan sa url, photo to url, image link generator, gawing link ang larawan, libreng image hosting, direct image url"
       }
     },
     "selectRegion": {
-      "title": "Pumili ng Rehiyon",
-      "subtitle": "Piliin ang iyong gustong wika at rehiyon"
+      "title": "Pumili ng rehiyon",
+      "subtitle": "Pumili ng iyong gustong wika at rehiyon"
     },
     "rateService": {
-      "title": "I-rate ang aming converter",
+      "title": "I-rate ang Photo To URL Converter",
       "thankYou": "Salamat sa iyong feedback!",
       "averageRating": "4.5",
-      "votes": "4,992 votes"
-    }
-  },
-  "seo": {
-    "keywords": "larawan sa url, photo to url, image link generator, libreng image hosting, direct image url, shareable links, cdn",
-    "home": {
-      "title": "Larawan sa URL Converter | Gawing shareable link ang mga larawan",
-      "description": "Libreng image hosting: Gawing permanenteng URL ang mga larawan nang instant. Suportado ang JPG, PNG, WEBP, GIF hanggang 10MB. CDN at malinis na mga link para sa Markdown at HTML."
-    }
-  },
-  "images": {
-    "previewAlt": "Preview ng na-upload na larawan",
-    "animatingSampleAlt": "Sample na larawang ginamit sa demo",
-    "sampleThumbAlt": "Sample na thumbnail para sa pag-upload",
-    "useSampleAria": "Gamitin ang sample na larawang ito",
-    "howIllustrationAlt": "Ilustrasyong nagpapakita kung paano gumagana ang Larawan sa URL",
-    "heroDropTitle": "I-drop ang larawan dito",
-    "heroDropSubtitle": "I-o-optimize at i-ho-host namin ito, at bibigyan ka namin ng malinis na link.",
-    "heroDropBadge": "I-drop o i-click (JPG/PNG, hanggang 10MB)",
-    "logoAlt": "Larawan sa URL Logo"
-  },
-  "circleCrop": {
-    "title": "Photo To Circle Crop",
-    "description": "Libreng online tool para i-crop ang mga larawan sa pabilog na hugis — gawing perpektong bilog ang anumang larawan para sa mga profile picture at design.",
-    "upload": "Mag-upload ng larawan",
-    "processing": "Pinoproseso...",
-    "download": "I-download ang pabilog na larawan",
-    "errorSelectFile": "Pumili ng image file",
-    "errorUploadFirst": "Mag-upload muna ng larawan",
-    "page": {
-      "title": "Photo To Circle Crop - Libreng Online Tool",
-      "description": "Ang tool na ito ay isang libreng online service para gawing perpektong bilog ang mga rectangular na larawan nang hindi na kailangang mag-signup."
+      "votes": "4,992 boto"
     },
     "seo": {
-      "title": "Larawan sa Circle Crop | Libreng Online Cropping",
-      "description": "Libreng online tool para i-crop ang mga larawan sa perpektong bilog - mainam para sa mga profile picture at social media."
-    },
-    "selectRegion": {
-      "title": "Pumili ng Rehiyon",
-      "subtitle": "Piliin ang iyong wika at rehiyon"
-    },
-    "rateService": {
-      "title": "I-rate ang cropping tool",
-      "thankYou": "Salamat sa iyong feedback!",
-      "averageRating": "4.5",
-      "votes": "4,992 votes"
-    }
-  },
-  "blog": {
-    "seo": {
-      "title": "Blog | Larawan sa URL",
-      "description": "Mga artikulo tungkol sa image hosting, pag-share ng link, at mga productivity tip."
-    },
-    "page": {
-      "title": "Blog",
-      "description": "Naghahanda kami ng mga artikulo tungkol sa image hosting, CDN, at mga SEO tip. Malapit na.",
-      "stayTuned": "Abangan ang mga guide tungkol sa:",
-      "guides": {
-        "1": "Best practices para sa image to URL conversion",
-        "2": "Paano gumamit ng mga direct photo link sa mga blog at docs",
-        "3": "Performance at caching para sa mga static asset"
+      "keywords": "larawan sa url, imahe sa link, image link generator, libreng image hosting, cdn image",
+      "home": {
+        "title": "Photo To URL Converter | Gawing link ang iyong mga larawan",
+        "description": "Libreng image hosting: gawing permanenteng URL ang mga larawan agad-agad. Suportado ang JPG, PNG, WEBP, GIF hanggang 10MB."
       }
-    }
-  },
-  "docs": {
-    "seo": {
-      "title": "Docs | Larawan sa URL",
-      "description": "Dokumentasyon para sa aming serbisyo."
     },
-    "page": {
-      "title": "Docs",
-      "description": "Quick start: mag-upload ng larawan at kumuha ng direct URL. Gamitin ang mga copy button o i-download ang link sa .txt/.json/.md.",
-      "features": {
-        "title": "Mga supported na feature:",
-        "items": {
-          "1": "Supported: JPG, PNG, WEBP, GIF",
-          "2": "Mabilis na delivery gamit ang CDN",
-          "3": "Maayos na maintenance message"
-        }
-      }
-    }
-  },
-  "status": {
-    "seo": {
-      "title": "Status | Larawan sa URL",
-      "description": "Status ng serbisyo para sa aming mga system."
-    },
-    "page": {
-      "title": "Status",
-      "description": "Gumagana nang maayos ang lahat ng system.",
-      "message": "Ang Upload API at mga CDN link ay tumatakbo."
-    }
-  },
-  "contact": {
-    "seo": {
-      "title": "Contact | Larawan sa URL",
-      "description": "Kontakin ang support."
-    },
-    "page": {
-      "title": "Contact",
-      "description": "Kailangan ng tulong o gustong mag-share ng feedback? Mag-email sa amin at sasagutin ka namin sa lalong madaling panahon.",
-      "email": {
-        "label": "Email",
-        "address": "leeqs1010@gmail.com"
-      }
-    }
-  },
-  "legal": {
-    "privacy": {
-      "seo": {
-        "title": "Privacy Policy | Photo To URL",
-        "description": "Privacy Policy for Photo To URL."
-      },
+    "circleCrop": {
+      "title": "Photo To Circle Crop",
+      "description": "Libreng online na tool para sa pag-crop ng larawan sa bilog - perpekto para sa profile pictures.",
+      "upload": "I-upload ang Larawan",
+      "processing": "Pinoproseso...",
+      "download": "I-download ang Bilog na Larawan",
       "page": {
-        "title": "Privacy Policy",
-        "content": "We collect the minimum necessary data to operate the service. Uploaded images are stored to generate a shareable link.",
-        "contact": {
-          "title": "Contact",
-          "text": "Questions? Email",
-          "email": "leeqs1010@gmail.com"
-        }
-      }
-    },
-    "terms": {
-      "seo": {
-        "title": "Terms of Service | Photo To URL",
-        "description": "Terms of Service for Photo To URL."
+        "title": "Photo To Circle Crop - Libreng Online Tool",
+        "description": "Gawing perpektong bilog ang iyong mga rectangular na larawan agad-agad, walang kailangang signup."
       },
-      "page": {
-        "title": "Terms of Service",
-        "content": "By using Photo To URL, you agree to use the service responsibly and not upload illegal content.",
-        "disclaimer": {
-          "title": "Disclaimer",
-          "text": "The service is provided \"as is\" without warranties. Availability may change due to maintenance."
-        },
-        "contact": {
-          "title": "Contact",
-          "text": "Email",
-          "email": "leeqs1010@gmail.com"
-        }
+      "selectRegion": {
+        "title": "Pumili ng rehiyon",
+        "subtitle": "Pumili ng iyong gustong wika at rehiyon"
+      },
+      "rateService": {
+        "title": "I-rate ang Photo To Circle Crop",
+        "thankYou": "Salamat sa iyong feedback!",
+        "averageRating": "4.5",
+        "votes": "4,992 boto"
       }
     }
   }

@@ -41,7 +41,19 @@ export function SelectRegionSection({ translationKey = "home.selectRegion" }: Se
     { code: "hi", label: "हिन्दी (Hindi)", countryCode: "IN" },
     { code: "id", label: "Indonesia", countryCode: "ID" },
     { code: "ms", label: "Melayu", countryCode: "MY" },
-    { code: "uk", label: "Українська", countryCode: "UA" },
+    { code: "uk", label: "Українська (Ukrainian)", countryCode: "UA" },
+    { code: "bg", label: "Български (Bulgarian)", countryCode: "BG" },
+    { code: "ca", label: "Català (Catalan)", countryCode: "ES" },
+    { code: "da", label: "Dansk (Danish)", countryCode: "DK" },
+    { code: "el", label: "Ελληνικά (Greek)", countryCode: "GR" },
+    { code: "fi", label: "Suomi (Finnish)", countryCode: "FI" },
+    { code: "he", label: "עברית (Hebrew)", countryCode: "IL" },
+    { code: "hr", label: "Hrvatski (Croatian)", countryCode: "HR" },
+    { code: "hu", label: "Magyar (Hungarian)", countryCode: "HU" },
+    { code: "no", label: "Norsk (Norwegian)", countryCode: "NO" },
+    { code: "ro", label: "Română (Romanian)", countryCode: "RO" },
+    { code: "sk", label: "Slovenčina (Slovak)", countryCode: "SK" },
+    { code: "tl", label: "Tagalog", countryCode: "PH" },
   ];
 
   return (

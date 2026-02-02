@@ -4,8 +4,23 @@
     "tagline": "Gjør bilder om til rene, delbare lenker på sekunder",
     "header": {
       "subtitle": "Gjør bilder om til delbare lenker",
-      "prompt": "Slipp, lim inn eller last opp — få en delbar lenke umiddelbart",
-      "circleCrop": "Rund bildebeskjæring"
+      "prompt": "Dra, lim inn eller last opp — få en lenke umiddelbart",
+      "circleCrop": "Rund bildebeskjæring",
+      "history": "Lastoppføringer"
+    },
+    "history": {
+      "drawerTitle": "Lastoppføringer",
+      "hint": "Viser de 10 siste opplastningene.",
+      "close": "Lukk",
+      "empty": "Ingen opplastninger ennå.",
+      "copy": "Kopier lenke",
+      "copied": "Kopiert",
+      "open": "Åpne i ny fane"
+    },
+    "languageSelect": {
+      "title": "Velg din region",
+      "subtitle": "Å velge en region vil endre språk og innhold.",
+      "close": "Lukk"
     },
     "footer": {
       "blurb": {
@@ -26,366 +41,139 @@
         "privacy": "Personvern",
         "terms": "Vilkår"
       },
-      "copyright": "© 2025 Photo To URL. All rights reserved."
+      "copyright": "© 2025 Photo To URL. Alle rettigheter forbeholdt."
     }
   },
   "home": {
     "badge": {
       "free": "Gratis",
       "cdn": "CDN-lenker",
-      "nosignup": "Ingen registrering"
+      "nosignup": "Uten registrering"
     },
     "hero": {
       "title1": "Gratis",
       "title2": "Bilde til URL",
-      "subtitle": "Last opp → få lenke → lim inn hvor som helst",
+      "subtitle": "Last opp bildet ditt → få en lenke → lim det inn hvor som helst",
       "upload": "Last opp bilde",
       "bullet": {
         "fast": "Rask deling",
         "direct": "Direkte bildelenker",
-        "nosignup": "Ingen registrering kreves",
+        "nosignup": "Ingen registrering nødvendig",
         "paste": "Lim inn fra utklippstavlen"
       }
     },
     "demo": {
       "label": "Demo",
-      "loop": "Automatisk demo",
+      "loop": "Auto-demo",
       "idleTitle": "Dra og slipp bildet ditt",
-      "idleSubtitle": "Se hele prosessen: opplasting → lenke → kopiering.",
+      "idleSubtitle": "Se flyten: opplasting → lenke → kopiering.",
       "processing": "Optimaliserer og laster opp...",
       "doneTitle": "Klar til deling",
-      "doneSubtitle": "Lenken din er klar for umiddelbar deling.",
+      "doneSubtitle": "Lenken din er klar til bruk med en gang.",
       "thanksForWatching": "Takk for at du så på"
     },
     "upload": {
-      "title": "Slipp et bilde eller klikk for å bla gjennom",
-      "hint": "JPG, PNG, WEBP, GIF opptil 10MB. Dra, klikk eller lim inn skjermbilde.",
+      "title": "Slipp et bilde her eller klikk for å velge",
+      "hint": "JPG, PNG, WEBP, GIF opptil 10MB. Dra og slipp, klikk eller lim inn skjermbilder.",
       "orDrop": "eller slipp filen her",
       "samplesTitle": "Har du ikke et bilde? Prøv et av disse:",
-      "policy": "Ved å laste opp et bilde godtar du våre <privacy>Personvernregler</privacy> og <terms>Brukervilkår</terms>.",
+      "policy": "Ved å laste opp et bilde godtar du våre <privacy>personvernregler</privacy> og <terms>brukervilkår</terms>.",
       "clear": "Tøm"
     },
     "result": {
-      "error": "Opplastingen feilet. Vennligst prøv igjen.",
+      "error": "Opplasting feilet. Vennligst prøv igjen.",
+      "dailyLimitReached": "Daglig grense nådd (20 per dag). Prøv igjen i morgen.",
       "generated": "Generert lenke:",
       "open": "Åpne i ny fane",
-      "placeholder": "Ingen lenke ennå. Last opp et bilde for å generere en URL.",
-      "savePrompt": "Lagre lenken slik du ønsker",
+      "placeholder": "Ingen lenke ennå. Last opp et bilde for å generere en lenke.",
+      "savePrompt": "Lagre lenken i ønsket format",
       "copy": "Kopier lenke",
       "copied": "Kopiert",
       "saveHint": "Lagre denne lenken hvis du trenger den senere",
-      "tryCircleCrop": "Prøv Rund bildebeskjæring"
+      "tryCircleCrop": "Prøv rund bildebeskjæring"
     },
     "benefits": {
-      "title": "Hvorfor folk velger Bilde til URL",
-      "subtitle": "Hastighet, rene lenker og ingen krav om registrering.",
+      "title": "Hvorfor velge Photo To URL",
+      "subtitle": "Hastighet, rene lenker og ingen registrering nødvendig.",
       "items": {
         "fast": {
           "title": "Rask deling",
-          "desc": "Last opp og få en lenke på sekunder uten unødvendige trinn."
+          "desc": "Last opp og få en lenke på sekunder uten ekstra trinn."
         },
         "direct": {
-          "title": "Direkte URL-er",
+          "title": "Direkte bilde-URL-er",
           "desc": "Rene lenker som fungerer i HTML, Markdown og chat-apper."
         },
         "nosignup": {
           "title": "Ingen registrering",
-          "desc": "Bruk det umiddelbart. Brukerkontoer kommer senere."
-        }
-      }
-    },
-    "how": {
-      "title": "Slik fungerer det",
-      "step1": "1) Legg til bildet ditt (dra, lim inn eller velg fil).",
-      "step2": "2) Vi er vert for det og gir deg en delingslenke.",
-      "step3": "3) Kopier og lim inn lenken hvor som helst.",
-      "note": "Lenken din åpnes raskt i dokumenter, chatter og prototyper — i tillegg kan du laste den ned i .txt/.json/.md-format."
-    },
-    "process": {
-      "title": "Prosess i tre trinn",
-      "subtitle": "Mindre innsats, mer fokus, ferdig på sekunder.",
-      "steps": {
-        "1": {
-          "title": "Slipp eller lim inn",
-          "desc": "Dra en fil, lim inn fra utklippstavlen eller bla gjennom datamaskinen din."
-        },
-        "2": {
-          "title": "Vi vert og lenker",
-          "desc": "Umiddelbar URL med kontroller for å kopiere, åpne eller lagre."
-        },
-        "3": {
-          "title": "Del overalt",
-          "desc": "Lim inn i dokumenter, chatter, saker, blogger eller prototyper."
+          "desc": "Bruk den med en gang. Kontoer kommer senere."
         }
       }
     },
     "features": {
-      "title": "Hovedfunksjoner",
-      "subtitle": "Klarhet først: mindre friksjon, mer deling.",
+      "title": "Høydepunkter",
+      "subtitle": "Tydelighet først: mindre friksjon, mer deling.",
       "items": {
         "cdn": {
           "title": "Direkte CDN-lenker",
-          "desc": "Rene og forutsigbare URL-er, klare for Markdown og HTML."
+          "desc": "Rene URL-er klare for Markdown- og HTML-innbygging."
         },
         "save": {
-          "title": "Kopier og lagre-handlinger",
+          "title": "Kopier og lagre",
           "desc": "Kopier, åpne eller lagre som .txt/.json/.md med ett klikk."
         },
         "clipboard": {
-          "title": "Vennlig for utklippstavle",
+          "title": "Vennlig mot utklippstavlen",
           "desc": "Lim inn skjermbilder direkte uten å lete etter filer."
         },
-        "errors": {
-          "title": "Forståelige feil",
-          "desc": "Tydelige meldinger i stedet for kompliserte tekniske koder."
-        },
         "nosignup": {
-          "title": "Ingen registrering nødvendig",
-          "desc": "Jobb raskere — last opp og del umiddelbart."
-        },
-        "r2": {
-          "title": "Rask hosting",
-          "desc": "Lenker levert via et raskt nettverk for pålitelig tilgang."
-        }
-      }
-    },
-    "testimonials": {
-      "title": "Team som sparer tid med Bilde til URL",
-      "subtitle": "En utprøvd løsning for raskere arbeid.",
-      "items": {
-        "ops": {
-          "name": "Produkt Ops",
-          "quote": "Vi limer skjermbilder inn i saker uten å fylle opp lagringsplassen med vedlegg. Lenkene holder alt ryddig."
-        },
-        "content": {
-          "name": "Innholdsleder",
-          "quote": "Markdown-lenker holder dokumentene våre organiserte og klare til publisering på få minutter."
-        },
-        "support": {
-          "name": "Brukerstøtte",
-          "quote": "Tydelige feilmeldinger og umiddelbare URL-er gjør det enkelt å veilede kunder i chatten."
+          "title": "Ingen registrering",
+          "desc": "Kom i gang raskere — last opp og del umiddelbart."
         }
       }
     },
     "cta": {
       "title": "Gjør bilder om til lenker på sekunder",
-      "subtitle": "Slipp, lim inn eller last opp — kopier lenken og del overalt.",
+      "subtitle": "Dra, lim inn eller last opp — kopier lenken og del overalt.",
       "upload": "Last opp nå",
       "paste": "Lim inn skjermbilde"
-    },
-    "longform": {
-      "title": "Hvorfor tjenesten vår hjelper din arbeidsflyt",
-      "p1": "Verktøyet vårt er laget for skapere, markedsførere, støtteteam og alle som trenger en rask måte å gjøre bilder om til rene lenker. Med en direkte flyt fra opplasting til lenke slipper du tunge filbehandlingssystemer og innlogging. Lenkene er ryddige og enkle å lime inn i chat-apper, dokumenter, wikier og saker. Team beveger seg raskere når skjermbilder og produktbilder kan deles umiddelbart uten begrensninger på vedlegg.",
-      "p2": "Opplevelsen er enkel: slipp, lim inn eller bla gjennom; få lenke; del. Ingen unødvendige elementer eller forstyrrende annonser. Du fokuserer på innholdet, mens vi tar oss av hostingen. Enten du dokumenterer en funksjon eller forbereder et blogginnlegg, er en kort lenke bedre enn et tungt vedlegg.",
-      "useCases": {
-        "title": "Praktiske bruksområder",
-        "items": {
-          "1": "Produkt og design: Del skisser og skjermbilder av komponenter uten komplisert eksport.",
-          "2": "Støtte og QA: Legg ved skjermbilder i saker eller chatter; lenker er enkle å følge.",
-          "3": "Dokumenter og blogger: Bygg inn bilder i Markdown- eller HTML-editorer med forutsigbare URL-er.",
-          "4": "Salg og service: Legg til visuelle bevis eller demoer direkte i e-poster eller meldinger.",
-          "5": "Overlevering til utviklere: Hold feilrapporter visuelt lette for raskere gjennomgang.",
-          "6": "Samfunn og sosiale medier: Lim inn lenker i Discord, Slack eller forum uten rot."
-        }
-      },
-      "flow": {
-        "title": "Slik fungerer hele prosessen",
-        "p1": "1) Velg et bilde: dra og slipp, lim inn fra utklippstavlen eller klikk for å bla gjennom. 2) Vi laster opp og returnerer en direkte lenke. Grensesnittet viser URL-en din umiddelbart med handlinger for å kopiere, åpne og lagre i ulike formater (.txt, .json, .md). 3) Bruk lenken overalt. Målet er en sømløs bro mellom bildet ditt og der du jobber.",
-        "p2": "Hvert trinn er designet for klarhet: synlig status, forståelige feil og knapper som bekrefter handlingene dine."
-      },
-      "best": {
-        "title": "Beste praksis for rene lenker",
-        "items": {
-          "1": "Gi filene dine meningsfulle navn før opplasting; de forblir en del av URL-en.",
-          "2": "Bruk WEBP eller optimaliserte JPG/PNG for lettere filer.",
-          "3": "Kopier lenken rett etter generering for å unngå feil med utklippstavlen.",
-          "4": "Lagre som .json når du trenger å beholde referanser for automatisering.",
-          "5": "Bruk .md-formatet for innebygging i dokumenter eller wikier.",
-          "6": "Lagre som .txt for rene tekstlenker klare til bruk."
-        }
-      },
-      "roadmap": {
-        "title": "Fremtidige forbedringer",
-        "p1": "Kommende oppgraderinger inkluderer dypere integrasjon med lagringsløsninger, større opplastingsgrenser, valgfri teamtilgang og analyse for hver lenke."
-      },
-      "faq": {
-        "title": "Ofte stilte spørsmål",
-        "items": {
-          "1": {
-            "q": "Er det gratis?",
-            "a": "Ja, grunnleggende konvertering fra bilde til lenke er gratis."
-          },
-          "2": {
-            "q": "Hvilke formater støttes?",
-            "a": "For øyeblikket PNG, JPG, WEBP, GIF opptil 10MB."
-          },
-          "3": {
-            "q": "Kan jeg bygge inn i Markdown eller HTML?",
-            "a": "Ja. Kopier lenken direkte eller bruk lagringsalternativene for .md-format."
-          },
-          "4": {
-            "q": "Er filene mine offentlige?",
-            "a": "Lenkene er delbare; når de serveres via CDN, leveres de gjennom dets domene."
-          },
-          "5": {
-            "q": "Vil det komme team-kontoer?",
-            "a": "Det er planlagt. Vi prioriterer enkel opplasting først, og vil deretter legge til team-områder."
-          }
-        }
-      },
-      "keywords": {
-        "title": "Nøkkelord",
-        "p1": "bilde til url, foto til url, bildelenke-generator, gjør bilde om til lenke, gratis bildehosting, direkte bilde-url"
-      }
     },
     "selectRegion": {
       "title": "Velg region",
       "subtitle": "Velg ditt foretrukne språk og region"
     },
     "rateService": {
-      "title": "Vurder vår tjeneste",
-      "thankYou": "Takk for din tilbakemelding!",
+      "title": "Vurder Photo To URL Converter",
+      "thankYou": "Takk for tilbakemeldingen!",
       "averageRating": "4.5",
-      "votes": "4 992 stemmer"
-    }
-  },
-  "seo": {
-    "keywords": "bilde til url, foto til url, bildelenke-generator, gratis bildehosting, direkte bilde-url, delbare lenker, cdn",
-    "home": {
-      "title": "Bilde til URL-konvertering | Gjør bilder om til delbare lenker",
-      "description": "Gratis bildehosting: Gjør bilder om til permanente URL-er umiddelbart. Støtter JPG, PNG, WEBP, GIF opptil 10MB. CDN og rene lenker for Markdown og HTML."
-    }
-  },
-  "images": {
-    "previewAlt": "Forhåndsvisning av opplastet bilde",
-    "animatingSampleAlt": "Eksempelbilde brukt i demo",
-    "sampleThumbAlt": "Eksempelbilde for opplasting",
-    "useSampleAria": "Bruk dette eksempelbildet",
-    "howIllustrationAlt": "Illustrasjon som viser hvordan Bilde til URL fungerer",
-    "heroDropTitle": "Slipp bildet her",
-    "heroDropSubtitle": "Vi optimaliserer og vert det, og gir deg en ren lenke tilbake.",
-    "heroDropBadge": "Slipp eller klikk (JPG/PNG, opptil 10MB)",
-    "logoAlt": "Bilde til URL Logo"
-  },
-  "circleCrop": {
-    "title": "Rund bildebeskjæring",
-    "description": "Gratis nettverktøy for å beskjære bilder i sirkel — gjør ethvert bilde om til en perfekt sirkel for profilbilder og design.",
-    "upload": "Last opp bilde",
-    "processing": "Behandler...",
-    "download": "Last ned rundt bilde",
-    "errorSelectFile": "Vennligst velg en bildefil",
-    "errorUploadFirst": "Vennligst last opp et bilde først",
-    "page": {
-      "title": "Rund bildebeskjæring - Gratis nettverktøy",
-      "description": "Dette verktøyet er en gratis tjeneste for å gjøre rektangulære bilder om til perfekte sirkler uten krav om registrering."
+      "votes": "4,992 stemmer"
     },
     "seo": {
-      "title": "Rund bildebeskjæring | Gratis beskjæring på nett",
-      "description": "Gratis nettverktøy for å beskjære bilder til en perfekt sirkel - ideelt for profilbilder og sosiale medier."
-    },
-    "selectRegion": {
-      "title": "Velg region",
-      "subtitle": "Velg språk og region"
-    },
-    "rateService": {
-      "title": "Vurder beskjæringsverktøyet",
-      "thankYou": "Takk for din tilbakemelding!",
-      "averageRating": "4.5",
-      "votes": "4 992 stemmer"
-    }
-  },
-  "blog": {
-    "seo": {
-      "title": "Blogg | Bilde til URL",
-      "description": "Artikler om bildehosting, deling av lenker og tips for produktivitet."
-    },
-    "page": {
-      "title": "Blogg",
-      "description": "Vi forbereder artikler om bildehosting, CDN og SEO-tips. Kommer snart.",
-      "stayTuned": "Følg med for guider om:",
-      "guides": {
-        "1": "Beste praksis for konvertering av bilde til URL",
-        "2": "Slik bruker du direkte bildelenker i blogger og dokumenter",
-        "3": "Ytelse og caching for statiske filer"
+      "keywords": "bilde til url, foto til lenke, bilde-lenke generator, gratis bildehosting, cdn bilde",
+      "home": {
+        "title": "Photo To URL Converter | Gjør bilder om til delbare lenker",
+        "description": "Gratis bildehosting: konverter bilder til permanente URL-er umiddelbart. Støtter JPG, PNG, WEBP, GIF opptil 10MB."
       }
-    }
-  },
-  "docs": {
-    "seo": {
-      "title": "Dokumentasjon | Bilde til URL",
-      "description": "Dokumentasjon for tjenesten vår."
     },
-    "page": {
-      "title": "Dokumentasjon",
-      "description": "Hurtigstart: last opp et bilde og få en direkte URL. Bruk kopieringsknappene eller last ned lenken i .txt/.json/.md.",
-      "features": {
-        "title": "Støttede funksjoner:",
-        "items": {
-          "1": "Støttet: JPG, PNG, WEBP, GIF",
-          "2": "Rask levering via CDN",
-          "3": "Vennlige feilmeldinger ved vedlikehold"
-        }
-      }
-    }
-  },
-  "status": {
-    "seo": {
-      "title": "Status | Bilde til URL",
-      "description": "Tjenestestatus for systemene våre."
-    },
-    "page": {
-      "title": "Status",
-      "description": "Alle systemer i drift.",
-      "message": "Opplastings-API og CDN-lenker kjører."
-    }
-  },
-  "contact": {
-    "seo": {
-      "title": "Kontakt | Bilde til URL",
-      "description": "Kontakt brukerstøtte."
-    },
-    "page": {
-      "title": "Kontakt",
-      "description": "Trenger du hjelp eller vil du dele tilbakemelding? Send oss en e-post, så svarer vi så snart som mulig.",
-      "email": {
-        "label": "E-post",
-        "address": "leeqs1010@gmail.com"
-      }
-    }
-  },
-  "legal": {
-    "privacy": {
-      "seo": {
-        "title": "Privacy Policy | Photo To URL",
-        "description": "Privacy Policy for Photo To URL."
-      },
+    "circleCrop": {
+      "title": "Rund bildebeskjæring",
+      "description": "Gratis online-verktøy for å beskjære bilder til en perfekt sirkel - ideelt for profilbilder.",
+      "upload": "Last opp bilde",
+      "processing": "Behandler...",
+      "download": "Last ned sirkulært bilde",
       "page": {
-        "title": "Privacy Policy",
-        "content": "We collect the minimum necessary data to operate the service. Uploaded images are stored to generate a shareable link.",
-        "contact": {
-          "title": "Contact",
-          "text": "Questions? Email",
-          "email": "leeqs1010@gmail.com"
-        }
-      }
-    },
-    "terms": {
-      "seo": {
-        "title": "Terms of Service | Photo To URL",
-        "description": "Terms of Service for Photo To URL."
+        "title": "Rund bildebeskjæring - Gratis verktøy på nett",
+        "description": "Beskjær bildene dine til en sirkelformet profilbilde-vennlig stil på sekunder uten registrering."
       },
-      "page": {
-        "title": "Terms of Service",
-        "content": "By using Photo To URL, you agree to use the service responsibly and not upload illegal content.",
-        "disclaimer": {
-          "title": "Disclaimer",
-          "text": "The service is provided \"as is\" without warranties. Availability may change due to maintenance."
-        },
-        "contact": {
-          "title": "Contact",
-          "text": "Email",
-          "email": "leeqs1010@gmail.com"
-        }
+      "selectRegion": {
+        "title": "Velg region",
+        "subtitle": "Velg ditt foretrukne språk og region"
+      },
+      "rateService": {
+        "title": "Vurder Photo To Circle Crop",
+        "thankYou": "Takk for tilbakemeldingen!",
+        "averageRating": "4.5",
+        "votes": "4,992 stemmer"
       }
     }
   }

@@ -5,6 +5,7 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { StructuredData } from "@/components/StructuredData";
+import { LanguageSelectTrigger } from "@/components/LanguageSelectTrigger";
 import { routing, type AppLocale } from "@/i18n/routing";
 import type { ReactNode } from "react";
 import { getLocaleMetadata } from "../seo-metadata";
@@ -74,6 +75,7 @@ export default async function LocaleLayout({
       {Header}
       <main className="min-h-screen pt-14 sm:pt-16">{children}</main>
       {Footer}
+      <LanguageSelectTrigger />
       <GoogleAnalytics />
       {analyticsDomain && analyticsSrc ? (
         <script defer data-domain={analyticsDomain} src={analyticsSrc}></script>

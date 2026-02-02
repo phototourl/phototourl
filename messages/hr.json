@@ -1,15 +1,30 @@
 {
   "common": {
     "siteName": "Slika u URL",
-    "tagline": "Pretvorite fotografije u čiste poveznice za dijeljenje u nekoliko sekundi",
+    "tagline": "Pretvorite fotografije u čiste, djeljive poveznice u nekoliko sekundi",
     "header": {
-      "subtitle": "Pretvorite slike u poveznice za dijeljenje",
-      "prompt": "Ispustite, zalijepite ili učitajte — odmah preuzmite poveznicu",
-      "circleCrop": "Kružno izrezivanje fotografije"
+      "subtitle": "Pretvorite slike u djeljive poveznice",
+      "prompt": "Povucite, zalijepite ili učitajte — odmah preuzmite poveznicu",
+      "circleCrop": "Kružni izrez fotografije",
+      "history": "Povijest učitavanja"
+    },
+    "history": {
+      "drawerTitle": "Povijest učitavanja",
+      "hint": "Prikazuje se zadnjih 10 zapisa.",
+      "close": "Zatvori",
+      "empty": "Još nema učitavanja.",
+      "copy": "Kopiraj poveznicu",
+      "copied": "Kopirano",
+      "open": "Otvori u novoj kartici"
+    },
+    "languageSelect": {
+      "title": "Odaberite svoju regiju",
+      "subtitle": "Odabir regije će promijeniti jezik i sadržaj.",
+      "close": "Zatvori"
     },
     "footer": {
       "blurb": {
-        "line1": "Pretvorite fotografije u čiste poveznice.",
+        "line1": "Pretvorite fotografije u čiste, djeljive poveznice.",
         "line2": "Brzo, jednostavno, pouzdano."
       },
       "partners": "Partneri",
@@ -38,7 +53,7 @@
     "hero": {
       "title1": "Besplatno",
       "title2": "Slika u URL",
-      "subtitle": "Učitajte → preuzmite poveznicu → zalijepite bilo gdje",
+      "subtitle": "Učitajte fotografiju → preuzmite poveznicu → zalijepite je bilo gdje",
       "upload": "Učitaj sliku",
       "bullet": {
         "fast": "Brzo dijeljenje",
@@ -49,44 +64,45 @@
     },
     "demo": {
       "label": "Demo",
-      "loop": "Automatski demo",
-      "idleTitle": "Povucite i ispustite svoju sliku",
-      "idleSubtitle": "Pogledajte cijeli proces: učitavanje → poveznica → kopiranje.",
-      "processing": "Optimizacija i učitavanje...",
+      "loop": "Auto demo",
+      "idleTitle": "Povucite i ispustite sliku",
+      "idleSubtitle": "Pogledajte proces: učitavanje → poveznica → kopiranje.",
+      "processing": "Optimiziranje i učitavanje...",
       "doneTitle": "Spremno za dijeljenje",
-      "doneSubtitle": "Vaša poveznica je spremna za trenutno dijeljenje.",
+      "doneSubtitle": "Vaša poveznica je spremna za trenutnu upotrebu.",
       "thanksForWatching": "Hvala na gledanju"
     },
     "upload": {
-      "title": "Ispustite fotografiju ili kliknite za pregledavanje",
-      "hint": "JPG, PNG, WEBP, GIF do 10MB. Povucite, kliknite ili zalijepite snimku zaslona.",
+      "title": "Ispustite sliku ovdje ili kliknite za odabir",
+      "hint": "JPG, PNG, WEBP, GIF do 10MB. Povucite, kliknite ili zalijepite snimke zaslona.",
       "orDrop": "ili ispustite datoteku ovdje",
       "samplesTitle": "Nemate sliku? Isprobajte jednu od ovih:",
-      "policy": "Učitavanjem slike slažete se s našim <privacy>Pravilima privatnosti</privacy> i <terms>Uvjetima pružanja usluge</terms>.",
+      "policy": "Učitavanjem slike slažete se s našim <privacy>Pravilima privatnosti</privacy> i <terms>Uvjetima korištenja</terms>.",
       "clear": "Očisti"
     },
     "result": {
-      "error": "Nahrana nije uspjela. Pokušajte ponovno.",
+      "error": "Učitavanje nije uspjelo. Pokušajte ponovno.",
+      "dailyLimitReached": "Dosegnuto je dnevno ograničenje (20 dnevno). Pokušajte ponovno sutra.",
       "generated": "Generirana poveznica:",
       "open": "Otvori u novoj kartici",
-      "placeholder": "Još nema poveznice. Prenesite sliku da biste generirali URL za dijeljenje.",
-      "savePrompt": "Spremi poveznicu kao:",
-      "copy": "Kopiraj",
+      "placeholder": "Još nema poveznice. Učitajte sliku za generiranje URL-a.",
+      "savePrompt": "Spremite poveznicu u željenom formatu",
+      "copy": "Kopiraj poveznicu",
       "copied": "Kopirano",
       "saveHint": "Spremite ovu poveznicu ako će vam trebati kasnije",
-      "tryCircleCrop": "Isprobaj okrugli izrez"
+      "tryCircleCrop": "Isprobajte kružni izrez"
     },
     "benefits": {
-      "title": "Zašto ljudi biraju Slika u URL",
-      "subtitle": "Brzina, čiste poveznice i rad bez registracije.",
+      "title": "Zašto odabrati Photo To URL",
+      "subtitle": "Brzina, čiste poveznice i bez nepotrebne registracije.",
       "items": {
         "fast": {
           "title": "Brzo dijeljenje",
-          "desc": "Učitajte i preuzmite poveznicu u sekundi bez suvišnih koraka."
+          "desc": "Učitajte i preuzmite poveznicu u nekoliko sekundi bez dodatnih koraka."
         },
         "direct": {
-          "title": "Izravni URL-ovi",
-          "desc": "Čiste poveznice koje rade u HTML-u, Markdownu i aplikacijama za chat."
+          "title": "Izravni URL-ovi slika",
+          "desc": "Čiste poveznice koje rade u HTML-u, Markdownu i aplikacijama za dopisivanje."
         },
         "nosignup": {
           "title": "Bez registracije",
@@ -96,296 +112,75 @@
     },
     "how": {
       "title": "Kako to funkcionira",
-      "step1": "1) Dodajte svoju fotografiju (povucite, zalijepite ili odaberite datoteku).",
-      "step2": "2) Mi je pohranjujemo i dajemo vam poveznicu za dijeljenje.",
-      "step3": "3) Kopirajte i zalijepite poveznicu bilo gdje.",
-      "note": "Vaša se poveznica brzo otvara u dokumentima, chatovima i prototipovima — plus možete je preuzeti u .txt/.json/.md formatu."
-    },
-    "process": {
-      "title": "Proces u tri koraka",
-      "subtitle": "Smanjite napor, ostanite fokusirani, završite u sekundi.",
-      "steps": {
-        "1": {
-          "title": "Ispustite ili zalijepite",
-          "desc": "Povucite datoteku, zalijepite iz međuspremnika ili pregledajte svoje računalo."
-        },
-        "2": {
-          "title": "Pohranjujemo i povezujemo",
-          "desc": "Trenutni URL s kontrolama za kopiranje, otvaranje ili spremanje."
-        },
-        "3": {
-          "title": "Dijelite svugdje",
-          "desc": "Zalijepite u dokumente, chatove, tickete, blogove ili prototipove."
-        }
-      }
+      "step1": "1) Dodajte fotografiju (povucite, zalijepite ili odaberite datoteku).",
+      "step2": "2) Mi je pohranjujemo i dajemo vam djeljivu poveznicu.",
+      "step3": "3) Kopirajte i podijelite poveznicu gdje god vam je potrebna.",
+      "note": "Poveznica se brzo otvara u dokumentima i chatovima — možete je preuzeti i kao (.txt/.json/.md)."
     },
     "features": {
       "title": "Ključne značajke",
-      "subtitle": "Jasnoća na prvom mjestu: manje muke, više dijeljenja.",
+      "subtitle": "Jasnoća na prvom mjestu: manje prepreka, više dijeljenja.",
       "items": {
         "cdn": {
           "title": "Izravne CDN poveznice",
-          "desc": "Čisti i predvidljivi URL-ovi, spremni za Markdown i HTML."
+          "desc": "Čisti URL-ovi spremni za Markdown i HTML umetanje."
         },
         "save": {
-          "title": "Radnje kopiranja i spremanja",
+          "title": "Kopiraj i spremi",
           "desc": "Kopirajte, otvorite ili spremite kao .txt/.json/.md jednim klikom."
         },
         "clipboard": {
-          "title": "Podrška za međuspremnik",
+          "title": "Prilagođeno međuspremniku",
           "desc": "Zalijepite snimke zaslona izravno bez traženja datoteka."
         },
-        "errors": {
-          "title": "Razumljive pogreške",
-          "desc": "Jasne poruke umjesto kompliciranih tehničkih kodova."
-        },
         "nosignup": {
-          "title": "Registracija nije potrebna",
+          "title": "Bez registracije",
           "desc": "Radite brže — učitajte i dijelite odmah."
-        },
-        "r2": {
-          "title": "Brza pohrana",
-          "desc": "Poveznice se poslužuju putem brze mreže za pouzdan pristup."
-        }
-      }
-    },
-    "testimonials": {
-      "title": "Timovi koji štede vrijeme uz Slika u URL",
-      "subtitle": "Provjereno rješenje za brži rad.",
-      "items": {
-        "ops": {
-          "name": "Product Ops",
-          "quote": "Lijepimo snimke zaslona u tickete bez zatrpavanja pohrane privicima. Poveznice održavaju sve čistim."
-        },
-        "content": {
-          "name": "Content Lead",
-          "quote": "Markdown poveznice čine naše dokumente urednima i spremnima za objavu u nekoliko minuta."
-        },
-        "support": {
-          "name": "Podrška",
-          "quote": "Jasne poruke o pogreškama i trenutni URL-ovi olakšavaju vođenje korisnika kroz chat."
         }
       }
     },
     "cta": {
-      "title": "Pretvorite fotografije u poveznice u sekundi",
-      "subtitle": "Ispustite, zalijepite ili učitajte — kopirajte poveznicu i dijelite svugdje.",
+      "title": "Pretvorite fotografije u poveznice za nekoliko sekundi",
+      "subtitle": "Povucite, zalijepite ili učitajte — kopirajte poveznicu i dijelite posvuda.",
       "upload": "Učitaj sada",
       "paste": "Zalijepi snimku zaslona"
-    },
-    "longform": {
-      "title": "Zašto naša usluga pomaže vašem tijeku rada",
-      "p1": "Naš je alat napravljen za kreativce, marketinške stručnjake, timove podrške i sve koji trebaju brz način pretvaranja fotografija u čiste poveznice. Uz izravni tijek od učitavanja do poveznice, izbjegavate teške sustave za upravljanje medijima i preskačete prijavu. Poveznice su uredne i lako se lijepe u chat aplikacije, dokumente, wikije i tickete. Timovi se kreću brže kada se snimke zaslona i slike proizvoda mogu odmah podijeliti bez ograničenja privitaka.",
-      "p2": "Iskustvo je jednostavno: ispustite, zalijepite ili pregledajte; preuzmite poveznicu; podijelite. Bez nepotrebnih elemenata ili ometajućih oglasa. Vi se usredotočite na sadržaj, dok mi brinemo o pohrani. Bez obzira dokumentirate li značajku ili pripremate objavu na blogu, kratka poveznica je bolja od teškog privitka.",
-      "useCases": {
-        "title": "Praktični primjeri upotrebe",
-        "items": {
-          "1": "Proizvod i dizajn: Dijelite UI skice i snimke zaslona komponenti bez složenog izvoza.",
-          "2": "Podrška i QA: Priložite snimke zaslona u tickete ili chatove; poveznice je lako pratiti.",
-          "3": "Dokumenti i blogovi: Ugradite slike u Markdown ili HTML editore s predvidljivim URL-ovima.",
-          "4": "Prodaja i usluge: Dodajte vizualne dokaze ili demo snimke izravno u e-poruke ili poruke.",
-          "5": "Inženjerska primopredaja: Održavajte izvješća o pogreškama vizualno laganima za brži pregled.",
-          "6": "Zajednice i društvene mreže: Zalijepite poveznice u Discord, Slack ili forume bez nereda."
-        }
-      },
-      "flow": {
-        "title": "Kako funkcionira cijeli proces",
-        "p1": "1) Odaberite sliku: povucite i ispustite, zalijepite iz međuspremnika ili kliknite za pregledavanje. 2) Mi je učitavamo i vraćamo izravnu poveznicu. Sučelje odmah prikazuje vaš URL s radnjama za kopiranje, otvaranje i spremanje u različitim formatima (.txt, .json, .md). 3) Koristite poveznicu svugdje. Cilj je besprijekoran most između vaše fotografije i mjesta gdje radite.",
-        "p2": "Svaki korak dizajniran je za jasnoću: vidljiv status, razumljive pogreške i gumbi koji potvrđuju vaše radnje."
-      },
-      "best": {
-        "title": "Najbolje prakse za čiste poveznice",
-        "items": {
-          "1": "Dodijelite smislena imena datotekama prije učitavanja; ona ostaju dio URL-a.",
-          "2": "Koristite WEBP ili optimizirani JPG/PNG za lakše datoteke.",
-          "3": "Kopirajte poveznicu odmah nakon generiranja kako biste izbjegli pogreške međuspremnika.",
-          "4": "Spremite kao .json kada trebate zadržati reference za automatizaciju.",
-          "5": "Koristite .md izlaz za ugradnju u dokumente ili wikije.",
-          "6": "Spremite kao .txt za čiste tekstualne poveznice spremne za upotrebu."
-        }
-      },
-      "roadmap": {
-        "title": "Buduća poboljšanja",
-        "p1": "Nadolazeće nadogradnje uključuju dublju integraciju s rješenjima za pohranu, veća ograničenja učitavanja, opcijski pristup za timove i analitiku za svaku poveznicu."
-      },
-      "faq": {
-        "title": "Često postavljana pitanja",
-        "items": {
-          "1": {
-            "q": "Je li besplatno?",
-            "a": "Da, osnovna pretvorba fotografije u poveznicu je besplatna."
-          },
-          "2": {
-            "q": "Koji su formati podržani?",
-            "a": "Trenutno PNG, JPG, WEBP, GIF do 10MB."
-          },
-          "3": {
-            "q": "Mogu li ugraditi u Markdown ili HTML?",
-            "a": "Da. Kopirajte poveznicu izravno ili koristite opcije spremanja u .md formatu."
-          },
-          "4": {
-            "q": "Jesu li moje datoteke javne?",
-            "a": "Poveznice se mogu dijeliti; kada je CDN omogućen, poslužuju se putem njegove domene."
-          },
-          "5": {
-            "q": "Hoće li postojati računi za timove?",
-            "a": "To je u planu. Prioritet nam je prvo jednostavno učitavanje, a zatim ćemo dodati timske prostore."
-          }
-        }
-      },
-      "keywords": {
-        "title": "Ključne riječi",
-        "p1": "slika u url, fotografija u url, generator poveznica za slike, pretvori sliku u poveznicu, besplatan hosting slika, izravni url slike"
-      }
     },
     "selectRegion": {
       "title": "Odaberite regiju",
       "subtitle": "Odaberite željeni jezik i regiju"
     },
     "rateService": {
-      "title": "Ocijenite naš pretvarač",
-      "thankYou": "Hvala na povratnim informacijama!",
+      "title": "Ocijenite Photo To URL Converter",
+      "thankYou": "Hvala vam na povratnim informacijama!",
       "averageRating": "4.5",
-      "votes": "4.992 glasova"
-    }
-  },
-  "seo": {
-    "keywords": "slika u url, fotografija u url, generator poveznica za slike, besplatan hosting slika, izravni url slike, poveznice za dijeljenje, cdn",
-    "home": {
-      "title": "Pretvarač slika u URL | Pretvorite fotografije u poveznice za dijeljenje",
-      "description": "Besplatan hosting slika: Odmah pretvorite fotografije u trajne URL-ove. Podržava JPG, PNG, WEBP, GIF do 10MB. CDN i čiste poveznice za Markdown i HTML."
-    }
-  },
-  "images": {
-    "previewAlt": "Pregled učitane slike",
-    "animatingSampleAlt": "Primjer slike korišten u demo prikazu",
-    "sampleThumbAlt": "Sličica primjera za učitavanje",
-    "useSampleAria": "Koristi ovu primjer sliku",
-    "howIllustrationAlt": "Ilustracija koja prikazuje kako radi Slika u URL",
-    "heroDropTitle": "Ispustite fotografiju ovdje",
-    "heroDropSubtitle": "Optimizirat ćemo je i pohraniti, te vam vratiti čistu poveznicu.",
-    "heroDropBadge": "Ispustite ili kliknite (JPG/PNG, do 10MB)",
-    "logoAlt": "Logotip Slika u URL"
-  },
-  "circleCrop": {
-    "title": "Kružno izrezivanje fotografije",
-    "description": "Besplatan mrežni alat za kružno izrezivanje fotografija — pretvorite bilo koju sliku u savršen krug za profilne slike i dizajn.",
-    "upload": "Učitaj fotografiju",
-    "processing": "Obrađivanje...",
-    "download": "Preuzmi kružnu sliku",
-    "errorSelectFile": "Odaberite slikovnu datoteku",
-    "errorUploadFirst": "Prvo učitajte fotografiju",
-    "page": {
-      "title": "Kružno izrezivanje fotografije - Besplatan mrežni alat",
-      "description": "Ovaj je alat besplatna mrežna usluga za pretvaranje pravokutnih fotografija u savršene krugove bez potrebe za registracijom."
+      "votes": "4,992 glasova"
     },
     "seo": {
-      "title": "Kružno izrezivanje fotografije | Besplatno mrežno izrezivanje",
-      "description": "Besplatan mrežni alat za izrezivanje fotografija u savršen krug - idealno za profilne slike i društvene mreže."
-    },
-    "selectRegion": {
-      "title": "Odaberite regiju",
-      "subtitle": "Odaberite svoj jezik i regiju"
-    },
-    "rateService": {
-      "title": "Ocijenite alat za kružno izrezivanje",
-      "thankYou": "Hvala na povratnim informacijama!",
-      "averageRating": "4.5",
-      "votes": "4.992 glasova"
-    }
-  },
-  "blog": {
-    "seo": {
-      "title": "Blog | Slika u URL",
-      "description": "Članci o hostingu fotografija, dijeljenju poveznica i savjeti za produktivnost."
-    },
-    "page": {
-      "title": "Blog",
-      "description": "Pripremamo članke o hostingu slika, CDN-u i SEO savjetima. Dolazi uskoro.",
-      "stayTuned": "Pratite nas za vodiče o:",
-      "guides": {
-        "1": "Najbolje prakse za pretvaranje slike u URL",
-        "2": "Kako koristiti izravne poveznice na slike u blogovima i dokumentima",
-        "3": "Performanse i predmemoriranje za statičke resurse"
+      "keywords": "slika u url, fotografija u poveznicu, generator poveznica za slike, besplatni hosting slika, cdn slike",
+      "home": {
+        "title": "Pretvarač fotografije u URL | Pretvorite slike u djeljive poveznice",
+        "description": "Besplatni hosting slika: odmah pretvorite fotografije u trajne URL-ove. Podržava JPG, PNG, WEBP, GIF do 10MB."
       }
-    }
-  },
-  "docs": {
-    "seo": {
-      "title": "Dokumentacija | Slika u URL",
-      "description": "Dokumentacija za našu uslugu."
     },
-    "page": {
-      "title": "Dokumentacija",
-      "description": "Brzi početak: učitajte sliku i preuzmite izravni URL. Koristite gumbe za kopiranje ili preuzmite poveznicu u .txt/.json/.md formatu.",
-      "features": {
-        "title": "Podržane značajke:",
-        "items": {
-          "1": "Podržano: JPG, PNG, WEBP, GIF",
-          "2": "Brza dostava putem CDN-a",
-          "3": "Jasne poruke o održavanju"
-        }
-      }
-    }
-  },
-  "status": {
-    "seo": {
-      "title": "Status | Slika u URL",
-      "description": "Status usluge za naše sustave."
-    },
-    "page": {
-      "title": "Status",
-      "description": "Svi sustavi rade normalno.",
-      "message": "Upload API i CDN poveznice rade."
-    }
-  },
-  "contact": {
-    "seo": {
-      "title": "Kontakt | Slika u URL",
-      "description": "Kontaktirajte podršku."
-    },
-    "page": {
-      "title": "Kontakt",
-      "description": "Trebate pomoć ili želite podijeliti povratne informacije? Pošaljite nam e-poštu i odgovorit ćemo vam u najkraćem mogućem roku.",
-      "email": {
-        "label": "E-pošta",
-        "address": "leeqs1010@gmail.com"
-      }
-    }
-  },
-  "legal": {
-    "privacy": {
-      "seo": {
-        "title": "Privacy Policy | Photo To URL",
-        "description": "Privacy Policy for Photo To URL."
-      },
+    "circleCrop": {
+      "title": "Kružni izrez fotografije",
+      "description": "Besplatni online alat za izrezivanje fotografija u krug - idealno za profilne slike.",
+      "upload": "Učitaj fotografiju",
+      "processing": "Obrađuje se...",
+      "download": "Preuzmi kružnu sliku",
       "page": {
-        "title": "Privacy Policy",
-        "content": "We collect the minimum necessary data to operate the service. Uploaded images are stored to generate a shareable link.",
-        "contact": {
-          "title": "Contact",
-          "text": "Questions? Email",
-          "email": "leeqs1010@gmail.com"
-        }
-      }
-    },
-    "terms": {
-      "seo": {
-        "title": "Terms of Service | Photo To URL",
-        "description": "Terms of Service for Photo To URL."
+        "title": "Kružni izrez fotografije - Besplatni online alat",
+        "description": "Pretvorite pravokutne fotografije u savršene krugove odmah i bez registracije."
       },
-      "page": {
-        "title": "Terms of Service",
-        "content": "By using Photo To URL, you agree to use the service responsibly and not upload illegal content.",
-        "disclaimer": {
-          "title": "Disclaimer",
-          "text": "The service is provided \"as is\" without warranties. Availability may change due to maintenance."
-        },
-        "contact": {
-          "title": "Contact",
-          "text": "Email",
-          "email": "leeqs1010@gmail.com"
-        }
+      "selectRegion": {
+        "title": "Odaberite regiju",
+        "subtitle": "Odaberite željeni jezik i regiju"
+      },
+      "rateService": {
+        "title": "Ocijenite Photo To Circle Crop",
+        "thankYou": "Hvala vam na povratnim informacijama!",
+        "averageRating": "4.5",
+        "votes": "4,992 glasova"
       }
     }
   }

@@ -1,6 +1,11 @@
 import { NextResponse } from "next/server";
 import { randomUUID } from "crypto";
 import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
+import {
+  isOverLimit,
+  incrementUploadCount,
+  MAX_UPLOADS_PER_IP_PER_DAY,
+} from "@/lib/upload-rate-limit";
 
 const MAX_SIZE_BYTES = 10 * 1024 * 1024; // 10MB
 const ALLOWED_MIME: Record<string, string> = {
@@ -45,8 +50,26 @@ const r2Client = r2Enabled
 const r2Bucket = process.env.R2_BUCKET;
 const r2PublicBase = process.env.R2_PUBLIC_BASE_URL?.replace(/\/+$/, "");
 
+function getClientIp(req: Request): string {
+  const forwarded = req.headers.get("x-forwarded-for");
+  if (forwarded) return forwarded.split(",")[0]?.trim() ?? "unknown";
+  const realIp = req.headers.get("x-real-ip");
+  if (realIp) return realIp.trim();
+  return "unknown";
+}
+
 export async function POST(req: Request) {
   try {
+    const ip = getClientIp(req);
+    if (isOverLimit(ip)) {
+      return NextResponse.json(
+        {
+          error: `Daily upload limit reached (${MAX_UPLOADS_PER_IP_PER_DAY} per day). Try again tomorrow.`,
+        },
+        { status: 429 }
+      );
+    }
+
     const formData = await req.formData();
     const file = formData.get("file");
 
@@ -94,6 +117,7 @@ export async function POST(req: Request) {
         CacheControl: R2_CACHE_CONTROL,
       })
     );
+    incrementUploadCount(ip);
     const url = `${r2PublicBase}/${key}`;
     return NextResponse.json({ url, storage: "r2" });
   } catch (error) {

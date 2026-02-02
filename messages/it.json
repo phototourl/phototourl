@@ -4,7 +4,22 @@
     "tagline": "Trasforma le foto in link puliti e condivisibili in pochi secondi",
     "header": {
       "subtitle": "Trasforma immagini in link condivisibili",
-      "prompt": "Trascina, incolla o carica — ottieni un link subito"
+      "prompt": "Trascina, incolla o carica — ottieni un link subito",
+      "history": "Cronologia caricamenti"
+    },
+    "history": {
+      "drawerTitle": "Cronologia caricamenti",
+      "hint": "Mostra ultimi 10 caricamenti.",
+      "close": "Chiudi",
+      "empty": "Nessun caricamento ancora.",
+      "copy": "Copia link",
+      "copied": "Copiato",
+      "open": "Apri in nuova scheda"
+    },
+    "languageSelect": {
+      "title": "Seleziona la tua regione",
+      "subtitle": "La selezione di una regione modificherà lingua e contenuti.",
+      "close": "Chiudi"
     },
     "footer": {
       "blurb": {
@@ -66,6 +81,7 @@
     },
     "result": {
       "error": "Caricamento fallito. Riprova.",
+      "dailyLimitReached": "Limite giornaliero (20 al giorno) raggiunto. Riprova domani.",
       "generated": "Link generato:",
       "open": "Apri in nuova scheda",
       "placeholder": "Nessun link ancora. Carica una foto per generare un URL condivisibile.",

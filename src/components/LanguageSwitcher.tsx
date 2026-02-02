@@ -5,35 +5,48 @@ import { useTransition, useState, useRef, useEffect } from "react";
 import { useLocale } from "next-intl";
 import { LocaleLink, useLocalePathname, useLocaleRouter } from "@/i18n/navigation";
 import { ChevronDown } from "lucide-react";
+import { LanguageSelectModal } from "./LanguageSelectModal";
 
 
 type LocaleItem = { code: string; label: string; countryCode: string };
 
 const LOCALES: LocaleItem[] = [
   { code: "en", label: "English", countryCode: "US" },
-  { code: "de", label: "Deutsch (German)", countryCode: "DE" },
-  { code: "rm", label: "Rumantsch (Romansh)", countryCode: "CH" },
-  { code: "es", label: "Español (Spanish)", countryCode: "ES" },
-  { code: "fr", label: "Français (French)", countryCode: "FR" },
-  { code: "ar", label: "العربية (Arabic)", countryCode: "SA" },
-  { code: "pt", label: "Português (Portuguese)", countryCode: "PT" },
-  { code: "jp", label: "日本語 (Japanese)", countryCode: "JP" },
   { code: "zh", label: "中文(简体)", countryCode: "CN" },
-  { code: "ko", label: "한국어 (Korean)", countryCode: "KR" },
-  { code: "it", label: "Italiano (Italian)", countryCode: "IT" },
   { code: "zh-TW", label: "中文(繁體)", countryCode: "TW" },
   { code: "tr", label: "Türkçe (Turkish)", countryCode: "TR" },
+  { code: "cs", label: "Čeština (Czech)", countryCode: "CZ" },
+  { code: "es", label: "Español (Spanish)", countryCode: "ES" },
+  { code: "fr", label: "Français (French)", countryCode: "FR" },
+  { code: "pt", label: "Português (Portuguese)", countryCode: "PT" },
+  { code: "de", label: "Deutsch (German)", countryCode: "DE" },
+  { code: "jp", label: "日本語 (Japanese)", countryCode: "JP" },
+  { code: "ko", label: "한국어 (Korean)", countryCode: "KR" },
+  { code: "ar", label: "العربية (Arabic)", countryCode: "SA" },
+  { code: "it", label: "Italiano (Italian)", countryCode: "IT" },
   { code: "nl", label: "Nederlands (Dutch)", countryCode: "NL" },
   { code: "pl", label: "Polski (Polish)", countryCode: "PL" },
-  { code: "vi", label: "Tiếng Việt (Vietnamese)", countryCode: "VN" },
-  { code: "th", label: "ไทย (Thai)", countryCode: "TH" },
-  { code: "cs", label: "Čeština (Czech)", countryCode: "CZ" },
   { code: "sv", label: "Svenska (Swedish)", countryCode: "SE" },
+  { code: "th", label: "ไทย (Thai)", countryCode: "TH" },
+  { code: "vi", label: "Tiếng Việt (Vietnamese)", countryCode: "VN" },
+  { code: "rm", label: "Rumantsch (Romansh)", countryCode: "CH" },
   { code: "ru", label: "Русский (Russian)", countryCode: "RU" },
   { code: "hi", label: "हिन्दी (Hindi)", countryCode: "IN" },
   { code: "id", label: "Indonesia (Indonesian)", countryCode: "ID" },
   { code: "ms", label: "Melayu (Malay)", countryCode: "MY" },
   { code: "uk", label: "Українська (Ukrainian)", countryCode: "UA" },
+  { code: "bg", label: "Български (Bulgarian)", countryCode: "BG" },
+  { code: "ca", label: "Català (Catalan)", countryCode: "ES" },
+  { code: "da", label: "Dansk (Danish)", countryCode: "DK" },
+  { code: "el", label: "Ελληνικά (Greek)", countryCode: "GR" },
+  { code: "fi", label: "Suomi (Finnish)", countryCode: "FI" },
+  { code: "he", label: "עברית (Hebrew)", countryCode: "IL" },
+  { code: "hr", label: "Hrvatski (Croatian)", countryCode: "HR" },
+  { code: "hu", label: "Magyar (Hungarian)", countryCode: "HU" },
+  { code: "no", label: "Norsk (Norwegian)", countryCode: "NO" },
+  { code: "ro", label: "Română (Romanian)", countryCode: "RO" },
+  { code: "sk", label: "Slovenčina (Slovak)", countryCode: "SK" },
+  { code: "tl", label: "Tagalog (Filipino)", countryCode: "PH" },
 ];
 
 // 国旗图标组件
@@ -59,17 +72,23 @@ type LanguageSwitcherProps = {
   /** 
    * header: 顶部导航样式（原来的绿色按钮，向下展开）
    * footer: 底部简洁样式（只文字+图标，向上展开）
+   * modal: 弹框模式（居中显示）
    */
-  variant?: "header" | "footer";
+  variant?: "header" | "footer" | "modal";
+  /** 是否显示弹框（仅当 variant="modal" 时有效） */
+  showModal?: boolean;
+  /** 弹框关闭回调（仅当 variant="modal" 时有效） */
+  onModalClose?: () => void;
 };
 
-export function LanguageSwitcher({ variant = "header" }: LanguageSwitcherProps) {
+export function LanguageSwitcher({ variant = "header", showModal = false, onModalClose }: LanguageSwitcherProps) {
   const router = useLocaleRouter();
   const pathname = useLocalePathname();
   const params = useParams();
   const locale = useLocale();
   const [isPending, startTransition] = useTransition();
   const [isOpen, setIsOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const selectedButtonRef = useRef<HTMLButtonElement | null>(null);
 
@@ -132,21 +151,39 @@ export function LanguageSwitcher({ variant = "header" }: LanguageSwitcherProps) 
   };
 
   const isFooter = variant === "footer";
+  const isModal = variant === "modal";
+
+  // 如果是弹框模式，直接返回弹框组件
+  if (isModal) {
+    return <LanguageSelectModal open={showModal} onClose={onModalClose || (() => {})} />;
+  }
+
+  // 处理弹框关闭
+  const handleModalClose = () => {
+    setIsModalOpen(false);
+    if (onModalClose) {
+      onModalClose();
+    }
+  };
 
   return (
-    <div className="relative inline-flex items-center text-sm" ref={dropdownRef}>
-      <button
-        type="button"
-        className={
-          isFooter
-            ? // 底部样式：无背景，仅文字+图标
-              "flex items-center gap-1.5 rounded-md px-1 py-0.5 text-sm sm:text-base outline-none transition hover:opacity-80 disabled:opacity-50"
-            : // 头部样式：原来的绿色渐变按钮
-              "ez-btn-gradient flex h-9 items-center gap-1.5 rounded-md border-0 px-2 text-sm text-white outline-none transition focus:ring-2 focus:ring-white/50 focus:ring-offset-2 disabled:opacity-50 sm:h-10 sm:px-3"
-        }
-        onClick={() => setIsOpen(!isOpen)}
-        disabled={isPending}
-      >
+    <>
+      <div className="relative inline-flex items-center text-sm" ref={dropdownRef}>
+        <button
+          type="button"
+          className={
+            isFooter
+              ? // 底部样式：无背景，仅文字+图标
+                "flex items-center gap-1.5 rounded-md px-1 py-0.5 text-sm sm:text-base outline-none transition hover:opacity-80 disabled:opacity-50"
+              : // 头部样式：原来的绿色渐变按钮
+                "ez-btn-gradient flex h-9 items-center gap-1.5 rounded-md border-0 px-2 text-sm text-white outline-none transition focus:ring-2 focus:ring-white/50 focus:ring-offset-2 disabled:opacity-50 sm:h-10 sm:px-3"
+          }
+          onClick={() => {
+            // 点击时打开弹框而不是下拉菜单
+            setIsModalOpen(true);
+          }}
+          disabled={isPending}
+        >
         <FlagIcon countryCode={currentLocale.countryCode} className="shrink-0" label={currentLocale.label} />
         <span className={isFooter ? "whitespace-nowrap" : "whitespace-nowrap"}>
           {currentLocale.label}
@@ -158,43 +195,10 @@ export function LanguageSwitcher({ variant = "header" }: LanguageSwitcherProps) 
         />
       </button>
 
-      {isOpen && (
-        <div
-          className={
-            isFooter
-              ? // 底部：向上展开，避免被底部栏挡住
-                "absolute right-0 bottom-full z-50 mb-1 w-auto min-w-[200px] max-h-[630px] overflow-y-auto overflow-x-hidden custom-scrollbar rounded-lg border border-slate-200 bg-white shadow-lg"
-              : // 头部：保持原来向下展开
-                "absolute right-0 top-full z-50 mt-1 w-auto min-w-[200px] max-h-[630px] overflow-y-auto overflow-x-hidden custom-scrollbar rounded-lg border border-slate-200 bg-white shadow-lg"
-          }
-          onWheel={(e) => {
-            // 阻止下拉框滚动时触发外部页面滚动
-            e.stopPropagation();
-          }}
-          onTouchMove={(e) => {
-            // 移动端也阻止滚动传播
-            e.stopPropagation();
-          }}
-        >
-          {LOCALES.map((item) => (
-            <button
-              key={item.code}
-              ref={item.code === locale ? selectedButtonRef : null}
-              type="button"
-              className={`w-full whitespace-nowrap rounded-md px-3 py-2 text-left text-sm transition first:rounded-t-lg last:rounded-b-lg flex items-center gap-2 ${
-                item.code === locale
-                  ? "bg-brand-teal/10 text-brand-teal font-medium"
-                  : "text-slate-900 hover:bg-slate-50"
-              }`}
-              onClick={() => handleLocaleChange(item.code)}
-            >
-              <FlagIcon countryCode={item.countryCode} label={item.label} />
-              <span>{item.label}</span>
-            </button>
-          ))}
-        </div>
-      )}
-    </div>
+      </div>
+      {/* 语言选择弹框 */}
+      <LanguageSelectModal open={isModalOpen} onClose={handleModalClose} />
+    </>
   );
 }
 

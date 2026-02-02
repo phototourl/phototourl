@@ -66,7 +66,9 @@ export function PhotoToUrlTool({ showHeading = true, showExtraContent = false }:
 
       const data = await res.json();
       if (!res.ok) {
-        throw new Error(data?.error || "Upload failed");
+        const message =
+          res.status === 429 ? t("result.dailyLimitReached") : data?.error || t("result.error");
+        throw new Error(message);
       }
 
       setStatus("success");
@@ -74,9 +76,9 @@ export function PhotoToUrlTool({ showHeading = true, showExtraContent = false }:
       setPreview(URL.createObjectURL(file));
     } catch (err) {
       setStatus("error");
-      setError(err instanceof Error ? err.message : "Upload failed");
+      setError(err instanceof Error ? err.message : t("result.error"));
     }
-  }, []);
+  }, [t]);
 
   const uploadSample = useCallback(
     async (src: string, fileNameForUi: string) => {

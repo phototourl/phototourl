@@ -4,7 +4,22 @@
     "tagline": "Gör om foton till rena, delbara länkar på några sekunder",
     "header": {
       "subtitle": "Gör om bilder till delbara länkar",
-      "prompt": "Dra, klistra in eller ladda upp — få en länk direkt"
+      "prompt": "Dra, klistra in eller ladda upp — få en länk direkt",
+      "history": "Uppladdningshistorik"
+    },
+    "history": {
+      "drawerTitle": "Uppladdningshistorik",
+      "hint": "Visa de senaste 10 uppladdningarna.",
+      "close": "Stäng",
+      "empty": "Inga uppladdningar än.",
+      "copy": "Kopiera länk",
+      "copied": "Kopierat",
+      "open": "Öppna i ny flik"
+    },
+    "languageSelect": {
+      "title": "Välj din region",
+      "subtitle": "Att välja en region ändrar språk och innehåll.",
+      "close": "Stäng"
     },
     "footer": {
       "blurb": {
@@ -66,6 +81,7 @@
     },
     "result": {
       "error": "Uppladdning misslyckades. Försök igen.",
+      "dailyLimitReached": "Daglig gräns (20 per dag) nådd. Försök igen imorgon.",
       "generated": "Genererad länk:",
       "open": "Öppna i ny flik",
       "placeholder": "Ingen länk än. Ladda upp en foto för att generera en delbar URL.",

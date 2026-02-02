@@ -4,7 +4,22 @@
     "tagline": "Transformez vos photos en liens partageables en un instant",
     "header": {
       "subtitle": "Transformez des images en liens partageables",
-      "prompt": "Déposez, collez ou téléversez — obtenez un lien instantanément"
+      "prompt": "Déposez, collez ou téléversez — obtenez un lien instantanément",
+      "history": "Historique des envois"
+    },
+    "history": {
+      "drawerTitle": "Historique des envois",
+      "hint": "Afficher les 10 derniers envois.",
+      "close": "Fermer",
+      "empty": "Aucun envoi pour l'instant.",
+      "copy": "Copier le lien",
+      "copied": "Copié",
+      "open": "Ouvrir dans un nouvel onglet"
+    },
+    "languageSelect": {
+      "title": "Sélectionnez votre région",
+      "subtitle": "La sélection d'une région modifiera la langue et le contenu.",
+      "close": "Fermer"
     },
     "footer": {
       "blurb": {
@@ -66,6 +81,7 @@
     },
     "result": {
       "error": "Échec du téléversement. Réessayez.",
+      "dailyLimitReached": "Limite quotidienne (20 par jour) atteinte. Réessayez demain.",
       "generated": "Lien généré :",
       "open": "Ouvrir dans un nouvel onglet",
       "placeholder": "Pas encore de lien. Téléversez une image pour générer une URL partageable.",

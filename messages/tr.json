@@ -4,7 +4,22 @@
     "tagline": "Fotoğrafları saniyeler içinde temiz, paylaşılabilir bağlantılara dönüştürün",
     "header": {
       "subtitle": "Görselleri paylaşılabilir bağlantılara dönüştürün",
-      "prompt": "Sürükleyin, yapıştırın veya yükleyin — anında paylaşılabilir bağlantı alın"
+      "prompt": "Sürükleyin, yapıştırın veya yükleyin — anında paylaşılabilir bağlantı alın",
+      "history": "Yükleme kaydı"
+    },
+    "history": {
+      "drawerTitle": "Yükleme kaydı",
+      "hint": "Son 10 yükleme kaydını gösterir.",
+      "close": "Kapat",
+      "empty": "Henüz yükleme yok.",
+      "copy": "Bağlantıyı kopyala",
+      "copied": "Kopyalandı",
+      "open": "Yeni sekmede aç"
+    },
+    "languageSelect": {
+      "title": "Bölgenizi seçin",
+      "subtitle": "Bölge seçimi dil ve içeriği değiştirir.",
+      "close": "Kapat"
     },
     "footer": {
       "blurb": {
@@ -66,6 +81,7 @@
     },
     "result": {
       "error": "Yükleme başarısız. Lütfen tekrar deneyin.",
+      "dailyLimitReached": "Günlük yükleme limitine ulaşıldı (günde 20). Yarın tekrar deneyin.",
       "generated": "Oluşturulan bağlantı:",
       "open": "Yeni sekmede aç",
       "placeholder": "Henüz bağlantı yok. Paylaşılabilir bir URL oluşturmak için bir fotoğraf yükleyin.",

@@ -1,15 +1,30 @@
 {
   "common": {
-    "siteName": "Imagine în URL",
-    "tagline": "Transformă fotografiile în linkuri curate și partajabile în câteva secunde",
+    "siteName": "Poză în URL",
+    "tagline": "Transformă pozele în linkuri curate și partajabile în câteva secunde",
     "header": {
       "subtitle": "Transformă imaginile în linkuri partajabile",
       "prompt": "Trage, lipește sau încarcă — obține un link instantaneu",
-      "circleCrop": "Decupare circulară foto"
+      "circleCrop": "Decupare circulară foto",
+      "history": "Istoric încărcări"
+    },
+    "history": {
+      "drawerTitle": "Istoric încărcări",
+      "hint": "Se afișează ultimele 10 înregistrări.",
+      "close": "Închide",
+      "empty": "Nicio încărcare momentan.",
+      "copy": "Copiază link",
+      "copied": "Copiat",
+      "open": "Deschide în filă nouă"
+    },
+    "languageSelect": {
+      "title": "Selectați regiunea dvs.",
+      "subtitle": "Selectarea unei regiuni va schimba limba și conținutul.",
+      "close": "Închide"
     },
     "footer": {
       "blurb": {
-        "line1": "Transformă fotografiile în linkuri curate și partajabile.",
+        "line1": "Transformă pozele în linkuri curate și partajabile.",
         "line2": "Rapid, simplu, de încredere."
       },
       "partners": "Parteneri",
@@ -19,7 +34,7 @@
         "home": "Acasă",
         "blog": "Blog",
         "docs": "Documentație",
-        "status": "Stare sistem",
+        "status": "Stare",
         "contact": "Contact"
       },
       "legal": {
@@ -37,12 +52,12 @@
     },
     "hero": {
       "title1": "Gratuit",
-      "title2": "Imagine în URL",
-      "subtitle": "Încarcă → primește link → lipește oriunde",
+      "title2": "Poză în URL",
+      "subtitle": "Încarcă poza → obține un link → lipește-l oriunde",
       "upload": "Încarcă imaginea",
       "bullet": {
         "fast": "Partajare rapidă",
-        "direct": "Linkuri foto directe",
+        "direct": "Linkuri directe foto",
         "nosignup": "Nu necesită înregistrare",
         "paste": "Lipește din clipboard"
       }
@@ -50,342 +65,122 @@
     "demo": {
       "label": "Demo",
       "loop": "Demo automat",
-      "idleTitle": "Trage și plasează imaginea",
-      "idleSubtitle": "Vezi procesul complet: încărcare → link → copiere.",
-      "processing": "Se optimizează și se încarcă...",
+      "idleTitle": "Trage și plasează imaginea ta",
+      "idleSubtitle": "Vezi fluxul: încărcare → link → copiere.",
+      "processing": "Optimizare și încărcare...",
       "doneTitle": "Gata de partajare",
-      "doneSubtitle": "Linkul tău este gata pentru partajare imediată.",
+      "doneSubtitle": "Linkul tău este gata pentru a fi trimis.",
       "thanksForWatching": "Mulțumim pentru vizionare"
     },
     "upload": {
-      "title": "Trage o fotografie sau dă clic pentru a naviga",
-      "hint": "JPG, PNG, WEBP, GIF până la 10MB. Trage, dă clic sau lipește o captură de ecran.",
+      "title": "Trage o poză sau fă clic pentru a alege",
+      "hint": "JPG, PNG, WEBP, GIF până la 10MB. Trage, fă clic sau lipește capturi de ecran.",
       "orDrop": "sau plasează fișierul aici",
       "samplesTitle": "Nu ai o imagine? Încearcă una dintre acestea:",
-      "policy": "Prin încărcarea unei imagini, ești de acord cu <privacy>Politica de Confidențialitate</privacy> și <terms>Termenii Serviciului</terms>.",
+      "policy": "Prin încărcarea unei imagini ești de acord cu <privacy>Politica de Confidențialitate</privacy> și <terms>Termenii de Utilizare</terms>.",
       "clear": "Șterge"
     },
     "result": {
       "error": "Încărcarea a eșuat. Te rugăm să încerci din nou.",
+      "dailyLimitReached": "Limita zilnică atinsă (20 pe zi). Încearcă din nou mâine.",
       "generated": "Link generat:",
-      "open": "Deschide în tab nou",
-      "placeholder": "Niciun link încă. Încarcă o fotografie pentru a genera un URL.",
+      "open": "Deschide în filă nouă",
+      "placeholder": "Niciun link încă. Încarcă o poză pentru a genera un URL.",
       "savePrompt": "Salvează linkul în formatul dorit",
-      "copy": "Copiază linkul",
+      "copy": "Copiază link",
       "copied": "Copiat",
-      "saveHint": "Salvează acest link dacă îl vei avea nevoie mai târziu",
-      "tryCircleCrop": "Încearcă Decupare circulară foto"
+      "saveHint": "Salvează acest link dacă ai nevoie de el mai târziu",
+      "tryCircleCrop": "Încearcă Decuparea Circulară"
     },
     "benefits": {
-      "title": "De ce aleg oamenii Imagine în URL",
-      "subtitle": "Viteză, linkuri curate și fără bătaia de cap a înregistrării.",
+      "title": "De ce să alegi Photo To URL",
+      "subtitle": "Viteză, linkuri curate și fără cont necesar.",
       "items": {
         "fast": {
           "title": "Partajare rapidă",
-          "desc": "Încarci și primești linkul în câteva secunde, fără pași inutili."
+          "desc": "Încarcă și obține un link în câteva secunde, fără pași în plus."
         },
         "direct": {
-          "title": "URL-uri directe",
+          "title": "URL-uri directe de imagine",
           "desc": "Linkuri curate care funcționează în HTML, Markdown și aplicații de chat."
         },
         "nosignup": {
           "title": "Fără înregistrare",
-          "desc": "Folosește-l instantaneu. Conturile de utilizator vor fi disponibile ulterior."
+          "desc": "Folosește-l imediat. Conturile vor fi adăugate ulterior."
         }
       }
     },
     "how": {
       "title": "Cum funcționează",
-      "step1": "1) Adaugă fotografia (trage, lipește sau alege fișierul).",
-      "step2": "2) Noi o găzduim și îți oferim un link de partajare.",
-      "step3": "3) Copiază și lipește linkul oriunde.",
-      "note": "Linkul se deschide rapid în documente, chat-uri și prototipuri — în plus, îl poți descărca în format .txt/.json/.md."
-    },
-    "process": {
-      "title": "Proces în trei pași",
-      "subtitle": "Mai puțin efort, mai multă concentrare, gata în secunde.",
-      "steps": {
-        "1": {
-          "title": "Plasează sau lipește",
-          "desc": "Trage un fișier, lipește din clipboard sau răsfoiește computerul."
-        },
-        "2": {
-          "title": "Găzduim și legăm",
-          "desc": "URL instantaneu cu opțiuni de copiere, deschidere sau salvare."
-        },
-        "3": {
-          "title": "Partajează oriunde",
-          "desc": "Lipește în documente, chat-uri, tichete, bloguri sau prototipuri."
-        }
-      }
+      "step1": "1) Adaugă poza (trage, lipește sau alege fișierul).",
+      "step2": "2) O găzduim și îți oferim un link partajabil.",
+      "step3": "3) Copiază și trimite linkul oriunde ai nevoie.",
+      "note": "Linkul se deschide rapid în documente și chat-uri — îl poți descărca în format (.txt/.json/.md)."
     },
     "features": {
-      "title": "Funcționalități cheie",
-      "subtitle": "Claritate înainte de toate: mai puțină fricțiune, mai multă partajare.",
+      "title": "Funcționalități",
+      "subtitle": "Claritate înainte de toate: mai puțin efort, mai multă partajare.",
       "items": {
         "cdn": {
           "title": "Linkuri CDN directe",
-          "desc": "URL-uri curate și previzibile, gata pentru Markdown și HTML."
+          "desc": "URL-uri curate gata de inserat în Markdown și HTML."
         },
         "save": {
-          "title": "Acțiuni de copiere și salvare",
+          "title": "Copiază și salvează",
           "desc": "Copiază, deschide sau salvează ca .txt/.json/.md cu un singur clic."
         },
         "clipboard": {
-          "title": "Suport clipboard",
-          "desc": "Lipește capturi de ecran direct, fără a căuta fișierele."
-        },
-        "errors": {
-          "title": "Erori inteligibile",
-          "desc": "Mesaje clare în locul codurilor tehnice complicate."
+          "title": "Prietenos cu clipboard-ul",
+          "desc": "Lipește capturi de ecran direct, fără a mai căuta fișierele."
         },
         "nosignup": {
-          "title": "Fără cont necesar",
-          "desc": "Lucrează mai rapid — încarcă și partajează imediat."
-        },
-        "r2": {
-          "title": "Găzduire rapidă",
-          "desc": "Linkuri servite printr-o rețea rapidă pentru acces fiabil."
-        }
-      }
-    },
-    "testimonials": {
-      "title": "Echipe care economisesc timp cu Imagine în URL",
-      "subtitle": "O soluție dovedită pentru un flux de lucru mai rapid.",
-      "items": {
-        "ops": {
-          "name": "Product Ops",
-          "quote": "Lipim capturi de ecran în tichete fără a umple spațiul de stocare cu atașamente. Linkurile păstrează totul curat."
-        },
-        "content": {
-          "name": "Content Lead",
-          "quote": "Linkurile Markdown ne mențin documentele organizate și gata de publicare în câteva minute."
-        },
-        "support": {
-          "name": "Suport Clienți",
-          "quote": "Mesajele de eroare clare și URL-urile instantanee fac ghidarea clienților prin chat mult mai ușoară."
+          "title": "Fără cont",
+          "desc": "Lucrează mai repede — încarcă și partajează imediat."
         }
       }
     },
     "cta": {
-      "title": "Transformă fotografiile în linkuri în câteva secunde",
-      "subtitle": "Trage, lipește sau încarcă — copiază linkul și partajează oriunde.",
+      "title": "Transformă pozele în linkuri în câteva secunde",
+      "subtitle": "Trage, lipește sau încarcă — copiază linkul și partajează-l oriunde.",
       "upload": "Încarcă acum",
-      "paste": "Lipește captura"
-    },
-    "longform": {
-      "title": "De ce serviciul nostru îți îmbunătățește fluxul de lucru",
-      "p1": "Instrumentul nostru este creat pentru creatori, marketeri, echipe de suport și oricine are nevoie de o cale rapidă de a transforma fotografiile în linkuri curate. Cu un flux direct de la încărcare la link, eviți sistemele greoaie de gestionare media și sari peste logare. Linkurile sunt ordonate și ușor de lipit în aplicații de chat, documente, wiki-uri și tichete. Echipele avansează mai rapid când capturile de ecran și imaginile de produs pot fi partajate imediat, fără limitările atașamentelor.",
-      "p2": "Experiența este simplă: plasează, lipește sau răsfoiește; obține linkul; partajează. Fără elemente inutile sau reclame deranjante. Tu te concentrezi pe conținut, noi ne ocupăm de găzduire. Fie că documentezi o funcționalitate sau pregătești o postare pe blog, un link scurt este mai bun decât un atașament greoi.",
-      "useCases": {
-        "title": "Cazuri practice de utilizare",
-        "items": {
-          "1": "Produs și Design: Partajează machete UI și capturi de ecran ale componentelor fără exporturi complexe.",
-          "2": "Suport și QA: Atașează capturi de ecran în tichete sau chat-uri; linkurile sunt ușor de urmărit.",
-          "3": "Documente și Bloguri: Inserează imagini în editoare Markdown sau HTML cu URL-uri previzibile.",
-          "4": "Vânzări și Service: Adaugă dovezi vizuale sau demo-uri direct în e-mailuri sau mesaje.",
-          "5": "Predare către Dezvoltare: Menține rapoartele de bug-uri ușoare vizual pentru o revizuire mai rapidă.",
-          "6": "Comunități și Social Media: Lipește linkuri în Discord, Slack sau forumuri fără dezordine."
-        }
-      },
-      "flow": {
-        "title": "Cum funcționează întregul proces",
-        "p1": "1) Alege o imagine: trage și plasează, lipește din clipboard sau dă clic pentru a naviga. 2) Noi o încărcăm și returnăm un link direct. Interfața afișează URL-ul imediat, cu acțiuni de copiere, deschidere și salvare în diverse formate (.txt, .json, .md). 3) Folosește linkul oriunde. Scopul este o punte perfectă între fotografia ta și locul în care lucrezi.",
-        "p2": "Fiecare pas este conceput pentru claritate: stare vizibilă, erori ușor de înțeles și butoane care confirmă acțiunile tale."
-      },
-      "best": {
-        "title": "Bune practici pentru linkuri curate",
-        "items": {
-          "1": "Dă nume sugestive fișierelor înainte de încărcare; acestea rămân parte din URL.",
-          "2": "Folosește WEBP sau JPG/PNG optimizate pentru fișiere mai ușoare.",
-          "3": "Copiază linkul imediat după generare pentru a evita erorile de clipboard.",
-          "4": "Salvează ca .json când trebuie să păstrezi referințe pentru automatizări.",
-          "5": "Folosește formatul .md pentru inserarea în documente sau wiki-uri.",
-          "6": "Salvează ca .txt pentru linkuri text simple, gata de utilizare."
-        }
-      },
-      "roadmap": {
-        "title": "Îmbunătățiri viitoare",
-        "p1": "Actualizările viitoare includ integrarea profundă cu soluții de stocare, limite de încărcare mai mari, acces opțional pentru echipe și analitice pentru fiecare link."
-      },
-      "faq": {
-        "title": "Întrebări frecvente",
-        "items": {
-          "1": {
-            "q": "Este gratuit?",
-            "a": "Da, conversia de bază de la fotografie la link este gratuită."
-          },
-          "2": {
-            "q": "Ce formate sunt suportate?",
-            "a": "În prezent PNG, JPG, WEBP, GIF până la 10MB."
-          },
-          "3": {
-            "q": "Pot insera în Markdown sau HTML?",
-            "a": "Da. Copiază linkul direct sau folosește opțiunile de salvare în format .md."
-          },
-          "4": {
-            "q": "Sunt fișierele mele publice?",
-            "a": "Linkurile pot fi partajate; când sunt servite prin CDN, acestea sunt livrate prin domeniul respectiv."
-          },
-          "5": {
-            "q": "Vor exista conturi pentru echipe?",
-            "a": "Este în plan. Prioritizăm încărcarea simplă acum, apoi vom adăuga spații de lucru pentru echipe."
-          }
-        }
-      },
-      "keywords": {
-        "title": "Cuvinte cheie",
-        "p1": "imagine în url, foto în url, generator link imagine, transformă imagine în link, găzduire imagini gratuită, url direct imagine"
-      }
+      "paste": "Lipește o captură"
     },
     "selectRegion": {
-      "title": "Selectează regiunea",
-      "subtitle": "Alege limba și regiunea preferată"
+      "title": "Selectați regiunea",
+      "subtitle": "Alegeți limba și regiunea preferată"
     },
     "rateService": {
-      "title": "Evaluează convertorul nostru",
-      "thankYou": "Mulțumim pentru feedback!",
+      "title": "Evaluați Photo To URL Converter",
+      "thankYou": "Vă mulțumim pentru feedback!",
       "averageRating": "4.5",
-      "votes": "4.992 voturi"
-    }
-  },
-  "seo": {
-    "keywords": "imagine în url, foto în url, generator link imagine, găzduire imagini gratuită, url direct imagine, linkuri partajabile, cdn",
-    "home": {
-      "title": "Convertor Imagine în URL | Transformă fotografiile în linkuri partajabile",
-      "description": "Găzduire imagini gratuită: Transformă fotografiile în URL-uri permanente instantaneu. Suportă JPG, PNG, WEBP, GIF până la 10MB. CDN și linkuri curate pentru Markdown și HTML."
-    }
-  },
-  "images": {
-    "previewAlt": "Previzualizare imagine încărcată",
-    "animatingSampleAlt": "Imagine de probă folosită în demo",
-    "sampleThumbAlt": "Miniatură imagine de probă pentru încărcare",
-    "useSampleAria": "Folosește această imagine de probă",
-    "howIllustrationAlt": "Ilustrație care arată cum funcționează Imagine în URL",
-    "heroDropTitle": "Plasează fotografia aici",
-    "heroDropSubtitle": "O vom optimiza, o vom găzdui și îți vom oferi un link curat.",
-    "heroDropBadge": "Plasează sau dă clic (JPG/PNG, max 10MB)",
-    "logoAlt": "Logo Imagine în URL"
-  },
-  "circleCrop": {
-    "title": "Decupare circulară foto",
-    "description": "Instrument online gratuit pentru decuparea circulară a fotografiilor — transformă orice imagine într-un cerc perfect pentru profil și design.",
-    "upload": "Încarcă fotografia",
-    "processing": "Se procesează...",
-    "download": "Descarcă imaginea circulară",
-    "errorSelectFile": "Te rugăm să selectezi un fișier imagine",
-    "errorUploadFirst": "Te rugăm să încarci o fotografie mai întâi",
-    "page": {
-      "title": "Decupare circulară foto - Instrument online gratuit",
-      "description": "Acest instrument este un serviciu online gratuit pentru a transforma fotografiile rectangulare în cercuri perfecte, fără înregistrare."
+      "votes": "4,992 voturi"
     },
     "seo": {
-      "title": "Decupare circulară foto | Decupare online gratuită",
-      "description": "Instrument online gratuit pentru a decupa fotografii într-un cerc perfect - ideal pentru poze de profil și social media."
-    },
-    "selectRegion": {
-      "title": "Selectează regiunea",
-      "subtitle": "Alege limba și regiunea"
-    },
-    "rateService": {
-      "title": "Evaluează instrumentul de decupare",
-      "thankYou": "Mulțumim pentru feedback!",
-      "averageRating": "4.5",
-      "votes": "4.992 voturi"
-    }
-  },
-  "blog": {
-    "seo": {
-      "title": "Blog | Imagine în URL",
-      "description": "Articole despre găzduirea fotografiilor, partajarea linkurilor și sfaturi de productivitate."
-    },
-    "page": {
-      "title": "Blog",
-      "description": "Pregătim articole despre găzduirea imaginilor, CDN și sfaturi SEO. În curând.",
-      "stayTuned": "Rămâneți aproape pentru ghiduri despre:",
-      "guides": {
-        "1": "Bune practici pentru conversia imaginii în URL",
-        "2": "Cum să folosești linkurile foto directe în bloguri și documente",
-        "3": "Performanță și caching pentru resurse statice"
+      "keywords": "foto în url, imagine în link, generator link imagine, găzduire imagine gratuită, cdn imagine",
+      "home": {
+        "title": "Convertor Foto în URL | Transformă pozele în linkuri",
+        "description": "Găzduire imagini gratuită: transformă pozele în URL-uri permanente instantaneu. Suportă JPG, PNG, WEBP, GIF până la 10MB."
       }
-    }
-  },
-  "docs": {
-    "seo": {
-      "title": "Documentație | Imagine în URL",
-      "description": "Documentație pentru serviciul nostru."
     },
-    "page": {
-      "title": "Documentație",
-      "description": "Pornire rapidă: încarcă o imagine și primește un URL direct. Folosește butoanele de copiere sau descarcă linkul în .txt/.json/.md.",
-      "features": {
-        "title": "Funcționalități suportate:",
-        "items": {
-          "1": "Suportat: JPG, PNG, WEBP, GIF",
-          "2": "Livrare rapidă prin CDN",
-          "3": "Mesaje de mentenanță prietenoase"
-        }
-      }
-    }
-  },
-  "status": {
-    "seo": {
-      "title": "Stare sistem | Imagine în URL",
-      "description": "Starea serviciului pentru sistemele noastre."
-    },
-    "page": {
-      "title": "Stare sistem",
-      "description": "Toate sistemele sunt funcționale.",
-      "message": "API-ul de încărcare și linkurile CDN sunt active."
-    }
-  },
-  "contact": {
-    "seo": {
-      "title": "Contact | Imagine în URL",
-      "description": "Contactează suportul tehnic."
-    },
-    "page": {
-      "title": "Contact",
-      "description": "Ai nevoie de ajutor sau vrei să ne trimiți feedback? Trimite-ne un e-mail și îți vom răspunde cât mai curând posibil.",
-      "email": {
-        "label": "E-mail",
-        "address": "leeqs1010@gmail.com"
-      }
-    }
-  },
-  "legal": {
-    "privacy": {
-      "seo": {
-        "title": "Privacy Policy | Photo To URL",
-        "description": "Privacy Policy for Photo To URL."
-      },
+    "circleCrop": {
+      "title": "Decupare circulară foto",
+      "description": "Instrument online gratuit pentru a decupa pozele într-un cerc perfect - ideal pentru poze de profil.",
+      "upload": "Încarcă foto",
+      "processing": "Se procesează...",
+      "download": "Descarcă foto circulară",
       "page": {
-        "title": "Privacy Policy",
-        "content": "We collect the minimum necessary data to operate the service. Uploaded images are stored to generate a shareable link.",
-        "contact": {
-          "title": "Contact",
-          "text": "Questions? Email",
-          "email": "leeqs1010@gmail.com"
-        }
-      }
-    },
-    "terms": {
-      "seo": {
-        "title": "Terms of Service | Photo To URL",
-        "description": "Terms of Service for Photo To URL."
+        "title": "Decupare circulară foto - Instrument online gratuit",
+        "description": "Transformă pozele dreptunghiulare în forme circulare perfecte instantaneu, fără înregistrare."
       },
-      "page": {
-        "title": "Terms of Service",
-        "content": "By using Photo To URL, you agree to use the service responsibly and not upload illegal content.",
-        "disclaimer": {
-          "title": "Disclaimer",
-          "text": "The service is provided \"as is\" without warranties. Availability may change due to maintenance."
-        },
-        "contact": {
-          "title": "Contact",
-          "text": "Email",
-          "email": "leeqs1010@gmail.com"
-        }
+      "selectRegion": {
+        "title": "Selectați regiunea",
+        "subtitle": "Alegeți limba și regiunea preferată"
+      },
+      "rateService": {
+        "title": "Evaluați Photo To Circle Crop",
+        "thankYou": "Vă mulțumim pentru feedback!",
+        "averageRating": "4.5",
+        "votes": "4,992 voturi"
       }
     }
   }

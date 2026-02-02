@@ -4,7 +4,22 @@
     "tagline": "Convierte tus fotos en enlaces limpios y compartibles al instante",
     "header": {
       "subtitle": "Convierte imágenes en enlaces para compartir",
-      "prompt": "Suelta, pega o sube — obtén un enlace compartible al instante"
+      "prompt": "Suelta, pega o sube — obtén un enlace compartible al instante",
+      "history": "Registro de subidas"
+    },
+    "history": {
+      "drawerTitle": "Registro de subidas",
+      "hint": "Mostrar las últimas 10 subidas.",
+      "close": "Cerrar",
+      "empty": "Aún no hay subidas.",
+      "copy": "Copiar enlace",
+      "copied": "Copiado",
+      "open": "Abrir en nueva pestaña"
+    },
+    "languageSelect": {
+      "title": "Seleccione su región",
+      "subtitle": "Seleccionar una región cambiará el idioma y el contenido.",
+      "close": "Cerrar"
     },
     "footer": {
       "blurb": {
@@ -66,6 +81,7 @@
     },
     "result": {
       "error": "La subida falló. Inténtalo de nuevo.",
+      "dailyLimitReached": "Límite diario de subidas (20 al día) alcanzado. Vuelve mañana.",
       "generated": "Enlace generado:",
       "open": "Abrir en nueva pestaña",
       "placeholder": "Aún no hay enlace. Sube una imagen para generar un URL compartible.",

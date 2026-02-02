@@ -1,15 +1,30 @@
 {
   "common": {
     "siteName": "Fotka na URL",
-    "tagline": "Premeňte fotografie na čisté, zdieľateľné odkazy v priebehu niekoľkých sekúnd",
+    "tagline": "Premeňte fotky na čisté a zdieľateľné odkazy v priebehu sekúnd",
     "header": {
       "subtitle": "Premeňte obrázky na zdieľateľné odkazy",
       "prompt": "Presuňte, prilepte alebo nahrajte — získajte odkaz okamžite",
-      "circleCrop": "Kruhový orez fotografie"
+      "circleCrop": "Kruhový výrez fotky",
+      "history": "História nahrávania"
+    },
+    "history": {
+      "drawerTitle": "História nahrávania",
+      "hint": "Zobrazuje sa posledných 10 záznamov.",
+      "close": "Zatvoriť",
+      "empty": "Zatiaľ žiadne nahrávania.",
+      "copy": "Kopírovať odkaz",
+      "copied": "Skopírované",
+      "open": "Otvoriť na novej karte"
+    },
+    "languageSelect": {
+      "title": "Vyberte svoju oblasť",
+      "subtitle": "Výber oblasti zmení jazyk a obsah.",
+      "close": "Zatvoriť"
     },
     "footer": {
       "blurb": {
-        "line1": "Premeňte fotografie na čisté, zdieľateľné odkazy.",
+        "line1": "Premeňte fotky na čisté a zdieľateľné odkazy.",
         "line2": "Rýchlo, jednoducho, spoľahlivo."
       },
       "partners": "Partneri",
@@ -38,354 +53,134 @@
     "hero": {
       "title1": "Zadarmo",
       "title2": "Fotka na URL",
-      "subtitle": "Nahrajte → získajte odkaz → vložte kamkoľvek",
+      "subtitle": "Nahrajte fotku → získajte odkaz → prilepte ho kamkoľvek",
       "upload": "Nahrať obrázok",
       "bullet": {
         "fast": "Rýchle zdieľanie",
         "direct": "Priame odkazy na fotky",
         "nosignup": "Nevyžaduje sa registrácia",
-        "paste": "Vložiť zo schránky"
+        "paste": "Prilepiť zo schránky"
       }
     },
     "demo": {
       "label": "Ukážka",
       "loop": "Automatická ukážka",
       "idleTitle": "Presuňte a pustite svoj obrázok",
-      "idleSubtitle": "Pozrite si celý proces: nahranie → odkaz → kopírovanie.",
-      "processing": "Optimalizuje sa a nahráva...",
+      "idleSubtitle": "Pozrite si proces: nahranie → odkaz → kopírovanie.",
+      "processing": "Optimalizácia a nahrávanie...",
       "doneTitle": "Pripravené na zdieľanie",
       "doneSubtitle": "Váš odkaz je pripravený na okamžité zdieľanie.",
-      "thanksForWatching": "Ďakujeme za pozretie"
+      "thanksForWatching": "Ďakujeme za pozornosť"
     },
     "upload": {
-      "title": "Presuňte fotku alebo kliknite a prehľadávajte",
-      "hint": "JPG, PNG, WEBP, GIF do 10MB. Presuňte, kliknite alebo prilepte snímku obrazovky.",
-      "orDrop": "alebo pustite súbor sem",
-      "samplesTitle": "Nemáte obrázok? Vyskúšajte jeden z týchto:",
-      "policy": "Nahraním obrázka súhlasíte s našimi <privacy>Zásadami ochrany súkromia</privacy> a <terms>Zmluvnými podmienkami</terms>.",
+      "title": "Presuňte fotku alebo kliknite pre výber",
+      "hint": "JPG, PNG, WEBP, GIF do 10MB. Presuňte, kliknite alebo prilepte snímky obrazovky.",
+      "orDrop": "alebo pustite súbor tu",
+      "samplesTitle": "Nemáte obrázok? Skúste jeden z týchto:",
+      "policy": "Nahraním obrázka súhlasíte s našimi <privacy>Zásadami ochrany súkromia</privacy> a <terms>Podmienkami používania</terms>.",
       "clear": "Vymazať"
     },
     "result": {
       "error": "Nahrávanie zlyhalo. Skúste to znova.",
+      "dailyLimitReached": "Denný limit nahrávania dosiahnutý (20 za deň). Skúste to znova zajtra.",
       "generated": "Vygenerovaný odkaz:",
       "open": "Otvoriť na novej karte",
-      "placeholder": "Zatiaľ žiadny odkaz. Nahrajte fotku a vygenerujte URL.",
-      "savePrompt": "Uložte si odkaz v požadovanom formáte",
+      "placeholder": "Zatiaľ žiadny odkaz. Nahrajte fotku pre vygenerovanie URL.",
+      "savePrompt": "Uložte odkaz vo formáte, ktorý vám vyhovuje",
       "copy": "Kopírovať odkaz",
       "copied": "Skopírované",
       "saveHint": "Uložte si tento odkaz, ak ho budete potrebovať neskôr",
-      "tryCircleCrop": "Vyskúšajte Kruhový orez fotografie"
+      "tryCircleCrop": "Skúste Kruhový výrez"
     },
     "benefits": {
-      "title": "Prečo si vybrať Fotka na URL",
-      "subtitle": "Rýchlosť, čisté odkazy a žiadne zdržiavanie s registráciou.",
+      "title": "Prečo si vybrať Photo To URL",
+      "subtitle": "Rýchlosť, čisté odkazy a žiadna zbytočná registrácia.",
       "items": {
         "fast": {
           "title": "Rýchle zdieľanie",
-          "desc": "Nahrajte a získajte odkaz v priebehu sekúnd bez zbytočných krokov."
+          "desc": "Nahrajte a získajte odkaz v priebehu sekúnd bez ďalších krokov."
         },
         "direct": {
           "title": "Priame URL adresy",
-          "desc": "Čisté odkazy, ktoré fungujú v HTML, Markdowne a chatovacích aplikáciách."
+          "desc": "Čisté odkazy, ktoré fungujú v HTML, Markdown a četových aplikáciách."
         },
         "nosignup": {
           "title": "Bez registrácie",
-          "desc": "Používajte okamžite. Používateľské kontá pribudnú neskôr."
+          "desc": "Používajte okamžite. Používateľské účty pridáme neskôr."
         }
       }
     },
     "how": {
       "title": "Ako to funguje",
-      "step1": "1) Pridajte svoju fotku (presuňte, prilepte alebo vyberte súbor).",
-      "step2": "2) My ju uložíme a poskytneme vám odkaz na zdieľanie.",
-      "step3": "3) Skopírujte a vložte odkaz kamkoľvek.",
-      "note": "Váš odkaz sa rýchlo otvorí v dokumentoch, chatoch a prototypoch — navyše si ho môžete stiahnuť vo formáte .txt/.json/.md."
-    },
-    "process": {
-      "title": "Proces v troch krokoch",
-      "subtitle": "Menej úsilia, viac sústredenia, hotovo za pár sekúnd.",
-      "steps": {
-        "1": {
-          "title": "Pustite alebo prilepte",
-          "desc": "Presuňte súbor, prilepte zo schránky alebo prehľadávajte počítač."
-        },
-        "2": {
-          "title": "Ukladáme a odkazujeme",
-          "desc": "Okamžitá URL s ovládacími prvkami na kopírovanie, otvorenie alebo uloženie."
-        },
-        "3": {
-          "title": "Zdieľajte všade",
-          "desc": "Vložte do dokumentov, chatov, ticketov, blogov alebo prototypov."
-        }
-      }
+      "step1": "1) Pridajte fotku (presunutím, prilepením alebo výberom súboru).",
+      "step2": "2) My ju uložíme a poskytneme vám zdieľateľný odkaz.",
+      "step3": "3) Skopírujte a zdieľajte odkaz kdekoľvek potrebujete.",
+      "note": "Odkaz sa rýchlo otvára v dokumentoch a četoch — môžete si ho tiež stiahnuť v (.txt/.json/.md)."
     },
     "features": {
-      "title": "Kľúčové funkcie",
-      "subtitle": "Jasnosť na prvom mieste: menej trenia, viac zdieľania.",
+      "title": "Hlavné funkcie",
+      "subtitle": "Jasnosť na prvom mieste: menej prekážok, viac zdieľania.",
       "items": {
         "cdn": {
           "title": "Priame CDN odkazy",
-          "desc": "Čisté a predvídateľné URL adresy, pripravené pre Markdown a HTML."
+          "desc": "Čisté URL adresy pripravené pre Markdown a HTML vloženie."
         },
         "save": {
-          "title": "Akcie kopírovania a ukladania",
+          "title": "Kopírovať a uložiť",
           "desc": "Kopírujte, otvárajte alebo ukladajte ako .txt/.json/.md jedným kliknutím."
         },
         "clipboard": {
           "title": "Podpora schránky",
-          "desc": "Prilepte snímky obrazovky priamo bez hľadania súborov."
-        },
-        "errors": {
-          "title": "Zrozumiteľné chyby",
-          "desc": "Jasné správy namiesto komplikovaných technických kódov."
+          "desc": "Prilepujte snímky obrazovky priamo bez hľadania súborov."
         },
         "nosignup": {
-          "title": "Registrácia nie je potrebná",
-          "desc": "Pracujte rýchlejšie — nahrávajte a zdieľajte okamžite."
-        },
-        "r2": {
-          "title": "Rýchly hosting",
-          "desc": "Odkazy sú poskytované prostredníctvom rýchlej siete pre spoľahlivý prístup."
-        }
-      }
-    },
-    "testimonials": {
-      "title": "Tímy, ktoré šetria čas s Fotka na URL",
-      "subtitle": "Overené riešenie pre rýchlejšiu prácu.",
-      "items": {
-        "ops": {
-          "name": "Produktové operácie",
-          "quote": "Vkladáme snímky obrazovky do ticketov bez toho, aby sme zapĺňali úložisko prílohami. Odkazy udržujú všetko prehľadné."
-        },
-        "content": {
-          "name": "Vedúci obsahu",
-          "quote": "Markdown odkazy udržujú naše dokumenty usporiadané a pripravené na publikovanie v priebehu minút."
-        },
-        "support": {
-          "name": "Podpora",
-          "quote": "Jasné chybové správy a okamžité URL adresy uľahčujú navigáciu zákazníkov cez chat."
+          "title": "Bez registrácie",
+          "desc": "Pracujte rýchlejšie — nahrávajte a zdieľajte ihneď."
         }
       }
     },
     "cta": {
-      "title": "Premeňte fotky na odkazy za pár sekúnd",
+      "title": "Premeňte fotky na odkazy za sekundy",
       "subtitle": "Presuňte, prilepte alebo nahrajte — skopírujte odkaz a zdieľajte všade.",
       "upload": "Nahrať teraz",
       "paste": "Prilepiť snímku obrazovky"
     },
-    "longform": {
-      "title": "Prečo naša služba pomáha vášmu pracovnému postupu",
-      "p1": "Náš nástroj je vytvorený pre tvorcov, marketérov, tímy podpory a každého, kto potrebuje rýchly spôsob, ako premeniť fotky na čisté odkazy. Vďaka priamemu toku od nahrania k odkazu sa vyhnete ťažkopádnym systémom správy médií a preskočíte prihlasovanie. Odkazy sú upratané a ľahko sa vkladajú do chatovacích aplikácií, dokumentov, wiki stránok a ticketov. Tímy napredujú rýchlejšie, keď sú snímky obrazovky a obrázky produktov okamžite zdieľateľné bez obmedzení príloh.",
-      "p2": "Skúsenosť je jednoduchá: pustite, prilepte alebo prehľadávajte; získajte odkaz; zdieľajte. Žiadne zbytočné prvky ani rušivé reklamy. Vy sa sústredíte na obsah, my sa postaráme o hosting. Či už dokumentujete funkciu alebo pripravujete príspevok na blog, krátky odkaz je lepší ako ťažká príloha.",
-      "useCases": {
-        "title": "Praktické prípady použitia",
-        "items": {
-          "1": "Produkt a dizajn: Zdieľajte návrhy UI a snímky obrazovky komponentov bez zložitého exportovania.",
-          "2": "Podpora a QA: Prikladajte snímky obrazovky do ticketov alebo chatov; odkazy sa ľahko sledujú.",
-          "3": "Dokumenty a blogy: Vkladajte obrázky do Markdown alebo HTML editorov s predvídateľnými URL adresami.",
-          "4": "Predaj a servis: Pridajte vizuálne dôkazy alebo ukážky priamo do e-mailov alebo správ.",
-          "5": "Odovzdávanie vývoju: Udržujte reporty o chybách vizuálne ľahké pre rýchlejšiu kontrolu.",
-          "6": "Komunity a sociálne siete: Vkladajte odkazy do Discordu, Slacku alebo na fóra bez neporiadku."
-        }
-      },
-      "flow": {
-        "title": "Ako funguje celý proces",
-        "p1": "1) Vyberte obrázok: presuňte ho, prilepte zo schránky alebo kliknite na prehľadávanie. 2) My ho nahráme a vrátime priamy odkaz. Rozhranie okamžite zobrazí vašu URL s akciami na kopírovanie, otvorenie a uloženie v rôznych formátoch (.txt, .json, .md). 3) Použite odkaz všade. Cieľom je plynulý most medzi vašou fotkou a miestom, kde pracujete.",
-        "p2": "Každý krok je navrhnutý pre jasnosť: viditeľný stav, zrozumiteľné chyby a tlačidlá, ktoré potvrdzujú vaše akcie."
-      },
-      "best": {
-        "title": "Najlepšie postupy pre čisté odkazy",
-        "items": {
-          "1": "Pred nahraním dajte súborom zmysluplné názvy; zostávajú súčasťou URL.",
-          "2": "Pre ľahšie súbory používajte WEBP alebo optimalizované JPG/PNG.",
-          "3": "Odkaz skopírujte hneď po vygenerovaní, aby ste predišli chybám schránky.",
-          "4": "Uložte ako .json, keď potrebujete zachovať referencie pre automatizáciu.",
-          "5": "Na vkladanie do dokumentov alebo wiki stránok použite výstup .md.",
-          "6": "Uložte ako .txt pre čisté textové odkazy pripravené na použitie."
-        }
-      },
-      "roadmap": {
-        "title": "Budúce vylepšenia",
-        "p1": "Pripravované aktualizácie zahŕňajú hlbšiu integráciu s úložiskami, vyššie limity nahrávania, voliteľný tímový prístup a analytiku pre každý odkaz."
-      },
-      "faq": {
-        "title": "Často kladené otázky",
-        "items": {
-          "1": {
-            "q": "Je to zadarmo?",
-            "a": "Áno, základná konverzia fotky na odkaz je bezplatná."
-          },
-          "2": {
-            "q": "Aké formáty sú podporované?",
-            "a": "Momentálne PNG, JPG, WEBP, GIF do 10MB."
-          },
-          "3": {
-            "q": "Môžem vkladať do Markdownu alebo HTML?",
-            "a": "Áno. Skopírujte odkaz priamo alebo použite možnosti uloženia vo formáte .md."
-          },
-          "4": {
-            "q": "Sú moje súbory verejné?",
-            "a": "Odkazy sú zdieľateľné; keď sú poskytované cez CDN, prechádzajú cez jeho doménu."
-          },
-          "5": {
-            "q": "Budú existovať kontá pre tímy?",
-            "a": "Je to v pláne. Najprv prioritizujeme jednoduché nahrávanie, potom pridáme tímové pracovné priestory."
-          }
-        }
-      },
-      "keywords": {
-        "title": "Kľúčové slová",
-        "p1": "fotka na url, obrázok na url, generátor odkazov na obrázky, premeniť fotku na odkaz, bezplatný hosting obrázkov, priama url obrázka"
-      }
-    },
     "selectRegion": {
-      "title": "Vybrať región",
-      "subtitle": "Vyberte si preferovaný jazyk a región"
+      "title": "Vyberte oblasť",
+      "subtitle": "Vyberte preferovaný jazyk a oblasť"
     },
     "rateService": {
-      "title": "Ohodnoťte náš konvertor",
+      "title": "Ohodnoťte Photo To URL Converter",
       "thankYou": "Ďakujeme za vašu spätnú väzbu!",
       "averageRating": "4.5",
-      "votes": "4 992 hlasov"
-    }
-  },
-  "seo": {
-    "keywords": "fotka na url, obrázok na url, generátor odkazov na obrázky, bezplatný hosting obrázkov, priama url obrázka, zdieľateľné odkazy, cdn",
-    "home": {
-      "title": "Konvertor fotiek na URL | Premeňte obrázky na zdieľateľné odkazy",
-      "description": "Bezplatný hosting obrázkov: Premeňte fotky na trvalé URL adresy okamžite. Podporuje JPG, PNG, WEBP, GIF do 10MB. CDN a čisté odkazy pre Markdown a HTML."
-    }
-  },
-  "images": {
-    "previewAlt": "Náhľad nahraného obrázka",
-    "animatingSampleAlt": "Vzorový obrázok použitý v ukážke",
-    "sampleThumbAlt": "Miniatúra vzorového obrázka na nahranie",
-    "useSampleAria": "Použiť tento vzorový obrázok",
-    "howIllustrationAlt": "Ilustrácia zobrazujúca ako funguje Fotka na URL",
-    "heroDropTitle": "Pustite fotku sem",
-    "heroDropSubtitle": "Optimalizujeme ju, uložíme a vrátime vám čistý odkaz.",
-    "heroDropBadge": "Pustite alebo kliknite (JPG/PNG, do 10MB)",
-    "logoAlt": "Logo Fotka na URL"
-  },
-  "circleCrop": {
-    "title": "Kruhový orez fotografie",
-    "description": "Bezplatný online nástroj na kruhový orez fotografií — premeňte akýkoľvek obrázok na dokonalý kruh pre profilové fotky a dizajn.",
-    "upload": "Nahrať fotku",
-    "processing": "Spracováva sa...",
-    "download": "Stiahnuť kruhový obrázok",
-    "errorSelectFile": "Vyberte súbor obrázka",
-    "errorUploadFirst": "Najprv nahrajte fotku",
-    "page": {
-      "title": "Kruhový orez fotografie - Bezplatný online nástroj",
-      "description": "Tento nástroj je bezplatná online služba na premenu obdĺžnikových fotiek na dokonalé kruhy bez nutnosti registrácie."
+      "votes": "4,992 hlasov"
     },
     "seo": {
-      "title": "Kruhový orez fotografie | Bezplatný orez online",
-      "description": "Bezplatný online nástroj na orezanie fotiek do dokonalého kruhu - ideálne pre profilové fotky a sociálne siete."
-    },
-    "selectRegion": {
-      "title": "Vybrať región",
-      "subtitle": "Vyberte si jazyk a región"
-    },
-    "rateService": {
-      "title": "Ohodnoťte nástroj na orez",
-      "thankYou": "Ďakujeme za vašu spätnú väzbu!",
-      "averageRating": "4.5",
-      "votes": "4 992 hlasov"
-    }
-  },
-  "blog": {
-    "seo": {
-      "title": "Blog | Fotka na URL",
-      "description": "Články o hostingu fotografií, zdieľaní odkazov a tipy na produktivitu."
-    },
-    "page": {
-      "title": "Blog",
-      "description": "Pripravujeme články o hostingu obrázkov, CDN a SEO tipoch. Už čoskoro.",
-      "stayTuned": "Sledujte nás pre návody o:",
-      "guides": {
-        "1": "Najlepšie postupy pre konverziu obrázka na URL",
-        "2": "Ako používať priame odkazy na fotky v blogoch a dokumentoch",
-        "3": "Výkon a cachovanie pre statické súbory"
+      "keywords": "fotka na url, obrázok na odkaz, generátor odkazov na obrázky, bezplatný hosting obrázkov, cdn obrázky",
+      "home": {
+        "title": "Prevodník fotiek na URL | Premeňte fotky na zdieľateľné odkazy",
+        "description": "Bezplatný hosting obrázkov: premeňte fotky na trvalé URL adresy okamžite. Podporuje JPG, PNG, WEBP, GIF do 10MB."
       }
-    }
-  },
-  "docs": {
-    "seo": {
-      "title": "Dokumentácia | Fotka na URL",
-      "description": "Dokumentácia k našej službe."
     },
-    "page": {
-      "title": "Dokumentácia",
-      "description": "Rýchly štart: nahrajte obrázok a získajte priamu URL. Použite tlačidlá na kopírovanie alebo si stiahnite odkaz v .txt/.json/.md.",
-      "features": {
-        "title": "Podporované funkcie:",
-        "items": {
-          "1": "Podporované: JPG, PNG, WEBP, GIF",
-          "2": "Rýchle doručenie cez CDN",
-          "3": "Priateľské správy o údržbe"
-        }
-      }
-    }
-  },
-  "status": {
-    "seo": {
-      "title": "Stav | Fotka na URL",
-      "description": "Stav služieb pre naše systémy."
-    },
-    "page": {
-      "title": "Stav",
-      "description": "Všetky systémy sú funkčné.",
-      "message": "Nahrávacie API a CDN odkazy sú v prevádzke."
-    }
-  },
-  "contact": {
-    "seo": {
-      "title": "Kontakt | Fotka na URL",
-      "description": "Kontaktujte podporu."
-    },
-    "page": {
-      "title": "Kontakt",
-      "description": "Potrebujete pomoc alebo chcete zdieľať spätnú väzbu? Napíšte nám e-mail a my sa vám ozveme čo najskôr.",
-      "email": {
-        "label": "E-mail",
-        "address": "leeqs1010@gmail.com"
-      }
-    }
-  },
-  "legal": {
-    "privacy": {
-      "seo": {
-        "title": "Privacy Policy | Photo To URL",
-        "description": "Privacy Policy for Photo To URL."
-      },
+    "circleCrop": {
+      "title": "Kruhový výrez fotky",
+      "description": "Bezplatný online nástroj na orezanie fotiek do kruhu - ideálne pre profilové fotky a sociálne siete.",
+      "upload": "Nahrať fotku",
+      "processing": "Spracováva sa...",
+      "download": "Stiahnuť kruhovú fotku",
       "page": {
-        "title": "Privacy Policy",
-        "content": "We collect the minimum necessary data to operate the service. Uploaded images are stored to generate a shareable link.",
-        "contact": {
-          "title": "Contact",
-          "text": "Questions? Email",
-          "email": "leeqs1010@gmail.com"
-        }
-      }
-    },
-    "terms": {
-      "seo": {
-        "title": "Terms of Service | Photo To URL",
-        "description": "Terms of Service for Photo To URL."
+        "title": "Kruhový výrez fotky - Bezplatný online nástroj",
+        "description": "Premeňte obdĺžnikové fotky na dokonalé kruhy okamžite a bez registrácie."
       },
-      "page": {
-        "title": "Terms of Service",
-        "content": "By using Photo To URL, you agree to use the service responsibly and not upload illegal content.",
-        "disclaimer": {
-          "title": "Disclaimer",
-          "text": "The service is provided \"as is\" without warranties. Availability may change due to maintenance."
-        },
-        "contact": {
-          "title": "Contact",
-          "text": "Email",
-          "email": "leeqs1010@gmail.com"
-        }
+      "selectRegion": {
+        "title": "Vyberte oblasť",
+        "subtitle": "Vyberte preferovaný jazyk a oblasť"
+      },
+      "rateService": {
+        "title": "Ohodnoťte Photo To Circle Crop",
+        "thankYou": "Ďakujeme za vašu spätnú väzbu!",
+        "averageRating": "4.5",
+        "votes": "4,992 hlasov"
       }
     }
   }

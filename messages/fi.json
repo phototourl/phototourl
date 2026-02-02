@@ -1,22 +1,37 @@
 {
   "common": {
     "siteName": "Kuva URL-osoitteeksi",
-    "tagline": "Muuta valokuvat selkeiksi, jaettaviksi linkeiksi sekunneissa",
+    "tagline": "Muuta kuvat puhtaiksi, jaettaviksi linkeiksi sekunneissa",
     "header": {
       "subtitle": "Muuta kuvat jaettaviksi linkeiksi",
-      "prompt": "Pudota, liitä tai lataa — saat jaettavan linkin välittömästi",
-      "circleCrop": "Pyöreä kuvan rajaus"
+      "prompt": "Pudota, liitä tai lataa — saat linkin välittömästi",
+      "circleCrop": "Pyöreä kuvan rajaus",
+      "history": "Lataushistoria"
+    },
+    "history": {
+      "drawerTitle": "Lataushistoria",
+      "hint": "Näytetään 10 viimeisintä latausta.",
+      "close": "Sulje",
+      "empty": "Ei vielä latauksia.",
+      "copy": "Kopioi linkki",
+      "copied": "Kopioitu",
+      "open": "Avaa uudessa välilehdessä"
+    },
+    "languageSelect": {
+      "title": "Valitse alueesi",
+      "subtitle": "Alueen valinta muuttaa kielen ja sisällön.",
+      "close": "Sulje"
     },
     "footer": {
       "blurb": {
-        "line1": "Muuta valokuvat selkeiksi, jaettaviksi linkeiksi.",
+        "line1": "Muuta kuvat puhtaiksi ja jaettaviksi linkeiksi.",
         "line2": "Nopea, yksinkertainen, luotettava."
       },
       "partners": "Kumppanit",
       "linksTitle": "Linkit",
       "productsTitle": "Tuotteet",
       "nav": {
-        "home": "Koti",
+        "home": "Etusivu",
         "blog": "Blogi",
         "docs": "Dokumentaatio",
         "status": "Tila",
@@ -38,35 +53,36 @@
     "hero": {
       "title1": "Ilmainen",
       "title2": "Kuva URL-osoitteeksi",
-      "subtitle": "Lataa → saa linkki → liitä mihin tahansa",
+      "subtitle": "Lataa kuva → hanki linkki → liitä mihin tahansa",
       "upload": "Lataa kuva",
       "bullet": {
-        "fast": "Nopea jakaminen",
+        "fast": "Nopea jako",
         "direct": "Suorat kuvalinkit",
-        "nosignup": "Ei vaadi rekisteröitymistä",
+        "nosignup": "Ei vaadi tiliä",
         "paste": "Liitä leikepöydältä"
       }
     },
     "demo": {
       "label": "Demo",
-      "loop": "Automaattinen demo",
+      "loop": "Automaattinen esittely",
       "idleTitle": "Vedä ja pudota kuvasi",
-      "idleSubtitle": "Katso koko prosessi: lataus → linkki → kopiointi.",
+      "idleSubtitle": "Katso miten se toimii: lataus → linkki → kopiointi.",
       "processing": "Optimoidaan ja ladataan...",
       "doneTitle": "Valmis jaettavaksi",
-      "doneSubtitle": "Linkkisi on valmis välittömästi jaettavaksi.",
-      "thanksForWatching": "Kiitos katsomisesta"
+      "doneSubtitle": "Linkkisi on valmis välitöntä käyttöä varten.",
+      "thanksForWatching": "Kiitos katselusta"
     },
     "upload": {
-      "title": "Pudota kuva tai klikkaa selaaksesi",
-      "hint": "JPG, PNG, WEBP, GIF enintään 10MB. Vedä ja pudota, klikkaa tai liitä kuvakaappaus.",
-      "orDrop": "tai pudota tiedosto tähän",
-      "samplesTitle": "Eikö sinulla ole kuvaa? Kokeile jotain näistä:",
-      "policy": "Lataamalla kuvan hyväksyt <privacy>tietosuojakäytäntömme</privacy> ja <terms>käyttöehtomme</terms>.",
+      "title": "Pudota kuva tai klikkaa valitaksesi",
+      "hint": "JPG, PNG, WEBP, GIF enintään 10MB. Vedä, klikkaa tai liitä kuvakaappauksia.",
+      "orDrop": "tai pudota tiedosto",
+      "samplesTitle": "Eikö sinulla ole kuvaa? Kokeile näitä:",
+      "policy": "Lataamalla kuvan hyväksyt <privacy>tietosuojaselosteemme</privacy> ja <terms>käyttöehtomme</terms>.",
       "clear": "Tyhjennä"
     },
     "result": {
       "error": "Lataus epäonnistui. Yritä uudelleen.",
+      "dailyLimitReached": "Päivittäinen raja täynnä (20 per päivä). Yritä huomenna uudelleen.",
       "generated": "Luotu linkki:",
       "open": "Avaa uudessa välilehdessä",
       "placeholder": "Ei linkkiä vielä. Lataa kuva luodaksesi URL-osoitteen.",
@@ -74,19 +90,19 @@
       "copy": "Kopioi linkki",
       "copied": "Kopioitu",
       "saveHint": "Tallenna tämä linkki, jos tarvitset sitä myöhemmin",
-      "tryCircleCrop": "Kokeile Pyöreä kuvan rajaus"
+      "tryCircleCrop": "Kokeile pyöreää rajausta"
     },
     "benefits": {
-      "title": "Miksi valita Kuva URL-osoitteeksi",
-      "subtitle": "Nopeus, selkeät linkit ja ilman rekisteröitymistä.",
+      "title": "Miksi valita Photo To URL",
+      "subtitle": "Nopeus, puhtaat linkit ja ei turhaa säätöä.",
       "items": {
         "fast": {
           "title": "Nopea jakaminen",
-          "desc": "Lataa ja saa linkki sekunneissa ilman turhia vaiheita."
+          "desc": "Lataa ja hanki linkki sekunneissa ilman välivaiheita."
         },
         "direct": {
           "title": "Suorat URL-osoitteet",
-          "desc": "Selkeät linkit, jotka toimivat HTML-, Markdown- ja chat-sovelluksissa."
+          "desc": "Puhtaat linkit, jotka toimivat HTML-, Markdown- ja chat-sovelluksissa."
         },
         "nosignup": {
           "title": "Ei rekisteröitymistä",
@@ -96,296 +112,75 @@
     },
     "how": {
       "title": "Miten se toimii",
-      "step1": "1) Lisää kuvasi (vedä, liitä tai valitse tiedosto).",
-      "step2": "2) Me isännöimme sen ja annamme sinulle jakolinkin.",
-      "step3": "3) Kopioi ja liitä linkki mihin tahansa.",
-      "note": "Linkkisi avautuu nopeasti dokumenteissa, chateissa ja prototyypeissä — voit myös ladata sen .txt/.json/.md muodossa."
-    },
-    "process": {
-      "title": "Kolmen vaiheen prosessi",
-      "subtitle": "Vähemmän vaivaa, enemmän keskittymistä, valmista sekunneissa.",
-      "steps": {
-        "1": {
-          "title": "Pudota tai liitä",
-          "desc": "Vedä tiedosto, liitä leikepöydältä tai selaa tietokonettasi."
-        },
-        "2": {
-          "title": "Isännöimme ja linkitämme",
-          "desc": "Välitön URL-osoite kopiointi-, avaus- ja tallennustoiminnoilla."
-        },
-        "3": {
-          "title": "Jaa kaikkialla",
-          "desc": "Liitä dokumentteihin, chatteihin, tukipyyntöihin, blogeihin tai prototyyppeihin."
-        }
-      }
+      "step1": "1) Lisää kuva (vedä, liitä tai valitse tiedosto).",
+      "step2": "2) Me isännöimme sen ja annamme sinulle jaettavan linkin.",
+      "step3": "3) Kopioi ja liitä linkki työnkulkuusi.",
+      "note": "Linkki avautuu nopeasti dokumenteissa ja chateissa — voit myös ladata tiedot (.txt/.json/.md)."
     },
     "features": {
-      "title": "Keskeiset ominaisuudet",
-      "subtitle": "Selkeys ensin: vähemmän kitkaa, enemmän jakamista.",
+      "title": "Ominaisuudet",
+      "subtitle": "Selkeys ja nopeus: vähemmän kitkaa, enemmän jakamista.",
       "items": {
         "cdn": {
           "title": "Suorat CDN-linkit",
-          "desc": "Selkeät ja ennakoitavat URL-osoitteet, valmiina Markdowniin ja HTML:ään."
+          "desc": "Puhtaat ja pysyvät osoitteet Markdown- ja HTML-käyttöön."
         },
         "save": {
-          "title": "Kopioi- ja tallennustoiminnot",
-          "desc": "Kopioi, avaa tai tallenna .txt/.json/.md muodossa yhdellä klikkauksella."
+          "title": "Kopioi & Tallenna",
+          "desc": "Kopioi tai tallenna tiedostona (.txt/.json/.md) yhdellä klikkauksella."
         },
         "clipboard": {
-          "title": "Leikepöytäystävällinen",
-          "desc": "Liitä kuvakaappaukset suoraan etsimättä tiedostoja."
-        },
-        "errors": {
-          "title": "Ymmärrettävät virheet",
-          "desc": "Selkeät viestit monimutkaisten teknisten koodien sijaan."
+          "title": "Leikepöytä-ystävällinen",
+          "desc": "Liitä kuvakaappaukset suoraan ilman tiedostojen etsimistä."
         },
         "nosignup": {
-          "title": "Ei vaadi rekisteröitymistä",
-          "desc": "Työskentele nopeammin — lataa ja jaa heti."
-        },
-        "r2": {
-          "title": "Nopea isännöinti",
-          "desc": "Linkit tarjoillaan nopean verkon kautta luotettavaa käyttöä varten."
-        }
-      }
-    },
-    "testimonials": {
-      "title": "Tiimit, jotka säästävät aikaa palvelullamme",
-      "subtitle": "Todistettu ratkaisu nopeampaan työskentelyyn.",
-      "items": {
-        "ops": {
-          "name": "Product Ops",
-          "quote": "Liitämme kuvakaappauksia tiketteihin täyttämättä tallennustilaa liitteillä. Linkit pitävät kaiken siistinä."
-        },
-        "content": {
-          "name": "Content Lead",
-          "quote": "Markdown-linkit pitävät dokumenttimme järjestyksessä ja valmiina julkaisuun minuuteissa."
-        },
-        "support": {
-          "name": "Asiakaspalvelu",
-          "quote": "Selkeät virheilmoitukset ja välittömät URL-osoitteet helpottavat asiakkaiden opastamista chatissa."
+          "title": "Ei tiliä",
+          "desc": "Aloita nopeammin — lataa ja jaa välittömästi."
         }
       }
     },
     "cta": {
-      "title": "Muuta valokuvat linkeiksi sekunneissa",
-      "subtitle": "Pudota, liitä tai lataa — kopioi linkki ja jaa kaikkialla.",
+      "title": "Muuta kuvat linkeiksi sekunneissa",
+      "subtitle": "Vedä, liitä tai lataa — kopioi linkki ja jaa se kaikkialla.",
       "upload": "Lataa nyt",
       "paste": "Liitä kuvakaappaus"
-    },
-    "longform": {
-      "title": "Miksi palvelumme auttaa työnkulkuasi",
-      "p1": "Työkalumme on luotu sisällöntuottajille, markkinoijille, tukitiimeille ja kaikille, jotka tarvitsevat nopean tavan muuttaa kuvat selkeiksi linkeiksi. Suoran latausprosessin ansiosta vältät raskaat tiedostonhallintajärjestelmät ja sisäänkirjautumiset. Linkit ovat siistejä ja helppoja liittää chat-sovelluksiin, dokumentteihin, wikeihin ja raportteihin. Tiimit etenevät nopeammin, kun kuvakaappaukset ja tuotekuvat ovat välittömästi jaettavissa ilman liitetiedostorajoituksia.",
-      "p2": "Kokemus on yksinkertainen: pudota, liitä tai selaa; saa linkki; jaa. Ei turhia elementtejä tai häiritseviä mainoksia. Sinä keskityt sisältöön, me hoidamme isännöinnin. Olitpa dokumentoimassa ominaisuutta tai valmistelemassa blogikirjoitusta, lyhyt linkki on parempi kuin raskas liite.",
-      "useCases": {
-        "title": "Käytännön käyttötapaukset",
-        "items": {
-          "1": "Tuote & Suunnittelu: Jaa käyttöliittymäluonnokset ja kuvakaappaukset ilman monimutkaisia vientejä.",
-          "2": "Tuki & QA: Liitä kuvakaappauksia tiketteihin tai chatteihin; linkkejä on helppo seurata.",
-          "3": "Dokumentit & Blogit: Upota kuvia Markdown- tai HTML-editoreihin ennakoitavilla URL-osoitteilla.",
-          "4": "Myynti & Palvelu: Lisää visuaalisia todisteita tai demoja suoraan sähköposteihin tai viesteihin.",
-          "5": "Kehityksen luovutus: Pidä virheraportit visuaalisesti kevyinä nopeampaa tarkastelua varten.",
-          "6": "Yhteisöt & Sosiaalinen media: Liitä linkkejä Discordiin, Slackiin tai foorumeille ilman sotkua."
-        }
-      },
-      "flow": {
-        "title": "Miten koko prosessi toimii",
-        "p1": "1) Valitse kuva: vedä ja pudota, liitä leikepöydältä tai klikkaa selaaksesi. 2) Me lataamme sen ja palautamme suoran linkin. Käyttöliittymä näyttää URL-osoitteesi heti kopiointi-, avaus- ja tallennustoiminnoilla (.txt, .json, .md). 3) Käytä linkkiä kaikkialla. Tavoitteena on saumaton silta kuvasi ja työympäristösi välillä.",
-        "p2": "Jokainen vaihe on suunniteltu selkeäksi: näkyvä tila, ymmärrettävät virheet ja painikkeet, jotka vahvistavat toimintosi."
-      },
-      "best": {
-        "title": "Parhaat käytännöt selkeisiin linkkeihin",
-        "items": {
-          "1": "Nimeä tiedostosi kuvaavasti ennen latausta; ne jäävät osaksi URL-osoitetta.",
-          "2": "Käytä WEBP- tai optimoituja JPG/PNG-tiedostoja kevyemmän koon vuoksi.",
-          "3": "Kopioi linkki heti latauksen jälkeen välttääksesi leikepöydän virheet.",
-          "4": "Tallenna .json-muodossa, jos tarvitset viitteitä automaatiota varten.",
-          "5": "Käytä .md-tulostetta upottamiseen dokumentteihin tai wikeihin.",
-          "6": "Tallenna .txt-muodossa saadaksesi puhtaita tekstilinkkejä käyttövalmiina."
-        }
-      },
-      "roadmap": {
-        "title": "Tulevat parannukset",
-        "p1": "Tulevat päivitykset sisältävät syvemmän integraation tallennusratkaisuihin, suuremmat latausrajat, valinnaisen pääsynhallinnan tiimeille ja analytiikan jokaiselle linkille."
-      },
-      "faq": {
-        "title": "Usein kysytyt kysymykset",
-        "items": {
-          "1": {
-            "q": "Onko se ilmaista?",
-            "a": "Kyllä, perusmuunnos kuvasta linkiksi on ilmainen."
-          },
-          "2": {
-            "q": "Mitä tiedostomuotoja tuetaan?",
-            "a": "Tällä hetkellä PNG, JPG, WEBP, GIF enintään 10MB."
-          },
-          "3": {
-            "q": "Voinko upottaa Markdowniin tai HTML:ään?",
-            "a": "Kyllä. Kopioi linkki suoraan tai käytä .md-tallennusvaihtoehtoa."
-          },
-          "4": {
-            "q": "Ovatko tiedostoni julkisia?",
-            "a": "Linkit ovat jaettavissa; kun niitä käytetään CDN:n kautta, ne tarjoillaan sen verkon kautta."
-          },
-          "5": {
-            "q": "Tuleeko palveluun tiimitilejä?",
-            "a": "Se on suunnitteilla. Priorisoimme ensin helpon latauksen ja lisäämme tiimiominaisuudet myöhemmin."
-          }
-        }
-      },
-      "keywords": {
-        "title": "Avainsanat",
-        "p1": "kuva urliksi, kuvasta urliksi, kuvalinkkigeneraattori, muuta kuva linkiksi, ilmainen kuvaisännöinti, suora kuva-url"
-      }
     },
     "selectRegion": {
       "title": "Valitse alue",
       "subtitle": "Valitse haluamasi kieli ja alue"
     },
     "rateService": {
-      "title": "Arvioi muuntimemme",
+      "title": "Arvioi Photo To URL Converter",
       "thankYou": "Kiitos palautteestasi!",
       "averageRating": "4.5",
-      "votes": "4 992 ääntä"
-    }
-  },
-  "seo": {
-    "keywords": "kuva urliksi, kuvalinkkigeneraattori, ilmainen kuvaisännöinti, suora kuva-url, jaettavat linkit, cdn-linkit",
-    "home": {
-      "title": "Kuva URL-osoitteeksi Muunnin | Muuta kuvat jaettaviksi linkeiksi",
-      "description": "Ilmainen kuvaisännöinti: Muuta valokuvat pysyviksi URL-osoitteiksi välittömästi. Tukee JPG, PNG, WEBP, GIF enintään 10MB. CDN ja selkeät linkit Markdowniin ja HTML:ään."
-    }
-  },
-  "images": {
-    "previewAlt": "Ladatun kuvan esikatselu",
-    "animatingSampleAlt": "Demossa käytetty esimerkkikuva",
-    "sampleThumbAlt": "Esimerkkikuva latausta varten",
-    "useSampleAria": "Käytä tätä esimerkkikuvaa",
-    "howIllustrationAlt": "Kuvitus, joka näyttää miten palvelu toimii",
-    "heroDropTitle": "Pudota kuva tähän",
-    "heroDropSubtitle": "Me optimoimme ja isännöimme sen ja annamme sinulle siistin linkin.",
-    "heroDropBadge": "Pudota tai klikkaa (JPG/PNG, enintään 10MB)",
-    "logoAlt": "Kuva URL-osoitteeksi Logo"
-  },
-  "circleCrop": {
-    "title": "Pyöreä kuvan rajaus",
-    "description": "Ilmainen verkkotyökalu kuvien pyöreään rajaukseen — muuta mikä tahansa kuva täydelliseksi ympyräksi profiilikuvia ja suunnittelua varten.",
-    "upload": "Lataa kuva",
-    "processing": "Käsitellään...",
-    "download": "Lataa pyöreä kuva",
-    "errorSelectFile": "Valitse kuvatiedosto",
-    "errorUploadFirst": "Lataa ensin kuva",
-    "page": {
-      "title": "Pyöreä kuvan rajaus - Ilmainen verkkotyökalu",
-      "description": "Tämä työkalu on ilmainen verkkopalvelu suorakaiteen muotoisten kuvien muuttamiseksi täydellisiksi ympyröiksi ilman rekisteröitymistä."
+      "votes": "4,992 ääntä"
     },
     "seo": {
-      "title": "Pyöreä kuvan rajaus | Ilmainen rajaus verkossa",
-      "description": "Ilmainen verkkotyökalu kuvien rajaamiseen täydelliseksi ympyräksi - ihanteellinen profiilikuvia ja sosiaalista mediaa varten."
-    },
-    "selectRegion": {
-      "title": "Valitse alue",
-      "subtitle": "Valitse kieli ja alue"
-    },
-    "rateService": {
-      "title": "Arvioi rajaustyökalu",
-      "thankYou": "Kiitos palautteestasi!",
-      "averageRating": "4.5",
-      "votes": "4 992 ääntä"
-    }
-  },
-  "blog": {
-    "seo": {
-      "title": "Blogi | Kuva URL-osoitteeksi",
-      "description": "Artikkeleita kuvaisännöinnistä, linkkien jakamisesta ja tuottavuusvinkeistä."
-    },
-    "page": {
-      "title": "Blogi",
-      "description": "Valmistelemme artikkeleita kuvaisännöinnistä, CDN-palveluista ja SEO-vinkeistä. Tulossa pian.",
-      "stayTuned": "Pysy kuulolla oppaista:",
-      "guides": {
-        "1": "Parhaat käytännöt kuvan muuttamiseksi URL-osoitteeksi",
-        "2": "Miten käyttää suoria kuvalinkkejä blogeissa ja dokumenteissa",
-        "3": "Suorituskyky ja välimuisti staattisille tiedostoille"
+      "keywords": "kuva urliksi, kuvasta linkki, kuvalinkki generaattori, ilmainen kuvahosting, cdn kuvat",
+      "home": {
+        "title": "Photo To URL -muunnin | Muuta kuvat jaettaviksi linkeiksi",
+        "description": "Ilmainen kuvan isännöinti: muuta kuvat pysyviksi URL-osoitteiksi heti. Tukee JPG, PNG, WEBP, GIF (max 10MB)."
       }
-    }
-  },
-  "docs": {
-    "seo": {
-      "title": "Dokumentaatio | Kuva URL-osoitteeksi",
-      "description": "Dokumentaatio palvelullemme."
     },
-    "page": {
-      "title": "Dokumentaatio",
-      "description": "Pikaopas: lataa kuva ja saa suora URL-osoite. Käytä kopiointipainikkeita tai lataa linkki .txt/.json/.md muodossa.",
-      "features": {
-        "title": "Tuetut ominaisuudet:",
-        "items": {
-          "1": "Tuetut tiedostomuodot: JPG, PNG, WEBP, GIF",
-          "2": "Nopea toimitus CDN:n kautta",
-          "3": "Selkeät virheilmoitukset huollon aikana"
-        }
-      }
-    }
-  },
-  "status": {
-    "seo": {
-      "title": "Tila | Kuva URL-osoitteeksi",
-      "description": "Järjestelmiemme tila."
-    },
-    "page": {
-      "title": "Tila",
-      "description": "Kaikki järjestelmät toimivat normaalisti.",
-      "message": "Lataus-API ja CDN-linkit ovat toiminnassa."
-    }
-  },
-  "contact": {
-    "seo": {
-      "title": "Ota yhteyttä | Kuva URL-osoitteeksi",
-      "description": "Ota yhteyttä tukeen."
-    },
-    "page": {
-      "title": "Ota yhteyttä",
-      "description": "Tarvitsetko apua tai haluatko antaa palautetta? Lähetä meille sähköpostia, niin vastaamme mahdollisimman pian.",
-      "email": {
-        "label": "Sähköposti",
-        "address": "leeqs1010@gmail.com"
-      }
-    }
-  },
-  "legal": {
-    "privacy": {
+    "circleCrop": {
+      "title": "Pyöreä kuvan rajaus",
+      "description": "Ilmainen verkkotyökalu kuvien rajaamiseen täydelliseksi ympyräksi - täydellinen profiilikuviin.",
+      "upload": "Lataa kuva",
+      "processing": "Käsitellään...",
+      "download": "Lataa pyöreä kuva",
       "seo": {
-        "title": "Privacy Policy | Photo To URL",
-        "description": "Privacy Policy for Photo To URL."
+        "title": "Rajaa kuva pyöreäksi | Ilmainen verkkotyökalu",
+        "description": "Rajaa mikä tahansa kuva täydelliseksi ympyräksi sosiaalista mediaa ja suunnittelua varten."
       },
-      "page": {
-        "title": "Privacy Policy",
-        "content": "We collect the minimum necessary data to operate the service. Uploaded images are stored to generate a shareable link.",
-        "contact": {
-          "title": "Contact",
-          "text": "Questions? Email",
-          "email": "leeqs1010@gmail.com"
-        }
-      }
-    },
-    "terms": {
-      "seo": {
-        "title": "Terms of Service | Photo To URL",
-        "description": "Terms of Service for Photo To URL."
+      "selectRegion": {
+        "title": "Valitse alue",
+        "subtitle": "Valitse haluamasi kieli ja alue"
       },
-      "page": {
-        "title": "Terms of Service",
-        "content": "By using Photo To URL, you agree to use the service responsibly and not upload illegal content.",
-        "disclaimer": {
-          "title": "Disclaimer",
-          "text": "The service is provided \"as is\" without warranties. Availability may change due to maintenance."
-        },
-        "contact": {
-          "title": "Contact",
-          "text": "Email",
-          "email": "leeqs1010@gmail.com"
-        }
+      "rateService": {
+        "title": "Arvioi Photo To Circle Crop",
+        "thankYou": "Kiitos palautteestasi!",
+        "averageRating": "4.5",
+        "votes": "4,992 ääntä"
       }
     }
   }

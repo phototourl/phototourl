@@ -6,6 +6,20 @@ import { ArrowUp, ArrowDown } from "lucide-react";
 export function ScrollButtons() {
   const [showBackToTop, setShowBackToTop] = useState(false);
   const [showScrollDown, setShowScrollDown] = useState(true);
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false);
+
+  useEffect(() => {
+    const handler = (e: Event) => setDrawerOpen((e as CustomEvent<{ open: boolean }>).detail.open);
+    window.addEventListener("upload-history-drawer-change", handler);
+    return () => window.removeEventListener("upload-history-drawer-change", handler);
+  }, []);
+
+  useEffect(() => {
+    const handler = (e: Event) => setModalOpen((e as CustomEvent<{ open: boolean }>).detail.open);
+    window.addEventListener("language-modal-change", handler);
+    return () => window.removeEventListener("language-modal-change", handler);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -54,6 +68,8 @@ export function ScrollButtons() {
   const scrollToTop = () => {
     smoothScrollTo(0);
   };
+
+  if (drawerOpen || modalOpen) return null;
 
   return (
     <>

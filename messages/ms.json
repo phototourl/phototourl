@@ -5,7 +5,22 @@
     "header": {
       "subtitle": "Tukarkan imej menjadi pautan boleh dikongsi",
       "prompt": "Lepaskan, tampal, atau muat naik — dapatkan pautan boleh dikongsi serta-merta",
-      "circleCrop": "Foto ke Potongan Bulat"
+      "circleCrop": "Foto ke Potongan Bulat",
+      "history": "Rekod muat naik"
+    },
+    "history": {
+      "drawerTitle": "Rekod muat naik",
+      "hint": "Papar 10 muat naik terkini.",
+      "close": "Tutup",
+      "empty": "Tiada muat naik lagi.",
+      "copy": "Salin pautan",
+      "copied": "Disalin",
+      "open": "Buka dalam tab baharu"
+    },
+    "languageSelect": {
+      "title": "Pilih wilayah anda",
+      "subtitle": "Memilih wilayah akan menukar bahasa dan kandungan.",
+      "close": "Tutup"
     },
     "footer": {
       "blurb": {
@@ -67,6 +82,7 @@
     },
     "result": {
       "error": "Muat naik gagal. Sila cuba lagi.",
+      "dailyLimitReached": "Had harian (20 sehari) dicapai. Cuba lagi esok.",
       "generated": "Pautan yang dihasilkan:",
       "open": "Buka dalam tab baharu",
       "placeholder": "Belum ada pautan lagi. Muat naik foto untuk menghasilkan URL boleh dikongsi.",

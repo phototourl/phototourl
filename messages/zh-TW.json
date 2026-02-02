@@ -4,7 +4,22 @@
     "tagline": "一鍵把照片變成可分享的連結",
     "header": {
       "subtitle": "把圖片變成可分享的連結",
-      "prompt": "拖曳、貼上或上傳 — 立刻獲得可分享連結"
+      "prompt": "拖曳、貼上或上傳 — 立刻獲得可分享連結",
+      "history": "上傳記錄"
+    },
+    "history": {
+      "drawerTitle": "上傳記錄",
+      "hint": "展示最近10條上傳記錄。",
+      "close": "關閉",
+      "empty": "暫無上傳記錄。",
+      "copy": "複製連結",
+      "copied": "已複製",
+      "open": "新分頁開啟"
+    },
+    "languageSelect": {
+      "title": "選擇您的地區",
+      "subtitle": "選擇區域會更改語言和內容。",
+      "close": "關閉"
     },
     "footer": {
       "blurb": {
@@ -66,6 +81,7 @@
     },
     "result": {
       "error": "上傳失敗，請重試。",
+      "dailyLimitReached": "今日上傳已達上限（每天最多 20 條），請明天再試。",
       "generated": "產生的連結：",
       "open": "新分頁開啟",
       "placeholder": "尚無連結，先上傳一張圖片產生可分享的 URL。",

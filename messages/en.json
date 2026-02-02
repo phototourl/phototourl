@@ -5,7 +5,22 @@
     "header": {
       "subtitle": "Turn images into shareable links",
       "prompt": "Drop, paste, or upload — get a shareable link instantly",
-      "circleCrop": "Photo To Circle Crop"
+      "circleCrop": "Photo To Circle Crop",
+      "history": "Upload records"
+    },
+    "history": {
+      "drawerTitle": "Upload records",
+      "hint": "Display the last 10 upload records.",
+      "close": "Close",
+      "empty": "No uploads yet.",
+      "copy": "Copy link",
+      "copied": "Copied",
+      "open": "Open in new tab"
+    },
+    "languageSelect": {
+      "title": "Select your region",
+      "subtitle": "Selecting a region will change the language and content.",
+      "close": "Close"
     },
     "footer": {
       "blurb": {
@@ -67,6 +82,7 @@
     },
     "result": {
       "error": "Upload failed. Please try again.",
+      "dailyLimitReached": "Daily upload limit reached (20 per day). Try again tomorrow.",
       "generated": "Generated link:",
       "open": "Open in new tab",
       "placeholder": "No link yet. Upload a photo to generate a shareable URL.",

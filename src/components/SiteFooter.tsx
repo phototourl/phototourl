@@ -322,7 +322,7 @@ export async function SiteFooter() {
       <div className="border-t border-white/15 hero-gradient text-white">
         <div className="mx-auto flex max-w-6xl items-center justify-center px-6 py-3 text-xs lg:px-8">
           <div className="flex items-center gap-4">
-            <span className="text-white/90">{t("footer.copyright")}</span>
+            <span className="text-white/90">{t("footer.copyright").replace("2025", new Date().getFullYear().toString())}</span>
             <div className="flex items-center">
               <LocaleLink href="/legal/privacy" className="hover:text-white">
                 {t("footer.legal.privacy")}

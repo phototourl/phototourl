@@ -4,7 +4,22 @@
     "tagline": "一键把照片变成可分享的链接",
     "header": {
       "subtitle": "把图片变成可分享的链接",
-      "prompt": "拖拽、粘贴或上传 — 立刻获得可分享链接"
+      "prompt": "拖拽、粘贴或上传 — 立刻获得可分享链接",
+      "history": "上传记录"
+    },
+    "history": {
+      "drawerTitle": "上传记录",
+      "hint": "展示最近10条上传记录。",
+      "close": "关闭",
+      "empty": "暂无上传记录。",
+      "copy": "复制链接",
+      "copied": "已复制",
+      "open": "新标签打开"
+    },
+    "languageSelect": {
+      "title": "选择您的地区",
+      "subtitle": "选择区域会更改语言和内容。",
+      "close": "关闭"
     },
     "footer": {
       "blurb": {
@@ -66,6 +81,7 @@
     },
     "result": {
       "error": "上传失败，请重试。",
+      "dailyLimitReached": "今日上传已达上限（每天最多 20 条），请明天再试。",
       "generated": "生成的链接：",
       "open": "新标签打开",
       "placeholder": "暂无链接，先上传一张图片生成可分享的 URL。",
