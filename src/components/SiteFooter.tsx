@@ -305,20 +305,6 @@ export async function SiteFooter() {
                 className="h-6 w-auto shrink-0"
               />
             </a>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <a
-              href="https://fazier.com/launches/phototourl"
-              target="_blank"
-              rel="noreferrer"
-              className="inline-block transition-transform hover:scale-105"
-            >
-              <img
-                src="https://fazier.com/api/v1/public/badges/embed_image.svg?launch_id=6390&badge_type=daily&theme=light"
-                alt="Fazier badge"
-                width={270}
-                className="h-6 w-auto shrink-0"
-              />
-            </a>
             <a
               href="https://aitop10.tools/"
               target="_blank"
@@ -351,6 +337,36 @@ export async function SiteFooter() {
                 alt="Featured on Toolpilot"
                 width={120}
                 height={28}
+                className="h-6 w-auto shrink-0"
+              />
+            </a>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <a
+              href="https://toolsfine.com"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://toolsfine.com/wp-content/uploads/2023/08/Toolsfine-logo-day-0531-80x320-1.webp"
+                alt="Featured on ToolsFine.com"
+                width={80}
+                height={24}
+                className="h-6 w-auto shrink-0"
+              />
+            </a>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <a
+              href="https://dang.ai/"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://cdn.prod.website-files.com/63d8afd87da01fb58ea3fbcb/6487e2868c6c8f93b4828827_dang-badge.png"
+                alt="Dang.ai"
+                width={150}
+                height={54}
                 className="h-6 w-auto shrink-0"
               />
             </a>
