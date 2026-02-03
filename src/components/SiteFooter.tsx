@@ -339,6 +339,21 @@ export async function SiteFooter() {
                 Days Launch
               </div>
             </a>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <a
+              href="https://www.toolpilot.ai"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://www.toolpilot.ai/cdn/shop/files/f-w_690x151_crop_center.png"
+                alt="Featured on Toolpilot"
+                width={120}
+                height={28}
+                className="h-6 w-auto shrink-0"
+              />
+            </a>
           </div>
       </div>
       <div className="border-t border-white/15 hero-gradient text-white">
