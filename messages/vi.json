@@ -594,12 +594,55 @@
             "title": "Thay đổi đối với Chính sách Cookie này",
             "content": "Chúng tôi có thể cập nhật Chính sách Cookie này theo thời gian. Chúng tôi sẽ thông báo cho bạn về bất kỳ thay đổi nào bằng cách xuất bản Chính sách Cookie mới trên trang này và cập nhật ngày \"Cập nhật lần cuối\"."
           },
-          "contact": {
-            "title": "Liên hệ với chúng tôi",
-            "text": "Nếu bạn có câu hỏi về Chính sách Cookie này, vui lòng liên hệ với chúng tôi tại",
-            "email": "leeqs1010@gmail.com"
-          }
+        "contact": {
+          "title": "Liên hệ với chúng tôi",
+          "text": "Nếu bạn có câu hỏi về Chính sách Cookie này, vui lòng liên hệ với chúng tôi tại",
+          "email": "leeqs1010@gmail.com"
         }
       }
     }
+  },
+  "bookmarklet": {
+    "title": "Bookmarklet Ảnh thành URL",
+    "description": "Tải ảnh từ bất kỳ trang web nào trực tiếp lên Ảnh thành URL chỉ với một cú nhấp!",
+    "howItWorks": {
+      "title": "Cách hoạt động",
+      "step1": "Duyệt bất kỳ trang web nào có hình ảnh",
+      "step2": "Nhấp vào bookmarklet trong thanh dấu trang của bạn",
+      "step3": "Chọn một hình ảnh từ trang",
+      "step4": "Nhận URL ngay lập tức và sao chép nó!"
+    },
+    "installation": {
+      "title": "Cài đặt",
+      "step1": {
+        "title": "Bước 1: Sao chép mã Bookmarklet",
+        "description": "Nhấp vào nút bên dưới để sao chép mã bookmarklet vào clipboard của bạn."
+      },
+      "step2": {
+        "title": "Bước 2: Thêm vào trình duyệt của bạn",
+        "description": "Làm theo các bước sau dựa trên trình duyệt của bạn:",
+        "chrome": "Chrome/Edge: Nhấn Ctrl+Shift+B (Cmd+Shift+B trên Mac) để hiển thị thanh dấu trang, sau đó nhấp chuột phải và chọn \"Thêm trang\". Dán mã làm URL.",
+        "firefox": "Firefox: Nhấp chuột phải vào thanh dấu trang và chọn \"Dấu trang mới\". Dán mã làm Vị trí.",
+        "safari": "Safari: Bật thanh dấu trang (Xem → Hiển thị thanh dấu trang), sau đó kéo mã vào thanh dấu trang.",
+        "edge": "Cách khác: Tạo dấu trang mới, chỉnh sửa nó và thay thế URL bằng mã đã sao chép."
+      },
+      "step3": {
+        "title": "Bước 3: Bắt đầu sử dụng!",
+        "description": "Truy cập bất kỳ trang web nào có hình ảnh và nhấp vào bookmarklet của bạn để bắt đầu tải lên!"
+      },
+      "copy": "Sao chép mã",
+      "copied": "Đã sao chép!"
+    },
+    "usage": {
+      "title": "Tính năng",
+      "description": "Bookmarklet cung cấp các tính năng sau:",
+      "feature1": "Chọn bất kỳ hình ảnh nào từ trang web hiện tại",
+      "feature2": "Tự động tải lên Ảnh thành URL",
+      "feature3": "Nhận URL có thể chia sẻ ngay lập tức với một cú nhấp để sao chép"
+    },
+    "note": {
+      "title": "Lưu ý",
+      "content": "Bookmarklet hoạt động trên hầu hết các trang web. Một số trang web có chính sách bảo mật nghiêm ngặt (CORS) có thể ngăn tải lên hình ảnh."
+    }
   }
+}

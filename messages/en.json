@@ -545,5 +545,48 @@
         }
       }
     }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL Bookmarklet",
+    "description": "Upload images from any webpage directly to Photo To URL with a single click!",
+    "howItWorks": {
+      "title": "How It Works",
+      "step1": "Browse any webpage with images",
+      "step2": "Click the bookmarklet in your bookmarks bar",
+      "step3": "Select an image from the page",
+      "step4": "Get the URL instantly and copy it!"
+    },
+    "installation": {
+      "title": "Installation",
+      "step1": {
+        "title": "Step 1: Copy the Bookmarklet Code",
+        "description": "Click the button below to copy the bookmarklet code to your clipboard."
+      },
+      "step2": {
+        "title": "Step 2: Add to Your Browser",
+        "description": "Follow these steps based on your browser:",
+        "chrome": "Chrome/Edge: Press Ctrl+Shift+B (Cmd+Shift+B on Mac) to show the bookmarks bar, then right-click it and select \"Add page\". Paste the code as the URL.",
+        "firefox": "Firefox: Right-click the bookmarks bar and select \"New Bookmark\". Paste the code as the Location.",
+        "safari": "Safari: Enable the bookmarks bar (View → Show Bookmarks Bar), then drag the code to the bookmarks bar.",
+        "edge": "Alternative: Create a new bookmark, edit it, and replace the URL with the copied code."
+      },
+      "step3": {
+        "title": "Step 3: Start Using It!",
+        "description": "Visit any webpage with images and click your bookmarklet to start uploading!"
+      },
+      "copy": "Copy Code",
+      "copied": "Copied!"
+    },
+    "usage": {
+      "title": "Features",
+      "description": "The bookmarklet provides the following features:",
+      "feature1": "Select any image from the current webpage",
+      "feature2": "Automatic upload to Photo To URL",
+      "feature3": "Get a shareable URL instantly with one-click copy"
+    },
+    "note": {
+      "title": "Note",
+      "content": "The bookmarklet works on most websites. Some sites with strict security policies (CORS) may prevent image uploads."
+    }
   }
 }
