@@ -3,9 +3,10 @@
     "siteName": "Fotó Linkké",
     "tagline": "Alakítsa fotóit tiszta, megosztható linkekké másodpercek alatt",
     "header": {
+      "home": "Kezdőlap",
       "subtitle": "Képek átalakítása megosztható linkekké",
       "prompt": "Húzza be, illessze be vagy töltse fel — kapjon linket azonnal",
-      "circleCrop": "Kör alakú képvágás",
+      "circleCrop": "Körbe vágás",
       "history": "Feltöltési előzmények"
     },
     "history": {
@@ -93,7 +94,7 @@
       "copy": "Link másolása",
       "copied": "Másolva",
       "saveHint": "Mentse el ezt a linket későbbi használatra",
-      "tryCircleCrop": "Próbálja ki a kör alakú vágást"
+      "tryPrefix": "Próbálja ki "
     },
     "benefits": {
       "title": "Miért választják a Photo To URL-t",
@@ -194,7 +195,7 @@
       }
     },
     "circleCrop": {
-      "title": "Kör alakú képvágás",
+      "title": "Körbe vágás",
       "description": "Ingyenes online eszköz fotók kör alakúra vágásához - tökéletes profilképekhez és designhoz.",
       "upload": "Fotó feltöltése",
       "processing": "Feldolgozás...",

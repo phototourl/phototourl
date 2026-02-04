@@ -3,6 +3,7 @@
     "siteName": "Fotografia a URL",
     "tagline": "Transfurmar fotografias en ligiaivlas nettas e spartiblas en segunds",
     "header": {
+      "home": "Chasa",
       "subtitle": "Transfurmar maletgs en ligiaivlas spartiblas",
       "prompt": "Laschar ir, incollàr u chargiar — survegnir in ligiaivl spartibel immediatamain",
       "circleCrop": "Fotografia per tagl circular",
@@ -93,7 +94,7 @@
       "copy": "Copia la ligia",
       "copied": "Copiau",
       "saveHint": "Salva questa ligia sche ti dovras ella pli tard",
-      "tryCircleCrop": "Emprovar Fotografia per tagl circular"
+      "tryPrefix": "Emprovar "
     },
     "benefits": {
       "title": "Pertge che las persunas tschernan Fotografia a URL",

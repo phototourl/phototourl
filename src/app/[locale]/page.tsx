@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import logoShowcase from "../../../public/projects/light1024logo.png";
+import logoShowcase from "../../../public/projects/light-bg-logo.png";
 import {
   Upload,
   Link as LinkIcon,
@@ -50,6 +50,7 @@ const OLD_PHOTO_URLS = [
 export default function HomePage() {
   const locale = useLocale();
   const t = useTranslations("home");
+  const tCommon = useTranslations("common");
   const tImages = useTranslations("images");
   const router = useLocaleRouter();
   const isRTL = locale === "ar";
@@ -706,7 +707,7 @@ export default function HomePage() {
                   >
                     👉
                   </motion.span>
-                  <span className="hover:underline">{t("result.tryCircleCrop")}</span>
+                  <span className="hover:underline">{t("result.tryPrefix")}{tCommon("header.circleCrop")}</span>
                 </LocaleLink>
               </div>
             </div>

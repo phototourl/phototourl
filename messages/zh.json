@@ -3,6 +3,7 @@
     "siteName": "图片转链接",
     "tagline": "一键把照片变成可分享的链接",
     "header": {
+      "home": "首页",
       "subtitle": "把图片变成可分享的链接",
       "prompt": "拖拽、粘贴或上传 — 立刻获得可分享链接",
       "circleCrop": "照片圆形裁剪",
@@ -93,7 +94,7 @@
       "copy": "复制链接",
       "copied": "已复制",
       "saveHint": "如需后续使用，请保存此链接",
-      "tryCircleCrop": "试试照片圆形裁剪"
+      "tryPrefix": "试试"
     },
     "benefits": {
       "title": "为什么选择图片转链接",

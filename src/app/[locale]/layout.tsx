@@ -65,8 +65,8 @@ export default async function LocaleLayout({
   const analyticsDomain = process.env.NEXT_PUBLIC_ANALYTICS_DOMAIN;
   const analyticsSrc = process.env.NEXT_PUBLIC_ANALYTICS_SRC;
 
-  const Header = await SiteHeader();
-  const Footer = await SiteFooter();
+  const Header = await SiteHeader({ locale });
+  const Footer = await SiteFooter({ locale });
   const StructuredDataContent = await StructuredData({ locale });
 
   return (

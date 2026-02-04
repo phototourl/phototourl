@@ -3,6 +3,7 @@
     "siteName": "Photo To URL",
     "tagline": "Turn photos into clean, shareable links in seconds",
     "header": {
+      "home": "Home",
       "subtitle": "Turn images into shareable links",
       "prompt": "Drop, paste, or upload — get a shareable link instantly",
       "circleCrop": "Photo To Circle Crop",
@@ -93,7 +94,7 @@
       "copy": "Copy link",
       "copied": "Copied",
       "saveHint": "Save this link if you need it later",
-      "tryCircleCrop": "Try Photo To Circle Crop"
+      "tryPrefix": "Try "
     },
     "benefits": {
       "title": "Why people choose Photo To URL",

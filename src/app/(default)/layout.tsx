@@ -33,11 +33,12 @@ export default async function DefaultLocaleLayout({ children }: { children: Reac
   const analyticsDomain = process.env.NEXT_PUBLIC_ANALYTICS_DOMAIN;
   const analyticsSrc = process.env.NEXT_PUBLIC_ANALYTICS_SRC;
 
-  const Header = await SiteHeader();
-  const Footer = await SiteFooter();
+  const locale = routing.defaultLocale;
+  const Header = await SiteHeader({ locale });
+  const Footer = await SiteFooter({ locale });
 
   return (
-    <NextIntlClientProvider locale={routing.defaultLocale} messages={messages}>
+    <NextIntlClientProvider locale={locale} messages={messages}>
       {Header}
       <main className="min-h-screen pt-14 sm:pt-16">{children}</main>
       {Footer}

@@ -3,6 +3,7 @@
     "siteName": "Foto naar URL",
     "tagline": "Zet foto's in seconden om in schone, deelbare links",
     "header": {
+      "home": "Start",
       "subtitle": "Maak van afbeeldingen deelbare links",
       "prompt": "Sleep, plak of upload — krijg direct een deelbare link",
       "circleCrop": "Foto naar cirkel bijsnijden",
@@ -93,7 +94,7 @@
       "copy": "Kopieer link",
       "copied": "Gekopieerd",
       "saveHint": "Sla deze link op als je hem later nodig hebt",
-      "tryCircleCrop": "Probeer Foto naar Cirkel"
+      "tryPrefix": "Probeer "
     },
     "benefits": {
       "title": "Waarom mensen kiezen voor Foto naar URL",

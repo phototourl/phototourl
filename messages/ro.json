@@ -3,9 +3,10 @@
     "siteName": "Poză în URL",
     "tagline": "Transformă pozele în linkuri curate și partajabile în câteva secunde",
     "header": {
+      "home": "Acasă",
       "subtitle": "Transformă imaginile în linkuri partajabile",
       "prompt": "Trage, lipește sau încarcă — obține un link instantaneu",
-      "circleCrop": "Decupare circulară foto",
+      "circleCrop": "Foto rotundă",
       "history": "Istoric încărcări"
     },
     "history": {
@@ -93,7 +94,7 @@
       "copy": "Copiază link",
       "copied": "Copiat",
       "saveHint": "Salvează acest link dacă ai nevoie de el mai târziu",
-      "tryCircleCrop": "Încearcă Decuparea Circulară"
+      "tryPrefix": "Încearcă "
     },
     "benefits": {
       "title": "De ce să alegi Photo To URL",
@@ -166,7 +167,7 @@
       }
     },
     "circleCrop": {
-      "title": "Decupare circulară foto",
+      "title": "Foto rotundă",
       "description": "Instrument online gratuit pentru a decupa pozele într-un cerc perfect - ideal pentru poze de profil.",
       "upload": "Încarcă foto",
       "processing": "Se procesează...",

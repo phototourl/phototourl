@@ -173,13 +173,10 @@ export function LanguageSwitcher({ variant = "header", showModal = false, onModa
           type="button"
           className={
             isFooter
-              ? // 底部样式：无背景，仅文字+图标
-                "flex items-center gap-1.5 rounded-md px-1 py-0.5 text-sm sm:text-base outline-none transition hover:opacity-80 disabled:opacity-50"
-              : // 头部样式：原来的绿色渐变按钮
-                "ez-btn-gradient flex h-9 items-center gap-1.5 rounded-md border-0 px-2 text-sm text-white outline-none transition focus:ring-2 focus:ring-white/50 focus:ring-offset-2 disabled:opacity-50 sm:h-10 sm:px-3"
+              ? "flex items-center gap-1.5 rounded-md px-1 py-0.5 text-sm sm:text-base outline-none transition hover:opacity-80 disabled:opacity-50 active:scale-[0.98]"
+              : "ez-btn-gradient flex h-9 items-center gap-1.5 rounded-md border-0 px-2 text-sm text-white outline-none transition focus:ring-2 focus:ring-white/50 focus:ring-offset-2 disabled:opacity-50 active:scale-[0.98] sm:h-10 sm:px-3"
           }
           onClick={() => {
-            // 点击时打开弹框而不是下拉菜单
             setIsModalOpen(true);
           }}
           disabled={isPending}

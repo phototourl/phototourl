@@ -3,9 +3,10 @@
     "siteName": "Foto til URL",
     "tagline": "Gør fotos til rene links, der kan deles, på få sekunder",
     "header": {
+      "home": "Hjem",
       "subtitle": "Gør billeder til links, der kan deles",
       "prompt": "Træk, indsæt eller upload — få et link med det samme",
-      "circleCrop": "Beskær billede til cirkel",
+      "circleCrop": "Rundt billede",
       "history": "Upload-historik"
     },
     "history": {
@@ -93,7 +94,7 @@
       "copy": "Kopiér link",
       "copied": "Kopieret",
       "saveHint": "Gem dette link, hvis du skal bruge det senere",
-      "tryCircleCrop": "Prøv 'Beskær billede til cirkel'"
+      "tryPrefix": "Prøv "
     },
     "benefits": {
       "title": "Hvorfor vælge Photo To URL",
@@ -192,7 +193,7 @@
       }
     },
     "circleCrop": {
-      "title": "Beskær billede til cirkel",
+      "title": "Rundt billede",
       "description": "Gratis online værktøj til at beskære fotos til en cirkel - perfekt til profilbilleder og sociale medier.",
       "upload": "Upload foto",
       "processing": "Behandler...",

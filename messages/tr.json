@@ -3,6 +3,7 @@
     "siteName": "Fotoğrafı URL'ye",
     "tagline": "Fotoğrafları saniyeler içinde temiz, paylaşılabilir bağlantılara dönüştürün",
     "header": {
+      "home": "Ana Sayfa",
       "subtitle": "Görselleri paylaşılabilir bağlantılara dönüştürün",
       "prompt": "Sürükleyin, yapıştırın veya yükleyin — anında paylaşılabilir bağlantı alın",
       "circleCrop": "Fotoğrafı Daire Şeklinde Kırp",
@@ -93,7 +94,7 @@
       "copy": "Bağlantıyı kopyala",
       "copied": "Kopyalandı",
       "saveHint": "Daha sonra ihtiyacınız olursa bu bağlantıyı kaydedin",
-      "tryCircleCrop": "Fotoğrafı Daireye Kırp"
+      "tryPrefix": "Dene: "
     },
     "benefits": {
       "title": "İnsanlar neden Fotoğrafı URL'ye seçiyor",

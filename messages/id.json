@@ -3,6 +3,7 @@
     "siteName": "Foto ke URL",
     "tagline": "Ubah foto menjadi tautan bersih yang dapat dibagikan dalam hitungan detik",
     "header": {
+      "home": "Beranda",
       "subtitle": "Ubah gambar menjadi tautan yang dapat dibagikan",
       "prompt": "Letakkan, tempel, atau unggah — dapatkan tautan instan",
       "circleCrop": "Foto ke Potong Lingkaran",
@@ -93,7 +94,7 @@
       "copy": "Salin tautan",
       "copied": "Tersalin",
       "saveHint": "Simpan tautan ini jika Anda membutuhkannya nanti",
-      "tryCircleCrop": "Coba Foto ke Potong Lingkaran"
+      "tryPrefix": "Coba "
     },
     "benefits": {
       "title": "Mengapa orang memilih Foto ke URL",

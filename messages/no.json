@@ -3,9 +3,10 @@
     "siteName": "Bilde til URL",
     "tagline": "Gjør bilder om til rene, delbare lenker på sekunder",
     "header": {
+      "home": "Hjem",
       "subtitle": "Gjør bilder om til delbare lenker",
       "prompt": "Dra, lim inn eller last opp — få en lenke umiddelbart",
-      "circleCrop": "Rund bildebeskjæring",
+      "circleCrop": "Rundt bilde",
       "history": "Lastoppføringer"
     },
     "history": {
@@ -93,7 +94,7 @@
       "copy": "Kopier lenke",
       "copied": "Kopiert",
       "saveHint": "Lagre denne lenken hvis du trenger den senere",
-      "tryCircleCrop": "Prøv rund bildebeskjæring"
+      "tryPrefix": "Prøv "
     },
     "benefits": {
       "title": "Hvorfor velge Photo To URL",
@@ -159,7 +160,7 @@
       }
     },
     "circleCrop": {
-      "title": "Rund bildebeskjæring",
+      "title": "Rundt bilde",
       "description": "Gratis online-verktøy for å beskjære bilder til en perfekt sirkel - ideelt for profilbilder.",
       "upload": "Last opp bilde",
       "processing": "Behandler...",

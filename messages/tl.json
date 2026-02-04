@@ -3,9 +3,10 @@
     "siteName": "Larawan sa URL",
     "tagline": "Gawing malinis at mababahaging link ang iyong mga larawan sa loob ng ilang segundo",
     "header": {
+      "home": "Home",
       "subtitle": "Gawing mga link ang iyong mga imahe",
       "prompt": "I-drop, i-paste, o i-upload — kumuha ng link agad-agad",
-      "circleCrop": "Photo To Circle Crop",
+      "circleCrop": "Gupit na Bilog",
       "history": "Kasaysayan ng mga upload"
     },
     "history": {
@@ -93,7 +94,7 @@
       "copy": "Kopyahin ang link",
       "copied": "Nakopya na",
       "saveHint": "I-save ang link na ito kung kailangan mo ito mamaya",
-      "tryCircleCrop": "Subukan ang Circle Crop"
+      "tryPrefix": "Subukan ang "
     },
     "benefits": {
       "title": "Bakit pinipili ng mga tao ang Photo To URL",
@@ -176,7 +177,7 @@
       }
     },
     "circleCrop": {
-      "title": "Photo To Circle Crop",
+      "title": "Gupit na Bilog",
       "description": "Libreng online na tool para sa pag-crop ng larawan sa bilog - perpekto para sa profile pictures.",
       "upload": "I-upload ang Larawan",
       "processing": "Pinoproseso...",

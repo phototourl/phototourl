@@ -3,6 +3,7 @@
     "siteName": "Zdjęcie do URL",
     "tagline": "Zamień zdjęcia w czyste, udostępnialne linki w kilka sekund",
     "header": {
+      "home": "Start",
       "subtitle": "Zamieniaj obrazy w linki do udostępniania",
       "prompt": "Przeciągnij, wklej lub wyślij — otrzymaj link natychmiast",
       "circleCrop": "Okrągłe przycinanie zdjęć",
@@ -93,7 +94,7 @@
       "copy": "Kopiuj link",
       "copied": "Skopiowano",
       "saveHint": "Zapisz ten link, jeśli będziesz go potrzebować później",
-      "tryCircleCrop": "Wypróbuj Zdjęcie do Koła"
+      "tryPrefix": "Wypróbuj "
     },
     "benefits": {
       "title": "Dlaczego ludzie wybierają Zdjęcie do URL",

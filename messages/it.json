@@ -3,6 +3,7 @@
     "siteName": "Foto in URL",
     "tagline": "Trasforma le foto in link puliti e condivisibili in pochi secondi",
     "header": {
+      "home": "Home",
       "subtitle": "Trasforma immagini in link condivisibili",
       "prompt": "Trascina, incolla o carica — ottieni un link subito",
       "circleCrop": "Ritaglio Circolare Foto",
@@ -93,7 +94,7 @@
       "copy": "Copia link",
       "copied": "Copiato",
       "saveHint": "Salva questo link se ne avrai bisogno in seguito",
-      "tryCircleCrop": "Prova Foto in Cerchio"
+      "tryPrefix": "Prova "
     },
     "benefits": {
       "title": "Perché le persone scelgono Foto in URL",

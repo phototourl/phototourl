@@ -3,9 +3,10 @@
     "siteName": "Fotka na URL",
     "tagline": "Premeňte fotky na čisté a zdieľateľné odkazy v priebehu sekúnd",
     "header": {
+      "home": "Domov",
       "subtitle": "Premeňte obrázky na zdieľateľné odkazy",
       "prompt": "Presuňte, prilepte alebo nahrajte — získajte odkaz okamžite",
-      "circleCrop": "Kruhový výrez fotky",
+      "circleCrop": "Okrúhly výrez",
       "history": "História nahrávania"
     },
     "history": {
@@ -93,7 +94,7 @@
       "copy": "Kopírovať odkaz",
       "copied": "Skopírované",
       "saveHint": "Uložte si tento odkaz, ak ho budete potrebovať neskôr",
-      "tryCircleCrop": "Skúste Kruhový výrez"
+      "tryPrefix": "Skúste "
     },
     "benefits": {
       "title": "Prečo si vybrať Photo To URL",
@@ -166,7 +167,7 @@
       }
     },
     "circleCrop": {
-      "title": "Kruhový výrez fotky",
+      "title": "Okrúhly výrez",
       "description": "Bezplatný online nástroj na orezanie fotiek do kruhu - ideálne pre profilové fotky a sociálne siete.",
       "upload": "Nahrať fotku",
       "processing": "Spracováva sa...",

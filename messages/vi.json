@@ -3,6 +3,7 @@
     "siteName": "Ảnh thành URL",
     "tagline": "Biến ảnh thành liên kết gọn gàng, dễ chia sẻ chỉ trong vài giây",
     "header": {
+      "home": "Trang chủ",
       "subtitle": "Biến hình ảnh thành liên kết có thể chia sẻ",
       "prompt": "Kéo thả, dán hoặc tải lên — nhận liên kết ngay lập tức",
       "circleCrop": "Cắt ảnh thành hình tròn",
@@ -93,7 +94,7 @@
       "copy": "Sao chép liên kết",
       "copied": "Đã sao chép",
       "saveHint": "Lưu liên kết này nếu bạn cần sau này",
-      "tryCircleCrop": "Thử Ảnh Thành Hình Tròn"
+      "tryPrefix": "Thử "
     },
     "benefits": {
       "title": "Tại sao mọi người chọn Ảnh thành URL",

@@ -3,6 +3,7 @@
     "siteName": "Photo vers URL",
     "tagline": "Transformez vos photos en liens partageables en un instant",
     "header": {
+      "home": "Accueil",
       "subtitle": "Transformez des images en liens partageables",
       "prompt": "Déposez, collez ou téléversez — obtenez un lien instantanément",
       "circleCrop": "Photo en Recadrage Circulaire",
@@ -93,7 +94,7 @@
       "copy": "Copier",
       "copied": "Copié",
       "saveHint": "Enregistrez ce lien si vous en avez besoin plus tard",
-      "tryCircleCrop": "Essayer Photo en Cercle"
+      "tryPrefix": "Essayer "
     },
     "benefits": {
       "title": "Pourquoi choisir Photo vers URL",

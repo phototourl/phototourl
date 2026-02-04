@@ -3,6 +3,7 @@
     "siteName": "Foto zu URL",
     "tagline": "Wandeln Sie Fotos in saubere, teilbare Links in Sekunden um",
     "header": {
+      "home": "Start",
       "subtitle": "Bilder als Link teilen",
       "prompt": "Ziehen, einfügen oder hochladen — sofort einen Link erhalten",
       "circleCrop": "Foto zu Kreis zuschneiden",
@@ -93,7 +94,7 @@
       "copy": "Kopieren",
       "copied": "Kopiert",
       "saveHint": "Speichern Sie diesen Link, falls Sie ihn später benötigen",
-      "tryCircleCrop": "Foto zu Kreis zuschneiden ausprobieren"
+      "tryPrefix": "Probiere "
     },
     "benefits": {
       "title": "Warum Foto zu URL wählen",

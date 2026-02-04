@@ -27,6 +27,7 @@ type PhotoToUrlToolProps = {
 
 export function PhotoToUrlTool({ showHeading = true, showExtraContent = false }: PhotoToUrlToolProps) {
   const t = useTranslations("home");
+  const tCommon = useTranslations("common");
   const tImages = useTranslations("images");
   const router = useLocaleRouter();
 
@@ -324,7 +325,7 @@ export function PhotoToUrlTool({ showHeading = true, showExtraContent = false }:
                         }
                       }}
                     >
-                      👉 {t("result.tryCircleCrop")}
+                      👉 {t("result.tryPrefix")}{tCommon("header.circleCrop")}
                     </LocaleLink>
                   </div>
                   <div className="relative h-48 w-full overflow-hidden rounded-lg bg-slate-100 sm:h-56">

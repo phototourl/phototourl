@@ -3,6 +3,7 @@
     "siteName": "Foto a URL",
     "tagline": "Convierte tus fotos en enlaces limpios y compartibles al instante",
     "header": {
+      "home": "Inicio",
       "subtitle": "Convierte imágenes en enlaces para compartir",
       "prompt": "Suelta, pega o sube — obtén un enlace compartible al instante",
       "circleCrop": "Foto a Recorte Circular",
@@ -93,7 +94,7 @@
       "copy": "Copiar",
       "copied": "Copiado",
       "saveHint": "Guarda este enlace si lo necesitas más tarde",
-      "tryCircleCrop": "Probar Foto a Círculo"
+      "tryPrefix": "Probar "
     },
     "benefits": {
       "title": "Por qué la gente elige Foto a URL",

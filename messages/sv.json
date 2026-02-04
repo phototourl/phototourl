@@ -3,6 +3,7 @@
     "siteName": "Foto till URL",
     "tagline": "Gör om foton till rena, delbara länkar på några sekunder",
     "header": {
+      "home": "Hem",
       "subtitle": "Gör om bilder till delbara länkar",
       "prompt": "Dra, klistra in eller ladda upp — få en länk direkt",
       "circleCrop": "Cirkulär bildbeskärning",
@@ -93,7 +94,7 @@
       "copy": "Kopiera länk",
       "copied": "Kopierad",
       "saveHint": "Spara denna länk om du behöver den senare",
-      "tryCircleCrop": "Prova Foto till Cirkel"
+      "tryPrefix": "Prova "
     },
     "benefits": {
       "title": "Varför folk väljer Foto till URL",

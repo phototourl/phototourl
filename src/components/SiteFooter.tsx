@@ -22,10 +22,11 @@ const productLinks = [
   { label: "Image to URL", href: "https://www.image2url.com/", external: true },
 ];
 
-export async function SiteFooter() {
-  const t = await getTranslations("common");
-  const tCircleCrop = await getTranslations("circleCrop");
-  const tImages = await getTranslations("images");
+type SiteFooterProps = { locale: string };
+
+export async function SiteFooter({ locale }: SiteFooterProps) {
+  const t = await getTranslations({ locale, namespace: "common" });
+  const tImages = await getTranslations({ locale, namespace: "images" });
   return (
     <footer>
       <div className="border-t border-white/15 hero-gradient text-white">
@@ -89,10 +90,13 @@ export async function SiteFooter() {
               <div className="text-sm font-semibold uppercase tracking-wide text-white/80">{t("footer.productsTitle")}</div>
               <div className="flex flex-col gap-2 text-sm text-white/95">
                 {productLinks.map((link) => {
+                  // 与头部导航一致：common.header.circleCrop
                   const label =
-                    "ns" in link && "labelKey" in link
-                      ? tCircleCrop(link.labelKey)
-                      : link.label;
+                    link.href === "/circlecrop"
+                      ? t("header.circleCrop")
+                      : "label" in link
+                        ? link.label
+                        : "";
                   return link.external ? (
                     <a
                       key={link.href}

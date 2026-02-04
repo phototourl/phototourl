@@ -3,6 +3,7 @@
     "siteName": "사진을 URL로",
     "tagline": "사진을 깔끔한 공유 링크로 바로 변환하세요",
     "header": {
+      "home": "홈",
       "subtitle": "이미지를 공유 가능한 링크로 변환",
       "prompt": "드롭, 붙여넣기 또는 업로드 — 즉시 공유 링크 생성",
       "circleCrop": "사진을 원형으로 자르기",
@@ -93,7 +94,7 @@
       "copy": "복사",
       "copied": "복사됨",
       "saveHint": "나중에 필요하면 이 링크를 저장하세요",
-      "tryCircleCrop": "사진 원형 자르기"
+      "tryPrefix": "해보세요 "
     },
     "benefits": {
       "title": "왜 사진을 URL로인가",

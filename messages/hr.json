@@ -3,9 +3,10 @@
     "siteName": "Slika u URL",
     "tagline": "Pretvorite fotografije u čiste, djeljive poveznice u nekoliko sekundi",
     "header": {
+      "home": "Početna",
       "subtitle": "Pretvorite slike u djeljive poveznice",
       "prompt": "Povucite, zalijepite ili učitajte — odmah preuzmite poveznicu",
-      "circleCrop": "Kružni izrez fotografije",
+      "circleCrop": "Okrugli izrez",
       "history": "Povijest učitavanja"
     },
     "history": {
@@ -93,7 +94,7 @@
       "copy": "Kopiraj poveznicu",
       "copied": "Kopirano",
       "saveHint": "Spremite ovu poveznicu ako će vam trebati kasnije",
-      "tryCircleCrop": "Isprobajte kružni izrez"
+      "tryPrefix": "Isprobajte "
     },
     "benefits": {
       "title": "Zašto odabrati Photo To URL",
@@ -166,7 +167,7 @@
       }
     },
     "circleCrop": {
-      "title": "Kružni izrez fotografije",
+      "title": "Okrugli izrez",
       "description": "Besplatni online alat za izrezivanje fotografija u krug - idealno za profilne slike.",
       "upload": "Učitaj fotografiju",
       "processing": "Obrađuje se...",

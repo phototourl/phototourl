@@ -3,6 +3,7 @@
     "siteName": "Foto na URL",
     "tagline": "Přeměňte fotky na čisté, sdílené odkazy během vteřin",
     "header": {
+      "home": "Domů",
       "subtitle": "Přeměňte obrázky na sdílené odkazy",
       "prompt": "Přetáhněte, vložte nebo nahrajte — okamžitě získejte sdílený odkaz",
       "circleCrop": "Kruhový výrez fotky",
@@ -93,7 +94,7 @@
       "copy": "Kopírovat odkaz",
       "copied": "Zkopírováno",
       "saveHint": "Uložte tento odkaz, pokud ho budete potřebovat později",
-      "tryCircleCrop": "Vyzkoušet Foto do Kruhu"
+      "tryPrefix": "Vyzkoušet "
     },
     "benefits": {
       "title": "Proč lidé volí Foto na URL",

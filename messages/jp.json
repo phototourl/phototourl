@@ -3,6 +3,7 @@
     "siteName": "写真をURLに",
     "tagline": "写真をクリーンな共有リンクにすばやく変換",
     "header": {
+      "home": "ホーム",
       "subtitle": "画像を共有リンクに変換",
       "prompt": "ドラッグ・貼り付け・アップロードで、すぐに共有リンク",
       "circleCrop": "写真を円形に切り抜き",
@@ -93,7 +94,7 @@
       "copy": "コピー",
       "copied": "コピー済み",
       "saveHint": "後で必要になる場合は、このリンクを保存してください",
-      "tryCircleCrop": "円形クロップを試す"
+      "tryPrefix": "試す "
     },
     "benefits": {
       "title": "写真をURLにが選ばれる理由",

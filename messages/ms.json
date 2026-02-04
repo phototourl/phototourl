@@ -3,6 +3,7 @@
     "siteName": "Foto ke URL",
     "tagline": "Tukarkan foto menjadi pautan bersih yang boleh dikongsi dalam beberapa saat",
     "header": {
+      "home": "Laman Utama",
       "subtitle": "Tukarkan imej menjadi pautan boleh dikongsi",
       "prompt": "Lepaskan, tampal, atau muat naik — dapatkan pautan boleh dikongsi serta-merta",
       "circleCrop": "Foto ke Potongan Bulat",
@@ -93,7 +94,7 @@
       "copy": "Salin pautan",
       "copied": "Disalin",
       "saveHint": "Simpan pautan ini jika anda memerlukannya kemudian",
-      "tryCircleCrop": "Cuba Foto ke Potongan Bulat"
+      "tryPrefix": "Cuba "
     },
     "benefits": {
       "title": "Mengapa orang memilih Foto ke URL",

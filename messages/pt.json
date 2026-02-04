@@ -3,6 +3,7 @@
     "siteName": "Foto para URL",
     "tagline": "Transforme fotos em links limpos e compartilháveis em segundos",
     "header": {
+      "home": "Início",
       "subtitle": "Transforme imagens em links compartilháveis",
       "prompt": "Solte, cole ou envie — obtenha um link compartilhável na hora",
       "circleCrop": "Foto para Recorte Circular",
@@ -93,7 +94,7 @@
       "copy": "Copiar",
       "copied": "Copiado",
       "saveHint": "Salve este link se precisar mais tarde",
-      "tryCircleCrop": "Foto para Círculo"
+      "tryPrefix": "Experimente "
     },
     "benefits": {
       "title": "Por que escolher o Foto para URL",

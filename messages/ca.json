@@ -3,9 +3,10 @@
     "siteName": "Foto a URL",
     "tagline": "Converteix fotos en enllaços nets i compartibles en segons",
     "header": {
+      "home": "Inici",
       "subtitle": "Converteix imatges en enllaços compartibles",
       "prompt": "Arrossega, enganxa o puja — obtén un enllaç a l'instant",
-      "circleCrop": "Retallar en Cercle",
+      "circleCrop": "Retall en cercle",
       "history": "Historial de càrregues"
     },
     "history": {
@@ -93,7 +94,7 @@
       "copy": "Copiar enllaç",
       "copied": "Copiat",
       "saveHint": "Desa aquest enllaç si el necessites més tard",
-      "tryCircleCrop": "Prova Retallar en Cercle"
+      "tryPrefix": "Prova "
     },
     "benefits": {
       "title": "Per què triar Photo To URL",
@@ -210,7 +211,7 @@
       }
     },
     "circleCrop": {
-      "title": "Retallar en Cercle",
+      "title": "Retall en cercle",
       "description": "Eina gratuïta en línia per retallar fotos en cercle, ideal per a fotos de perfil i xarxes socials.",
       "upload": "Puja Foto",
       "processing": "Processant...",

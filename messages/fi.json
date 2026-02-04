@@ -3,9 +3,10 @@
     "siteName": "Kuva URL-osoitteeksi",
     "tagline": "Muuta kuvat puhtaiksi, jaettaviksi linkeiksi sekunneissa",
     "header": {
+      "home": "Etusivu",
       "subtitle": "Muuta kuvat jaettaviksi linkeiksi",
       "prompt": "Pudota, liitä tai lataa — saat linkin välittömästi",
-      "circleCrop": "Pyöreä kuvan rajaus",
+      "circleCrop": "Pyöreä kuva",
       "history": "Lataushistoria"
     },
     "history": {
@@ -93,7 +94,7 @@
       "copy": "Kopioi linkki",
       "copied": "Kopioitu",
       "saveHint": "Tallenna tämä linkki, jos tarvitset sitä myöhemmin",
-      "tryCircleCrop": "Kokeile pyöreää rajausta"
+      "tryPrefix": "Kokeile "
     },
     "benefits": {
       "title": "Miksi valita Photo To URL",
@@ -166,7 +167,7 @@
       }
     },
     "circleCrop": {
-      "title": "Pyöreä kuvan rajaus",
+      "title": "Pyöreä kuva",
       "description": "Ilmainen verkkotyökalu kuvien rajaamiseen täydelliseksi ympyräksi - täydellinen profiilikuviin.",
       "upload": "Lataa kuva",
       "processing": "Käsitellään...",

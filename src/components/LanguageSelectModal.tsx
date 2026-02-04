@@ -1,12 +1,14 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useParams } from "next/navigation";
 import { useTransition } from "react";
 import { useLocale } from "next-intl";
 import { useLocalePathname, useLocaleRouter } from "@/i18n/navigation";
 import { X } from "lucide-react";
 import { useTranslations } from "next-intl";
+
+const ANIM_DURATION_MS = 200;
 
 type LocaleItem = { code: string; label: string; countryCode: string };
 
@@ -74,42 +76,56 @@ export function LanguageSelectModal({ open, onClose }: LanguageSelectModalProps)
   const [isPending, startTransition] = useTransition();
   const modalRef = useRef<HTMLDivElement>(null);
   const t = useTranslations("common");
+  const [entered, setEntered] = useState(false);
+  const [exiting, setExiting] = useState(false);
+  const closeTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // 进入动画：挂载后下一帧再显示，触发 transition
+  useEffect(() => {
+    if (!open) return;
+    setExiting(false);
+    const rafId = requestAnimationFrame(() => {
+      requestAnimationFrame(() => setEntered(true));
+    });
+    return () => cancelAnimationFrame(rafId);
+  }, [open]);
+
+  // 关闭动画：先播完再真正 onClose
+  const startClose = () => {
+    if (closeTimeoutRef.current) return;
+    setExiting(true);
+    closeTimeoutRef.current = setTimeout(() => {
+      closeTimeoutRef.current = null;
+      setEntered(false);
+      onClose();
+    }, ANIM_DURATION_MS);
+  };
 
   useEffect(() => {
     if (!open) return;
-    
-    // 计算滚动条宽度，避免布局抖动
     const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
     const prevOverflow = document.body.style.overflow;
     const prevPaddingRight = document.body.style.paddingRight;
     const gap = scrollbarWidth > 0 ? scrollbarWidth : 0;
-    
-    // 禁用 body 滚动并补偿滚动条宽度
     document.body.style.overflow = "hidden";
     document.body.style.paddingRight = `${gap}px`;
     document.body.setAttribute("data-modal-open", "true");
     document.body.style.setProperty("--scrollbar-gap", `${gap}px`);
-    
-    // 通知 ScrollButtons 组件弹框已打开
     window.dispatchEvent(new CustomEvent("language-modal-change", { detail: { open: true } }));
-    
     return () => {
+      if (closeTimeoutRef.current) clearTimeout(closeTimeoutRef.current);
       document.body.style.overflow = prevOverflow;
       document.body.style.paddingRight = prevPaddingRight;
       document.body.removeAttribute("data-modal-open");
       document.body.style.removeProperty("--scrollbar-gap");
-      
-      // 通知 ScrollButtons 组件弹框已关闭
       window.dispatchEvent(new CustomEvent("language-modal-change", { detail: { open: false } }));
     };
   }, [open]);
 
   const handleLocaleChange = (newLocale: string) => {
-    // 如果当前在 circlecrop 页面，设置标记以保留图片缓存
     if (pathname.includes("/circlecrop")) {
       sessionStorage.setItem("circleCropLanguageSwitch", "true");
     }
-    // 如果当前在首页，设置标记以保留图片状态
     if (pathname === "/" || pathname === "") {
       sessionStorage.setItem("homePageLanguageSwitch", "true");
     }
@@ -122,22 +138,29 @@ export function LanguageSelectModal({ open, onClose }: LanguageSelectModalProps)
         { locale: newLocale }
       );
     });
-    onClose();
+    startClose();
   };
 
   if (!open) return null;
 
   return (
     <>
-      {/* 背景遮罩 */}
+      {/* 背景遮罩：淡入 / 淡出 */}
       <div
-        className="fixed inset-0 z-[9998] bg-black/30 transition-opacity"
-        onClick={onClose}
+        className="fixed inset-0 z-[9998] bg-black/30 transition-opacity duration-200 ease-out"
+        style={{
+          opacity: entered && !exiting ? 1 : 0,
+        }}
+        onClick={startClose}
         aria-hidden="true"
       />
-      {/* 弹框 */}
+      {/* 弹框：缩放 + 淡入 / 淡出 */}
       <div
-        className="fixed left-1/2 top-1/2 z-[9999] w-[calc(100%-2rem)] max-w-3xl -translate-x-1/2 -translate-y-1/2 rounded-lg bg-white shadow-2xl sm:max-w-4xl"
+        className="fixed left-1/2 top-1/2 z-[9999] w-[calc(100%-2rem)] max-w-3xl -translate-x-1/2 -translate-y-1/2 rounded-xl bg-white shadow-2xl transition-all duration-200 ease-out sm:max-w-4xl"
+        style={{
+          opacity: entered && !exiting ? 1 : 0,
+          transform: `translate(-50%, -50%) scale(${entered && !exiting ? 1 : 0.95})`,
+        }}
         ref={modalRef}
         role="dialog"
         aria-modal="true"
@@ -155,7 +178,7 @@ export function LanguageSelectModal({ open, onClose }: LanguageSelectModalProps)
           </div>
           <button
             type="button"
-            onClick={onClose}
+            onClick={startClose}
             className="rounded-lg p-1.5 text-slate-400 transition-colors hover:bg-slate-100 hover:text-slate-600"
             aria-label={t("languageSelect.close")}
           >
