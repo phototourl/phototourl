@@ -389,6 +389,21 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
                 className="h-6 w-auto shrink-0"
               />
             </a>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <a
+              href="https://fwfw.app/item/photo-to-circle-crop"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://fwfw.app/badge-black.svg"
+                width={250}
+                height={54}
+                alt="Featured on FWFW"
+                className="h-6 w-auto shrink-0"
+              />
+            </a>
           </div>
       </div>
       <div className="border-t border-white/15 hero-gradient text-white">
