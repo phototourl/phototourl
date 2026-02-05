@@ -164,6 +164,21 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
             </a>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <a
+              href="https://fwfw.app/item/phototourl"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block transition-transform hover:scale-105"
+            >
+              <img
+                src="https://fwfw.app/badge-white.svg"
+                width={250}
+                height={54}
+                alt="Featured on FWFW"
+                className="h-6 w-auto shrink-0"
+              />
+            </a>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <a
               href="https://showmebest.ai"
               target="_blank"
               rel="noreferrer"
