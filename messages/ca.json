@@ -7,6 +7,9 @@
       "subtitle": "Converteix imatges en enllaços compartibles",
       "prompt": "Arrossega, enganxa o puja — obtén un enllaç a l'instant",
       "circleCrop": "Retall en cercle",
+      "circleCropNav": "Retall circular",
+      "roundedCorners": "Cantonades arrodonides",
+      "comingSoon": "Properament.",
       "history": "Historial de càrregues"
     },
     "history": {
@@ -231,6 +234,10 @@
         "votes": "4,992 vots"
       }
     }
+  },
+  "roundedCorners": {
+    "title": "Foto a cantonades arrodonides",
+    "description": "Eina en línia gratuïta per a cantonades arrodonides, afegiu fàcilment cantonades arrodonides a qualsevol foto - perfecte per a fotos de perfil, xarxes socials i projectes de disseny."
   },
   "about": {
     "seo": {

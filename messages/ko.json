@@ -7,6 +7,9 @@
       "subtitle": "이미지를 공유 가능한 링크로 변환",
       "prompt": "드롭, 붙여넣기 또는 업로드 — 즉시 공유 링크 생성",
       "circleCrop": "사진을 원형으로 자르기",
+      "circleCropNav": "원형 자르기",
+      "roundedCorners": "모서리 둥글게",
+      "comingSoon": "곧 출시됩니다.",
       "history": "업로드 기록"
     },
     "history": {
@@ -313,6 +316,10 @@
       "averageRating": "4.5",
       "votes": "4,992표"
     }
+  },
+  "roundedCorners": {
+    "title": "사진 모서리 둥글게",
+    "description": "무료 온라인 모서리 둥글게 도구, 어떤 사진이든 쉽게 둥근 모서리 추가 – 프로필 사진, 소셜 미디어, 디자인 프로젝트에 완벽합니다."
   },
   "blog": {
     "seo": {

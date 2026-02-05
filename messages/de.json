@@ -7,6 +7,9 @@
       "subtitle": "Bilder als Link teilen",
       "prompt": "Ziehen, einfügen oder hochladen — sofort einen Link erhalten",
       "circleCrop": "Foto zu Kreis zuschneiden",
+      "circleCropNav": "Kreis zuschneiden",
+      "roundedCorners": "Abgerundete Ecken",
+      "comingSoon": "Demnächst verfügbar.",
       "history": "Upload-Verlauf"
     },
     "history": {
@@ -313,6 +316,10 @@
       "averageRating": "4.5",
       "votes": "4,992 Stimmen"
     }
+  },
+  "roundedCorners": {
+    "title": "Foto mit abgerundeten Ecken",
+    "description": "Kostenloses Online-Tool für abgerundete Ecken – fügen Sie jedem Foto ganz einfach abgerundete Ecken hinzu, ideal für Profilbilder, soziale Medien und Designprojekte."
   },
   "blog": {
     "seo": {

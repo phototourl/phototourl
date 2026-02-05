@@ -7,6 +7,9 @@
       "subtitle": "Ubah gambar menjadi tautan yang dapat dibagikan",
       "prompt": "Letakkan, tempel, atau unggah — dapatkan tautan instan",
       "circleCrop": "Foto ke Potong Lingkaran",
+      "circleCropNav": "Potong lingkaran",
+      "roundedCorners": "Sudut membulat",
+      "comingSoon": "Segera hadir.",
       "history": "Riwayat unggahan"
     },
     "history": {
@@ -313,6 +316,10 @@
       "averageRating": "4.5",
       "votes": "4.992 suara"
     }
+  },
+  "roundedCorners": {
+    "title": "Foto ke Sudut Membulat",
+    "description": "Alat online gratis untuk sudut membulat, tambahkan sudut membulat ke foto apa pun dengan mudah – cocok untuk foto profil, media sosial, dan proyek desain."
   },
   "blog": {
     "seo": {

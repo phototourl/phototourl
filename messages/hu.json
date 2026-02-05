@@ -7,6 +7,9 @@
       "subtitle": "Képek átalakítása megosztható linkekké",
       "prompt": "Húzza be, illessze be vagy töltse fel — kapjon linket azonnal",
       "circleCrop": "Körbe vágás",
+      "circleCropNav": "Körkörös vágás",
+      "roundedCorners": "Kerekített sarkok",
+      "comingSoon": "Hamarosan.",
       "history": "Feltöltési előzmények"
     },
     "history": {
@@ -214,14 +217,18 @@
         "averageRating": "4.5",
         "votes": "4,992 szavazat"
       }
-    },
-    "contact": {
-      "page": {
-        "title": "Kapcsolat",
-        "description": "Segítségre van szüksége? Küldjön e-mailt, és a lehető leghamarabb válaszolunk.",
-        "email": {
-          "label": "E-mail"
-        }
+    }
+  },
+  "roundedCorners": {
+    "title": "Kép kerekített sarkokkal",
+    "description": "Ingyenes online kerekített sarkok eszköz – könnyen adjon kerekített sarkokat bármely fotóhoz, tökéletes profilképekhez, közösségi médiához és design projektekhez."
+  },
+  "contact": {
+    "page": {
+      "title": "Kapcsolat",
+      "description": "Segítségre van szüksége? Küldjön e-mailt, és a lehető leghamarabb válaszolunk.",
+      "email": {
+        "label": "E-mail"
       }
     }
   },

@@ -7,6 +7,9 @@
       "subtitle": "Trasforma immagini in link condivisibili",
       "prompt": "Trascina, incolla o carica — ottieni un link subito",
       "circleCrop": "Ritaglio Circolare Foto",
+      "circleCropNav": "Ritaglio circolare",
+      "roundedCorners": "Angoli arrotondati",
+      "comingSoon": "In arrivo.",
       "history": "Cronologia caricamenti"
     },
     "history": {
@@ -313,6 +316,10 @@
       "averageRating": "4.5",
       "votes": "4,992 voti"
     }
+  },
+  "roundedCorners": {
+    "title": "Foto con angoli arrotondati",
+    "description": "Strumento online gratuito per angoli arrotondati, aggiungi facilmente angoli arrotondati a qualsiasi foto – perfetto per foto profilo, social media e progetti di design."
   },
   "blog": {
     "seo": {

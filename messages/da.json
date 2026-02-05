@@ -7,6 +7,9 @@
       "subtitle": "Gør billeder til links, der kan deles",
       "prompt": "Træk, indsæt eller upload — få et link med det samme",
       "circleCrop": "Rundt billede",
+      "circleCropNav": "Cirkelklip",
+      "roundedCorners": "Rundede hjørner",
+      "comingSoon": "Kommer snart.",
       "history": "Upload-historik"
     },
     "history": {
@@ -213,6 +216,10 @@
         "votes": "4,992 stemmer"
       }
     }
+  },
+  "roundedCorners": {
+    "title": "Billede med rundede hjørner",
+    "description": "Gratis online værktøj til rundede hjørner – tilføj nemt rundede hjørner til ethvert billede, perfekt til profilbilleder, sociale medier og designprojekter."
   },
   "about": {
     "seo": {

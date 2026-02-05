@@ -7,6 +7,9 @@
       "subtitle": "Tukarkan imej menjadi pautan boleh dikongsi",
       "prompt": "Lepaskan, tampal, atau muat naik — dapatkan pautan boleh dikongsi serta-merta",
       "circleCrop": "Foto ke Potongan Bulat",
+      "circleCropNav": "Potongan bulat",
+      "roundedCorners": "Sudut bulat",
+      "comingSoon": "Akan datang.",
       "history": "Rekod muat naik"
     },
     "history": {
@@ -313,6 +316,10 @@
       "averageRating": "4.5",
       "votes": "4,992 undian"
     }
+  },
+  "roundedCorners": {
+    "title": "Foto ke Sudut Bulat",
+    "description": "Alat dalam talian percuma untuk sudut bulat, tambah sudut bulat ke mana-mana foto dengan mudah – sesuai untuk gambar profil, media sosial, dan projek reka bentuk."
   },
   "blog": {
     "seo": {

@@ -7,6 +7,9 @@
       "subtitle": "Muuta kuvat jaettaviksi linkeiksi",
       "prompt": "Pudota, liitä tai lataa — saat linkin välittömästi",
       "circleCrop": "Pyöreä kuva",
+      "circleCropNav": "Ympyräleikkaus",
+      "roundedCorners": "Pyöristetyt nurkat",
+      "comingSoon": "Tulossa pian.",
       "history": "Lataushistoria"
     },
     "history": {
@@ -187,6 +190,10 @@
         "votes": "4,992 ääntä"
       }
     }
+  },
+  "roundedCorners": {
+    "title": "Kuva pyöristetyillä nurkilla",
+    "description": "Ilmainen verkko-työkalu pyöristetyille nurkille – lisää helposti pyöristetyt nurkat mihin tahansa kuvaan, täydellinen profiilikuville, somelle ja design-projekteille."
   },
   "about": {
     "seo": {

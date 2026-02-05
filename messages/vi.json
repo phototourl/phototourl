@@ -7,6 +7,9 @@
       "subtitle": "Biến hình ảnh thành liên kết có thể chia sẻ",
       "prompt": "Kéo thả, dán hoặc tải lên — nhận liên kết ngay lập tức",
       "circleCrop": "Cắt ảnh thành hình tròn",
+      "circleCropNav": "Cắt hình tròn",
+      "roundedCorners": "Bo góc tròn",
+      "comingSoon": "Sắp ra mắt.",
       "history": "Lịch sử tải lên"
     },
     "history": {
@@ -313,6 +316,10 @@
       "averageRating": "4.5",
       "votes": "4,992 phiếu bầu"
     }
+  },
+  "roundedCorners": {
+    "title": "Ảnh bo góc tròn",
+    "description": "Công cụ trực tuyến miễn phí bo góc tròn, dễ dàng thêm góc tròn cho mọi ảnh – hoàn hảo cho ảnh đại diện, mạng xã hội và dự án thiết kế."
   },
   "blog": {
     "seo": {

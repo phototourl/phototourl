@@ -23,14 +23,15 @@ export function ScrollButtons() {
 
   useEffect(() => {
     const handleScroll = () => {
-      // 检测是否滚动超过一屏高度（100vh）
+      const scrollY = window.scrollY;
+      // 向下箭头：未滚动超过一屏时显示
       const scrollThreshold = window.innerHeight;
-      setShowBackToTop(window.scrollY > scrollThreshold);
-      setShowScrollDown(window.scrollY < scrollThreshold);
+      setShowScrollDown(scrollY < scrollThreshold);
+      // 向上箭头：只要不在顶部就显示（短页面也能看到），阈值 80px
+      setShowBackToTop(scrollY > 80);
     };
 
     window.addEventListener("scroll", handleScroll);
-    // 初始检查
     handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);

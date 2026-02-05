@@ -7,6 +7,9 @@
       "subtitle": "画像を共有リンクに変換",
       "prompt": "ドラッグ・貼り付け・アップロードで、すぐに共有リンク",
       "circleCrop": "写真を円形に切り抜き",
+      "circleCropNav": "円形切り抜き",
+      "roundedCorners": "角丸",
+      "comingSoon": "敬请期待",
       "history": "アップロード履歴"
     },
     "history": {
@@ -313,6 +316,10 @@
       "averageRating": "4.5",
       "votes": "4,992票"
     }
+  },
+  "roundedCorners": {
+    "title": "写真を角丸に",
+    "description": "無料のオンライン角丸ツール。どんな写真にも簡単に角丸を追加 – プロフィール写真、SNS、デザインに最適。"
   },
   "blog": {
     "seo": {

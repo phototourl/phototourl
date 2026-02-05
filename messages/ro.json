@@ -7,6 +7,9 @@
       "subtitle": "Transformă imaginile în linkuri partajabile",
       "prompt": "Trage, lipește sau încarcă — obține un link instantaneu",
       "circleCrop": "Foto rotundă",
+      "circleCropNav": "Decupare circulară",
+      "roundedCorners": "Colțuri rotunjite",
+      "comingSoon": "În curând.",
       "history": "Istoric încărcări"
     },
     "history": {
@@ -187,6 +190,10 @@
         "votes": "4,992 voturi"
       }
     }
+  },
+  "roundedCorners": {
+    "title": "Foto cu colțuri rotunjite",
+    "description": "Instrument online gratuit pentru colțuri rotunjite – adăugați ușor colțuri rotunjite la orice fotografie, perfect pentru poze de profil, rețele sociale și proiecte de design."
   },
   "about": {
     "seo": {

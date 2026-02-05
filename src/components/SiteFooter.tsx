@@ -19,6 +19,7 @@ const navLinks = [
 
 const productLinks = [
   { labelKey: "title", ns: "circleCrop", href: "/circlecrop", external: false },
+  { href: "/roundedcorners", external: false },
   { label: "Image to URL", href: "https://www.image2url.com/", external: true },
 ];
 
@@ -90,13 +91,14 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
               <div className="text-sm font-semibold uppercase tracking-wide text-white/80">{t("footer.productsTitle")}</div>
               <div className="flex flex-col gap-2 text-sm text-white/95">
                 {productLinks.map((link) => {
-                  // 与头部导航一致：common.header.circleCrop
                   const label =
                     link.href === "/circlecrop"
                       ? t("header.circleCrop")
-                      : "label" in link
-                        ? link.label
-                        : "";
+                      : link.href === "/roundedcorners"
+                        ? t("header.roundedCorners")
+                        : "label" in link
+                          ? link.label
+                          : "";
                   return link.external ? (
                     <a
                       key={link.href}

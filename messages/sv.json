@@ -7,6 +7,9 @@
       "subtitle": "Gör om bilder till delbara länkar",
       "prompt": "Dra, klistra in eller ladda upp — få en länk direkt",
       "circleCrop": "Cirkulär bildbeskärning",
+      "circleCropNav": "Cirkelbeskärning",
+      "roundedCorners": "Rundade hörn",
+      "comingSoon": "Kommer snart.",
       "history": "Uppladdningshistorik"
     },
     "history": {
@@ -313,6 +316,10 @@
       "averageRating": "4.5",
       "votes": "4,992 röster"
     }
+  },
+  "roundedCorners": {
+    "title": "Foto med rundade hörn",
+    "description": "Gratis onlineverktyg för rundade hörn – lägg enkelt till rundade hörn till vilken bild som helst, perfekt för profilbilder, sociala medier och designprojekt."
   },
   "blog": {
     "seo": {

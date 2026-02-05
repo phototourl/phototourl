@@ -7,6 +7,9 @@
       "subtitle": "Transforme imagens em links compartilháveis",
       "prompt": "Solte, cole ou envie — obtenha um link compartilhável na hora",
       "circleCrop": "Foto para Recorte Circular",
+      "circleCropNav": "Recorte circular",
+      "roundedCorners": "Cantos arredondados",
+      "comingSoon": "Em breve.",
       "history": "Registro de envios"
     },
     "history": {
@@ -313,6 +316,10 @@
       "averageRating": "4.5",
       "votes": "4,992 votos"
     }
+  },
+  "roundedCorners": {
+    "title": "Foto com cantos arredondados",
+    "description": "Ferramenta online gratuita para cantos arredondados, adicione facilmente cantos arredondados a qualquer foto – perfeito para fotos de perfil, redes sociais e projetos de design."
   },
   "blog": {
     "seo": {

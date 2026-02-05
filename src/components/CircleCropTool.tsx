@@ -641,7 +641,7 @@ export function CircleCropTool({ showHeading = true }: CircleCropToolProps) {
           <h1 className="flex items-center justify-center gap-3 text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl lg:text-4xl">
             <div className="h-8 w-8 rounded-xl overflow-hidden sm:h-10 sm:w-10 lg:h-12 lg:w-12">
               <NextImage
-                src="/circle-crop-favicon.png"
+                src="/circle-crop.png"
                 alt={t("title")}
                 width={48}
                 height={48}

@@ -7,6 +7,9 @@
       "subtitle": "Gjør bilder om til delbare lenker",
       "prompt": "Dra, lim inn eller last opp — få en lenke umiddelbart",
       "circleCrop": "Rundt bilde",
+      "circleCropNav": "Sirkelklipp",
+      "roundedCorners": "Avrundede hjørner",
+      "comingSoon": "Kommer snart.",
       "history": "Lastoppføringer"
     },
     "history": {
@@ -180,6 +183,10 @@
         "votes": "4,992 stemmer"
       }
     }
+  },
+  "roundedCorners": {
+    "title": "Bilde med avrundede hjørner",
+    "description": "Gratis nettverktøy for avrundede hjørner – legg enkelt til avrundede hjørner til ethvert bilde, perfekt for profilbilder, sosiale medier og designprosjekter."
   },
   "about": {
     "seo": {

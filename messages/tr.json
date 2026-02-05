@@ -7,6 +7,9 @@
       "subtitle": "Görselleri paylaşılabilir bağlantılara dönüştürün",
       "prompt": "Sürükleyin, yapıştırın veya yükleyin — anında paylaşılabilir bağlantı alın",
       "circleCrop": "Fotoğrafı Daire Şeklinde Kırp",
+      "circleCropNav": "Daire kırpma",
+      "roundedCorners": "Yuvarlatılmış köşeler",
+      "comingSoon": "Yakında.",
       "history": "Yükleme kaydı"
     },
     "history": {
@@ -313,6 +316,10 @@
       "averageRating": "4.5",
       "votes": "4,992 oy"
     }
+  },
+  "roundedCorners": {
+    "title": "Yuvarlatılmış köşeli fotoğraf",
+    "description": "Ücretsiz çevrimiçi yuvarlatılmış köşe aracı – herhangi bir fotoğrafa kolayca yuvarlatılmış köşe ekleyin, profil fotoğrafları, sosyal medya ve tasarım projeleri için ideal."
   },
   "blog": {
     "seo": {

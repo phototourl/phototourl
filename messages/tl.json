@@ -7,6 +7,9 @@
       "subtitle": "Gawing mga link ang iyong mga imahe",
       "prompt": "I-drop, i-paste, o i-upload — kumuha ng link agad-agad",
       "circleCrop": "Gupit na Bilog",
+      "circleCropNav": "Bilog na gupit",
+      "roundedCorners": "Bilugang sulok",
+      "comingSoon": "Malapit nang dumating.",
       "history": "Kasaysayan ng mga upload"
     },
     "history": {
@@ -197,6 +200,10 @@
         "votes": "4,992 boto"
       }
     }
+  },
+  "roundedCorners": {
+    "title": "Larawan na may bilugang sulok",
+    "description": "Libreng online na tool para sa bilugang sulok, madaling magdagdag ng bilugang sulok sa anumang larawan – perpekto para sa mga profile picture, social media, at design projects."
   },
   "about": {
     "seo": {

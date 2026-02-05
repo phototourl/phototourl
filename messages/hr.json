@@ -7,6 +7,9 @@
       "subtitle": "Pretvorite slike u djeljive poveznice",
       "prompt": "Povucite, zalijepite ili učitajte — odmah preuzmite poveznicu",
       "circleCrop": "Okrugli izrez",
+      "circleCropNav": "Kružni izrez",
+      "roundedCorners": "Zaobljeni rubovi",
+      "comingSoon": "Uskoro.",
       "history": "Povijest učitavanja"
     },
     "history": {
@@ -187,6 +190,10 @@
         "votes": "4,992 glasova"
       }
     }
+  },
+  "roundedCorners": {
+    "title": "Foto sa zaobljenim rubovima",
+    "description": "Besplatni online alat za zaobljene rubove – lako dodajte zaobljene rubove bilo kojoj fotografiji, savršeno za profilne slike, društvene mreže i dizajn projekte."
   },
   "about": {
     "seo": {

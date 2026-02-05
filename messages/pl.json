@@ -7,6 +7,9 @@
       "subtitle": "Zamieniaj obrazy w linki do udostępniania",
       "prompt": "Przeciągnij, wklej lub wyślij — otrzymaj link natychmiast",
       "circleCrop": "Okrągłe przycinanie zdjęć",
+      "circleCropNav": "Przycinanie do koła",
+      "roundedCorners": "Zaokrąglone rogi",
+      "comingSoon": "Wkrótce dostępne.",
       "history": "Zapis przesyłania"
     },
     "history": {
@@ -313,6 +316,10 @@
       "averageRating": "4.5",
       "votes": "4,992 głosów"
     }
+  },
+  "roundedCorners": {
+    "title": "Zdjęcie z zaokrąglonymi rogami",
+    "description": "Darmowe narzędzie online do zaokrąglania rogów – łatwo dodaj zaokrąglone rogi do dowolnego zdjęcia, idealne do zdjęć profilowych, mediów społecznościowych i projektów graficznych."
   },
   "blog": {
     "seo": {

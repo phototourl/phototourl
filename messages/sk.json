@@ -7,6 +7,9 @@
       "subtitle": "Premeňte obrázky na zdieľateľné odkazy",
       "prompt": "Presuňte, prilepte alebo nahrajte — získajte odkaz okamžite",
       "circleCrop": "Okrúhly výrez",
+      "circleCropNav": "Kruhový výrez",
+      "roundedCorners": "Zaoblené rohy",
+      "comingSoon": "Čoskoro.",
       "history": "História nahrávania"
     },
     "history": {
@@ -187,6 +190,10 @@
         "votes": "4,992 hlasov"
       }
     }
+  },
+  "roundedCorners": {
+    "title": "Foto so zaoblenými rohmi",
+    "description": "Bezplatný online nástroj na zaoblené rohy – jednoducho pridajte zaoblené rohy k ľubovoľnej fotografii, ideálne pre profilové fotky, sociálne médiá a dizajnové projekty."
   },
   "about": {
     "seo": {

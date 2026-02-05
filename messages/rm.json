@@ -7,6 +7,9 @@
       "subtitle": "Transfurmar maletgs en ligiaivlas spartiblas",
       "prompt": "Laschar ir, incollàr u chargiar — survegnir in ligiaivl spartibel immediatamain",
       "circleCrop": "Fotografia per tagl circular",
+      "circleCropNav": "Tagl circular",
+      "roundedCorners": "Cantuns arrondads",
+      "comingSoon": "Prest disponibel.",
       "history": "Cronologia da chargiar"
     },
     "history": {
@@ -313,6 +316,10 @@
       "averageRating": "4.5",
       "votes": "4'992 vuschs"
     }
+  },
+  "roundedCorners": {
+    "title": "Foto cun cantuns arrondads",
+    "description": "Utensil online gratuit per cantuns arrondads – agiunger facilmain cantuns arrondads a mintga fotografia, perfetg per maletgs da profil, medias socialas e projects da design."
   },
   "blog": {
     "seo": {

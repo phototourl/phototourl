@@ -7,6 +7,9 @@
       "subtitle": "Maak van afbeeldingen deelbare links",
       "prompt": "Sleep, plak of upload — krijg direct een deelbare link",
       "circleCrop": "Foto naar cirkel bijsnijden",
+      "circleCropNav": "Cirkel bijsnijden",
+      "roundedCorners": "Afgeronde hoeken",
+      "comingSoon": "Binnenkort beschikbaar.",
       "history": "Uploadgeschiedenis"
     },
     "history": {
@@ -313,6 +316,10 @@
       "averageRating": "4.5",
       "votes": "4,992 stemmen"
     }
+  },
+  "roundedCorners": {
+    "title": "Foto met afgeronde hoeken",
+    "description": "Gratis online tool voor afgeronde hoeken, voeg eenvoudig afgeronde hoeken toe aan elke foto – perfect voor profielfoto's, sociale media en ontwerpprojecten."
   },
   "blog": {
     "seo": {

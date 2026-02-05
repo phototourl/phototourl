@@ -7,6 +7,9 @@
       "subtitle": "Transformez des images en liens partageables",
       "prompt": "Déposez, collez ou téléversez — obtenez un lien instantanément",
       "circleCrop": "Photo en Recadrage Circulaire",
+      "circleCropNav": "Recadrage circulaire",
+      "roundedCorners": "Coins arrondis",
+      "comingSoon": "Bientôt disponible.",
       "history": "Historique des envois"
     },
     "history": {
@@ -313,6 +316,10 @@
       "averageRating": "4.5",
       "votes": "4,992 votes"
     }
+  },
+  "roundedCorners": {
+    "title": "Photo à coins arrondis",
+    "description": "Outil en ligne gratuit pour coins arrondis, ajoutez facilement des coins arrondis à toute photo – parfait pour photos de profil, réseaux sociaux et projets de design."
   },
   "blog": {
     "seo": {

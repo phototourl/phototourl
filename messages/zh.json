@@ -7,6 +7,9 @@
       "subtitle": "把图片变成可分享的链接",
       "prompt": "拖拽、粘贴或上传 — 立刻获得可分享链接",
       "circleCrop": "照片圆形裁剪",
+      "circleCropNav": "圆形裁剪",
+      "roundedCorners": "圆角",
+      "comingSoon": "敬请期待",
       "history": "上传记录"
     },
     "history": {
@@ -313,6 +316,10 @@
       "averageRating": "4.5",
       "votes": "4,992 票"
     }
+  },
+  "roundedCorners": {
+    "title": "照片圆角",
+    "description": "免费在线圆角工具，轻松为任何照片添加圆角 - 适合头像、社交媒体和设计项目。"
   },
   "blog": {
     "seo": {

@@ -7,6 +7,9 @@
       "subtitle": "Turn images into shareable links",
       "prompt": "Drop, paste, or upload — get a shareable link instantly",
       "circleCrop": "Photo To Circle Crop",
+      "circleCropNav": "Circle Crop",
+      "roundedCorners": "Rounded Corners",
+      "comingSoon": "Coming soon.",
       "history": "Upload records"
     },
     "history": {
@@ -313,6 +316,10 @@
       "averageRating": "4.5",
       "votes": "4,992 votes"
     }
+  },
+  "roundedCorners": {
+    "title": "Photo To Rounded Corners",
+    "description": "Free online rounded corners tool, easily add rounded corners to any photo - perfect for profile pictures, social media, and design projects."
   },
   "blog": {
     "seo": {

@@ -7,6 +7,9 @@
       "subtitle": "Convierte imágenes en enlaces para compartir",
       "prompt": "Suelta, pega o sube — obtén un enlace compartible al instante",
       "circleCrop": "Foto a Recorte Circular",
+      "circleCropNav": "Recorte circular",
+      "roundedCorners": "Esquinas redondeadas",
+      "comingSoon": "Próximamente.",
       "history": "Registro de subidas"
     },
     "history": {
@@ -313,6 +316,10 @@
       "averageRating": "4.5",
       "votes": "4,992 votos"
     }
+  },
+  "roundedCorners": {
+    "title": "Foto a esquinas redondeadas",
+    "description": "Herramienta gratuita en línea para esquinas redondeadas, añade fácilmente esquinas redondeadas a cualquier foto: ideal para fotos de perfil, redes sociales y proyectos de diseño."
   },
   "blog": {
     "seo": {

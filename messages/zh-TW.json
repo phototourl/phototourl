@@ -7,6 +7,9 @@
       "subtitle": "把圖片變成可分享的連結",
       "prompt": "拖曳、貼上或上傳 — 立刻獲得可分享連結",
       "circleCrop": "照片圓形裁剪",
+      "circleCropNav": "圓形裁剪",
+      "roundedCorners": "圓角",
+      "comingSoon": "敬請期待",
       "history": "上傳記錄"
     },
     "history": {
@@ -313,6 +316,10 @@
       "averageRating": "4.5",
       "votes": "4,992 票"
     }
+  },
+  "roundedCorners": {
+    "title": "照片圓角",
+    "description": "免費線上圓角工具，輕鬆為任何照片添加圓角 - 適合頭像、社群媒體和設計專案。"
   },
   "blog": {
     "seo": {
