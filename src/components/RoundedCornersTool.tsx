@@ -382,13 +382,13 @@ export function RoundedCornersTool({ showHeading = true }: RoundedCornersToolPro
       {showHeading && (
         <div className="space-y-3 text-center mb-8">
           <h1 className="flex items-center justify-center gap-3 text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl lg:text-4xl">
-            <div className="h-8 w-8 rounded-xl overflow-hidden sm:h-10 sm:w-10 lg:h-12 lg:w-12">
+            <div className="h-8 w-8 flex items-center justify-center flex-shrink-0 sm:h-10 sm:w-10 lg:h-12 lg:w-12">
               <NextImage
                 src="/rounded-corners.png"
                 alt={t("title")}
                 width={48}
                 height={48}
-                className="h-full w-full object-contain"
+                className="h-full w-auto object-contain"
               />
             </div>
             {t("title")}
