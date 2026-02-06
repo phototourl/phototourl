@@ -14,7 +14,7 @@
     },
     "history": {
       "drawerTitle": "Povijest učitavanja",
-      "hint": "Prikazuje se zadnjih 10 zapisa.",
+      "hint": "Prikazuju se učitavanja iz prošlog tjedna.",
       "close": "Zatvori",
       "empty": "Još nema učitavanja.",
       "copy": "Kopiraj poveznicu",

@@ -14,7 +14,7 @@
     },
     "history": {
       "drawerTitle": "Lịch sử tải lên",
-      "hint": "Hiển thị 10 lần tải lên gần nhất.",
+      "hint": "Hiển thị tải lên trong tuần qua.",
       "close": "Đóng",
       "empty": "Chưa có lần tải lên nào.",
       "copy": "Sao chép liên kết",

@@ -14,7 +14,7 @@
     },
     "history": {
       "drawerTitle": "Uploadgeschiedenis",
-      "hint": "Toon de laatste 10 uploads.",
+      "hint": "Toon uploads van de afgelopen week.",
       "close": "Sluiten",
       "empty": "Nog geen uploads.",
       "copy": "Link kopiëren",

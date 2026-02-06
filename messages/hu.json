@@ -14,7 +14,7 @@
     },
     "history": {
       "drawerTitle": "Feltöltési előzmények",
-      "hint": "Az utolsó 10 feltöltés megjelenítése.",
+      "hint": "Az elmúlt hét feltöltéseinek megjelenítése.",
       "close": "Bezárás",
       "empty": "Még nincsenek feltöltések.",
       "copy": "Link másolása",

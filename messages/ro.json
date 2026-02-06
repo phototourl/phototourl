@@ -14,7 +14,7 @@
     },
     "history": {
       "drawerTitle": "Istoric încărcări",
-      "hint": "Se afișează ultimele 10 înregistrări.",
+      "hint": "Se afișează încărcările din ultima săptămână.",
       "close": "Închide",
       "empty": "Nicio încărcare momentan.",
       "copy": "Copiază link",

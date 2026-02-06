@@ -14,7 +14,7 @@
     },
     "history": {
       "drawerTitle": "Lastoppføringer",
-      "hint": "Viser de 10 siste opplastningene.",
+      "hint": "Viser opplastninger fra siste uke.",
       "close": "Lukk",
       "empty": "Ingen opplastninger ennå.",
       "copy": "Kopier lenke",

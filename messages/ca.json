@@ -14,7 +14,7 @@
     },
     "history": {
       "drawerTitle": "Historial de càrregues",
-      "hint": "Es mostren els últims 10 registres.",
+      "hint": "Es mostren les càrregues de l'última setmana.",
       "close": "Tancar",
       "empty": "Encara no hi ha càrregues.",
       "copy": "Copiar enllaç",

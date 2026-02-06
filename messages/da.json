@@ -14,7 +14,7 @@
     },
     "history": {
       "drawerTitle": "Upload-historik",
-      "hint": "Viser de sidste 10 uploads.",
+      "hint": "Viser uploads fra den sidste uge.",
       "close": "Luk",
       "empty": "Ingen uploads endnu.",
       "copy": "Kopiér link",

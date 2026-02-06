@@ -14,7 +14,7 @@
     },
     "history": {
       "drawerTitle": "Upload-Verlauf",
-      "hint": "Die letzten 10 Uploads anzeigen.",
+      "hint": "Uploads der letzten Woche anzeigen.",
       "close": "Schließen",
       "empty": "Noch keine Uploads.",
       "copy": "Link kopieren",

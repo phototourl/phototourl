@@ -14,7 +14,7 @@
     },
     "history": {
       "drawerTitle": "Lataushistoria",
-      "hint": "Näytetään 10 viimeisintä latausta.",
+      "hint": "Näytetään viimeisen viikon lataukset.",
       "close": "Sulje",
       "empty": "Ei vielä latauksia.",
       "copy": "Kopioi linkki",

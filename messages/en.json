@@ -14,7 +14,7 @@
     },
     "history": {
       "drawerTitle": "Upload records",
-      "hint": "Display the last 10 upload records.",
+      "hint": "Display upload records from the last week.",
       "close": "Close",
       "empty": "No uploads yet.",
       "copy": "Copy link",

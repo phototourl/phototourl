@@ -14,7 +14,7 @@
     },
     "history": {
       "drawerTitle": "Záznam nahrávání",
-      "hint": "Zobrazit posledních 10 nahrání.",
+      "hint": "Zobrazit nahrání za poslední týden.",
       "close": "Zavřít",
       "empty": "Zatím žádná nahrání.",
       "copy": "Kopírovat odkaz",

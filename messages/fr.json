@@ -14,7 +14,7 @@
     },
     "history": {
       "drawerTitle": "Historique des envois",
-      "hint": "Afficher les 10 derniers envois.",
+      "hint": "Afficher les envois de la dernière semaine.",
       "close": "Fermer",
       "empty": "Aucun envoi pour l'instant.",
       "copy": "Copier le lien",

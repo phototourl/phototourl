@@ -14,7 +14,7 @@
     },
     "history": {
       "drawerTitle": "Yükleme kaydı",
-      "hint": "Son 10 yükleme kaydını gösterir.",
+      "hint": "Son bir haftanın yükleme kayıtlarını gösterir.",
       "close": "Kapat",
       "empty": "Henüz yükleme yok.",
       "copy": "Bağlantıyı kopyala",

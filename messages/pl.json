@@ -14,7 +14,7 @@
     },
     "history": {
       "drawerTitle": "Zapis przesyłania",
-      "hint": "Wyświetl ostatnie 10 przesłanych plików.",
+      "hint": "Wyświetl przesłane pliki z ostatniego tygodnia.",
       "close": "Zamknij",
       "empty": "Brak przesłanych plików.",
       "copy": "Kopiuj link",

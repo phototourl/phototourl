@@ -14,7 +14,7 @@
     },
     "history": {
       "drawerTitle": "Registro de envios",
-      "hint": "Mostrar os últimos 10 envios.",
+      "hint": "Mostrar envios da última semana.",
       "close": "Fechar",
       "empty": "Nenhum envio ainda.",
       "copy": "Copiar link",

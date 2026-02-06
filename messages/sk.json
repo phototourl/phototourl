@@ -14,7 +14,7 @@
     },
     "history": {
       "drawerTitle": "História nahrávania",
-      "hint": "Zobrazuje sa posledných 10 záznamov.",
+      "hint": "Zobrazujú sa nahratia za posledný týždeň.",
       "close": "Zatvoriť",
       "empty": "Zatiaľ žiadne nahrávania.",
       "copy": "Kopírovať odkaz",

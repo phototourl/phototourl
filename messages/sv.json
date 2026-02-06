@@ -14,7 +14,7 @@
     },
     "history": {
       "drawerTitle": "Uppladdningshistorik",
-      "hint": "Visa de senaste 10 uppladdningarna.",
+      "hint": "Visa uppladdningar från senaste veckan.",
       "close": "Stäng",
       "empty": "Inga uppladdningar än.",
       "copy": "Kopiera länk",

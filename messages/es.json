@@ -14,7 +14,7 @@
     },
     "history": {
       "drawerTitle": "Registro de subidas",
-      "hint": "Mostrar las últimas 10 subidas.",
+      "hint": "Mostrar subidas de la última semana.",
       "close": "Cerrar",
       "empty": "Aún no hay subidas.",
       "copy": "Copiar enlace",
