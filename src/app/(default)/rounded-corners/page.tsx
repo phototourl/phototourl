@@ -1,22 +1,14 @@
 import type { Metadata } from "next";
-import { CircleCropTool } from "@/components/CircleCropTool";
+import { RoundedCornersTool } from "@/components/RoundedCornersTool";
 import { SelectRegionSection } from "@/components/SelectRegionSection";
 import { ScrollButtons } from "@/components/ScrollButtons";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getTranslations } from "next-intl/server";
 import { siteUrl } from "@/app/seo-metadata";
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "circleCrop.seo" });
-  
-  // 设置正确的 canonical URL
-  const canonicalPath = locale === "en" ? "/circlecrop" : `/${locale}/circlecrop`;
-  const canonicalUrl = `${siteUrl}${canonicalPath}`;
-  
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("roundedCorners.seo");
+  const canonicalUrl = `${siteUrl}/rounded-corners`;
+
   return {
     title: t("title"),
     description: t("description"),
@@ -35,22 +27,14 @@ export async function generateMetadata({
   };
 }
 
-export default async function PhotoCircleCropPage({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
-  const { locale } = await params;
-  // 确保 locale 被正确设置
-  setRequestLocale(locale);
-  const t = await getTranslations({ locale, namespace: "circleCrop.page" });
+export default async function RoundedCornersPage() {
+  const t = await getTranslations("roundedCorners.page");
   return (
     <>
       <div className="mx-auto max-w-6xl px-6 lg:px-10 bg-white">
-        {/* 首屏 section - 参考首页布局 */}
         <section className="bg-white relative pt-4 pb-40 sm:pt-10 sm:pb-44 lg:pt-14 lg:pb-52">
-          <CircleCropTool showHeading={true} />
-          
+          <RoundedCornersTool showHeading={true} />
+
           <div className="mt-12">
             <div className="mx-auto max-w-5xl space-y-4 text-center">
               <h2 className="text-2xl font-semibold text-slate-900 sm:text-3xl">
@@ -64,10 +48,7 @@ export default async function PhotoCircleCropPage({
         </section>
       </div>
 
-      {/* 首屏下方的元素 - 移出内层div，让渐变可以延伸到两边 */}
-      <SelectRegionSection translationKey="circleCrop.selectRegion" />
-
-      {/* Scroll buttons */}
+      <SelectRegionSection translationKey="roundedCorners.selectRegion" />
       <ScrollButtons />
     </>
   );

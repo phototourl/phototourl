@@ -123,10 +123,10 @@ export function LanguageSelectModal({ open, onClose }: LanguageSelectModalProps)
   }, [open]);
 
   const handleLocaleChange = (newLocale: string) => {
-    if (pathname.includes("/circlecrop")) {
+    if (pathname.includes("/circle-crop")) {
       sessionStorage.setItem("circleCropLanguageSwitch", "true");
     }
-    if (pathname.includes("/roundedcorners")) {
+    if (pathname.includes("/rounded-corners")) {
       sessionStorage.setItem("roundedCornersLanguageSwitch", "true");
     }
     if (pathname === "/" || pathname === "") {

@@ -306,7 +306,7 @@ export function PhotoToUrlTool({ showHeading = true, showExtraContent = false }:
                       {fileName}
                     </div>
                     <LocaleLink
-                      href="/circlecrop"
+                      href="/circle-crop"
                       className="inline-flex items-center gap-1.5 text-sm text-brand-teal hover:underline transition-colors"
                       onClick={(e) => {
                         if (originalFile) {
@@ -319,7 +319,7 @@ export function PhotoToUrlTool({ showHeading = true, showExtraContent = false }:
                             sessionStorage.setItem('circleCropFileName', originalFile.name);
                             sessionStorage.setItem('circleCropFileType', originalFile.type);
                             // 保存完成后再跳转
-                            router.push('/circlecrop');
+                            router.push('/circle-crop');
                           };
                           reader.readAsDataURL(originalFile);
                         }

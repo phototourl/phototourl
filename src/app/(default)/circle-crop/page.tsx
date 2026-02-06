@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { RoundedCornersTool } from "@/components/RoundedCornersTool";
+import { CircleCropTool } from "@/components/CircleCropTool";
 import { SelectRegionSection } from "@/components/SelectRegionSection";
 import { ScrollButtons } from "@/components/ScrollButtons";
 import { getTranslations } from "next-intl/server";
 import { siteUrl } from "@/app/seo-metadata";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations("roundedCorners.seo");
-  const canonicalUrl = `${siteUrl}/roundedcorners`;
+  const t = await getTranslations("circleCrop.seo");
+  const canonicalUrl = `${siteUrl}/circle-crop`;
 
   return {
     title: t("title"),
@@ -27,13 +27,13 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default async function RoundedCornersPage() {
-  const t = await getTranslations("roundedCorners.page");
+export default async function PhotoCircleCropPage() {
+  const t = await getTranslations("circleCrop.page");
   return (
     <>
       <div className="mx-auto max-w-6xl px-6 lg:px-10 bg-white">
         <section className="bg-white relative pt-4 pb-40 sm:pt-10 sm:pb-44 lg:pt-14 lg:pb-52">
-          <RoundedCornersTool showHeading={true} />
+          <CircleCropTool showHeading={true} />
 
           <div className="mt-12">
             <div className="mx-auto max-w-5xl space-y-4 text-center">
@@ -48,7 +48,7 @@ export default async function RoundedCornersPage() {
         </section>
       </div>
 
-      <SelectRegionSection translationKey="roundedCorners.selectRegion" />
+      <SelectRegionSection translationKey="circleCrop.selectRegion" />
       <ScrollButtons />
     </>
   );

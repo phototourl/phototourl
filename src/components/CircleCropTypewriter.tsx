@@ -9,7 +9,7 @@ export function CircleCropTypewriter() {
   const label = t("header.circleCrop");
   return (
     <LocaleLink
-      href="/circlecrop"
+      href="/circle-crop"
       className="flex items-center gap-3 group pointer-events-auto"
     >
       <div className="relative h-8 w-8 flex-shrink-0 overflow-hidden rounded-md bg-white/10 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12 group-hover:bg-white/20">

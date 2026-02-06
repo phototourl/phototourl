@@ -12,8 +12,8 @@ export function HeaderNavWithHistory() {
   const t = useTranslations("common");
   const pathname = useLocalePathname();
   const isHome = pathname === "/" || pathname === "";
-  const isCircleCrop = pathname === "/circlecrop" || pathname.startsWith("/circlecrop");
-  const isRoundedCorners = pathname === "/roundedcorners" || pathname.startsWith("/roundedcorners");
+  const isCircleCrop = pathname === "/circle-crop" || pathname.startsWith("/circle-crop");
+  const isRoundedCorners = pathname === "/rounded-corners" || pathname.startsWith("/rounded-corners");
 
   return (
     <nav className="ml-2 flex items-center gap-1.5 sm:gap-3 sm:ml-6">
@@ -25,14 +25,14 @@ export function HeaderNavWithHistory() {
         <span className="hidden sm:inline">{t("header.home")}</span>
       </LocaleLink>
       <LocaleLink
-        href="/circlecrop"
+        href="/circle-crop"
         className={`${navLinkBase} ${isCircleCrop ? navLinkActive : "text-slate-600"}`}
       >
         <Circle className="h-4 w-4 shrink-0" />
         <span className="hidden sm:inline">{t("header.circleCropNav")}</span>
       </LocaleLink>
       <LocaleLink
-        href="/roundedcorners"
+        href="/rounded-corners"
         className={`${navLinkBase} ${isRoundedCorners ? navLinkActive : "text-slate-600"}`}
       >
         <SquareRoundCorner className="h-4 w-4 shrink-0" />

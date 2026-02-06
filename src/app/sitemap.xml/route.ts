@@ -10,7 +10,7 @@ const baseUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? FALLBACK_BASE_URL).replace(
 // 与站点实际存在的页面保持一致
 const staticPaths = [
   "",
-  "circlecrop",
+  "circle-crop",
   "blog",
   "docs",
   "status",

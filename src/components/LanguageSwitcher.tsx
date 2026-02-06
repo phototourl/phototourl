@@ -130,12 +130,12 @@ export function LanguageSwitcher({ variant = "header", showModal = false, onModa
   }, [isOpen]);
 
   const _handleLocaleChange = (newLocale: string) => {
-    // 如果当前在 circlecrop 页面，设置标记以保留图片缓存
-    if (pathname.includes('/circlecrop')) {
+    // 如果当前在 circle-crop 页面，设置标记以保留图片缓存
+    if (pathname.includes('/circle-crop')) {
       sessionStorage.setItem('circleCropLanguageSwitch', 'true');
     }
-    // 如果当前在 roundedcorners 页面，设置标记以保留图片缓存
-    if (pathname.includes('/roundedcorners')) {
+    // 如果当前在 rounded-corners 页面，设置标记以保留图片缓存
+    if (pathname.includes('/rounded-corners')) {
       sessionStorage.setItem('roundedCornersLanguageSwitch', 'true');
     }
     // 如果当前在首页，设置标记以保留图片状态

@@ -13,7 +13,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "roundedCorners.seo" });
-  const canonicalPath = locale === "en" ? "/roundedcorners" : `/${locale}/roundedcorners`;
+  const canonicalPath = locale === "en" ? "/rounded-corners" : `/${locale}/rounded-corners`;
   const canonicalUrl = `${siteUrl}${canonicalPath}`;
 
   return {

@@ -13,8 +13,8 @@ const navLinks = [
 ] as const;
 
 const productLinks = [
-  { href: "/circlecrop", external: false },
-  { href: "/roundedcorners", external: false },
+  { href: "/circle-crop", external: false },
+  { href: "/rounded-corners", external: false },
 ];
 
 type SiteFooterProps = { locale: string };
@@ -109,9 +109,9 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
               <div className="flex flex-col gap-2 text-sm text-white/95">
                 {productLinks.map((link) => {
                   const label =
-                    link.href === "/circlecrop"
+                    link.href === "/circle-crop"
                       ? tCircleCrop("title")
-                      : link.href === "/roundedcorners"
+                      : link.href === "/rounded-corners"
                         ? tRounded("title")
                         : "";
                   return link.external ? (

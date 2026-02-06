@@ -638,7 +638,7 @@ export default function HomePage() {
             <div className="mx-auto max-w-6xl px-6 lg:px-10">
               <div className="text-center pointer-events-auto">
                 <LocaleLink
-                  href="/circlecrop"
+                  href="/circle-crop"
                   className="inline-flex items-center gap-1.5 text-base sm:text-lg font-medium text-brand-teal transition-colors"
                   onClick={(e) => {
                     e.preventDefault();
@@ -685,12 +685,12 @@ export default function HomePage() {
                         sessionStorage.setItem('circleCropFileName', file.name);
                         sessionStorage.setItem('circleCropFileType', file.type);
                         // 保存完成后再跳转
-                        router.push('/circlecrop');
+                        router.push('/circle-crop');
                       };
                       reader.readAsDataURL(file);
                     } else {
                       // 如果没有文件，直接跳转
-                      router.push('/circlecrop');
+                      router.push('/circle-crop');
                     }
                   }}
                 >
