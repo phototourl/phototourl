@@ -488,7 +488,7 @@ export function RoundedCornersTool({ showHeading = true }: RoundedCornersToolPro
               >
                 <canvas
                   ref={canvasRef}
-                  className="max-w-full h-auto block cursor-grab active:cursor-grabbing"
+                  className="max-w-full h-auto block cursor-move"
                   style={{ maxHeight: "70vh" }}
                   onMouseDown={handleMouseDown}
                   onMouseMove={handleMouseMove}
