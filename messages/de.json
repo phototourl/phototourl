@@ -319,7 +319,32 @@
   },
   "roundedCorners": {
     "title": "Foto mit abgerundeten Ecken",
-    "description": "Kostenloses Online-Tool für abgerundete Ecken – fügen Sie jedem Foto ganz einfach abgerundete Ecken hinzu, ideal für Profilbilder, soziale Medien und Designprojekte."
+    "description": "Kostenloses Online-Tool für abgerundete Ecken – fügen Sie jedem Foto ganz einfach abgerundete Ecken hinzu, ideal für App-Icons, Profilbilder und Designprojekte.",
+    "upload": "Foto hochladen",
+    "download": "Herunterladen",
+    "radiusLabel": "Radius (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Wird verarbeitet...",
+    "errorUploadFirst": "Bitte laden Sie zuerst ein Foto hoch.",
+    "errorSelectFile": "Bitte wählen Sie eine Bilddatei.",
+    "page": {
+      "title": "Foto mit abgerundeten Ecken – Kostenloses Online-Tool",
+      "description": "Foto mit abgerundeten Ecken ist ein kostenloses Online-Tool zum Hinzufügen abgerundeter Ecken zu Fotos. Erstellen Sie App-Icons, weichkantige Bilder für soziale Medien oder Thumbnails mit einstellbarem Eckenradius und Zoom. Keine Anmeldung – hochladen, anpassen, herunterladen."
+    },
+    "seo": {
+      "title": "Foto mit abgerundeten Ecken | Kostenloses Online-Tool",
+      "description": "Kostenloses Online-Tool für abgerundete Ecken – ideal für App-Icons, Profilbilder und Designprojekte."
+    },
+    "selectRegion": {
+      "title": "Region auswählen",
+      "subtitle": "Wählen Sie Ihre bevorzugte Sprache und Region"
+    },
+    "rateService": {
+      "title": "Foto mit abgerundeten Ecken bewerten",
+      "thankYou": "Vielen Dank für Ihr Feedback!",
+      "averageRating": "4.5",
+      "votes": "4,992 Stimmen"
+    }
   },
   "blog": {
     "seo": {

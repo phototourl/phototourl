@@ -319,7 +319,32 @@
   },
   "roundedCorners": {
     "title": "Foto a esquinas redondeadas",
-    "description": "Herramienta gratuita en línea para esquinas redondeadas, añade fácilmente esquinas redondeadas a cualquier foto: ideal para fotos de perfil, redes sociales y proyectos de diseño."
+    "description": "Herramienta gratuita en línea para esquinas redondeadas, añade fácilmente esquinas redondeadas a cualquier foto: ideal para iconos de apps, fotos de perfil y proyectos de diseño.",
+    "upload": "Subir foto",
+    "download": "Descargar",
+    "radiusLabel": "Radio (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Procesando...",
+    "errorUploadFirst": "Por favor suba una foto primero.",
+    "errorSelectFile": "Por favor seleccione un archivo de imagen.",
+    "page": {
+      "title": "Foto a esquinas redondeadas – Herramienta en línea gratuita",
+      "description": "Foto a esquinas redondeadas es una herramienta en línea gratuita para añadir esquinas redondeadas a cualquier foto. Cree iconos de app, imágenes con bordes suaves para redes sociales o miniaturas con radio y zoom ajustables. Sin registro – suba, ajuste y descargue."
+    },
+    "seo": {
+      "title": "Foto a esquinas redondeadas | Herramienta en línea gratuita",
+      "description": "Herramienta gratuita en línea para añadir esquinas redondeadas a cualquier foto – ideal para iconos de app, fotos de perfil y proyectos de diseño."
+    },
+    "selectRegion": {
+      "title": "Seleccionar región",
+      "subtitle": "Elija su idioma y región preferidos"
+    },
+    "rateService": {
+      "title": "Valorar Foto a esquinas redondeadas",
+      "thankYou": "¡Gracias por sus comentarios!",
+      "averageRating": "4.5",
+      "votes": "4,992 votos"
+    }
   },
   "blog": {
     "seo": {

@@ -212,32 +212,63 @@
         "title": "Convertidor de Foto a URL | Passa fotos a enllaços",
         "description": "Allotjament d'imatges gratuït: converteix fotos a URLs permanents a l'instant. Suporta JPG, PNG, WEBP, GIF fins a 10MB."
       }
+    }
+  },
+  "circleCrop": {
+    "title": "Retall en cercle",
+    "description": "Eina gratuïta en línia per retallar fotos en cercle, ideal per a fotos de perfil i xarxes socials.",
+    "upload": "Puja Foto",
+    "processing": "Processant...",
+    "download": "Descarrega Foto Circular",
+    "errorSelectFile": "Si us plau, selecciona un fitxer de foto",
+    "errorUploadFirst": "Si us plau, puja primer una foto.",
+    "page": {
+      "title": "Retall en Cercle - Eina Gratuïta de Retall Circular en Línia",
+      "description": "Retall en Cercle és una eina gratuïta en línia per transformar fotos rectangulars en formes perfectament circulars. La nostra eina us ajuda a retallar fotos en format circular instantàniament, sense necessitat de registre. Tant si necessiteu una foto de perfil rodona, una foto circular per a xarxes socials, o una foto arrodonida per a projectes de disseny, la nostra eina de retall circular ho fa tot simple i fàcil."
     },
-    "circleCrop": {
-      "title": "Retall en cercle",
-      "description": "Eina gratuïta en línia per retallar fotos en cercle, ideal per a fotos de perfil i xarxes socials.",
-      "upload": "Puja Foto",
-      "processing": "Processant...",
-      "download": "Descarrega Foto Circular",
-      "seo": {
-        "title": "Retallar Foto en Cercle | Eina Online Gratuïta",
-        "description": "Retalla qualsevol foto en un cercle perfecte per a perfils i dissenys."
-      },
-      "selectRegion": {
-        "title": "Seleccioneu la regió",
-        "subtitle": "Trieu l'idioma i la regió preferits"
-      },
-      "rateService": {
-        "title": "Valoreu Photo To Circle Crop",
-        "thankYou": "Gràcies per la vostra opinió!",
-        "averageRating": "4.5",
-        "votes": "4,992 vots"
-      }
+    "seo": {
+      "title": "Retallar Foto en Cercle | Eina Online Gratuïta",
+      "description": "Retalla qualsevol foto en un cercle perfecte per a perfils i dissenys."
+    },
+    "selectRegion": {
+      "title": "Seleccioneu la regió",
+      "subtitle": "Trieu l'idioma i la regió preferits"
+    },
+    "rateService": {
+      "title": "Valoreu {productName}",
+      "thankYou": "Gràcies per la vostra opinió!",
+      "averageRating": "4.5",
+      "votes": "4,992 vots"
     }
   },
   "roundedCorners": {
     "title": "Foto a cantonades arrodonides",
-    "description": "Eina en línia gratuïta per a cantonades arrodonides, afegiu fàcilment cantonades arrodonides a qualsevol foto - perfecte per a fotos de perfil, xarxes socials i projectes de disseny."
+    "description": "Eina en línia gratuïta per a cantonades arrodonides, afegiu fàcilment cantonades arrodonides a qualsevol foto - perfecte per a icones d'aplicacions, fotos de perfil i projectes de disseny.",
+    "upload": "Puja una foto",
+    "download": "Descarrega",
+    "radiusLabel": "Radi (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Processant...",
+    "errorUploadFirst": "Si us plau, puja primer una foto.",
+    "errorSelectFile": "Si us plau, selecciona un fitxer d'imatge.",
+    "page": {
+      "title": "Foto a cantonades arrodonides – Eina en línia gratuïta",
+      "description": "Foto a cantonades arrodonides és una eina en línia gratuïta per afegir cantonades arrodonides a qualsevol foto. Creeu icones d'estil app, imatges amb vores suaus per a xarxes socials o miniatures amb radi i zoom ajustables. Sense registre – puja, ajusta, descarrega."
+    },
+    "seo": {
+      "title": "Foto a cantonades arrodonides | Eina en línia gratuïta",
+      "description": "Eina gratuïta per afegir cantonades arrodonides a fotos – per a icones d'app, fotos de perfil i projectes de disseny."
+    },
+    "selectRegion": {
+      "title": "Selecciona la regió",
+      "subtitle": "Trieu la vostra llengua i regió preferides"
+    },
+    "rateService": {
+      "title": "Valora Foto a cantonades arrodonides",
+      "thankYou": "Gràcies pel vostre feedback!",
+      "averageRating": "4.5",
+      "votes": "4.992 vots"
+    }
   },
   "about": {
     "seo": {

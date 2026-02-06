@@ -319,7 +319,32 @@
   },
   "roundedCorners": {
     "title": "Foto met afgeronde hoeken",
-    "description": "Gratis online tool voor afgeronde hoeken, voeg eenvoudig afgeronde hoeken toe aan elke foto – perfect voor profielfoto's, sociale media en ontwerpprojecten."
+    "description": "Gratis online tool voor afgeronde hoeken, voeg eenvoudig afgeronde hoeken toe aan elke foto – perfect voor app-iconen, profielfoto's en ontwerpprojecten.",
+    "upload": "Foto uploaden",
+    "download": "Downloaden",
+    "radiusLabel": "Straal (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Bezig met verwerken...",
+    "errorUploadFirst": "Upload eerst een foto.",
+    "errorSelectFile": "Selecteer een afbeeldingsbestand.",
+    "page": {
+      "title": "Foto met afgeronde hoeken – Gratis online tool",
+      "description": "Foto met afgeronde hoeken is een gratis online tool om afgeronde hoeken aan elke foto toe te voegen. Maak app-achtige iconen, zachte afbeeldingen voor sociale media of miniaturen met instelbare straal en zoom. Geen aanmelding – upload, pas aan, download."
+    },
+    "seo": {
+      "title": "Foto met afgeronde hoeken | Gratis online tool",
+      "description": "Gratis online tool om afgeronde hoeken aan elke foto toe te voegen – ideaal voor app-iconen, profielfoto's en ontwerpprojecten."
+    },
+    "selectRegion": {
+      "title": "Regio selecteren",
+      "subtitle": "Kies uw voorkeurstaal en regio"
+    },
+    "rateService": {
+      "title": "Beoordeel Foto met afgeronde hoeken",
+      "thankYou": "Bedankt voor uw feedback!",
+      "averageRating": "4.5",
+      "votes": "4.992 stemmen"
+    }
   },
   "blog": {
     "seo": {

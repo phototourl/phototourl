@@ -178,32 +178,63 @@
         "title": "Photo To URL Converter | Gawing link ang iyong mga larawan",
         "description": "Libreng image hosting: gawing permanenteng URL ang mga larawan agad-agad. Suportado ang JPG, PNG, WEBP, GIF hanggang 10MB."
       }
+    }
+  },
+  "circleCrop": {
+    "title": "Gupit na Bilog",
+    "description": "Libreng online na tool para sa pag-crop ng larawan sa bilog - perpekto para sa profile pictures.",
+    "upload": "I-upload ang Larawan",
+    "processing": "Pinoproseso...",
+    "download": "I-download ang Bilog na Larawan",
+    "errorSelectFile": "Mangyaring pumili ng image file.",
+    "errorUploadFirst": "Mangyaring mag-upload muna ng larawan.",
+    "page": {
+      "title": "Photo To Circle Crop - Libreng Online Tool",
+      "description": "Gawing perpektong bilog ang iyong mga rectangular na larawan agad-agad, walang kailangang signup."
     },
-    "circleCrop": {
-      "title": "Gupit na Bilog",
-      "description": "Libreng online na tool para sa pag-crop ng larawan sa bilog - perpekto para sa profile pictures.",
-      "upload": "I-upload ang Larawan",
-      "processing": "Pinoproseso...",
-      "download": "I-download ang Bilog na Larawan",
-      "page": {
-        "title": "Photo To Circle Crop - Libreng Online Tool",
-        "description": "Gawing perpektong bilog ang iyong mga rectangular na larawan agad-agad, walang kailangang signup."
-      },
-      "selectRegion": {
-        "title": "Pumili ng rehiyon",
-        "subtitle": "Pumili ng iyong gustong wika at rehiyon"
-      },
-      "rateService": {
-        "title": "I-rate ang Photo To Circle Crop",
-        "thankYou": "Salamat sa iyong feedback!",
-        "averageRating": "4.5",
-        "votes": "4,992 boto"
-      }
+    "seo": {
+      "title": "Gupit na Bilog | Libreng Online Tool",
+      "description": "Libreng online na tool para sa pag-crop ng larawan sa bilog - perpekto para sa profile pictures, social media, at design projects."
+    },
+    "selectRegion": {
+      "title": "Pumili ng rehiyon",
+      "subtitle": "Pumili ng iyong gustong wika at rehiyon"
+    },
+    "rateService": {
+      "title": "I-rate ang {productName}",
+      "thankYou": "Salamat sa iyong feedback!",
+      "averageRating": "4.5",
+      "votes": "4,992 boto"
     }
   },
   "roundedCorners": {
     "title": "Larawan na may bilugang sulok",
-    "description": "Libreng online na tool para sa bilugang sulok, madaling magdagdag ng bilugang sulok sa anumang larawan – perpekto para sa mga profile picture, social media, at design projects."
+    "description": "Libreng online na tool para sa bilugang sulok, madaling magdagdag ng bilugang sulok sa anumang larawan – perpekto para sa mga app icon, profile picture, at design projects.",
+    "upload": "Mag-upload ng larawan",
+    "download": "I-download",
+    "radiusLabel": "Radius (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Pinoproseso...",
+    "errorUploadFirst": "Mangyaring mag-upload muna ng larawan.",
+    "errorSelectFile": "Mangyaring pumili ng image file.",
+    "page": {
+      "title": "Larawan na may bilugang sulok – Libreng online na tool",
+      "description": "Larawan na may bilugang sulok ay isang libreng online na tool para magdagdag ng bilugang sulok sa anumang larawan. Gumawa ng app-style icons, malambot na mga larawan para sa social media, o thumbnails na may adjustable radius at zoom. Walang signup – upload, ayusin, i-download."
+    },
+    "seo": {
+      "title": "Larawan na may bilugang sulok | Libreng online na tool",
+      "description": "Libreng tool para magdagdag ng bilugang sulok sa larawan – para sa app icons, profile pictures, at design projects."
+    },
+    "selectRegion": {
+      "title": "Piliin ang rehiyon",
+      "subtitle": "Piliin ang iyong wika at rehiyon"
+    },
+    "rateService": {
+      "title": "I-rate ang Larawan na may bilugang sulok",
+      "thankYou": "Salamat sa iyong feedback!",
+      "averageRating": "4.5",
+      "votes": "4,992 boto"
+    }
   },
   "about": {
     "seo": {

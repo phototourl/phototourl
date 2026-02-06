@@ -319,7 +319,32 @@
   },
   "roundedCorners": {
     "title": "Yuvarlatılmış köşeli fotoğraf",
-    "description": "Ücretsiz çevrimiçi yuvarlatılmış köşe aracı – herhangi bir fotoğrafa kolayca yuvarlatılmış köşe ekleyin, profil fotoğrafları, sosyal medya ve tasarım projeleri için ideal."
+    "description": "Ücretsiz çevrimiçi yuvarlatılmış köşe aracı – herhangi bir fotoğrafa kolayca yuvarlatılmış köşe ekleyin, uygulama simgeleri, profil fotoğrafları ve tasarım projeleri için ideal.",
+    "upload": "Fotoğraf yükle",
+    "download": "İndir",
+    "radiusLabel": "Yarıçap (px)",
+    "scaleLabel": "Yakınlaştır",
+    "processing": "İşleniyor...",
+    "errorUploadFirst": "Lütfen önce bir fotoğraf yükleyin.",
+    "errorSelectFile": "Lütfen bir görsel dosyası seçin.",
+    "page": {
+      "title": "Yuvarlatılmış köşeli fotoğraf – Ücretsiz çevrimiçi araç",
+      "description": "Yuvarlatılmış köşeli fotoğraf, herhangi bir fotoğrafa yuvarlatılmış köşe ekleyen ücretsiz bir çevrimiçi araçtır. Uygulama tarzı ikonlar, sosyal medya için yumuşak kenarlı görseller veya ayarlanabilir yarıçap ve zoom ile küçük resimler oluşturun. Kayıt yok – yükle, ayarla, indir."
+    },
+    "seo": {
+      "title": "Yuvarlatılmış köşeli fotoğraf | Ücretsiz çevrimiçi araç",
+      "description": "Herhangi bir fotoğrafa yuvarlatılmış köşe ekleyen ücretsiz araç – uygulama ikonları, profil fotoğrafları ve tasarım projeleri için ideal."
+    },
+    "selectRegion": {
+      "title": "Bölge seçin",
+      "subtitle": "Tercih ettiğiniz dili ve bölgeyi seçin"
+    },
+    "rateService": {
+      "title": "Yuvarlatılmış köşeli fotoğrafı değerlendir",
+      "thankYou": "Geri bildiriminiz için teşekkürler!",
+      "averageRating": "4.5",
+      "votes": "4.992 oy"
+    }
   },
   "blog": {
     "seo": {

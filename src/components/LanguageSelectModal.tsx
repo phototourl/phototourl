@@ -126,6 +126,9 @@ export function LanguageSelectModal({ open, onClose }: LanguageSelectModalProps)
     if (pathname.includes("/circlecrop")) {
       sessionStorage.setItem("circleCropLanguageSwitch", "true");
     }
+    if (pathname.includes("/roundedcorners")) {
+      sessionStorage.setItem("roundedCornersLanguageSwitch", "true");
+    }
     if (pathname === "/" || pathname === "") {
       sessionStorage.setItem("homePageLanguageSwitch", "true");
     }

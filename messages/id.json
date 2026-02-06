@@ -319,7 +319,32 @@
   },
   "roundedCorners": {
     "title": "Foto ke Sudut Membulat",
-    "description": "Alat online gratis untuk sudut membulat, tambahkan sudut membulat ke foto apa pun dengan mudah – cocok untuk foto profil, media sosial, dan proyek desain."
+    "description": "Alat online gratis untuk sudut membulat, tambahkan sudut membulat ke foto apa pun dengan mudah – cocok untuk ikon aplikasi, foto profil dan proyek desain.",
+    "upload": "Unggah foto",
+    "download": "Unduh",
+    "radiusLabel": "Jari-jari (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Memproses...",
+    "errorUploadFirst": "Silakan unggah foto terlebih dahulu.",
+    "errorSelectFile": "Silakan pilih file gambar.",
+    "page": {
+      "title": "Foto ke Sudut Membulat – Alat online gratis",
+      "description": "Foto ke Sudut Membulat adalah alat online gratis untuk menambahkan sudut membulat ke foto apa pun. Buat ikon gaya app, gambar bertepi lembut untuk media sosial, atau thumbnail dengan jari-jari dan zoom yang dapat disesuaikan. Tanpa mendaftar – unggah, sesuaikan, unduh."
+    },
+    "seo": {
+      "title": "Foto ke Sudut Membulat | Alat online gratis",
+      "description": "Alat gratis untuk menambahkan sudut membulat ke foto – untuk ikon app, foto profil, dan proyek desain."
+    },
+    "selectRegion": {
+      "title": "Pilih wilayah",
+      "subtitle": "Pilih bahasa dan wilayah preferensi Anda"
+    },
+    "rateService": {
+      "title": "Nilai Foto ke Sudut Membulat",
+      "thankYou": "Terima kasih atas masukan Anda!",
+      "averageRating": "4.5",
+      "votes": "4.992 suara"
+    }
   },
   "blog": {
     "seo": {

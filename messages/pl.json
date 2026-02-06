@@ -319,7 +319,32 @@
   },
   "roundedCorners": {
     "title": "Zdjęcie z zaokrąglonymi rogami",
-    "description": "Darmowe narzędzie online do zaokrąglania rogów – łatwo dodaj zaokrąglone rogi do dowolnego zdjęcia, idealne do zdjęć profilowych, mediów społecznościowych i projektów graficznych."
+    "description": "Darmowe narzędzie online do zaokrąglania rogów – łatwo dodaj zaokrąglone rogi do dowolnego zdjęcia, idealne do ikon aplikacji, zdjęć profilowych i projektów graficznych.",
+    "upload": "Prześlij zdjęcie",
+    "download": "Pobierz",
+    "radiusLabel": "Promień (px)",
+    "scaleLabel": "Powiększenie",
+    "processing": "Przetwarzanie...",
+    "errorUploadFirst": "Najpierw prześlij zdjęcie.",
+    "errorSelectFile": "Wybierz plik obrazu.",
+    "page": {
+      "title": "Zdjęcie z zaokrąglonymi rogami – darmowe narzędzie online",
+      "description": "Zdjęcie z zaokrąglonymi rogami to darmowe narzędzie online do dodawania zaokrąglonych rogów do dowolnego zdjęcia. Twórz ikony w stylu aplikacji, obrazy z miękkimi krawędziami do mediów społecznościowych lub miniatury z regulowanym promieniem i zoomem. Bez rejestracji – prześlij, dostosuj, pobierz."
+    },
+    "seo": {
+      "title": "Zdjęcie z zaokrąglonymi rogami | Darmowe narzędzie online",
+      "description": "Darmowe narzędzie do dodawania zaokrąglonych rogów do dowolnego zdjęcia – idealne do ikon aplikacji, zdjęć profilowych i projektów graficznych."
+    },
+    "selectRegion": {
+      "title": "Wybierz region",
+      "subtitle": "Wybierz preferowany język i region"
+    },
+    "rateService": {
+      "title": "Oceń Zdjęcie z zaokrąglonymi rogami",
+      "thankYou": "Dziękujemy za opinię!",
+      "averageRating": "4.5",
+      "votes": "4 992 głosy"
+    }
   },
   "blog": {
     "seo": {

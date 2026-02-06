@@ -637,7 +637,7 @@ export function CircleCropTool({ showHeading = true }: CircleCropToolProps) {
   return (
     <div className="flex flex-col">
       {showHeading && (
-        <div className="space-y-3 text-center mb-12">
+        <div className="space-y-3 text-center mb-8">
           <h1 className="flex items-center justify-center gap-3 text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl lg:text-4xl">
             <div className="h-8 w-8 rounded-xl overflow-hidden sm:h-10 sm:w-10 lg:h-12 lg:w-12">
               <NextImage
@@ -658,7 +658,7 @@ export function CircleCropTool({ showHeading = true }: CircleCropToolProps) {
 
       <div className="flex flex-col items-center">
         {/* 上传按钮 - 始终显示 */}
-        <div className={`w-full max-w-[480px] ${!loadedImage ? 'flex items-center justify-center min-h-[200px] md:min-h-[250px]' : ''}`}>
+        <div className={`w-full max-w-[480px] ${!loadedImage ? 'flex items-center justify-center min-h-[250px] md:min-h-[300px]' : ''}`}>
           <label ref={uploadButtonRef} htmlFor="file-upload-circle" className="w-full">
             <input
               id="file-upload-circle"

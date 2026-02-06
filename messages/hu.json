@@ -196,32 +196,63 @@
         "title": "Photo To URL átalakító | Fotók átalakítása megosztható linkekké",
         "description": "Ingyenes képtárhely: alakítsa fotóit állandó URL-ekké azonnal. JPG, PNG, WEBP, GIF támogatás 10MB-ig."
       }
+    }
+  },
+  "circleCrop": {
+    "title": "Körbe vágás",
+    "description": "Ingyenes online eszköz fotók kör alakúra vágásához - tökéletes profilképekhez és designhoz.",
+    "upload": "Fotó feltöltése",
+    "processing": "Feldolgozás...",
+    "download": "Kör alakú kép letöltése",
+    "errorSelectFile": "Kérjük, válasszon képfájlt.",
+    "errorUploadFirst": "Kérjük, először töltsön fel fényképet.",
+    "page": {
+      "title": "Kör alakú képvágó - Ingyenes online eszköz",
+      "description": "Alakítsa át négyszögletes fotóit tökéletes kör alakúvá azonnal, regisztráció nélkül."
     },
-    "circleCrop": {
-      "title": "Körbe vágás",
-      "description": "Ingyenes online eszköz fotók kör alakúra vágásához - tökéletes profilképekhez és designhoz.",
-      "upload": "Fotó feltöltése",
-      "processing": "Feldolgozás...",
-      "download": "Kör alakú kép letöltése",
-      "page": {
-        "title": "Kör alakú képvágó - Ingyenes online eszköz",
-        "description": "Alakítsa át négyszögletes fotóit tökéletes kör alakúvá azonnal, regisztráció nélkül."
-      },
-      "selectRegion": {
-        "title": "Válasszon régiót",
-        "subtitle": "Válassza ki az előnyben részesített nyelvet és régiót"
-      },
-      "rateService": {
-        "title": "Értékelje a Photo To Circle Crop-ot",
-        "thankYou": "Köszönjük a visszajelzést!",
-        "averageRating": "4.5",
-        "votes": "4,992 szavazat"
-      }
+    "seo": {
+      "title": "Kör alakú képvágó | Ingyenes online eszköz",
+      "description": "Ingyenes online eszköz fotók kör alakúra vágásához - tökéletes profilképekhez és design projektekhez."
+    },
+    "selectRegion": {
+      "title": "Válasszon régiót",
+      "subtitle": "Válassza ki az előnyben részesített nyelvet és régiót"
+    },
+    "rateService": {
+      "title": "Értékelje a {productName}-ot",
+      "thankYou": "Köszönjük a visszajelzést!",
+      "averageRating": "4.5",
+      "votes": "4,992 szavazat"
     }
   },
   "roundedCorners": {
     "title": "Kép kerekített sarkokkal",
-    "description": "Ingyenes online kerekített sarkok eszköz – könnyen adjon kerekített sarkokat bármely fotóhoz, tökéletes profilképekhez, közösségi médiához és design projektekhez."
+    "description": "Ingyenes online kerekített sarkok eszköz – könnyen adjon kerekített sarkokat bármely fotóhoz, tökéletes alkalmazásikonokhoz, profilképekhez és design projektekhez.",
+    "upload": "Fénykép feltöltése",
+    "download": "Letöltés",
+    "radiusLabel": "Sugár (px)",
+    "scaleLabel": "Nagyítás",
+    "processing": "Feldolgozás...",
+    "errorUploadFirst": "Kérjük, először töltsön fel fényképet.",
+    "errorSelectFile": "Kérjük, válasszon képfájlt.",
+    "page": {
+      "title": "Kép kerekített sarkokkal – Ingyenes online eszköz",
+      "description": "Kép kerekített sarkokkal egy ingyenes online eszköz, amellyel kerekített sarkokat adhat bármely fotóhoz. Készítsen alkalmazás stílusú ikonokat, puha szélelű képeket közösségi médiához vagy bélyegképeket állítható sugárral és nagyítással. Regisztráció nélkül – feltöltés, igazítás, letöltés."
+    },
+    "seo": {
+      "title": "Kép kerekített sarkokkal | Ingyenes online eszköz",
+      "description": "Ingyenes eszköz kerekített sarkok hozzáadásához fotókhoz – alkalmazás ikonokhoz, profilképekhez és design projektekhez."
+    },
+    "selectRegion": {
+      "title": "Régió kiválasztása",
+      "subtitle": "Válassza az előnyben részesített nyelvet és régiót"
+    },
+    "rateService": {
+      "title": "Kép kerekített sarkokkal értékelése",
+      "thankYou": "Köszönjük a visszajelzést!",
+      "averageRating": "4.5",
+      "votes": "4 992 szavazat"
+    }
   },
   "contact": {
     "page": {

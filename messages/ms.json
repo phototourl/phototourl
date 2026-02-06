@@ -319,7 +319,32 @@
   },
   "roundedCorners": {
     "title": "Foto ke Sudut Bulat",
-    "description": "Alat dalam talian percuma untuk sudut bulat, tambah sudut bulat ke mana-mana foto dengan mudah – sesuai untuk gambar profil, media sosial, dan projek reka bentuk."
+    "description": "Alat dalam talian percuma untuk sudut bulat, tambah sudut bulat ke mana-mana foto dengan mudah – sesuai untuk ikon aplikasi, gambar profil dan projek reka bentuk.",
+    "upload": "Muat naik foto",
+    "download": "Muat turun",
+    "radiusLabel": "Jejari (px)",
+    "scaleLabel": "Zum",
+    "processing": "Memproses...",
+    "errorUploadFirst": "Sila muat naik foto terlebih dahulu.",
+    "errorSelectFile": "Sila pilih fail imej.",
+    "page": {
+      "title": "Foto ke Sudut Bulat – Alat dalam talian percuma",
+      "description": "Foto ke Sudut Bulat ialah alat dalam talian percuma untuk menambah sudut bulat ke mana-mana foto. Cipta ikon gaya app, imej tepi lembut untuk media sosial, atau thumbnail dengan jejari dan zum yang boleh laras. Tanpa pendaftaran – muat naik, laraskan, muat turun."
+    },
+    "seo": {
+      "title": "Foto ke Sudut Bulat | Alat dalam talian percuma",
+      "description": "Alat percuma untuk menambah sudut bulat ke foto – untuk ikon app, gambar profil, dan projek reka bentuk."
+    },
+    "selectRegion": {
+      "title": "Pilih rantau",
+      "subtitle": "Pilih bahasa dan rantau pilihan anda"
+    },
+    "rateService": {
+      "title": "Nilai Foto ke Sudut Bulat",
+      "thankYou": "Terima kasih atas maklum balas anda!",
+      "averageRating": "4.5",
+      "votes": "4,992 undi"
+    }
   },
   "blog": {
     "seo": {

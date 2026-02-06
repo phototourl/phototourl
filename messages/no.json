@@ -161,32 +161,63 @@
         "title": "Photo To URL Converter | Gjør bilder om til delbare lenker",
         "description": "Gratis bildehosting: konverter bilder til permanente URL-er umiddelbart. Støtter JPG, PNG, WEBP, GIF opptil 10MB."
       }
+    }
+  },
+  "circleCrop": {
+    "title": "Rundt bilde",
+    "description": "Gratis online-verktøy for å beskjære bilder til en perfekt sirkel - ideelt for profilbilder.",
+    "upload": "Last opp bilde",
+    "processing": "Behandler...",
+    "download": "Last ned sirkulært bilde",
+    "errorSelectFile": "Velg en bildefil.",
+    "errorUploadFirst": "Last opp et foto først.",
+    "page": {
+      "title": "Rund bildebeskjæring - Gratis verktøy på nett",
+      "description": "Beskjær bildene dine til en sirkelformet profilbilde-vennlig stil på sekunder uten registrering."
     },
-    "circleCrop": {
-      "title": "Rundt bilde",
-      "description": "Gratis online-verktøy for å beskjære bilder til en perfekt sirkel - ideelt for profilbilder.",
-      "upload": "Last opp bilde",
-      "processing": "Behandler...",
-      "download": "Last ned sirkulært bilde",
-      "page": {
-        "title": "Rund bildebeskjæring - Gratis verktøy på nett",
-        "description": "Beskjær bildene dine til en sirkelformet profilbilde-vennlig stil på sekunder uten registrering."
-      },
-      "selectRegion": {
-        "title": "Velg region",
-        "subtitle": "Velg ditt foretrukne språk og region"
-      },
-      "rateService": {
-        "title": "Vurder Photo To Circle Crop",
-        "thankYou": "Takk for tilbakemeldingen!",
-        "averageRating": "4.5",
-        "votes": "4,992 stemmer"
-      }
+    "seo": {
+      "title": "Rundt bilde | Gratis online verktøy",
+      "description": "Gratis online verktøy for å beskjære bilder til en perfekt sirkel - ideelt for profilbilder og designprosjekter."
+    },
+    "selectRegion": {
+      "title": "Velg region",
+      "subtitle": "Velg ditt foretrukne språk og region"
+    },
+    "rateService": {
+      "title": "Vurder {productName}",
+      "thankYou": "Takk for tilbakemeldingen!",
+      "averageRating": "4.5",
+      "votes": "4,992 stemmer"
     }
   },
   "roundedCorners": {
     "title": "Bilde med avrundede hjørner",
-    "description": "Gratis nettverktøy for avrundede hjørner – legg enkelt til avrundede hjørner til ethvert bilde, perfekt for profilbilder, sosiale medier og designprosjekter."
+    "description": "Gratis nettverktøy for avrundede hjørner – legg enkelt til avrundede hjørner til ethvert bilde, perfekt for appikoner, profilbilder og designprosjekter.",
+    "upload": "Last opp foto",
+    "download": "Last ned",
+    "radiusLabel": "Radius (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Behandler...",
+    "errorUploadFirst": "Last opp et foto først.",
+    "errorSelectFile": "Velg en bildefil.",
+    "page": {
+      "title": "Bilde med avrundede hjørner – Gratis nettverktøy",
+      "description": "Bilde med avrundede hjørner er et gratis nettverktøy for å legge til avrundede hjørner til ethvert bilde. Lag app-ikoner, myke bilder for sosiale medier eller miniatyrbilder med justerbar radius og zoom. Uten registrering – last opp, juster, last ned."
+    },
+    "seo": {
+      "title": "Bilde med avrundede hjørner | Gratis nettverktøy",
+      "description": "Gratis verktøy for å legge til avrundede hjørner til bilder – for app-ikoner, profilbilder og designprosjekter."
+    },
+    "selectRegion": {
+      "title": "Velg region",
+      "subtitle": "Velg ditt foretrukne språk og region"
+    },
+    "rateService": {
+      "title": "Vurder Bilde med avrundede hjørner",
+      "thankYou": "Takk for tilbakemeldingen!",
+      "averageRating": "4.5",
+      "votes": "4.992 stemmer"
+    }
   },
   "about": {
     "seo": {

@@ -319,7 +319,32 @@
   },
   "roundedCorners": {
     "title": "Photo à coins arrondis",
-    "description": "Outil en ligne gratuit pour coins arrondis, ajoutez facilement des coins arrondis à toute photo – parfait pour photos de profil, réseaux sociaux et projets de design."
+    "description": "Outil en ligne gratuit pour coins arrondis, ajoutez facilement des coins arrondis à toute photo – parfait pour icônes d'app, photos de profil et projets de design.",
+    "upload": "Télécharger une photo",
+    "download": "Télécharger",
+    "radiusLabel": "Rayon (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Traitement...",
+    "errorUploadFirst": "Veuillez d'abord télécharger une photo.",
+    "errorSelectFile": "Veuillez sélectionner un fichier image.",
+    "page": {
+      "title": "Photo à coins arrondis – Outil en ligne gratuit",
+      "description": "Photo à coins arrondis est un outil en ligne gratuit pour ajouter des coins arrondis à toute photo. Créez des icônes style app, des images aux bords doux pour les réseaux sociaux ou des miniatures avec rayon et zoom réglables. Sans inscription – téléchargez, ajustez, enregistrez."
+    },
+    "seo": {
+      "title": "Photo à coins arrondis | Outil en ligne gratuit",
+      "description": "Outil gratuit en ligne pour ajouter des coins arrondis à toute photo – idéal pour icônes d'app, photos de profil et projets de design."
+    },
+    "selectRegion": {
+      "title": "Sélectionner la région",
+      "subtitle": "Choisissez votre langue et région préférées"
+    },
+    "rateService": {
+      "title": "Évaluer Photo à coins arrondis",
+      "thankYou": "Merci pour vos commentaires !",
+      "averageRating": "4.5",
+      "votes": "4,992 votes"
+    }
   },
   "blog": {
     "seo": {

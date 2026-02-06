@@ -194,32 +194,63 @@
         "title": "Photo To URL Converter | Gør fotos til links, der kan deles",
         "description": "Gratis billedhosting: konvertér fotos til permanente URL'er med det samme. Understøtter JPG, PNG, WEBP, GIF op til 10MB."
       }
+    }
+  },
+  "circleCrop": {
+    "title": "Rundt billede",
+    "description": "Gratis online værktøj til at beskære fotos til en cirkel - perfekt til profilbilleder og sociale medier.",
+    "upload": "Upload foto",
+    "processing": "Behandler...",
+    "download": "Download cirkulært foto",
+    "errorSelectFile": "Vælg en billedfil.",
+    "errorUploadFirst": "Upload venligst et billede først.",
+    "page": {
+      "title": "Rundt Billede - Gratis Online Rund Billedbeskærer",
+      "description": "Rundt Billede er et gratis online værktøj til at transformere rektangulære fotos til perfekt cirkulære former. Vores værktøj hjælper dig med at beskære fotos i cirkelformat øjeblikkeligt, uden registrering påkrævet. Uanset om du har brug for et rundt profilbillede, et cirkulært foto til sociale medier, eller et afrundet foto til designprojekter, gør vores cirkulære foto beskæringsværktøj det enkelt og nemt."
     },
-    "circleCrop": {
-      "title": "Rundt billede",
-      "description": "Gratis online værktøj til at beskære fotos til en cirkel - perfekt til profilbilleder og sociale medier.",
-      "upload": "Upload foto",
-      "processing": "Behandler...",
-      "download": "Download cirkulært foto",
-      "seo": {
-        "title": "Beskær billede til cirkel | Gratis online værktøj",
-        "description": "Beskær ethvert foto til en perfekt cirkel - ideelt til profilbilleder og designprojekter."
-      },
-      "selectRegion": {
-        "title": "Vælg region",
-        "subtitle": "Vælg dit foretrukne sprog og region"
-      },
-      "rateService": {
-        "title": "Bedøm Photo To Circle Crop",
-        "thankYou": "Tak for din feedback!",
-        "averageRating": "4.5",
-        "votes": "4,992 stemmer"
-      }
+    "seo": {
+      "title": "Beskær billede til cirkel | Gratis online værktøj",
+      "description": "Beskær ethvert foto til en perfekt cirkel - ideelt til profilbilleder og designprojekter."
+    },
+    "selectRegion": {
+      "title": "Vælg region",
+      "subtitle": "Vælg dit foretrukne sprog og region"
+    },
+    "rateService": {
+      "title": "Bedøm {productName}",
+      "thankYou": "Tak for din feedback!",
+      "averageRating": "4.5",
+      "votes": "4,992 stemmer"
     }
   },
   "roundedCorners": {
     "title": "Billede med rundede hjørner",
-    "description": "Gratis online værktøj til rundede hjørner – tilføj nemt rundede hjørner til ethvert billede, perfekt til profilbilleder, sociale medier og designprojekter."
+    "description": "Gratis online værktøj til rundede hjørner – tilføj nemt rundede hjørner til ethvert billede, perfekt til app-ikoner, profilbilleder og designprojekter.",
+    "upload": "Upload billede",
+    "download": "Download",
+    "radiusLabel": "Radius (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Behandler...",
+    "errorUploadFirst": "Upload venligst et billede først.",
+    "errorSelectFile": "Vælg en billedfil.",
+    "page": {
+      "title": "Billede med rundede hjørner – Gratis online værktøj",
+      "description": "Billede med rundede hjørner er et gratis online værktøj til at tilføje rundede hjørner til ethvert billede. Opret app-stil ikoner, bløde billeder til sociale medier eller miniaturebilleder med justerbar radius og zoom. Uden tilmelding – upload, juster, download."
+    },
+    "seo": {
+      "title": "Billede med rundede hjørner | Gratis online værktøj",
+      "description": "Gratis værktøj til at tilføje rundede hjørner til billeder – til app-ikoner, profilbilleder og designprojekter."
+    },
+    "selectRegion": {
+      "title": "Vælg region",
+      "subtitle": "Vælg dit foretrukne sprog og region"
+    },
+    "rateService": {
+      "title": "Bedøm Billede med rundede hjørner",
+      "thankYou": "Tak for din feedback!",
+      "averageRating": "4.5",
+      "votes": "4.992 stemmer"
+    }
   },
   "about": {
     "seo": {

@@ -168,32 +168,63 @@
         "title": "Pretvarač fotografije u URL | Pretvorite slike u djeljive poveznice",
         "description": "Besplatni hosting slika: odmah pretvorite fotografije u trajne URL-ove. Podržava JPG, PNG, WEBP, GIF do 10MB."
       }
+    }
+  },
+  "circleCrop": {
+    "title": "Okrugli izrez",
+    "description": "Besplatni online alat za izrezivanje fotografija u krug - idealno za profilne slike.",
+    "upload": "Učitaj fotografiju",
+    "processing": "Obrađuje se...",
+    "download": "Preuzmi kružnu sliku",
+    "errorSelectFile": "Odaberite datoteku slike.",
+    "errorUploadFirst": "Prvo prenesite fotografiju.",
+    "page": {
+      "title": "Kružni izrez fotografije - Besplatni online alat",
+      "description": "Pretvorite pravokutne fotografije u savršene krugove odmah i bez registracije."
     },
-    "circleCrop": {
-      "title": "Okrugli izrez",
-      "description": "Besplatni online alat za izrezivanje fotografija u krug - idealno za profilne slike.",
-      "upload": "Učitaj fotografiju",
-      "processing": "Obrađuje se...",
-      "download": "Preuzmi kružnu sliku",
-      "page": {
-        "title": "Kružni izrez fotografije - Besplatni online alat",
-        "description": "Pretvorite pravokutne fotografije u savršene krugove odmah i bez registracije."
-      },
-      "selectRegion": {
-        "title": "Odaberite regiju",
-        "subtitle": "Odaberite željeni jezik i regiju"
-      },
-      "rateService": {
-        "title": "Ocijenite Photo To Circle Crop",
-        "thankYou": "Hvala vam na povratnim informacijama!",
-        "averageRating": "4.5",
-        "votes": "4,992 glasova"
-      }
+    "seo": {
+      "title": "Kružni izrez fotografije | Besplatni online alat",
+      "description": "Besplatni online alat za izrezivanje fotografija u krug - idealno za profilne slike i društvene mreže."
+    },
+    "selectRegion": {
+      "title": "Odaberite regiju",
+      "subtitle": "Odaberite željeni jezik i regiju"
+    },
+    "rateService": {
+      "title": "Ocijenite {productName}",
+      "thankYou": "Hvala vam na povratnim informacijama!",
+      "averageRating": "4.5",
+      "votes": "4,992 glasova"
     }
   },
   "roundedCorners": {
     "title": "Foto sa zaobljenim rubovima",
-    "description": "Besplatni online alat za zaobljene rubove – lako dodajte zaobljene rubove bilo kojoj fotografiji, savršeno za profilne slike, društvene mreže i dizajn projekte."
+    "description": "Besplatni online alat za zaobljene rubove – lako dodajte zaobljene rubove bilo kojoj fotografiji, savršeno za ikone aplikacija, profilne slike i dizajn projekte.",
+    "upload": "Prenesi fotografiju",
+    "download": "Preuzmi",
+    "radiusLabel": "Polumjer (px)",
+    "scaleLabel": "Uvećaj",
+    "processing": "Obrada...",
+    "errorUploadFirst": "Prvo prenesite fotografiju.",
+    "errorSelectFile": "Odaberite datoteku slike.",
+    "page": {
+      "title": "Foto sa zaobljenim rubovima – Besplatni online alat",
+      "description": "Foto sa zaobljenim rubovima je besplatni online alat za dodavanje zaobljenih rubova bilo kojoj fotografiji. Stvorite ikone u stilu aplikacija, slike s mekim rubovima za društvene mreže ili minijature s podesivim polumjerom i zoomom. Bez registracije – prenesite, prilagodite, preuzmite."
+    },
+    "seo": {
+      "title": "Foto sa zaobljenim rubovima | Besplatni online alat",
+      "description": "Besplatni alat za dodavanje zaobljenih rubova fotografijama – za ikone aplikacija, profilne slike i dizajn projekte."
+    },
+    "selectRegion": {
+      "title": "Odaberi regiju",
+      "subtitle": "Odaberite željeni jezik i regiju"
+    },
+    "rateService": {
+      "title": "Ocijeni Foto sa zaobljenim rubovima",
+      "thankYou": "Hvala na povratnoj informaciji!",
+      "averageRating": "4.5",
+      "votes": "4.992 glasova"
+    }
   },
   "about": {
     "seo": {

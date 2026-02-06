@@ -319,7 +319,32 @@
   },
   "roundedCorners": {
     "title": "Foto med rundade hörn",
-    "description": "Gratis onlineverktyg för rundade hörn – lägg enkelt till rundade hörn till vilken bild som helst, perfekt för profilbilder, sociala medier och designprojekt."
+    "description": "Gratis onlineverktyg för rundade hörn – lägg enkelt till rundade hörn till vilken bild som helst, perfekt för appikoner, profilbilder och designprojekt.",
+    "upload": "Ladda upp foto",
+    "download": "Ladda ner",
+    "radiusLabel": "Radie (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Bearbetar...",
+    "errorUploadFirst": "Ladda upp ett foto först.",
+    "errorSelectFile": "Välj en bildfil.",
+    "page": {
+      "title": "Foto med rundade hörn – Gratis onlineverktyg",
+      "description": "Foto med rundade hörn är ett gratis onlineverktyg för att lägga till rundade hörn till vilken bild som helst. Skapa applikationsikoner, mjuka bilder för sociala medier eller miniatyrer med justerbar radie och zoom. Ingen registrering – ladda upp, justera, ladda ner."
+    },
+    "seo": {
+      "title": "Foto med rundade hörn | Gratis onlineverktyg",
+      "description": "Gratis verktyg för att lägga till rundade hörn till bilder – perfekt för appikoner, profilbilder och designprojekt."
+    },
+    "selectRegion": {
+      "title": "Välj region",
+      "subtitle": "Välj ditt föredragna språk och region"
+    },
+    "rateService": {
+      "title": "Betygsätt Foto med rundade hörn",
+      "thankYou": "Tack för din feedback!",
+      "averageRating": "4.5",
+      "votes": "4 992 röster"
+    }
   },
   "blog": {
     "seo": {

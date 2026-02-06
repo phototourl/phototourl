@@ -319,7 +319,32 @@
   },
   "roundedCorners": {
     "title": "Ảnh bo góc tròn",
-    "description": "Công cụ trực tuyến miễn phí bo góc tròn, dễ dàng thêm góc tròn cho mọi ảnh – hoàn hảo cho ảnh đại diện, mạng xã hội và dự án thiết kế."
+    "description": "Công cụ trực tuyến miễn phí bo góc tròn, dễ dàng thêm góc tròn cho mọi ảnh – hoàn hảo cho biểu tượng ứng dụng, ảnh đại diện và dự án thiết kế.",
+    "upload": "Tải ảnh lên",
+    "download": "Tải xuống",
+    "radiusLabel": "Bán kính (px)",
+    "scaleLabel": "Thu phóng",
+    "processing": "Đang xử lý...",
+    "errorUploadFirst": "Vui lòng tải ảnh lên trước.",
+    "errorSelectFile": "Vui lòng chọn tệp hình ảnh.",
+    "page": {
+      "title": "Ảnh bo góc tròn – Công cụ trực tuyến miễn phí",
+      "description": "Ảnh bo góc tròn là công cụ trực tuyến miễn phí để thêm góc tròn cho bất kỳ ảnh nào. Tạo biểu tượng kiểu app, ảnh viền mềm cho mạng xã hội hoặc ảnh thu nhỏ với bán kính và thu phóng có thể điều chỉnh. Không cần đăng ký – tải lên, chỉnh sửa, tải xuống."
+    },
+    "seo": {
+      "title": "Ảnh bo góc tròn | Công cụ trực tuyến miễn phí",
+      "description": "Công cụ miễn phí thêm góc tròn cho ảnh – phù hợp cho biểu tượng app, ảnh đại diện và dự án thiết kế."
+    },
+    "selectRegion": {
+      "title": "Chọn khu vực",
+      "subtitle": "Chọn ngôn ngữ và khu vực ưa thích"
+    },
+    "rateService": {
+      "title": "Đánh giá Ảnh bo góc tròn",
+      "thankYou": "Cảm ơn phản hồi của bạn!",
+      "averageRating": "4.5",
+      "votes": "4.992 phiếu"
+    }
   },
   "blog": {
     "seo": {

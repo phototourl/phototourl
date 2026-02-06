@@ -134,6 +134,10 @@ export function LanguageSwitcher({ variant = "header", showModal = false, onModa
     if (pathname.includes('/circlecrop')) {
       sessionStorage.setItem('circleCropLanguageSwitch', 'true');
     }
+    // 如果当前在 roundedcorners 页面，设置标记以保留图片缓存
+    if (pathname.includes('/roundedcorners')) {
+      sessionStorage.setItem('roundedCornersLanguageSwitch', 'true');
+    }
     // 如果当前在首页，设置标记以保留图片状态
     if (pathname === '/' || pathname === '') {
       sessionStorage.setItem('homePageLanguageSwitch', 'true');

@@ -168,32 +168,63 @@
         "title": "Convertor Foto în URL | Transformă pozele în linkuri",
         "description": "Găzduire imagini gratuită: transformă pozele în URL-uri permanente instantaneu. Suportă JPG, PNG, WEBP, GIF până la 10MB."
       }
+    }
+  },
+  "circleCrop": {
+    "title": "Foto rotundă",
+    "description": "Instrument online gratuit pentru a decupa pozele într-un cerc perfect - ideal pentru poze de profil.",
+    "upload": "Încarcă foto",
+    "processing": "Se procesează...",
+    "download": "Descarcă foto circulară",
+    "errorSelectFile": "Selectați un fișier imagine.",
+    "errorUploadFirst": "Încărcați mai întâi o fotografie.",
+    "page": {
+      "title": "Decupare circulară foto - Instrument online gratuit",
+      "description": "Transformă pozele dreptunghiulare în forme circulare perfecte instantaneu, fără înregistrare."
     },
-    "circleCrop": {
-      "title": "Foto rotundă",
-      "description": "Instrument online gratuit pentru a decupa pozele într-un cerc perfect - ideal pentru poze de profil.",
-      "upload": "Încarcă foto",
-      "processing": "Se procesează...",
-      "download": "Descarcă foto circulară",
-      "page": {
-        "title": "Decupare circulară foto - Instrument online gratuit",
-        "description": "Transformă pozele dreptunghiulare în forme circulare perfecte instantaneu, fără înregistrare."
-      },
-      "selectRegion": {
-        "title": "Selectați regiunea",
-        "subtitle": "Alegeți limba și regiunea preferată"
-      },
-      "rateService": {
-        "title": "Evaluați Photo To Circle Crop",
-        "thankYou": "Vă mulțumim pentru feedback!",
-        "averageRating": "4.5",
-        "votes": "4,992 voturi"
-      }
+    "seo": {
+      "title": "Foto rotundă | Instrument online gratuit",
+      "description": "Instrument online gratuit pentru a decupa pozele într-un cerc perfect - ideal pentru poze de profil și proiecte de design."
+    },
+    "selectRegion": {
+      "title": "Selectați regiunea",
+      "subtitle": "Alegeți limba și regiunea preferată"
+    },
+    "rateService": {
+      "title": "Evaluați {productName}",
+      "thankYou": "Vă mulțumim pentru feedback!",
+      "averageRating": "4.5",
+      "votes": "4,992 voturi"
     }
   },
   "roundedCorners": {
     "title": "Foto cu colțuri rotunjite",
-    "description": "Instrument online gratuit pentru colțuri rotunjite – adăugați ușor colțuri rotunjite la orice fotografie, perfect pentru poze de profil, rețele sociale și proiecte de design."
+    "description": "Instrument online gratuit pentru colțuri rotunjite – adăugați ușor colțuri rotunjite la orice fotografie, perfect pentru icoane de aplicații, poze de profil și proiecte de design.",
+    "upload": "Încarcă foto",
+    "download": "Descarcă",
+    "radiusLabel": "Rază (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Se procesează...",
+    "errorUploadFirst": "Încărcați mai întâi o fotografie.",
+    "errorSelectFile": "Selectați un fișier imagine.",
+    "page": {
+      "title": "Foto cu colțuri rotunjite – Instrument online gratuit",
+      "description": "Foto cu colțuri rotunjite este un instrument online gratuit pentru a adăuga colțuri rotunjite la orice fotografie. Creați icoane în stil aplicații, imagini cu margini moi pentru rețelele sociale sau miniaturi cu rază și zoom reglabile. Fără înregistrare – încărcați, ajustați, descărcați."
+    },
+    "seo": {
+      "title": "Foto cu colțuri rotunjite | Instrument online gratuit",
+      "description": "Instrument gratuit pentru a adăuga colțuri rotunjite la fotografii – pentru icoane aplicații, poze de profil și proiecte de design."
+    },
+    "selectRegion": {
+      "title": "Selectați regiunea",
+      "subtitle": "Alegeți limba și regiunea preferate"
+    },
+    "rateService": {
+      "title": "Evaluați Foto cu colțuri rotunjite",
+      "thankYou": "Mulțumim pentru feedback!",
+      "averageRating": "4.5",
+      "votes": "4.992 voturi"
+    }
   },
   "about": {
     "seo": {

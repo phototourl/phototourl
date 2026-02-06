@@ -319,7 +319,32 @@
   },
   "roundedCorners": {
     "title": "照片圓角",
-    "description": "免費線上圓角工具，輕鬆為任何照片添加圓角 - 適合頭像、社群媒體和設計專案。"
+    "description": "免費線上圓角工具，輕鬆為任何照片添加圓角 - 適合應用程式圖示、頭像和設計專案。",
+    "upload": "上傳圖片",
+    "download": "下載",
+    "radiusLabel": "圓角半徑 (px)",
+    "scaleLabel": "縮放",
+    "processing": "處理中...",
+    "errorUploadFirst": "請先上傳一張圖片。",
+    "errorSelectFile": "請選擇圖片檔案。",
+    "page": {
+      "title": "照片圓角 - 免費線上圓角圖片工具",
+      "description": "照片圓角是一款免費線上工具，可為任意圖片添加圓角。製作應用程式圖示風格、社群媒體軟邊圖或精美縮圖，支援調節圓角半徑與縮放，無需註冊，上傳即可調整並下載。"
+    },
+    "seo": {
+      "title": "照片圓角 | 免費線上圓角工具",
+      "description": "免費線上為圖片添加圓角，適合應用程式圖示、頭像與設計專案。"
+    },
+    "selectRegion": {
+      "title": "選擇地區",
+      "subtitle": "選擇您偏好的語言與地區"
+    },
+    "rateService": {
+      "title": "為照片圓角評分",
+      "thankYou": "感謝您的回饋！",
+      "averageRating": "4.5",
+      "votes": "4,992 票"
+    }
   },
   "blog": {
     "seo": {

@@ -319,7 +319,32 @@
   },
   "roundedCorners": {
     "title": "Foto cun cantuns arrondads",
-    "description": "Utensil online gratuit per cantuns arrondads – agiunger facilmain cantuns arrondads a mintga fotografia, perfetg per maletgs da profil, medias socialas e projects da design."
+    "description": "Utensil online gratuit per cantuns arrondads – agiunger facilmain cantuns arrondads a mintga fotografia, perfetg per icons d'apps, maletgs da profil e projects da design.",
+    "upload": "Chargiar foto",
+    "download": "Telechargiar",
+    "radiusLabel": "Radi (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Elaboraziun...",
+    "errorUploadFirst": "Chargiai in emprim ina foto.",
+    "errorSelectFile": "Tscherna in datoteca da maletg.",
+    "page": {
+      "title": "Foto cun cantuns arrondads – Utensil online gratuit",
+      "description": "Foto cun cantuns arrondads è in utensil online gratuit per agiuntar cantuns arrondads a mintga fotografia. Crear icons da stylo app, maletgs cun culs morbids per medias socialas u miniaturas cun radi e zoom reglabels. Senza s'inscriziun – chargiar, adattar, telechargiar."
+    },
+    "seo": {
+      "title": "Foto cun cantuns arrondads | Utensil online gratuit",
+      "description": "Utensil gratuit per agiuntar cantuns arrondads a fotos – per icons d'apps, maletgs da profil e projects da design."
+    },
+    "selectRegion": {
+      "title": "Tscherner la regiun",
+      "subtitle": "Tscherna la lingua e la regiun preferida"
+    },
+    "rateService": {
+      "title": "Valitar Foto cun cantuns arrondads",
+      "thankYou": "Grazia per tia resunanza!",
+      "averageRating": "4.5",
+      "votes": "4.992 vuschs"
+    }
   },
   "blog": {
     "seo": {

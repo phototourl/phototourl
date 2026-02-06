@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { CircleCropTool } from "@/components/CircleCropTool";
 import { SelectRegionSection } from "@/components/SelectRegionSection";
-import { RateServiceSection } from "@/components/RateServiceSection";
 import { ScrollButtons } from "@/components/ScrollButtons";
 import { getTranslations } from "next-intl/server";
 import { siteUrl } from "@/app/seo-metadata";
@@ -34,7 +33,7 @@ export default async function PhotoCircleCropPage() {
     <>
       <div className="mx-auto max-w-6xl px-6 lg:px-10 bg-white">
         {/* 首屏 section - 参考首页布局 */}
-        <section className="bg-white relative pt-8 pb-40 sm:pt-20 sm:pb-44 lg:pt-24 lg:pb-52">
+        <section className="bg-white relative pt-4 pb-40 sm:pt-10 sm:pb-44 lg:pt-14 lg:pb-52">
           <CircleCropTool showHeading={true} />
           
           <div className="mt-12">
@@ -52,7 +51,6 @@ export default async function PhotoCircleCropPage() {
 
       {/* 首屏下方的元素 - 移出内层div，让渐变可以延伸到两边 */}
       <SelectRegionSection translationKey="circleCrop.selectRegion" />
-      <RateServiceSection translationKey="circleCrop.rateService" />
 
       {/* Scroll buttons */}
       <ScrollButtons />

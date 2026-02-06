@@ -7,20 +7,23 @@ import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
 
 interface RateServiceSectionProps {
-  translationKey?: string; // 默认为 "home.rateService"，可以传入 "circleCrop.rateService"
+  translationKey?: string; // 默认为 "home.rateService"，可传 "circleCrop.rateService" / "roundedCorners.rateService"
+  productName?: string; // 传入时替换 rateService.title 中的 {productName}，保证与当前语种一致
 }
 
-export function RateServiceSection({ translationKey = "home.rateService" }: RateServiceSectionProps) {
+export function RateServiceSection({ translationKey = "home.rateService", productName }: RateServiceSectionProps) {
   const t = useTranslations(translationKey);
   const [hoveredStar, setHoveredStar] = useState<number | null>(null);
   const [selectedRating, setSelectedRating] = useState<number | null>(null);
   const [showThankYou, setShowThankYou] = useState(false);
 
+  const title = productName != null ? t("title", { productName }) : t("title");
+
   return (
     <section className="py-16 section-bg-yellow">
       <div className="mx-auto max-w-2xl px-6">
         <div className="text-center space-y-4">
-          <h3 className="text-2xl font-bold text-slate-800">{t("title")}</h3>
+          <h3 className="text-2xl font-bold text-slate-800">{title}</h3>
           
           {/* Thank You Message */}
           {showThankYou && (

@@ -168,32 +168,63 @@
         "title": "Prevodník fotiek na URL | Premeňte fotky na zdieľateľné odkazy",
         "description": "Bezplatný hosting obrázkov: premeňte fotky na trvalé URL adresy okamžite. Podporuje JPG, PNG, WEBP, GIF do 10MB."
       }
+    }
+  },
+  "circleCrop": {
+    "title": "Okrúhly výrez",
+    "description": "Bezplatný online nástroj na orezanie fotiek do kruhu - ideálne pre profilové fotky a sociálne siete.",
+    "upload": "Nahrať fotku",
+    "processing": "Spracováva sa...",
+    "download": "Stiahnuť kruhovú fotku",
+    "errorSelectFile": "Vyberte súbor obrázka.",
+    "errorUploadFirst": "Najprv nahrajte foto.",
+    "page": {
+      "title": "Kruhový výrez fotky - Bezplatný online nástroj",
+      "description": "Premeňte obdĺžnikové fotky na dokonalé kruhy okamžite a bez registrácie."
     },
-    "circleCrop": {
-      "title": "Okrúhly výrez",
-      "description": "Bezplatný online nástroj na orezanie fotiek do kruhu - ideálne pre profilové fotky a sociálne siete.",
-      "upload": "Nahrať fotku",
-      "processing": "Spracováva sa...",
-      "download": "Stiahnuť kruhovú fotku",
-      "page": {
-        "title": "Kruhový výrez fotky - Bezplatný online nástroj",
-        "description": "Premeňte obdĺžnikové fotky na dokonalé kruhy okamžite a bez registrácie."
-      },
-      "selectRegion": {
-        "title": "Vyberte oblasť",
-        "subtitle": "Vyberte preferovaný jazyk a oblasť"
-      },
-      "rateService": {
-        "title": "Ohodnoťte Photo To Circle Crop",
-        "thankYou": "Ďakujeme za vašu spätnú väzbu!",
-        "averageRating": "4.5",
-        "votes": "4,992 hlasov"
-      }
+    "seo": {
+      "title": "Okrúhly výrez | Bezplatný online nástroj",
+      "description": "Bezplatný online nástroj na orezanie fotiek do kruhu - ideálne pre profilové fotky a design projekty."
+    },
+    "selectRegion": {
+      "title": "Vyberte oblasť",
+      "subtitle": "Vyberte preferovaný jazyk a oblasť"
+    },
+    "rateService": {
+      "title": "Ohodnoťte {productName}",
+      "thankYou": "Ďakujeme za vašu spätnú väzbu!",
+      "averageRating": "4.5",
+      "votes": "4,992 hlasov"
     }
   },
   "roundedCorners": {
     "title": "Foto so zaoblenými rohmi",
-    "description": "Bezplatný online nástroj na zaoblené rohy – jednoducho pridajte zaoblené rohy k ľubovoľnej fotografii, ideálne pre profilové fotky, sociálne médiá a dizajnové projekty."
+    "description": "Bezplatný online nástroj na zaoblené rohy – jednoducho pridajte zaoblené rohy k ľubovoľnej fotografii, ideálne pre ikony aplikácií, profilové fotky a dizajnové projekty.",
+    "upload": "Nahrať foto",
+    "download": "Stiahnuť",
+    "radiusLabel": "Polomer (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Spracovávam...",
+    "errorUploadFirst": "Najprv nahrajte foto.",
+    "errorSelectFile": "Vyberte súbor obrázka.",
+    "page": {
+      "title": "Foto so zaoblenými rohmi – Bezplatný online nástroj",
+      "description": "Foto so zaoblenými rohmi je bezplatný online nástroj na pridanie zaoblených rohov k ľubovoľnej fotografii. Vytvárajte ikony v štýle aplikácií, obrázky s jemnými okrajmi pre sociálne médiá alebo miniatúry s nastaviteľným polomerom a zoomom. Bez registrácie – nahrajte, upravte, stiahnite."
+    },
+    "seo": {
+      "title": "Foto so zaoblenými rohmi | Bezplatný online nástroj",
+      "description": "Bezplatný nástroj na pridanie zaoblených rohov k fotografii – pre ikony aplikácií, profilové fotky a dizajnové projekty."
+    },
+    "selectRegion": {
+      "title": "Vybrať oblasť",
+      "subtitle": "Vyberte preferovaný jazyk a oblasť"
+    },
+    "rateService": {
+      "title": "Ohodnotiť Foto so zaoblenými rohmi",
+      "thankYou": "Ďakujeme za vašu spätnú väzbu!",
+      "averageRating": "4.5",
+      "votes": "4 992 hlasov"
+    }
   },
   "about": {
     "seo": {

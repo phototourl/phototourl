@@ -1,7 +1,36 @@
+import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
-import NextImage from "next/image";
+import { RoundedCornersTool } from "@/components/RoundedCornersTool";
+import { SelectRegionSection } from "@/components/SelectRegionSection";
 import { ScrollButtons } from "@/components/ScrollButtons";
+import { siteUrl } from "@/app/seo-metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "roundedCorners.seo" });
+  const canonicalPath = locale === "en" ? "/roundedcorners" : `/${locale}/roundedcorners`;
+  const canonicalUrl = `${siteUrl}${canonicalPath}`;
+
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: { canonical: canonicalUrl },
+    openGraph: {
+      title: t("title"),
+      description: t("description"),
+      url: canonicalUrl,
+    },
+    twitter: {
+      title: t("title"),
+      description: t("description"),
+    },
+  };
+}
 
 export default async function RoundedCornersPage({
   params,
@@ -10,36 +39,27 @@ export default async function RoundedCornersPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations({ locale, namespace: "roundedCorners" });
-  const tCommon = await getTranslations({ locale, namespace: "common" });
+  const t = await getTranslations({ locale, namespace: "roundedCorners.page" });
   return (
     <>
       <div className="mx-auto max-w-6xl px-6 lg:px-10 bg-white">
-        <section className="bg-white relative pt-16 pb-40 sm:pt-20 sm:pb-44 lg:pt-24 lg:pb-52">
-          <div className="flex flex-col">
-            <div className="space-y-3 text-center mb-12">
-              <h1 className="flex items-center justify-center gap-3 text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl lg:text-4xl">
-                <div className="h-8 w-8 rounded-xl overflow-hidden sm:h-10 sm:w-10 lg:h-12 lg:w-12">
-                  <NextImage
-                    src="/rounded-corners.png"
-                    alt={t("title")}
-                    width={48}
-                    height={48}
-                    className="h-full w-full object-contain"
-                  />
-                </div>
+        <section className="bg-white relative pt-4 pb-40 sm:pt-10 sm:pb-44 lg:pt-14 lg:pb-52">
+          <RoundedCornersTool showHeading={true} />
+
+          <div className="mt-12">
+            <div className="mx-auto max-w-5xl space-y-4 text-center">
+              <h2 className="text-2xl font-semibold text-slate-900 sm:text-3xl">
                 {t("title")}
-              </h1>
-              <p className="mx-auto max-w-2xl text-sm text-slate-600 sm:text-base">
+              </h2>
+              <p className="mx-auto max-w-5xl text-sm text-slate-600 sm:text-base leading-relaxed">
                 {t("description")}
-              </p>
-              <p className="mt-6 inline-block rounded-full bg-slate-100 px-4 py-1.5 text-sm font-medium text-slate-500">
-                {tCommon("header.comingSoon")}
               </p>
             </div>
           </div>
         </section>
       </div>
+
+      <SelectRegionSection translationKey="roundedCorners.selectRegion" />
       <ScrollButtons />
     </>
   );

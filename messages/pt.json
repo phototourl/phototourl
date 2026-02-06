@@ -319,7 +319,32 @@
   },
   "roundedCorners": {
     "title": "Foto com cantos arredondados",
-    "description": "Ferramenta online gratuita para cantos arredondados, adicione facilmente cantos arredondados a qualquer foto – perfeito para fotos de perfil, redes sociais e projetos de design."
+    "description": "Ferramenta online gratuita para cantos arredondados, adicione facilmente cantos arredondados a qualquer foto – perfeito para ícones de apps, fotos de perfil e projetos de design.",
+    "upload": "Enviar foto",
+    "download": "Descarregar",
+    "radiusLabel": "Raio (px)",
+    "scaleLabel": "Zoom",
+    "processing": "A processar...",
+    "errorUploadFirst": "Carregue uma foto primeiro.",
+    "errorSelectFile": "Selecione um ficheiro de imagem.",
+    "page": {
+      "title": "Foto com cantos arredondados – Ferramenta online gratuita",
+      "description": "Foto com cantos arredondados é uma ferramenta online gratuita para adicionar cantos arredondados a qualquer foto. Crie ícones de app, imagens com bordas suaves para redes sociais ou miniaturas com raio e zoom ajustáveis. Sem registo – carregue, ajuste, descarregue."
+    },
+    "seo": {
+      "title": "Foto com cantos arredondados | Ferramenta online gratuita",
+      "description": "Ferramenta gratuita online para adicionar cantos arredondados a qualquer foto – perfeito para ícones de app, fotos de perfil e projetos de design."
+    },
+    "selectRegion": {
+      "title": "Selecionar região",
+      "subtitle": "Escolha o seu idioma e região preferidos"
+    },
+    "rateService": {
+      "title": "Avaliar Foto com cantos arredondados",
+      "thankYou": "Obrigado pelo seu feedback!",
+      "averageRating": "4.5",
+      "votes": "4.992 votos"
+    }
   },
   "blog": {
     "seo": {

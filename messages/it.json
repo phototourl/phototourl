@@ -319,7 +319,32 @@
   },
   "roundedCorners": {
     "title": "Foto con angoli arrotondati",
-    "description": "Strumento online gratuito per angoli arrotondati, aggiungi facilmente angoli arrotondati a qualsiasi foto – perfetto per foto profilo, social media e progetti di design."
+    "description": "Strumento online gratuito per angoli arrotondati, aggiungi facilmente angoli arrotondati a qualsiasi foto – perfetto per icone di app, foto profilo e progetti di design.",
+    "upload": "Carica foto",
+    "download": "Scarica",
+    "radiusLabel": "Raggio (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Elaborazione...",
+    "errorUploadFirst": "Carica prima una foto.",
+    "errorSelectFile": "Seleziona un file immagine.",
+    "page": {
+      "title": "Foto con angoli arrotondati – Strumento online gratuito",
+      "description": "Foto con angoli arrotondati è uno strumento online gratuito per aggiungere angoli arrotondati a qualsiasi foto. Crea icone stile app, immagini con bordi morbidi per i social o miniature con raggio e zoom regolabili. Senza registrazione – carica, regola, scarica."
+    },
+    "seo": {
+      "title": "Foto con angoli arrotondati | Strumento online gratuito",
+      "description": "Strumento gratuito online per aggiungere angoli arrotondati a qualsiasi foto – perfetto per icone app, foto profilo e progetti di design."
+    },
+    "selectRegion": {
+      "title": "Seleziona regione",
+      "subtitle": "Scegli la tua lingua e regione preferite"
+    },
+    "rateService": {
+      "title": "Valuta Foto con angoli arrotondati",
+      "thankYou": "Grazie per il tuo feedback!",
+      "averageRating": "4.5",
+      "votes": "4.992 voti"
+    }
   },
   "blog": {
     "seo": {

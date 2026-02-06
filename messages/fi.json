@@ -168,32 +168,63 @@
         "title": "Photo To URL -muunnin | Muuta kuvat jaettaviksi linkeiksi",
         "description": "Ilmainen kuvan isännöinti: muuta kuvat pysyviksi URL-osoitteiksi heti. Tukee JPG, PNG, WEBP, GIF (max 10MB)."
       }
+    }
+  },
+  "circleCrop": {
+    "title": "Pyöreä kuva",
+    "description": "Ilmainen verkkotyökalu kuvien rajaamiseen täydelliseksi ympyräksi - täydellinen profiilikuviin.",
+    "upload": "Lataa kuva",
+    "processing": "Käsitellään...",
+    "download": "Lataa pyöreä kuva",
+    "errorSelectFile": "Valitse kuvatiedosto.",
+    "errorUploadFirst": "Lataa ensin kuva.",
+    "page": {
+      "title": "Pyöreä Kuva - Ilmainen Verkkotyökalu Pyöreiden Kuvien Rajaukseen",
+      "description": "Pyöreä Kuva on ilmainen verkkotyökalu suorakulmaisten kuvien muuntamiseen täydellisiksi ympyrän muotoisiksi. Työkalumme auttaa sinua rajaamaan kuvia ympyrän muotoon hetkessä, ilman rekisteröitymistä. Tarvitsetpa pyöreää profiilikuvaa, ympyrän muotoista kuvaa sosiaaliseen mediaan tai pyöristettyä kuvaa design-projekteihin, pyöreä kuvan rajaus -työkalumme tekee siitä yksinkertaista ja helppoa."
     },
-    "circleCrop": {
-      "title": "Pyöreä kuva",
-      "description": "Ilmainen verkkotyökalu kuvien rajaamiseen täydelliseksi ympyräksi - täydellinen profiilikuviin.",
-      "upload": "Lataa kuva",
-      "processing": "Käsitellään...",
-      "download": "Lataa pyöreä kuva",
-      "seo": {
-        "title": "Rajaa kuva pyöreäksi | Ilmainen verkkotyökalu",
-        "description": "Rajaa mikä tahansa kuva täydelliseksi ympyräksi sosiaalista mediaa ja suunnittelua varten."
-      },
-      "selectRegion": {
-        "title": "Valitse alue",
-        "subtitle": "Valitse haluamasi kieli ja alue"
-      },
-      "rateService": {
-        "title": "Arvioi Photo To Circle Crop",
-        "thankYou": "Kiitos palautteestasi!",
-        "averageRating": "4.5",
-        "votes": "4,992 ääntä"
-      }
+    "seo": {
+      "title": "Rajaa kuva pyöreäksi | Ilmainen verkkotyökalu",
+      "description": "Rajaa mikä tahansa kuva täydelliseksi ympyräksi sosiaalista mediaa ja suunnittelua varten."
+    },
+    "selectRegion": {
+      "title": "Valitse alue",
+      "subtitle": "Valitse haluamasi kieli ja alue"
+    },
+    "rateService": {
+      "title": "Arvioi {productName}",
+      "thankYou": "Kiitos palautteestasi!",
+      "averageRating": "4.5",
+      "votes": "4,992 ääntä"
     }
   },
   "roundedCorners": {
     "title": "Kuva pyöristetyillä nurkilla",
-    "description": "Ilmainen verkko-työkalu pyöristetyille nurkille – lisää helposti pyöristetyt nurkat mihin tahansa kuvaan, täydellinen profiilikuville, somelle ja design-projekteille."
+    "description": "Ilmainen verkko-työkalu pyöristetyille nurkille – lisää helposti pyöristetyt nurkat mihin tahansa kuvaan, täydellinen sovelluksen kuvakkeille, profiilikuville ja suunnitteluprojekteille.",
+    "upload": "Lataa kuva",
+    "download": "Lataa",
+    "radiusLabel": "Säde (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Käsitellään...",
+    "errorUploadFirst": "Lataa ensin kuva.",
+    "errorSelectFile": "Valitse kuvatiedosto.",
+    "page": {
+      "title": "Kuva pyöristetyillä nurkilla – Ilmainen verkko-työkalu",
+      "description": "Kuva pyöristetyillä nurkilla on ilmainen verkko-työkalu pyöristettyjen nurkien lisäämiseen mihin tahansa kuvaan. Luo sovitusmaisia kuvakkeita, pehmeäreunaisia kuvia someen tai pikkukuvia säädettävällä säteellä ja zoomilla. Ei rekisteröitymistä – lataa, säädä, lataa."
+    },
+    "seo": {
+      "title": "Kuva pyöristetyillä nurkilla | Ilmainen verkko-työkalu",
+      "description": "Ilmainen työkalu pyöristettyjen nurkien lisäämiseen kuviin – sovelluskuvikkeet, profiilikuvat ja design-projektit."
+    },
+    "selectRegion": {
+      "title": "Valitse alue",
+      "subtitle": "Valitse haluamasi kieli ja alue"
+    },
+    "rateService": {
+      "title": "Arvioi Kuva pyöristetyillä nurkilla",
+      "thankYou": "Kiitos palautteestasi!",
+      "averageRating": "4.5",
+      "votes": "4 992 ääntä"
+    }
   },
   "about": {
     "seo": {

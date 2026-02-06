@@ -3,11 +3,6 @@ import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { Github, Twitter } from "lucide-react";
-import dynamic from "next/dynamic";
-
-const CircleCropTypewriter = dynamic(() => import("./CircleCropTypewriter").then(mod => ({ default: mod.CircleCropTypewriter })), {
-  ssr: false,
-});
 
 const navLinks = [
   { key: "about", href: "/about" },
@@ -18,9 +13,8 @@ const navLinks = [
 ] as const;
 
 const productLinks = [
-  { labelKey: "title", ns: "circleCrop", href: "/circlecrop", external: false },
+  { href: "/circlecrop", external: false },
   { href: "/roundedcorners", external: false },
-  { label: "Image to URL", href: "https://www.image2url.com/", external: true },
 ];
 
 type SiteFooterProps = { locale: string };
@@ -28,11 +22,13 @@ type SiteFooterProps = { locale: string };
 export async function SiteFooter({ locale }: SiteFooterProps) {
   const t = await getTranslations({ locale, namespace: "common" });
   const tImages = await getTranslations({ locale, namespace: "images" });
+  const tCircleCrop = await getTranslations({ locale, namespace: "circleCrop" });
+  const tRounded = await getTranslations({ locale, namespace: "roundedCorners" });
   return (
     <footer>
       <div className="border-t border-white/15 hero-gradient text-white">
-        <div className="mx-auto max-w-6xl px-6 py-8 lg:px-10 lg:py-10">
-          <div className="grid gap-8 md:grid-cols-4 mb-8 md:gap-12 lg:gap-16">
+        <div className="mx-auto max-w-6xl px-6 pt-8 pb-2 lg:px-10 lg:pt-10 lg:pb-3">
+          <div className="grid gap-8 md:grid-cols-4 md:gap-12 lg:gap-16">
             <div className="space-y-3">
               <LocaleLink href="/" className="flex items-center gap-3 group">
                 <div className="relative h-8 w-8 overflow-hidden rounded-md bg-white/10 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12 group-hover:bg-white/20">
@@ -46,9 +42,6 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
                 </div>
                 <div className="text-xl font-semibold text-white transition-colors duration-300 group-hover:text-white/90">{t("siteName")}</div>
               </LocaleLink>
-              <div className="pt-2">
-                <CircleCropTypewriter />
-              </div>
               <div className="flex items-center gap-2 pt-2">
                 <a
                   href="https://github.com/phototourl"
@@ -88,41 +81,6 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
             </div>
 
             <div className="space-y-3">
-              <div className="text-sm font-semibold uppercase tracking-wide text-white/80">{t("footer.productsTitle")}</div>
-              <div className="flex flex-col gap-2 text-sm text-white/95">
-                {productLinks.map((link) => {
-                  const label =
-                    link.href === "/circlecrop"
-                      ? t("header.circleCrop")
-                      : link.href === "/roundedcorners"
-                        ? t("header.roundedCorners")
-                        : "label" in link
-                          ? link.label
-                          : "";
-                  return link.external ? (
-                    <a
-                      key={link.href}
-                      href={link.href}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="underline-offset-4 hover:text-white hover:underline break-words"
-                    >
-                      {label}
-                    </a>
-                  ) : (
-                    <LocaleLink
-                      key={link.href}
-                      href={link.href}
-                      className="underline-offset-4 hover:text-white hover:underline break-words"
-                    >
-                      {label}
-                    </LocaleLink>
-                  );
-                })}
-              </div>
-            </div>
-
-            <div className="space-y-3">
               <div className="text-sm font-semibold uppercase tracking-wide text-white/80">{t("footer.legal.title")}</div>
               <div className="flex flex-col gap-2 text-sm text-white/95">
                 <LocaleLink
@@ -143,6 +101,39 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
                 >
                   {t("footer.legal.cookie")}
                 </LocaleLink>
+              </div>
+            </div>
+
+            <div className="space-y-3">
+              <div className="text-sm font-semibold uppercase tracking-wide text-white/80">{t("footer.productsTitle")}</div>
+              <div className="flex flex-col gap-2 text-sm text-white/95">
+                {productLinks.map((link) => {
+                  const label =
+                    link.href === "/circlecrop"
+                      ? tCircleCrop("title")
+                      : link.href === "/roundedcorners"
+                        ? tRounded("title")
+                        : "";
+                  return link.external ? (
+                    <a
+                      key={link.href}
+                      href={link.href}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="underline-offset-4 hover:text-white hover:underline break-words"
+                    >
+                      {label}
+                    </a>
+                  ) : (
+                    <LocaleLink
+                      key={link.href}
+                      href={link.href}
+                      className="underline-offset-4 hover:text-white hover:underline break-words"
+                    >
+                      {label}
+                    </LocaleLink>
+                  );
+                })}
               </div>
             </div>
           </div>

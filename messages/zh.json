@@ -311,7 +311,7 @@
       "subtitle": "选择您偏好的语言和区域"
     },
     "rateService": {
-      "title": "为照片圆形裁剪评分",
+      "title": "为 {productName} 评分",
       "thankYou": "感谢您的反馈！",
       "averageRating": "4.5",
       "votes": "4,992 票"
@@ -319,7 +319,32 @@
   },
   "roundedCorners": {
     "title": "照片圆角",
-    "description": "免费在线圆角工具，轻松为任何照片添加圆角 - 适合头像、社交媒体和设计项目。"
+    "description": "免费在线圆角工具，轻松为任何照片添加圆角 - 适合应用图标、头像和设计项目。",
+    "upload": "上传图片",
+    "download": "下载",
+    "radiusLabel": "圆角半径 (px)",
+    "scaleLabel": "缩放",
+    "processing": "处理中...",
+    "errorUploadFirst": "请先上传一张图片。",
+    "errorSelectFile": "请选择图片文件。",
+    "page": {
+      "title": "照片圆角 - 免费在线圆角图片工具",
+      "description": "照片圆角是一款免费在线工具，可为任意图片添加圆角。制作应用图标风格、社交媒体软边图或精美缩略图，支持调节圆角半径与缩放，无需注册，上传即可调整并下载。"
+    },
+    "seo": {
+      "title": "照片圆角 | 免费在线圆角工具",
+      "description": "免费在线为图片添加圆角，适合应用图标、头像与设计项目。"
+    },
+    "selectRegion": {
+      "title": "选择地区",
+      "subtitle": "选择您偏好的语言和地区"
+    },
+    "rateService": {
+      "title": "为照片圆角评分",
+      "thankYou": "感谢您的反馈！",
+      "averageRating": "4.5",
+      "votes": "4,992 票"
+    }
   },
   "blog": {
     "seo": {

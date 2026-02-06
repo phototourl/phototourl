@@ -319,7 +319,32 @@
   },
   "roundedCorners": {
     "title": "Foto se zaoblenými rohy",
-    "description": "Bezplatný online nástroj pro zaoblené rohy – snadno přidejte zaoblené rohy k jakékoli fotografii, ideální pro profilové fotky, sociální sítě a designové projekty."
+    "description": "Bezplatný online nástroj pro zaoblené rohy – snadno přidejte zaoblené rohy k jakékoli fotografii, ideální pro ikony aplikací, profilové fotky a designové projekty.",
+    "upload": "Nahrát foto",
+    "download": "Stáhnout",
+    "radiusLabel": "Poloměr (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Zpracovávání...",
+    "errorUploadFirst": "Nejprve nahrajte foto.",
+    "errorSelectFile": "Vyberte soubor obrázku.",
+    "page": {
+      "title": "Foto se zaoblenými rohy – Bezplatný online nástroj",
+      "description": "Foto se zaoblenými rohy je bezplatný online nástroj pro přidání zaoblených rohů k jakékoli fotografii. Vytvářejte ikony ve stylu aplikací, obrázky s jemnými okraji pro sociální sítě nebo miniatury s nastavitelným poloměrem a zoomem. Bez registrace – nahrajte, upravte, stáhněte."
+    },
+    "seo": {
+      "title": "Foto se zaoblenými rohy | Bezplatný online nástroj",
+      "description": "Bezplatný nástroj pro přidání zaoblených rohů k fotografii – pro ikony aplikací, profilové fotky a designové projekty."
+    },
+    "selectRegion": {
+      "title": "Vybrat region",
+      "subtitle": "Vyberte preferovaný jazyk a region"
+    },
+    "rateService": {
+      "title": "Ohodnotit Foto se zaoblenými rohy",
+      "thankYou": "Děkujeme za vaši zpětnou vazbu!",
+      "averageRating": "4.5",
+      "votes": "4 992 hlasů"
+    }
   },
   "blog": {
     "seo": {

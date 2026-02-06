@@ -311,7 +311,7 @@
       "subtitle": "Choose your preferred language and region"
     },
     "rateService": {
-      "title": "Rate Photo To Circle Crop",
+      "title": "Rate {productName}",
       "thankYou": "Thank you for your feedback!",
       "averageRating": "4.5",
       "votes": "4,992 votes"
@@ -319,7 +319,32 @@
   },
   "roundedCorners": {
     "title": "Photo To Rounded Corners",
-    "description": "Free online rounded corners tool, easily add rounded corners to any photo - perfect for profile pictures, social media, and design projects."
+    "description": "Free online rounded corners tool, easily add rounded corners to any photo - perfect for app icons, profile pictures, and design projects.",
+    "upload": "Upload Photo",
+    "download": "Download",
+    "radiusLabel": "Radius (px)",
+    "scaleLabel": "Zoom",
+    "processing": "Processing...",
+    "errorUploadFirst": "Please upload a photo first.",
+    "errorSelectFile": "Please select an image file.",
+    "page": {
+      "title": "Photo To Rounded Corners - Free Online Rounded Corner Photo Tool",
+      "description": "Photo To Rounded Corners is a free online tool for adding rounded corners to any photo. Create app-style icons, soft-edged images for social media, or polished thumbnails with adjustable corner radius and zoom. No signup required - upload, adjust, and download in seconds."
+    },
+    "seo": {
+      "title": "Photo to Rounded Corners | Free Online Rounded Corner Tool",
+      "description": "Free online tool to add rounded corners to any photo - perfect for app icons, profile pictures, and design projects."
+    },
+    "selectRegion": {
+      "title": "Select Region",
+      "subtitle": "Choose your preferred language and region"
+    },
+    "rateService": {
+      "title": "Rate Photo To Rounded Corners",
+      "thankYou": "Thank you for your feedback!",
+      "averageRating": "4.5",
+      "votes": "4,992 votes"
+    }
   },
   "blog": {
     "seo": {
