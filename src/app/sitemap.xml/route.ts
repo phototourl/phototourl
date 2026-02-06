@@ -11,6 +11,7 @@ const baseUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? FALLBACK_BASE_URL).replace(
 const staticPaths = [
   "",
   "circle-crop",
+  "rounded-corners",
   "blog",
   "docs",
   "status",
