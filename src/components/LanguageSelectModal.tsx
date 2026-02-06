@@ -154,9 +154,9 @@ export function LanguageSelectModal({ open, onClose }: LanguageSelectModalProps)
         onClick={startClose}
         aria-hidden="true"
       />
-      {/* 弹框：缩放 + 淡入 / 淡出 */}
+      {/* 弹框：缩放 + 淡入 / 淡出；移动端限制高度并让列表可滚动 */}
       <div
-        className="fixed left-1/2 top-1/2 z-[9999] w-[calc(100%-2rem)] max-w-3xl -translate-x-1/2 -translate-y-1/2 rounded-xl bg-white shadow-2xl transition-all duration-200 ease-out sm:max-w-4xl"
+        className="fixed left-1/2 top-1/2 z-[9999] flex max-h-[90vh] w-[calc(100%-2rem)] max-w-3xl -translate-x-1/2 -translate-y-1/2 flex-col rounded-xl bg-white shadow-2xl transition-all duration-200 ease-out sm:max-w-4xl"
         style={{
           opacity: entered && !exiting ? 1 : 0,
           transform: `translate(-50%, -50%) scale(${entered && !exiting ? 1 : 0.95})`,
@@ -166,8 +166,8 @@ export function LanguageSelectModal({ open, onClose }: LanguageSelectModalProps)
         aria-modal="true"
         aria-labelledby="language-modal-title"
       >
-        {/* 头部 */}
-        <div className="flex items-center justify-between border-b border-slate-200 px-6 py-4">
+        {/* 头部：不滚动 */}
+        <div className="flex shrink-0 items-center justify-between border-b border-slate-200 px-4 py-3 sm:px-6 sm:py-4">
           <div>
             <h2 id="language-modal-title" className="text-lg font-semibold text-slate-900">
               {t("languageSelect.title")}
@@ -186,8 +186,8 @@ export function LanguageSelectModal({ open, onClose }: LanguageSelectModalProps)
           </button>
         </div>
 
-        {/* 语言列表 */}
-        <div className="p-5">
+        {/* 语言列表：可滚动 */}
+        <div className="min-h-0 flex-1 overflow-y-auto p-4 sm:p-5">
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
             {LOCALES.map((item) => {
               const isSelected = item.code === locale;
