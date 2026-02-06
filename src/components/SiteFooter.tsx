@@ -166,7 +166,7 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
             </a>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <a
-              href="https://fwfw.app/item/phototourl"
+              href="https://fwfw.app/item/photo-to-url"
               target="_blank"
               rel="noreferrer"
               className="inline-block transition-transform hover:scale-105"
@@ -312,15 +312,17 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
               />
             </a>
             {/* eslint-disable-next-line @next/next/no-img-element */}
+            {/* AI Agents Directory - Photo To URL agent badge */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <a
-              href="https://aiagentsdirectory.com?utm_source=badge&utm_medium=referral&utm_campaign=free_listing&utm_content=homepage"
+              href="https://aiagentsdirectory.com/agent/photo-to-url?utm_source=badge&utm_medium=referral&utm_campaign=free_listing&utm_content=photo-to-url"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="inline-block transition-transform hover:scale-105"
             >
               <img
                 src="https://aiagentsdirectory.com/featured-badge.svg?v=2024"
-                alt="Featured AI Agents on AI Agents Directory"
+                alt="Photo To URL - Featured AI Agent on AI Agents Directory"
                 width={200}
                 height={50}
                 className="h-6 w-auto shrink-0"

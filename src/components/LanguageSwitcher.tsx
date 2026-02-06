@@ -182,13 +182,22 @@ export function LanguageSwitcher({ variant = "header", showModal = false, onModa
           disabled={isPending}
         >
         <FlagIcon countryCode={currentLocale.countryCode} className="shrink-0" label={currentLocale.label} />
-        <span className={isFooter ? "whitespace-nowrap" : "whitespace-nowrap"}>
-          {currentLocale.label}
-        </span>
+        {variant === "header" ? (
+          // Header：移动端只显示国旗，桌面端显示语言名称
+          <span className="hidden sm:inline whitespace-nowrap">
+            {currentLocale.label}
+          </span>
+        ) : (
+          <span className="whitespace-nowrap">
+            {currentLocale.label}
+          </span>
+        )}
         <ChevronDown
           className={`h-4 w-4 shrink-0 transition-transform ${
             isOpen ? "rotate-180" : ""
-          } ${isFooter ? "" : "text-white/90"}`}
+          } ${isFooter ? "" : "text-white/90"} ${
+            variant === "header" ? "hidden sm:inline-block" : ""
+          }`}
         />
       </button>
 

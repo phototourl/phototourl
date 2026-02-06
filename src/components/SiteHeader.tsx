@@ -24,7 +24,7 @@ export async function SiteHeader({ locale }: SiteHeaderProps) {
                 priority
               />
             </div>
-            <span className="text-base font-semibold text-slate-900 sm:text-lg">
+            <span className="text-base font-semibold text-slate-900 whitespace-nowrap sm:text-lg">
               {t("siteName")}
             </span>
           </HomeLink>

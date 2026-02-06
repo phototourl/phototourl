@@ -20,7 +20,7 @@ export function HeaderRight() {
           aria-label={t("header.history")}
         >
           <History className="h-4 w-4 shrink-0" />
-          <span className="whitespace-nowrap">{t("header.history")}</span>
+          <span className="hidden sm:inline whitespace-nowrap">{t("header.history")}</span>
         </button>
         <LanguageSwitcher variant="header" />
       </div>
