@@ -81,7 +81,7 @@
     },
     "upload": {
       "title": "I-drop ang larawan o i-click para mag-browse",
-      "hint": "JPG, PNG, WEBP, GIF hanggang 10MB. I-drag, i-click, o i-paste ang mga screenshot.",
+      "hint": "JPG, PNG, WEBP, GIF hanggang 5MB. I-drag, i-click, o i-paste ang mga screenshot.",
       "orDrop": "o i-drop ang file",
       "samplesTitle": "Walang larawan? Subukan ang isa sa mga ito:",
       "policy": "Sa pag-upload ng imahe, sumasang-ayon ka sa aming <privacy>Privacy Policy</privacy> at <terms>Terms of Use</terms>.",
@@ -113,7 +113,7 @@
         },
         "nosignup": {
           "title": "Walang kailangang signup",
-          "desc": "Gamitin agad. Darating ang mga account sa susunod habang lumalaki kami."
+          "desc": "Gamitin agad, walang kailangang pag-signup."
         }
       }
     },
@@ -121,8 +121,8 @@
       "title": "Paano ito gumagana",
       "step1": "1) Idagdag ang iyong larawan (i-drag, i-paste, o i-click para pumili ng file).",
       "step2": "2) I-ho-host namin ito at ibibigay ang isang mababahaging link.",
-      "step3": "3) Kopyahin at ibahagi ang link kahit saan mo kailangan.",
-      "note": "Mabilis bumukas ang iyong link sa mga docs at chat — maaari mo ring i-download sa (.txt/.json/.md)."
+      "step3": "3) Kopyahin at ibahagi ang link sa mga docs, chat, prototypes, at iba pa.",
+      "note": "Mabilis bumukas ang iyong link sa mga docs at chat — maaari mo ring i-download bilang .txt."
     },
     "features": {
       "title": "Mga Tampok",
@@ -133,18 +133,68 @@
           "desc": "Malinis at madaling hulaang mga URL na handa para sa Markdown at HTML."
         },
         "save": {
-          "title": "Kopyahin at i-save",
-          "desc": "Kopyahin, buksan, o i-save bilang .txt/.json/.md sa isang click."
+          "title": "Kopyahin at I-save",
+          "desc": "Kopyahin, buksan, o i-save bilang .txt file sa isang click."
         },
         "clipboard": {
           "title": "Clipboard friendly",
           "desc": "I-paste ang mga screenshot nang hindi na naghahanap ng mga file."
         },
+        "errors": {
+          "title": "Ligtas at Pribado",
+          "desc": "Ang iyong mga larawan ay ligtas na naka-imbak gamit ang enterprise-level encryption at privacy protection."
+        },
         "nosignup": {
           "title": "Walang signup",
           "desc": "Mas mabilis na trabaho — mag-upload at magbahagi agad."
+        },
+        "r2": {
+          "title": "Mabilis na hosting",
+          "desc": "Ang mga link ay nagseserve sa pamamagitan ng mabilis na CDN para sa mabilis na pag-load at maaasahang access."
         }
       }
+    },
+    "process": {
+      "title": "Three-step flow",
+      "subtitle": "Bawasan ang effort, panatilihing visible ang CTA, tapusin sa ilang segundo.",
+      "steps": {
+        "1": {
+          "title": "I-drop o i-paste",
+          "desc": "I-drag ang file, i-paste mula sa clipboard, o mag-browse."
+        },
+        "2": {
+          "title": "Nagho-host kami at nagbibigay ng link",
+          "desc": "Instant URL na may copy/open/save controls."
+        },
+        "3": {
+          "title": "Gamitin kahit saan",
+          "desc": "Gamitin sa docs, chats, tickets, blogs, o prototypes."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Mga team na nakakatipid ng oras gamit ang Photo To URL",
+      "subtitle": "Social proof para mabawasan ang risk at mapabilis ang adoption.",
+      "items": {
+        "ops": {
+          "name": "Product Ops",
+          "quote": "Nagpa-paste kami ng mga screenshot sa mga ticket nang hindi nag-clog ang attachments. Nananatiling malinis ang mga link."
+        },
+        "content": {
+          "name": "Content Lead",
+          "quote": "Ang mga Markdown-ready links ay nagpapanatili ng aming docs na maayos at mapapublish sa loob ng ilang minuto."
+        },
+        "support": {
+          "name": "Support",
+          "quote": "Ang malinaw na errors at instant URLs ay nagpapadali sa paggabay sa mga customer sa chat."
+        }
+      }
+    },
+    "cta": {
+      "title": "Gawing link ang mga larawan sa ilang segundo",
+      "subtitle": "I-drop, i-paste, o mag-upload—kopyahin ang iyong link at ibahagi ito.",
+      "upload": "Mag-upload ngayon",
+      "paste": "I-paste ang screenshot"
     },
     "longform": {
       "title": "Bakit nakakatulong ang Photo To URL sa iyong workflow",
@@ -160,6 +210,53 @@
           "5": "Engineering: Gawing magaan ang pagbabahagi ng mga error snap para sa review.",
           "6": "Community: I-paste ang mga link sa Discord o Slack nang walang kalat."
         }
+      },
+      "flow": {
+        "title": "Paano gumagana ang flow mula simula hanggang dulo",
+        "p1": "1) Pumili ng larawan: i-drag-and-drop, i-paste mula sa clipboard, o i-click para mag-browse. Suportado ang PNG, JPG, WEBP, GIF hanggang 5MB ngayon. 2) Nag-upload kami at nagbibigay ng direktang link. Ipinapakita agad ng UI ang iyong URL na may mga aksyon na copy, open, at save (.txt). 3) Gamitin ang link kahit saan: blogs, docs, tickets, chat, prototypes, at iba pa. Ang layunin ay isang frictionless bridge sa pagitan ng iyong larawan at ng mga lugar kung saan ka nagtatrabaho.",
+        "p2": "Ang bawat hakbang ay naka-tune para sa kalinawan: nakikitang status, friendly errors, at mga button na nagko-confirm ng mga aksyon. Ang copy button ay nasa tabi ng link, at ang save buttons ay nagpapahintulot sa iyo na panatilihin ang URL sa iyong preferred format para sa bookmarking o automation. Kapag naka-enable ang R2, ang mga link ay nagseserve mula sa CDN domain; ang iyong mga larawan ay ligtas na naka-store gamit ang enterprise-grade encryption at privacy protection."
+      },
+      "best": {
+        "title": "Mga best practices para sa mas malinis na links",
+        "items": {
+          "1": "Panatilihing meaningful ang mga filename bago mag-upload; nananatili silang bahagi ng URL at nakakatulong sa future search.",
+          "2": "Gumamit ng WEBP o optimized JPG/PNG para sa mas magaan na payloads kung inaasahan mong mabigat ang sharing.",
+          "3": "Kopyahin ang link diretso pagkatapos ng generation para maiwasan ang stale clipboard entries.",
+          "6": "I-save bilang .txt para sa plain text links na handa nang kopyahin at gamitin."
+        }
+      },
+      "roadmap": {
+        "title": "Mga highlight ng roadmap",
+        "p1": "Malalim naming isasama ang Cloudflare R2, na nagbibigay ng mas user-friendly na quotas at management capabilities, na may optional team collaboration, access control, at per-link analytics. Nagpaplano kami na maglunsad ng mga feature tulad ng one-click delete, preset link styles, at organization-level storage buckets. Samantala, patuloy naming pinapabuti ang mga sub-products tulad ng circle crop tool at rounded corners tool upang gawing mas maginhawa ang image processing."
+      },
+      "faq": {
+        "title": "Mga FAQ",
+        "items": {
+          "1": {
+            "q": "Libre ba ito?",
+            "a": "Oo, ang core upload-to-link ay libre. Ang CDN-backed hosting sa pamamagitan ng R2 ay magro-roll out na may generous tiers."
+          },
+          "2": {
+            "q": "Anong mga format ang suportado?",
+            "a": "PNG, JPG, WEBP, GIF hanggang 5MB ngayon. Maaaring magdagdag ng mas maraming format batay sa demand."
+          },
+          "3": {
+            "q": "Maaari ba akong mag-embed sa Markdown o HTML?",
+            "a": "Oo. Kopyahin ang link as-is, o gamitin ang one-click .txt save para sa drop-in snippets."
+          },
+          "4": {
+            "q": "Pinapanatili ba ninyo ang aking mga file na public?",
+            "a": "Ang mga link ay shareable; kapag naka-enable ang R2 CDN, sila ay nagseserve sa pamamagitan ng CDN domain. Nagpapakita kami ng malinaw na maintenance messages kung hindi available ang storage."
+          },
+          "5": {
+            "q": "Magkakaroon ba ng accounts o teams?",
+            "a": "Plano. Una naming inuuna ang frictionless uploads, pagkatapos ay magdadagdag kami ng team spaces, access control, at analytics."
+          }
+        }
+      },
+      "keywords": {
+        "title": "Mga keywords na importante sa amin",
+        "p1": "photo to url, image to url, image link generator, convert image to link, free image hosting, direct image url, shareable image links, cdn image links"
       }
     },
     "selectRegion": {
@@ -176,7 +273,7 @@
       "keywords": "larawan sa url, imahe sa link, image link generator, libreng image hosting, cdn image",
       "home": {
         "title": "Photo To URL Converter | Gawing link ang iyong mga larawan",
-        "description": "Libreng image hosting: gawing permanenteng URL ang mga larawan agad-agad. Suportado ang JPG, PNG, WEBP, GIF hanggang 10MB."
+        "description": "Libreng image hosting: gawing permanenteng URL ang mga larawan agad-agad. Suportado ang JPG, PNG, WEBP, GIF hanggang 5MB."
       }
     }
   },
@@ -193,8 +290,9 @@
       "description": "Gawing perpektong bilog ang iyong mga rectangular na larawan agad-agad, walang kailangang signup."
     },
     "seo": {
-      "title": "Gupit na Bilog | Libreng Online Tool",
-      "description": "Libreng online na tool para sa pag-crop ng larawan sa bilog - perpekto para sa profile pictures, social media, at design projects."
+      "title": "Bilog na Gupit Tool | Libreng Online Bilog na Larawan Gupit",
+      "description": "Libreng online na tool para sa pag-crop ng larawan sa bilog - perpekto para sa profile pictures, social media, at design projects.",
+      "keywords": "bilog na larawan crop, crop bilog na larawan, bilog crop tool, bilog crop online"
     },
     "selectRegion": {
       "title": "Pumili ng rehiyon",
@@ -222,8 +320,9 @@
       "description": "Larawan na may bilugang sulok ay isang libreng online na tool para magdagdag ng bilugang sulok sa anumang larawan. Gumawa ng app-style icons, malambot na mga larawan para sa social media, o thumbnails na may adjustable radius at zoom. Walang signup – upload, ayusin, i-download."
     },
     "seo": {
-      "title": "Larawan na may bilugang sulok | Libreng online na tool",
-      "description": "Libreng tool para magdagdag ng bilugang sulok sa larawan – para sa app icons, profile pictures, at design projects."
+      "title": "Bilugang Sulok Tool | Libreng online na tool",
+      "description": "Libreng tool para magdagdag ng bilugang sulok sa larawan – para sa app icons, profile pictures, at design projects.",
+      "keywords": "bilugang sulok, larawan bilugang sulok, bilugang sulok tool, bilugang sulok online"
     },
     "selectRegion": {
       "title": "Piliin ang rehiyon",
@@ -235,6 +334,24 @@
       "averageRating": "4.5",
       "votes": "4,992 boto"
     }
+  },
+  "seo": {
+    "keywords": "photo to url,image to url,image link generator,convert image to link,free image hosting,cdn image",
+    "home": {
+      "title": "Photo To URL Converter | Gawing shareable links ang mga larawan",
+      "description": "Libreng image hosting: i-convert ang mga larawan sa permanent URLs agad-agad. Suportado ang JPG, PNG, WEBP, GIF hanggang 5MB. Clipboard paste, mabilis na CDN, malinis na links."
+    }
+  },
+  "images": {
+    "previewAlt": "Preview ng na-upload na larawan",
+    "animatingSampleAlt": "Sample image na ginamit sa upload demo",
+    "sampleThumbAlt": "Sample upload image",
+    "useSampleAria": "Gamitin ang sample image na ito",
+    "howIllustrationAlt": "Illustration na nagpapakita kung paano gumagana ang Photo To URL",
+    "heroDropTitle": "I-drag ang larawan dito",
+    "heroDropSubtitle": "I-e-enhance at i-ho-host namin ito, pagkatapos ay magbibigay kami ng malinis na link.",
+    "heroDropBadge": "I-drag o i-click (JPG/PNG, hanggang 5MB)",
+    "logoAlt": "Photo To URL logo"
   },
   "about": {
     "seo": {
@@ -408,6 +525,108 @@
             "email": "leeqs1010@gmail.com"
           }
         }
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog | Photo To URL",
+      "description": "Mga artikulo tungkol sa photo hosting, link sharing, at performance tips."
+    },
+    "page": {
+      "title": "Blog",
+      "description": "Naghahanda kami ng mga artikulo tungkol sa photo hosting, CDN, link sharing, at SEO tips. Malapit na ang content.",
+      "stayTuned": "Abangan ang mga guide tungkol sa:",
+      "guides": {
+        "1": "Mga best practices para sa image to URL conversion",
+        "2": "Paano gamitin ang direct photo links sa blogs at docs",
+        "3": "Performance at caching para sa static assets"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Docs | Photo To URL",
+      "description": "Documentation para sa Photo To URL."
+    },
+    "page": {
+      "title": "Docs",
+      "description": "Quick start: mag-upload ng image at kumuha ng direct URL. Gamitin ang copy/open buttons o i-download ang link sa .txt.",
+      "features": {
+        "title": "Mga suportadong features:",
+        "items": {
+          "1": "Suportado: JPG, PNG, WEBP, GIF",
+          "2": "Mabilis na delivery sa pamamagitan ng CDN kapag naka-enable ang storage",
+          "3": "Friendly maintenance errors kapag hindi available ang service"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Status | Photo To URL",
+      "description": "Service status para sa Photo To URL."
+    },
+    "page": {
+      "title": "Status",
+      "description": "Lahat ng systems ay operational.",
+      "message": "Ang Upload API at CDN links ay tumatakbo."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact | Photo To URL",
+      "description": "Makipag-ugnayan sa Photo To URL support."
+    },
+    "page": {
+      "title": "Contact",
+      "description": "Kailangan ng tulong o gusto mong magbahagi ng feedback? Mag-email sa amin at susubaybayan namin ang inbox at babalikan ka namin sa lalong madaling panahon.",
+      "email": {
+        "label": "Email",
+        "address": "leeqs1010@gmail.com"
+      }
+    }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL Bookmarklet",
+    "description": "Mag-upload ng mga larawan mula sa anumang webpage nang direkta sa Photo To URL sa isang click lang!",
+    "howItWorks": {
+      "title": "Paano ito gumagana",
+      "step1": "Mag-browse sa anumang webpage na may mga larawan",
+      "step2": "I-click ang bookmarklet sa bookmark bar",
+      "step3": "Pumili ng larawan mula sa pahina",
+      "step4": "Kunin ang URL agad at kopyahin!"
+    },
+    "installation": {
+      "title": "Pag-install",
+      "step1": {
+        "title": "Hakbang 1: Kopyahin ang Bookmarklet Code",
+        "description": "I-click ang button sa ibaba upang kopyahin ang bookmarklet code sa clipboard."
+      },
+      "step2": {
+        "title": "Hakbang 2: Idagdag sa Iyong Browser",
+        "description": "Sundin ang mga hakbang na ito batay sa iyong browser:",
+        "chrome": "Chrome/Edge: Pindutin ang Ctrl+Shift+B (Cmd+Shift+B sa Mac) upang ipakita ang bookmark bar, pagkatapos ay i-right-click at piliin ang \"Magdagdag ng pahina\". I-paste ang code bilang URL.",
+        "firefox": "Firefox: I-right-click ang bookmark bar at piliin ang \"Bagong Bookmark\". I-paste ang code bilang Lokasyon.",
+        "safari": "Safari: I-enable ang bookmark bar (Tingnan → Ipakita ang Bookmark Bar), pagkatapos ay i-drag ang code sa bookmark bar.",
+        "edge": "Alternatibo: Gumawa ng bagong bookmark, i-edit ito, at palitan ang URL ng nakopyang code."
+      },
+      "step3": {
+        "title": "Hakbang 3: Simulan na itong Gamitin!",
+        "description": "Bisitahin ang anumang webpage na may mga larawan at i-click ang iyong bookmarklet upang simulan ang pag-upload!"
+      },
+      "copy": "Kopyahin ang Code",
+      "copied": "Nakopya!"
+    },
+    "usage": {
+      "title": "Mga Feature",
+      "description": "Ang bookmarklet ay nagbibigay ng mga sumusunod na feature:",
+      "feature1": "Pumili ng anumang larawan mula sa kasalukuyang webpage",
+      "feature2": "Automatic upload sa Photo To URL",
+      "feature3": "Kunin ang shareable URL agad sa isang click para kopyahin"
+    },
+    "note": {
+      "title": "Tandaan",
+      "content": "Ang bookmarklet ay gumagana sa karamihan ng mga website. Ang ilang mga site na may mahigpit na security policies (CORS) ay maaaring pumigil sa pag-upload ng mga larawan."
     }
   }
 }

@@ -7,7 +7,7 @@ export const baseMetadata: Metadata = {
   // 默认英文元数据；不同语言的标题/描述由 getLocaleMetadata 接收翻译结果覆盖
   title: "Photo To URL Converter | Turn photos into shareable links",
   description:
-    "Free image hosting: convert photos to permanent URLs instantly. Supports JPG, PNG, WEBP, GIF up to 10MB. Clipboard paste, fast CDN, clean links for Markdown & HTML.",
+    "Free image hosting: convert photos to permanent URLs instantly. Supports JPG, PNG, WEBP, GIF up to 5MB. Clipboard paste, fast CDN, clean links for Markdown & HTML.",
   alternates: {
     canonical: `${siteUrl}/`,
     languages: {
@@ -31,7 +31,7 @@ export const baseMetadata: Metadata = {
   openGraph: {
     title: "Photo To URL Converter | Turn photos into shareable links",
     description:
-      "Free image hosting: convert photos to permanent URLs instantly. Supports JPG, PNG, WEBP, GIF up to 10MB. Clipboard paste, fast CDN, clean links for Markdown & HTML.",
+      "Free image hosting: convert photos to permanent URLs instantly. Supports JPG, PNG, WEBP, GIF up to 5MB. Clipboard paste, fast CDN, clean links for Markdown & HTML.",
     url: `${siteUrl}/`,
     siteName: "Photo To URL",
     images: [
@@ -47,7 +47,7 @@ export const baseMetadata: Metadata = {
     card: "summary_large_image",
     title: "Photo To URL Converter | Turn photos into shareable links",
     description:
-      "Free image hosting: convert photos to permanent URLs instantly. Supports JPG, PNG, WEBP, GIF up to 10MB. Clipboard paste, fast CDN, clean links for Markdown & HTML.",
+      "Free image hosting: convert photos to permanent URLs instantly. Supports JPG, PNG, WEBP, GIF up to 5MB. Clipboard paste, fast CDN, clean links for Markdown & HTML.",
     images: [
       {
         url: `${siteUrl}/og-image.png`,
@@ -84,11 +84,11 @@ export function getLocaleMetadata(
   const canonical =
     languages[locale] || (alternates.canonical as string) || `${siteUrl}/`;
 
-  return {
+  // 构建 metadata 对象，明确处理 keywords
+  const metadata: Metadata = {
     ...baseMetadata,
     title,
     description,
-    keywords: keywords,
     alternates: {
       ...alternates,
       canonical,
@@ -106,5 +106,13 @@ export function getLocaleMetadata(
       description,
     },
   };
+
+  // 明确设置 keywords：确保覆盖 layout 的 keywords
+  // 如果提供了 keywords 数组，则使用（即使是空数组也会覆盖 layout 的 keywords）
+  if (keywords !== undefined) {
+    metadata.keywords = keywords;
+  }
+
+  return metadata;
 }
 

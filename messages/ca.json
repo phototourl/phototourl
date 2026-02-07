@@ -81,7 +81,7 @@
     },
     "upload": {
       "title": "Arrossega una foto o fes clic per buscar",
-      "hint": "JPG, PNG, WEBP, GIF fins a 10MB. Arrossega, clica o enganxa captures.",
+      "hint": "JPG, PNG, WEBP, GIF fins a 5MB. Arrossega, clica o enganxa captures.",
       "orDrop": "o deixa anar el fitxer",
       "samplesTitle": "No tens cap imatge? Prova una d'aquestes:",
       "policy": "En pujar una imatge, acceptes la nostra <privacy>Política de Privadesa</privacy> i els <terms>Termes d'Ús</terms>.",
@@ -113,7 +113,7 @@
         },
         "nosignup": {
           "title": "Sense registre",
-          "desc": "Fes-lo servir de seguida. Els comptes arribaran més endavant."
+          "desc": "Fes-lo servir de seguida, sense necessitat de registre."
         }
       }
     },
@@ -121,8 +121,8 @@
       "title": "Com funciona",
       "step1": "1) Afegeix la teva foto (arrossega, enganxa o tria un fitxer).",
       "step2": "2) L'allotgem i et donem un enllaç compartible.",
-      "step3": "3) Copia i comparteix l'enllaç on estiguis treballant.",
-      "note": "L'enllaç s'obre ràpid en docs i xats; a més, pots descarregar-lo en (.txt/.json/.md)."
+      "step3": "3) Copia i comparteix l'enllaç en documents, xats, prototips i més.",
+      "note": "L'enllaç s'obre ràpid en docs i xats; a més, pots descarregar-lo com a .txt."
     },
     "process": {
       "title": "Flux en tres passos",
@@ -137,8 +137,8 @@
           "desc": "URL instantània amb controls per copiar/obrir."
         },
         "3": {
-          "title": "Comparteix on vulguis",
-          "desc": "Enganxa a docs, xats, tiquets, blogs o prototips."
+          "title": "Utilitza on vulguis",
+          "desc": "Utilitza en docs, xats, tiquets, blogs o prototips."
         }
       }
     },
@@ -151,16 +151,16 @@
           "desc": "URLs netes i predictibles per a Markdown i HTML."
         },
         "save": {
-          "title": "Còpia i desa",
-          "desc": "Copia, obre o desa com a .txt/.json/.md amb un clic."
+          "title": "Còpia i Desa",
+          "desc": "Copia, obre o desa com a fitxer .txt amb un clic."
         },
         "clipboard": {
           "title": "Apte per al porta-retalls",
           "desc": "Enganxa captures de pantalla sense buscar fitxers."
         },
         "errors": {
-          "title": "Errors clars",
-          "desc": "Missatges de manteniment entenedors en lloc de codis tècnics."
+          "title": "Segur i Privat",
+          "desc": "Les vostres imatges s'emmagatzemen de forma segura amb xifratge de nivell empresarial i protecció de la privacitat."
         },
         "nosignup": {
           "title": "Sense registre",
@@ -196,6 +196,69 @@
       "upload": "Puja ara",
       "paste": "Enganxa una captura"
     },
+    "longform": {
+      "title": "Per què Foto a URL ajuda el vostre flux de treball",
+      "p1": "Foto a URL està fet per a creadors, màrqueting, suport, operacions i qualsevol persona que necessiti convertir fotos en enllaços nets i fiables. Amb un flux directe de pujar→enllaç, eviteu gestors pesats i no necessiteu iniciar sessió. Els enllaços són ordenats i fàcils d'enganxar en xats, docs, wikis, informes de bugs i tiquets. Els equips avancen més ràpid en compartir captures al instant; a més, URLs previsibles ajuden en automatitzacions, QA i prototips lleugers.",
+      "p2": "L'experiència és simple: deixa anar, enganxa o tria un fitxer; obtén un enllaç; comparteix-lo. Sense soroll, sense anuncis molestos, sense barreres. Tu et centres en el contingut i nosaltres en l'allotjament. Per a equips globals, la interfície està disponible en diversos idiomes mantenint el text clar i universal.",
+      "useCases": {
+        "title": "Casos d'ús pràctics",
+        "items": {
+          "1": "Producte i disseny: comparteix captures de UI i notes ràpides sense eines pesades.",
+          "2": "Suport i QA: adjunta captures reproduïbles en tiquets i xats amb enllaços nets.",
+          "3": "Docs i blogs: insereix imatges en Markdown/HTML/CMS amb URLs previsibles.",
+          "4": "Vendes i CS: comparteix captures de POC o walkthroughs per correu o missatgeria.",
+          "5": "Handoff d'enginyeria: comparteix proves i comparacions de regressió de forma lleugera.",
+          "6": "Comunitat i xarxes: enganxa enllaços en Discord/Slack/Teams/X/fòrums sense previews pesades."
+        }
+      },
+      "flow": {
+        "title": "Com funciona de principi a fi",
+        "p1": "1) Tria una imatge: arrossega i deixa anar, enganxa des del porta-retalls o explora. PNG, JPG, WEBP, GIF fins a 5MB estan suportats ara. 2) Pujem i retornem un enllaç directe. La interfície mostra la vostra URL immediatament amb accions de copiar, obrir i desar (.txt). 3) Utilitza l'enllaç en blogs, docs, tiquets, xats, prototips i més. L'objectiu és un pont sense fricció entre la vostra foto i els llocs on treballeu.",
+        "p2": "Cada pas està pensat per a claredat: estats visibles, errors amigables i botons amb confirmació. El botó de copiar està al costat de l'enllaç, i els botons de desar us permeten mantenir la URL en el format preferit per a marcadors o automatització. Quan R2 està habilitat, els enllaços es serveixen pel domini CDN; les vostres imatges s'emmagatzemen de forma segura amb xifratge de nivell empresarial i protecció de privacitat."
+      },
+      "best": {
+        "title": "Millors pràctiques per a enllaços més nets",
+        "items": {
+          "1": "Mantingueu els noms de fitxer significatius abans de pujar; romanen part de la URL i ajuden a la cerca futura.",
+          "2": "Utilitzeu WEBP o JPG/PNG optimitzats per a càrregues més lleugeres si espereu molta compartició.",
+          "3": "Copieu l'enllaç directament després de la generació per evitar entrades de porta-retalls antigues.",
+          "6": "Desar com .txt per a enllaços de text pla que estan llestos per copiar i utilitzar."
+        }
+      },
+      "roadmap": {
+        "title": "Punts destacats del roadmap",
+        "p1": "Integrarem profundament Cloudflare R2, proporcionant quotes i capacitats de gestió més amigables, amb col·laboració d'equip opcional, control d'accés i anàlisi per enllaç. Planifiquem llançar funcions com l'eliminació d'un clic, estils d'enllaç preestablerts i buckets d'emmagatzematge a nivell d'organització. Mentrestant, estem millorant contínuament subproductes com l'eina de retall circular i l'eina de cantonades arrodonides per fer el processament d'imatges més convenient."
+      },
+      "faq": {
+        "title": "Preguntes freqüents",
+        "items": {
+          "1": {
+            "q": "És gratuït?",
+            "a": "Sí, el nucli de pujar-a-enllaç és gratuït. L'allotjament amb CDN a través de R2 es llançarà amb nivells generosos."
+          },
+          "2": {
+            "q": "Quins formats estan suportats?",
+            "a": "PNG, JPG, WEBP, GIF fins a 5MB avui. Es poden afegir més formats segons la demanda."
+          },
+          "3": {
+            "q": "Puc inserir en Markdown o HTML?",
+            "a": "Sí. Copieu l'enllaç tal com està, o utilitzeu la funció de desar .txt d'un clic per a fragments."
+          },
+          "4": {
+            "q": "Mantingueu els meus fitxers públics?",
+            "a": "Els enllaços són compartibles; quan R2 CDN està habilitat, es serveixen a través del domini CDN. Mostrem missatges clars de manteniment si l'emmagatzematge no està disponible."
+          },
+          "5": {
+            "q": "Hi haurà comptes o equips?",
+            "a": "Planificat. Prioritzem les pujades sense fricció primer, després afegim espais d'equip, control d'accés i analítiques."
+          }
+        }
+      },
+      "keywords": {
+        "title": "Paraules clau que ens importen",
+        "p1": "foto a url, imatge a url, generador d'enllaços d'imatges, convertir imatge a enllaç, allotjament gratuït d'imatges, url d'imatge directe, enllaços d'imatges compartibles, enllaços d'imatges cdn"
+      }
+    },
     "selectRegion": {
       "title": "Seleccioneu la regió",
       "subtitle": "Trieu l'idioma i la regió preferits"
@@ -205,13 +268,6 @@
       "thankYou": "Gràcies per la vostra opinió!",
       "averageRating": "4.5",
       "votes": "4,992 vots"
-    },
-    "seo": {
-      "keywords": "foto a url, imatge a url, generador enllaç imatge, allotjament imatges gratis, cdn imatges",
-      "home": {
-        "title": "Convertidor de Foto a URL | Passa fotos a enllaços",
-        "description": "Allotjament d'imatges gratuït: converteix fotos a URLs permanents a l'instant. Suporta JPG, PNG, WEBP, GIF fins a 10MB."
-      }
     }
   },
   "circleCrop": {
@@ -227,8 +283,9 @@
       "description": "Retall en Cercle és una eina gratuïta en línia per transformar fotos rectangulars en formes perfectament circulars. La nostra eina us ajuda a retallar fotos en format circular instantàniament, sense necessitat de registre. Tant si necessiteu una foto de perfil rodona, una foto circular per a xarxes socials, o una foto arrodonida per a projectes de disseny, la nostra eina de retall circular ho fa tot simple i fàcil."
     },
     "seo": {
-      "title": "Retallar Foto en Cercle | Eina Online Gratuïta",
-      "description": "Retalla qualsevol foto en un cercle perfecte per a perfils i dissenys."
+      "title": "Eina de Retall Circular | Retallador de Fotos Rodones Gratuït en Línia",
+      "description": "Retalla qualsevol foto en un cercle perfecte per a perfils i dissenys.",
+      "keywords": "retallar imatge circular, retallar imatge rodona, eina retall circular, retall circular en línia"
     },
     "selectRegion": {
       "title": "Seleccioneu la regió",
@@ -240,6 +297,24 @@
       "averageRating": "4.5",
       "votes": "4,992 vots"
     }
+  },
+  "seo": {
+    "keywords": "foto a url,imatge a url,generador d'enllaços,convertir enllaç,allotjament gratuït,url directe,enllaços,CDN",
+    "home": {
+      "title": "Convertidor de Foto a URL | Converteix fotos en enllaços compartibles",
+      "description": "Allotjament gratuït d'imatges: converteix les teves fotos en URLs permanents instantàniament. Suporta JPG, PNG, WEBP, GIF fins a 5MB. Enllaços nets per a Markdown i HTML."
+    }
+  },
+  "images": {
+    "previewAlt": "Vista prèvia de la imatge penjada",
+    "animatingSampleAlt": "Imatge de mostra utilitzada en la demostració de càrrega",
+    "sampleThumbAlt": "Imatge de mostra per carregar",
+    "useSampleAria": "Utilitzeu aquesta imatge de mostra",
+    "howIllustrationAlt": "Il·lustració que mostra com funciona Photo To URL",
+    "heroDropTitle": "Arrossega una foto aquí",
+    "heroDropSubtitle": "La millorarem i allotjarem, després retornarem un enllaç net.",
+    "heroDropBadge": "Arrossega o clica (JPG/PNG, fins a 5MB)",
+    "logoAlt": "Logotip de Photo To URL"
   },
   "roundedCorners": {
     "title": "Foto a cantonades arrodonides",
@@ -256,8 +331,9 @@
       "description": "Foto a cantonades arrodonides és una eina en línia gratuïta per afegir cantonades arrodonides a qualsevol foto. Creeu icones d'estil app, imatges amb vores suaus per a xarxes socials o miniatures amb radi i zoom ajustables. Sense registre – puja, ajusta, descarrega."
     },
     "seo": {
-      "title": "Foto a cantonades arrodonides | Eina en línia gratuïta",
-      "description": "Eina gratuïta per afegir cantonades arrodonides a fotos – per a icones d'app, fotos de perfil i projectes de disseny."
+      "title": "Eina de Cantonades Arrodonides | Eina en línia gratuïta",
+      "description": "Eina gratuïta per afegir cantonades arrodonides a fotos – per a icones d'app, fotos de perfil i projectes de disseny.",
+      "keywords": "cantonades arrodonides, imatge cantonades arrodonides, eina cantonades arrodonides, cantonades arrodonides en línia"
     },
     "selectRegion": {
       "title": "Selecciona la regió",
@@ -268,6 +344,65 @@
       "thankYou": "Gràcies pel vostre feedback!",
       "averageRating": "4.5",
       "votes": "4.992 vots"
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog | Photo To URL",
+      "description": "Articles sobre allotjament de fotos, compartició d'enllaços i consells de rendiment."
+    },
+    "page": {
+      "title": "Blog",
+      "description": "Estem preparant articles sobre allotjament de fotos, CDN, compartició d'enllaços i consells SEO. El contingut arribarà aviat.",
+      "stayTuned": "Estigueu atents per a guies sobre:",
+      "guides": {
+        "1": "Millors pràctiques per a la conversió d'imatge a URL",
+        "2": "Com utilitzar enllaços de foto directes en blogs i documents",
+        "3": "Rendiment i memòria cau per a recursos estàtics"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Documentació | Photo To URL",
+      "description": "Documentació per a Photo To URL."
+    },
+    "page": {
+      "title": "Documentació",
+      "description": "Inici ràpid: pengeu una imatge i obteniu una URL directa. Utilitzeu els botons copiar/obrir o descarregueu l'enllaç en format .txt.",
+      "features": {
+        "title": "Funcionalitats suportades:",
+        "items": {
+          "1": "Suportat: JPG, PNG, WEBP, GIF",
+          "2": "Lliurament ràpid a través de CDN quan l'emmagatzematge està activat",
+          "3": "Missatges d'error de manteniment amigables quan el servei no està disponible"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Estat | Photo To URL",
+      "description": "Estat del servei Photo To URL."
+    },
+    "page": {
+      "title": "Estat",
+      "description": "Tots els sistemes operatius.",
+      "message": "L'API de càrrega i els enllaços CDN estan funcionant."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Contacte | Photo To URL",
+      "description": "Contacteu amb el suport de Photo To URL."
+    },
+    "page": {
+      "title": "Contacte",
+      "description": "Necessiteu ajuda o voleu compartir comentaris? Envieu-nos un correu electrònic i vigilarem la bústia i us respondrem el més aviat possible.",
+      "email": {
+        "label": "Correu electrònic",
+        "address": "leeqs1010@gmail.com"
+      }
     }
   },
   "about": {
@@ -442,6 +577,49 @@
             "email": "leeqs1010@gmail.com"
           }
         }
+    }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL Bookmarklet",
+    "description": "Pengeu imatges des de qualsevol pàgina web directament a Photo To URL amb un sol clic!",
+    "howItWorks": {
+      "title": "Com funciona",
+      "step1": "Navegueu per qualsevol pàgina web amb imatges",
+      "step2": "Feu clic al bookmarklet a la barra de marcadors",
+      "step3": "Seleccioneu una imatge de la pàgina",
+      "step4": "Obteniu l'URL instantàniament i copieu-la!"
+    },
+    "installation": {
+      "title": "Instal·lació",
+      "step1": {
+        "title": "Pas 1: Copieu el codi del Bookmarklet",
+        "description": "Feu clic al botó de sota per copiar el codi del bookmarklet al porta-retalls."
+      },
+      "step2": {
+        "title": "Pas 2: Afegiu al vostre navegador",
+        "description": "Seguiu aquests passos segons el vostre navegador:",
+        "chrome": "Chrome/Edge: Premeu Ctrl+Shift+B (Cmd+Shift+B al Mac) per mostrar la barra de marcadors, després feu clic dret i seleccioneu \"Afegir pàgina\". Enganxeu el codi com a URL.",
+        "firefox": "Firefox: Feu clic dret a la barra de marcadors i seleccioneu \"Marcador nou\". Enganxeu el codi com a Ubicació.",
+        "safari": "Safari: Activeu la barra de marcadors (Visualitza → Mostra barra de marcadors), després arrossegueu el codi a la barra de marcadors.",
+        "edge": "Alternativa: Creeu un marcador nou, editeu-lo i substituïu l'URL pel codi copiat."
+      },
+      "step3": {
+        "title": "Pas 3: Comenceu a usar-lo!",
+        "description": "Visiteu qualsevol pàgina web amb imatges i feu clic al vostre bookmarklet per començar a pujar!"
+      },
+      "copy": "Copia el codi",
+      "copied": "Copiat!"
+    },
+    "usage": {
+      "title": "Funcionalitats",
+      "description": "El bookmarklet ofereix les següents funcionalitats:",
+      "feature1": "Seleccioneu qualsevol imatge de la pàgina web actual",
+      "feature2": "Pujada automàtica a Photo To URL",
+      "feature3": "Obteniu un URL compartible instantàniament amb un clic per copiar"
+    },
+    "note": {
+      "title": "Nota",
+      "content": "El bookmarklet funciona a la majoria de llocs web. Alguns llocs amb polítiques de seguretat estrictes (CORS) poden impedir la pujada d'imatges."
     }
   }
 }

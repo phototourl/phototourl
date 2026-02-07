@@ -81,7 +81,7 @@
     },
     "upload": {
       "title": "Pudota kuva tai klikkaa valitaksesi",
-      "hint": "JPG, PNG, WEBP, GIF enintään 10MB. Vedä, klikkaa tai liitä kuvakaappauksia.",
+      "hint": "JPG, PNG, WEBP, GIF enintään 5MB. Vedä, klikkaa tai liitä kuvakaappauksia.",
       "orDrop": "tai pudota tiedosto",
       "samplesTitle": "Eikö sinulla ole kuvaa? Kokeile näitä:",
       "policy": "Lataamalla kuvan hyväksyt <privacy>tietosuojaselosteemme</privacy> ja <terms>käyttöehtomme</terms>.",
@@ -113,7 +113,7 @@
         },
         "nosignup": {
           "title": "Ei rekisteröitymistä",
-          "desc": "Käytä heti. Käyttäjätilit lisätään myöhemmin."
+          "desc": "Käytä heti, rekisteröitymistä ei tarvita."
         }
       }
     },
@@ -121,8 +121,8 @@
       "title": "Miten se toimii",
       "step1": "1) Lisää kuva (vedä, liitä tai valitse tiedosto).",
       "step2": "2) Me isännöimme sen ja annamme sinulle jaettavan linkin.",
-      "step3": "3) Kopioi ja liitä linkki työnkulkuusi.",
-      "note": "Linkki avautuu nopeasti dokumenteissa ja chateissa — voit myös ladata tiedot (.txt/.json/.md)."
+      "step3": "3) Kopioi ja jaa linkki asiakirjoissa, chateissa, prototyypeissä ja muualla.",
+      "note": "Linkki avautuu nopeasti dokumenteissa ja chateissa — voit myös ladata sen .txt-tiedostona."
     },
     "features": {
       "title": "Ominaisuudet",
@@ -133,16 +133,60 @@
           "desc": "Puhtaat ja pysyvät osoitteet Markdown- ja HTML-käyttöön."
         },
         "save": {
-          "title": "Kopioi & Tallenna",
-          "desc": "Kopioi tai tallenna tiedostona (.txt/.json/.md) yhdellä klikkauksella."
+          "title": "Kopioi ja Tallenna",
+          "desc": "Kopioi, avaa tai tallenna .txt-tiedostona yhdellä klikkauksella."
         },
         "clipboard": {
           "title": "Leikepöytä-ystävällinen",
           "desc": "Liitä kuvakaappaukset suoraan ilman tiedostojen etsimistä."
         },
+        "errors": {
+          "title": "Turvallinen ja Yksityinen",
+          "desc": "Kuvasi tallennetaan turvallisesti yritystason salauksella ja yksityisyyden suojauksella."
+        },
         "nosignup": {
           "title": "Ei tiliä",
           "desc": "Aloita nopeammin — lataa ja jaa välittömästi."
+        },
+        "r2": {
+          "title": "Nopea hosting",
+          "desc": "Linkit palvelevat nopean CDN:n kautta nopeaa latausta ja luotettavaa pääsyä varten."
+        }
+      }
+    },
+    "process": {
+      "title": "Kolmen vaiheen työnkulku",
+      "subtitle": "Vähennä vaivaa, pidä CTA näkyvissä, valmis sekunneissa.",
+      "steps": {
+        "1": {
+          "title": "Pudota tai liitä",
+          "desc": "Vedä tiedosto, liitä leikepöydältä tai selaa."
+        },
+        "2": {
+          "title": "Me hostaamme ja palautamme linkin",
+          "desc": "Hetkellinen URL kopioi/avaa/tallenna-toiminnoilla."
+        },
+        "3": {
+          "title": "Käytä missä tahansa",
+          "desc": "Käytä dokumenteissa, chateissa, tiketeissä, blogeissa tai prototyypeissä."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Tiimit säästävät aikaa Photo To URL:lla",
+      "subtitle": "Sosiaalinen todiste riskin vähentämiseksi ja käyttöönoton nopeuttamiseksi.",
+      "items": {
+        "ops": {
+          "name": "Product Ops",
+          "quote": "Liitämme kuvakaappauksia tiketteihin ilman liitteiden tukkeutumista. Linkit pysyvät siisteinä."
+        },
+        "content": {
+          "name": "Content Lead",
+          "quote": "Markdown-valmiit linkit pitävät dokumenttimme siisteinä ja julkaistavissa minuuteissa."
+        },
+        "support": {
+          "name": "Tuki",
+          "quote": "Selkeät virheet ja hetkelliset URL:t tekevät asiakkaiden ohjaamisesta helpon chatissa."
         }
       }
     },
@@ -151,6 +195,69 @@
       "subtitle": "Vedä, liitä tai lataa — kopioi linkki ja jaa se kaikkialla.",
       "upload": "Lataa nyt",
       "paste": "Liitä kuvakaappaus"
+    },
+    "longform": {
+      "title": "Miksi Photo To URL auttaa työnkulkua",
+      "p1": "Photo To URL on rakennettu luojille, markkinoinnille, tuelle, operaatioille ja kaikille, jotka tarvitsevat muuntaa kuvat puhtaiksi, luotettaviksi linkeiksi. Suoralla lataus→linkki-työnkululla vältyt raskaiden mediamanagerien käytöstä ja et tarvitse kirjautumista. Linkit ovat siistejä ja helppoja liittää chateihin, dokumentteihin, wikiin, virheraportteihin ja tiketteihin. Tiimit liikkuvat nopeammin jakamalla kuvakaappauksia heti· lisäksi ennustettavat URL:t auttavat automatiossa, QA:ssa ja kevyissä prototyypeissä.",
+      "p2": "Kokemus pysyy yksinkertaisena: pudota, liitä tai valitse tiedosto· saa linkki· jaa se. Ilman melua, ilman häiritseviä mainoksia, ilman esteitä. Sinä keskityt sisältöön, me hoidamme hostingin. Globaaleille tiimeille käyttöliittymä on saatavilla useilla kielillä pitäen tekstin selkeänä ja universaalina.",
+      "useCases": {
+        "title": "Käytännölliset käyttötapaukset",
+        "items": {
+          "1": "Tuote ja suunnittelu: jaa UI-kuvakaappauksia ja nopeita muistiinpanoja ilman raskaita työkaluja.",
+          "2": "Tuki ja QA: liitä toistettavia kuvakaappauksia tiketteihin ja chateihin puhtailla linkeillä.",
+          "3": "Dokumentit ja blogit: upota kuvia Markdown/HTML/CMS-edittoreihin ennustettavilla URL:illa.",
+          "4": "Myynti ja CS: jaa POC-kuvakaappauksia tai kävelyt läpi sähköpostilla tai viestinnällä.",
+          "5": "Engineering handoff: jaa todisteet ja regressiovertailut kevyellä tavalla.",
+          "6": "Yhteisö ja sosiaalinen: liitä linkkejä Discord/Slack/Teams/X/foorumeihin ilman raskaita esikatseluja."
+        }
+      },
+      "flow": {
+        "title": "Miten työnkulku toimii päästä päähän",
+        "p1": "1) Valitse kuva: vedä ja pudota, liitä leikepöydältä tai selaa. PNG, JPG, WEBP, GIF jopa 5MB tuetaan nyt. 2) Lataamme ja palautamme suoran linkin. Käyttöliittymä näyttää URL:si heti kopioi/avaa/tallenna-toiminnoilla (.txt). 3) Käytä linkkiä missä tahansa: blogeissa, dokumenteissa, tiketeissä, chateissa, prototyypeissä ja muissa. Tavoitteena on kitkaton silta kuvan ja työpaikkojen välillä.",
+        "p2": "Jokainen vaihe on viritetty selkeyttä varten: näkyvä tila, ystävälliset virheet ja vahvistavat painikkeet. Kopioi-painike on linkin vieressä, ja tallenna-painikkeet antavat sinun pitää URL:n haluamassasi muodossa kirjanmerkeille tai automatiikalle. Kun R2 on käytössä, linkit palvelevat CDN-verkkotunnuksesta· kuvasi tallennetaan turvallisesti yritystason salauksella ja yksityisyyden suojalla."
+      },
+      "best": {
+        "title": "Parhaat käytännöt puhtaammille linkeille",
+        "items": {
+          "1": "Pidä tiedostonimet merkityksellisinä ennen latausta· ne pysyvät osana URL:ia ja auttavat tulevaisuuden hakuja.",
+          "2": "Käytä WEBP:tä tai optimoituja JPG/PNG-tiedostoja kevyempiin kuormiin, jos odotat runsasta jakamista.",
+          "3": "Kopioi linkki suoraan luomisen jälkeen välttääksesi vanhentuneet leikepöydän merkinnät.",
+          "6": "Tallenna .txt-muodossa tavallisia tekstilinkkejä varten, jotka ovat valmiita kopiointiin ja käyttöön."
+        }
+      },
+      "roadmap": {
+        "title": "Roadmap-kohokohdat",
+        "p1": "Integroimme Cloudflare R2:n syvällisesti, tarjoten käyttäjäystävällisempiä kiintiöitä ja hallintamahdollisuuksia, valinnaisella tiimiyhteistyöllä, pääsynhallinnalla ja linkkikohtaisella analytiikalla. Suunnittelemme käynnistävämme ominaisuuksia kuten yhden napsautuksen poisto, ennalta asetetut linkkityylit ja organisaatiotason tallennuskauhat. Samaan aikaan parannamme jatkuvasti sivutuotteita kuten ympyräleikkaus-työkalua ja pyöristettyjä kulmia-työkalua tehdäksemme kuvankäsittelystä kätevämpää."
+      },
+      "faq": {
+        "title": "Usein kysytyt kysymykset",
+        "items": {
+          "1": {
+            "q": "Onko se ilmainen?",
+            "a": "Kyllä, ydin lataus-linkki on ilmainen. CDN-pohjainen hosting R2:n kautta käynnistetään anteliailla tasoilla."
+          },
+          "2": {
+            "q": "Mitkä muodot tuetaan?",
+            "a": "PNG, JPG, WEBP, GIF jopa 5MB tänään. Lisää muotoja voidaan lisätä kysynnän perusteella."
+          },
+          "3": {
+            "q": "Voinko upottaa Markdowniin tai HTML:ään?",
+            "a": "Kyllä. Kopioi linkki sellaisenaan, tai käytä yhden napsautuksen .txt-tallennusta drop-in-sirpaleisiin."
+          },
+          "4": {
+            "q": "Pidättekö tiedostoni julkisina?",
+            "a": "Linkit ovat jaettavissa· kun R2 CDN on käytössä, ne palvelevat CDN-verkkotunnuksen kautta. Näytämme selkeät ylläpitoviestit, jos tallennustila ei ole saatavilla."
+          },
+          "5": {
+            "q": "Tuleeko tilejä tai tiimejä?",
+            "a": "Suunniteltu. Priorisoidaan kitkattomat lataukset ensin, sitten lisätään tiimitilat, pääsynhallinta ja analytiikka."
+          }
+        }
+      },
+      "keywords": {
+        "title": "Avainsanat, joista välitämme",
+        "p1": "kuva url:ksi, kuva url:ksi, kuvan linkkigeneraattori, muunna kuva linkiksi, ilmainen kuvahosting, suora kuvan url, jaettavat kuvan linkit, cdn kuvan linkit"
+      }
     },
     "selectRegion": {
       "title": "Valitse alue",
@@ -166,7 +273,7 @@
       "keywords": "kuva urliksi, kuvasta linkki, kuvalinkki generaattori, ilmainen kuvahosting, cdn kuvat",
       "home": {
         "title": "Photo To URL -muunnin | Muuta kuvat jaettaviksi linkeiksi",
-        "description": "Ilmainen kuvan isännöinti: muuta kuvat pysyviksi URL-osoitteiksi heti. Tukee JPG, PNG, WEBP, GIF (max 10MB)."
+        "description": "Ilmainen kuvan isännöinti: muuta kuvat pysyviksi URL-osoitteiksi heti. Tukee JPG, PNG, WEBP, GIF (max 5MB)."
       }
     }
   },
@@ -183,8 +290,9 @@
       "description": "Pyöreä Kuva on ilmainen verkkotyökalu suorakulmaisten kuvien muuntamiseen täydellisiksi ympyrän muotoisiksi. Työkalumme auttaa sinua rajaamaan kuvia ympyrän muotoon hetkessä, ilman rekisteröitymistä. Tarvitsetpa pyöreää profiilikuvaa, ympyrän muotoista kuvaa sosiaaliseen mediaan tai pyöristettyä kuvaa design-projekteihin, pyöreä kuvan rajaus -työkalumme tekee siitä yksinkertaista ja helppoa."
     },
     "seo": {
-      "title": "Rajaa kuva pyöreäksi | Ilmainen verkkotyökalu",
-      "description": "Rajaa mikä tahansa kuva täydelliseksi ympyräksi sosiaalista mediaa ja suunnittelua varten."
+      "title": "Ympyräleikkaus Työkalu | Ilmainen Online Pyöreä Kuvan Leikkuri",
+      "description": "Rajaa mikä tahansa kuva täydelliseksi ympyräksi sosiaalista mediaa ja suunnittelua varten.",
+      "keywords": "ympyräkuva leikkaus, leikkaa ympyräkuva, ympyräleikkaus työkalu, ympyräleikkaus verkossa"
     },
     "selectRegion": {
       "title": "Valitse alue",
@@ -212,8 +320,9 @@
       "description": "Kuva pyöristetyillä nurkilla on ilmainen verkko-työkalu pyöristettyjen nurkien lisäämiseen mihin tahansa kuvaan. Luo sovitusmaisia kuvakkeita, pehmeäreunaisia kuvia someen tai pikkukuvia säädettävällä säteellä ja zoomilla. Ei rekisteröitymistä – lataa, säädä, lataa."
     },
     "seo": {
-      "title": "Kuva pyöristetyillä nurkilla | Ilmainen verkko-työkalu",
-      "description": "Ilmainen työkalu pyöristettyjen nurkien lisäämiseen kuviin – sovelluskuvikkeet, profiilikuvat ja design-projektit."
+      "title": "Pyöristetyt Nurkka Työkalu | Ilmainen verkko-työkalu",
+      "description": "Ilmainen työkalu pyöristettyjen nurkien lisäämiseen kuviin – sovelluskuvikkeet, profiilikuvat ja design-projektit.",
+      "keywords": "pyöristetyt nurkat, kuva pyöristetyt nurkat, pyöristetyt nurkat työkalu, pyöristetyt nurkat verkossa"
     },
     "selectRegion": {
       "title": "Valitse alue",
@@ -225,6 +334,24 @@
       "averageRating": "4.5",
       "votes": "4 992 ääntä"
     }
+  },
+  "seo": {
+    "keywords": "kuva url:ksi,kuva url:ksi,kuvan linkkigeneraattori,muunna kuva linkiksi,ilmainen kuvahosting,cdn kuva",
+    "home": {
+      "title": "Photo To URL Muunnin | Muuta kuvat jaettaviksi linkeiksi",
+      "description": "Ilmainen kuvahosting: muunna valokuvat pysyviksi URL:eiksi hetkessä. Tukee JPG, PNG, WEBP, GIF jopa 5MB. Leikepöydän liittäminen, nopea CDN, puhtaat linkit."
+    }
+  },
+  "images": {
+    "previewAlt": "Ladatun kuvan esikatselu",
+    "animatingSampleAlt": "Esimerkkikuva, jota käytetään latausesittelyssä",
+    "sampleThumbAlt": "Esimerkki latauskuva",
+    "useSampleAria": "Käytä tätä esimerkkikuvaa",
+    "howIllustrationAlt": "Kuvitus, joka näyttää, miten Photo To URL toimii",
+    "heroDropTitle": "Vedä kuva tähän",
+    "heroDropSubtitle": "Parannamme ja hostaamme sen, sitten palautamme puhtaan linkin.",
+    "heroDropBadge": "Vedä tai klikkaa (JPG/PNG, jopa 5MB)",
+    "logoAlt": "Photo To URL logo"
   },
   "about": {
     "seo": {
@@ -398,6 +525,108 @@
             "email": "leeqs1010@gmail.com"
           }
         }
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blogi | Photo To URL",
+      "description": "Artikkelit kuvahostauksesta, linkkien jakamisesta ja suorituskyvyn vinkit."
+    },
+    "page": {
+      "title": "Blogi",
+      "description": "Valmistelemme artikkeleita kuvahostauksesta, CDN:stä, linkkien jakamisesta ja SEO-vinkeistä. Sisältö tulossa pian.",
+      "stayTuned": "Pysy kuulolla oppaista:",
+      "guides": {
+        "1": "Parhaat käytännöt kuvan muuntamiseen URL:ksi",
+        "2": "Kuinka käyttää suoria kuvan linkkejä blogeissa ja dokumenteissa",
+        "3": "Suorituskyky ja välimuisti staattisille varoille"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Dokumentaatio | Photo To URL",
+      "description": "Dokumentaatio Photo To URL:lle."
+    },
+    "page": {
+      "title": "Dokumentaatio",
+      "description": "Pikakäynnistys: lataa kuva ja saat suoran URL:n. Käytä kopioi/avaa-painikkeita tai lataa linkki .txt-muodossa.",
+      "features": {
+        "title": "Tuetut ominaisuudet:",
+        "items": {
+          "1": "Tuettu: JPG, PNG, WEBP, GIF",
+          "2": "Nopea toimitus CDN:n kautta, kun tallennustila on käytössä",
+          "3": "Ystävälliset ylläpitoviestit, kun palvelu ei ole saatavilla"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Tila | Photo To URL",
+      "description": "Palvelun tila Photo To URL:lle."
+    },
+    "page": {
+      "title": "Tila",
+      "description": "Kaikki järjestelmät toiminnassa.",
+      "message": "Lataus-API ja CDN-linkit toimivat."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Yhteystiedot | Photo To URL",
+      "description": "Ota yhteyttä Photo To URL -tukeen."
+    },
+    "page": {
+      "title": "Yhteystiedot",
+      "description": "Tarvitsetko apua tai haluatko jakaa palautetta? Lähetä meille sähköpostia, ja seuraamme postilaatikkoa ja vastaamme sinulle mahdollisimman pian.",
+      "email": {
+        "label": "Sähköposti",
+        "address": "leeqs1010@gmail.com"
+      }
+    }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL Bookmarklet",
+    "description": "Lataa kuvia mistä tahansa verkkosivulta suoraan Photo To URL:ään yhdellä napsautuksella!",
+    "howItWorks": {
+      "title": "Miten se toimii",
+      "step1": "Selaa mitä tahansa verkkosivua kuvilla",
+      "step2": "Napsauta bookmarkletia kirjanmerkkipalkissa",
+      "step3": "Valitse kuva sivulta",
+      "step4": "Hae URL heti ja kopioi se!"
+    },
+    "installation": {
+      "title": "Asennus",
+      "step1": {
+        "title": "Vaihe 1: Kopioi Bookmarklet-koodi",
+        "description": "Napsauta alla olevaa painiketta kopioidaksesi bookmarklet-koodin leikepöydälle."
+      },
+      "step2": {
+        "title": "Vaihe 2: Lisää selaimeseesi",
+        "description": "Noudata näitä vaiheita selaimen mukaan:",
+        "chrome": "Chrome/Edge: Paina Ctrl+Shift+B (Cmd+Shift+B Macissa) näyttääksesi kirjanmerkkipalkin, napsauta sitten hiiren oikeaa painiketta ja valitse \"Lisää sivu\". Liitä koodi URL:ksi.",
+        "firefox": "Firefox: Napsauta hiiren oikeaa painiketta kirjanmerkkipalkissa ja valitse \"Uusi kirjanmerkki\". Liitä koodi sijainniksi.",
+        "safari": "Safari: Ota kirjanmerkkipalkki käyttöön (Näytä → Näytä kirjanmerkkipalkki), vedä sitten koodi kirjanmerkkipalkkiin.",
+        "edge": "Vaihtoehto: Luo uusi kirjanmerkki, muokkaa sitä ja korvaa URL kopioidulla koodilla."
+      },
+      "step3": {
+        "title": "Vaihe 3: Aloita käyttö!",
+        "description": "Vieraile millä tahansa verkkosivulla kuvilla ja napsauta bookmarkletia aloittaaksesi latauksen!"
+      },
+      "copy": "Kopioi koodi",
+      "copied": "Kopioitu!"
+    },
+    "usage": {
+      "title": "Ominaisuudet",
+      "description": "Bookmarklet tarjoaa seuraavat ominaisuudet:",
+      "feature1": "Valitse mikä tahansa kuva nykyiseltä verkkosivulta",
+      "feature2": "Automaattinen lataus Photo To URL:ään",
+      "feature3": "Hae jaettava URL heti yhdellä napsautuksella kopiointia varten"
+    },
+    "note": {
+      "title": "Huomautus",
+      "content": "Bookmarklet toimii useimmissa verkkosivuilla. Jotkut sivustot tiukilla turvallisuuskäytänteillä (CORS) voivat estää kuvien latauksen."
     }
   }
 }

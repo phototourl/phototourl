@@ -60,7 +60,7 @@
     "hero": {
       "title1": "Free",
       "title2": "Photo To URL",
-      "subtitle": "Upload your photo → get a link → paste it anywhere",
+      "subtitle": "Upload your photo → get a link → use it anywhere",
       "upload": "Upload Image",
       "bullet": {
         "fast": "Fast sharing",
@@ -81,7 +81,7 @@
     },
     "upload": {
       "title": "Drop a photo or click to browse",
-      "hint": "JPG, PNG, WEBP, GIF up to 10MB. Drag & drop, click, or paste screenshots.",
+      "hint": "JPG, PNG, WEBP, GIF up to 5MB. Drag & drop, click, or paste screenshots.",
       "orDrop": "or drop a file",
       "samplesTitle": "No image? Try one of these:",
       "policy": "By uploading an image you agree to our <privacy>Privacy Policy</privacy> and <terms>Terms of Use</terms>.",
@@ -113,7 +113,7 @@
         },
         "nosignup": {
           "title": "No signup required",
-          "desc": "Use it right away. Accounts can come later as we grow."
+          "desc": "Use it right away, no registration needed."
         }
       }
     },
@@ -121,8 +121,8 @@
       "title": "How it works",
       "step1": "1) Add your photo (drag, paste, or click to pick a file).",
       "step2": "2) We host it and return a shareable link.",
-      "step3": "3) Copy and share the link anywhere you work.",
-      "note": "Your link opens fast in docs, chats, and prototypes—plus you can download it in the format you like (.txt/.json/.md)."
+      "step3": "3) Copy and share the link in docs, chats, prototypes, and more.",
+      "note": "Your link opens fast in docs, chats, and prototypes—plus you can download it as .txt."
     },
     "process": {
       "title": "Three-step flow",
@@ -137,8 +137,8 @@
           "desc": "Instant URL with copy/open/save controls."
         },
         "3": {
-          "title": "Share anywhere",
-          "desc": "Paste into docs, chats, tickets, blogs, or prototypes."
+          "title": "Use anywhere",
+          "desc": "Use in docs, chats, tickets, blogs, or prototypes."
         }
       }
     },
@@ -151,16 +151,16 @@
           "desc": "Clean, predictable URLs ready for Markdown and HTML embeds."
         },
         "save": {
-          "title": "Copy & save actions",
-          "desc": "Copy, open, or save as .txt/.json/.md with one click."
+          "title": "Copy & Save",
+          "desc": "Copy, open, or save as .txt file with one click."
         },
         "clipboard": {
           "title": "Clipboard friendly",
           "desc": "Paste screenshots without hunting for files or re-uploads."
         },
         "errors": {
-          "title": "Friendly errors",
-          "desc": "Clear maintenance messages instead of technical stack traces."
+          "title": "Secure & Private",
+          "desc": "Your images are securely stored with enterprise-grade encryption and privacy protection."
         },
         "nosignup": {
           "title": "No signup needed",
@@ -192,13 +192,13 @@
     },
     "cta": {
       "title": "Turn photos into links in seconds",
-      "subtitle": "Drop, paste, or upload—copy your link and share everywhere.",
+      "subtitle": "Drop, paste, or upload—copy your link and share it.",
       "upload": "Upload now",
       "paste": "Paste a screenshot"
     },
     "longform": {
       "title": "Why Photo To URL helps your workflow",
-      "p1": "Photo To URL is built for creators, marketers, support teams, founders, and anyone who needs a quick, reliable way to turn photos into clean links. With a direct upload-to-link flow, you avoid heavy media managers and skip logins. Links are tidy, easy to paste into chat apps, docs, wikis, bug reports, and tickets. Teams move faster when screenshots and product photos are instantly shareable without attachment limits or messy previews. Because the links are predictable and consistent, they also work well in automation, QA steps, and lightweight prototypes.",
+      "p1": "Photo To URL is built for creators, marketers, support teams, founders, and anyone who needs a quick, reliable way to turn photos into clean links. With a direct upload-to-link flow, you avoid heavy media managers and skip logins. Links are tidy, easy to use in chat apps, docs, wikis, bug reports, and tickets. Teams move faster when screenshots and product photos are instantly shareable without attachment limits or messy previews. Because the links are predictable and consistent, they also work well in automation, QA steps, and lightweight prototypes.",
       "p2": "The experience stays simple: drop, paste, or browse; get a link; share. No extra chrome, no distracting ads, no gating. You keep focus on your content while we handle the boring parts of hosting. Whether you are documenting a feature, preparing a blog post, building a pitch deck, or sending a quick support response, a short link beats bulky attachments. For global teams, the interface is available in multiple languages while keeping copy concise and universal.",
       "useCases": {
         "title": "Use cases that stay practical",
@@ -208,13 +208,13 @@
           "3": "Docs and blogs: embed photos in Markdown, HTML, or CMS editors with predictable URLs and no layout surprises.",
           "4": "Sales and CS: drop proof-of-concept captures or customer walkthroughs straight into email or messaging.",
           "5": "Engineering handoff: keep build artifacts, error snaps, and regression visuals lightweight for faster reviews.",
-          "6": "Community and socials: paste links into Discord, Slack, Teams, Twitter/X, or forums without bloated previews."
+          "6": "Community and socials: use links in Discord, Slack, Teams, Twitter/X, or forums without bloated previews."
         }
       },
       "flow": {
         "title": "How the flow works end-to-end",
-        "p1": "1) Choose an image: drag-and-drop, paste from clipboard, or click to browse. PNG, JPG, WEBP, GIF up to 10MB are supported now. 2) We upload and return a direct link. The UI shows your URL immediately with copy, open, and multi-format save actions (.txt, .json, .md). 3) You reuse the link anywhere: blogs, docs, tickets, chat, prototypes. The goal is a frictionless bridge between your photo and the places you work.",
-        "p2": "Each step is tuned for clarity: visible status, friendly errors, and buttons that confirm actions. The copy button sits next to the link, and the save buttons let you keep the URL in your preferred format for bookmarking or automation. When R2 is enabled, links serve from the CDN domain; if the service is in maintenance, the UI returns a clear message instead of raw errors."
+        "p1": "1) Choose an image: drag-and-drop, paste from clipboard, or click to browse. PNG, JPG, WEBP, GIF up to 5MB are supported now. 2) We upload and return a direct link. The UI shows your URL immediately with copy, open, and save actions (.txt). 3) Use the link anywhere: blogs, docs, tickets, chat, prototypes, and more. The goal is a frictionless bridge between your photo and the places you work.",
+        "p2": "Each step is tuned for clarity: visible status, friendly errors, and buttons that confirm actions. The copy button sits next to the link, and the save buttons let you keep the URL in your preferred format for bookmarking or automation. When R2 is enabled, links serve from the CDN domain; your images are securely stored with enterprise-grade encryption and privacy protection."
       },
       "best": {
         "title": "Best practices for cleaner links",
@@ -222,14 +222,12 @@
           "1": "Keep filenames meaningful before upload; they remain part of the URL and help future search.",
           "2": "Use WEBP or optimized JPG/PNG for lighter payloads if you expect heavy sharing.",
           "3": "Copy the link directly after generation to avoid stale clipboard entries.",
-          "4": "Save as .json when you need to batch store references for automation or audits.",
-          "5": "Use .md output when embedding in docs or wikis; it is ready to paste.",
           "6": "Save as .txt for plain text links that are ready to copy and use."
         }
       },
       "roadmap": {
         "title": "Roadmap highlights",
-        "p1": "Upcoming improvements include deeper Cloudflare R2 integration by default, more generous upload limits, optional auth for team spaces, and per-link analytics. We also plan preset link styles, one-click delete, and organization-level buckets. SEO polish continues across blog, docs, and status pages, with richer schema and a public sitemap for fast indexing."
+        "p1": "We will deeply integrate Cloudflare R2, providing more user-friendly quotas and management capabilities, with optional team collaboration, access control, and per-link analytics. We plan to launch features like one-click delete, preset link styles, and organization-level storage buckets. Meanwhile, we're continuously improving sub-products like circle crop tool and rounded corners tool to make image processing more convenient."
       },
       "faq": {
         "title": "FAQs",
@@ -240,11 +238,11 @@
           },
           "2": {
             "q": "What formats are supported?",
-            "a": "PNG, JPG, WEBP, GIF up to 10MB today. More formats can be added based on demand."
+            "a": "PNG, JPG, WEBP, GIF up to 5MB today. More formats can be added based on demand."
           },
           "3": {
             "q": "Can I embed in Markdown or HTML?",
-            "a": "Yes. Copy the link as-is, or use the one-click .txt / .json / .md saves for drop-in snippets."
+            "a": "Yes. Copy the link as-is, or use the one-click .txt save for drop-in snippets."
           },
           "4": {
             "q": "Do you keep my files public?",
@@ -276,7 +274,7 @@
     "keywords": "photo to url,image to url,image link generator,convert image to link,free image hosting,cdn image",
     "home": {
       "title": "Photo To URL Converter | Turn photos into shareable links",
-      "description": "Free image hosting: convert photos to permanent URLs instantly. Supports JPG, PNG, WEBP, GIF up to 10MB. Clipboard paste, fast CDN, clean links."
+      "description": "Free image hosting: convert photos to permanent URLs instantly. Supports JPG, PNG, WEBP, GIF up to 5MB. Clipboard paste, fast CDN, clean links."
     }
   },
   "images": {
@@ -287,7 +285,7 @@
     "howIllustrationAlt": "Illustration showing how Photo To URL works",
     "heroDropTitle": "Drag a photo here",
     "heroDropSubtitle": "We'll enhance and host it, then return a clean link.",
-    "heroDropBadge": "Drag or click (JPG/PNG, up to 10MB)",
+    "heroDropBadge": "Drag or click (JPG/PNG, up to 5MB)",
     "logoAlt": "Photo To URL logo"
   },
   "circleCrop": {
@@ -303,8 +301,9 @@
       "description": "Photo To Circle Crop is a free online tool for transforming rectangular photos into perfectly circular shapes. Our tool helps you crop photos in circle format instantly, with no signup required. Whether you need a round profile picture, circular photo for social media, or rounded photo for design projects, our circle photo crop tool makes it simple and easy."
     },
     "seo": {
-      "title": "Photo to Circle Crop | Free Online Circle Cropper",
-      "description": "Free online tool to crop any photo into a perfect circle - perfect for profile pictures, social media, and design projects."
+      "title": "Circle Crop Tool | Free Online Round Photo Cropper",
+      "description": "Free online tool to crop any photo into a perfect circle - perfect for profile pictures, social media, and design projects.",
+      "keywords": "circle crop image, crop circle image, circle crop tool, circle crop online"
     },
     "selectRegion": {
       "title": "Select Region",
@@ -332,8 +331,9 @@
       "description": "Photo To Rounded Corners is a free online tool for adding rounded corners to any photo. Create app-style icons, soft-edged images for social media, or polished thumbnails with adjustable corner radius and zoom. No signup required - upload, adjust, and download in seconds."
     },
     "seo": {
-      "title": "Photo to Rounded Corners | Free Online Rounded Corner Tool",
-      "description": "Free online tool to add rounded corners to any photo - perfect for app icons, profile pictures, and design projects."
+      "title": "Rounded Corners Tool | Free Online Rounded Corner Tool",
+      "description": "Free online tool to add rounded corners to any photo - perfect for app icons, profile pictures, and design projects.",
+      "keywords": "rounded corners, round corners image, rounded corner tool, rounded corners online"
     },
     "selectRegion": {
       "title": "Select Region",
@@ -369,7 +369,7 @@
     },
     "page": {
       "title": "Docs",
-      "description": "Quick start: upload an image and get a direct URL. Use the copy/open buttons or download the link in .txt/.json/.md.",
+      "description": "Quick start: upload an image and get a direct URL. Use the copy/open buttons or download the link in .txt.",
       "features": {
         "title": "Supported features:",
         "items": {

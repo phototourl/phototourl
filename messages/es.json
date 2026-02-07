@@ -81,7 +81,7 @@
     },
     "upload": {
       "title": "Suelta una foto o haz clic para elegir",
-      "hint": "JPG/PNG/WEBP/GIF hasta 10MB. Arrastra y suelta, haz clic o pega capturas.",
+      "hint": "JPG/PNG/WEBP/GIF hasta 5MB. Arrastra y suelta, haz clic o pega capturas.",
       "orDrop": "o suelta un archivo",
       "samplesTitle": "¿Sin imagen? Prueba una de estas:",
       "policy": "Al subir una imagen, aceptas nuestra <privacy>Política de privacidad</privacy> y <terms>Términos de uso</terms>.",
@@ -113,7 +113,7 @@
         },
         "nosignup": {
           "title": "Sin registro requerido",
-          "desc": "Úsalo al instante; las cuentas pueden llegar después."
+          "desc": "Úsalo al instante, no se requiere registro."
         }
       }
     },
@@ -121,8 +121,8 @@
       "title": "Cómo funciona",
       "step1": "1) Añade tu foto (arrastra, pega o haz clic para elegir un archivo).",
       "step2": "2) La convertimos en un enlace en nuestro CDN.",
-      "step3": "3) Copia y comparte el enlace donde trabajes.",
-      "note": "Tu enlace se abre rápido en docs, chats y prototipos; además puedes descargarlo en el formato que quieras (.txt/.json/.md)."
+      "step3": "3) Copia y comparte el enlace en docs, chats, prototipos y más.",
+      "note": "Tu enlace se abre rápido en docs, chats y prototipos; además puedes descargarlo como .txt."
     },
     "process": {
       "title": "Flujo en tres pasos",
@@ -137,8 +137,8 @@
           "desc": "URL instantánea con acciones de copiar/abrir/guardar."
         },
         "3": {
-          "title": "Comparte en cualquier lugar",
-          "desc": "Pega en docs, chats, tickets, blogs o prototipos."
+          "title": "Usa en cualquier lugar",
+          "desc": "Usa en docs, chats, tickets, blogs o prototipos."
         }
       }
     },
@@ -151,16 +151,16 @@
           "desc": "URLs limpias y predecibles listas para Markdown y HTML."
         },
         "save": {
-          "title": "Acciones de copia y guardado",
-          "desc": "Copia, abre o guarda como .txt/.json/.md con un clic."
+          "title": "Copiar y Guardar",
+          "desc": "Copia, abre o guarda como archivo .txt con un clic."
         },
         "clipboard": {
           "title": "Amigable con el portapapeles",
           "desc": "Pega capturas sin buscar archivos ni re-subir."
         },
         "errors": {
-          "title": "Errores amigables",
-          "desc": "Mensajes claros de mantenimiento en lugar de trazas técnicas."
+          "title": "Seguro y Privado",
+          "desc": "Sus imágenes se almacenan de forma segura con cifrado de nivel empresarial y protección de privacidad."
         },
         "nosignup": {
           "title": "No necesitas registro",
@@ -192,7 +192,7 @@
     },
     "cta": {
       "title": "Convierte fotos en enlaces en segundos",
-      "subtitle": "Arrastra, pega o sube—copia tu enlace y compártelo en todas partes.",
+      "subtitle": "Arrastra, pega o sube—copia tu enlace y compártelo.",
       "upload": "Subir ahora",
       "paste": "Pegar una captura"
     },
@@ -213,8 +213,8 @@
       },
       "flow": {
         "title": "Cómo funciona de principio a fin",
-        "p1": "1) Elige una imagen: arrastra y suelta, pega desde el portapapeles o explora. 2) Subimos y devolvemos un enlace directo con acciones de copiar/abrir/guardar (.txt/.json/.md). 3) Reutiliza el enlace en blogs, docs, tickets, chats o prototipos.",
-        "p2": "Cada paso está pensado para claridad: estados visibles, errores amigables y botones con confirmación. Cuando R2 está habilitado, los enlaces se sirven por el dominio CDN; si hay mantenimiento, verás un mensaje claro."
+        "p1": "1) Elige una imagen: arrastra y suelta, pega desde el portapapeles o explora. 2) Subimos y devolvemos un enlace directo con acciones de copiar/abrir/guardar (.txt). 3) Usa el enlace en blogs, docs, tickets, chats, prototipos y más.",
+        "p2": "Cada paso está pensado para claridad: estados visibles, errores amigables y botones con confirmación. Cuando R2 está habilitado, los enlaces se sirven por el dominio CDN; sus imágenes se almacenan de forma segura con cifrado de nivel empresarial y protección de privacidad."
       },
       "best": {
         "title": "Buenas prácticas para enlaces más limpios",
@@ -222,14 +222,12 @@
           "1": "Usa nombres de archivo significativos antes de subir.",
           "2": "Prefiere WEBP o JPG/PNG optimizados si vas a compartir mucho.",
           "3": "Copia el enlace justo después de generarlo.",
-          "4": "Guarda como .json para lotes y automatizaciones.",
-          "5": "Usa .md para pegar directamente en documentación.",
           "6": "Guarda como .txt para enlaces de texto plano listos para usar."
         }
       },
       "roadmap": {
         "title": "Hoja de ruta",
-        "p1": "Próximas mejoras: integración más profunda con Cloudflare R2 por defecto, mayores límites, espacios de equipo opcionales y analíticas por enlace. También planeamos borrado en un clic y mejoras SEO (schema y sitemap)."
+        "p1": "Integraremos profundamente Cloudflare R2, proporcionando cuotas y capacidades de gestión más amigables, con colaboración en equipo opcional, control de acceso y análisis por enlace. Planeamos lanzar funciones como eliminación con un clic, estilos de enlace preestablecidos y buckets de almacenamiento a nivel organizacional. Mientras tanto, estamos mejorando continuamente subproductos como la herramienta de recorte circular y la herramienta de esquinas redondeadas para hacer el procesamiento de imágenes más conveniente."
       },
       "faq": {
         "title": "Preguntas frecuentes",
@@ -244,7 +242,7 @@
           },
           "3": {
             "q": "¿Funciona con Markdown/HTML?",
-            "a": "Sí. Copia el enlace o usa los botones .txt/.json/.md."
+            "a": "Sí. Copia el enlace o usa el botón .txt."
           },
           "4": {
             "q": "¿Los archivos quedan públicos?",
@@ -287,7 +285,7 @@
     "howIllustrationAlt": "Ilustración del funcionamiento de Foto a URL",
     "heroDropTitle": "Arrastra una foto aquí",
     "heroDropSubtitle": "La mejoramos y la alojamos, y te devolvemos un enlace limpio al instante.",
-    "heroDropBadge": "Haz clic o arrastra (JPG/PNG, hasta 10MB)",
+    "heroDropBadge": "Haz clic o arrastra (JPG/PNG, hasta 5MB)",
     "logoAlt": "Logotipo de Foto a URL"
   },
   "circleCrop": {
@@ -303,8 +301,9 @@
       "description": "Foto a Círculo es una herramienta gratuita en línea para transformar fotos rectangulares en formas perfectamente circulares. Nuestra herramienta te ayuda a recortar fotos en formato circular al instante, sin necesidad de registro. Ya sea que necesites una foto de perfil redonda, una foto circular para redes sociales, o una foto redondeada para proyectos de diseño, nuestra herramienta de recorte circular lo hace simple y fácil."
     },
     "seo": {
-      "title": "Foto a Círculo | Recortador Circular Gratis en Línea",
-      "description": "Herramienta gratuita en línea para recortar cualquier foto en un círculo perfecto - perfecto para fotos de perfil, redes sociales y proyectos de diseño."
+      "title": "Herramienta de Recorte Circular | Recortador de Fotos Redondas Gratis en Línea",
+      "description": "Herramienta gratuita en línea para recortar cualquier foto en un círculo perfecto - perfecto para fotos de perfil, redes sociales y proyectos de diseño.",
+      "keywords": "recortar imagen circular, recortar imagen redonda, herramienta recorte circular, recorte circular en línea"
     },
     "selectRegion": {
       "title": "Seleccionar región",
@@ -332,8 +331,9 @@
       "description": "Foto a esquinas redondeadas es una herramienta en línea gratuita para añadir esquinas redondeadas a cualquier foto. Cree iconos de app, imágenes con bordes suaves para redes sociales o miniaturas con radio y zoom ajustables. Sin registro – suba, ajuste y descargue."
     },
     "seo": {
-      "title": "Foto a esquinas redondeadas | Herramienta en línea gratuita",
-      "description": "Herramienta gratuita en línea para añadir esquinas redondeadas a cualquier foto – ideal para iconos de app, fotos de perfil y proyectos de diseño."
+      "title": "Herramienta de Esquinas Redondeadas | Herramienta en línea gratuita",
+      "description": "Herramienta gratuita en línea para añadir esquinas redondeadas a cualquier foto – ideal para iconos de app, fotos de perfil y proyectos de diseño.",
+      "keywords": "esquinas redondeadas, imagen esquinas redondeadas, herramienta esquinas redondeadas, esquinas redondeadas en línea"
     },
     "selectRegion": {
       "title": "Seleccionar región",
@@ -369,7 +369,7 @@
     },
     "page": {
       "title": "Documentación",
-      "description": "Inicio rápido: sube una imagen y obtén una URL directa. Usa los botones copiar/abrir o descarga el enlace en formato .txt/.json/.md.",
+      "description": "Inicio rápido: sube una imagen y obtén una URL directa. Usa los botones copiar/abrir o descarga el enlace en formato .txt.",
       "features": {
         "title": "Funciones admitidas:",
         "items": {
@@ -577,6 +577,49 @@
             "email": "leeqs1010@gmail.com"
           }
         }
+    }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL Bookmarklet",
+    "description": "¡Sube imágenes desde cualquier página web directamente a Photo To URL con un solo clic!",
+    "howItWorks": {
+      "title": "Cómo funciona",
+      "step1": "Navega por cualquier página web con imágenes",
+      "step2": "Haz clic en el bookmarklet en tu barra de marcadores",
+      "step3": "Selecciona una imagen de la página",
+      "step4": "¡Obtén la URL al instante y cópiala!"
+    },
+    "installation": {
+      "title": "Instalación",
+      "step1": {
+        "title": "Paso 1: Copiar el código del Bookmarklet",
+        "description": "Haz clic en el botón de abajo para copiar el código del bookmarklet a tu portapapeles."
+      },
+      "step2": {
+        "title": "Paso 2: Agregar a tu navegador",
+        "description": "Sigue estos pasos según tu navegador:",
+        "chrome": "Chrome/Edge: Presiona Ctrl+Shift+B (Cmd+Shift+B en Mac) para mostrar la barra de marcadores, luego haz clic derecho y selecciona \"Agregar página\". Pega el código como URL.",
+        "firefox": "Firefox: Haz clic derecho en la barra de marcadores y selecciona \"Nuevo marcador\". Pega el código como Ubicación.",
+        "safari": "Safari: Habilita la barra de marcadores (Ver → Mostrar barra de marcadores), luego arrastra el código a la barra de marcadores.",
+        "edge": "Alternativa: Crea un nuevo marcador, edítalo y reemplaza la URL con el código copiado."
+      },
+      "step3": {
+        "title": "Paso 3: ¡Comienza a usarlo!",
+        "description": "¡Visita cualquier página web con imágenes y haz clic en tu bookmarklet para comenzar a subir!"
+      },
+      "copy": "Copiar código",
+      "copied": "¡Copiado!"
+    },
+    "usage": {
+      "title": "Características",
+      "description": "El bookmarklet proporciona las siguientes características:",
+      "feature1": "Seleccionar cualquier imagen de la página web actual",
+      "feature2": "Subida automática a Photo To URL",
+      "feature3": "Obtener una URL compartible al instante con un clic para copiar"
+    },
+    "note": {
+      "title": "Nota",
+      "content": "El bookmarklet funciona en la mayoría de los sitios web. Algunos sitios con políticas de seguridad estrictas (CORS) pueden impedir la subida de imágenes."
     }
   }
 }

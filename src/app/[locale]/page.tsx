@@ -1120,8 +1120,6 @@ export default function HomePage() {
                 <li>{t("longform.best.items.1")}</li>
                 <li>{t("longform.best.items.2")}</li>
                 <li>{t("longform.best.items.3")}</li>
-                <li>{t("longform.best.items.4")}</li>
-                <li>{t("longform.best.items.5")}</li>
                 <li>{t("longform.best.items.6")}</li>
               </ul>
             </div>

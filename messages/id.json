@@ -81,7 +81,7 @@
     },
     "upload": {
       "title": "Letakkan foto atau klik untuk menelusuri",
-      "hint": "JPG, PNG, WEBP, GIF hingga 10MB. Seret & letakkan, klik, atau tempel tangkapan layar.",
+      "hint": "JPG, PNG, WEBP, GIF hingga 5MB. Seret & letakkan, klik, atau tempel tangkapan layar.",
       "orDrop": "atau letakkan file",
       "samplesTitle": "Tidak punya gambar? Coba salah satu ini:",
       "policy": "Dengan mengunggah foto, Anda menyetujui <privacy>Kebijakan Privasi</privacy> and <terms>Ketentuan Layanan</terms> kami.",
@@ -113,7 +113,7 @@
         },
         "nosignup": {
           "title": "Tanpa Perlu Daftar",
-          "desc": "Gunakan secara instan. Akun dapat dibuat nanti saat kami berkembang."
+          "desc": "Gunakan secara instan, tidak perlu mendaftar."
         }
       }
     },
@@ -121,8 +121,8 @@
       "title": "Cara Kerjanya",
       "step1": "1) Tambahkan foto Anda (seret, tempel, atau klik untuk memilih file).",
       "step2": "2) Kami menyimpannya dan memberikan tautan yang dapat dibagikan.",
-      "step3": "3) Salin tautan dan tempel di mana pun Anda bekerja.",
-      "note": "Tautan Anda terbuka cepat di dokumen, obrolan, dan prototipe—ditambah Anda dapat mengunduhnya dalam format pilihan Anda (.txt/.json/.md)."
+      "step3": "3) Salin tautan dan bagikan di dokumen, obrolan, prototipe, dan lainnya.",
+      "note": "Tautan Anda terbuka cepat di dokumen, obrolan, dan prototipe—ditambah Anda dapat mengunduhnya sebagai .txt."
     },
     "process": {
       "title": "Alur Tiga Langkah",
@@ -137,8 +137,8 @@
           "desc": "URL instan dengan kontrol salin/buka/simpan."
         },
         "3": {
-          "title": "Bagikan di Mana Saja",
-          "desc": "Tempel ke dokumen, obrolan, tiket, blog, atau prototipe."
+          "title": "Gunakan di Mana Saja",
+          "desc": "Gunakan di dokumen, obrolan, tiket, blog, atau prototipe."
         }
       }
     },
@@ -151,16 +151,16 @@
           "desc": "URL bersih dan terprediksi yang siap untuk disematkan di Markdown dan HTML."
         },
         "save": {
-          "title": "Aksi Salin & Simpan",
-          "desc": "Salin, buka, atau simpan sebagai .txt/.json/.md dengan satu klik."
+          "title": "Salin dan Simpan",
+          "desc": "Salin, buka, atau simpan sebagai file .txt dengan satu klik."
         },
         "clipboard": {
           "title": "Ramah Papan Klip",
           "desc": "Tempel tangkapan layar tanpa harus mencari file atau mengunggah ulang."
         },
         "errors": {
-          "title": "Pesan Galat Jelas",
-          "desc": "Pesan pemeliharaan yang jelas, bukan tumpukan kode teknis yang membingungkan."
+          "title": "Aman dan Privat",
+          "desc": "Gambar Anda disimpan dengan aman menggunakan enkripsi tingkat perusahaan dan perlindungan privasi."
         },
         "nosignup": {
           "title": "Tanpa Perlu Daftar",
@@ -192,7 +192,7 @@
     },
     "cta": {
       "title": "Ubah foto menjadi tautan dalam hitungan detik",
-      "subtitle": "Letakkan, tempel, atau unggah—salin tautan Anda dan bagikan ke mana saja.",
+      "subtitle": "Letakkan, tempel, atau unggah—salin tautan Anda dan bagikan.",
       "upload": "Unggah Sekarang",
       "paste": "Tempel Tangkapan Layar"
     },
@@ -213,8 +213,8 @@
       },
       "flow": {
         "title": "Cara Kerja Alur dari Awal hingga Akhir",
-        "p1": "1) Pilih gambar: seret-dan-letakkan, tempel dari papan klip, atau klik untuk menelusuri. Mendukung PNG, JPG, WEBP, GIF hingga 10MB. 2) Kami mengunggah dan memberikan tautan langsung. Antarmuka segera menunjukkan URL Anda dengan aksi salin, buka, dan simpan dalam berbagai format (.txt, .json, .md). 3) Anda menggunakan kembali tautan tersebut di mana saja: blog, dokumen, tiket, obrolan, prototipe. Tujuannya adalah menciptakan jembatan tanpa hambatan antara foto Anda dan tempat Anda bekerja.",
-        "p2": "Setiap langkah diatur untuk kejelasan: status visual, pesan galat yang jelas, dan tombol yang mengonfirmasi tindakan. Tombol salin berada tepat di samping tautan, dan tombol simpan memungkinkan Anda menyimpan URL dalam format favorit Anda untuk penandaan atau otomatisasi. Saat R2 diaktifkan, tautan disajikan dari domain CDN."
+        "p1": "1) Pilih gambar: seret-dan-letakkan, tempel dari papan klip, atau klik untuk menelusuri. Mendukung PNG, JPG, WEBP, GIF hingga 5MB. 2) Kami mengunggah dan memberikan tautan langsung. Antarmuka segera menunjukkan URL Anda dengan aksi salin, buka, dan simpan (.txt). 3) Gunakan tautan di blog, dokumen, tiket, obrolan, prototipe, dan lainnya. Tujuannya adalah menciptakan jembatan tanpa hambatan antara foto Anda dan tempat Anda bekerja.",
+        "p2": "Setiap langkah diatur untuk kejelasan: status visual, pesan galat yang jelas, dan tombol yang mengonfirmasi tindakan. Tombol salin berada tepat di samping tautan, dan tombol simpan memungkinkan Anda menyimpan URL dalam format favorit Anda untuk penandaan atau otomatisasi. Saat R2 diaktifkan, tautan disajikan dari domain CDN; gambar Anda disimpan dengan aman menggunakan enkripsi tingkat perusahaan dan perlindungan privasi."
       },
       "best": {
         "title": "Praktik Terbaik untuk Tautan Bersih",
@@ -222,14 +222,12 @@
           "1": "Berikan nama file yang bermakna sebelum mengunggah; nama tersebut tetap menjadi bagian dari URL dan membantu pencarian di masa mendatang.",
           "2": "Gunakan WEBP atau JPG/PNG yang dioptimalkan untuk muatan ringan jika Anda mengharapkan banyak pembagian.",
           "3": "Salin tautan segera setelah dibuat untuk menghindari entri papan klip lama.",
-          "4": "Simpan sebagai .json jika Anda perlu menyimpan referensi dalam jumlah banyak untuk otomatisasi atau audit.",
-          "5": "Gunakan output .md saat menyematkan dalam dokumen atau wiki; ini siap untuk langsung ditempel.",
           "6": "Simpan sebagai .txt untuk tautan teks biasa yang siap disalin dan digunakan."
         }
       },
       "roadmap": {
         "title": "Sorotan Rencana Pengembangan",
-        "p1": "Peningkatan mendatang mencakup integrasi Cloudflare R2 yang lebih dalam secara default, batas unggahan yang lebih besar, otentikasi opsional untuk ruang tim, dan analitik per tautan. Kami juga merencanakan gaya tautan prasetel, hapus satu-klik, dan bucket tingkat organisasi."
+        "p1": "Kami akan mengintegrasikan Cloudflare R2 secara mendalam, menyediakan kuota dan kemampuan manajemen yang lebih ramah pengguna, dengan kolaborasi tim opsional, kontrol akses, dan analitik per tautan. Kami berencana meluncurkan fitur seperti penghapusan satu klik, gaya tautan yang telah ditetapkan sebelumnya, dan bucket penyimpanan tingkat organisasi. Sementara itu, kami terus meningkatkan produk sampingan seperti alat potong lingkaran dan alat sudut membulat untuk membuat pemrosesan gambar lebih nyaman."
       },
       "faq": {
         "title": "Pertanyaan Umum (FAQ)",
@@ -240,11 +238,11 @@
           },
           "2": {
             "q": "Format apa yang didukung?",
-            "a": "Saat ini PNG, JPG, WEBP, GIF hingga 10MB didukung. Format lain dapat ditambahkan berdasarkan permintaan."
+            "a": "Saat ini PNG, JPG, WEBP, GIF hingga 5MB didukung. Format lain dapat ditambahkan berdasarkan permintaan."
           },
           "3": {
             "q": "Bisakah saya menyematkan di Markdown atau HTML?",
-            "a": "Ya. Salin tautan apa adanya, atau gunakan fitur simpan .txt / .json / .md sekali klik untuk cuplikan kode."
+            "a": "Ya. Salin tautan apa adanya, atau gunakan fitur simpan .txt sekali klik untuk cuplikan kode."
           },
           "4": {
             "q": "Apakah file saya tetap publik?",
@@ -287,7 +285,7 @@
     "howIllustrationAlt": "Ilustrasi yang menunjukkan cara kerja Foto ke URL",
     "heroDropTitle": "Seret foto ke sini",
     "heroDropSubtitle": "Kami akan menghosting dan memberikan tautan bersih.",
-    "heroDropBadge": "Seret atau klik (JPG/PNG, hingga 10MB)",
+    "heroDropBadge": "Seret atau klik (JPG/PNG, hingga 5MB)",
     "logoAlt": "Logo Foto ke URL"
   },
   "circleCrop": {
@@ -303,8 +301,9 @@
       "description": "Foto ke Potong Lingkaran adalah alat online gratis untuk mengubah foto persegi panjang menjadi bentuk lingkaran sempurna. Alat kami membantu Anda memotong foto dalam format lingkaran secara instan, tanpa perlu mendaftar."
     },
     "seo": {
-      "title": "Foto ke Potong Lingkaran | Pemotong Lingkaran Online Gratis",
-      "description": "Alat online gratis untuk memotong foto apa pun menjadi lingkaran sempurna - cocok untuk foto profil, media sosial, dan proyek desain."
+      "title": "Alat Potong Lingkaran | Pemotong Foto Bulat Online Gratis",
+      "description": "Alat online gratis untuk memotong foto apa pun menjadi lingkaran sempurna - cocok untuk foto profil, media sosial, dan proyek desain.",
+      "keywords": "potong gambar lingkaran, potong foto bulat, alat potong lingkaran, potong lingkaran online"
     },
     "selectRegion": {
       "title": "Pilih Wilayah",
@@ -332,8 +331,9 @@
       "description": "Foto ke Sudut Membulat adalah alat online gratis untuk menambahkan sudut membulat ke foto apa pun. Buat ikon gaya app, gambar bertepi lembut untuk media sosial, atau thumbnail dengan jari-jari dan zoom yang dapat disesuaikan. Tanpa mendaftar – unggah, sesuaikan, unduh."
     },
     "seo": {
-      "title": "Foto ke Sudut Membulat | Alat online gratis",
-      "description": "Alat gratis untuk menambahkan sudut membulat ke foto – untuk ikon app, foto profil, dan proyek desain."
+      "title": "Alat Sudut Membulat | Alat online gratis",
+      "description": "Alat gratis untuk menambahkan sudut membulat ke foto – untuk ikon app, foto profil, dan proyek desain.",
+      "keywords": "sudut membulat, gambar sudut membulat, alat sudut membulat, sudut membulat online"
     },
     "selectRegion": {
       "title": "Pilih wilayah",
@@ -369,7 +369,7 @@
     },
     "page": {
       "title": "Dokumentasi",
-      "description": "Mulai cepat: unggah gambar dan dapatkan URL langsung. Gunakan tombol salin/buka atau unduh tautan dalam format .txt/.json/.md.",
+      "description": "Mulai cepat: unggah gambar dan dapatkan URL langsung. Gunakan tombol salin/buka atau unduh tautan dalam format .txt.",
       "features": {
         "title": "Fitur yang didukung:",
         "items": {
@@ -577,6 +577,49 @@
             "email": "leeqs1010@gmail.com"
           }
         }
+    }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL Bookmarklet",
+    "description": "Unggah gambar dari halaman web mana pun langsung ke Photo To URL dengan satu klik!",
+    "howItWorks": {
+      "title": "Cara kerjanya",
+      "step1": "Jelajahi halaman web mana pun dengan gambar",
+      "step2": "Klik bookmarklet di bilah bookmark Anda",
+      "step3": "Pilih gambar dari halaman",
+      "step4": "Dapatkan URL secara instan dan salin!"
+    },
+    "installation": {
+      "title": "Instalasi",
+      "step1": {
+        "title": "Langkah 1: Salin kode Bookmarklet",
+        "description": "Klik tombol di bawah untuk menyalin kode bookmarklet ke clipboard Anda."
+      },
+      "step2": {
+        "title": "Langkah 2: Tambahkan ke browser Anda",
+        "description": "Ikuti langkah-langkah ini berdasarkan browser Anda:",
+        "chrome": "Chrome/Edge: Tekan Ctrl+Shift+B (Cmd+Shift+B di Mac) untuk menampilkan bilah bookmark, lalu klik kanan dan pilih \"Tambahkan halaman\". Tempel kode sebagai URL.",
+        "firefox": "Firefox: Klik kanan pada bilah bookmark dan pilih \"Bookmark Baru\". Tempel kode sebagai Lokasi.",
+        "safari": "Safari: Aktifkan bilah bookmark (Tampilkan → Tampilkan Bilah Bookmark), lalu seret kode ke bilah bookmark.",
+        "edge": "Alternatif: Buat bookmark baru, edit, dan ganti URL dengan kode yang disalin."
+      },
+      "step3": {
+        "title": "Langkah 3: Mulai menggunakannya!",
+        "description": "Kunjungi halaman web mana pun dengan gambar dan klik bookmarklet Anda untuk mulai mengunggah!"
+      },
+      "copy": "Salin kode",
+      "copied": "Disalin!"
+    },
+    "usage": {
+      "title": "Fitur",
+      "description": "Bookmarklet menyediakan fitur berikut:",
+      "feature1": "Pilih gambar apa pun dari halaman web saat ini",
+      "feature2": "Unggah otomatis ke Photo To URL",
+      "feature3": "Dapatkan URL yang dapat dibagikan secara instan dengan satu klik untuk menyalin"
+    },
+    "note": {
+      "title": "Catatan",
+      "content": "Bookmarklet bekerja di sebagian besar situs web. Beberapa situs dengan kebijakan keamanan ketat (CORS) dapat mencegah pengunggahan gambar."
     }
   }
 }

@@ -81,7 +81,7 @@
     },
     "upload": {
       "title": "Thả ảnh hoặc nhấp để duyệt",
-      "hint": "JPG, PNG, WEBP, GIF lên đến 10MB. Kéo thả, nhấp hoặc dán ảnh chụp màn hình.",
+      "hint": "JPG, PNG, WEBP, GIF lên đến 5MB. Kéo thả, nhấp hoặc dán ảnh chụp màn hình.",
       "orDrop": "hoặc thả tệp",
       "samplesTitle": "Không có hình ảnh? Thử một trong những cái này:",
       "policy": "Bằng cách tải lên hình ảnh, bạn đồng ý với <privacy>Chính sách Quyền riêng tư</privacy> và <terms>Điều khoản Sử dụng</terms> của chúng tôi.",
@@ -113,7 +113,7 @@
         },
         "nosignup": {
           "title": "Không cần đăng ký",
-          "desc": "Sử dụng ngay. Tài khoản có thể đến sau khi chúng tôi phát triển."
+          "desc": "Sử dụng ngay, không cần đăng ký."
         }
       }
     },
@@ -121,8 +121,8 @@
       "title": "Cách hoạt động",
       "step1": "1) Thêm ảnh của bạn (kéo, dán hoặc nhấp để chọn tệp).",
       "step2": "2) Chúng tôi lưu trữ và trả về liên kết có thể chia sẻ.",
-      "step3": "3) Sao chép và chia sẻ liên kết ở bất cứ đâu bạn làm việc.",
-      "note": "Liên kết của bạn mở nhanh trong tài liệu, trò chuyện và nguyên mẫu—cộng với bạn có thể tải xuống ở định dạng bạn thích (.txt/.json/.md)."
+      "step3": "3) Sao chép và chia sẻ liên kết trong tài liệu, trò chuyện, nguyên mẫu và nhiều nơi khác.",
+      "note": "Liên kết của bạn mở nhanh trong tài liệu, trò chuyện và nguyên mẫu—cộng với bạn có thể tải xuống dưới dạng .txt."
     },
     "process": {
       "title": "Quy trình ba bước",
@@ -137,8 +137,8 @@
           "desc": "URL tức thì với điều khiển sao chép/mở/lưu."
         },
         "3": {
-          "title": "Chia sẻ ở bất cứ đâu",
-          "desc": "Dán vào tài liệu, trò chuyện, vé, blog hoặc nguyên mẫu."
+          "title": "Sử dụng ở bất cứ đâu",
+          "desc": "Sử dụng trong tài liệu, trò chuyện, vé, blog hoặc nguyên mẫu."
         }
       }
     },
@@ -151,16 +151,16 @@
           "desc": "URL sạch, có thể dự đoán sẵn sàng cho nhúng Markdown và HTML."
         },
         "save": {
-          "title": "Hành động sao chép và lưu",
-          "desc": "Sao chép, mở hoặc lưu dưới dạng .txt/.json/.md bằng một cú nhấp."
+          "title": "Sao chép và Lưu",
+          "desc": "Sao chép, mở hoặc lưu dưới dạng tệp .txt bằng một cú nhấp."
         },
         "clipboard": {
           "title": "Thân thiện với clipboard",
           "desc": "Dán ảnh chụp màn hình mà không cần tìm tệp hoặc tải lên lại."
         },
         "errors": {
-          "title": "Lỗi thân thiện",
-          "desc": "Thông báo bảo trì rõ ràng thay vì dấu vết ngăn xếp kỹ thuật."
+          "title": "An Toàn và Riêng Tư",
+          "desc": "Hình ảnh của bạn được lưu trữ an toàn với mã hóa cấp doanh nghiệp và bảo vệ quyền riêng tư."
         },
         "nosignup": {
           "title": "Không cần đăng ký",
@@ -192,7 +192,7 @@
     },
     "cta": {
       "title": "Biến ảnh thành liên kết trong vài giây",
-      "subtitle": "Thả, dán hoặc tải lên—sao chép liên kết của bạn và chia sẻ ở mọi nơi.",
+      "subtitle": "Thả, dán hoặc tải lên—sao chép liên kết của bạn và chia sẻ.",
       "upload": "Tải lên ngay",
       "paste": "Dán ảnh chụp màn hình"
     },
@@ -213,8 +213,8 @@
       },
       "flow": {
         "title": "Cách quy trình hoạt động từ đầu đến cuối",
-        "p1": "1) Chọn hình ảnh: kéo và thả, dán từ clipboard hoặc nhấp để duyệt. PNG, JPG, WEBP, GIF lên đến 10MB hiện được hỗ trợ. 2) Chúng tôi tải lên và trả về liên kết trực tiếp. UI hiển thị URL của bạn ngay lập tức với các hành động sao chép, mở và lưu đa định dạng (.txt, .json, .md). 3) Bạn tái sử dụng liên kết ở bất cứ đâu: blog, tài liệu, vé, trò chuyện, nguyên mẫu. Mục tiêu là một cây cầu không ma sát giữa ảnh của bạn và những nơi bạn làm việc.",
-        "p2": "Mỗi bước được điều chỉnh để rõ ràng: trạng thái hiển thị, lỗi thân thiện và nút xác nhận hành động. Nút sao chép nằm cạnh liên kết và các nút lưu cho phép bạn giữ URL ở định dạng ưa thích để đánh dấu hoặc tự động hóa. Khi R2 được bật, liên kết được phục vụ từ miền CDN; nếu dịch vụ đang bảo trì, UI trả về thông báo rõ ràng thay vì lỗi thô."
+        "p1": "1) Chọn hình ảnh: kéo và thả, dán từ clipboard hoặc nhấp để duyệt. PNG, JPG, WEBP, GIF lên đến 5MB hiện được hỗ trợ. 2) Chúng tôi tải lên và trả về liên kết trực tiếp. UI hiển thị URL của bạn ngay lập tức với các hành động sao chép, mở và lưu (.txt). 3) Sử dụng liên kết ở blog, tài liệu, vé, trò chuyện, nguyên mẫu và nhiều nơi khác. Mục tiêu là một cây cầu không ma sát giữa ảnh của bạn và những nơi bạn làm việc.",
+        "p2": "Mỗi bước được điều chỉnh để rõ ràng: trạng thái hiển thị, lỗi thân thiện và nút xác nhận hành động. Nút sao chép nằm cạnh liên kết và các nút lưu cho phép bạn giữ URL ở định dạng ưa thích để đánh dấu hoặc tự động hóa. Khi R2 được bật, liên kết được phục vụ từ miền CDN; hình ảnh của bạn được lưu trữ an toàn với mã hóa cấp doanh nghiệp và bảo vệ quyền riêng tư."
       },
       "best": {
         "title": "Thực hành tốt nhất cho liên kết sạch hơn",
@@ -222,14 +222,12 @@
           "1": "Giữ tên tệp có ý nghĩa trước khi tải lên; chúng vẫn là một phần của URL và giúp tìm kiếm trong tương lai.",
           "2": "Sử dụng WEBP hoặc JPG/PNG được tối ưu hóa cho payload nhẹ hơn nếu bạn mong đợi chia sẻ nặng.",
           "3": "Sao chép liên kết trực tiếp sau khi tạo để tránh mục clipboard cũ.",
-          "4": "Lưu dưới dạng .json khi bạn cần lưu trữ tham chiếu hàng loạt cho tự động hóa hoặc kiểm toán.",
-          "5": "Sử dụng đầu ra .md khi nhúng trong tài liệu hoặc wiki; sẵn sàng để dán.",
           "6": "Lưu dưới dạng .txt cho liên kết văn bản thuần túy sẵn sàng để sao chép và sử dụng."
         }
       },
       "roadmap": {
         "title": "Điểm nổi bật của lộ trình",
-        "p1": "Các cải tiến sắp tới bao gồm tích hợp Cloudflare R2 sâu hơn theo mặc định, giới hạn tải lên hào phóng hơn, xác thực tùy chọn cho không gian nhóm và phân tích theo liên kết. Chúng tôi cũng lên kế hoạch cho kiểu liên kết đặt trước, xóa một cú nhấp và buckets cấp tổ chức. Đánh bóng SEO tiếp tục trên blog, tài liệu và trang trạng thái, với schema phong phú hơn và sơ đồ trang web công khai để lập chỉ mục nhanh."
+        "p1": "Chúng tôi sẽ tích hợp sâu Cloudflare R2, cung cấp hạn ngạch và khả năng quản lý thân thiện hơn, với hợp tác nhóm tùy chọn, kiểm soát truy cập và phân tích theo liên kết. Chúng tôi dự định ra mắt các tính năng như xóa một cú nhấp, kiểu liên kết được đặt trước và nhóm lưu trữ cấp tổ chức. Đồng thời, chúng tôi đang liên tục cải thiện các sản phẩm phụ như công cụ cắt hình tròn và công cụ góc bo tròn để làm cho xử lý hình ảnh thuận tiện hơn."
       },
       "faq": {
         "title": "Câu hỏi thường gặp",
@@ -240,11 +238,11 @@
           },
           "2": {
             "q": "Những định dạng nào được hỗ trợ?",
-            "a": "PNG, JPG, WEBP, GIF lên đến 10MB ngày nay. Có thể thêm nhiều định dạng hơn dựa trên nhu cầu."
+            "a": "PNG, JPG, WEBP, GIF lên đến 5MB ngày nay. Có thể thêm nhiều định dạng hơn dựa trên nhu cầu."
           },
           "3": {
             "q": "Tôi có thể nhúng trong Markdown hoặc HTML không?",
-            "a": "Có. Sao chép liên kết như hiện tại, hoặc sử dụng lưu một cú nhấp .txt / .json / .md cho các đoạn mã drop-in."
+            "a": "Có. Sao chép liên kết như hiện tại, hoặc sử dụng lưu một cú nhấp .txt cho các đoạn mã drop-in."
           },
           "4": {
             "q": "Bạn có giữ tệp của tôi ở chế độ công khai không?",
@@ -287,7 +285,7 @@
     "howIllustrationAlt": "Minh họa cho thấy cách Ảnh thành URL hoạt động",
     "heroDropTitle": "Kéo một bức ảnh vào đây",
     "heroDropSubtitle": "Chúng tôi sẽ cải thiện và lưu trữ nó, sau đó trả về một liên kết sạch.",
-    "heroDropBadge": "Kéo hoặc nhấp (JPG/PNG, lên đến 10MB)",
+    "heroDropBadge": "Kéo hoặc nhấp (JPG/PNG, lên đến 5MB)",
     "logoAlt": "Logo Ảnh thành URL"
   },
   "circleCrop": {
@@ -303,8 +301,9 @@
       "description": "Ảnh Thành Hình Tròn là công cụ trực tuyến miễn phí để chuyển đổi ảnh hình chữ nhật thành hình tròn hoàn hảo. Công cụ của chúng tôi giúp bạn cắt ảnh ở định dạng tròn ngay lập tức, không cần đăng ký. Dù bạn cần ảnh đại diện tròn, ảnh tròn cho mạng xã hội, hay ảnh bo tròn cho dự án thiết kế, công cụ cắt ảnh tròn của chúng tôi làm cho mọi thứ trở nên đơn giản và dễ dàng."
     },
     "seo": {
-      "title": "Ảnh Thành Hình Tròn | Công Cụ Cắt Tròn Trực Tuyến Miễn Phí",
-      "description": "Công cụ trực tuyến miễn phí để cắt bất kỳ ảnh nào thành hình tròn hoàn hảo - hoàn hảo cho ảnh đại diện, mạng xã hội và dự án thiết kế."
+      "title": "Công Cụ Cắt Hình Tròn | Công Cụ Cắt Ảnh Tròn Trực Tuyến Miễn Phí",
+      "description": "Công cụ trực tuyến miễn phí để cắt bất kỳ ảnh nào thành hình tròn hoàn hảo - hoàn hảo cho ảnh đại diện, mạng xã hội và dự án thiết kế.",
+      "keywords": "cắt hình tròn, cắt ảnh tròn, công cụ cắt tròn, cắt tròn trực tuyến"
     },
     "selectRegion": {
       "title": "Chọn khu vực",
@@ -332,8 +331,9 @@
       "description": "Ảnh bo góc tròn là công cụ trực tuyến miễn phí để thêm góc tròn cho bất kỳ ảnh nào. Tạo biểu tượng kiểu app, ảnh viền mềm cho mạng xã hội hoặc ảnh thu nhỏ với bán kính và thu phóng có thể điều chỉnh. Không cần đăng ký – tải lên, chỉnh sửa, tải xuống."
     },
     "seo": {
-      "title": "Ảnh bo góc tròn | Công cụ trực tuyến miễn phí",
-      "description": "Công cụ miễn phí thêm góc tròn cho ảnh – phù hợp cho biểu tượng app, ảnh đại diện và dự án thiết kế."
+      "title": "Công Cụ Bo Góc Tròn | Công cụ trực tuyến miễn phí",
+      "description": "Công cụ miễn phí thêm góc tròn cho ảnh – phù hợp cho biểu tượng app, ảnh đại diện và dự án thiết kế.",
+      "keywords": "góc tròn, ảnh góc tròn, công cụ góc tròn, góc tròn trực tuyến"
     },
     "selectRegion": {
       "title": "Chọn khu vực",
@@ -369,7 +369,7 @@
     },
     "page": {
       "title": "Tài liệu",
-      "description": "Bắt đầu nhanh: tải lên hình ảnh và nhận URL trực tiếp. Sử dụng các nút sao chép/mở hoặc tải xuống liên kết ở định dạng .txt/.json/.md.",
+      "description": "Bắt đầu nhanh: tải lên hình ảnh và nhận URL trực tiếp. Sử dụng các nút sao chép/mở hoặc tải xuống liên kết ở định dạng .txt.",
       "features": {
         "title": "Tính năng được hỗ trợ:",
         "items": {

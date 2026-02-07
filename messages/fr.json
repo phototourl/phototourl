@@ -81,7 +81,7 @@
     },
     "upload": {
       "title": "Déposez une photo ou cliquez pour parcourir",
-      "hint": "JPG/PNG/WEBP/GIF jusqu’à 10 Mo. Glisser-déposer, cliquer ou coller des captures.",
+      "hint": "JPG/PNG/WEBP/GIF jusqu’à 5 Mo. Glisser-déposer, cliquer ou coller des captures.",
       "orDrop": "ou déposez un fichier",
       "samplesTitle": "Pas d’image ? Essayez l’une de celles-ci :",
       "policy": "En téléversant une image, vous acceptez notre <privacy>Politique de confidentialité</privacy> et nos <terms>Conditions d'utilisation</terms>.",
@@ -113,7 +113,7 @@
         },
         "nosignup": {
           "title": "Sans inscription requise",
-          "desc": "Utilisation immédiate ; les comptes viendront plus tard."
+          "desc": "Utilisation immédiate, aucune inscription requise."
         }
       }
     },
@@ -121,8 +121,8 @@
       "title": "Comment ça marche",
       "step1": "1) Ajoutez votre photo (glisser, coller ou cliquer pour choisir un fichier).",
       "step2": "2) Nous la transformons en lien sur notre CDN.",
-      "step3": "3) Copiez et partagez le lien où vous travaillez.",
-      "note": "Votre lien s'ouvre vite dans les docs, chats et prototypes, et vous pouvez le télécharger au format souhaité (.txt/.json/.md)."
+      "step3": "3) Copiez et partagez le lien dans les docs, chats, prototypes et plus encore.",
+      "note": "Votre lien s'ouvre vite dans les docs, chats et prototypes, et vous pouvez le télécharger en .txt."
     },
     "process": {
       "title": "Parcours en trois étapes",
@@ -137,8 +137,8 @@
           "desc": "URL instantanée avec copier/ouvrir/sauvegarder."
         },
         "3": {
-          "title": "Partager partout",
-          "desc": "Collez dans docs, chats, tickets, blogs ou prototypes."
+          "title": "Utiliser partout",
+          "desc": "Utilisez dans docs, chats, tickets, blogs ou prototypes."
         }
       }
     },
@@ -151,16 +151,16 @@
           "desc": "URLs propres et prévisibles prêtes pour Markdown et HTML."
         },
         "save": {
-          "title": "Copie & sauvegarde",
-          "desc": "Copier, ouvrir ou sauvegarder en .txt/.json/.md en un clic."
+          "title": "Copier et Sauvegarder",
+          "desc": "Copiez, ouvrez ou enregistrez en fichier .txt en un clic."
         },
         "clipboard": {
           "title": "Ami du presse-papiers",
           "desc": "Collez des captures sans chercher de fichiers ni re-téléverser."
         },
         "errors": {
-          "title": "Erreurs claires",
-          "desc": "Messages de maintenance clairs plutôt que des traces techniques."
+          "title": "Sécurisé et Privé",
+          "desc": "Vos images sont stockées en toute sécurité avec un chiffrement de niveau entreprise et une protection de la vie privée."
         },
         "nosignup": {
           "title": "Pas de compte requis",
@@ -192,7 +192,7 @@
     },
     "cta": {
       "title": "Transformez vos photos en liens en quelques secondes",
-      "subtitle": "Glissez, collez ou téléversez—copiez votre lien et partagez partout.",
+      "subtitle": "Glissez, collez ou téléversez—copiez votre lien et partagez-le.",
       "upload": "Téléverser maintenant",
       "paste": "Coller une capture"
     },
@@ -213,8 +213,8 @@
       },
       "flow": {
         "title": "Le flux de bout en bout",
-        "p1": "1) Choisissez une image : glisser-déposer, coller depuis le presse-papiers ou parcourir. 2) Nous téléversons et renvoyons un lien direct avec copier/ouvrir/sauvegarder (.txt/.json/.md). 3) Réutilisez le lien dans blogs, docs, tickets, chats ou prototypes.",
-        "p2": "Chaque étape vise la clarté : statut visible, erreurs compréhensibles et boutons avec retour. Quand R2 est activé, les liens sont servis via le domaine CDN ; en maintenance, un message clair est affiché."
+        "p1": "1) Choisissez une image : glisser-déposer, coller depuis le presse-papiers ou parcourir. 2) Nous téléversons et renvoyons un lien direct avec copier/ouvrir/sauvegarder (.txt). 3) Utilisez le lien dans blogs, docs, tickets, chats, prototypes et plus encore.",
+        "p2": "Chaque étape vise la clarté : statut visible, erreurs compréhensibles et boutons avec retour. Quand R2 est activé, les liens sont servis via le domaine CDN ; vos images sont stockées en toute sécurité avec un chiffrement de niveau entreprise et une protection de la vie privée."
       },
       "best": {
         "title": "Bonnes pratiques pour des liens plus propres",
@@ -222,14 +222,12 @@
           "1": "Utilisez des noms de fichiers explicites avant téléversement.",
           "2": "Préférez WEBP ou des JPG/PNG optimisés si vous partagez beaucoup.",
           "3": "Copiez le lien juste après génération.",
-          "4": "Sauvegardez en .json pour le batch et l'automatisation.",
-          "5": "Utilisez .md pour coller directement dans la doc.",
           "6": "Sauvegardez en .txt pour des liens texte prêts à utiliser."
         }
       },
       "roadmap": {
         "title": "Feuille de route",
-        "p1": "À venir : intégration Cloudflare R2 plus profonde par défaut, limites plus généreuses, espaces d’équipe optionnels et analytics par lien. Aussi : suppression en un clic et amélioration SEO (schema et sitemap)."
+        "p1": "Nous intégrerons profondément Cloudflare R2, offrant des quotas et des capacités de gestion plus conviviaux, avec collaboration d'équipe optionnelle, contrôle d'accès et analyses par lien. Nous prévoyons de lancer des fonctionnalités telles que la suppression en un clic, les styles de lien prédéfinis et les buckets de stockage au niveau organisationnel. Parallèlement, nous améliorons continuellement les sous-produits comme l'outil de recadrage circulaire et l'outil de coins arrondis pour rendre le traitement d'images plus pratique."
       },
       "faq": {
         "title": "FAQ",
@@ -244,7 +242,7 @@
           },
           "3": {
             "q": "Compatible Markdown/HTML ?",
-            "a": "Oui. Copiez le lien ou utilisez les boutons .txt/.json/.md."
+            "a": "Oui. Copiez le lien ou utilisez le bouton .txt."
           },
           "4": {
             "q": "Les fichiers restent-ils publics ?",
@@ -287,7 +285,7 @@
     "howIllustrationAlt": "Illustration du fonctionnement de Photo vers URL",
     "heroDropTitle": "Glissez une photo ici",
     "heroDropSubtitle": "Nous l’améliorons et l’hébergeons, puis nous renvoyons un lien propre.",
-    "heroDropBadge": "Cliquer ou glisser (JPG/PNG, jusqu’à 10 Mo)",
+    "heroDropBadge": "Cliquer ou glisser (JPG/PNG, jusqu’à 5 Mo)",
     "logoAlt": "Logo Photo vers URL"
   },
   "circleCrop": {
@@ -303,8 +301,9 @@
       "description": "Photo en Cercle est un outil gratuit en ligne pour transformer des photos rectangulaires en formes parfaitement circulaires. Notre outil vous aide à recadrer des photos au format circulaire instantanément, sans inscription requise. Que vous ayez besoin d'une photo de profil ronde, d'une photo circulaire pour les réseaux sociaux, ou d'une photo arrondie pour des projets de design, notre outil de recadrage circulaire rend tout cela simple et facile."
     },
     "seo": {
-      "title": "Photo en Cercle | Recadreur Circulaire Gratuit en Ligne",
-      "description": "Outil gratuit en ligne pour recadrer n'importe quelle photo en cercle parfait - idéal pour les photos de profil, les réseaux sociaux et les projets de design."
+      "title": "Outil de Recadrage en Cercle | Recadreur de Photo Ronde Gratuit en Ligne",
+      "description": "Outil gratuit en ligne pour recadrer n'importe quelle photo en cercle parfait - idéal pour les photos de profil, les réseaux sociaux et les projets de design.",
+      "keywords": "recadrage image circulaire, recadrer image ronde, outil recadrage circulaire, recadrage circulaire en ligne"
     },
     "selectRegion": {
       "title": "Sélectionner la région",
@@ -332,8 +331,9 @@
       "description": "Photo à coins arrondis est un outil en ligne gratuit pour ajouter des coins arrondis à toute photo. Créez des icônes style app, des images aux bords doux pour les réseaux sociaux ou des miniatures avec rayon et zoom réglables. Sans inscription – téléchargez, ajustez, enregistrez."
     },
     "seo": {
-      "title": "Photo à coins arrondis | Outil en ligne gratuit",
-      "description": "Outil gratuit en ligne pour ajouter des coins arrondis à toute photo – idéal pour icônes d'app, photos de profil et projets de design."
+      "title": "Outil de Coins Arrondis | Outil en ligne gratuit",
+      "description": "Outil gratuit en ligne pour ajouter des coins arrondis à toute photo – idéal pour icônes d'app, photos de profil et projets de design.",
+      "keywords": "coins arrondis, image coins arrondis, outil coins arrondis, coins arrondis en ligne"
     },
     "selectRegion": {
       "title": "Sélectionner la région",
@@ -369,7 +369,7 @@
     },
     "page": {
       "title": "Documentation",
-      "description": "Démarrage rapide : téléchargez une image et obtenez une URL directe. Utilisez les boutons copier/ouvrir ou téléchargez le lien au format .txt/.json/.md.",
+      "description": "Démarrage rapide : téléchargez une image et obtenez une URL directe. Utilisez les boutons copier/ouvrir ou téléchargez le lien au format .txt.",
       "features": {
         "title": "Fonctionnalités prises en charge :",
         "items": {
@@ -523,61 +523,104 @@
       }
     },
     "cookie": {
-        "seo": {
-          "title": "Politique des cookies | Photo To URL",
-          "description": "Politique des cookies pour Photo To URL - Découvrez comment nous utilisons les cookies et les technologies de suivi."
+      "seo": {
+        "title": "Politique des cookies | Photo To URL",
+        "description": "Politique des cookies pour Photo To URL - Découvrez comment nous utilisons les cookies et les technologies de suivi."
+      },
+      "page": {
+        "title": "Politique des cookies",
+        "lastUpdated": "Dernière mise à jour : janvier 2026",
+        "introduction": "Cette politique des cookies explique comment Photo To URL utilise les cookies et les technologies de suivi similaires lorsque vous visitez notre site web. En utilisant notre service, vous acceptez l'utilisation de cookies conformément à cette politique.",
+        "whatAreCookies": {
+          "title": "Qu'est-ce qu'un cookie",
+          "content": "Les cookies sont de petits fichiers texte qui sont placés sur votre appareil lorsque vous visitez un site web. Ils sont largement utilisés pour rendre les sites web plus efficaces et fournir des informations aux propriétaires de sites web."
         },
-        "page": {
-          "title": "Politique des cookies",
-          "lastUpdated": "Dernière mise à jour : janvier 2026",
-          "introduction": "Cette politique des cookies explique comment Photo To URL utilise les cookies et les technologies de suivi similaires lorsque vous visitez notre site web. En utilisant notre service, vous acceptez l'utilisation de cookies conformément à cette politique.",
-          "whatAreCookies": {
-            "title": "Qu'est-ce qu'un cookie",
-            "content": "Les cookies sont de petits fichiers texte qui sont placés sur votre appareil lorsque vous visitez un site web. Ils sont largement utilisés pour rendre les sites web plus efficaces et fournir des informations aux propriétaires de sites web."
+        "howWeUseCookies": {
+          "title": "Comment nous utilisons les cookies",
+          "content": "Nous utilisons les cookies aux fins suivantes :",
+          "item1": "Pour stocker votre historique de téléchargement et vos préférences linguistiques",
+          "item2": "Pour analyser le trafic du site web et le comportement des utilisateurs",
+          "item3": "Pour afficher des publicités personnalisées"
+        },
+        "typesOfCookies": {
+          "title": "Types de cookies que nous utilisons",
+          "essential": {
+            "title": "Cookies essentiels",
+            "content": "Ces cookies sont nécessaires au bon fonctionnement du site web. Ils permettent des fonctionnalités essentielles telles que le stockage de vos préférences linguistiques et de votre historique de téléchargement."
           },
-          "howWeUseCookies": {
-            "title": "Comment nous utilisons les cookies",
-            "content": "Nous utilisons les cookies aux fins suivantes :",
-            "item1": "Pour stocker votre historique de téléchargement et vos préférences linguistiques",
-            "item2": "Pour analyser le trafic du site web et le comportement des utilisateurs",
-            "item3": "Pour afficher des publicités personnalisées"
+          "analytics": {
+            "title": "Cookies d'analyse",
+            "content": "Nous utilisons Yandex Metrika pour analyser comment les visiteurs utilisent notre site web. Ces cookies collectent des informations anonymes sur l'utilisation du site web pour nous aider à améliorer notre service."
           },
-          "typesOfCookies": {
-            "title": "Types de cookies que nous utilisons",
-            "essential": {
-              "title": "Cookies essentiels",
-              "content": "Ces cookies sont nécessaires au bon fonctionnement du site web. Ils permettent des fonctionnalités essentielles telles que le stockage de vos préférences linguistiques et de votre historique de téléchargement."
-            },
-            "analytics": {
-              "title": "Cookies d'analyse",
-              "content": "Nous utilisons Yandex Metrika pour analyser comment les visiteurs utilisent notre site web. Ces cookies collectent des informations anonymes sur l'utilisation du site web pour nous aider à améliorer notre service."
-            },
-            "advertising": {
-              "title": "Cookies publicitaires",
-              "content": "Nous utilisons Google AdSense pour afficher des publicités. Ces cookies aident à diffuser des publicités personnalisées basées sur votre comportement de navigation et vos intérêts."
-            }
-          },
-          "thirdPartyCookies": {
-            "title": "Cookies tiers",
-            "content": "Nous utilisons les services tiers suivants qui peuvent définir des cookies :",
-            "item1": "Google AdSense - Pour la publicité (soumis à la politique de confidentialité de Google)",
-            "item2": "Yandex Metrika - Pour l'analyse du site web (soumis à la politique de confidentialité de Yandex)"
-          },
-          "manageCookies": {
-            "title": "Gestion des cookies",
-            "content": "Vous pouvez contrôler et gérer les cookies via les paramètres de votre navigateur. La plupart des navigateurs vous permettent de refuser ou d'accepter les cookies, de supprimer les cookies existants ou de définir des préférences pour certains sites web. Cependant, la désactivation des cookies peut affecter la fonctionnalité de notre service."
-          },
-          "changes": {
-            "title": "Modifications de cette politique des cookies",
-            "content": "Nous pouvons mettre à jour cette politique des cookies de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle politique des cookies sur cette page et en mettant à jour la date de \"Dernière mise à jour\"."
-          },
-          "contact": {
-            "title": "Contactez-nous",
-            "text": "Si vous avez des questions sur cette politique des cookies, veuillez nous contacter à",
-            "email": "leeqs1010@gmail.com"
+          "advertising": {
+            "title": "Cookies publicitaires",
+            "content": "Nous utilisons Google AdSense pour afficher des publicités. Ces cookies aident à diffuser des publicités personnalisées basées sur votre comportement de navigation et vos intérêts."
           }
+        },
+        "thirdPartyCookies": {
+          "title": "Cookies tiers",
+          "content": "Nous utilisons les services tiers suivants qui peuvent définir des cookies :",
+          "item1": "Google AdSense - Pour la publicité (soumis à la politique de confidentialité de Google)",
+          "item2": "Yandex Metrika - Pour l'analyse du site web (soumis à la politique de confidentialité de Yandex)"
+        },
+        "manageCookies": {
+          "title": "Gestion des cookies",
+          "content": "Vous pouvez contrôler et gérer les cookies via les paramètres de votre navigateur. La plupart des navigateurs vous permettent de refuser ou d'accepter les cookies, de supprimer les cookies existants ou de définir des préférences pour certains sites web. Cependant, la désactivation des cookies peut affecter la fonctionnalité de notre service."
+        },
+        "changes": {
+          "title": "Modifications de cette politique des cookies",
+          "content": "Nous pouvons mettre à jour cette politique des cookies de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle politique des cookies sur cette page et en mettant à jour la date de \"Dernière mise à jour\"."
+        },
+        "contact": {
+          "title": "Contactez-nous",
+          "text": "Si vous avez des questions sur cette politique des cookies, veuillez nous contacter à",
+          "email": "leeqs1010@gmail.com"
         }
       }
     }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL Bookmarklet",
+    "description": "Téléchargez des images depuis n'importe quelle page Web directement vers Photo To URL en un seul clic !",
+    "howItWorks": {
+      "title": "Comment ça fonctionne",
+      "step1": "Parcourez n'importe quelle page Web avec des images",
+      "step2": "Cliquez sur le bookmarklet dans votre barre de favoris",
+      "step3": "Sélectionnez une image de la page",
+      "step4": "Obtenez l'URL instantanément et copiez-la !"
+    },
+    "installation": {
+      "title": "Installation",
+      "step1": {
+        "title": "Étape 1 : Copier le code du Bookmarklet",
+        "description": "Cliquez sur le bouton ci-dessous pour copier le code du bookmarklet dans votre presse-papiers."
+      },
+      "step2": {
+        "title": "Étape 2 : Ajouter à votre navigateur",
+        "description": "Suivez ces étapes selon votre navigateur :",
+        "chrome": "Chrome/Edge : Appuyez sur Ctrl+Shift+B (Cmd+Shift+B sur Mac) pour afficher la barre de favoris, puis faites un clic droit dessus et sélectionnez \"Ajouter une page\". Collez le code comme URL.",
+        "firefox": "Firefox : Faites un clic droit sur la barre de favoris et sélectionnez \"Nouveau favori\". Collez le code comme Emplacement.",
+        "safari": "Safari : Activez la barre de favoris (Affichage → Afficher la barre de favoris), puis faites glisser le code vers la barre de favoris.",
+        "edge": "Alternative : Créez un nouveau favori, modifiez-le et remplacez l'URL par le code copié."
+      },
+      "step3": {
+        "title": "Étape 3 : Commencez à l'utiliser !",
+        "description": "Visitez n'importe quelle page Web avec des images et cliquez sur votre bookmarklet pour commencer le téléchargement !"
+      },
+      "copy": "Copier le code",
+      "copied": "Copié !"
+    },
+    "usage": {
+      "title": "Fonctionnalités",
+      "description": "Le bookmarklet offre les fonctionnalités suivantes :",
+      "feature1": "Sélectionner n'importe quelle image de la page Web actuelle",
+      "feature2": "Téléchargement automatique vers Photo To URL",
+      "feature3": "Obtenir une URL partageable instantanément avec un clic pour copier"
+    },
+    "note": {
+      "title": "Note",
+      "content": "Le bookmarklet fonctionne sur la plupart des sites Web. Certains sites avec des politiques de sécurité strictes (CORS) peuvent empêcher le téléchargement d'images."
+    }
   }
+}
 

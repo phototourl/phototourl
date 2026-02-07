@@ -81,7 +81,7 @@
     },
     "upload": {
       "title": "Sleep een foto of klik om te bladeren",
-      "hint": "JPG, PNG, WEBP, GIF tot 10MB. Sleep en zet neer, klik, of plak screenshots.",
+      "hint": "JPG, PNG, WEBP, GIF tot 5MB. Sleep en zet neer, klik, of plak screenshots.",
       "orDrop": "of sleep een bestand",
       "samplesTitle": "Geen afbeelding? Probeer een van deze:",
       "policy": "Door een afbeelding te uploaden ga je akkoord met ons <privacy>Privacybeleid</privacy> en <terms>Gebruiksvoorwaarden</terms>.",
@@ -113,7 +113,7 @@
         },
         "nosignup": {
           "title": "Geen registratie vereist",
-          "desc": "Gebruik het direct. Accounts kunnen later komen naarmate we groeien."
+          "desc": "Gebruik het direct, geen registratie nodig."
         }
       }
     },
@@ -121,8 +121,8 @@
       "title": "Hoe het werkt",
       "step1": "1) Voeg je foto toe (sleep, plak of klik om een bestand te kiezen).",
       "step2": "2) We hosten het en geven een deelbare link terug.",
-      "step3": "3) Kopieer en deel de link overal waar je werkt.",
-      "note": "Je link opent snel in documenten, chats en prototypes—plus je kunt het downloaden in het formaat dat je wilt (.txt/.json/.md)."
+      "step3": "3) Kopieer en deel de link in documenten, chats, prototypes en meer.",
+      "note": "Je link opent snel in documenten, chats en prototypes—plus je kunt het downloaden als .txt."
     },
     "process": {
       "title": "Drie-staps flow",
@@ -137,8 +137,8 @@
           "desc": "Directe URL met kopieer/open/sla controles."
         },
         "3": {
-          "title": "Deel overal",
-          "desc": "Plak in documenten, chats, tickets, blogs of prototypes."
+          "title": "Gebruik overal",
+          "desc": "Gebruik in documenten, chats, tickets, blogs of prototypes."
         }
       }
     },
@@ -151,16 +151,16 @@
           "desc": "Schone, voorspelbare URL's klaar voor Markdown en HTML-embeddingen."
         },
         "save": {
-          "title": "Kopieer en sla acties",
-          "desc": "Kopieer, open of sla op als .txt/.json/.md met één klik."
+          "title": "Kopiëren en Opslaan",
+          "desc": "Kopieer, open of sla op als .txt-bestand met één klik."
         },
         "clipboard": {
           "title": "Klembordvriendelijk",
           "desc": "Plak screenshots zonder naar bestanden te zoeken of opnieuw te uploaden."
         },
         "errors": {
-          "title": "Vriendelijke fouten",
-          "desc": "Duidelijke onderhoudsberichten in plaats van technische stack traces."
+          "title": "Veilig en Privé",
+          "desc": "Uw afbeeldingen worden veilig opgeslagen met bedrijfsniveau encryptie en privacybescherming."
         },
         "nosignup": {
           "title": "Geen registratie nodig",
@@ -192,7 +192,7 @@
     },
     "cta": {
       "title": "Zet foto's in seconden om in links",
-      "subtitle": "Sleep, plak of upload—kopieer je link en deel overal.",
+      "subtitle": "Sleep, plak of upload—kopieer je link en deel hem.",
       "upload": "Upload nu",
       "paste": "Plak een screenshot"
     },
@@ -213,8 +213,8 @@
       },
       "flow": {
         "title": "Hoe de flow end-to-end werkt",
-        "p1": "1) Kies een afbeelding: sleep-en-zet-neer, plak vanuit klembord of klik om te bladeren. PNG, JPG, WEBP, GIF tot 10MB worden nu ondersteund. 2) We uploaden en geven een directe link terug. De UI toont je URL direct met kopieer, open en multi-formaat sla acties (.txt, .json, .md). 3) Je hergebruikt de link overal: blogs, documenten, tickets, chat, prototypes. Het doel is een naadloze brug tussen je foto en de plekken waar je werkt.",
-        "p2": "Elke stap is afgestemd op duidelijkheid: zichtbare status, vriendelijke fouten en knoppen die acties bevestigen. De kopieerknop staat naast de link en de sla-knoppen laten je de URL in je voorkeursformaat bewaren voor bookmarking of automatisering. Wanneer R2 is ingeschakeld, worden links geleverd vanuit het CDN-domein; als de service in onderhoud is, geeft de UI een duidelijk bericht terug in plaats van ruwe fouten."
+        "p1": "1) Kies een afbeelding: sleep-en-zet-neer, plak vanuit klembord of klik om te bladeren. PNG, JPG, WEBP, GIF tot 5MB worden nu ondersteund. 2) We uploaden en geven een directe link terug. De UI toont je URL direct met kopieer, open en sla acties (.txt). 3) Gebruik de link overal: blogs, documenten, tickets, chat, prototypes en meer. Het doel is een naadloze brug tussen je foto en de plekken waar je werkt.",
+        "p2": "Elke stap is afgestemd op duidelijkheid: zichtbare status, vriendelijke fouten en knoppen die acties bevestigen. De kopieerknop staat naast de link en de sla-knoppen laten je de URL in je voorkeursformaat bewaren voor bookmarking of automatisering. Wanneer R2 is ingeschakeld, worden links geleverd vanuit het CDN-domein; uw afbeeldingen worden veilig opgeslagen met bedrijfsniveau encryptie en privacybescherming."
       },
       "best": {
         "title": "Beste praktijken voor schonere links",
@@ -222,14 +222,12 @@
           "1": "Houd bestandsnamen betekenisvol voor upload; ze blijven deel van de URL en helpen toekomstige zoekopdrachten.",
           "2": "Gebruik WEBP of geoptimaliseerde JPG/PNG voor lichtere payloads als je zwaar delen verwacht.",
           "3": "Kopieer de link direct na generatie om verouderde klembordvermeldingen te vermijden.",
-          "4": "Sla op als .json wanneer je batchreferenties moet opslaan voor automatisering of audits.",
-          "5": "Gebruik .md output bij embedden in documenten of wiki's; het is klaar om te plakken.",
           "6": "Sla op als .txt voor gewone tekstlinks die klaar zijn om te kopiëren en te gebruiken."
         }
       },
       "roadmap": {
         "title": "Roadmap hoogtepunten",
-        "p1": "Aankomende verbeteringen omvatten diepere Cloudflare R2-integratie standaard, ruimere uploadlimieten, optionele auth voor teamruimtes en per-link analytics. We plannen ook vooraf ingestelde linkstijlen, één-klik verwijderen en organisatieniveau buckets. SEO-polijst gaat door over blog, documenten en statuspagina's, met rijkere schema's en een openbare sitemap voor snelle indexering."
+        "p1": "We zullen Cloudflare R2 diep integreren, met gebruiksvriendelijkere quota's en beheermogelijkheden, met optionele teamcollaboratie, toegangscontrole en per-link analytics. We plannen functies zoals één-klik verwijderen, vooraf ingestelde linkstijlen en organisatieniveau opslagbuckets. Ondertussen verbeteren we continu subproducten zoals het cirkelbijsnijdgereedschap en het afgeronde hoekengereedschap om beeldverwerking handiger te maken."
       },
       "faq": {
         "title": "Veelgestelde vragen",
@@ -240,11 +238,11 @@
           },
           "2": {
             "q": "Welke formaten worden ondersteund?",
-            "a": "PNG, JPG, WEBP, GIF tot 10MB vandaag. Meer formaten kunnen worden toegevoegd op basis van vraag."
+            "a": "PNG, JPG, WEBP, GIF tot 5MB vandaag. Meer formaten kunnen worden toegevoegd op basis van vraag."
           },
           "3": {
             "q": "Kan ik embedden in Markdown of HTML?",
-            "a": "Ja. Kopieer de link zoals hij is, of gebruik de één-klik .txt / .json / .md opslagen voor drop-in snippets."
+            "a": "Ja. Kopieer de link zoals hij is, of gebruik de één-klik .txt opslag voor drop-in snippets."
           },
           "4": {
             "q": "Houd je mijn bestanden openbaar?",
@@ -287,7 +285,7 @@
     "howIllustrationAlt": "Illustratie die laat zien hoe Foto naar URL werkt",
     "heroDropTitle": "Sleep een foto hierheen",
     "heroDropSubtitle": "We zullen het verbeteren en hosten, en dan een schone link teruggeven.",
-    "heroDropBadge": "Sleep of klik (JPG/PNG, tot 10MB)",
+    "heroDropBadge": "Sleep of klik (JPG/PNG, tot 5MB)",
     "logoAlt": "Foto naar URL logo"
   },
   "circleCrop": {
@@ -303,8 +301,9 @@
       "description": "Foto naar Cirkel is een gratis online tool om rechthoekige foto's om te zetten in perfect ronde vormen. Onze tool helpt je om foto's direct in cirkelformaat bij te snijden, zonder registratie vereist. Of je nu een ronde profielfoto, een ronde foto voor sociale media, of een ronde foto voor ontwerpprojecten nodig hebt, onze ronde foto bijsnijdtool maakt het eenvoudig en gemakkelijk."
     },
     "seo": {
-      "title": "Foto naar Cirkel | Gratis Online Cirkel Bijsnijder",
-      "description": "Gratis online tool om elke foto bij te snijden tot een perfecte cirkel - perfect voor profielfoto's, sociale media en ontwerpprojecten."
+      "title": "Cirkel Bijsnijd Tool | Gratis Online Ronde Foto Bijsnijder",
+      "description": "Gratis online tool om elke foto bij te snijden tot een perfecte cirkel - perfect voor profielfoto's, sociale media en ontwerpprojecten.",
+      "keywords": "cirkel afbeelding bijsnijden, ronde afbeelding bijsnijden, cirkel bijsnijd tool, cirkel bijsnijden online"
     },
     "selectRegion": {
       "title": "Regio selecteren",
@@ -332,8 +331,9 @@
       "description": "Foto met afgeronde hoeken is een gratis online tool om afgeronde hoeken aan elke foto toe te voegen. Maak app-achtige iconen, zachte afbeeldingen voor sociale media of miniaturen met instelbare straal en zoom. Geen aanmelding – upload, pas aan, download."
     },
     "seo": {
-      "title": "Foto met afgeronde hoeken | Gratis online tool",
-      "description": "Gratis online tool om afgeronde hoeken aan elke foto toe te voegen – ideaal voor app-iconen, profielfoto's en ontwerpprojecten."
+      "title": "Afgeronde Hoeken Tool | Gratis online tool",
+      "description": "Gratis online tool om afgeronde hoeken aan elke foto toe te voegen – ideaal voor app-iconen, profielfoto's en ontwerpprojecten.",
+      "keywords": "afgeronde hoeken, afbeelding afgeronde hoeken, afgeronde hoeken tool, afgeronde hoeken online"
     },
     "selectRegion": {
       "title": "Regio selecteren",
@@ -369,7 +369,7 @@
     },
     "page": {
       "title": "Documentatie",
-      "description": "Snel starten: upload een afbeelding en krijg een directe URL. Gebruik de kopiëren/openen knoppen of download de link in .txt/.json/.md formaat.",
+      "description": "Snel starten: upload een afbeelding en krijg een directe URL. Gebruik de kopiëren/openen knoppen of download de link in .txt formaat.",
       "features": {
         "title": "Ondersteunde functies:",
         "items": {
@@ -575,8 +575,51 @@
             "title": "Neem contact op",
             "text": "Als u vragen heeft over dit Cookiebeleid, neem dan contact met ons op via",
             "email": "leeqs1010@gmail.com"
-          }
         }
       }
     }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL Bookmarklet",
+    "description": "Upload afbeeldingen van elke webpagina direct naar Photo To URL met één klik!",
+    "howItWorks": {
+      "title": "Hoe het werkt",
+      "step1": "Blader door een webpagina met afbeeldingen",
+      "step2": "Klik op de bookmarklet in uw bladwijzerbalk",
+      "step3": "Selecteer een afbeelding van de pagina",
+      "step4": "Krijg de URL direct en kopieer deze!"
+    },
+    "installation": {
+      "title": "Installatie",
+      "step1": {
+        "title": "Stap 1: Kopieer de Bookmarklet-code",
+        "description": "Klik op de knop hieronder om de bookmarklet-code naar uw klembord te kopiëren."
+      },
+      "step2": {
+        "title": "Stap 2: Voeg toe aan uw browser",
+        "description": "Volg deze stappen op basis van uw browser:",
+        "chrome": "Chrome/Edge: Druk op Ctrl+Shift+B (Cmd+Shift+B op Mac) om de bladwijzerbalk te tonen, klik er dan met de rechtermuisknop op en selecteer \"Pagina toevoegen\". Plak de code als URL.",
+        "firefox": "Firefox: Klik met de rechtermuisknop op de bladwijzerbalk en selecteer \"Nieuwe bladwijzer\". Plak de code als Locatie.",
+        "safari": "Safari: Schakel de bladwijzerbalk in (Weergave → Bladwijzerbalk tonen), sleep dan de code naar de bladwijzerbalk.",
+        "edge": "Alternatief: Maak een nieuwe bladwijzer, bewerk deze en vervang de URL door de gekopieerde code."
+      },
+      "step3": {
+        "title": "Stap 3: Begin met gebruiken!",
+        "description": "Bezoek een webpagina met afbeeldingen en klik op uw bookmarklet om te beginnen met uploaden!"
+      },
+      "copy": "Code kopiëren",
+      "copied": "Gekopieerd!"
+    },
+    "usage": {
+      "title": "Functies",
+      "description": "De bookmarklet biedt de volgende functies:",
+      "feature1": "Selecteer een afbeelding van de huidige webpagina",
+      "feature2": "Automatische upload naar Photo To URL",
+      "feature3": "Krijg direct een deelbare URL met één klik om te kopiëren"
+    },
+    "note": {
+      "title": "Opmerking",
+      "content": "De bookmarklet werkt op de meeste websites. Sommige sites met strikte beveiligingsbeleid (CORS) kunnen het uploaden van afbeeldingen voorkomen."
+    }
   }
+}

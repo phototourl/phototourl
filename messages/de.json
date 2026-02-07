@@ -60,7 +60,7 @@
     "hero": {
       "title1": "Gratis",
       "title2": "Bild zu URL",
-      "subtitle": "Hochladen → URL kopieren → überall einfügen",
+      "subtitle": "Hochladen → URL kopieren → verwenden",
       "upload": "Bild hochladen",
       "bullet": {
         "fast": "Schnelles Teilen",
@@ -81,7 +81,7 @@
     },
     "upload": {
       "title": "Foto ablegen oder zum Auswählen klicken",
-      "hint": "JPG/PNG/WEBP/GIF bis 10 MB. Drag & Drop, Klick oder Screenshots einfügen.",
+      "hint": "JPG/PNG/WEBP/GIF bis 5 MB. Drag & Drop, Klick oder Screenshots einfügen.",
       "orDrop": "oder Datei ablegen",
       "samplesTitle": "Kein Bild? Probier eines davon:",
       "policy": "Mit dem Upload stimmst du unserer <privacy>Datenschutzerklärung</privacy> und den <terms>Nutzungsbedingungen</terms> zu.",
@@ -113,7 +113,7 @@
         },
         "nosignup": {
           "title": "Keine Registrierung erforderlich",
-          "desc": "Sofort nutzen; Konten können später kommen."
+          "desc": "Sofort nutzen, keine Registrierung erforderlich."
         }
       }
     },
@@ -121,8 +121,8 @@
       "title": "So funktioniert es",
       "step1": "1) Foto hinzufügen (ziehen, einfügen oder klicken zum Auswählen).",
       "step2": "2) Wir wandeln es in einen Link auf unserem CDN um.",
-      "step3": "3) Link kopieren und überall nutzen.",
-      "note": "Ihr Link öffnet schnell in Docs, Chats und Prototypen; Sie können ihn auch in .txt/.json/.md speichern."
+      "step3": "3) Link kopieren und in Docs, Chats, Prototypen und mehr verwenden.",
+      "note": "Ihr Link öffnet schnell in Docs, Chats und Prototypen; Sie können ihn auch als .txt speichern."
     },
     "process": {
       "title": "Drei-Schritte-Flow",
@@ -137,8 +137,8 @@
           "desc": "Sofort-URL mit Kopieren/Öffnen/Speichern-Aktionen."
         },
         "3": {
-          "title": "Überall teilen",
-          "desc": "In Docs, Chats, Tickets, Blogs oder Prototypen einfügen."
+          "title": "Überall verwenden",
+          "desc": "Verwenden Sie in Docs, Chats, Tickets, Blogs oder Prototypen."
         }
       }
     },
@@ -152,15 +152,15 @@
         },
         "save": {
           "title": "Kopieren & Speichern",
-          "desc": "Mit einem Klick kopieren, öffnen oder als .txt/.json/.md sichern."
+          "desc": "Mit einem Klick kopieren, öffnen oder als .txt-Datei speichern."
         },
         "clipboard": {
           "title": "Clipboard-freundlich",
           "desc": "Screenshots einfügen, ohne Dateien zu suchen oder erneut hochzuladen."
         },
         "errors": {
-          "title": "Freundliche Fehler",
-          "desc": "Klarer Wartungshinweis statt technischer Stacktraces."
+          "title": "Sicher & Privat",
+          "desc": "Ihre Bilder werden sicher mit Unternehmensverschlüsselung und Datenschutz gespeichert."
         },
         "nosignup": {
           "title": "Keine Anmeldung nötig",
@@ -192,7 +192,7 @@
     },
     "cta": {
       "title": "Fotos in Sekunden in Links verwandeln",
-      "subtitle": "Ziehen, einfügen oder hochladen – Link kopieren und überall teilen.",
+      "subtitle": "Ziehen, einfügen oder hochladen – Link kopieren und teilen.",
       "upload": "Jetzt hochladen",
       "paste": "Screenshot einfügen"
     },
@@ -213,8 +213,8 @@
       },
       "flow": {
         "title": "So läuft der Flow end‑to‑end",
-        "p1": "1) Bild auswählen: Drag‑and‑Drop, aus der Zwischenablage einfügen oder browsen. 2) Wir laden hoch und liefern einen Direktlink mit Kopieren/Öffnen/Speichern (.txt/.json/.md). 3) Link überall verwenden: Blog, Docs, Tickets, Chat, Prototypen.",
-        "p2": "Jeder Schritt ist auf Klarheit optimiert: sichtbarer Status, freundliche Fehler, Buttons mit Feedback. Wenn R2 aktiv ist, werden Links über die CDN‑Domain ausgeliefert; bei Wartung erscheint eine klare Meldung."
+        "p1": "1) Bild auswählen: Drag‑and‑Drop, aus der Zwischenablage einfügen oder browsen. 2) Wir laden hoch und liefern einen Direktlink mit Kopieren/Öffnen/Speichern (.txt). 3) Link verwenden: Blog, Docs, Tickets, Chat, Prototypen und mehr.",
+        "p2": "Jeder Schritt ist auf Klarheit optimiert: sichtbarer Status, freundliche Fehler, Buttons mit Feedback. Wenn R2 aktiv ist, werden Links über die CDN‑Domain ausgeliefert; Ihre Bilder werden sicher mit Verschlüsselung auf Unternehmensebene und Datenschutz gespeichert."
       },
       "best": {
         "title": "Best Practices für saubere Links",
@@ -222,14 +222,12 @@
           "1": "Sinnvolle Dateinamen vor dem Upload verwenden.",
           "2": "WEBP oder optimierte JPG/PNG nutzen, wenn viel geteilt wird.",
           "3": "Link direkt nach der Generierung kopieren.",
-          "4": "Als .json speichern – für Batch und Automatisierung.",
-          "5": ".md nutzen, um direkt in Dokus einzufügen.",
           "6": ".txt für reine Textlinks verwenden, die direkt kopiert werden können."
         }
       },
       "roadmap": {
         "title": "Roadmap‑Highlights",
-        "p1": "Als Nächstes: tiefere Cloudflare‑R2‑Integration, großzügigere Limits, optionale Team‑Spaces und Link‑Analytics. Außerdem: Ein‑Klick‑Löschen und SEO‑Verbesserungen (Schema & Sitemap)."
+        "p1": "Wir werden Cloudflare R2 tief integrieren und benutzerfreundlichere Kontingente und Verwaltungsfunktionen bereitstellen, mit optionaler Teamzusammenarbeit, Zugriffskontrolle und Link‑Analysen. Wir planen Funktionen wie Ein‑Klick‑Löschen, voreingestellte Link‑Stile und Speicherbuckets auf Organisationsebene. Gleichzeitig verbessern wir kontinuierlich Unterprodukte wie das Kreis‑Zuschnitt‑Tool und das abgerundete Ecken‑Tool, um die Bildverarbeitung bequemer zu machen."
       },
       "faq": {
         "title": "FAQs",
@@ -248,7 +246,7 @@
           },
           "4": {
             "q": "Funktioniert es mit Markdown/HTML?",
-            "a": "Ja. Link kopieren oder die .txt/.json/.md‑Buttons nutzen."
+            "a": "Ja. Link kopieren oder den .txt‑Button nutzen."
           },
           "5": {
             "q": "Sind meine Dateien öffentlich?",
@@ -276,7 +274,7 @@
     "keywords": "Bilder zu URL,Fotos zu URL,Link Generator,kostenloses Hosting,direkte URL,teilbare Links,CDN",
     "home": {
       "title": "Bilder zu URL – kostenlos & ohne Anmeldung",
-      "description": "Bilder zu URL umwandeln – schnell und ohne Anmeldung. Foto hochladen, URL kopieren und überall teilen. Unterstützt JPG, PNG, WEBP und GIF."
+      "description": "Bilder zu URL umwandeln – schnell und ohne Anmeldung. Foto hochladen, URL kopieren und teilen. Unterstützt JPG, PNG, WEBP und GIF."
     }
   },
   "images": {
@@ -287,7 +285,7 @@
     "howIllustrationAlt": "Illustration, wie Foto zu URL funktioniert",
     "heroDropTitle": "Ziehen Sie ein Foto hierher",
     "heroDropSubtitle": "Wir optimieren und hosten das Bild und liefern einen sauberen Link zurück.",
-    "heroDropBadge": "Klicken oder ziehen (JPG/PNG, bis 10 MB)",
+    "heroDropBadge": "Klicken oder ziehen (JPG/PNG, bis 5 MB)",
     "logoAlt": "Foto zu URL Logo"
   },
   "circleCrop": {
@@ -303,8 +301,9 @@
       "description": "Foto zu Kreis zuschneiden ist ein kostenloses Online-Tool zur Umwandlung rechteckiger Fotos in perfekt runde Formen. Unser Tool hilft Ihnen, Fotos sofort im Kreisformat zuzuschneiden, ohne Registrierung erforderlich. Ob Sie ein rundes Profilbild, ein rundes Foto für soziale Medien oder ein rundes Foto für Designprojekte benötigen, unser Rundfoto-Zuschneidetool macht es einfach und unkompliziert."
     },
     "seo": {
-      "title": "Foto zu Kreis zuschneiden | Kostenloser Online-Rundbild-Zuschneider",
-      "description": "Kostenloses Online-Tool zum Zuschneiden von Fotos in einen perfekten Kreis - perfekt für Profilbilder, soziale Medien und Designprojekte."
+      "title": "Kreis-Zuschnitt-Tool | Kostenloser Online-Rundbild-Zuschneider",
+      "description": "Kostenloses Online-Tool zum Zuschneiden von Fotos in einen perfekten Kreis - perfekt für Profilbilder, soziale Medien und Designprojekte.",
+      "keywords": "Kreisbild zuschneiden, runde Bild zuschneiden, Kreis-Zuschnitt Tool, Kreis-Zuschnitt online"
     },
     "selectRegion": {
       "title": "Region auswählen",
@@ -332,8 +331,9 @@
       "description": "Foto mit abgerundeten Ecken ist ein kostenloses Online-Tool zum Hinzufügen abgerundeter Ecken zu Fotos. Erstellen Sie App-Icons, weichkantige Bilder für soziale Medien oder Thumbnails mit einstellbarem Eckenradius und Zoom. Keine Anmeldung – hochladen, anpassen, herunterladen."
     },
     "seo": {
-      "title": "Foto mit abgerundeten Ecken | Kostenloses Online-Tool",
-      "description": "Kostenloses Online-Tool für abgerundete Ecken – ideal für App-Icons, Profilbilder und Designprojekte."
+      "title": "Abgerundete Ecken Tool | Kostenloses Online-Tool",
+      "description": "Kostenloses Online-Tool für abgerundete Ecken – ideal für App-Icons, Profilbilder und Designprojekte.",
+      "keywords": "abgerundete Ecken, Bild abgerundete Ecken, abgerundete Ecken Tool, abgerundete Ecken online"
     },
     "selectRegion": {
       "title": "Region auswählen",
@@ -369,7 +369,7 @@
     },
     "page": {
       "title": "Dokumentation",
-      "description": "Schnellstart: Laden Sie ein Bild hoch und erhalten Sie eine direkte URL. Verwenden Sie die Kopieren/Öffnen-Schaltflächen oder laden Sie den Link im Format .txt/.json/.md herunter.",
+      "description": "Schnellstart: Laden Sie ein Bild hoch und erhalten Sie eine direkte URL. Verwenden Sie die Kopieren/Öffnen-Schaltflächen oder laden Sie den Link im Format .txt herunter.",
       "features": {
         "title": "Unterstützte Funktionen:",
         "items": {
@@ -577,6 +577,49 @@
           "email": "leeqs1010@gmail.com"
         }
       }
+    }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL Bookmarklet",
+    "description": "Laden Sie Bilder von jeder Webseite direkt zu Photo To URL mit einem einzigen Klick hoch!",
+    "howItWorks": {
+      "title": "Wie es funktioniert",
+      "step1": "Durchsuchen Sie eine beliebige Webseite mit Bildern",
+      "step2": "Klicken Sie auf das Bookmarklet in Ihrer Lesezeichenleiste",
+      "step3": "Wählen Sie ein Bild von der Seite aus",
+      "step4": "Erhalten Sie die URL sofort und kopieren Sie sie!"
+    },
+    "installation": {
+      "title": "Installation",
+      "step1": {
+        "title": "Schritt 1: Bookmarklet-Code kopieren",
+        "description": "Klicken Sie auf die Schaltfläche unten, um den Bookmarklet-Code in Ihre Zwischenablage zu kopieren."
+      },
+      "step2": {
+        "title": "Schritt 2: Zu Ihrem Browser hinzufügen",
+        "description": "Befolgen Sie diese Schritte je nach Ihrem Browser:",
+        "chrome": "Chrome/Edge: Drücken Sie Strg+Umschalt+B (Cmd+Umschalt+B auf Mac), um die Lesezeichenleiste anzuzeigen, klicken Sie dann mit der rechten Maustaste darauf und wählen Sie \"Seite hinzufügen\". Fügen Sie den Code als URL ein.",
+        "firefox": "Firefox: Klicken Sie mit der rechten Maustaste auf die Lesezeichenleiste und wählen Sie \"Neues Lesezeichen\". Fügen Sie den Code als Speicherort ein.",
+        "safari": "Safari: Aktivieren Sie die Lesezeichenleiste (Ansicht → Lesezeichenleiste anzeigen), ziehen Sie dann den Code in die Lesezeichenleiste.",
+        "edge": "Alternative: Erstellen Sie ein neues Lesezeichen, bearbeiten Sie es und ersetzen Sie die URL durch den kopierten Code."
+      },
+      "step3": {
+        "title": "Schritt 3: Beginnen Sie mit der Verwendung!",
+        "description": "Besuchen Sie eine beliebige Webseite mit Bildern und klicken Sie auf Ihr Bookmarklet, um mit dem Hochladen zu beginnen!"
+      },
+      "copy": "Code kopieren",
+      "copied": "Kopiert!"
+    },
+    "usage": {
+      "title": "Funktionen",
+      "description": "Das Bookmarklet bietet die folgenden Funktionen:",
+      "feature1": "Wählen Sie ein beliebiges Bild von der aktuellen Webseite aus",
+      "feature2": "Automatischer Upload zu Photo To URL",
+      "feature3": "Erhalten Sie sofort eine teilbare URL mit einem Klick zum Kopieren"
+    },
+    "note": {
+      "title": "Hinweis",
+      "content": "Das Bookmarklet funktioniert auf den meisten Websites. Einige Websites mit strengen Sicherheitsrichtlinien (CORS) können das Hochladen von Bildern verhindern."
     }
   }
 }

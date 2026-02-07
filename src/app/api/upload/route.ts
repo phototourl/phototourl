@@ -7,7 +7,7 @@ import {
   MAX_UPLOADS_PER_IP_PER_DAY,
 } from "@/lib/upload-rate-limit";
 
-const MAX_SIZE_BYTES = 10 * 1024 * 1024; // 10MB
+const MAX_SIZE_BYTES = 5 * 1024 * 1024; // 5MB
 const ALLOWED_MIME: Record<string, string> = {
   "image/png": ".png",
   "image/jpeg": ".jpg",
@@ -82,7 +82,7 @@ export async function POST(req: Request) {
 
     if (file.size > MAX_SIZE_BYTES) {
       return NextResponse.json(
-        { error: "File too large. Max 10MB." },
+        { error: "File too large. Max 5MB." },
         { status: 400 }
       );
     }

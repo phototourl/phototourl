@@ -81,7 +81,7 @@
     },
     "upload": {
       "title": "Upuść zdjęcie lub kliknij, aby przeglądać",
-      "hint": "JPG, PNG, WEBP, GIF do 10MB. Przeciągnij i upuść, kliknij lub wklej zrzuty ekranu.",
+      "hint": "JPG, PNG, WEBP, GIF do 5MB. Przeciągnij i upuść, kliknij lub wklej zrzuty ekranu.",
       "orDrop": "lub upuść plik",
       "samplesTitle": "Brak obrazu? Wypróbuj jeden z tych:",
       "policy": "Przesyłając obraz, zgadzasz się z naszą <privacy>Polityką Prywatności</privacy> i <terms>Warunkami Użytkowania</terms>.",
@@ -113,7 +113,7 @@
         },
         "nosignup": {
           "title": "Bez rejestracji wymaganej",
-          "desc": "Użyj od razu. Konta mogą pojawić się później, gdy będziemy się rozwijać."
+          "desc": "Użyj od razu, rejestracja nie jest wymagana."
         }
       }
     },
@@ -121,8 +121,8 @@
       "title": "Jak to działa",
       "step1": "1) Dodaj swoje zdjęcie (przeciągnij, wklej lub kliknij, aby wybrać plik).",
       "step2": "2) Hostujemy je i zwracamy udostępnialny link.",
-      "step3": "3) Skopiuj i udostępnij link wszędzie, gdzie pracujesz.",
-      "note": "Twój link otwiera się szybko w dokumentach, czatach i prototypach—plus możesz pobrać go w formacie, który lubisz (.txt/.json/.md)."
+      "step3": "3) Skopiuj i udostępnij link w dokumentach, czatach, prototypach i innych miejscach.",
+      "note": "Twój link otwiera się szybko w dokumentach, czatach i prototypach—plus możesz pobrać go jako .txt."
     },
     "process": {
       "title": "Przepływ w trzech krokach",
@@ -137,8 +137,8 @@
           "desc": "Natychmiastowy URL z kontrolami kopiuj/otwórz/zapisz."
         },
         "3": {
-          "title": "Udostępnij wszędzie",
-          "desc": "Wklej do dokumentów, czatów, zgłoszeń, blogów lub prototypów."
+          "title": "Użyj wszędzie",
+          "desc": "Użyj w dokumentach, czatach, zgłoszeniach, blogach lub prototypach."
         }
       }
     },
@@ -151,16 +151,16 @@
           "desc": "Czyste, przewidywalne URL gotowe do osadzania w Markdown i HTML."
         },
         "save": {
-          "title": "Akcje kopiuj i zapisz",
-          "desc": "Kopiuj, otwórz lub zapisz jako .txt/.json/.md jednym kliknięciem."
+          "title": "Kopiuj i Zapisz",
+          "desc": "Kopiuj, otwórz lub zapisz jako plik .txt jednym kliknięciem."
         },
         "clipboard": {
           "title": "Przyjazne dla schowka",
           "desc": "Wklej zrzuty ekranu bez szukania plików lub ponownego przesyłania."
         },
         "errors": {
-          "title": "Przyjazne błędy",
-          "desc": "Czyste komunikaty o konserwacji zamiast technicznych śladów stosu."
+          "title": "Bezpieczne i Prywatne",
+          "desc": "Twoje obrazy są bezpiecznie przechowywane z szyfrowaniem na poziomie przedsiębiorstwa i ochroną prywatności."
         },
         "nosignup": {
           "title": "Brak potrzeby rejestracji",
@@ -192,7 +192,7 @@
     },
     "cta": {
       "title": "Zamień zdjęcia w linki w kilka sekund",
-      "subtitle": "Upuść, wklej lub prześlij—skopiuj swój link i udostępnij wszędzie.",
+      "subtitle": "Upuść, wklej lub prześlij—skopiuj swój link i udostępnij go.",
       "upload": "Prześlij teraz",
       "paste": "Wklej zrzut ekranu"
     },
@@ -213,8 +213,8 @@
       },
       "flow": {
         "title": "Jak działa przepływ end-to-end",
-        "p1": "1) Wybierz obraz: przeciągnij i upuść, wklej ze schowka lub kliknij, aby przeglądać. PNG, JPG, WEBP, GIF do 10MB są teraz obsługiwane. 2) Przesyłamy i zwracamy bezpośredni link. UI natychmiast pokazuje Twój URL z akcjami kopiuj, otwórz i zapisz w wielu formatach (.txt, .json, .md). 3) Wykorzystujesz link wszędzie: blogi, dokumenty, zgłoszenia, czat, prototypy. Celem jest bezproblemowy most między Twoim zdjęciem a miejscami, w których pracujesz.",
-        "p2": "Każdy krok jest dostrojony do przejrzystości: widoczny status, przyjazne błędy i przyciski, które potwierdzają akcje. Przycisk kopiuj znajduje się obok linku, a przyciski zapisz pozwalają zachować URL w preferowanym formacie do zakładek lub automatyzacji. Gdy R2 jest włączone, linki są obsługiwane z domeny CDN; jeśli usługa jest w konserwacji, UI zwraca czysty komunikat zamiast surowych błędów."
+        "p1": "1) Wybierz obraz: przeciągnij i upuść, wklej ze schowka lub kliknij, aby przeglądać. PNG, JPG, WEBP, GIF do 5MB są teraz obsługiwane. 2) Przesyłamy i zwracamy bezpośredni link. UI natychmiast pokazuje Twój URL z akcjami kopiuj, otwórz i zapisz (.txt). 3) Użyj linku wszędzie: blogi, dokumenty, zgłoszenia, czat, prototypy i inne miejsca. Celem jest bezproblemowy most między Twoim zdjęciem a miejscami, w których pracujesz.",
+        "p2": "Każdy krok jest dostrojony do przejrzystości: widoczny status, przyjazne błędy i przyciski, które potwierdzają akcje. Przycisk kopiuj znajduje się obok linku, a przyciski zapisz pozwalają zachować URL w preferowanym formacie do zakładek lub automatyzacji. Gdy R2 jest włączone, linki są obsługiwane z domeny CDN; Twoje obrazy są bezpiecznie przechowywane z szyfrowaniem na poziomie przedsiębiorstwa i ochroną prywatności."
       },
       "best": {
         "title": "Najlepsze praktyki dla czystszych linków",
@@ -222,14 +222,12 @@
           "1": "Zachowaj znaczące nazwy plików przed przesłaniem; pozostają częścią URL i pomagają w przyszłym wyszukiwaniu.",
           "2": "Użyj WEBP lub zoptymalizowanych JPG/PNG dla lżejszych ładunków, jeśli spodziewasz się intensywnego udostępniania.",
           "3": "Skopiuj link bezpośrednio po wygenerowaniu, aby uniknąć przestarzałych wpisów w schowku.",
-          "4": "Zapisz jako .json, gdy potrzebujesz wsadowego przechowywania referencji do automatyzacji lub audytów.",
-          "5": "Użyj wyjścia .md podczas osadzania w dokumentach lub wiki; jest gotowe do wklejenia.",
           "6": "Zapisz jako .txt dla zwykłych linków tekstowych gotowych do kopiowania i używania."
         }
       },
       "roadmap": {
         "title": "Najważniejsze punkty roadmapy",
-        "p1": "Nadchodzące ulepszenia obejmują głębszą integrację Cloudflare R2 domyślnie, bardziej hojne limity przesyłania, opcjonalną autoryzację dla przestrzeni zespołowych i analitykę per-link. Planujemy również wstępnie ustawione style linków, usuwanie jednym kliknięciem i zasobniki na poziomie organizacji. Polerowanie SEO trwa w blogach, dokumentach i stronach statusu, z bogatszym schematem i publiczną mapą witryny dla szybkiego indeksowania."
+        "p1": "Głęboko zintegrujemy Cloudflare R2, zapewniając bardziej przyjazne limity i możliwości zarządzania, z opcjonalną współpracą zespołową, kontrolą dostępu i analityką per-link. Planujemy uruchomić funkcje takie jak usuwanie jednym kliknięciem, wstępnie ustawione style linków i zasobniki magazynowe na poziomie organizacji. W międzyczasie stale ulepszamy produkty poboczne, takie jak narzędzie do przycinania okrągłego i narzędzie do zaokrąglonych rogów, aby uczynić przetwarzanie obrazów wygodniejszym."
       },
       "faq": {
         "title": "Najczęściej zadawane pytania",
@@ -240,11 +238,11 @@
           },
           "2": {
             "q": "Jakie formaty są obsługiwane?",
-            "a": "PNG, JPG, WEBP, GIF do 10MB dzisiaj. Więcej formatów może zostać dodanych na podstawie zapotrzebowania."
+            "a": "PNG, JPG, WEBP, GIF do 5MB dzisiaj. Więcej formatów może zostać dodanych na podstawie zapotrzebowania."
           },
           "3": {
             "q": "Czy mogę osadzić w Markdown lub HTML?",
-            "a": "Tak. Skopiuj link tak jak jest, lub użyj jednoklikowych zapisów .txt / .json / .md dla fragmentów drop-in."
+            "a": "Tak. Skopiuj link tak jak jest, lub użyj jednoklikowego zapisu .txt dla fragmentów drop-in."
           },
           "4": {
             "q": "Czy przechowujecie moje pliki publicznie?",
@@ -287,7 +285,7 @@
     "howIllustrationAlt": "Ilustracja pokazująca jak działa Zdjęcie do URL",
     "heroDropTitle": "Przeciągnij zdjęcie tutaj",
     "heroDropSubtitle": "Ulepszymy i udostępnimy je, a następnie zwrócimy czysty link.",
-    "heroDropBadge": "Przeciągnij lub kliknij (JPG/PNG, do 10MB)",
+    "heroDropBadge": "Przeciągnij lub kliknij (JPG/PNG, do 5MB)",
     "logoAlt": "Logo Zdjęcie do URL"
   },
   "circleCrop": {
@@ -303,8 +301,9 @@
       "description": "Zdjęcie do Koła to darmowe narzędzie online do przekształcania prostokątnych zdjęć w idealnie okrągłe kształty. Nasze narzędzie pomaga przycinać zdjęcia w formacie kołowym natychmiast, bez wymaganej rejestracji. Czy potrzebujesz okrągłego zdjęcia profilowego, okrągłego zdjęcia do mediów społecznościowych, czy okrągłego zdjęcia do projektów graficznych, nasze narzędzie do przycinania okrągłych zdjęć czyni to prostym i łatwym."
     },
     "seo": {
-      "title": "Zdjęcie do Koła | Darmowy Online Przycinacz Kół",
-      "description": "Darmowe narzędzie online do przycinania dowolnego zdjęcia do idealnego koła - idealne do zdjęć profilowych, mediów społecznościowych i projektów graficznych."
+      "title": "Narzędzie do Przycinania w Kółko | Darmowy Online Przycinacz Okrągłych Zdjęć",
+      "description": "Darmowe narzędzie online do przycinania dowolnego zdjęcia do idealnego koła - idealne do zdjęć profilowych, mediów społecznościowych i projektów graficznych.",
+      "keywords": "przycinanie okrągłego obrazu, przycinanie okrągłego zdjęcia, narzędzie przycinania okrągłego, przycinanie okrągłe online"
     },
     "selectRegion": {
       "title": "Wybierz region",
@@ -332,8 +331,9 @@
       "description": "Zdjęcie z zaokrąglonymi rogami to darmowe narzędzie online do dodawania zaokrąglonych rogów do dowolnego zdjęcia. Twórz ikony w stylu aplikacji, obrazy z miękkimi krawędziami do mediów społecznościowych lub miniatury z regulowanym promieniem i zoomem. Bez rejestracji – prześlij, dostosuj, pobierz."
     },
     "seo": {
-      "title": "Zdjęcie z zaokrąglonymi rogami | Darmowe narzędzie online",
-      "description": "Darmowe narzędzie do dodawania zaokrąglonych rogów do dowolnego zdjęcia – idealne do ikon aplikacji, zdjęć profilowych i projektów graficznych."
+      "title": "Narzędzie Zaokrąglonych Rogów | Darmowe narzędzie online",
+      "description": "Darmowe narzędzie do dodawania zaokrąglonych rogów do dowolnego zdjęcia – idealne do ikon aplikacji, zdjęć profilowych i projektów graficznych.",
+      "keywords": "zaokrąglone rogi, obraz zaokrąglone rogi, narzędzie zaokrąglone rogi, zaokrąglone rogi online"
     },
     "selectRegion": {
       "title": "Wybierz region",
@@ -369,7 +369,7 @@
     },
     "page": {
       "title": "Dokumentacja",
-      "description": "Szybki start: prześlij obraz i uzyskaj bezpośredni URL. Użyj przycisków kopiuj/otwórz lub pobierz link w formacie .txt/.json/.md.",
+      "description": "Szybki start: prześlij obraz i uzyskaj bezpośredni URL. Użyj przycisków kopiuj/otwórz lub pobierz link w formacie .txt.",
       "features": {
         "title": "Obsługiwane funkcje:",
         "items": {
@@ -575,8 +575,51 @@
             "title": "Skontaktuj się z nami",
             "text": "Jeśli masz pytania dotyczące tej Polityki plików cookie, skontaktuj się z nami pod adresem",
             "email": "leeqs1010@gmail.com"
-          }
         }
       }
     }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL Bookmarklet",
+    "description": "Prześlij obrazy z dowolnej strony internetowej bezpośrednio do Photo To URL jednym kliknięciem!",
+    "howItWorks": {
+      "title": "Jak to działa",
+      "step1": "Przeglądaj dowolną stronę internetową z obrazami",
+      "step2": "Kliknij bookmarklet na pasku zakładek",
+      "step3": "Wybierz obraz ze strony",
+      "step4": "Natychmiast uzyskaj URL i skopiuj go!"
+    },
+    "installation": {
+      "title": "Instalacja",
+      "step1": {
+        "title": "Krok 1: Skopiuj kod Bookmarklet",
+        "description": "Kliknij przycisk poniżej, aby skopiować kod bookmarklet do schowka."
+      },
+      "step2": {
+        "title": "Krok 2: Dodaj do przeglądarki",
+        "description": "Wykonaj następujące kroki w zależności od przeglądarki:",
+        "chrome": "Chrome/Edge: Naciśnij Ctrl+Shift+B (Cmd+Shift+B na Mac), aby pokazać pasek zakładek, następnie kliknij prawym przyciskiem i wybierz \"Dodaj stronę\". Wklej kod jako URL.",
+        "firefox": "Firefox: Kliknij prawym przyciskiem na pasku zakładek i wybierz \"Nowa zakładka\". Wklej kod jako Lokalizacja.",
+        "safari": "Safari: Włącz pasek zakładek (Widok → Pokaż pasek zakładek), następnie przeciągnij kod do paska zakładek.",
+        "edge": "Alternatywa: Utwórz nową zakładkę, edytuj ją i zastąp URL skopiowanym kodem."
+      },
+      "step3": {
+        "title": "Krok 3: Zacznij używać!",
+        "description": "Odwiedź dowolną stronę internetową z obrazami i kliknij swój bookmarklet, aby rozpocząć przesyłanie!"
+      },
+      "copy": "Skopiuj kod",
+      "copied": "Skopiowano!"
+    },
+    "usage": {
+      "title": "Funkcje",
+      "description": "Bookmarklet oferuje następujące funkcje:",
+      "feature1": "Wybierz dowolny obraz z bieżącej strony internetowej",
+      "feature2": "Automatyczne przesyłanie do Photo To URL",
+      "feature3": "Natychmiast uzyskaj udostępniany URL jednym kliknięciem do kopiowania"
+    },
+    "note": {
+      "title": "Uwaga",
+      "content": "Bookmarklet działa na większości stron internetowych. Niektóre strony z rygorystycznymi zasadami bezpieczeństwa (CORS) mogą uniemożliwiać przesyłanie obrazów."
+    }
   }
+}

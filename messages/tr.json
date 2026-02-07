@@ -81,7 +81,7 @@
     },
     "upload": {
       "title": "Bir fotoğraf bırakın veya gözatmak için tıklayın",
-      "hint": "JPG, PNG, WEBP, GIF en fazla 10MB. Sürükle, tıkla veya yapıştır.",
+      "hint": "JPG, PNG, WEBP, GIF en fazla 5MB. Sürükle, tıkla veya yapıştır.",
       "orDrop": "veya bir dosya bırak",
       "samplesTitle": "Görsel yok mu? Bunlardan birini deneyin:",
       "policy": "Bir görsel yükleyerek <privacy>Gizlilik Politikamızı</privacy> ve <terms>Kullanım Şartlarımızı</terms> kabul etmiş olursunuz.",
@@ -113,7 +113,7 @@
         },
         "nosignup": {
           "title": "Kayıt gerekmez",
-          "desc": "Hemen kullanın. Hesaplar büyüdükçe daha sonra gelebilir."
+          "desc": "Hemen kullanın, kayıt gerekmez."
         }
       }
     },
@@ -121,8 +121,8 @@
       "title": "Nasıl çalışır",
       "step1": "1) Fotoğrafınızı ekleyin (sürükleyin, yapıştırın veya dosya seçmek için tıklayın).",
       "step2": "2) Barındırıyoruz ve paylaşılabilir bir bağlantı döndürüyoruz.",
-      "step3": "3) Bağlantıyı her yerde kopyalayın ve paylaşın.",
-      "note": "Bağlantınız belgelerde, sohbetlerde ve prototiplerde hızlı açılır—artı istediğiniz formatta indirebilirsiniz (.txt/.json/.md)."
+      "step3": "3) Bağlantıyı belgeler, sohbetler, prototipler ve daha fazlasında kopyalayın ve paylaşın.",
+      "note": "Bağlantınız belgelerde, sohbetlerde ve prototiplerde hızlı açılır—artı .txt olarak indirebilirsiniz."
     },
     "process": {
       "title": "Üç adımlı akış",
@@ -137,8 +137,8 @@
           "desc": "Kopyala/aç/kaydet kontrolleriyle anında URL."
         },
         "3": {
-          "title": "Her yerde paylaş",
-          "desc": "Belgelere, sohbetlere, biletlere, bloglara veya prototiplere yapıştırın."
+          "title": "Her yerde kullan",
+          "desc": "Belgelerde, sohbetlerde, biletlerde, bloglarda veya prototiplerde kullanın."
         }
       }
     },
@@ -151,16 +151,16 @@
           "desc": "Markdown ve HTML gömüleri için hazır temiz, öngörülebilir URL'ler."
         },
         "save": {
-          "title": "Kopyala ve kaydet işlemleri",
-          "desc": "Tek tıkla kopyalayın, açın veya .txt/.json/.md olarak kaydedin."
+          "title": "Kopyala ve Kaydet",
+          "desc": "Tek tıkla kopyalayın, açın veya .txt dosyası olarak kaydedin."
         },
         "clipboard": {
           "title": "Pano dostu",
           "desc": "Dosya aramadan veya yeniden yüklemeden ekran görüntülerini yapıştırın."
         },
         "errors": {
-          "title": "Dostane hatalar",
-          "desc": "Teknik yığın izleri yerine net bakım mesajları."
+          "title": "Güvenli ve Özel",
+          "desc": "Görüntüleriniz kurumsal düzeyde şifreleme ve gizlilik koruması ile güvenli bir şekilde saklanır."
         },
         "nosignup": {
           "title": "Kayıt gerekmez",
@@ -192,7 +192,7 @@
     },
     "cta": {
       "title": "Fotoğrafları saniyeler içinde bağlantılara dönüştürün",
-      "subtitle": "Bırakın, yapıştırın veya yükleyin—bağlantınızı kopyalayın ve her yerde paylaşın.",
+      "subtitle": "Bırakın, yapıştırın veya yükleyin—bağlantınızı kopyalayın ve paylaşın.",
       "upload": "Şimdi yükle",
       "paste": "Ekran görüntüsü yapıştır"
     },
@@ -213,8 +213,8 @@
       },
       "flow": {
         "title": "Akış uçtan uca nasıl çalışır",
-        "p1": "1) Bir görsel seçin: sürükle-bırak, panodan yapıştır veya gözatmak için tıkla. Şu anda PNG, JPG, WEBP, GIF'e kadar 10MB destekleniyor. 2) Yükleyip doğrudan bir bağlantı döndürüyoruz. Arayüz URL'nizi kopyalama, açma ve çoklu format kaydetme işlemleriyle (.txt, .json, .md) hemen gösterir. 3) Bağlantıyı her yerde yeniden kullanın: bloglar, belgeler, biletler, sohbet, prototipler. Amaç, fotoğrafınız ile çalıştığınız yerler arasında sürtünmesiz bir köprü kurmaktır.",
-        "p2": "Her adım netlik için ayarlanmıştır: görünür durum, dostane hatalar ve eylemleri onaylayan düğmeler. Kopyala düğmesi bağlantının yanında oturur ve kaydet düğmeleri URL'yi yer imleri veya otomasyon için tercih ettiğiniz formatta tutmanıza olanak tanır. R2 etkinleştirildiğinde, bağlantılar CDN etki alanından sunulur; hizmet bakımdayken, arayüz ham hatalar yerine net bir mesaj döndürür."
+        "p1": "1) Bir görsel seçin: sürükle-bırak, panodan yapıştır veya gözatmak için tıkla. Şu anda PNG, JPG, WEBP, GIF'e kadar 5MB destekleniyor. 2) Yükleyip doğrudan bir bağlantı döndürüyoruz. Arayüz URL'nizi kopyalama, açma ve kaydetme işlemleriyle (.txt) hemen gösterir. 3) Bağlantıyı bloglar, belgeler, biletler, sohbet, prototipler ve daha fazlasında kullanın. Amaç, fotoğrafınız ile çalıştığınız yerler arasında sürtünmesiz bir köprü kurmaktır.",
+        "p2": "Her adım netlik için ayarlanmıştır: görünür durum, dostane hatalar ve eylemleri onaylayan düğmeler. Kopyala düğmesi bağlantının yanında oturur ve kaydet düğmeleri URL'yi yer imleri veya otomasyon için tercih ettiğiniz formatta tutmanıza olanak tanır. R2 etkinleştirildiğinde, bağlantılar CDN etki alanından sunulur; görüntüleriniz kurumsal düzeyde şifreleme ve gizlilik koruması ile güvenli bir şekilde saklanır."
       },
       "best": {
         "title": "Daha temiz bağlantılar için en iyi uygulamalar",
@@ -222,14 +222,12 @@
           "1": "Yüklemeden önce dosya adlarını anlamlı tutun; bunlar URL'nin bir parçası olarak kalır ve gelecekteki aramaya yardımcı olur.",
           "2": "Yoğun paylaşım bekliyorsanız daha hafif yükler için WEBP veya optimize edilmiş JPG/PNG kullanın.",
           "3": "Eski pano girişlerinden kaçınmak için oluşturulduktan hemen sonra bağlantıyı doğrudan kopyalayın.",
-          "4": "Otomasyon veya denetimler için toplu referans depolamaya ihtiyacınız olduğunda .json olarak kaydedin.",
-          "5": "Belgelere veya wiki'lere gömülürken .md çıktısını kullanın; yapıştırmaya hazırdır.",
           "6": "Kopyalamaya ve kullanmaya hazır düz metin bağlantıları için .txt olarak kaydedin."
         }
       },
       "roadmap": {
         "title": "Yol haritası öne çıkanları",
-        "p1": "Yaklaşan iyileştirmeler, varsayılan olarak daha derin Cloudflare R2 entegrasyonu, daha cömert yükleme limitleri, ekip alanları için isteğe bağlı kimlik doğrulama ve bağlantı başına analitik içerir. Ayrıca önceden ayarlanmış bağlantı stilleri, tek tıkla silme ve kuruluş düzeyinde depolama alanları planlıyoruz. SEO cilası, blog, belgeler ve durum sayfalarında, daha zengin şema ve hızlı indeksleme için genel bir site haritası ile devam ediyor."
+        "p1": "Cloudflare R2'yi derinlemesine entegre edeceğiz, daha kullanıcı dostu kotalar ve yönetim yetenekleri sunacağız, isteğe bağlı takım işbirliği, erişim kontrolü ve bağlantı başına analitik ile. Tek tıkla silme, önceden ayarlanmış bağlantı stilleri ve kuruluş düzeyinde depolama kovaları gibi özellikleri piyasaya sürmeyi planlıyoruz. Bu arada, görüntü işlemeyi daha uygun hale getirmek için dairesel kırpma aracı ve yuvarlatılmış köşe aracı gibi alt ürünleri sürekli olarak iyileştiriyoruz."
       },
       "faq": {
         "title": "SSS",
@@ -240,11 +238,11 @@
           },
           "2": {
             "q": "Hangi formatlar destekleniyor?",
-            "a": "Bugün PNG, JPG, WEBP, GIF'e kadar 10MB. Talep üzerine daha fazla format eklenebilir."
+            "a": "Bugün PNG, JPG, WEBP, GIF'e kadar 5MB. Talep üzerine daha fazla format eklenebilir."
           },
           "3": {
             "q": "Markdown veya HTML'de gömebilir miyim?",
-            "a": "Evet. Bağlantıyı olduğu gibi kopyalayın veya hazır parçalar için tek tıkla .txt / .json / .md kaydetmelerini kullanın."
+            "a": "Evet. Bağlantıyı olduğu gibi kopyalayın veya hazır parçalar için tek tıkla .txt kaydetmeyi kullanın."
           },
           "4": {
             "q": "Dosyalarımı herkese açık tutuyor musunuz?",
@@ -287,7 +285,7 @@
     "howIllustrationAlt": "Fotoğrafı URL'ye'nin nasıl çalıştığını gösteren illüstrasyon",
     "heroDropTitle": "Buraya bir fotoğraf sürükleyin",
     "heroDropSubtitle": "Geliştirip barındıracağız, sonra temiz bir bağlantı döndüreceğiz.",
-    "heroDropBadge": "Sürükle veya tıkla (JPG/PNG, 10MB'a kadar)",
+    "heroDropBadge": "Sürükle veya tıkla (JPG/PNG, 5MB'a kadar)",
     "logoAlt": "Fotoğrafı URL'ye logosu"
   },
   "circleCrop": {
@@ -303,8 +301,9 @@
       "description": "Fotoğrafı Daireye Kırp, dikdörtgen fotoğrafları mükemmel dairesel şekillere dönüştürmek için ücretsiz bir çevrimiçi araçtır. Aracımız, kayıt gerektirmeden fotoğrafları anında dairesel formatta kırpmanıza yardımcı olur. Yuvarlak profil fotoğrafı, sosyal medya için dairesel fotoğraf veya tasarım projeleri için yuvarlatılmış fotoğraf ihtiyacınız olsun, dairesel fotoğraf kırpma aracımız bunu basit ve kolay hale getirir."
     },
     "seo": {
-      "title": "Fotoğrafı Daireye Kırp | Ücretsiz Çevrimiçi Daire Kırpıcı",
-      "description": "Herhangi bir fotoğrafı mükemmel bir daireye kırpmak için ücretsiz çevrimiçi araç - profil fotoğrafları, sosyal medya ve tasarım projeleri için mükemmel."
+      "title": "Daire Kırpma Aracı | Ücretsiz Çevrimiçi Yuvarlak Fotoğraf Kırpıcı",
+      "description": "Herhangi bir fotoğrafı mükemmel bir daireye kırpmak için ücretsiz çevrimiçi araç - profil fotoğrafları, sosyal medya ve tasarım projeleri için mükemmel.",
+      "keywords": "daire görüntü kırpma, yuvarlak görüntü kırpma, daire kırpma aracı, daire kırpma online"
     },
     "selectRegion": {
       "title": "Bölge seç",
@@ -332,8 +331,9 @@
       "description": "Yuvarlatılmış köşeli fotoğraf, herhangi bir fotoğrafa yuvarlatılmış köşe ekleyen ücretsiz bir çevrimiçi araçtır. Uygulama tarzı ikonlar, sosyal medya için yumuşak kenarlı görseller veya ayarlanabilir yarıçap ve zoom ile küçük resimler oluşturun. Kayıt yok – yükle, ayarla, indir."
     },
     "seo": {
-      "title": "Yuvarlatılmış köşeli fotoğraf | Ücretsiz çevrimiçi araç",
-      "description": "Herhangi bir fotoğrafa yuvarlatılmış köşe ekleyen ücretsiz araç – uygulama ikonları, profil fotoğrafları ve tasarım projeleri için ideal."
+      "title": "Yuvarlatılmış Köşe Aracı | Ücretsiz çevrimiçi araç",
+      "description": "Herhangi bir fotoğrafa yuvarlatılmış köşe ekleyen ücretsiz araç – uygulama ikonları, profil fotoğrafları ve tasarım projeleri için ideal.",
+      "keywords": "yuvarlatılmış köşe, yuvarlatılmış köşe görüntü, yuvarlatılmış köşe aracı, yuvarlatılmış köşe online"
     },
     "selectRegion": {
       "title": "Bölge seçin",
@@ -369,7 +369,7 @@
     },
     "page": {
       "title": "Dokümantasyon",
-      "description": "Hızlı başlangıç: bir resim yükleyin ve doğrudan URL alın. Kopyala/aç düğmelerini kullanın veya bağlantıyı .txt/.json/.md formatında indirin.",
+      "description": "Hızlı başlangıç: bir resim yükleyin ve doğrudan URL alın. Kopyala/aç düğmelerini kullanın veya bağlantıyı .txt formatında indirin.",
       "features": {
         "title": "Desteklenen özellikler:",
         "items": {
@@ -575,8 +575,51 @@
             "title": "Bize Ulaşın",
             "text": "Bu Çerez Politikası hakkında sorularınız varsa, lütfen bizimle iletişime geçin:",
             "email": "leeqs1010@gmail.com"
-          }
         }
       }
     }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL Bookmarklet",
+    "description": "Herhangi bir web sayfasındaki görüntüleri tek tıkla doğrudan Photo To URL'ye yükleyin!",
+    "howItWorks": {
+      "title": "Nasıl çalışır",
+      "step1": "Görüntüleri olan herhangi bir web sayfasına göz atın",
+      "step2": "Yer imleri çubuğundaki bookmarklet'e tıklayın",
+      "step3": "Sayfadan bir görüntü seçin",
+      "step4": "URL'yi anında alın ve kopyalayın!"
+    },
+    "installation": {
+      "title": "Kurulum",
+      "step1": {
+        "title": "Adım 1: Bookmarklet kodunu kopyalayın",
+        "description": "Bookmarklet kodunu panoya kopyalamak için aşağıdaki düğmeye tıklayın."
+      },
+      "step2": {
+        "title": "Adım 2: Tarayıcınıza ekleyin",
+        "description": "Tarayıcınıza göre şu adımları izleyin:",
+        "chrome": "Chrome/Edge: Yer imleri çubuğunu göstermek için Ctrl+Shift+B (Mac'te Cmd+Shift+B) tuşlarına basın, ardından sağ tıklayın ve \"Sayfa ekle\"yi seçin. Kodu URL olarak yapıştırın.",
+        "firefox": "Firefox: Yer imleri çubuğuna sağ tıklayın ve \"Yeni yer imi\"ni seçin. Kodu Konum olarak yapıştırın.",
+        "safari": "Safari: Yer imleri çubuğunu etkinleştirin (Görünüm → Yer İmleri Çubuğunu Göster), ardından kodu yer imleri çubuğuna sürükleyin.",
+        "edge": "Alternatif: Yeni bir yer imi oluşturun, düzenleyin ve URL'yi kopyalanan kodla değiştirin."
+      },
+      "step3": {
+        "title": "Adım 3: Kullanmaya başlayın!",
+        "description": "Görüntüleri olan herhangi bir web sayfasını ziyaret edin ve yüklemeye başlamak için bookmarklet'inize tıklayın!"
+      },
+      "copy": "Kodu kopyala",
+      "copied": "Kopyalandı!"
+    },
+    "usage": {
+      "title": "Özellikler",
+      "description": "Bookmarklet şu özellikleri sağlar:",
+      "feature1": "Mevcut web sayfasından herhangi bir görüntü seçin",
+      "feature2": "Photo To URL'ye otomatik yükleme",
+      "feature3": "Tek tıkla kopyalamak için anında paylaşılabilir URL alın"
+    },
+    "note": {
+      "title": "Not",
+      "content": "Bookmarklet çoğu web sitesinde çalışır. Katı güvenlik politikaları (CORS) olan bazı siteler görüntü yüklemeyi engelleyebilir."
+    }
   }
+}

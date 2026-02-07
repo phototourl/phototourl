@@ -81,7 +81,7 @@
     },
     "upload": {
       "title": "Dobjon be egy fotót vagy kattintson a tallózáshoz",
-      "hint": "JPG, PNG, WEBP, GIF 10MB-ig. Húzza be, kattintson vagy illesszen be képernyőképet.",
+      "hint": "JPG, PNG, WEBP, GIF 5MB-ig. Húzza be, kattintson vagy illesszen be képernyőképet.",
       "orDrop": "vagy ejtse ide a fájlt",
       "samplesTitle": "Nincs képe? Próbálja ki ezeket:",
       "policy": "A kép feltöltésével elfogadja az <privacy>Adatvédelmi irányelveinket</privacy> és a <terms>Felhasználási feltételeket</terms>.",
@@ -113,7 +113,7 @@
         },
         "nosignup": {
           "title": "Nincs regisztráció",
-          "desc": "Használja azonnal. A fiókokat később vezetjük be."
+          "desc": "Használja azonnal, regisztráció nem szükséges."
         }
       }
     },
@@ -121,8 +121,8 @@
       "title": "Hogyan működik",
       "step1": "1) Adja hozzá a fotót (húzás, beillesztés vagy tallózás).",
       "step2": "2) Mi tároljuk, és adunk egy megosztható linket.",
-      "step3": "3) Másolja és ossza meg a linket bárhol.",
-      "note": "A link gyorsan megnyílik dokumentumokban és chatben — letöltheti (.txt/.json/.md) formátumban is."
+      "step3": "3) Másolja és ossza meg a linket dokumentumokban, chatben, prototípusokban és máshol.",
+      "note": "A link gyorsan megnyílik dokumentumokban és chatben — letöltheti .txt formátumban is."
     },
     "process": {
       "title": "Háromlépéses folyamat",
@@ -137,8 +137,8 @@
           "desc": "Azonnali URL másolási, megnyitási és mentési funkciókkal."
         },
         "3": {
-          "title": "Megosztás bárhol",
-          "desc": "Illessze be dokumentumokba, chatbe, blogokba vagy prototípusokba."
+          "title": "Használat bárhol",
+          "desc": "Használjon dokumentumokban, chatben, blogokban vagy prototípusokban."
         }
       }
     },
@@ -151,18 +151,50 @@
           "desc": "Tiszta, állandó URL-ek Markdown és HTML beágyazáshoz."
         },
         "save": {
-          "title": "Másolás és mentés",
-          "desc": "Másolás vagy mentés .txt/.json/.md fájlként egy kattintással."
+          "title": "Másolás és Mentés",
+          "desc": "Másolás, megnyitás vagy mentés .txt fájlként egy kattintással."
         },
         "clipboard": {
           "title": "Vágólap-barát",
           "desc": "Illesszen be képernyőképeket fájlkeresés nélkül."
         },
+        "errors": {
+          "title": "Biztonságos és Privát",
+          "desc": "A képeid vállalati szintű titkosítással és adatvédelmi védelemmel biztonságosan tárolódnak."
+        },
         "nosignup": {
           "title": "Nincs regisztráció",
           "desc": "Haladjon gyorsabban — töltsön fel és osszon meg azonnal."
+        },
+        "r2": {
+          "title": "Gyors tárhely",
+          "desc": "A linkek gyors CDN-en keresztül szolgáltatnak a gyors betöltés és megbízható hozzáférés érdekében."
         }
       }
+    },
+    "testimonials": {
+      "title": "Csapatok időt takarítanak meg a Photo To URL-lal",
+      "subtitle": "Társadalmi bizonyíték a kockázat csökkentésére és az alkalmazás felgyorsítására.",
+      "items": {
+        "ops": {
+          "name": "Product Ops",
+          "quote": "Képernyőképeket illesztünk be jegyekbe anélkül, hogy eltömítenénk a mellékleteket. A linkek tiszta maradnak."
+        },
+        "content": {
+          "name": "Content Lead",
+          "quote": "A Markdown-ra kész linkek tiszta és percek alatt közzétehető dokumentumokat tartanak."
+        },
+        "support": {
+          "name": "Támogatás",
+          "quote": "A világos hibák és azonnali URL-ek megkönnyítik az ügyfelek irányítását a csevegésben."
+        }
+      }
+    },
+    "cta": {
+      "title": "Alakítsa át a fotókat linkekké másodpercek alatt",
+      "subtitle": "Húzza, illessze be vagy töltse fel — másolja a linket és ossza meg.",
+      "upload": "Feltöltés most",
+      "paste": "Illessze be a képernyőképet"
     },
     "longform": {
       "title": "Miért segíti a Photo To URL a munkafolyamatát",
@@ -178,6 +210,53 @@
           "5": "Fejlesztés: hibaüzenetek gyors megosztása a kódellenőrzés során.",
           "6": "Közösségek: linkek beillesztése Discord vagy Slack felületekre."
         }
+      },
+      "flow": {
+        "title": "A folyamat működése elejétől a végéig",
+        "p1": "1) Válasszon képet: húzza be, illessze be a vágólapról, vagy böngésszen. PNG, JPG, WEBP, GIF akár 5MB-ig támogatott. 2) Feltöltjük és közvetlen linket adunk vissza. A felület azonnal megjeleníti az URL-t másolási, megnyitási és mentési műveletekkel (.txt). 3) Használja a linket bárhol: blogokban, dokumentumokban, jegyekben, csevegésben, prototípusokban és más helyeken.",
+        "p2": "Minden lépés az áttekinthetőségre van hangolva: látható állapot, barátságos hibák és műveleteket megerősítő gombok. A másolás gomb a link mellett található, a mentés gombok lehetővé teszik, hogy az URL-t a kedvenc formátumban tartsa könyvjelzőzéshez vagy automatizáláshoz. Amikor az R2 engedélyezve van, a linkek a CDN domainről szolgáltatnak; képeit vállalati szintű titkosítással és adatvédelmi védelemmel biztonságosan tároljuk."
+      },
+      "best": {
+        "title": "Ajánlott eljárások tiszta linkekhez",
+        "items": {
+          "1": "Tartsa értelmes fájlneveket a feltöltés előtt· ezek az URL része maradnak és segítenek a jövőbeli keresésben.",
+          "2": "Használjon WEBP-t vagy optimalizált JPG/PNG-t könnyebb terheléshez, ha nagy megosztást vár.",
+          "3": "Másolja a linket közvetlenül a létrehozás után, hogy elkerülje az elavult vágólapbejegyzéseket.",
+          "6": "Mentés .txt-ként egyszerű szöveges linkekhez, amelyek készen állnak a másolásra és használatra."
+        }
+      },
+      "roadmap": {
+        "title": "Roadmap kiemelkedő pontjai",
+        "p1": "Mélyen integráljuk a Cloudflare R2-t, felhasználóbarátabb kvótákat és kezelési lehetőségeket biztosítva, opcionális csapatmunkával, hozzáférés-vezérléssel és linkenkénti elemzésekkel. Tervezzük olyan funkciók bevezetését, mint az egykattintásos törlés, előre beállított linkstílusok és szervezeti szintű tárolószemélyek. Eközben folyamatosan javítjuk az altermékeket, mint a körkörös vágóeszköz és a lekerekített sarkok eszköze, hogy a képek feldolgozása kényelmesebb legyen."
+      },
+      "faq": {
+        "title": "Gyakran ismételt kérdések",
+        "items": {
+          "1": {
+            "q": "Ingyenes?",
+            "a": "Igen, az alapvető feltöltés-link ingyenes. Az R2-n keresztüli CDN-alapú tárhely bőkezű szintekkel indul el."
+          },
+          "2": {
+            "q": "Milyen formátumok támogatottak?",
+            "a": "PNG, JPG, WEBP, GIF akár 5MB-ig ma. További formátumok igény szerint adhatók hozzá."
+          },
+          "3": {
+            "q": "Beágyazhatom Markdown vagy HTML formátumban?",
+            "a": "Igen. Másolja a linket úgy, ahogy van, vagy használja az egykattintásos .txt mentést beillesztési kódrészletekhez."
+          },
+          "4": {
+            "q": "Nyilvánosan tárolják a fájlaimat?",
+            "a": "A linkek megoszthatók· amikor az R2 CDN engedélyezve van, a CDN domainről szolgáltatnak. Világos karbantartási üzeneteket jelenítünk meg, ha a tárhely nem elérhető."
+          },
+          "5": {
+            "q": "Lesznek fiókok vagy csapatok?",
+            "a": "Tervezett. Először a súrlódásmentes feltöltéseket prioritásként kezeljük, majd hozzáadjuk a csapattereket, hozzáférés-vezérlést és elemzéseket."
+          }
+        }
+      },
+      "keywords": {
+        "title": "Kulcsszavak, amelyek fontosak számunkra",
+        "p1": "fotó url-re, kép url-re, kép link generátor, kép konvertálása linkké, ingyenes kép tárhely, közvetlen kép url, megosztható kép linkek, cdn kép linkek"
       }
     },
     "selectRegion": {
@@ -189,14 +268,25 @@
       "thankYou": "Köszönjük a visszajelzést!",
       "averageRating": "4.5",
       "votes": "4,992 szavazat"
-    },
-    "seo": {
-      "keywords": "fotó url-lé, kép linkké, képlink generátor, ingyenes képtárhely, cdn képek",
-      "home": {
-        "title": "Photo To URL átalakító | Fotók átalakítása megosztható linkekké",
-        "description": "Ingyenes képtárhely: alakítsa fotóit állandó URL-ekké azonnal. JPG, PNG, WEBP, GIF támogatás 10MB-ig."
-      }
     }
+  },
+  "seo": {
+    "keywords": "fotó url-re,kép url-re,kép link generátor,kép konvertálása linkké,ingyenes kép tárhely,cdn kép",
+    "home": {
+      "title": "Photo To URL Konverter | Alakítsa át a fotókat megosztható linkekké",
+      "description": "Ingyenes kép tárhely: alakítsa át a fotókat azonnali állandó URL-ekké. Támogatja a JPG, PNG, WEBP, GIF formátumokat akár 5MB-ig. Vágólap beillesztés, gyors CDN, tiszta linkek."
+    }
+  },
+  "images": {
+    "previewAlt": "Feltöltött kép előnézete",
+    "animatingSampleAlt": "Minta kép, amelyet a feltöltési demóban használnak",
+    "sampleThumbAlt": "Minta feltöltési kép",
+    "useSampleAria": "Használja ezt a minta képet",
+    "howIllustrationAlt": "Illusztráció, amely bemutatja, hogyan működik a Photo To URL",
+    "heroDropTitle": "Húzza ide a fotót",
+    "heroDropSubtitle": "Javítjuk és tároljuk, majd visszaadunk egy tiszta linket.",
+    "heroDropBadge": "Húzza vagy kattintson (JPG/PNG, akár 5MB)",
+    "logoAlt": "Photo To URL logo"
   },
   "circleCrop": {
     "title": "Körbe vágás",
@@ -211,8 +301,9 @@
       "description": "Alakítsa át négyszögletes fotóit tökéletes kör alakúvá azonnal, regisztráció nélkül."
     },
     "seo": {
-      "title": "Kör alakú képvágó | Ingyenes online eszköz",
-      "description": "Ingyenes online eszköz fotók kör alakúra vágásához - tökéletes profilképekhez és design projektekhez."
+      "title": "Kör Alakú Képvágó Eszköz | Ingyenes Online Kerek Fotó Vágó",
+      "description": "Ingyenes online eszköz fotók kör alakúra vágásához - tökéletes profilképekhez és design projektekhez.",
+      "keywords": "körkörös kép vágás, körkörös kép vágó, körkörös vágó eszköz, körkörös vágás online"
     },
     "selectRegion": {
       "title": "Válasszon régiót",
@@ -240,8 +331,9 @@
       "description": "Kép kerekített sarkokkal egy ingyenes online eszköz, amellyel kerekített sarkokat adhat bármely fotóhoz. Készítsen alkalmazás stílusú ikonokat, puha szélelű képeket közösségi médiához vagy bélyegképeket állítható sugárral és nagyítással. Regisztráció nélkül – feltöltés, igazítás, letöltés."
     },
     "seo": {
-      "title": "Kép kerekített sarkokkal | Ingyenes online eszköz",
-      "description": "Ingyenes eszköz kerekített sarkok hozzáadásához fotókhoz – alkalmazás ikonokhoz, profilképekhez és design projektekhez."
+      "title": "Kerekített Sarkok Eszköz | Ingyenes online eszköz",
+      "description": "Ingyenes eszköz kerekített sarkok hozzáadásához fotókhoz – alkalmazás ikonokhoz, profilképekhez és design projektekhez.",
+      "keywords": "kerekített sarkok, kép kerekített sarkok, kerekített sarkok eszköz, kerekített sarkok online"
     },
     "selectRegion": {
       "title": "Régió kiválasztása",
@@ -435,6 +527,108 @@
             "email": "leeqs1010@gmail.com"
           }
         }
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog | Photo To URL",
+      "description": "Cikkek a fotó tárhelyről, link megosztásról és teljesítmény tippekről."
+    },
+    "page": {
+      "title": "Blog",
+      "description": "Készítünk cikkeket a fotó tárhelyről, CDN-ről, link megosztásról és SEO tippekről. Tartalom hamarosan.",
+      "stayTuned": "Kövesse az útmutatókat:",
+      "guides": {
+        "1": "Ajánlott eljárások kép URL-re konvertálásához",
+        "2": "Hogyan használjon közvetlen fotó linkeket blogokban és dokumentumokban",
+        "3": "Teljesítmény és gyorsítótár statikus eszközökhöz"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Dokumentáció | Photo To URL",
+      "description": "Dokumentáció a Photo To URL-hoz."
+    },
+    "page": {
+      "title": "Dokumentáció",
+      "description": "Gyors kezdés: töltse fel a képet és kapjon közvetlen URL-t. Használja a másolás/megnyitás gombokat vagy töltse le a linket .txt formátumban.",
+      "features": {
+        "title": "Támogatott funkciók:",
+        "items": {
+          "1": "Támogatott: JPG, PNG, WEBP, GIF",
+          "2": "Gyors szállítás CDN-en keresztül, amikor a tárhely engedélyezve van",
+          "3": "Barátságos karbantartási hibák, amikor a szolgáltatás nem elérhető"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Állapot | Photo To URL",
+      "description": "Szolgáltatás állapota a Photo To URL-hoz."
+    },
+    "page": {
+      "title": "Állapot",
+      "description": "Minden rendszer működik.",
+      "message": "A feltöltési API és a CDN linkek futnak."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Kapcsolat | Photo To URL",
+      "description": "Lépjen kapcsolatba a Photo To URL támogatással."
+    },
+    "page": {
+      "title": "Kapcsolat",
+      "description": "Segítségre van szüksége vagy szeretne visszajelzést adni? Küldjön nekünk e-mailt, és figyeljük a postafiókot, és a lehető leghamarabb válaszolunk.",
+      "email": {
+        "label": "E-mail",
+        "address": "leeqs1010@gmail.com"
+      }
+    }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL Bookmarklet",
+    "description": "Töltsön fel képeket bármely weboldalról közvetlenül a Photo To URL-re egyetlen kattintással!",
+    "howItWorks": {
+      "title": "Hogyan működik",
+      "step1": "Böngésszen bármely képeket tartalmazó weboldalt",
+      "step2": "Kattintson a könyvjelzősávban lévő bookmarklet-re",
+      "step3": "Válasszon ki egy képet az oldalról",
+      "step4": "Azonnal kapja meg az URL-t és másolja!"
+    },
+    "installation": {
+      "title": "Telepítés",
+      "step1": {
+        "title": "1. lépés: Másolja a Bookmarklet kódját",
+        "description": "Kattintson az alábbi gombra a bookmarklet kód vágólapra másolásához."
+      },
+      "step2": {
+        "title": "2. lépés: Adja hozzá a böngészőjéhez",
+        "description": "Kövesse ezeket a lépéseket a böngészője alapján:",
+        "chrome": "Chrome/Edge: Nyomja meg a Ctrl+Shift+B (Mac-en Cmd+Shift+B) billentyűt a könyvjelzősáv megjelenítéséhez, majd kattintson jobb gombbal és válassza a \"Oldal hozzáadása\" lehetőséget. Illessze be a kódot URL-ként.",
+        "firefox": "Firefox: Kattintson jobb gombbal a könyvjelzősávra és válassza a \"Új könyvjelző\" lehetőséget. Illessze be a kódot Helyszínként.",
+        "safari": "Safari: Engedélyezze a könyvjelzősávot (Nézet → Könyvjelzősáv megjelenítése), majd húzza a kódot a könyvjelzősávba.",
+        "edge": "Alternatíva: Hozzon létre egy új könyvjelzőt, szerkessze, és cserélje le az URL-t a másolt kódra."
+      },
+      "step3": {
+        "title": "3. lépés: Kezdje el használni!",
+        "description": "Látogasson el bármely képeket tartalmazó weboldalra és kattintson a bookmarklet-jére a feltöltés megkezdéséhez!"
+      },
+      "copy": "Kód másolása",
+      "copied": "Másolva!"
+    },
+    "usage": {
+      "title": "Funkciók",
+      "description": "A bookmarklet a következő funkciókat nyújtja:",
+      "feature1": "Válasszon ki bármilyen képet az aktuális weboldalról",
+      "feature2": "Automatikus feltöltés a Photo To URL-re",
+      "feature3": "Azonnal kapjon megosztható URL-t egy kattintással a másoláshoz"
+    },
+    "note": {
+      "title": "Megjegyzés",
+      "content": "A bookmarklet a legtöbb webhelyen működik. Néhány szigorú biztonsági irányelvvel (CORS) rendelkező webhely megakadályozhatja a képek feltöltését."
     }
   }
 }

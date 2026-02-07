@@ -81,7 +81,7 @@
     },
     "upload": {
       "title": "Trascina una foto o clicca per sfogliare",
-      "hint": "JPG, PNG, WEBP, GIF fino a 10MB. Trascina, clicca o incolla.",
+      "hint": "JPG, PNG, WEBP, GIF fino a 5MB. Trascina, clicca o incolla.",
       "orDrop": "o trascina un file",
       "samplesTitle": "Nessuna immagine? Prova una di queste:",
       "policy": "Caricando un'immagine accetti la nostra <privacy>Informativa sulla Privacy</privacy> e i <terms>Termini di Utilizzo</terms>.",
@@ -113,7 +113,7 @@
         },
         "nosignup": {
           "title": "Nessuna registrazione richiesta",
-          "desc": "Usalo subito. Gli account possono arrivare più tardi man mano che cresciamo."
+          "desc": "Usalo subito, nessuna registrazione necessaria."
         }
       }
     },
@@ -121,8 +121,8 @@
       "title": "Come funziona",
       "step1": "1) Aggiungi la tua foto (trascina, incolla o clicca per scegliere un file).",
       "step2": "2) La ospitiamo e restituiamo un link condivisibile.",
-      "step3": "3) Copia e condividi il link ovunque lavori.",
-      "note": "Il tuo link si apre velocemente in documenti, chat e prototipi—inoltre puoi scaricarlo nel formato che preferisci (.txt/.json/.md)."
+      "step3": "3) Copia e condividi il link in documenti, chat, prototipi e altro.",
+      "note": "Il tuo link si apre velocemente in documenti, chat e prototipi—inoltre puoi scaricarlo come .txt."
     },
     "process": {
       "title": "Flusso in tre passaggi",
@@ -137,8 +137,8 @@
           "desc": "URL istantaneo con controlli copia/apri/salva."
         },
         "3": {
-          "title": "Condividi ovunque",
-          "desc": "Incolla in documenti, chat, ticket, blog o prototipi."
+          "title": "Usa ovunque",
+          "desc": "Usa in documenti, chat, ticket, blog o prototipi."
         }
       }
     },
@@ -151,16 +151,16 @@
           "desc": "URL puliti e prevedibili pronti per incorporamenti Markdown e HTML."
         },
         "save": {
-          "title": "Azioni copia e salva",
-          "desc": "Copia, apri o salva come .txt/.json/.md con un clic."
+          "title": "Copia e Salva",
+          "desc": "Copia, apri o salva come file .txt con un clic."
         },
         "clipboard": {
           "title": "Compatibile con appunti",
           "desc": "Incolla screenshot senza cercare file o ricaricamenti."
         },
         "errors": {
-          "title": "Errori amichevoli",
-          "desc": "Messaggi di manutenzione chiari invece di tracce di stack tecniche."
+          "title": "Sicuro e Privato",
+          "desc": "Le tue immagini sono archiviate in modo sicuro con crittografia di livello aziendale e protezione della privacy."
         },
         "nosignup": {
           "title": "Nessuna registrazione necessaria",
@@ -192,7 +192,7 @@
     },
     "cta": {
       "title": "Trasforma le foto in link in pochi secondi",
-      "subtitle": "Trascina, incolla o carica—copia il tuo link e condividi ovunque.",
+      "subtitle": "Trascina, incolla o carica—copia il tuo link e condividilo.",
       "upload": "Carica ora",
       "paste": "Incolla uno screenshot"
     },
@@ -213,8 +213,8 @@
       },
       "flow": {
         "title": "Come funziona il flusso end-to-end",
-        "p1": "1) Scegli un'immagine: trascina e rilascia, incolla dagli appunti o clicca per sfogliare. PNG, JPG, WEBP, GIF fino a 10MB sono supportati ora. 2) Carichiamo e restituiamo un link diretto. L'UI mostra immediatamente il tuo URL con azioni di copia, apertura e salvataggio multi-formato (.txt, .json, .md). 3) Riutilizzi il link ovunque: blog, documenti, ticket, chat, prototipi. L'obiettivo è un ponte senza attrito tra la tua foto e i luoghi in cui lavori.",
-        "p2": "Ogni passaggio è ottimizzato per la chiarezza: stato visibile, errori amichevoli e pulsanti che confermano le azioni. Il pulsante copia si trova accanto al link e i pulsanti salva ti permettono di mantenere l'URL nel formato preferito per bookmark o automazione. Quando R2 è abilitato, i link vengono serviti dal dominio CDN; se il servizio è in manutenzione, l'UI restituisce un messaggio chiaro invece di errori grezzi."
+        "p1": "1) Scegli un'immagine: trascina e rilascia, incolla dagli appunti o clicca per sfogliare. PNG, JPG, WEBP, GIF fino a 5MB sono supportati ora. 2) Carichiamo e restituiamo un link diretto. L'UI mostra immediatamente il tuo URL con azioni di copia, apertura e salvataggio (.txt). 3) Usa il link ovunque: blog, documenti, ticket, chat, prototipi e altro. L'obiettivo è un ponte senza attrito tra la tua foto e i luoghi in cui lavori.",
+        "p2": "Ogni passaggio è ottimizzato per la chiarezza: stato visibile, errori amichevoli e pulsanti che confermano le azioni. Il pulsante copia si trova accanto al link e i pulsanti salva ti permettono di mantenere l'URL nel formato preferito per bookmark o automazione. Quando R2 è abilitato, i link vengono serviti dal dominio CDN; le tue immagini sono archiviate in modo sicuro con crittografia di livello aziendale e protezione della privacy."
       },
       "best": {
         "title": "Migliori pratiche per link più puliti",
@@ -222,14 +222,12 @@
           "1": "Mantieni i nomi dei file significativi prima del caricamento; rimangono parte dell'URL e aiutano la ricerca futura.",
           "2": "Usa WEBP o JPG/PNG ottimizzati per payload più leggeri se ti aspetti una condivisione pesante.",
           "3": "Copia il link direttamente dopo la generazione per evitare voci di appunti obsolete.",
-          "4": "Salva come .json quando hai bisogno di memorizzare riferimenti in batch per automazione o audit.",
-          "5": "Usa l'output .md quando incorpori in documenti o wiki; è pronto per essere incollato.",
           "6": "Salva come .txt per link di testo semplice pronti per essere copiati e utilizzati."
         }
       },
       "roadmap": {
         "title": "Punti salienti della roadmap",
-        "p1": "I miglioramenti imminenti includono un'integrazione più profonda di Cloudflare R2 per impostazione predefinita, limiti di caricamento più generosi, autenticazione opzionale per spazi team e analisi per link. Pianifichiamo anche stili di link preimpostati, eliminazione con un clic e bucket a livello di organizzazione. La lucidatura SEO continua su blog, documenti e pagine di stato, con schema più ricco e una sitemap pubblica per indicizzazione rapida."
+        "p1": "Integreremo profondamente Cloudflare R2, fornendo quote e capacità di gestione più user-friendly, con collaborazione team opzionale, controllo degli accessi e analisi per link. Pianifichiamo di lanciare funzionalità come eliminazione con un clic, stili di link preimpostati e bucket di archiviazione a livello organizzativo. Nel frattempo, stiamo migliorando continuamente sottoprodotti come lo strumento di ritaglio circolare e lo strumento di angoli arrotondati per rendere l'elaborazione delle immagini più conveniente."
       },
       "faq": {
         "title": "FAQ",
@@ -240,11 +238,11 @@
           },
           "2": {
             "q": "Quali formati sono supportati?",
-            "a": "PNG, JPG, WEBP, GIF fino a 10MB oggi. Altri formati possono essere aggiunti in base alla domanda."
+            "a": "PNG, JPG, WEBP, GIF fino a 5MB oggi. Altri formati possono essere aggiunti in base alla domanda."
           },
           "3": {
             "q": "Posso incorporare in Markdown o HTML?",
-            "a": "Sì. Copia il link così com'è, o usa i salvataggi .txt / .json / .md con un clic per snippet drop-in."
+            "a": "Sì. Copia il link così com'è, o usa il salvataggio .txt con un clic per snippet drop-in."
           },
           "4": {
             "q": "Mantieni i miei file pubblici?",
@@ -287,7 +285,7 @@
     "howIllustrationAlt": "Illustrazione che mostra come funziona Foto in URL",
     "heroDropTitle": "Trascina una foto qui",
     "heroDropSubtitle": "La miglioreremo e la ospiteremo, poi restituiremo un link pulito.",
-    "heroDropBadge": "Trascina o clicca (JPG/PNG, fino a 10MB)",
+    "heroDropBadge": "Trascina o clicca (JPG/PNG, fino a 5MB)",
     "logoAlt": "Logo Foto in URL"
   },
   "circleCrop": {
@@ -303,8 +301,9 @@
       "description": "Foto in Cerchio è uno strumento gratuito online per trasformare foto rettangolari in forme perfettamente circolari. Il nostro strumento ti aiuta a ritagliare foto in formato circolare all'istante, senza registrazione richiesta. Che tu abbia bisogno di una foto profilo rotonda, una foto circolare per i social media, o una foto arrotondata per progetti di design, il nostro strumento di ritaglio circolare rende tutto semplice e facile."
     },
     "seo": {
-      "title": "Foto in Cerchio | Ritagliatore Circolare Gratuito Online",
-      "description": "Strumento gratuito online per ritagliare qualsiasi foto in un cerchio perfetto - perfetto per foto profilo, social media e progetti di design."
+      "title": "Strumento di Ritaglio Circolare | Ritagliatore di Foto Rotonde Gratuito Online",
+      "description": "Strumento gratuito online per ritagliare qualsiasi foto in un cerchio perfetto - perfetto per foto profilo, social media e progetti di design.",
+      "keywords": "ritaglio immagine circolare, ritagliare immagine rotonda, strumento ritaglio circolare, ritaglio circolare online"
     },
     "selectRegion": {
       "title": "Seleziona regione",
@@ -332,8 +331,9 @@
       "description": "Foto con angoli arrotondati è uno strumento online gratuito per aggiungere angoli arrotondati a qualsiasi foto. Crea icone stile app, immagini con bordi morbidi per i social o miniature con raggio e zoom regolabili. Senza registrazione – carica, regola, scarica."
     },
     "seo": {
-      "title": "Foto con angoli arrotondati | Strumento online gratuito",
-      "description": "Strumento gratuito online per aggiungere angoli arrotondati a qualsiasi foto – perfetto per icone app, foto profilo e progetti di design."
+      "title": "Strumento Angoli Arrotondati | Strumento online gratuito",
+      "description": "Strumento gratuito online per aggiungere angoli arrotondati a qualsiasi foto – perfetto per icone app, foto profilo e progetti di design.",
+      "keywords": "angoli arrotondati, immagine angoli arrotondati, strumento angoli arrotondati, angoli arrotondati online"
     },
     "selectRegion": {
       "title": "Seleziona regione",
@@ -369,7 +369,7 @@
     },
     "page": {
       "title": "Documentazione",
-      "description": "Guida rapida: carica un'immagine e ottieni un URL diretto. Usa i pulsanti copia/apri o scarica il link in formato .txt/.json/.md.",
+      "description": "Guida rapida: carica un'immagine e ottieni un URL diretto. Usa i pulsanti copia/apri o scarica il link in formato .txt.",
       "features": {
         "title": "Funzionalità supportate:",
         "items": {
@@ -575,8 +575,51 @@
             "title": "Contattaci",
             "text": "Se hai domande su questa Informativa sui Cookie, contattaci a",
             "email": "leeqs1010@gmail.com"
-          }
         }
       }
     }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL Bookmarklet",
+    "description": "Carica immagini da qualsiasi pagina web direttamente su Photo To URL con un solo clic!",
+    "howItWorks": {
+      "title": "Come funziona",
+      "step1": "Sfoglia qualsiasi pagina web con immagini",
+      "step2": "Clicca sul bookmarklet nella barra dei segnalibri",
+      "step3": "Seleziona un'immagine dalla pagina",
+      "step4": "Ottieni l'URL all'istante e copialo!"
+    },
+    "installation": {
+      "title": "Installazione",
+      "step1": {
+        "title": "Passo 1: Copia il codice del Bookmarklet",
+        "description": "Clicca sul pulsante qui sotto per copiare il codice del bookmarklet negli appunti."
+      },
+      "step2": {
+        "title": "Passo 2: Aggiungi al tuo browser",
+        "description": "Segui questi passaggi in base al tuo browser:",
+        "chrome": "Chrome/Edge: Premi Ctrl+Maiusc+B (Cmd+Maiusc+B su Mac) per mostrare la barra dei segnalibri, quindi fai clic destro e seleziona \"Aggiungi pagina\". Incolla il codice come URL.",
+        "firefox": "Firefox: Fai clic destro sulla barra dei segnalibri e seleziona \"Nuovo segnalibro\". Incolla il codice come Posizione.",
+        "safari": "Safari: Abilita la barra dei segnalibri (Visualizza → Mostra barra segnalibri), quindi trascina il codice nella barra dei segnalibri.",
+        "edge": "Alternativa: Crea un nuovo segnalibro, modificalo e sostituisci l'URL con il codice copiato."
+      },
+      "step3": {
+        "title": "Passo 3: Inizia a usarlo!",
+        "description": "Visita qualsiasi pagina web con immagini e clicca sul tuo bookmarklet per iniziare a caricare!"
+      },
+      "copy": "Copia codice",
+      "copied": "Copiato!"
+    },
+    "usage": {
+      "title": "Funzionalità",
+      "description": "Il bookmarklet fornisce le seguenti funzionalità:",
+      "feature1": "Seleziona qualsiasi immagine dalla pagina web corrente",
+      "feature2": "Caricamento automatico su Photo To URL",
+      "feature3": "Ottieni un URL condivisibile all'istante con un clic per copiare"
+    },
+    "note": {
+      "title": "Nota",
+      "content": "Il bookmarklet funziona sulla maggior parte dei siti web. Alcuni siti con politiche di sicurezza rigorose (CORS) possono impedire il caricamento delle immagini."
+    }
   }
+}

@@ -4,7 +4,7 @@ import { getTranslations } from "next-intl/server";
 import { CircleCropTool } from "@/components/CircleCropTool";
 import { SelectRegionSection } from "@/components/SelectRegionSection";
 import { ScrollButtons } from "@/components/ScrollButtons";
-import { siteUrl } from "@/app/seo-metadata";
+import { siteUrl, getLocaleMetadata } from "@/app/seo-metadata";
 
 export async function generateMetadata({
   params,
@@ -15,20 +15,18 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "circleCrop.seo" });
   const canonicalPath = locale === "en" ? "/circle-crop" : `/${locale}/circle-crop`;
   const canonicalUrl = `${siteUrl}${canonicalPath}`;
+  
+  // 从翻译文件中获取关键词字符串，转换为数组
+  const keywordsString = t("keywords");
+  const keywords = keywordsString && typeof keywordsString === "string" && keywordsString.trim()
+    ? keywordsString.split(",").map((k: string) => k.trim()).filter(Boolean)
+    : [];
 
+  // 直接返回 metadata，确保 keywords 能覆盖 layout 的设置
+  const baseMeta = getLocaleMetadata(locale, t("title"), t("description"), keywords);
   return {
-    title: t("title"),
-    description: t("description"),
-    alternates: { canonical: canonicalUrl },
-    openGraph: {
-      title: t("title"),
-      description: t("description"),
-      url: canonicalUrl,
-    },
-    twitter: {
-      title: t("title"),
-      description: t("description"),
-    },
+    ...baseMeta,
+    keywords: keywords.length > 0 ? keywords : undefined,
   };
 }
 

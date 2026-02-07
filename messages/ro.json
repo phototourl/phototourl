@@ -81,7 +81,7 @@
     },
     "upload": {
       "title": "Trage o poză sau fă clic pentru a alege",
-      "hint": "JPG, PNG, WEBP, GIF până la 10MB. Trage, fă clic sau lipește capturi de ecran.",
+      "hint": "JPG, PNG, WEBP, GIF până la 5MB. Trage, fă clic sau lipește capturi de ecran.",
       "orDrop": "sau plasează fișierul aici",
       "samplesTitle": "Nu ai o imagine? Încearcă una dintre acestea:",
       "policy": "Prin încărcarea unei imagini ești de acord cu <privacy>Politica de Confidențialitate</privacy> și <terms>Termenii de Utilizare</terms>.",
@@ -113,7 +113,7 @@
         },
         "nosignup": {
           "title": "Fără înregistrare",
-          "desc": "Folosește-l imediat. Conturile vor fi adăugate ulterior."
+          "desc": "Folosește-l imediat, fără necesitate de înregistrare."
         }
       }
     },
@@ -121,8 +121,8 @@
       "title": "Cum funcționează",
       "step1": "1) Adaugă poza (trage, lipește sau alege fișierul).",
       "step2": "2) O găzduim și îți oferim un link partajabil.",
-      "step3": "3) Copiază și trimite linkul oriunde ai nevoie.",
-      "note": "Linkul se deschide rapid în documente și chat-uri — îl poți descărca în format (.txt/.json/.md)."
+      "step3": "3) Copiază și partajează linkul în documente, chat-uri, prototipuri și altele.",
+      "note": "Linkul se deschide rapid în documente și chat-uri — îl poți descărca ca .txt."
     },
     "features": {
       "title": "Funcționalități",
@@ -133,16 +133,60 @@
           "desc": "URL-uri curate gata de inserat în Markdown și HTML."
         },
         "save": {
-          "title": "Copiază și salvează",
-          "desc": "Copiază, deschide sau salvează ca .txt/.json/.md cu un singur clic."
+          "title": "Copiază și Salvează",
+          "desc": "Copiază, deschide sau salvează ca fișier .txt cu un singur clic."
         },
         "clipboard": {
           "title": "Prietenos cu clipboard-ul",
           "desc": "Lipește capturi de ecran direct, fără a mai căuta fișierele."
         },
+        "errors": {
+          "title": "Sigur și Privat",
+          "desc": "Imaginile tale sunt stocate în siguranță cu criptare de nivel întreprindere și protecție a confidențialității."
+        },
         "nosignup": {
           "title": "Fără cont",
           "desc": "Lucrează mai repede — încarcă și partajează imediat."
+        },
+        "r2": {
+          "title": "Găzduire rapidă",
+          "desc": "Linkurile sunt servite prin CDN rapid pentru încărcare rapidă și acces fiabil."
+        }
+      }
+    },
+    "process": {
+      "title": "Flux în trei pași",
+      "subtitle": "Reduce efortul, păstrează CTA vizibil, finalizează în secunde.",
+      "steps": {
+        "1": {
+          "title": "Eliberare sau lipire",
+          "desc": "Trage un fișier, lipește din clipboard sau navighează."
+        },
+        "2": {
+          "title": "Găzduim și returnăm un link",
+          "desc": "URL instantaneu cu controale copiere/deschidere/salvare."
+        },
+        "3": {
+          "title": "Folosește oriunde",
+          "desc": "Folosește în documente, chat-uri, tichete, bloguri sau prototipuri."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Echipe care economisesc timp cu Photo To URL",
+      "subtitle": "Dovadă socială pentru reducerea riscului și accelerarea adoptării.",
+      "items": {
+        "ops": {
+          "name": "Product Ops",
+          "quote": "Lipim capturi de ecran în tichete fără să blocăm atașamentele. Linkurile rămân curate."
+        },
+        "content": {
+          "name": "Content Lead",
+          "quote": "Linkurile gata pentru Markdown mențin documentele noastre ordonate și publicabile în minute."
+        },
+        "support": {
+          "name": "Suport",
+          "quote": "Erorile clare și URL-urile instantanee fac ușor să ghidezi clienții în chat."
         }
       }
     },
@@ -151,6 +195,69 @@
       "subtitle": "Trage, lipește sau încarcă — copiază linkul și partajează-l oriunde.",
       "upload": "Încarcă acum",
       "paste": "Lipește o captură"
+    },
+    "longform": {
+      "title": "De ce Photo To URL îți ajută fluxul de lucru",
+      "p1": "Photo To URL este construit pentru creatori, marketing, suport, operațiuni și oricine are nevoie să convertească poze în linkuri curate și de încredere. Cu un flux direct de încărcare→link, eviți managerii de media grei și nu ai nevoie de autentificare. Linkurile sunt ordonate și ușor de lipit în chat-uri, documente, wiki-uri, rapoarte de bug-uri și tichete. Echipele se mișcă mai repede prin partajarea instantanee a capturilor de ecran· în plus, URL-urile previzibile ajută la automatizare, QA și prototipuri ușoare.",
+      "p2": "Experiența rămâne simplă: eliberează, lipește sau selectează un fișier· obține un link· partajează-l. Fără zgomot, fără reclame deranjante, fără bariere. Te concentrezi pe conținut, noi gestionăm hostingul. Pentru echipele globale, interfața este disponibilă în mai multe limbi menținând textul clar și universal.",
+      "useCases": {
+        "title": "Cazuri de utilizare practice",
+        "items": {
+          "1": "Produs și design: partajează capturi de ecran UI și note rapide fără instrumente grele.",
+          "2": "Suport și QA: atașează capturi de ecran reproducibile în tichete și chat-uri cu linkuri curate.",
+          "3": "Documente și bloguri: încorporează imagini în editori Markdown/HTML/CMS cu URL-uri previzibile.",
+          "4": "Vânzări și CS: partajează capturi de ecran POC sau prezentări prin e-mail sau mesagerie.",
+          "5": "Transfer de inginerie: partajează dovezi și comparații de regresie într-un mod ușor.",
+          "6": "Comunitate și social: lipește linkuri în Discord/Slack/Teams/X/forumuri fără preview-uri grele."
+        }
+      },
+      "flow": {
+        "title": "Cum funcționează fluxul de la cap la capăt",
+        "p1": "1) Alege o imagine: trage și eliberează, lipește din clipboard sau navighează. PNG, JPG, WEBP, GIF până la 5MB sunt acum suportate. 2) Încărcăm și returnăm un link direct. Interfața afișează URL-ul tău imediat cu acțiuni de copiere, deschidere și salvare (.txt). 3) Folosește linkul oriunde: bloguri, documente, tichete, chat-uri, prototipuri și multe altele. Scopul este un pod fără frecare între fotografia ta și locurile unde lucrezi.",
+        "p2": "Fiecare pas este reglat pentru claritate: stare vizibilă, erori prietenoase și butoane cu confirmare. Butonul de copiere se află lângă link, iar butoanele de salvare îți permit să păstrezi URL-ul în formatul preferat pentru marcaje sau automatizare. Când R2 este activat, linkurile sunt servite din domeniul CDN· imaginile tale sunt stocate în siguranță cu criptare la nivel de întreprindere și protecție a confidențialității."
+      },
+      "best": {
+        "title": "Cele mai bune practici pentru linkuri mai curate",
+        "items": {
+          "1": "Păstrează numele fișierelor semnificative înainte de încărcare· acestea rămân parte din URL și ajută la căutarea viitoare.",
+          "2": "Folosește WEBP sau JPG/PNG optimizate pentru încărcări mai ușoare dacă te aștepți la partajare intensă.",
+          "3": "Copiază linkul direct după generare pentru a evita intrările vechi din clipboard.",
+          "6": "Salvează ca .txt pentru linkuri de text simplu care sunt gata de copiere și utilizare."
+        }
+      },
+      "roadmap": {
+        "title": "Puncte importante ale roadmap-ului",
+        "p1": "Vom integra profund Cloudflare R2, oferind cote și capacități de gestionare mai prietenoase cu utilizatorul, cu colaborare în echipă opțională, control al accesului și analiză per link. Planificăm să lansăm funcții precum ștergerea cu un clic, stiluri de link predefinite și găleți de stocare la nivel organizațional. Între timp, îmbunătățim continuu subproduse precum instrumentul de decupare circulară și instrumentul de colțuri rotunjite pentru a face procesarea imaginilor mai convenabilă."
+      },
+      "faq": {
+        "title": "Întrebări frecvente",
+        "items": {
+          "1": {
+            "q": "Este gratuit?",
+            "a": "Da, încărcarea de bază în link este gratuită. Găzduirea cu suport CDN prin R2 va fi lansată cu niveluri generoase."
+          },
+          "2": {
+            "q": "Ce formate sunt suportate?",
+            "a": "PNG, JPG, WEBP, GIF până la 5MB astăzi. Pot fi adăugate mai multe formate pe baza cererii."
+          },
+          "3": {
+            "q": "Pot încorpora în Markdown sau HTML?",
+            "a": "Da. Copiază linkul așa cum este, sau folosește salvarea .txt cu un clic pentru fragmente de cod."
+          },
+          "4": {
+            "q": "Țineți fișierele mele publice?",
+            "a": "Linkurile sunt partajabile· când R2 CDN este activat, acestea sunt servite prin domeniul CDN. Afișăm mesaje clare de întreținere dacă stocarea nu este disponibilă."
+          },
+          "5": {
+            "q": "Vor fi conturi sau echipe?",
+            "a": "Planificat. Prioritizăm încărcările fără frecare mai întâi, apoi adăugăm spații de echipă, control acces și analiză."
+          }
+        }
+      },
+      "keywords": {
+        "title": "Cuvinte cheie de care ne pasă",
+        "p1": "fotografie în url,imagine în url,generator link imagine,convertește imagine în link,găzduire imagini gratuită,url imagine directă,linkuri imagini partajabile,linkuri imagini cdn"
+      }
     },
     "selectRegion": {
       "title": "Selectați regiunea",
@@ -166,7 +273,7 @@
       "keywords": "foto în url, imagine în link, generator link imagine, găzduire imagine gratuită, cdn imagine",
       "home": {
         "title": "Convertor Foto în URL | Transformă pozele în linkuri",
-        "description": "Găzduire imagini gratuită: transformă pozele în URL-uri permanente instantaneu. Suportă JPG, PNG, WEBP, GIF până la 10MB."
+        "description": "Găzduire imagini gratuită: transformă pozele în URL-uri permanente instantaneu. Suportă JPG, PNG, WEBP, GIF până la 5MB."
       }
     }
   },
@@ -183,8 +290,9 @@
       "description": "Transformă pozele dreptunghiulare în forme circulare perfecte instantaneu, fără înregistrare."
     },
     "seo": {
-      "title": "Foto rotundă | Instrument online gratuit",
-      "description": "Instrument online gratuit pentru a decupa pozele într-un cerc perfect - ideal pentru poze de profil și proiecte de design."
+      "title": "Instrument de Decupare Circulară | Decupator de Foto Rotunde Gratuit Online",
+      "description": "Instrument online gratuit pentru a decupa pozele într-un cerc perfect - ideal pentru poze de profil și proiecte de design.",
+      "keywords": "decupare imagine circulară, decupare imagine rotundă, instrument decupare circulară, decupare circulară online"
     },
     "selectRegion": {
       "title": "Selectați regiunea",
@@ -212,8 +320,9 @@
       "description": "Foto cu colțuri rotunjite este un instrument online gratuit pentru a adăuga colțuri rotunjite la orice fotografie. Creați icoane în stil aplicații, imagini cu margini moi pentru rețelele sociale sau miniaturi cu rază și zoom reglabile. Fără înregistrare – încărcați, ajustați, descărcați."
     },
     "seo": {
-      "title": "Foto cu colțuri rotunjite | Instrument online gratuit",
-      "description": "Instrument gratuit pentru a adăuga colțuri rotunjite la fotografii – pentru icoane aplicații, poze de profil și proiecte de design."
+      "title": "Instrument Colțuri Rotunjite | Instrument online gratuit",
+      "description": "Instrument gratuit pentru a adăuga colțuri rotunjite la fotografii – pentru icoane aplicații, poze de profil și proiecte de design.",
+      "keywords": "colțuri rotunjite, imagine colțuri rotunjite, instrument colțuri rotunjite, colțuri rotunjite online"
     },
     "selectRegion": {
       "title": "Selectați regiunea",
@@ -225,6 +334,24 @@
       "averageRating": "4.5",
       "votes": "4.992 voturi"
     }
+  },
+  "seo": {
+    "keywords": "fotografie în url,imagine în url,generator link imagine,convertește imagine în link,găzduire imagini gratuită,cdn imagine",
+    "home": {
+      "title": "Convertor Photo To URL | Transformă pozele în linkuri partajabile",
+      "description": "Găzduire imagini gratuită: convertește pozele în URL-uri permanente instantaneu. Suportă JPG, PNG, WEBP, GIF până la 5MB. Lipire din clipboard, CDN rapid, linkuri curate."
+    }
+  },
+  "images": {
+    "previewAlt": "Previzualizare imagine încărcată",
+    "animatingSampleAlt": "Imagine eșantion folosită în demo încărcare",
+    "sampleThumbAlt": "Imagine eșantion pentru încărcare",
+    "useSampleAria": "Folosește această imagine eșantion",
+    "howIllustrationAlt": "Ilustrație care arată cum funcționează Photo To URL",
+    "heroDropTitle": "Trage o fotografie aici",
+    "heroDropSubtitle": "O vom îmbunătăți și găzdui, apoi vom returna un link curat.",
+    "heroDropBadge": "Trage sau dă clic (JPG/PNG, până la 5MB)",
+    "logoAlt": "Logo Photo To URL"
   },
   "about": {
     "seo": {
@@ -398,6 +525,108 @@
             "email": "leeqs1010@gmail.com"
           }
         }
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Blog | Photo To URL",
+      "description": "Articole despre găzduirea fotografiilor, partajarea linkurilor și sfaturi de performanță."
+    },
+    "page": {
+      "title": "Blog",
+      "description": "Pregătim articole despre găzduirea fotografiilor, CDN, partajarea linkurilor și sfaturi SEO. Conținutul vine în curând.",
+      "stayTuned": "Urmărește ghiduri despre:",
+      "guides": {
+        "1": "Cele mai bune practici pentru conversia imaginii în URL",
+        "2": "Cum să folosești linkuri directe de fotografii în bloguri și documente",
+        "3": "Performanță și cache pentru resurse statice"
+      }
+    }
+  },
+  "docs": {
+    "seo": {
+      "title": "Documentație | Photo To URL",
+      "description": "Documentație pentru Photo To URL."
+    },
+    "page": {
+      "title": "Documentație",
+      "description": "Start rapid: încarcă o imagine și obține un URL direct. Folosește butoanele copiere/deschidere sau descarcă linkul în .txt.",
+      "features": {
+        "title": "Funcții suportate:",
+        "items": {
+          "1": "Suportat: JPG, PNG, WEBP, GIF",
+          "2": "Livrare rapidă prin CDN când stocarea este activată",
+          "3": "Mesaje de întreținere prietenoase când serviciul nu este disponibil"
+        }
+      }
+    }
+  },
+  "status": {
+    "seo": {
+      "title": "Status | Photo To URL",
+      "description": "Status serviciu pentru Photo To URL."
+    },
+    "page": {
+      "title": "Status",
+      "description": "Toate sistemele sunt operaționale.",
+      "message": "API-ul de încărcare și linkurile CDN rulează."
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact | Photo To URL",
+      "description": "Contactează suportul Photo To URL."
+    },
+    "page": {
+      "title": "Contact",
+      "description": "Ai nevoie de ajutor sau vrei să împărtășești feedback? Trimite-ne un e-mail și vom urmări inboxul și vom răspunde cât mai curând posibil.",
+      "email": {
+        "label": "E-mail",
+        "address": "leeqs1010@gmail.com"
+      }
+    }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL Bookmarklet",
+    "description": "Încărcați imagini de pe orice pagină web direct în Photo To URL cu un singur clic!",
+    "howItWorks": {
+      "title": "Cum funcționează",
+      "step1": "Navigați pe orice pagină web cu imagini",
+      "step2": "Faceți clic pe bookmarklet în bara de marcaje",
+      "step3": "Selectați o imagine din pagină",
+      "step4": "Obțineți URL-ul instantaneu și copiați-l!"
+    },
+    "installation": {
+      "title": "Instalare",
+      "step1": {
+        "title": "Pasul 1: Copiați codul Bookmarklet",
+        "description": "Faceți clic pe butonul de mai jos pentru a copia codul bookmarklet în clipboard."
+      },
+      "step2": {
+        "title": "Pasul 2: Adăugați în browserul dvs.",
+        "description": "Urmați acești pași în funcție de browserul dvs.:",
+        "chrome": "Chrome/Edge: Apăsați Ctrl+Shift+B (Cmd+Shift+B pe Mac) pentru a afișa bara de marcaje, apoi faceți clic dreapta și selectați \"Adăugați pagină\". Lipiți codul ca URL.",
+        "firefox": "Firefox: Faceți clic dreapta pe bara de marcaje și selectați \"Marcaj nou\". Lipiți codul ca Locație.",
+        "safari": "Safari: Activați bara de marcaje (Vizualizare → Afișează bara de marcaje), apoi trageți codul în bara de marcaje.",
+        "edge": "Alternativă: Creați un marcaj nou, editați-l și înlocuiți URL-ul cu codul copiat."
+      },
+      "step3": {
+        "title": "Pasul 3: Începeți să-l folosiți!",
+        "description": "Vizitați orice pagină web cu imagini și faceți clic pe bookmarklet-ul dvs. pentru a începe încărcarea!"
+      },
+      "copy": "Copiați codul",
+      "copied": "Copiat!"
+    },
+    "usage": {
+      "title": "Funcții",
+      "description": "Bookmarklet oferă următoarele funcții:",
+      "feature1": "Selectați orice imagine din pagina web curentă",
+      "feature2": "Încărcare automată în Photo To URL",
+      "feature3": "Obțineți un URL partajabil instantaneu cu un clic pentru copiere"
+    },
+    "note": {
+      "title": "Notă",
+      "content": "Bookmarklet funcționează pe majoritatea site-urilor web. Unele site-uri cu politici de securitate stricte (CORS) pot împiedica încărcarea imaginilor."
     }
   }
 }

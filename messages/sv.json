@@ -81,7 +81,7 @@
     },
     "upload": {
       "title": "Släpp en foto eller klicka för att bläddra",
-      "hint": "JPG, PNG, WEBP, GIF upp till 10MB. Dra och släpp, klicka eller klistra in skärmdumpar.",
+      "hint": "JPG, PNG, WEBP, GIF upp till 5MB. Dra och släpp, klicka eller klistra in skärmdumpar.",
       "orDrop": "eller släpp en fil",
       "samplesTitle": "Ingen bild? Prova en av dessa:",
       "policy": "Genom att ladda upp en bild godkänner du vår <privacy>Integritetspolicy</privacy> och <terms>Användarvillkor</terms>.",
@@ -113,7 +113,7 @@
         },
         "nosignup": {
           "title": "Ingen registrering krävs",
-          "desc": "Använd det direkt. Konton kan komma senare när vi växer."
+          "desc": "Använd det direkt, ingen registrering krävs."
         }
       }
     },
@@ -121,8 +121,8 @@
       "title": "Hur det fungerar",
       "step1": "1) Lägg till din foto (dra, klistra in eller klicka för att välja en fil).",
       "step2": "2) Vi hostar den och returnerar en delbar länk.",
-      "step3": "3) Kopiera och dela länken var du än arbetar.",
-      "note": "Din länk öppnas snabbt i dokument, chattar och prototyper—plus du kan ladda ner den i det format du gillar (.txt/.json/.md)."
+      "step3": "3) Kopiera och dela länken i dokument, chattar, prototyper och mer.",
+      "note": "Din länk öppnas snabbt i dokument, chattar och prototyper—plus du kan ladda ner den som .txt."
     },
     "process": {
       "title": "Trestegsflöde",
@@ -137,8 +137,8 @@
           "desc": "Omedelbar URL med kopiera/öppna/spara-kontroller."
         },
         "3": {
-          "title": "Dela var som helst",
-          "desc": "Klistra in i dokument, chattar, biljetter, bloggar eller prototyper."
+          "title": "Använd var som helst",
+          "desc": "Använd i dokument, chattar, biljetter, bloggar eller prototyper."
         }
       }
     },
@@ -151,16 +151,16 @@
           "desc": "Rena, förutsägbara URL:er redo för Markdown- och HTML-inbäddningar."
         },
         "save": {
-          "title": "Kopiera och spara-åtgärder",
-          "desc": "Kopiera, öppna eller spara som .txt/.json/.md med ett klick."
+          "title": "Kopiera och Spara",
+          "desc": "Kopiera, öppna eller spara som .txt-fil med ett klick."
         },
         "clipboard": {
           "title": "Urklippsvänligt",
           "desc": "Klistra in skärmdumpar utan att jaga efter filer eller omladdningar."
         },
         "errors": {
-          "title": "Vänliga fel",
-          "desc": "Tydliga underhållsmeddelanden istället för tekniska stackspår."
+          "title": "Säkert och Privat",
+          "desc": "Dina bilder lagras säkert med företagsnivå kryptering och integritetsskydd."
         },
         "nosignup": {
           "title": "Ingen registrering behövs",
@@ -192,7 +192,7 @@
     },
     "cta": {
       "title": "Gör om foton till länkar på sekunder",
-      "subtitle": "Släpp, klistra in eller ladda upp—kopiera din länk och dela överallt.",
+      "subtitle": "Släpp, klistra in eller ladda upp—kopiera din länk och dela den.",
       "upload": "Ladda upp nu",
       "paste": "Klistra in en skärmdump"
     },
@@ -213,8 +213,8 @@
       },
       "flow": {
         "title": "Hur flödet fungerar från början till slut",
-        "p1": "1) Välj en bild: dra och släpp, klistra in från urklipp eller klicka för att bläddra. PNG, JPG, WEBP, GIF upp till 10MB stöds nu. 2) Vi laddar upp och returnerar en direkt länk. UI:en visar din URL omedelbart med kopiera, öppna och multi-format spara-åtgärder (.txt, .json, .md). 3) Du återanvänder länken var som helst: bloggar, dokument, biljetter, chatt, prototyper. Målet är en friktionsfri bro mellan din foto och platserna där du arbetar.",
-        "p2": "Varje steg är inställt för tydlighet: synlig status, vänliga fel och knappar som bekräftar åtgärder. Kopieringsknappen sitter bredvid länken, och spara-knapparna låter dig behålla URL:en i ditt föredragna format för bokmärkning eller automatisering. När R2 är aktiverat serveras länkar från CDN-domänen; om tjänsten är under underhåll returnerar UI:en ett tydligt meddelande istället för råa fel."
+        "p1": "1) Välj en bild: dra och släpp, klistra in från urklipp eller klicka för att bläddra. PNG, JPG, WEBP, GIF upp till 5MB stöds nu. 2) Vi laddar upp och returnerar en direkt länk. UI:en visar din URL omedelbart med kopiera, öppna och spara-åtgärder (.txt). 3) Använd länken i bloggar, dokument, biljetter, chatt, prototyper och mer. Målet är en friktionsfri bro mellan din foto och platserna där du arbetar.",
+        "p2": "Varje steg är inställt för tydlighet: synlig status, vänliga fel och knappar som bekräftar åtgärder. Kopieringsknappen sitter bredvid länken, och spara-knapparna låter dig behålla URL:en i ditt föredragna format för bokmärkning eller automatisering. När R2 är aktiverat serveras länkar från CDN-domänen; dina bilder lagras säkert med kryptering på företagsnivå och integritetsskydd."
       },
       "best": {
         "title": "Bästa praxis för renare länkar",
@@ -222,14 +222,12 @@
           "1": "Håll filnamn meningsfulla före uppladdning; de förblir del av URL:en och hjälper framtida sökning.",
           "2": "Använd WEBP eller optimerade JPG/PNG för lättare nyttolaster om du förväntar dig tung delning.",
           "3": "Kopiera länken direkt efter generering för att undvika föråldrade urklippsposter.",
-          "4": "Spara som .json när du behöver batch-lagra referenser för automatisering eller revisioner.",
-          "5": "Använd .md-utdata när du bäddar in i dokument eller wikis; den är redo att klistras in.",
           "6": "Spara som .txt för vanliga textlänkar som är redo att kopieras och användas."
         }
       },
       "roadmap": {
         "title": "Roadmap-höjdpunkter",
-        "p1": "Kommande förbättringar inkluderar djupare Cloudflare R2-integration som standard, mer generösa uppladdningsgränser, valfri autentisering för teamutrymmen och per-länk-analys. Vi planerar också förinställda länkstilar, enklick-radering och organisation-nivå buckets. SEO-polering fortsätter över blogg, dokument och statussidor, med rikare schema och en offentlig webbplatskarta för snabb indexering."
+        "p1": "Vi kommer att integrera Cloudflare R2 djupt, vilket ger mer användarvänliga kvoter och hanteringsmöjligheter, med valfritt teamarbete, åtkomstkontroll och per-länk-analys. Vi planerar att lansera funktioner som enklick-radering, förinställda länkstilar och organisationsnivå lagringsbuckets. Samtidigt förbättrar vi kontinuerligt underprodukter som cirkelbeskärningsverktyget och avrundade hörnverktyget för att göra bildbehandling mer bekväm."
       },
       "faq": {
         "title": "Vanliga frågor",
@@ -240,11 +238,11 @@
           },
           "2": {
             "q": "Vilka format stöds?",
-            "a": "PNG, JPG, WEBP, GIF upp till 10MB idag. Fler format kan läggas till baserat på efterfrågan."
+            "a": "PNG, JPG, WEBP, GIF upp till 5MB idag. Fler format kan läggas till baserat på efterfrågan."
           },
           "3": {
             "q": "Kan jag bädda in i Markdown eller HTML?",
-            "a": "Ja. Kopiera länken som den är, eller använd enklick .txt / .json / .md-sparningar för drop-in-snippets."
+            "a": "Ja. Kopiera länken som den är, eller använd enklick .txt-sparning för drop-in-snippets."
           },
           "4": {
             "q": "Håller ni mina filer publika?",
@@ -287,7 +285,7 @@
     "howIllustrationAlt": "Illustration som visar hur Foto till URL fungerar",
     "heroDropTitle": "Dra en foto hit",
     "heroDropSubtitle": "Vi kommer att förbättra och hosta den, sedan returnera en ren länk.",
-    "heroDropBadge": "Dra eller klicka (JPG/PNG, upp till 10MB)",
+    "heroDropBadge": "Dra eller klicka (JPG/PNG, upp till 5MB)",
     "logoAlt": "Foto till URL-logotyp"
   },
   "circleCrop": {
@@ -303,8 +301,9 @@
       "description": "Foto till Cirkel är ett gratis online-verktyg för att omvandla rektangulära foton till perfekt cirkulära former. Vårt verktyg hjälper dig att beskära foton i cirkelformat omedelbart, utan registrering krävs. Oavsett om du behöver en rund profilbild, en cirkulär foto för sociala medier, eller en rundad foto för designprojekt, gör vårt cirkulära fotobeskärningsverktyg det enkelt och lätt."
     },
     "seo": {
-      "title": "Foto till Cirkel | Gratis Online Cirkelbeskärning",
-      "description": "Gratis online-verktyg för att beskära vilket foto som helst till en perfekt cirkel - perfekt för profilbilder, sociala medier och designprojekt."
+      "title": "Cirkel Beskärning Verktyg | Gratis Online Rund Foto Beskärning",
+      "description": "Gratis online-verktyg för att beskära vilket foto som helst till en perfekt cirkel - perfekt för profilbilder, sociala medier och designprojekt.",
+      "keywords": "cirkel bild beskärning, beskär cirkel bild, cirkel beskärning verktyg, cirkel beskärning online"
     },
     "selectRegion": {
       "title": "Välj region",
@@ -332,8 +331,9 @@
       "description": "Foto med rundade hörn är ett gratis onlineverktyg för att lägga till rundade hörn till vilken bild som helst. Skapa applikationsikoner, mjuka bilder för sociala medier eller miniatyrer med justerbar radie och zoom. Ingen registrering – ladda upp, justera, ladda ner."
     },
     "seo": {
-      "title": "Foto med rundade hörn | Gratis onlineverktyg",
-      "description": "Gratis verktyg för att lägga till rundade hörn till bilder – perfekt för appikoner, profilbilder och designprojekt."
+      "title": "Rundade Hörn Verktyg | Gratis onlineverktyg",
+      "description": "Gratis verktyg för att lägga till rundade hörn till bilder – perfekt för appikoner, profilbilder och designprojekt.",
+      "keywords": "rundade hörn, bild rundade hörn, rundade hörn verktyg, rundade hörn online"
     },
     "selectRegion": {
       "title": "Välj region",
@@ -369,7 +369,7 @@
     },
     "page": {
       "title": "Dokumentation",
-      "description": "Snabbstart: ladda upp en bild och få en direkt URL. Använd kopiera/öppna-knapparna eller ladda ner länken i .txt/.json/.md-format.",
+      "description": "Snabbstart: ladda upp en bild och få en direkt URL. Använd kopiera/öppna-knapparna eller ladda ner länken i .txt-format.",
       "features": {
         "title": "Funktioner som stöds:",
         "items": {
@@ -577,6 +577,49 @@
             "email": "leeqs1010@gmail.com"
           }
         }
+    }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL Bookmarklet",
+    "description": "Ladda upp bilder från vilken webbsida som helst direkt till Photo To URL med ett enda klick!",
+    "howItWorks": {
+      "title": "Hur det fungerar",
+      "step1": "Bläddra på vilken webbsida som helst med bilder",
+      "step2": "Klicka på bookmarklet i bokmärkesfältet",
+      "step3": "Välj en bild från sidan",
+      "step4": "Få URL:en direkt och kopiera den!"
+    },
+    "installation": {
+      "title": "Installation",
+      "step1": {
+        "title": "Steg 1: Kopiera Bookmarklet-koden",
+        "description": "Klicka på knappen nedan för att kopiera bookmarklet-koden till urklippet."
+      },
+      "step2": {
+        "title": "Steg 2: Lägg till i din webbläsare",
+        "description": "Följ dessa steg beroende på din webbläsare:",
+        "chrome": "Chrome/Edge: Tryck på Ctrl+Shift+B (Cmd+Shift+B på Mac) för att visa bokmärkesfältet, högerklicka sedan och välj \"Lägg till sida\". Klistra in koden som URL.",
+        "firefox": "Firefox: Högerklicka på bokmärkesfältet och välj \"Nytt bokmärke\". Klistra in koden som Plats.",
+        "safari": "Safari: Aktivera bokmärkesfältet (Visa → Visa bokmärkesfält), dra sedan koden till bokmärkesfältet.",
+        "edge": "Alternativ: Skapa ett nytt bokmärke, redigera det och ersätt URL:en med den kopierade koden."
+      },
+      "step3": {
+        "title": "Steg 3: Börja använda det!",
+        "description": "Besök vilken webbsida som helst med bilder och klicka på ditt bookmarklet för att börja ladda upp!"
+      },
+      "copy": "Kopiera kod",
+      "copied": "Kopierad!"
+    },
+    "usage": {
+      "title": "Funktioner",
+      "description": "Bookmarklet ger följande funktioner:",
+      "feature1": "Välj vilken bild som helst från den aktuella webbsidan",
+      "feature2": "Automatisk uppladdning till Photo To URL",
+      "feature3": "Få en delbar URL direkt med ett klick för att kopiera"
+    },
+    "note": {
+      "title": "Obs",
+      "content": "Bookmarklet fungerar på de flesta webbplatser. Vissa webbplatser med strikta säkerhetsprinciper (CORS) kan förhindra bilduppladdning."
     }
   }
 }

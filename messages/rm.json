@@ -81,7 +81,7 @@
     },
     "upload": {
       "title": "Lascha ir ina fotografia u clicca per tschertgar",
-      "hint": "JPG, PNG, WEBP, GIF fin a 10MB. Trag e lascha ir, clicca u incolla screenshots.",
+      "hint": "JPG, PNG, WEBP, GIF fin a 5MB. Trag e lascha ir, clicca u incolla screenshots.",
       "orDrop": "u lascha ir in file",
       "samplesTitle": "Nagina imatge? Prova ina da quellas:",
       "policy": "Tras chargiar si ina imatge acceptas ti nossa <privacy>Politica da confidenzialitad</privacy> e <terms>Condiziuns d’utilisaziun</terms>.",
@@ -113,7 +113,7 @@
         },
         "nosignup": {
           "title": "Nessina registraziun necessaria",
-          "desc": "Dovra immediatamain. Accounts pon vegnir pli tard cun la creschientscha."
+          "desc": "Dovra immediatamain, nagina registraziun necessaria."
         }
       }
     },
@@ -121,8 +121,8 @@
       "title": "Co che quai funcziuna",
       "step1": "1) Agiunta tia fotografia (trai, incolla u clicca per tscherner in file).",
       "step2": "2) Nus ospitem e returnain ina ligia da spartir.",
-      "step3": "3) Copia e spart la ligia en mintga lieu nua che ti lavureschas.",
-      "note": "Tia ligia sa avra svelt en docs, chats e prototypes – e ti pos era telechargiar ella en il format che ti vuls (.txt/.json/.md)."
+      "step3": "3) Copia e spart la ligia en docs, chats, prototypes e pli.",
+      "note": "Tia ligia sa avra svelt en docs, chats e prototypes – e ti pos era telechargiar ella sco .txt."
     },
     "process": {
       "title": "Fluss en trais pass",
@@ -137,8 +137,8 @@
           "desc": "URL instantan cun controllas per copiar/avrir/salvar."
         },
         "3": {
-          "title": "Partagescha en mintga lieu",
-          "desc": "Incolla en documents, chats, tickets, blogs u prototypes."
+          "title": "Utilisescha en mintga lieu",
+          "desc": "Utilisescha en documents, chats, tickets, blogs u prototypes."
         }
       }
     },
@@ -151,16 +151,16 @@
           "desc": "URLs netts e predictibels pronts per integraziuns Markdown e HTML."
         },
         "save": {
-          "title": "Acziuns da copiar e salvar",
-          "desc": "Copiar, avrir u salvar sco .txt/.json/.md cun in clic."
+          "title": "Copiar e Salvar",
+          "desc": "Copiar, avrir u salvar sco datoteca .txt cun in clic."
         },
         "clipboard": {
           "title": "Amicabel per il clipboard",
           "desc": "Incolla screenshots senza tschertgar files u chargiar puspè."
         },
         "errors": {
-          "title": "Erors amichevuls",
-          "desc": "Messadis clers da mantegniment enstagl da traces tecnics da stack."
+          "title": "Sicur e Privat",
+          "desc": "Tias maletgs vegnan memorisads cun criptadi da nivel da interpresa e protecziun da la sfera privata."
         },
         "nosignup": {
           "title": "Nessina registraziun necessaria",
@@ -192,7 +192,7 @@
     },
     "cta": {
       "title": "Transfurmar maletgs en ligams en secundas",
-      "subtitle": "Lassar ir, incollar u chargiar – copia tia ligia e parta ella en tut las parts.",
+      "subtitle": "Lassar ir, incollar u chargiar – copia tia ligia e parta ella.",
       "upload": "Chargiar ussa",
       "paste": "Incollar in screenshot"
     },
@@ -213,8 +213,8 @@
       },
       "flow": {
         "title": "Co funcziuna il process da principi fin la fin",
-        "p1": "1) Tscherna ina maletg: drag-and-drop, incolla da clipboard u clicca per navigar. PNG, JPG, WEBP, GIF fin a 10MB èn ussa sustegnids. 2) Nus chargian e returnain ina ligiaziun directa. L'interfatscha mussa immediatamain tia URL cun acziuns per copiar, avrir e salvar en plirs formats (.txt, .json, .md). 3) Ti reutiliseschas la ligiaziun en mintga lieu: blogs, docs, tickets, chat, prototips. Il scopo è ina punt senza impediments tranter tia fotografia e ils lieus nua che ti lavureschas.",
-        "p2": "Mintga pass è optimà per claredad: status visibel, errors amiaivels e butschas che conferman acziuns. Il buttun da copiar è visibel a chaschun da la ligiaziun, e ils butschas da salvar permettan da tegnair la URL en il format preferì per bookmarks u automaziun. Cura che R2 è activà, servan las ligiaziuns dal domini CDN; sch'il servetsch è en mantegniment, l'interfatscha mussa in messadi cler enstagl d'errors grevs."
+        "p1": "1) Tscherna ina maletg: drag-and-drop, incolla da clipboard u clicca per navigar. PNG, JPG, WEBP, GIF fin a 5MB èn ussa sustegnids. 2) Nus chargian e returnain ina ligiaziun directa. L'interfatscha mussa immediatamain tia URL cun acziuns per copiar, avrir e salvar (.txt). 3) Utilisescha la ligiaziun en blogs, docs, tickets, chat, prototips e pli. Il scopo è ina punt senza impediments tranter tia fotografia e ils lieus nua che ti lavureschas.",
+        "p2": "Mintga pass è optimà per claredad: status visibel, errors amiaivels e butschas che conferman acziuns. Il buttun da copiar è visibel a chaschun da la ligiaziun, e ils butschas da salvar permettan da tegnair la URL en il format preferì per bookmarks u automaziun. Cura che R2 è activà, servan las ligiaziuns dal domini CDN; vossas maletgs èn memorisads cun segirtad cun criptadi da nivel interpresa e protecziun da la sfera privata."
       },
       "best": {
         "title": "Megliers practicas per ligiaziuns pli nettas",
@@ -222,14 +222,12 @@
           "1": "Mantegna numens da files significativs avant il chargiar; quels restan part da l'URL e gidar en tschertgar en l'avegnir.",
           "2": "Derva WEBP u JPG/PNG optimizads per pachets pli lievs sch'ins spetga ina spartiziun gronda.",
           "3": "Copiai la ligiaziun directamain suenter la generaziun per evitar entradas veglias en il clipboard.",
-          "4": "Salvai sco .json cura che vus dovrais archivar referenzas en massa per automaziun u controllas.",
-          "5": "Derva l'expressiun .md cura che ti incollas en docs u wikis; quai è pront per incollaziun.",
           "6": "Salvai sco .txt per ligiaziuns en text plain che èn prontas per copiar e duvrar."
         }
       },
       "roadmap": {
         "title": "Puncts culminants da la via",
-        "p1": "Ils megliers svilups che vegnan includan ina integraziun pli profunda da Cloudflare R2 per defekt, limitas da chargiar pli generusas, autentificaziun facultativa per spazi da team e analytics per mintga ligiaziun. Nus planisain er stils da ligiaziun presets, in clic per sminuir e buckets a nivel d'organisaziun. Il poliment SEO cuntinuescha tras blogs, docs e paginas da status, cun schemas pli riccs e in sitemap public per indexaziun svelta."
+        "p1": "Nus integrain Cloudflare R2 profundamain, porschend quotas e capacitads da gestiun pli user-friendly, cun collavuraziun da team facultativa, controlla d'access e analytics per mintga ligiaziun. Nus planisain da lantschar funcziuns sco sminuir cun in clic, stils da ligiaziun presets e buckets da memorisaziun a nivel d'organisaziun. En il fratemp, nus meglierain cuntinuadamain products secundaris sco l'utensil da ritaglio circular e l'utensil da chombers arrondids per render l'elavuraziun da maletgs pli cunvegnenta."
       },
       "faq": {
         "title": "Dumondas frequentas",
@@ -240,11 +238,11 @@
           },
           "2": {
             "q": "Tge formats èn sustegnids?",
-            "a": "PNG, JPG, WEBP, GIF fin a 10MB ozendi. Ulteriurs formats pon vegnir agiuntads tenor la dumonda."
+            "a": "PNG, JPG, WEBP, GIF fin a 5MB ozendi. Ulteriurs formats pon vegnir agiuntads tenor la dumonda."
           },
           "3": {
             "q": "Poss jau integrar en Markdown u HTML?",
-            "a": "Gea. Copia il link uschè sco el è, u duvrar ils salvatgs cun in clic .txt / .json / .md per snippets da integrar directamain."
+            "a": "Gea. Copia il link uschè sco el è, u duvrar il salvatg cun in clic .txt per snippets da integrar directamain."
           },
           "4": {
             "q": "Tegnìs vus mes files publics?",
@@ -276,7 +274,7 @@
     "keywords": "fotografias a url,maletgs a url,generator,midar en link,ospitar gratuit,url direct,links sparter,CDN",
     "home": {
       "title": "Fotografias a URL | Midar maletgs en links da sparter",
-      "description": "Ospitar maletgs gratuit: midar fotografias en URLs permanents immediatamain. Sustegna JPG, PNG, WEBP, GIF fin a 10MB. Links nets per Markdown & HTML."
+      "description": "Ospitar maletgs gratuit: midar fotografias en URLs permanents immediatamain. Sustegna JPG, PNG, WEBP, GIF fin a 5MB. Links nets per Markdown & HTML."
     }
   },
   "images": {
@@ -287,7 +285,7 @@
     "howIllustrationAlt": "Illustraziun che mussa co funcziuna Fotografia a URL",
     "heroDropTitle": "Trascinar ina fotografia qua",
     "heroDropSubtitle": "Nus meglierain e ospitain ella, lura returnain in link net.",
-    "heroDropBadge": "Trascinar u cliccar (JPG/PNG, fin a 10MB)",
+    "heroDropBadge": "Trascinar u cliccar (JPG/PNG, fin a 5MB)",
     "logoAlt": "Logo da Fotografia a URL"
   },
   "circleCrop": {
@@ -303,8 +301,9 @@
       "description": "Fotografia per tagl circular è in utensil online gratuit per transfurmar fotografias rectangularas en furmas circularas perfettas. Noss utensil gida a tagliar fotografias en furma da circul instantaneusamain, senza ch'ins sto sa registrar. Sche ti has basegn d'in maletg da profil rund, fotografia circulära per medias socialas u fotografia rundada per projects da design, noss utensil per tagliar fotografias circularas renda quai simpel e facil."
     },
     "seo": {
-      "title": "Fotografia per tagl circular | Utensil online gratuit per tagliar en circul",
-      "description": "Utensil online gratuit per tagliar mintga fotografia en in circul perfetg - perfetg per maletgs da profil, medias socialas e projects da design."
+      "title": "Utensil per Tagliar Circular | Utensil Online Gratuit per Tagliar Fotografias Rundas",
+      "description": "Utensil online gratuit per tagliar mintga fotografia en in circul perfetg - perfetg per maletgs da profil, medias socialas e projects da design.",
+      "keywords": "tagliar maletg circular, tagliar maletg rotund, utensil tagliar circular, tagliar circular online"
     },
     "selectRegion": {
       "title": "Sellectionar regiùn",
@@ -332,8 +331,9 @@
       "description": "Foto cun cantuns arrondads è in utensil online gratuit per agiuntar cantuns arrondads a mintga fotografia. Crear icons da stylo app, maletgs cun culs morbids per medias socialas u miniaturas cun radi e zoom reglabels. Senza s'inscriziun – chargiar, adattar, telechargiar."
     },
     "seo": {
-      "title": "Foto cun cantuns arrondads | Utensil online gratuit",
-      "description": "Utensil gratuit per agiuntar cantuns arrondads a fotos – per icons d'apps, maletgs da profil e projects da design."
+      "title": "Utensil per Cantuns Arrondads | Utensil online gratuit",
+      "description": "Utensil gratuit per agiuntar cantuns arrondads a fotos – per icons d'apps, maletgs da profil e projects da design.",
+      "keywords": "cantuns arrondads, maletg cantuns arrondads, utensil cantuns arrondads, cantuns arrondads online"
     },
     "selectRegion": {
       "title": "Tscherner la regiun",
@@ -369,7 +369,7 @@
     },
     "page": {
       "title": "Documentaziun",
-      "description": "Cumenzament svelt: chargier in maletg e survegnir in URL direct. Dovrar ils buttuns copiar/avrir u telechargiar il link en format .txt/.json/.md.",
+      "description": "Cumenzament svelt: chargier in maletg e survegnir in URL direct. Dovrar ils buttuns copiar/avrir u telechargiar il link en format .txt.",
       "features": {
         "title": "Functiuns sustegnidas:",
         "items": {
@@ -577,6 +577,49 @@
         "text": "Avais dumondas u feedback? Contactai nus a",
         "email": "leeqs1010@gmail.com"
       }
+    }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL Bookmarklet",
+    "description": "Chargiar maletgs da mintga pagina web directamain en Photo To URL cun in sol clic!",
+    "howItWorks": {
+      "title": "Co funcziuna",
+      "step1": "Navighescha tras mintga pagina web cun maletgs",
+      "step2": "Cliccar sin il bookmarklet en la trav da segnapaginas",
+      "step3": "Tschernir in maletg da la pagina",
+      "step4": "Obtgnair l'URL immediatamain e copiar!"
+    },
+    "installation": {
+      "title": "Installaziun",
+      "step1": {
+        "title": "Pass 1: Copiar il code dal Bookmarklet",
+        "description": "Cliccar sin il buttun sutvart per copiar il code dal bookmarklet en il clipboard."
+      },
+      "step2": {
+        "title": "Pass 2: Agiuntar a voss navigatur",
+        "description": "Suir quests pass tenor voss navigatur:",
+        "chrome": "Chrome/Edge: Premir Ctrl+Shift+B (Cmd+Shift+B sin Mac) per mussar la trav da segnapaginas, allura cliccar cun il dretg e tschernir \"Agiuntar pagina\". Pegiar il code sco URL.",
+        "firefox": "Firefox: Cliccar cun il dretg sin la trav da segnapaginas e tschernir \"Nov segnapagina\". Pegiar il code sco Posiziun.",
+        "safari": "Safari: Activar la trav da segnapaginas (Vista → Mussar Trav da Segnapaginas), allura trair il code en la trav da segnapaginas.",
+        "edge": "Alternativa: Crear in nov segnapagina, modifitgar el e remplazzar l'URL cun il code copià."
+      },
+      "step3": {
+        "title": "Pass 3: Cumenzar a l'utilisar!",
+        "description": "Visitar mintga pagina web cun maletgs e cliccar sin voss bookmarklet per cumenzar a chargiar!"
+      },
+      "copy": "Copiar code",
+      "copied": "Copià!"
+    },
+    "usage": {
+      "title": "Funcziuns",
+      "description": "Il bookmarklet porscha las suandantas funcziuns:",
+      "feature1": "Tschernir mintga maletg da la pagina web actuala",
+      "feature2": "Chargiada automatica en Photo To URL",
+      "feature3": "Obtgnair in URL cumpartgibel immediatamain cun in clic per copiar"
+    },
+    "note": {
+      "title": "Remartga",
+      "content": "Il bookmarklet funcziuna sin la gronda part dals websites. Tscherts websites cun directivas da segirtad strictas (CORS) pon impedir la chargiada da maletgs."
     }
   }
 }

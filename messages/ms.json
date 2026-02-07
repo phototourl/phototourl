@@ -81,7 +81,7 @@
     },
     "upload": {
       "title": "Lepaskan foto atau klik untuk semak imbas",
-      "hint": "JPG, PNG, WEBP, GIF sehingga 10MB. Seret & lepaskan, klik, atau tampal tangkapan skrin.",
+      "hint": "JPG, PNG, WEBP, GIF sehingga 5MB. Seret & lepaskan, klik, atau tampal tangkapan skrin.",
       "orDrop": "atau lepaskan fail",
       "samplesTitle": "Tiada imej? Cuba salah satu ini:",
       "policy": "Dengan memuat naik foto, anda bersetuju dengan <privacy>Dasar Privasi</privacy> dan <terms>Syarat Perkhidmatan</terms> kami.",
@@ -113,7 +113,7 @@
         },
         "nosignup": {
           "title": "Tanpa Pendaftaran",
-          "desc": "Gunakan serta-merta. Akaun boleh dibuat kemudian semasa kami berkembang."
+          "desc": "Gunakan serta-merta, tiada pendaftaran diperlukan."
         }
       }
     },
@@ -121,8 +121,8 @@
       "title": "Cara Ia Berfungsi",
       "step1": "1) Tambah foto anda (seret, tampal, atau klik untuk pilih fail).",
       "step2": "2) Kami hoskannya dan berikan pautan boleh dikongsi.",
-      "step3": "3) Salin pautan dan tampal di mana-mana anda bekerja.",
-      "note": "Pautan anda dibuka pantas dalam dokumen, sembang, dan prototaip—ditambah pula anda boleh memuat turunnya dalam format pilihan anda (.txt/.json/.md)."
+      "step3": "3) Salin pautan dan kongsi dalam dokumen, sembang, prototaip, dan lain-lain.",
+      "note": "Pautan anda dibuka pantas dalam dokumen, sembang, dan prototaip—ditambah pula anda boleh memuat turunnya sebagai .txt."
     },
     "process": {
       "title": "Aliran Tiga Langkah",
@@ -137,8 +137,8 @@
           "desc": "URL segera dengan kawalan salin/buka/simpan."
         },
         "3": {
-          "title": "Kongsi di Mana Sahaja",
-          "desc": "Tampal ke dalam dokumen, sembang, tiket, blog, atau prototaip."
+          "title": "Gunakan di Mana Sahaja",
+          "desc": "Gunakan dalam dokumen, sembang, tiket, blog, atau prototaip."
         }
       }
     },
@@ -151,16 +151,16 @@
           "desc": "URL bersih dan terjangka yang sedia untuk dibenamkan dalam Markdown dan HTML."
         },
         "save": {
-          "title": "Tindakan Salin & Simpan",
-          "desc": "Salin, buka, atau simpan sebagai .txt/.json/.md dengan satu klik."
+          "title": "Salin dan Simpan",
+          "desc": "Salin, buka, atau simpan sebagai fail .txt dengan satu klik."
         },
         "clipboard": {
           "title": "Mesra Papan Klip",
           "desc": "Tampal tangkapan skrin tanpa perlu mencari fail atau muat naik semula."
         },
         "errors": {
-          "title": "Ralat yang Jelas",
-          "desc": "Mesej penyelenggaraan yang jelas dan bukannya kod teknikal yang mengelirukan."
+          "title": "Selamat dan Peribadi",
+          "desc": "Imej anda disimpan dengan selamat menggunakan penyulitan peringkat perusahaan dan perlindungan privasi."
         },
         "nosignup": {
           "title": "Tanpa Pendaftaran",
@@ -192,7 +192,7 @@
     },
     "cta": {
       "title": "Tukarkan foto kepada pautan dalam beberapa saat",
-      "subtitle": "Lepaskan, tampal, atau muat naik—salin pautan anda dan kongsi ke mana-mana sahaja.",
+      "subtitle": "Lepaskan, tampal, atau muat naik—salin pautan anda dan kongsi.",
       "upload": "Muat Naik Sekarang",
       "paste": "Tampal Tangkapan Skrin"
     },
@@ -213,8 +213,8 @@
       },
       "flow": {
         "title": "Cara Aliran Berfungsi Dari Mula Hingga Akhir",
-        "p1": "1) Pilih imej: seret-dan-lepas, tampal dari papan klip, atau klik untuk semak imbas. Menyokong PNG, JPG, WEBP, GIF sehingga 10MB. 2) Kami muat naik dan berikan pautan langsung. Antara muka menunjukkan URL anda dengan tindakan salin, buka, dan simpan dalam pelbagai format (.txt, .json, .md). 3) Anda gunakan semula pautan itu di mana-mana: blog, dokumen, tiket, sembang, prototaip. Matlamatnya adalah untuk mewujudkan jambatan tanpa geseran antara foto anda dan tempat anda bekerja.",
-        "p2": "Setiap langkah ditala untuk kejelasan: status visual, ralat yang jelas, dan butang yang mengesahkan tindakan. Butang salin terletak betul-betul di sebelah pautan, dan butang simpan membolehkan anda menyimpan URL dalam format kegemaran anda untuk penanda buku atau automasi. Apabila R2 didayakan, pautan disediakan dari domain CDN."
+        "p1": "1) Pilih imej: seret-dan-lepas, tampal dari papan klip, atau klik untuk semak imbas. Menyokong PNG, JPG, WEBP, GIF sehingga 5MB. 2) Kami muat naik dan berikan pautan langsung. Antara muka menunjukkan URL anda dengan tindakan salin, buka, dan simpan (.txt). 3) Gunakan pautan dalam blog, dokumen, tiket, sembang, prototaip, dan lain-lain. Matlamatnya adalah untuk mewujudkan jambatan tanpa geseran antara foto anda dan tempat anda bekerja.",
+        "p2": "Setiap langkah ditala untuk kejelasan: status visual, ralat yang jelas, dan butang yang mengesahkan tindakan. Butang salin terletak betul-betul di sebelah pautan, dan butang simpan membolehkan anda menyimpan URL dalam format kegemaran anda untuk penanda buku atau automasi. Apabila R2 didayakan, pautan disediakan dari domain CDN; imej anda disimpan dengan selamat menggunakan penyulitan peringkat perusahaan dan perlindungan privasi."
       },
       "best": {
         "title": "Amalan Terbaik Untuk Pautan Bersih",
@@ -222,14 +222,12 @@
           "1": "Namakan fail anda dengan bermakna sebelum memuat naik; ia kekal sebagai sebahagian daripada URL dan membantu pencarian masa hadapan.",
           "2": "Gunakan WEBP atau JPG/PNG yang dioptimumkan untuk muatan ringan jika anda menjangkakan banyak perkongsian.",
           "3": "Salin pautan serta-merta selepas dihasilkan untuk mengelakkan kemasukan papan klip yang lama.",
-          "4": "Simpan sebagai .json jika anda perlu menyimpan rujukan secara pukal untuk automasi atau audit.",
-          "5": "Gunakan output .md apabila membenam dalam dokumen atau wiki; ia sedia untuk ditampal terus.",
           "6": "Simpan sebagai .txt untuk pautan teks biasa yang sedia untuk disalin dan digunakan."
         }
       },
       "roadmap": {
         "title": "Sorotan Rancangan Masa Hadapan",
-        "p1": "Penambahbaikan akan datang termasuk integrasi Cloudflare R2 yang lebih mendalam secara lalai, had muat naik yang lebih besar, pengesahan pilihan untuk ruang pasukan, dan analitik setiap pautan. Kami juga merancang gaya pautan pratetap, padam satu klik, dan baldi peringkat organisasi."
+        "p1": "Kami akan mengintegrasikan Cloudflare R2 secara mendalam, menyediakan kuota dan keupayaan pengurusan yang lebih mesra pengguna, dengan kerjasama pasukan pilihan, kawalan akses, dan analitik setiap pautan. Kami merancang untuk melancarkan ciri seperti padam satu klik, gaya pautan yang telah ditetapkan, dan baldi storan peringkat organisasi. Sementara itu, kami sentiasa meningkatkan produk sampingan seperti alat potong bulat dan alat sudut bulat untuk menjadikan pemprosesan imej lebih mudah."
       },
       "faq": {
         "title": "Soalan Lazim (FAQ)",
@@ -240,11 +238,11 @@
           },
           "2": {
             "q": "Format apa yang disokong?",
-            "a": "Hari ini PNG, JPG, WEBP, GIF sehingga 10MB disokong. Format lain mungkin ditambah berdasarkan permintaan."
+            "a": "Hari ini PNG, JPG, WEBP, GIF sehingga 5MB disokong. Format lain mungkin ditambah berdasarkan permintaan."
           },
           "3": {
             "q": "Bolehkah saya membenam dalam Markdown atau HTML?",
-            "a": "Ya. Salin pautan begitu sahaja, atau gunakan ciri simpan .txt / .json / .md satu klik untuk petikan kod."
+            "a": "Ya. Salin pautan begitu sahaja, atau gunakan ciri simpan .txt satu klik untuk petikan kod."
           },
           "4": {
             "q": "Adakah fail saya kekal awam?",
@@ -287,7 +285,7 @@
     "howIllustrationAlt": "Ilustrasi yang menunjukkan cara Foto ke URL berfungsi",
     "heroDropTitle": "Seret foto ke sini",
     "heroDropSubtitle": "Kami akan mengehoskan dan memberikan pautan bersih.",
-    "heroDropBadge": "Seret atau klik (JPG/PNG, sehingga 10MB)",
+    "heroDropBadge": "Seret atau klik (JPG/PNG, sehingga 5MB)",
     "logoAlt": "Logo Foto ke URL"
   },
   "circleCrop": {
@@ -303,8 +301,9 @@
       "description": "Foto ke Potongan Bulat ialah alat dalam talian percuma untuk menukarkan foto segi empat tepat kepada bentuk bulatan yang sempurna. Alat kami membantu anda memotong foto dalam format bulatan serta-merta, tanpa perlu mendaftar."
     },
     "seo": {
-      "title": "Foto ke Potongan Bulat | Pemotong Bulat Dalam Talian Percuma",
-      "description": "Alat dalam talian percuma untuk memotong sebarang foto menjadi bulatan yang sempurna - sesuai untuk gambar profil, media sosial, dan projek reka bentuk."
+      "title": "Alat Potong Bulat | Pemotong Foto Bulat Dalam Talian Percuma",
+      "description": "Alat dalam talian percuma untuk memotong sebarang foto menjadi bulatan yang sempurna - sesuai untuk gambar profil, media sosial, dan projek reka bentuk.",
+      "keywords": "potong gambar bulat, potong foto bulat, alat potong bulat, potong bulat dalam talian"
     },
     "selectRegion": {
       "title": "Pilih Wilayah",
@@ -332,8 +331,9 @@
       "description": "Foto ke Sudut Bulat ialah alat dalam talian percuma untuk menambah sudut bulat ke mana-mana foto. Cipta ikon gaya app, imej tepi lembut untuk media sosial, atau thumbnail dengan jejari dan zum yang boleh laras. Tanpa pendaftaran – muat naik, laraskan, muat turun."
     },
     "seo": {
-      "title": "Foto ke Sudut Bulat | Alat dalam talian percuma",
-      "description": "Alat percuma untuk menambah sudut bulat ke foto – untuk ikon app, gambar profil, dan projek reka bentuk."
+      "title": "Alat Sudut Bulat | Alat dalam talian percuma",
+      "description": "Alat percuma untuk menambah sudut bulat ke foto – untuk ikon app, gambar profil, dan projek reka bentuk.",
+      "keywords": "sudut bulat, gambar sudut bulat, alat sudut bulat, sudut bulat dalam talian"
     },
     "selectRegion": {
       "title": "Pilih rantau",
@@ -369,7 +369,7 @@
     },
     "page": {
       "title": "Dokumentasi",
-      "description": "Mula cepat: muat naik imej dan dapatkan URL terus. Gunakan butang salin/buka atau muat turun pautan dalam format .txt/.json/.md.",
+      "description": "Mula cepat: muat naik imej dan dapatkan URL terus. Gunakan butang salin/buka atau muat turun pautan dalam format .txt.",
       "features": {
         "title": "Ciri yang disokong:",
         "items": {
@@ -575,9 +575,52 @@
             "title": "Hubungi Kami",
             "text": "Jika anda mempunyai soalan mengenai Dasar Kuki ini, sila hubungi kami di",
             "email": "leeqs1010@gmail.com"
-          }
         }
       }
     }
+  },
+  "bookmarklet": {
+    "title": "Photo To URL Bookmarklet",
+    "description": "Muat naik imej dari mana-mana halaman web terus ke Photo To URL dengan satu klik!",
+    "howItWorks": {
+      "title": "Bagaimana ia berfungsi",
+      "step1": "Layari mana-mana halaman web dengan imej",
+      "step2": "Klik bookmarklet di bar penanda buku",
+      "step3": "Pilih imej dari halaman",
+      "step4": "Dapatkan URL dengan segera dan salin!"
+    },
+    "installation": {
+      "title": "Pemasangan",
+      "step1": {
+        "title": "Langkah 1: Salin kod Bookmarklet",
+        "description": "Klik butang di bawah untuk menyalin kod bookmarklet ke papan klip anda."
+      },
+      "step2": {
+        "title": "Langkah 2: Tambah ke pelayar anda",
+        "description": "Ikuti langkah-langkah ini berdasarkan pelayar anda:",
+        "chrome": "Chrome/Edge: Tekan Ctrl+Shift+B (Cmd+Shift+B pada Mac) untuk menunjukkan bar penanda buku, kemudian klik kanan dan pilih \"Tambah halaman\". Tampal kod sebagai URL.",
+        "firefox": "Firefox: Klik kanan pada bar penanda buku dan pilih \"Penanda buku Baru\". Tampal kod sebagai Lokasi.",
+        "safari": "Safari: Dayakan bar penanda buku (Lihat → Tunjukkan Bar Penanda Buku), kemudian seret kod ke bar penanda buku.",
+        "edge": "Alternatif: Buat penanda buku baru, edit, dan gantikan URL dengan kod yang disalin."
+      },
+      "step3": {
+        "title": "Langkah 3: Mula menggunakannya!",
+        "description": "Lawati mana-mana halaman web dengan imej dan klik bookmarklet anda untuk mula memuat naik!"
+      },
+      "copy": "Salin kod",
+      "copied": "Disalin!"
+    },
+    "usage": {
+      "title": "Ciri-ciri",
+      "description": "Bookmarklet menyediakan ciri-ciri berikut:",
+      "feature1": "Pilih mana-mana imej dari halaman web semasa",
+      "feature2": "Muat naik automatik ke Photo To URL",
+      "feature3": "Dapatkan URL yang boleh dikongsi dengan segera dengan satu klik untuk menyalin"
+    },
+    "note": {
+      "title": "Nota",
+      "content": "Bookmarklet berfungsi di kebanyakan laman web. Sesetengah laman dengan dasar keselamatan yang ketat (CORS) mungkin menghalang muat naik imej."
+    }
   }
+}
 

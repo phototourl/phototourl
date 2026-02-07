@@ -176,8 +176,8 @@ export async function GET() {
         return response.blob();
       })
       .then(function(blob) {
-        if (blob.size > 10 * 1024 * 1024) {
-          throw new Error('Image too large. Max 10MB.');
+        if (blob.size > 5 * 1024 * 1024) {
+          throw new Error('Image too large. Max 5MB.');
         }
         
         var type = blob.type;

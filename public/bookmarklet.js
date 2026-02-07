@@ -175,9 +175,9 @@
         return response.blob();
       })
       .then(function(blob) {
-        // 检查文件大小（10MB限制）
-        if (blob.size > 10 * 1024 * 1024) {
-          throw new Error('Image too large. Max 10MB.');
+        // 检查文件大小（5MB限制）
+        if (blob.size > 5 * 1024 * 1024) {
+          throw new Error('Image too large. Max 5MB.');
         }
         
         // 检查文件类型
