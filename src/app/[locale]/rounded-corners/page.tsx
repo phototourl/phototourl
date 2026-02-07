@@ -23,11 +23,8 @@ export async function generateMetadata({
     : [];
 
   // 直接返回 metadata，确保 keywords 能覆盖 layout 的设置
-  const baseMeta = getLocaleMetadata(locale, t("title"), t("description"), keywords);
-  return {
-    ...baseMeta,
-    keywords: keywords.length > 0 ? keywords : undefined,
-  };
+  // 即使 keywords 为空数组，也要明确设置以覆盖 layout 的 keywords
+  return getLocaleMetadata(locale, t("title"), t("description"), keywords.length > 0 ? keywords : []);
 }
 
 export default async function RoundedCornersPage({

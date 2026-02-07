@@ -8,10 +8,17 @@ import { siteUrl } from "@/app/seo-metadata";
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("circleCrop.seo");
   const canonicalUrl = `${siteUrl}/circle-crop`;
+  
+  // 从翻译文件中获取关键词字符串，转换为数组
+  const keywordsString = t("keywords");
+  const keywords = keywordsString && typeof keywordsString === "string" && keywordsString.trim()
+    ? keywordsString.split(",").map((k: string) => k.trim()).filter(Boolean)
+    : [];
 
   return {
     title: t("title"),
     description: t("description"),
+    keywords: keywords.length > 0 ? keywords : [],
     alternates: {
       canonical: canonicalUrl,
     },

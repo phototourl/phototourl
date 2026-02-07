@@ -109,8 +109,10 @@ export function getLocaleMetadata(
 
   // 明确设置 keywords：确保覆盖 layout 的 keywords
   // 如果提供了 keywords 数组，则使用（即使是空数组也会覆盖 layout 的 keywords）
+  // 如果 keywords 是 undefined，则不设置（保留 layout 的 keywords）
+  // 如果 keywords 是空数组，明确设置为空数组以覆盖 layout 的 keywords
   if (keywords !== undefined) {
-    metadata.keywords = keywords;
+    metadata.keywords = keywords.length > 0 ? keywords : [];
   }
 
   return metadata;
