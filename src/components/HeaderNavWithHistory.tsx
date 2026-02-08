@@ -2,7 +2,7 @@
 
 import { LocaleLink, useLocalePathname } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
-import { Circle, LayoutDashboard, SquareRoundCorner, Sparkles, BookOpen, Home } from "lucide-react";
+import { Circle, SquareRoundCorner, Sparkles, BookOpen, Home } from "lucide-react";
 
 const navLinkBase =
   "flex items-center justify-center gap-1 whitespace-nowrap rounded-lg text-xs font-medium transition-colors hover:bg-teal-50 hover:text-brand-teal h-8 w-8 sm:h-9 sm:w-auto sm:gap-1.5 sm:px-2 sm:text-sm md:h-10 md:px-2.5";
