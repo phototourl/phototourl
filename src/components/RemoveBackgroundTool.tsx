@@ -272,7 +272,7 @@ export function RemoveBackgroundTool({ showHeading = true }: RemoveBackgroundToo
         setIsModelLoading(true);
         
         try {
-          const module = await import("@imgly/background-removal");
+          const bgRemovalModule = await import("@imgly/background-removal");
           
           // 只检查是否被明确取消，不检查 isMounted（因为组件可能还在）
           if (abortController.signal.aborted) {
@@ -280,7 +280,7 @@ export function RemoveBackgroundTool({ showHeading = true }: RemoveBackgroundToo
             return;
           }
           
-          removeBackground = module.removeBackground;
+          removeBackground = bgRemovalModule.removeBackground;
           removeBackgroundRef.current = removeBackground;
           // 标记模型已加载
           sessionStorage.setItem('removeBackgroundModelLoaded', 'true');
