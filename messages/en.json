@@ -4,6 +4,7 @@
     "tagline": "Turn photos into clean, shareable links in seconds",
     "header": {
       "home": "Home",
+      "blog": "Blog",
       "subtitle": "Turn images into shareable links",
       "prompt": "Drop, paste, or upload — get a shareable link instantly",
       "circleCrop": "Photo To Circle Crop",
@@ -392,7 +393,7 @@
     },
     "page": {
       "title": "Blog",
-      "description": "We're preparing articles on photo hosting, CDN, link sharing, and SEO tips. Content coming soon.",
+      "description": "Latest articles, tutorials, and insights about image hosting, CDN, link sharing, circle crop, rounded corners, and background removal.",
       "stayTuned": "Stay tuned for guides on:",
       "guides": {
         "1": "Best practices for image to URL conversion",
@@ -404,7 +405,17 @@
       "backToBlog": "Back to Blog",
       "minRead": "min read",
       "author": "Author",
-      "viewMoreArticles": "View more articles"
+      "viewMoreArticles": "View more articles",
+      "tags": "Tags:",
+      "about": {
+        "title": "About Photo To URL Team",
+        "subtitle": "Editorial Team",
+        "description": "We build and maintain Photo To URL and write practical guides for image optimization and web performance.",
+        "website": "Website",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "View all posts"
+      }
     },
     "posts": {
       "how-to-convert-image-to-url-complete-guide": {

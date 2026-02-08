@@ -4,6 +4,7 @@
     "tagline": "Biến ảnh thành liên kết gọn gàng, dễ chia sẻ chỉ trong vài giây",
     "header": {
       "home": "Trang chủ",
+      "blog": "Blog",
       "subtitle": "Biến hình ảnh thành liên kết có thể chia sẻ",
       "prompt": "Kéo thả, dán hoặc tải lên — nhận liên kết ngay lập tức",
       "circleCrop": "Cắt ảnh thành hình tròn",
@@ -312,7 +313,7 @@
       "subtitle": "Chọn ngôn ngữ và khu vực ưa thích của bạn"
     },
     "rateService": {
-      "title": "Đánh giá Ảnh Thành Hình Tròn",
+      "title": "Đánh giá {productName}",
       "thankYou": "Cảm ơn bạn đã phản hồi!",
       "averageRating": "4.5",
       "votes": "4,992 phiếu bầu"
@@ -387,12 +388,12 @@
   },
   "blog": {
     "seo": {
-      "title": "Blog | Photo To URL",
+      "title": "Blog | Ảnh thành URL",
       "description": "Các bài viết về lưu trữ ảnh, chia sẻ liên kết và mẹo hiệu suất."
     },
     "page": {
       "title": "Blog",
-      "description": "Chúng tôi đang chuẩn bị các bài viết về lưu trữ ảnh, CDN, chia sẻ liên kết và mẹo SEO. Nội dung sắp ra mắt.",
+      "description": "Các bài viết, hướng dẫn và thông tin mới nhất về lưu trữ hình ảnh, CDN, chia sẻ liên kết, cắt hình tròn, bo góc và xóa nền.",
       "stayTuned": "Hãy theo dõi các hướng dẫn về:",
       "guides": {
         "1": "Thực hành tốt nhất để chuyển đổi hình ảnh sang URL",
@@ -404,13 +405,30 @@
       "backToBlog": "Quay lại blog",
       "minRead": "phút đọc",
       "author": "Tác giả",
-      "viewMoreArticles": "Xem thêm bài viết"
+      "viewMoreArticles": "Xem thêm bài viết",
+      "tags": "Thẻ:",
+      "about": {
+        "title": "Về đội ngũ Ảnh thành URL",
+        "subtitle": "Đội ngũ biên tập",
+        "description": "Chúng tôi xây dựng và duy trì Ảnh thành URL và viết các hướng dẫn thực tế về tối ưu hóa hình ảnh và hiệu suất web.",
+        "website": "Trang web",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Xem tất cả bài viết"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Cách chuyển đổi hình ảnh thành URL: Hướng dẫn đầy đủ cho năm 2025",
+        "description": "Tìm hiểu mọi thứ bạn cần biết về việc chuyển đổi hình ảnh thành URL có thể chia sẻ. Hướng dẫn toàn diện này bao gồm các phương pháp, thực hành tốt nhất và mẹo về lưu trữ hình ảnh và chia sẻ liên kết.",
+        "content": "# Cách chuyển đổi hình ảnh thành URL: Hướng dẫn đầy đủ cho năm 2025\n\nChuyển đổi hình ảnh thành URL có thể chia sẻ đã trở thành một kỹ năng thiết yếu trong thế giới số ngày nay. Dù bạn là blogger, nhà phát triển hay người tạo nội dung, việc hiểu cách biến đổi hình ảnh thành liên kết trực tiếp có thể cải thiện đáng kể quy trình làm việc và khả năng chia sẻ nội dung của bạn.\n\n## Tại sao chuyển đổi hình ảnh thành URL?\n\nTrước khi đi sâu vào các phương pháp, hãy hiểu tại sao chuyển đổi hình ảnh thành URL lại có lợi:\n\n### 1. **Chia Sẻ Dễ Dàng**\nURL hình ảnh trực tiếp cho phép bạn chia sẻ hình ảnh ngay lập tức mà không cần tải xuống hoặc tải lại tệp. Chỉ cần sao chép URL và dán nó ở bất cứ đâu - trong email, tài liệu hoặc bài đăng trên mạng xã hội.\n\n### 2. **Hiệu Suất Tốt Hơn**\nSử dụng liên kết hình ảnh trực tiếp giảm tải cho máy chủ chính của bạn. Khi hình ảnh được lưu trữ trên CDN (Mạng phân phối nội dung), chúng tải nhanh hơn cho người dùng trên toàn thế giới.\n\n### 3. **Linh Hoạt**\nURL hình ảnh có thể được nhúng vào HTML, Markdown hoặc sử dụng trong API. Tính linh hoạt này làm cho chúng hoàn hảo cho cả nhà phát triển và người tạo nội dung.\n\n### 4. **Hiệu Quả Lưu Trữ**\nThay vì lưu trữ hình ảnh cục bộ, bạn có thể sử dụng các giải pháp lưu trữ đám mây cung cấp URL trực tiếp, tiết kiệm không gian máy chủ quý giá.\n\n## Phương Pháp Chuyển Đổi Hình Ảnh Thành URL\n\n### Phương Pháp 1: Sử Dụng Dịch Vụ Ảnh thành URL\n\n**Ảnh thành URL** là một dịch vụ miễn phí, thân thiện với người dùng giúp việc chuyển đổi hình ảnh thành URL trở nên dễ dàng:\n\n1. **Truy cập trang web**: Điều hướng đến Ảnh thành URL\n2. **Tải lên hình ảnh của bạn**: Kéo và thả tệp hình ảnh hoặc nhấp để duyệt\n3. **Nhận URL của bạn**: Sau khi tải lên, bạn sẽ nhận được liên kết trực tiếp đến hình ảnh của mình\n4. **Sao chép và sử dụng**: Sao chép URL và sử dụng nó ở bất cứ đâu bạn cần\n\n**Ưu điểm:**\n- ✅ Không cần đăng ký\n- ✅ Tải lên và xử lý nhanh\n- ✅ Liên kết CDN trực tiếp để đạt hiệu suất tối ưu\n- ✅ Hỗ trợ nhiều định dạng hình ảnh (JPG, PNG, WEBP, GIF)\n\n### Phương Pháp 2: Dịch Vụ Lưu Trữ Đám Mây\n\nCác dịch vụ lưu trữ đám mây phổ biến cung cấp dịch vụ lưu trữ hình ảnh với quyền truy cập URL trực tiếp:\n\n**Google Cloud Storage / AWS S3:**\n- Tải hình ảnh lên bucket của bạn\n- Đặt quyền phù hợp\n- Truy cập hình ảnh qua URL trực tiếp\n- Cấu hình CDN để có hiệu suất tốt hơn\n\n**Ưu điểm:**\n- Kiểm soát hoàn toàn hình ảnh của bạn\n- Giải pháp lưu trữ có thể mở rộng\n- Hạ tầng cấp chuyên nghiệp\n\n### Phương Pháp 3: Nền Tảng Lưu Trữ Hình Ảnh\n\nCác nền tảng lưu trữ hình ảnh chuyên dụng cung cấp dịch vụ chuyên biệt:\n\n- **Imgur**: Phổ biến để chia sẻ hình ảnh nhanh\n- **Cloudinary**: Tính năng thao tác hình ảnh nâng cao\n- **ImageKit**: Tối ưu hóa cho hiệu suất\n\n## Thực Hành Tốt Nhất Cho URL Hình Ảnh\n\n### 1. **Chọn Định Dạng Đúng**\n\nCác định dạng hình ảnh khác nhau phục vụ các mục đích khác nhau:\n\n- **JPEG**: Tốt nhất cho ảnh chụp có nhiều màu\n- **PNG**: Lý tưởng cho hình ảnh có độ trong suốt hoặc cạnh sắc nét\n- **WEBP**: Định dạng hiện đại cung cấp nén tốt hơn\n- **GIF**: Hoàn hảo cho hình ảnh động\n\n### 2. **Tối Ưu Kích Thước Hình Ảnh**\n\nTrước khi chuyển đổi sang URL, hãy tối ưu hóa hình ảnh của bạn:\n\n- Nén hình ảnh để giảm kích thước tệp\n- Thay đổi kích thước hình ảnh theo kích thước phù hợp\n- Sử dụng các định dạng hiện đại như WEBP khi có thể\n- Cân bằng chất lượng và kích thước tệp\n\n### 3. **Sử Dụng CDN Để Có Hiệu Suất Tốt Hơn**\n\nMạng phân phối nội dung (CDN) phân phối hình ảnh của bạn trên nhiều máy chủ trên toàn thế giới, đảm bảo thời gian tải nhanh bất kể vị trí người dùng.\n\n### 4. **Triển Khai Bảo Mật Phù Hợp**\n\n- Sử dụng URL HTTPS để phân phối hình ảnh an toàn\n- Đặt quyền truy cập phù hợp\n- Cân nhắc thêm watermark cho nội dung nhạy cảm\n- Giám sát việc sử dụng để ngăn chặn lạm dụng\n\n## Trường Hợp Sử Dụng Phổ Biến\n\n### Cho Bloggers\n\nBloggers có thể sử dụng URL hình ảnh để:\n- Nhúng hình ảnh vào bài đăng blog mà không cần lưu trữ cục bộ\n- Cải thiện thời gian tải trang\n- Chia sẻ hình ảnh trên nhiều nền tảng\n- Duy trì chất lượng hình ảnh nhất quán\n\n### Cho Nhà Phát Triển\n\nNhà phát triển hưởng lợi từ URL hình ảnh bằng cách:\n- Giảm tải máy chủ\n- Đơn giản hóa quản lý hình ảnh\n- Cho phép tải hình ảnh động\n- Tích hợp với API và dịch vụ web\n\n### Cho Thương Mại Điện Tử\n\nCác trang web thương mại điện tử sử dụng URL hình ảnh để:\n- Hiển thị hình ảnh sản phẩm hiệu quả\n- Quản lý danh mục hình ảnh lớn\n- Tối ưu hóa cho thiết bị di động\n- Cải thiện hiệu suất trang thanh toán\n\n## Khắc Phục Sự Cố Thường Gặp\n\n### Vấn Đề: Liên Kết Hình Ảnh Bị Hỏng\n\n**Giải Pháp:**\n- Xác minh URL đúng và có thể truy cập\n- Kiểm tra quyền và cài đặt truy cập hình ảnh\n- Đảm bảo dịch vụ lưu trữ đang hoạt động\n- Xác thực định dạng hình ảnh được hỗ trợ\n\n### Vấn Đề: Thời Gian Tải Chậm\n\n**Giải Pháp:**\n- Sử dụng CDN để phân phối hình ảnh\n- Tối ưu hóa kích thước tệp hình ảnh\n- Chọn định dạng hình ảnh phù hợp\n- Triển khai tải lười biếng khi có thể\n\n### Vấn Đề: Hình Ảnh Không Hiển Thị\n\n**Giải Pháp:**\n- Kiểm tra cài đặt CORS (Chia sẻ tài nguyên đa nguồn gốc)\n- Xác minh các giao thức HTTPS/HTTP khớp\n- Đảm bảo các loại MIME phù hợp được đặt\n- Kiểm tra khả năng truy cập URL từ các vị trí khác nhau\n\n## Mẹo Nâng Cao\n\n### 1. **Xử Lý Hàng Loạt**\n\nĐối với nhiều hình ảnh, hãy cân nhắc:\n- Sử dụng API để tải lên tự động\n- Triển khai script chuyển đổi hàng loạt\n- Sử dụng API lưu trữ đám mây\n- Thiết lập quy trình làm việc tự động\n\n### 2. **Thao Tác Hình Ảnh**\n\nMột số dịch vụ cung cấp thao tác hình ảnh ngay lập tức:\n- Thay đổi kích thước hình ảnh qua tham số URL\n- Áp dụng bộ lọc và hiệu ứng\n- Chuyển đổi định dạng tự động\n- Cắt xén và xoay hình ảnh\n\n### 3. **Phân Tích Và Giám Sát**\n\nTheo dõi việc sử dụng hình ảnh của bạn:\n- Giám sát mức tiêu thụ băng thông\n- Phân tích hình ảnh phổ biến\n- Theo dõi mẫu truy cập\n- Tối ưu hóa dựa trên dữ liệu sử dụng\n\n## Kết Luận\n\nChuyển đổi hình ảnh thành URL là một quá trình đơn giản mang lại nhiều lợi ích. Dù bạn chọn một dịch vụ đơn giản như Ảnh thành URL hay một giải pháp lưu trữ đám mây toàn diện, điều quan trọng là tìm ra phương pháp phù hợp nhất với nhu cầu của bạn.\n\nHãy nhớ:\n- ✅ Tối ưu hóa hình ảnh trước khi tải lên\n- ✅ Chọn định dạng phù hợp\n- ✅ Sử dụng CDN để có hiệu suất tốt hơn\n- ✅ Triển khai các biện pháp bảo mật phù hợp\n- ✅ Giám sát và tối ưu hóa thường xuyên\n\nBằng cách làm theo các hướng dẫn này, bạn sẽ có thể chuyển đổi và quản lý hình ảnh của mình một cách hiệu quả như URL, cải thiện cả quy trình làm việc và hiệu suất nội dung của bạn.\n\n## Công Cụ Liên Quan\n\n- [Ảnh thành URL](/) - Dịch vụ chuyển đổi hình ảnh thành URL miễn phí\n- [Công Cụ Cắt Hình Tròn](/circle-crop) - Tạo hình ảnh tròn\n- [Công Cụ Góc Bo Tròn](/rounded-corners) - Thêm góc bo tròn cho hình ảnh\n- [Công Cụ Xóa Nền](/remove-background) - Xóa nền hình ảnh bằng AI\n\n---\n\n*Cập nhật lần cuối: Tháng 2 năm 2025*"
+      }
     }
   },
   "docs": {
     "seo": {
-      "title": "Tài liệu | Photo To URL",
-      "description": "Tài liệu cho Photo To URL."
+      "title": "Tài liệu | Ảnh thành URL",
+      "description": "Tài liệu cho Ảnh thành URL."
     },
     "page": {
       "title": "Tài liệu",
@@ -427,8 +445,8 @@
   },
   "status": {
     "seo": {
-      "title": "Trạng thái | Photo To URL",
-      "description": "Trạng thái dịch vụ Photo To URL."
+      "title": "Trạng thái | Ảnh thành URL",
+      "description": "Trạng thái dịch vụ Ảnh thành URL."
     },
     "page": {
       "title": "Trạng thái",
@@ -438,8 +456,8 @@
   },
   "contact": {
     "seo": {
-      "title": "Liên hệ | Photo To URL",
-      "description": "Liên hệ với bộ phận hỗ trợ Photo To URL."
+      "title": "Liên hệ | Ảnh thành URL",
+      "description": "Liên hệ với bộ phận hỗ trợ Ảnh thành URL."
     },
     "page": {
       "title": "Liên hệ",
@@ -452,14 +470,14 @@
   },
   "about": {
     "seo": {
-      "title": "Về chúng tôi | Photo To URL",
-      "description": "Tìm hiểu thêm về Photo To URL - dịch vụ lưu trữ hình ảnh miễn phí chuyển đổi ảnh thành liên kết có thể chia sẻ."
+      "title": "Về chúng tôi | Ảnh thành URL",
+      "description": "Tìm hiểu thêm về Ảnh thành URL - dịch vụ lưu trữ hình ảnh miễn phí chuyển đổi ảnh thành liên kết có thể chia sẻ."
     },
     "page": {
       "title": "Về chúng tôi",
       "mission": {
         "title": "Sứ mệnh của chúng tôi",
-        "content": "Photo To URL là dịch vụ lưu trữ hình ảnh miễn phí, nhanh chóng và đáng tin cậy được thiết kế để giúp người sáng tạo, nhà tiếp thị và nhóm chuyển đổi hình ảnh thành liên kết có thể chia sẻ ngay lập tức. Chúng tôi tin vào sự đơn giản, tốc độ và quyền riêng tư của người dùng."
+        "content": "Ảnh thành URL là dịch vụ lưu trữ hình ảnh miễn phí, nhanh chóng và đáng tin cậy được thiết kế để giúp người sáng tạo, nhà tiếp thị và nhóm chuyển đổi hình ảnh thành liên kết có thể chia sẻ ngay lập tức. Chúng tôi tin vào sự đơn giản, tốc độ và quyền riêng tư của người dùng."
       },
       "features": {
         "title": "Những gì chúng tôi cung cấp",
@@ -478,13 +496,13 @@
   "legal": {
     "privacy": {
       "seo": {
-        "title": "Chính sách bảo mật | Photo To URL",
-        "description": "Chính sách bảo mật cho Photo To URL - Tìm hiểu cách chúng tôi thu thập, sử dụng và bảo vệ dữ liệu của bạn."
+        "title": "Chính sách bảo mật | Ảnh thành URL",
+        "description": "Chính sách bảo mật cho Ảnh thành URL - Tìm hiểu cách chúng tôi thu thập, sử dụng và bảo vệ dữ liệu của bạn."
       },
       "page": {
         "title": "Chính sách bảo mật",
         "lastUpdated": "Cập nhật lần cuối: Tháng 1 năm 2026",
-        "introduction": "Tại Photo To URL, chúng tôi tôn trọng quyền riêng tư của bạn và cam kết bảo vệ thông tin cá nhân của bạn. Chính sách Bảo mật này giải thích cách chúng tôi thu thập, sử dụng, tiết lộ và bảo vệ thông tin của bạn khi bạn sử dụng dịch vụ của chúng tôi.",
+        "introduction": "Tại Ảnh thành URL, chúng tôi tôn trọng quyền riêng tư của bạn và cam kết bảo vệ thông tin cá nhân của bạn. Chính sách Bảo mật này giải thích cách chúng tôi thu thập, sử dụng, tiết lộ và bảo vệ thông tin của bạn khi bạn sử dụng dịch vụ của chúng tôi.",
         "dataCollection": {
           "title": "Thông tin chúng tôi thu thập",
           "content1": "Khi bạn tải lên hình ảnh, chúng tôi thu thập:",
@@ -550,12 +568,12 @@
     },
     "terms": {
       "seo": {
-        "title": "Điều khoản dịch vụ | Photo To URL",
-        "description": "Điều khoản dịch vụ cho Photo To URL."
+        "title": "Điều khoản dịch vụ | Ảnh thành URL",
+        "description": "Điều khoản dịch vụ cho Ảnh thành URL."
       },
       "page": {
         "title": "Điều khoản dịch vụ",
-        "content": "Bằng cách sử dụng Photo To URL, bạn đồng ý sử dụng dịch vụ một cách có trách nhiệm và không tải lên nội dung bất hợp pháp.",
+        "content": "Bằng cách sử dụng Ảnh thành URL, bạn đồng ý sử dụng dịch vụ một cách có trách nhiệm và không tải lên nội dung bất hợp pháp.",
         "disclaimer": {
           "title": "Từ chối trách nhiệm",
           "text": "Dịch vụ được cung cấp \"nguyên trạng\" không có bảo đảm. Khả năng sử dụng có thể thay đổi do bảo trì."
@@ -569,13 +587,13 @@
     },
     "cookie": {
         "seo": {
-          "title": "Chính sách Cookie | Photo To URL",
-          "description": "Chính sách Cookie cho Photo To URL - Tìm hiểu cách chúng tôi sử dụng cookie và công nghệ theo dõi."
+          "title": "Chính sách Cookie | Ảnh thành URL",
+          "description": "Chính sách Cookie cho Ảnh thành URL - Tìm hiểu cách chúng tôi sử dụng cookie và công nghệ theo dõi."
         },
         "page": {
           "title": "Chính sách Cookie",
           "lastUpdated": "Cập nhật lần cuối: Tháng 1 năm 2026",
-          "introduction": "Chính sách Cookie này giải thích cách Photo To URL sử dụng cookie và công nghệ theo dõi tương tự khi bạn truy cập trang web của chúng tôi. Bằng cách sử dụng dịch vụ của chúng tôi, bạn đồng ý với việc sử dụng cookie theo chính sách này.",
+          "introduction": "Chính sách Cookie này giải thích cách Ảnh thành URL sử dụng cookie và công nghệ theo dõi tương tự khi bạn truy cập trang web của chúng tôi. Bằng cách sử dụng dịch vụ của chúng tôi, bạn đồng ý với việc sử dụng cookie theo chính sách này.",
           "whatAreCookies": {
             "title": "Cookie là gì",
             "content": "Cookie là các tệp văn bản nhỏ được đặt trên thiết bị của bạn khi bạn truy cập một trang web. Chúng được sử dụng rộng rãi để làm cho trang web hoạt động hiệu quả hơn và cung cấp thông tin cho chủ sở hữu trang web."
@@ -625,13 +643,13 @@
       },
       "cookie": {
         "seo": {
-          "title": "Chính sách Cookie | Photo To URL",
-          "description": "Chính sách Cookie cho Photo To URL - Tìm hiểu cách chúng tôi sử dụng cookie và công nghệ theo dõi."
+          "title": "Chính sách Cookie | Ảnh thành URL",
+          "description": "Chính sách Cookie cho Ảnh thành URL - Tìm hiểu cách chúng tôi sử dụng cookie và công nghệ theo dõi."
         },
         "page": {
           "title": "Chính sách Cookie",
           "lastUpdated": "Cập nhật lần cuối: Tháng 1 năm 2026",
-          "introduction": "Chính sách Cookie này giải thích cách Photo To URL sử dụng cookie và công nghệ theo dõi tương tự khi bạn truy cập trang web của chúng tôi. Bằng cách sử dụng dịch vụ của chúng tôi, bạn đồng ý với việc sử dụng cookie theo chính sách này.",
+          "introduction": "Chính sách Cookie này giải thích cách Ảnh thành URL sử dụng cookie và công nghệ theo dõi tương tự khi bạn truy cập trang web của chúng tôi. Bằng cách sử dụng dịch vụ của chúng tôi, bạn đồng ý với việc sử dụng cookie theo chính sách này.",
           "whatAreCookies": {
             "title": "Cookie là gì",
             "content": "Cookie là các tệp văn bản nhỏ được đặt trên thiết bị của bạn khi bạn truy cập một trang web. Chúng được sử dụng rộng rãi để làm cho trang web hoạt động hiệu quả hơn và cung cấp thông tin cho chủ sở hữu trang web."

@@ -4,6 +4,7 @@
     "tagline": "Ubah foto menjadi tautan bersih yang dapat dibagikan dalam hitungan detik",
     "header": {
       "home": "Beranda",
+      "blog": "Blog",
       "subtitle": "Ubah gambar menjadi tautan yang dapat dibagikan",
       "prompt": "Letakkan, tempel, atau unggah — dapatkan tautan instan",
       "circleCrop": "Foto ke Potong Lingkaran",
@@ -312,7 +313,7 @@
       "subtitle": "Pilih bahasa dan wilayah pilihan Anda"
     },
     "rateService": {
-      "title": "Beri Nilai Foto ke Potong Lingkaran",
+      "title": "Beri Nilai {productName}",
       "thankYou": "Terima kasih atas masukan Anda!",
       "averageRating": "4.5",
       "votes": "4.992 suara"
@@ -387,12 +388,12 @@
   },
   "blog": {
     "seo": {
-      "title": "Blog | Photo To URL",
+      "title": "Blog | Foto ke URL",
       "description": "Artikel tentang hosting foto, berbagi tautan, dan tips performa."
     },
     "page": {
       "title": "Blog",
-      "description": "Kami sedang menyiapkan artikel tentang hosting foto, CDN, berbagi tautan, dan tips SEO. Konten segera hadir.",
+      "description": "Artikel, tutorial, dan wawasan terbaru tentang hosting gambar, CDN, berbagi tautan, potong lingkaran, sudut membulat, dan penghapusan latar belakang.",
       "stayTuned": "Tunggu panduan tentang:",
       "guides": {
         "1": "Praktik terbaik untuk konversi gambar ke URL",
@@ -404,13 +405,30 @@
       "backToBlog": "Kembali ke blog",
       "minRead": "menit membaca",
       "author": "Penulis",
-      "viewMoreArticles": "Lihat artikel lainnya"
+      "viewMoreArticles": "Lihat artikel lainnya",
+      "tags": "Tag:",
+      "about": {
+        "title": "Tentang Tim Foto ke URL",
+        "subtitle": "Tim Editorial",
+        "description": "Kami membangun dan memelihara Foto ke URL serta menulis panduan praktis untuk optimasi gambar dan kinerja web.",
+        "website": "Situs web",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Lihat semua postingan"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Cara Mengonversi Gambar ke URL: Panduan Lengkap untuk 2025",
+        "description": "Pelajari semua yang perlu Anda ketahui tentang mengonversi gambar menjadi URL yang dapat dibagikan. Panduan komprehensif ini mencakup metode, praktik terbaik, dan tips untuk hosting gambar dan berbagi tautan.",
+        "content": "# Cara Mengonversi Gambar ke URL: Panduan Lengkap untuk 2025\n\nMengonversi gambar menjadi URL yang dapat dibagikan telah menjadi keterampilan penting di dunia digital saat ini. Baik Anda seorang blogger, pengembang, atau pembuat konten, memahami cara mengubah gambar Anda menjadi tautan langsung dapat secara signifikan meningkatkan alur kerja dan kemampuan berbagi konten Anda.\n\n## Mengapa Mengonversi Gambar ke URL?\n\nSebelum menyelami metode-metodenya, mari kita pahami mengapa mengonversi gambar ke URL bermanfaat:\n\n### 1. **Berbagi Mudah**\nURL gambar langsung memungkinkan Anda berbagi gambar secara instan tanpa mengunduh atau mengunggah ulang file. Cukup salin URL dan tempel di mana saja - dalam email, dokumen, atau posting media sosial.\n\n### 2. **Performanya Lebih Baik**\nMenggunakan tautan gambar langsung mengurangi beban pada server utama Anda. Ketika gambar di-host di CDN (Content Delivery Network), mereka dimuat lebih cepat untuk pengguna di seluruh dunia.\n\n### 3. **Fleksibilitas**\nURL gambar dapat disematkan dalam HTML, Markdown, atau digunakan dalam API. Fleksibilitas ini membuatnya sempurna untuk pengembang dan pembuat konten.\n\n### 4. **Efisiensi Penyimpanan**\nAlih-alih menyimpan gambar secara lokal, Anda dapat menggunakan solusi penyimpanan cloud yang menyediakan URL langsung, menghemat ruang server yang berharga.\n\n## Metode untuk Mengonversi Gambar ke URL\n\n### Metode 1: Menggunakan Layanan Foto ke URL\n\n**Foto ke URL** adalah layanan gratis dan ramah pengguna yang membuat konversi gambar-ke-URL menjadi mudah:\n\n1. **Kunjungi situs web**: Navigasikan ke Foto ke URL\n2. **Unggah gambar Anda**: Seret dan lepas file gambar Anda atau klik untuk menjelajah\n3. **Dapatkan URL Anda**: Setelah diunggah, Anda akan menerima tautan langsung ke gambar Anda\n4. **Salin dan gunakan**: Salin URL dan gunakan di mana pun Anda butuhkan\n\n**Keuntungan:**\n- ✅ Tidak perlu registrasi\n- ✅ Unggah dan pemrosesan cepat\n- ✅ Tautan CDN langsung untuk performa optimal\n- ✅ Dukungan untuk berbagai format gambar (JPG, PNG, WEBP, GIF)\n\n### Metode 2: Layanan Penyimpanan Cloud\n\nLayanan penyimpanan cloud populer menawarkan hosting gambar dengan akses URL langsung:\n\n**Google Cloud Storage / AWS S3:**\n- Unggah gambar ke bucket Anda\n- Tetapkan izin yang sesuai\n- Akses gambar melalui URL langsung\n- Konfigurasikan CDN untuk performa yang lebih baik\n\n**Keuntungan:**\n- Kontrol penuh atas gambar Anda\n- Solusi penyimpanan yang dapat diskalakan\n- Infrastruktur tingkat profesional\n\n### Metode 3: Platform Hosting Gambar\n\nPlatform hosting gambar khusus menyediakan layanan khusus:\n\n- **Imgur**: Populer untuk berbagi gambar cepat\n- **Cloudinary**: Fitur manipulasi gambar lanjutan\n- **ImageKit**: Dioptimalkan untuk performa\n\n## Praktik Terbaik untuk URL Gambar\n\n### 1. **Pilih Format yang Tepat**\n\nFormat gambar yang berbeda melayani tujuan yang berbeda:\n\n- **JPEG**: Terbaik untuk foto dengan banyak warna\n- **PNG**: Ideal untuk gambar dengan transparansi atau tepi tajam\n- **WEBP**: Format modern yang menawarkan kompresi lebih baik\n- **GIF**: Sempurna untuk gambar animasi\n\n### 2. **Optimalkan Ukuran Gambar**\n\nSebelum mengonversi ke URL, optimalkan gambar Anda:\n\n- Kompres gambar untuk mengurangi ukuran file\n- Ubah ukuran gambar ke dimensi yang sesuai\n- Gunakan format modern seperti WEBP jika memungkinkan\n- Seimbangkan kualitas dan ukuran file\n\n### 3. **Gunakan CDN untuk Performa Lebih Baik**\n\nContent Delivery Networks (CDN) mendistribusikan gambar Anda di beberapa server di seluruh dunia, memastikan waktu pemuatan cepat terlepas dari lokasi pengguna.\n\n### 4. **Terapkan Keamanan yang Tepat**\n\n- Gunakan URL HTTPS untuk pengiriman gambar yang aman\n- Tetapkan izin akses yang sesuai\n- Pertimbangkan watermarking untuk konten sensitif\n- Pantau penggunaan untuk mencegah penyalahgunaan\n\n## Kasus Penggunaan Umum\n\n### Untuk Blogger\n\nBlogger dapat menggunakan URL gambar untuk:\n- Menyematkan gambar dalam posting blog tanpa menghostingnya secara lokal\n- Meningkatkan waktu pemuatan halaman\n- Berbagi gambar di beberapa platform\n- Mempertahankan kualitas gambar yang konsisten\n\n### Untuk Pengembang\n\nPengembang mendapat manfaat dari URL gambar dengan:\n- Mengurangi beban server\n- Menyederhanakan manajemen gambar\n- Mengaktifkan pemuatan gambar dinamis\n- Mengintegrasikan dengan API dan layanan web\n\n### Untuk E-commerce\n\nSitus e-commerce menggunakan URL gambar untuk:\n- Menampilkan gambar produk secara efisien\n- Mengelola katalog gambar besar\n- Mengoptimalkan untuk perangkat seluler\n- Meningkatkan performa halaman checkout\n\n## Memecahkan Masalah Umum\n\n### Masalah: Tautan Gambar Rusak\n\n**Solusi:**\n- Verifikasi URL benar dan dapat diakses\n- Periksa izin dan pengaturan akses gambar\n- Pastikan layanan hosting beroperasi\n- Validasi format gambar didukung\n\n### Masalah: Waktu Pemuatan Lambat\n\n**Solusi:**\n- Gunakan CDN untuk pengiriman gambar\n- Optimalkan ukuran file gambar\n- Pilih format gambar yang sesuai\n- Terapkan lazy loading jika memungkinkan\n\n### Masalah: Gambar Tidak Ditampilkan\n\n**Solusi:**\n- Periksa pengaturan CORS (Cross-Origin Resource Sharing)\n- Verifikasi protokol HTTPS/HTTP cocok\n- Pastikan tipe MIME yang tepat diatur\n- Uji aksesibilitas URL dari lokasi yang berbeda\n\n## Tips Lanjutan\n\n### 1. **Pemrosesan Batch**\n\nUntuk beberapa gambar, pertimbangkan:\n- Menggunakan API untuk unggahan otomatis\n- Menerapkan skrip konversi batch\n- Memanfaatkan API penyimpanan cloud\n- Menyiapkan alur kerja otomatis\n\n### 2. **Manipulasi Gambar**\n\nBeberapa layanan menawarkan manipulasi gambar langsung:\n- Mengubah ukuran gambar melalui parameter URL\n- Menerapkan filter dan efek\n- Mengonversi format secara otomatis\n- Memotong dan memutar gambar\n\n### 3. **Analitik dan Pemantauan**\n\nLacak penggunaan gambar Anda:\n- Pantau konsumsi bandwidth\n- Analisis gambar populer\n- Lacak pola akses\n- Optimalkan berdasarkan data penggunaan\n\n## Kesimpulan\n\nMengonversi gambar ke URL adalah proses yang mudah yang menawarkan banyak manfaat. Baik Anda memilih layanan sederhana seperti Foto ke URL atau solusi penyimpanan cloud yang komprehensif, kuncinya adalah menemukan metode yang paling sesuai dengan kebutuhan Anda.\n\nIngatlah untuk:\n- ✅ Optimalkan gambar sebelum mengunggah\n- ✅ Pilih format yang sesuai\n- ✅ Gunakan CDN untuk performa yang lebih baik\n- ✅ Terapkan langkah-langkah keamanan yang tepat\n- ✅ Pantau dan optimalkan secara teratur\n\nDengan mengikuti panduan ini, Anda akan dapat mengonversi dan mengelola gambar Anda sebagai URL secara efisien, meningkatkan alur kerja dan performa konten Anda.\n\n## Alat Terkait\n\n- [Foto ke URL](/) - Layanan konversi gambar ke URL gratis\n- [Alat Potong Lingkaran](/circle-crop) - Buat gambar melingkar\n- [Alat Sudut Membulat](/rounded-corners) - Tambahkan sudut membulat ke gambar\n- [Alat Hapus Latar Belakang](/remove-background) - Hapus latar belakang gambar dengan AI\n\n---\n\n*Terakhir diperbarui: Februari 2025*"
+      }
     }
   },
   "docs": {
     "seo": {
-      "title": "Dokumentasi | Photo To URL",
-      "description": "Dokumentasi untuk Photo To URL."
+      "title": "Dokumentasi | Foto ke URL",
+      "description": "Dokumentasi untuk Foto ke URL."
     },
     "page": {
       "title": "Dokumentasi",
@@ -427,8 +445,8 @@
   },
   "status": {
     "seo": {
-      "title": "Status | Photo To URL",
-      "description": "Status layanan Photo To URL."
+      "title": "Status | Foto ke URL",
+      "description": "Status layanan Foto ke URL."
     },
     "page": {
       "title": "Status",
@@ -438,8 +456,8 @@
   },
   "contact": {
     "seo": {
-      "title": "Kontak | Photo To URL",
-      "description": "Hubungi dukungan Photo To URL."
+      "title": "Kontak | Foto ke URL",
+      "description": "Hubungi dukungan Foto ke URL."
     },
     "page": {
       "title": "Kontak",
@@ -452,14 +470,14 @@
   },
   "about": {
     "seo": {
-      "title": "Tentang Kami | Photo To URL",
-      "description": "Pelajari lebih lanjut tentang Photo To URL - layanan hosting gambar gratis yang mengubah foto menjadi tautan yang dapat dibagikan."
+      "title": "Tentang Kami | Foto ke URL",
+      "description": "Pelajari lebih lanjut tentang Foto ke URL - layanan hosting gambar gratis yang mengubah foto menjadi tautan yang dapat dibagikan."
     },
     "page": {
       "title": "Tentang Kami",
       "mission": {
         "title": "Misi Kami",
-        "content": "Photo To URL adalah layanan hosting gambar gratis, cepat, dan andal yang dirancang untuk membantu kreator, pemasar, dan tim mengubah gambar menjadi tautan yang dapat dibagikan secara instan. Kami percaya pada kesederhanaan, kecepatan, dan privasi pengguna."
+        "content": "Foto ke URL adalah layanan hosting gambar gratis, cepat, dan andal yang dirancang untuk membantu kreator, pemasar, dan tim mengubah gambar menjadi tautan yang dapat dibagikan secara instan. Kami percaya pada kesederhanaan, kecepatan, dan privasi pengguna."
       },
       "features": {
         "title": "Apa yang Kami Tawarkan",
@@ -478,13 +496,13 @@
   "legal": {
     "privacy": {
       "seo": {
-        "title": "Kebijakan Privasi | Photo To URL",
-        "description": "Kebijakan Privasi untuk Photo To URL - Pelajari cara kami mengumpulkan, menggunakan, dan melindungi data Anda."
+        "title": "Kebijakan Privasi | Foto ke URL",
+        "description": "Kebijakan Privasi untuk Foto ke URL - Pelajari cara kami mengumpulkan, menggunakan, dan melindungi data Anda."
       },
       "page": {
         "title": "Kebijakan Privasi",
         "lastUpdated": "Terakhir Diperbarui: Januari 2026",
-        "introduction": "Di Photo To URL, kami menghormati privasi Anda dan berkomitmen untuk melindungi informasi pribadi Anda. Kebijakan Privasi ini menjelaskan cara kami mengumpulkan, menggunakan, mengungkapkan, dan melindungi informasi Anda saat Anda menggunakan layanan kami.",
+        "introduction": "Di Foto ke URL, kami menghormati privasi Anda dan berkomitmen untuk melindungi informasi pribadi Anda. Kebijakan Privasi ini menjelaskan cara kami mengumpulkan, menggunakan, mengungkapkan, dan melindungi informasi Anda saat Anda menggunakan layanan kami.",
         "dataCollection": {
           "title": "Informasi yang Kami Kumpulkan",
           "content1": "Saat Anda mengunggah gambar, kami mengumpulkan:",
@@ -550,12 +568,12 @@
     },
     "terms": {
       "seo": {
-        "title": "Ketentuan Layanan | Photo To URL",
-        "description": "Ketentuan Layanan untuk Photo To URL."
+        "title": "Ketentuan Layanan | Foto ke URL",
+        "description": "Ketentuan Layanan untuk Foto ke URL."
       },
       "page": {
         "title": "Ketentuan Layanan",
-        "content": "Dengan menggunakan Photo To URL, Anda setuju untuk menggunakan layanan secara bertanggung jawab dan tidak mengunggah konten ilegal.",
+        "content": "Dengan menggunakan Foto ke URL, Anda setuju untuk menggunakan layanan secara bertanggung jawab dan tidak mengunggah konten ilegal.",
         "disclaimer": {
           "title": "Penyangkalan",
           "text": "Layanan disediakan \"apa adanya\" tanpa jaminan. Ketersediaan dapat berubah karena pemeliharaan."
@@ -569,13 +587,13 @@
     },
     "cookie": {
       "seo": {
-          "title": "Kebijakan Cookie | Photo To URL",
-          "description": "Kebijakan Cookie untuk Photo To URL - Pelajari cara kami menggunakan cookie dan teknologi pelacakan."
+          "title": "Kebijakan Cookie | Foto ke URL",
+          "description": "Kebijakan Cookie untuk Foto ke URL - Pelajari cara kami menggunakan cookie dan teknologi pelacakan."
         },
         "page": {
         "title": "Kebijakan Cookie",
           "lastUpdated": "Terakhir Diperbarui: Januari 2026",
-          "introduction": "Kebijakan Cookie ini menjelaskan cara Photo To URL menggunakan cookie dan teknologi pelacakan serupa saat Anda mengunjungi situs web kami. Dengan menggunakan layanan kami, Anda menyetujui penggunaan cookie sesuai dengan kebijakan ini.",
+          "introduction": "Kebijakan Cookie ini menjelaskan cara Foto ke URL menggunakan cookie dan teknologi pelacakan serupa saat Anda mengunjungi situs web kami. Dengan menggunakan layanan kami, Anda menyetujui penggunaan cookie sesuai dengan kebijakan ini.",
           "whatAreCookies": {
             "title": "Apa itu Cookie",
             "content": "Cookie adalah file teks kecil yang ditempatkan di perangkat Anda saat Anda mengunjungi situs web. Mereka banyak digunakan untuk membuat situs web bekerja lebih efisien dan memberikan informasi kepada pemilik situs web."
@@ -625,8 +643,8 @@
     }
   },
   "bookmarklet": {
-    "title": "Photo To URL Bookmarklet",
-    "description": "Unggah gambar dari halaman web mana pun langsung ke Photo To URL dengan satu klik!",
+    "title": "Foto ke URL Bookmarklet",
+    "description": "Unggah gambar dari halaman web mana pun langsung ke Foto ke URL dengan satu klik!",
     "howItWorks": {
       "title": "Cara kerjanya",
       "step1": "Jelajahi halaman web mana pun dengan gambar",
@@ -659,7 +677,7 @@
       "title": "Fitur",
       "description": "Bookmarklet menyediakan fitur berikut:",
       "feature1": "Pilih gambar apa pun dari halaman web saat ini",
-      "feature2": "Unggah otomatis ke Photo To URL",
+      "feature2": "Unggah otomatis ke Foto ke URL",
       "feature3": "Dapatkan URL yang dapat dibagikan secara instan dengan satu klik untuk menyalin"
     },
     "note": {

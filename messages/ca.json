@@ -4,6 +4,7 @@
     "tagline": "Converteix fotos en enllaços nets i compartibles en segons",
     "header": {
       "home": "Inici",
+      "blog": "Blog",
       "subtitle": "Converteix imatges en enllaços compartibles",
       "prompt": "Arrossega, enganxa o puja — obtén un enllaç a l'instant",
       "circleCrop": "Retall en cercle",
@@ -102,7 +103,7 @@
       "tryPrefix": "Prova "
     },
     "benefits": {
-      "title": "Per què triar Photo To URL",
+      "title": "Per què triar Foto a URL",
       "subtitle": "Velocitat, enllaços nets i sense registre.",
       "items": {
         "fast": {
@@ -266,7 +267,7 @@
       "subtitle": "Trieu l'idioma i la regió preferits"
     },
     "rateService": {
-      "title": "Valoreu Photo To URL Converter",
+      "title": "Valoreu Foto a URL Converter",
       "thankYou": "Gràcies per la vostra opinió!",
       "averageRating": "4.5",
       "votes": "4,992 vots"
@@ -312,11 +313,11 @@
     "animatingSampleAlt": "Imatge de mostra utilitzada en la demostració de càrrega",
     "sampleThumbAlt": "Imatge de mostra per carregar",
     "useSampleAria": "Utilitzeu aquesta imatge de mostra",
-    "howIllustrationAlt": "Il·lustració que mostra com funciona Photo To URL",
+    "howIllustrationAlt": "Il·lustració que mostra com funciona Foto a URL",
     "heroDropTitle": "Arrossega una foto aquí",
     "heroDropSubtitle": "La millorarem i allotjarem, després retornarem un enllaç net.",
     "heroDropBadge": "Arrossega o clica (JPG/PNG, fins a 5MB)",
-    "logoAlt": "Logotip de Photo To URL"
+    "logoAlt": "Logotip de Foto a URL"
   },
   "roundedCorners": {
     "title": "Foto a cantonades arrodonides",
@@ -387,12 +388,12 @@
   },
   "blog": {
     "seo": {
-      "title": "Blog | Photo To URL",
+      "title": "Blog | Foto a URL",
       "description": "Articles sobre allotjament de fotos, compartició d'enllaços i consells de rendiment."
     },
     "page": {
       "title": "Blog",
-      "description": "Estem preparant articles sobre allotjament de fotos, CDN, compartició d'enllaços i consells SEO. El contingut arribarà aviat.",
+      "description": "Últims articles, tutorials i idees sobre allotjament d'imatges, CDN, compartir enllaços, retall circular, cantonades arrodonides i eliminació de fons.",
       "stayTuned": "Estigueu atents per a guies sobre:",
       "guides": {
         "1": "Millors pràctiques per a la conversió d'imatge a URL",
@@ -404,13 +405,30 @@
       "backToBlog": "Tornar al blog",
       "minRead": "min de lectura",
       "author": "Autor",
-      "viewMoreArticles": "Veure més articles"
+      "viewMoreArticles": "Veure més articles",
+      "tags": "Etiquetes:",
+      "about": {
+        "title": "Sobre l'equip Foto a URL",
+        "subtitle": "Equip editorial",
+        "description": "Construïm i mantenim Foto a URL i escrivim guies pràctiques per a l'optimització d'imatges i el rendiment web.",
+        "website": "Lloc web",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Veure totes les publicacions"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Com convertir una imatge a URL: Una guia completa per a 2025",
+        "description": "Apreneu tot el que necessiteu saber sobre la conversió d'imatges a URLs compartibles. Aquesta guia completa cobreix mètodes, millors pràctiques i consells per a l'allotjament d'imatges i la compartició d'enllaços.",
+        "content": "# Com convertir una imatge a URL: Una guia completa per a 2025\n\nConvertir imatges a URL compartibles s'ha convertit en una habilitat essencial en el món digital d'avui. Tant si ets bloguer, desenvolupador o creador de continguts, entendre com transformar les teves imatges en enllaços directes pot millorar significativament el teu flux de treball i les capacitats de compartició de continguts.\n\n## Per què convertir imatges a URL?\n\nAbans d'aprofundir en els mètodes, entenem per què convertir imatges a URL és beneficiós:\n\n### 1. **Compartició fàcil**\nLes URL d'imatges directes et permeten compartir imatges instantàniament sense descarregar o tornar a pujar fitxers. Simplement copia la URL i enganxa-la a qualsevol lloc - en correus electrònics, documents o publicacions a les xarxes socials.\n\n### 2. **Millor rendiment**\nL'ús d'enllaços d'imatges directes redueix la càrrega del teu servidor principal. Quan les imatges estan allotjades en una CDN (Xarxa de lliurament de continguts), es carreguen més ràpid per als usuaris de tot el món.\n\n### 3. **Flexibilitat**\nLes URL d'imatges es poden inserir en HTML, Markdown o utilitzar en API. Aquesta flexibilitat les fa perfectes tant per a desenvolupadors com per a creadors de continguts.\n\n### 4. **Eficiència d'emmagatzematge**\nEn lloc d'emmagatzemar imatges localment, pots utilitzar solucions d'emmagatzematge al núvol que proporcionen URL directes, estalviant un espai de servidor valuós.\n\n## Mètodes per convertir imatges a URL\n\n### Mètode 1: Utilitzant el servei Foto a URL\n\n**Foto a URL** és un servei gratuït i fàcil d'usar que fa que la conversió d'imatge a URL sigui sense esforç:\n\n1. **Visita el lloc web**: Navega a Foto a URL\n2. **Puja la teva imatge**: Arrossega i deixa anar el fitxer d'imatge o fes clic per navegar\n3. **Obtén la teva URL**: Un cop pujada, rebràs un enllaç directe a la teva imatge\n4. **Copia i utilitza**: Copia la URL i utilitza-la on necessitis\n\n**Avantatges:**\n- ✅ No es requereix registre\n- ✅ Pujada i processament ràpids\n- ✅ Enllaços CDN directes per a un rendiment òptim\n- ✅ Suport per a múltiples formats d'imatge (JPG, PNG, WEBP, GIF)\n\n### Mètode 2: Serveis d'emmagatzematge al núvol\n\nEls serveis populars d'emmagatzematge al núvol ofereixen allotjament d'imatges amb accés directe a URL:\n\n**Google Cloud Storage / AWS S3:**\n- Puja imatges al teu bucket\n- Estableix els permisos adequats\n- Accedeix a les imatges mitjançant URL directes\n- Configura CDN per a millor rendiment\n\n**Avantatges:**\n- Control total sobre les teves imatges\n- Solucions d'emmagatzematge escalables\n- Infraestructura de nivell professional\n\n### Mètode 3: Plataformes d'allotjament d'imatges\n\nLes plataformes dedicades d'allotjament d'imatges proporcionen serveis especialitzats:\n\n- **Imgur**: Popular per a compartició ràpida d'imatges\n- **Cloudinary**: Funcions avançades de manipulació d'imatges\n- **ImageKit**: Optimitzat per al rendiment\n\n## Millors pràctiques per a URL d'imatges\n\n### 1. **Tria el format correcte**\n\nDiferents formats d'imatge serveixen a diferents propòsits:\n\n- **JPEG**: Millor per a fotografies amb molts colors\n- **PNG**: Ideal per a imatges amb transparència o vores nítides\n- **WEBP**: Format modern que ofereix millor compressió\n- **GIF**: Perfecte per a imatges animades\n\n### 2. **Optimitza la mida de la imatge**\n\nAbans de convertir a URL, optimitza les teves imatges:\n\n- Comprimeix imatges per reduir la mida del fitxer\n- Redimensiona les imatges a dimensions adequades\n- Utilitza formats moderns com WEBP quan sigui possible\n- Equilibra qualitat i mida del fitxer\n\n### 3. **Utilitza CDN per a millor rendiment**\n\nLes xarxes de lliurament de continguts (CDN) distribueixen les teves imatges a través de múltiples servidors arreu del món, assegurant temps de càrrega ràpids independentment de la ubicació de l'usuari.\n\n### 4. **Implementa la seguretat adequada**\n\n- Utilitza URL HTTPS per a la lliurament segur d'imatges\n- Estableix permisos d'accés adequats\n- Considera la marca d'aigua per a contingut sensible\n- Supervisa l'ús per prevenir abusos\n\n## Casos d'ús comuns\n\n### Per a bloguers\n\nEls bloguers poden utilitzar URL d'imatges per:\n- Inserir imatges en publicacions de blog sense allotjar-les localment\n- Millorar els temps de càrrega de pàgines\n- Compartir imatges a través de múltiples plataformes\n- Mantenir una qualitat d'imatge consistent\n\n### Per a desenvolupadors\n\nEls desenvolupadors es beneficien de les URL d'imatges:\n- Reduint la càrrega del servidor\n- Simplificant la gestió d'imatges\n- Habilitant la càrrega dinàmica d'imatges\n- Integrant amb API i serveis web\n\n### Per a comerç electrònic\n\nEls llocs de comerç electrònic utilitzen URL d'imatges per:\n- Mostrar imatges de productes de manera eficient\n- Gestionar grans catàlegs d'imatges\n- Optimitzar per a dispositius mòbils\n- Millorar el rendiment de la pàgina de pagament\n\n## Solució de problemes comuns\n\n### Problema: Enllaços d'imatges trencats\n\n**Solució:**\n- Verifica que la URL sigui correcta i accessible\n- Comprova els permisos i la configuració d'accés de les imatges\n- Assegura't que el servei d'allotjament estigui operatiu\n- Valida que el format d'imatge sigui compatible\n\n### Problema: Temps de càrrega lents\n\n**Solució:**\n- Utilitza una CDN per a la lliurament d'imatges\n- Optimitza les mides dels fitxers d'imatge\n- Tria formats d'imatge adequats\n- Implementa la càrrega diferida quan sigui possible\n\n### Problema: La imatge no es mostra\n\n**Solució:**\n- Comprova la configuració CORS (Compartició de recursos entre orígens)\n- Verifica que els protocols HTTPS/HTTP coincideixin\n- Assegura't que s'estableixin els tipus MIME adequats\n- Prova l'accessibilitat de la URL des de diferents ubicacions\n\n## Consells avançats\n\n### 1. **Processament per lots**\n\nPer a múltiples imatges, considera:\n- Utilitzar API per a pujades automatitzades\n- Implementar scripts de conversió per lots\n- Utilitzar API d'emmagatzematge al núvol\n- Configurar fluxos de treball automatitzats\n\n### 2. **Manipulació d'imatges**\n\nAlguns serveis ofereixen manipulació d'imatges al vol:\n- Redimensionar imatges mitjançant paràmetres URL\n- Aplicar filtres i efectes\n- Convertir formats automàticament\n- Retallar i girar imatges\n\n### 3. **Anàlisi i supervisió**\n\nRastreja l'ús de les teves imatges:\n- Supervisa el consum d'ample de banda\n- Analitza imatges populars\n- Rastreja patrons d'accés\n- Optimitza basant-te en dades d'ús\n\n## Conclusió\n\nConvertir imatges a URL és un procés senzill que ofereix nombrosos beneficis. Tant si tries un servei simple com Foto a URL o una solució completa d'emmagatzematge al núvol, la clau és trobar el mètode que millor s'adapti a les teves necessitats.\n\nRecorda:\n- ✅ Optimitza les imatges abans de pujar-les\n- ✅ Tria formats adequats\n- ✅ Utilitza CDN per a millor rendiment\n- ✅ Implementa mesures de seguretat adequades\n- ✅ Supervisa i optimitza regularment\n\nSeguint aquestes directrius, podràs convertir i gestionar eficientment les teves imatges com URL, millorant tant el teu flux de treball com el rendiment del teu contingut.\n\n## Eines relacionades\n\n- [Foto a URL](/) - Servei gratuït de conversió d'imatge a URL\n- [Eina de retall circular](/circle-crop) - Crea imatges circulars\n- [Eina de cantonades arrodonides](/rounded-corners) - Afegeix cantonades arrodonides a les imatges\n- [Eina d'eliminació de fons](/remove-background) - Elimina fons d'imatges amb IA\n\n---\n\n*Última actualització: Febrer 2025*"
+      }
     }
   },
   "docs": {
     "seo": {
-      "title": "Documentació | Photo To URL",
-      "description": "Documentació per a Photo To URL."
+      "title": "Documentació | Foto a URL",
+      "description": "Documentació per a Foto a URL."
     },
     "page": {
       "title": "Documentació",
@@ -427,8 +445,8 @@
   },
   "status": {
     "seo": {
-      "title": "Estat | Photo To URL",
-      "description": "Estat del servei Photo To URL."
+      "title": "Estat | Foto a URL",
+      "description": "Estat del servei Foto a URL."
     },
     "page": {
       "title": "Estat",
@@ -438,8 +456,8 @@
   },
   "contact": {
     "seo": {
-      "title": "Contacte | Photo To URL",
-      "description": "Contacteu amb el suport de Photo To URL."
+      "title": "Contacte | Foto a URL",
+      "description": "Contacteu amb el suport de Foto a URL."
     },
     "page": {
       "title": "Contacte",
@@ -452,14 +470,14 @@
   },
   "about": {
     "seo": {
-      "title": "Sobre nosaltres | Photo To URL",
-      "description": "Més informació sobre Photo To URL - un servei gratuït d'allotjament d'imatges que converteix fotos en enllaços compartibles."
+      "title": "Sobre nosaltres | Foto a URL",
+      "description": "Més informació sobre Foto a URL - un servei gratuït d'allotjament d'imatges que converteix fotos en enllaços compartibles."
     },
     "page": {
       "title": "Sobre nosaltres",
       "mission": {
         "title": "La nostra missió",
-        "content": "Photo To URL és un servei gratuït, ràpid i fiable d'allotjament d'imatges dissenyat per ajudar creadors, especialistes en màrqueting i equips a convertir imatges en enllaços compartibles de manera instantània. Creiem en la simplicitat, la velocitat i la privacitat de l'usuari."
+        "content": "Foto a URL és un servei gratuït, ràpid i fiable d'allotjament d'imatges dissenyat per ajudar creadors, especialistes en màrqueting i equips a convertir imatges en enllaços compartibles de manera instantània. Creiem en la simplicitat, la velocitat i la privacitat de l'usuari."
       },
       "features": {
         "title": "El que oferim",
@@ -478,13 +496,13 @@
   "legal": {
     "privacy": {
       "seo": {
-        "title": "Política de privacitat | Photo To URL",
-        "description": "Política de privacitat per a Photo To URL - Apreneu com recopilem, utilitzem i protegeix les vostres dades."
+        "title": "Política de privacitat | Foto a URL",
+        "description": "Política de privacitat per a Foto a URL - Apreneu com recopilem, utilitzem i protegeix les vostres dades."
       },
       "page": {
         "title": "Política de privacitat",
         "lastUpdated": "Última actualització: gener 2026",
-        "introduction": "A Photo To URL, respectem la vostra privacitat i ens comprometem a protegir la vostra informació personal. Aquesta Política de Privacitat explica com recopilem, utilitzem, divulgem i protegeix la vostra informació quan utilitzeu el nostre servei.",
+        "introduction": "A Foto a URL, respectem la vostra privacitat i ens comprometem a protegir la vostra informació personal. Aquesta Política de Privacitat explica com recopilem, utilitzem, divulgem i protegeix la vostra informació quan utilitzeu el nostre servei.",
         "dataCollection": {
           "title": "Informació que recopilem",
           "content1": "Quan carregueu una imatge, recopilem:",
@@ -550,12 +568,12 @@
     },
     "terms": {
       "seo": {
-        "title": "Termes de servei | Photo To URL",
-        "description": "Termes de servei per a Photo To URL."
+        "title": "Termes de servei | Foto a URL",
+        "description": "Termes de servei per a Foto a URL."
       },
       "page": {
         "title": "Termes de servei",
-        "content": "En utilitzar Photo To URL, accepteu utilitzar el servei de manera responsable i no carregar contingut il·legal.",
+        "content": "En utilitzar Foto a URL, accepteu utilitzar el servei de manera responsable i no carregar contingut il·legal.",
         "disclaimer": {
           "title": "Descàrrec de responsabilitat",
           "text": "El servei es proporciona \"tal com està\" sense garanties. La disponibilitat pot canviar a causa del manteniment."
@@ -569,13 +587,13 @@
     },
     "cookie": {
       "seo": {
-          "title": "Política de cookies | Photo To URL",
-          "description": "Política de cookies per a Photo To URL - Apreneu com utilitzem cookies i tecnologies de seguiment."
+          "title": "Política de cookies | Foto a URL",
+          "description": "Política de cookies per a Foto a URL - Apreneu com utilitzem cookies i tecnologies de seguiment."
         },
         "page": {
         "title": "Política de cookies",
           "lastUpdated": "Última actualització: gener 2026",
-          "introduction": "Aquesta Política de Cookies explica com Photo To URL utilitza cookies i tecnologies de seguiment similars quan visiteu el nostre lloc web. En utilitzar el nostre servei, accepteu l'ús de cookies d'acord amb aquesta política.",
+          "introduction": "Aquesta Política de Cookies explica com Foto a URL utilitza cookies i tecnologies de seguiment similars quan visiteu el nostre lloc web. En utilitzar el nostre servei, accepteu l'ús de cookies d'acord amb aquesta política.",
           "whatAreCookies": {
             "title": "Què són les cookies",
             "content": "Les cookies són petits fitxers de text que es col·loquen al vostre dispositiu quan visiteu un lloc web. S'utilitzen àmpliament per fer que els llocs web funcionin de manera més eficient i proporcionar informació als propietaris de llocs web."
@@ -625,8 +643,8 @@
     }
   },
   "bookmarklet": {
-    "title": "Photo To URL Bookmarklet",
-    "description": "Pengeu imatges des de qualsevol pàgina web directament a Photo To URL amb un sol clic!",
+    "title": "Foto a URL Bookmarklet",
+    "description": "Pengeu imatges des de qualsevol pàgina web directament a Foto a URL amb un sol clic!",
     "howItWorks": {
       "title": "Com funciona",
       "step1": "Navegueu per qualsevol pàgina web amb imatges",
@@ -659,7 +677,7 @@
       "title": "Funcionalitats",
       "description": "El bookmarklet ofereix les següents funcionalitats:",
       "feature1": "Seleccioneu qualsevol imatge de la pàgina web actual",
-      "feature2": "Pujada automàtica a Photo To URL",
+      "feature2": "Pujada automàtica a Foto a URL",
       "feature3": "Obteniu un URL compartible instantàniament amb un clic per copiar"
     },
     "note": {

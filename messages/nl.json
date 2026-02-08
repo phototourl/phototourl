@@ -4,6 +4,7 @@
     "tagline": "Zet foto's in seconden om in schone, deelbare links",
     "header": {
       "home": "Start",
+      "blog": "Blog",
       "subtitle": "Maak van afbeeldingen deelbare links",
       "prompt": "Sleep, plak of upload — krijg direct een deelbare link",
       "circleCrop": "Foto naar cirkel bijsnijden",
@@ -312,7 +313,7 @@
       "subtitle": "Kies uw voorkeurstaal en regio"
     },
     "rateService": {
-      "title": "Beoordeel Foto naar Cirkel",
+      "title": "Beoordeel {productName}",
       "thankYou": "Bedankt voor uw feedback!",
       "averageRating": "4.5",
       "votes": "4,992 stemmen"
@@ -387,12 +388,12 @@
   },
   "blog": {
     "seo": {
-      "title": "Blog | Photo To URL",
+      "title": "Blog | Foto naar URL",
       "description": "Artikelen over fotohosting, linkdeling en prestatietips."
     },
     "page": {
       "title": "Blog",
-      "description": "We bereiden artikelen voor over fotohosting, CDN, linkdeling en SEO-tips. Inhoud komt binnenkort.",
+      "description": "Laatste artikelen, tutorials en inzichten over beeldhosting, CDN, linkdeling, cirkelgewas, afgeronde hoeken en achtergrondverwijdering.",
       "stayTuned": "Blijf op de hoogte voor gidsen over:",
       "guides": {
         "1": "Beste praktijken voor het converteren van afbeeldingen naar URL",
@@ -404,13 +405,30 @@
       "backToBlog": "Terug naar blog",
       "minRead": "min lezen",
       "author": "Auteur",
-      "viewMoreArticles": "Bekijk meer artikelen"
+      "viewMoreArticles": "Bekijk meer artikelen",
+      "tags": "Tags:",
+      "about": {
+        "title": "Over het Foto naar URL Team",
+        "subtitle": "Redactieteam",
+        "description": "We bouwen en onderhouden Foto naar URL en schrijven praktische gidsen voor beeldoptimalisatie en webprestaties.",
+        "website": "Website",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Bekijk alle berichten"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Afbeelding naar URL converteren: Een complete gids voor 2025",
+        "description": "Leer alles wat u moet weten over het converteren van afbeeldingen naar deelbare URL's. Deze uitgebreide gids behandelt methoden, best practices en tips voor beeldhosting en linkdeling.",
+        "content": "# Afbeelding naar URL converteren: Een complete gids voor 2025\n\nHet converteren van afbeeldingen naar deelbare URL's is een essentiële vaardigheid geworden in de digitale wereld van vandaag. Of u nu een blogger, ontwikkelaar of contentmaker bent, begrijpen hoe u uw afbeeldingen kunt transformeren in directe links kan uw workflow en mogelijkheden voor het delen van content aanzienlijk verbeteren.\n\n## Waarom afbeeldingen naar URL's converteren?\n\nVoordat we ingaan op de methoden, laten we begrijpen waarom het converteren van afbeeldingen naar URL's voordelig is:\n\n### 1. **Eenvoudig Delen**\nDirecte afbeeldings-URL's stellen u in staat om afbeeldingen direct te delen zonder bestanden te downloaden of opnieuw te uploaden. Kopieer gewoon de URL en plak deze overal - in e-mails, documenten of sociale mediaposts.\n\n### 2. **Betere Prestaties**\nHet gebruik van directe afbeeldingslinks vermindert de belasting van uw hoofdserver. Wanneer afbeeldingen worden gehost op een CDN (Content Delivery Network), laden ze sneller voor gebruikers wereldwijd.\n\n### 3. **Flexibiliteit**\nAfbeeldings-URL's kunnen worden ingesloten in HTML, Markdown of worden gebruikt in API's. Deze flexibiliteit maakt ze perfect voor zowel ontwikkelaars als contentmakers.\n\n### 4. **Opslagefficiëntie**\nIn plaats van afbeeldingen lokaal op te slaan, kunt u cloudopslagoplossingen gebruiken die directe URL's bieden, waardoor waardevolle serverruimte wordt bespaard.\n\n## Methoden om afbeeldingen naar URL's te converteren\n\n### Methode 1: Gebruik van de Foto naar URL-service\n\n**Foto naar URL** is een gratis, gebruiksvriendelijke service die conversie van afbeelding naar URL moeiteloos maakt:\n\n1. **Bezoek de website**: Navigeer naar Foto naar URL\n2. **Upload uw afbeelding**: Sleep en zet uw afbeeldingsbestand neer of klik om te bladeren\n3. **Krijg uw URL**: Zodra geüpload, ontvangt u een directe link naar uw afbeelding\n4. **Kopieer en gebruik**: Kopieer de URL en gebruik deze waar u maar wilt\n\n**Voordelen:**\n- ✅ Geen registratie vereist\n- ✅ Snelle upload en verwerking\n- ✅ Directe CDN-links voor optimale prestaties\n- ✅ Ondersteuning voor meerdere afbeeldingsformaten (JPG, PNG, WEBP, GIF)\n\n### Methode 2: Cloudopslagservices\n\nPopulaire cloudopslagservices bieden afbeeldingshosting met directe URL-toegang:\n\n**Google Cloud Storage / AWS S3:**\n- Upload afbeeldingen naar uw bucket\n- Stel geschikte machtigingen in\n- Toegang tot afbeeldingen via directe URL's\n- Configureer CDN voor betere prestaties\n\n**Voordelen:**\n- Volledige controle over uw afbeeldingen\n- Schaalbare opslagoplossingen\n- Infrastructuur op professioneel niveau\n\n### Methode 3: Afbeeldingshostingplatforms\n\nToegewijde afbeeldingshostingplatforms bieden gespecialiseerde services:\n\n- **Imgur**: Populair voor snelle afbeeldingsdeling\n- **Cloudinary**: Geavanceerde functies voor afbeeldingsmanipulatie\n- **ImageKit**: Geoptimaliseerd voor prestaties\n\n## Beste Praktijken voor Afbeeldings-URL's\n\n### 1. **Kies het Juiste Formaat**\n\nVerschillende afbeeldingsformaten dienen verschillende doeleinden:\n\n- **JPEG**: Best voor foto's met veel kleuren\n- **PNG**: Ideaal voor afbeeldingen met transparantie of scherpe randen\n- **WEBP**: Modern formaat met betere compressie\n- **GIF**: Perfect voor geanimeerde afbeeldingen\n\n### 2. **Optimaliseer Afbeeldingsgrootte**\n\nVoordat u naar URL converteert, optimaliseer uw afbeeldingen:\n\n- Comprimeer afbeeldingen om bestandsgrootte te verminderen\n- Wijzig de grootte van afbeeldingen naar geschikte afmetingen\n- Gebruik moderne formaten zoals WEBP wanneer mogelijk\n- Balanceer kwaliteit en bestandsgrootte\n\n### 3. **Gebruik CDN voor Betere Prestaties**\n\nContent Delivery Networks (CDN) distribueren uw afbeeldingen over meerdere servers wereldwijd, waardoor snelle laadtijden worden gegarandeerd, ongeacht de locatie van de gebruiker.\n\n### 4. **Implementeer Juiste Beveiliging**\n\n- Gebruik HTTPS-URL's voor veilige afbeeldinglevering\n- Stel geschikte toegangsmachtigingen in\n- Overweeg watermerken voor gevoelige inhoud\n- Monitor gebruik om misbruik te voorkomen\n\n## Veelvoorkomende Gebruikssituaties\n\n### Voor Bloggers\n\nBloggers kunnen afbeeldings-URL's gebruiken om:\n- Afbeeldingen in blogposts in te sluiten zonder ze lokaal te hosten\n- Paginalaadtijden te verbeteren\n- Afbeeldingen op meerdere platforms te delen\n- Consistente afbeeldingskwaliteit te behouden\n\n### Voor Ontwikkelaars\n\nOntwikkelaars profiteren van afbeeldings-URL's door:\n- Serverbelasting te verminderen\n- Afbeeldingsbeheer te vereenvoudigen\n- Dynamisch laden van afbeeldingen mogelijk te maken\n- Te integreren met API's en webservices\n\n### Voor E-commerce\n\nE-commercesites gebruiken afbeeldings-URL's om:\n- Productafbeeldingen efficiënt weer te geven\n- Grote afbeeldingscatalogi te beheren\n- Te optimaliseren voor mobiele apparaten\n- Prestaties van de checkoutpagina te verbeteren\n\n## Veelvoorkomende Problemen Oplossen\n\n### Probleem: Gebroken Afbeeldingslinks\n\n**Oplossing:**\n- Controleer of de URL correct en toegankelijk is\n- Controleer afbeeldingsmachtigingen en toegangsinstellingen\n- Zorg ervoor dat de hostingservice operationeel is\n- Valideer dat het afbeeldingsformaat wordt ondersteund\n\n### Probleem: Langzame Laadtijden\n\n**Oplossing:**\n- Gebruik een CDN voor afbeeldinglevering\n- Optimaliseer afbeeldingsbestandsgroottes\n- Kies geschikte afbeeldingsformaten\n- Implementeer lazy loading waar mogelijk\n\n### Probleem: Afbeelding Wordt Niet Weergegeven\n\n**Oplossing:**\n- Controleer CORS (Cross-Origin Resource Sharing) instellingen\n- Controleer of HTTPS/HTTP-protocollen overeenkomen\n- Zorg ervoor dat juiste MIME-types zijn ingesteld\n- Test URL-toegankelijkheid vanaf verschillende locaties\n\n## Geavanceerde Tips\n\n### 1. **Batchverwerking**\n\nVoor meerdere afbeeldingen, overweeg:\n- Gebruik van API's voor geautomatiseerde uploads\n- Implementatie van batchconversiescripts\n- Gebruik van cloudopslag-API's\n- Opzetten van geautomatiseerde workflows\n\n### 2. **Afbeeldingsmanipulatie**\n\nSommige services bieden on-the-fly afbeeldingsmanipulatie:\n- Grootte wijzigen van afbeeldingen via URL-parameters\n- Filters en effecten toepassen\n- Automatisch formaten converteren\n- Afbeeldingen bijsnijden en roteren\n\n### 3. **Analyse en Monitoring**\n\nVolg uw afbeeldingsgebruik:\n- Monitor bandbreedteverbruik\n- Analyseer populaire afbeeldingen\n- Volg toegangspatronen\n- Optimaliseer op basis van gebruiksgegevens\n\n## Conclusie\n\nHet converteren van afbeeldingen naar URL's is een eenvoudig proces dat tal van voordelen biedt. Of u nu kiest voor een eenvoudige service zoals Foto naar URL of een uitgebreide cloudopslagoplossing, de sleutel is het vinden van de methode die het beste bij uw behoeften past.\n\nVergeet niet:\n- ✅ Optimaliseer afbeeldingen voordat u ze uploadt\n- ✅ Kies geschikte formaten\n- ✅ Gebruik CDN voor betere prestaties\n- ✅ Implementeer juiste beveiligingsmaatregelen\n- ✅ Monitor en optimaliseer regelmatig\n\nDoor deze richtlijnen te volgen, kunt u uw afbeeldingen efficiënt converteren en beheren als URL's, waardoor zowel uw workflow als de prestaties van uw content worden verbeterd.\n\n## Gerelateerde Tools\n\n- [Foto naar URL](/) - Gratis service voor conversie van afbeelding naar URL\n- [Cirkelgewas Tool](/circle-crop) - Maak cirkelvormige afbeeldingen\n- [Afgeronde Hoeken Tool](/rounded-corners) - Voeg afgeronde hoeken toe aan afbeeldingen\n- [Achtergrondverwijdering Tool](/remove-background) - Verwijder afbeeldingsachtergronden met AI\n\n---\n\n*Laatst bijgewerkt: Februari 2025*"
+      }
     }
   },
   "docs": {
     "seo": {
-      "title": "Documentatie | Photo To URL",
-      "description": "Documentatie voor Photo To URL."
+      "title": "Documentatie | Foto naar URL",
+      "description": "Documentatie voor Foto naar URL."
     },
     "page": {
       "title": "Documentatie",
@@ -427,8 +445,8 @@
   },
   "status": {
     "seo": {
-      "title": "Status | Photo To URL",
-      "description": "Servicestatus voor Photo To URL."
+      "title": "Status | Foto naar URL",
+      "description": "Servicestatus voor Foto naar URL."
     },
     "page": {
       "title": "Status",
@@ -438,8 +456,8 @@
   },
   "contact": {
     "seo": {
-      "title": "Contact | Photo To URL",
-      "description": "Neem contact op met Photo To URL ondersteuning."
+      "title": "Contact | Foto naar URL",
+      "description": "Neem contact op met Foto naar URL ondersteuning."
     },
     "page": {
       "title": "Contact",
@@ -452,14 +470,14 @@
   },
   "about": {
     "seo": {
-      "title": "Over ons | Photo To URL",
-      "description": "Meer informatie over Photo To URL - een gratis beeldhostingservice die foto's omzet in deelbare links."
+      "title": "Over ons | Foto naar URL",
+      "description": "Meer informatie over Foto naar URL - een gratis beeldhostingservice die foto's omzet in deelbare links."
     },
     "page": {
       "title": "Over ons",
       "mission": {
         "title": "Onze missie",
-        "content": "Photo To URL is een gratis, snelle en betrouwbare beeldhostingservice ontworpen om makers, marketeers en teams te helpen om afbeeldingen direct om te zetten in deelbare links. We geloven in eenvoud, snelheid en gebruikersprivacy."
+        "content": "Foto naar URL is een gratis, snelle en betrouwbare beeldhostingservice ontworpen om makers, marketeers en teams te helpen om afbeeldingen direct om te zetten in deelbare links. We geloven in eenvoud, snelheid en gebruikersprivacy."
       },
       "features": {
         "title": "Wat we bieden",
@@ -478,13 +496,13 @@
   "legal": {
     "privacy": {
       "seo": {
-        "title": "Privacybeleid | Photo To URL",
-        "description": "Privacybeleid voor Photo To URL - Ontdek hoe we uw gegevens verzamelen, gebruiken en beschermen."
+        "title": "Privacybeleid | Foto naar URL",
+        "description": "Privacybeleid voor Foto naar URL - Ontdek hoe we uw gegevens verzamelen, gebruiken en beschermen."
       },
       "page": {
         "title": "Privacybeleid",
         "lastUpdated": "Laatst bijgewerkt: januari 2026",
-        "introduction": "Bij Photo To URL respecteren we uw privacy en zijn we toegewijd aan het beschermen van uw persoonlijke informatie. Dit Privacybeleid legt uit hoe we uw informatie verzamelen, gebruiken, openbaar maken en beschermen wanneer u onze service gebruikt.",
+        "introduction": "Bij Foto naar URL respecteren we uw privacy en zijn we toegewijd aan het beschermen van uw persoonlijke informatie. Dit Privacybeleid legt uit hoe we uw informatie verzamelen, gebruiken, openbaar maken en beschermen wanneer u onze service gebruikt.",
         "dataCollection": {
           "title": "Informatie die we verzamelen",
           "content1": "Wanneer u een afbeelding uploadt, verzamelen we:",
@@ -550,12 +568,12 @@
     },
     "terms": {
       "seo": {
-        "title": "Servicevoorwaarden | Photo To URL",
-        "description": "Servicevoorwaarden voor Photo To URL."
+        "title": "Servicevoorwaarden | Foto naar URL",
+        "description": "Servicevoorwaarden voor Foto naar URL."
       },
       "page": {
         "title": "Servicevoorwaarden",
-        "content": "Door Photo To URL te gebruiken, stemt u ermee in de service verantwoord te gebruiken en geen illegale inhoud te uploaden.",
+        "content": "Door Foto naar URL te gebruiken, stemt u ermee in de service verantwoord te gebruiken en geen illegale inhoud te uploaden.",
         "disclaimer": {
           "title": "Disclaimer",
           "text": "De service wordt \"zoals het is\" geleverd zonder garanties. Beschikbaarheid kan veranderen vanwege onderhoud."
@@ -569,13 +587,13 @@
     },
     "cookie": {
         "seo": {
-          "title": "Cookiebeleid | Photo To URL",
-          "description": "Cookiebeleid voor Photo To URL - Ontdek hoe we cookies en trackingtechnologieën gebruiken."
+          "title": "Cookiebeleid | Foto naar URL",
+          "description": "Cookiebeleid voor Foto naar URL - Ontdek hoe we cookies en trackingtechnologieën gebruiken."
         },
         "page": {
           "title": "Cookiebeleid",
           "lastUpdated": "Laatst bijgewerkt: januari 2026",
-          "introduction": "Dit Cookiebeleid legt uit hoe Photo To URL cookies en vergelijkbare trackingtechnologieën gebruikt wanneer u onze website bezoekt. Door onze service te gebruiken, stemt u in met het gebruik van cookies in overeenstemming met dit beleid.",
+          "introduction": "Dit Cookiebeleid legt uit hoe Foto naar URL cookies en vergelijkbare trackingtechnologieën gebruikt wanneer u onze website bezoekt. Door onze service te gebruiken, stemt u in met het gebruik van cookies in overeenstemming met dit beleid.",
           "whatAreCookies": {
             "title": "Wat zijn cookies",
             "content": "Cookies zijn kleine tekstbestanden die op uw apparaat worden geplaatst wanneer u een website bezoekt. Ze worden veel gebruikt om websites efficiënter te laten werken en informatie te verstrekken aan website-eigenaren."
@@ -625,8 +643,8 @@
     }
   },
   "bookmarklet": {
-    "title": "Photo To URL Bookmarklet",
-    "description": "Upload afbeeldingen van elke webpagina direct naar Photo To URL met één klik!",
+    "title": "Foto naar URL Bookmarklet",
+    "description": "Upload afbeeldingen van elke webpagina direct naar Foto naar URL met één klik!",
     "howItWorks": {
       "title": "Hoe het werkt",
       "step1": "Blader door een webpagina met afbeeldingen",
@@ -659,7 +677,7 @@
       "title": "Functies",
       "description": "De bookmarklet biedt de volgende functies:",
       "feature1": "Selecteer een afbeelding van de huidige webpagina",
-      "feature2": "Automatische upload naar Photo To URL",
+      "feature2": "Automatische upload naar Foto naar URL",
       "feature3": "Krijg direct een deelbare URL met één klik om te kopiëren"
     },
     "note": {

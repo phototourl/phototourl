@@ -4,6 +4,7 @@
     "tagline": "Premeňte fotky na čisté a zdieľateľné odkazy v priebehu sekúnd",
     "header": {
       "home": "Domov",
+      "blog": "Blog",
       "subtitle": "Premeňte obrázky na zdieľateľné odkazy",
       "prompt": "Presuňte, prilepte alebo nahrajte — získajte odkaz okamžite",
       "circleCrop": "Okrúhly výrez",
@@ -102,7 +103,7 @@
       "tryPrefix": "Skúste "
     },
     "benefits": {
-      "title": "Prečo si vybrať Photo To URL",
+      "title": "Prečo si vybrať Fotka na URL",
       "subtitle": "Rýchlosť, čisté odkazy a žiadna zbytočná registrácia.",
       "items": {
         "fast": {
@@ -175,7 +176,7 @@
       }
     },
     "testimonials": {
-      "title": "Tímy šetria čas s Photo To URL",
+      "title": "Tímy šetria čas s Fotka na URL",
       "subtitle": "Sociálny dôkaz na zníženie rizika a urýchlenie adopcie.",
       "items": {
         "ops": {
@@ -199,8 +200,8 @@
       "paste": "Prilepiť snímku obrazovky"
     },
     "longform": {
-      "title": "Prečo Photo To URL pomáha vášmu pracovnému postupu",
-      "p1": "Photo To URL je vytvorené pre tvorcov, marketing, podporu, operácie a každého, kto potrebuje previesť fotky na čisté, spoľahlivé odkazy. S priamym tokom nahrávania→odkaz sa vyhnete ťažkým správcom médií a nepotrebujete prihlásenie. Odkazy sú usporiadané a ľahko sa vkladajú do chatov, dokumentov, wiki, hlásení o chybách a tiketov. Tímy sa pohybujú rýchlejšie zdieľaním snímok obrazovky okamžite· navyše predvídateľné URL pomáhajú pri automatizácii, QA a ľahkých prototypoch.",
+      "title": "Prečo Fotka na URL pomáha vášmu pracovnému postupu",
+      "p1": "Fotka na URL je vytvorené pre tvorcov, marketing, podporu, operácie a každého, kto potrebuje previesť fotky na čisté, spoľahlivé odkazy. S priamym tokom nahrávania→odkaz sa vyhnete ťažkým správcom médií a nepotrebujete prihlásenie. Odkazy sú usporiadané a ľahko sa vkladajú do chatov, dokumentov, wiki, hlásení o chybách a tiketov. Tímy sa pohybujú rýchlejšie zdieľaním snímok obrazovky okamžite· navyše predvídateľné URL pomáhajú pri automatizácii, QA a ľahkých prototypoch.",
       "p2": "Skúsenosť zostáva jednoduchá: pustite, vložte alebo vyberte súbor· získajte odkaz· zdieľajte ho. Bez hluku, bez rušivých reklám, bez bariér. Vy sa sústredíte na obsah, my spravujeme hosting. Pre globálne tímy je rozhranie dostupné v niekoľkých jazykoch pri zachovaní textu jasného a univerzálneho.",
       "useCases": {
         "title": "Praktické prípady použitia",
@@ -266,7 +267,7 @@
       "subtitle": "Vyberte preferovaný jazyk a oblasť"
     },
     "rateService": {
-      "title": "Ohodnoťte Photo To URL Converter",
+      "title": "Ohodnoťte Fotka na URL Converter",
       "thankYou": "Ďakujeme za vašu spätnú väzbu!",
       "averageRating": "4.5",
       "votes": "4,992 hlasov"
@@ -377,7 +378,7 @@
   "seo": {
     "keywords": "fotka na url,obrázok na url,generátor odkazov obrázkov,konvertovať obrázok na odkaz,bezplatné hostovanie obrázkov,cdn obrázok",
     "home": {
-      "title": "Photo To URL Konvertor | Premeňte fotky na zdieľateľné odkazy",
+      "title": "Fotka na URL Konvertor | Premeňte fotky na zdieľateľné odkazy",
       "description": "Bezplatné hostovanie obrázkov: konvertujte fotky na trvalé URL okamžite. Podporuje JPG, PNG, WEBP, GIF až do 5MB. Vloženie zo schránky, rýchla CDN, čisté odkazy."
     }
   },
@@ -386,22 +387,22 @@
     "animatingSampleAlt": "Ukážkový obrázok použitý v demo nahrávaní",
     "sampleThumbAlt": "Ukážkový obrázok na nahranie",
     "useSampleAria": "Použite tento ukážkový obrázok",
-    "howIllustrationAlt": "Ilustrácia zobrazujúca, ako Photo To URL funguje",
+    "howIllustrationAlt": "Ilustrácia zobrazujúca, ako Fotka na URL funguje",
     "heroDropTitle": "Presuňte fotografiu sem",
     "heroDropSubtitle": "Vylepšíme ju a hostíme, potom vrátime čistý odkaz.",
     "heroDropBadge": "Presuňte alebo kliknite (JPG/PNG, až do 5MB)",
-    "logoAlt": "Photo To URL logo"
+    "logoAlt": "Fotka na URL logo"
   },
   "about": {
     "seo": {
-      "title": "O nás | Photo To URL",
-      "description": "Zistite viac o Photo To URL - bezplatnej službe hostovania obrázkov, ktorá konvertuje fotografie na zdieľateľné odkazy."
+      "title": "O nás | Fotka na URL",
+      "description": "Zistite viac o Fotka na URL - bezplatnej službe hostovania obrázkov, ktorá konvertuje fotografie na zdieľateľné odkazy."
     },
     "page": {
       "title": "O nás",
       "mission": {
         "title": "Naša misia",
-        "content": "Photo To URL je bezplatná, rýchla a spoľahlivá služba hostovania obrázkov navrhnutá na pomoc tvorcom, marketérom a tímom okamžite konvertovať obrázky na zdieľateľné odkazy. Veríme v jednoduchosť, rýchlosť a súkromie používateľov."
+        "content": "Fotka na URL je bezplatná, rýchla a spoľahlivá služba hostovania obrázkov navrhnutá na pomoc tvorcom, marketérom a tímom okamžite konvertovať obrázky na zdieľateľné odkazy. Veríme v jednoduchosť, rýchlosť a súkromie používateľov."
       },
       "features": {
         "title": "Čo ponúkame",
@@ -420,13 +421,13 @@
   "legal": {
     "privacy": {
       "seo": {
-        "title": "Zásady ochrany súkromia | Photo To URL",
-        "description": "Zásady ochrany súkromia pre Photo To URL - Zistite, ako zhromažďujeme, používame a chrátime vaše údaje."
+        "title": "Zásady ochrany súkromia | Fotka na URL",
+        "description": "Zásady ochrany súkromia pre Fotka na URL - Zistite, ako zhromažďujeme, používame a chrátime vaše údaje."
       },
       "page": {
         "title": "Zásady ochrany súkromia",
         "lastUpdated": "Posledná aktualizácia: január 2026",
-        "introduction": "V Photo To URL rešpektujeme vaše súkromie a sme odhodlaní chrániť vaše osobné informácie. Tieto Zásady ochrany súkromia vysvetľujú, ako zhromažďujeme, používame, zverejňujeme a chrátime vaše informácie pri používaní našej služby.",
+        "introduction": "V Fotka na URL rešpektujeme vaše súkromie a sme odhodlaní chrániť vaše osobné informácie. Tieto Zásady ochrany súkromia vysvetľujú, ako zhromažďujeme, používame, zverejňujeme a chrátime vaše informácie pri používaní našej služby.",
         "dataCollection": {
           "title": "Informácie, ktoré zhromažďujeme",
           "content1": "Keď nahrajete obrázok, zhromažďujeme:",
@@ -492,12 +493,12 @@
     },
     "terms": {
       "seo": {
-        "title": "Podmienky používania | Photo To URL",
-        "description": "Podmienky používania pre Photo To URL."
+        "title": "Podmienky používania | Fotka na URL",
+        "description": "Podmienky používania pre Fotka na URL."
       },
       "page": {
         "title": "Podmienky používania",
-        "content": "Používaním Photo To URL súhlasíte s tým, že budete službu používať zodpovedne a nenahrajete nezákonný obsah.",
+        "content": "Používaním Fotka na URL súhlasíte s tým, že budete službu používať zodpovedne a nenahrajete nezákonný obsah.",
         "disclaimer": {
           "title": "Vylúčenie zodpovednosti",
           "text": "Služba je poskytovaná \"tak, ako je\" bez záruk. Dostupnosť sa môže zmeniť z dôvodu údržby."
@@ -511,13 +512,13 @@
     },
     "cookie": {
       "seo": {
-          "title": "Zásady používania cookies | Photo To URL",
-          "description": "Zásady používania cookies pre Photo To URL - Zistite, ako používame cookies a technológie sledovania."
+          "title": "Zásady používania cookies | Fotka na URL",
+          "description": "Zásady používania cookies pre Fotka na URL - Zistite, ako používame cookies a technológie sledovania."
         },
         "page": {
         "title": "Zásady používania cookies",
           "lastUpdated": "Posledná aktualizácia: január 2026",
-          "introduction": "Tieto Zásady používania cookies vysvetľujú, ako Photo To URL používa cookies a podobné technológie sledovania pri návšteve našej webovej stránky. Používaním našej služby súhlasíte s používaním cookies v súlade s týmito zásadami.",
+          "introduction": "Tieto Zásady používania cookies vysvetľujú, ako Fotka na URL používa cookies a podobné technológie sledovania pri návšteve našej webovej stránky. Používaním našej služby súhlasíte s používaním cookies v súlade s týmito zásadami.",
           "whatAreCookies": {
             "title": "Čo sú cookies",
             "content": "Cookies sú malé textové súbory, ktoré sa umiestňujú na vaše zariadenie pri návšteve webovej stránky. Sú široko používané na to, aby webové stránky fungovali efektívnejšie a poskytovali informácie vlastníkom webových stránok."
@@ -568,12 +569,12 @@
   },
   "blog": {
     "seo": {
-      "title": "Blog | Photo To URL",
+      "title": "Blog | Fotka na URL",
       "description": "Články o hostovaní fotografií, zdieľaní odkazov a tipoch na výkon."
     },
     "page": {
       "title": "Blog",
-      "description": "Pripravujeme články o hostovaní fotografií, CDN, zdieľaní odkazov a SEO tipoch. Obsah čoskoro.",
+      "description": "Najnovšie články, návody a poznatky o hostovaní obrázkov, CDN, zdieľaní odkazov, kruhovom orezaní, zaoblených rohoch a odstránení pozadia.",
       "stayTuned": "Sledujte návody o:",
       "guides": {
         "1": "Najlepšie postupy pre konverziu obrázka na URL",
@@ -585,13 +586,30 @@
       "backToBlog": "Späť na blog",
       "minRead": "min čítania",
       "author": "Autor",
-      "viewMoreArticles": "Zobraziť viac článkov"
+      "viewMoreArticles": "Zobraziť viac článkov",
+      "tags": "Štítky:",
+      "about": {
+        "title": "O tíme Fotka na URL",
+        "subtitle": "Redakčný tím",
+        "description": "Vytvárame a udržiavame Fotka na URL a píšeme praktické sprievodcovia pre optimalizáciu obrázkov a výkon webu.",
+        "website": "Webová stránka",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Zobraziť všetky príspevky"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Ako previesť obrázok na URL: Kompletný sprievodca pre rok 2025",
+        "description": "Naučte sa všetko, čo potrebujete vedieť o prevode obrázkov na zdieľateľné URL adresy. Tento komplexný sprievodca pokrýva metódy, osvedčené postupy a tipy pre hostovanie obrázkov a zdieľanie odkazov.",
+        "content": "# Ako previesť obrázok na URL: Kompletný sprievodca pre rok 2025\n\nPrevádzanie obrázkov na zdieľateľné URL adresy sa stalo nevyhnutnou zručnosťou v dnešnom digitálnom svete. Či už ste bloger, vývojár alebo tvorca obsahu, pochopenie toho, ako transformovať svoje obrázky na priame odkazy, môže výrazne zlepšiť váš pracovný postup a schopnosti zdieľania obsahu.\n\n## Prečo previesť obrázky na URL?\n\nPredtým, ako sa ponoríme do metód, pochopme, prečo je prevod obrázkov na URL užitočný:\n\n### 1. **Jednoduché zdieľanie**\nPriame URL adresy obrázkov vám umožňujú zdieľať obrázky okamžite bez sťahovania alebo opätovného nahrávania súborov. Stačí skopírovať URL a vložiť ho kamkoľvek - do e-mailov, dokumentov alebo príspevkov na sociálnych sieťach.\n\n### 2. **Lepší výkon**\nPoužívanie priamych odkazov na obrázky znižuje záťaž vášho hlavného servera. Keď sú obrázky hostované na CDN (Content Delivery Network), načítavajú sa rýchlejšie pre používateľov po celom svete.\n\n### 3. **Flexibilita**\nURL adresy obrázkov možno vložiť do HTML, Markdown alebo použiť v API. Táto flexibilita ich robí perfektnými pre vývojárov aj tvorcov obsahu.\n\n### 4. **Efektívnosť úložiska**\nNamiesto lokálneho ukladania obrázkov môžete použiť riešenia cloudového úložiska, ktoré poskytujú priame URL adresy, čím ušetríte cenný priestor na serveri.\n\n## Metódy prevodu obrázkov na URL\n\n### Metóda 1: Použitie služby Fotka na URL\n\n**Fotka na URL** je bezplatná, používateľsky prívetivá služba, ktorá robí prevod obrázka na URL jednoduchým:\n\n1. **Navštívte webovú stránku**: Prejdite na Fotka na URL\n2. **Nahrajte svoj obrázok**: Presuňte súbor obrázka alebo kliknite na prehľadávanie\n3. **Získajte svoje URL**: Po nahratí dostanete priamy odkaz na svoj obrázok\n4. **Skopírujte a použite**: Skopírujte URL a použite ho kdekoľvek potrebujete\n\n**Výhody:**\n- ✅ Registrácia nie je potrebná\n- ✅ Rýchle nahrávanie a spracovanie\n- ✅ Priame CDN odkazy pre optimálny výkon\n- ✅ Podpora viacerých formátov obrázkov (JPG, PNG, WEBP, GIF)\n\n### Metóda 2: Služby cloudového úložiska\n\nPopulárne služby cloudového úložiska ponúkajú hostovanie obrázkov s priamym prístupom k URL:\n\n**Google Cloud Storage / AWS S3:**\n- Nahrajte obrázky do svojho bucketu\n- Nastavte vhodné oprávnenia\n- Prístup k obrázkom prostredníctvom priamych URL adries\n- Nakonfigurujte CDN pre lepší výkon\n\n**Výhody:**\n- Úplná kontrola nad vašimi obrázkami\n- Škálovateľné riešenia úložiska\n- Infraštruktúra profesionálnej úrovne\n\n### Metóda 3: Platformy pre hostovanie obrázkov\n\nVyhradené platformy pre hostovanie obrázkov poskytujú špecializované služby:\n\n- **Imgur**: Populárny pre rýchle zdieľanie obrázkov\n- **Cloudinary**: Pokročilé funkcie pre manipuláciu s obrázkami\n- **ImageKit**: Optimalizované pre výkon\n\n## Najlepšie postupy pre URL adresy obrázkov\n\n### 1. **Vyberte správny formát**\n\nRôzne formáty obrázkov slúžia rôznym účelom:\n\n- **JPEG**: Najlepší pre fotografie s mnohými farbami\n- **PNG**: Ideálny pre obrázky s priehľadnosťou alebo ostrými okrajmi\n- **WEBP**: Moderný formát ponúkajúci lepšiu kompresiu\n- **GIF**: Perfektný pre animované obrázky\n\n### 2. **Optimalizujte veľkosť obrázka**\n\nPred prevodom na URL optimalizujte svoje obrázky:\n\n- Komprimujte obrázky na zníženie veľkosti súboru\n- Zmeňte veľkosť obrázkov na vhodné rozmery\n- Používajte moderné formáty ako WEBP, keď je to možné\n- Vyvážte kvalitu a veľkosť súboru\n\n### 3. **Použite CDN pre lepší výkon**\n\nSiete pre doručovanie obsahu (CDN) distribuujú vaše obrázky na viacero serverov po celom svete, čím zabezpečujú rýchle časy načítania bez ohľadu na polohu používateľa.\n\n### 4. **Implementujte správnu bezpečnosť**\n\n- Používajte HTTPS URL adresy pre bezpečné doručovanie obrázkov\n- Nastavte vhodné oprávnenia prístupu\n- Zvážte vodoznak pre citlivý obsah\n- Sledujte použitie, aby ste zabránili zneužívaniu\n\n## Bežné prípady použitia\n\n### Pre blogerov\n\nBlogeri môžu používať URL adresy obrázkov na:\n- Vloženie obrázkov do blogových príspevkov bez ich lokálneho hostovania\n- Zlepšenie časov načítania stránok\n- Zdieľanie obrázkov na viacerých platformách\n- Udržanie konzistentnej kvality obrázkov\n\n### Pre vývojárov\n\nVývojári majú prospech z URL adries obrázkov:\n- Znížením záťaže servera\n- Zjednodušením správy obrázkov\n- Umožnením dynamického načítavania obrázkov\n- Integráciou s API a webovými službami\n\n### Pre elektronický obchod\n\nWeby elektronického obchodu používajú URL adresy obrázkov na:\n- Efektívne zobrazenie obrázkov produktov\n- Správu veľkých katalógov obrázkov\n- Optimalizáciu pre mobilné zariadenia\n- Zlepšenie výkonu stránky pokladne\n\n## Riešenie bežných problémov\n\n### Problém: Pokazené odkazy na obrázky\n\n**Riešenie:**\n- Overte, že URL je správne a dostupné\n- Skontrolujte oprávnenia a nastavenia prístupu k obrázkom\n- Uistite sa, že hostingová služba funguje\n- Overte, že formát obrázka je podporovaný\n\n### Problém: Pomalé časy načítania\n\n**Riešenie:**\n- Použite CDN pre doručovanie obrázkov\n- Optimalizujte veľkosti súborov obrázkov\n- Vyberte vhodné formáty obrázkov\n- Implementujte lenivé načítanie, kde je to možné\n\n### Problém: Obrázok sa nezobrazuje\n\n**Riešenie:**\n- Skontrolujte nastavenia CORS (Cross-Origin Resource Sharing)\n- Overte, že protokoly HTTPS/HTTP sa zhodujú\n- Uistite sa, že sú nastavené správne typy MIME\n- Otestujte dostupnosť URL z rôznych miest\n\n## Pokročilé tipy\n\n### 1. **Hromadné spracovanie**\n\nPre viacero obrázkov zvážte:\n- Použitie API pre automatizované nahrávania\n- Implementáciu skriptov pre hromadnú konverziu\n- Využitie API cloudového úložiska\n- Nastavenie automatizovaných pracovných postupov\n\n### 2. **Manipulácia s obrázkami**\n\nNiektoré služby ponúkajú manipuláciu s obrázkami za behu:\n- Zmena veľkosti obrázkov prostredníctvom URL parametrov\n- Aplikácia filtrov a efektov\n- Automatická konverzia formátov\n- Orezávanie a otáčanie obrázkov\n\n### 3. **Analytika a monitorovanie**\n\nSledujte používanie svojich obrázkov:\n- Monitorujte spotrebu šírky pásma\n- Analyzujte populárne obrázky\n- Sledujte vzory prístupu\n- Optimalizujte na základe údajov o používaní\n\n## Záver\n\nPrevádzanie obrázkov na URL adresy je jednoduchý proces, ktorý ponúka mnohé výhody. Či už zvolíte jednoduchú službu ako Fotka na URL alebo komplexné riešenie cloudového úložiska, kľúčom je nájsť metódu, ktorá najlepšie vyhovuje vašim potrebám.\n\nPamätajte:\n- ✅ Optimalizujte obrázky pred nahrávaním\n- ✅ Vyberte vhodné formáty\n- ✅ Použite CDN pre lepší výkon\n- ✅ Implementujte správne bezpečnostné opatrenia\n- ✅ Pravidelne monitorujte a optimalizujte\n\nDodržiavaním týchto pokynov budete môcť efektívne prevádzať a spravovať svoje obrázky ako URL adresy, čím zlepšíte aj svoj pracovný postup aj výkon svojho obsahu.\n\n## Súvisiace nástroje\n\n- [Fotka na URL](/) - Bezplatná služba pre prevod obrázka na URL\n- [Nástroj na kruhové orezanie](/circle-crop) - Vytvárajte kruhové obrázky\n- [Nástroj na zaoblené rohy](/rounded-corners) - Pridajte zaoblené rohy k obrázkom\n- [Nástroj na odstránenie pozadia](/remove-background) - Odstráňte pozadia obrázkov pomocou AI\n\n---\n\n*Posledná aktualizácia: Február 2025*"
+      }
     }
   },
   "docs": {
     "seo": {
-      "title": "Dokumentácia | Photo To URL",
-      "description": "Dokumentácia pre Photo To URL."
+      "title": "Dokumentácia | Fotka na URL",
+      "description": "Dokumentácia pre Fotka na URL."
     },
     "page": {
       "title": "Dokumentácia",
@@ -608,8 +626,8 @@
   },
   "status": {
     "seo": {
-      "title": "Stav | Photo To URL",
-      "description": "Stav služby pre Photo To URL."
+      "title": "Stav | Fotka na URL",
+      "description": "Stav služby pre Fotka na URL."
     },
     "page": {
       "title": "Stav",
@@ -619,8 +637,8 @@
   },
   "contact": {
     "seo": {
-      "title": "Kontakt | Photo To URL",
-      "description": "Kontaktujte podporu Photo To URL."
+      "title": "Kontakt | Fotka na URL",
+      "description": "Kontaktujte podporu Fotka na URL."
     },
     "page": {
       "title": "Kontakt",
@@ -632,8 +650,8 @@
     }
   },
   "bookmarklet": {
-    "title": "Photo To URL Bookmarklet",
-    "description": "Nahrajte obrázky z akejkoľvek webovej stránky priamo do Photo To URL jedným kliknutím!",
+    "title": "Fotka na URL Bookmarklet",
+    "description": "Nahrajte obrázky z akejkoľvek webovej stránky priamo do Fotka na URL jedným kliknutím!",
     "howItWorks": {
       "title": "Ako to funguje",
       "step1": "Prehľadajte akúkoľvek webovú stránku s obrázkami",
@@ -666,7 +684,7 @@
       "title": "Funkcie",
       "description": "Bookmarklet poskytuje nasledujúce funkcie:",
       "feature1": "Vyberte akýkoľvek obrázok z aktuálnej webovej stránky",
-      "feature2": "Automatické nahratie do Photo To URL",
+      "feature2": "Automatické nahratie do Fotka na URL",
       "feature3": "Okamžite získajte zdieľateľné URL jedným kliknutím na kopírovanie"
     },
     "note": {

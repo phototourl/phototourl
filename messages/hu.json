@@ -4,6 +4,7 @@
     "tagline": "Alakítsa fotóit tiszta, megosztható linkekké másodpercek alatt",
     "header": {
       "home": "Kezdőlap",
+      "blog": "Blog",
       "subtitle": "Képek átalakítása megosztható linkekké",
       "prompt": "Húzza be, illessze be vagy töltse fel — kapjon linket azonnal",
       "circleCrop": "Körbe vágás",
@@ -102,7 +103,7 @@
       "tryPrefix": "Próbálja ki "
     },
     "benefits": {
-      "title": "Miért választják a Photo To URL-t",
+      "title": "Miért választják a Fotó Linkké-t",
       "subtitle": "Sebesség, tiszta linkek és regisztrációmentesség.",
       "items": {
         "fast": {
@@ -175,7 +176,7 @@
       }
     },
     "testimonials": {
-      "title": "Csapatok időt takarítanak meg a Photo To URL-lal",
+      "title": "Csapatok időt takarítanak meg a Fotó Linkké-lal",
       "subtitle": "Társadalmi bizonyíték a kockázat csökkentésére és az alkalmazás felgyorsítására.",
       "items": {
         "ops": {
@@ -199,8 +200,8 @@
       "paste": "Illessze be a képernyőképet"
     },
     "longform": {
-      "title": "Miért segíti a Photo To URL a munkafolyamatát",
-      "p1": "A Photo To URL alkotóknak, marketingeseknek és csapatoknak készült, akiknek gyors és megbízható megoldásra van szükségük fotóik linkké alakításához. A közvetlen feltöltési folyamattal elkerülheti a nehézkes médiakezelőket és a bejelentkezést. A linkek rendezettek, könnyen beilleszthetők chat-alkalmazásokba, dokumentumokba vagy hibajegyekbe.",
+      "title": "Miért segíti a Fotó Linkké a munkafolyamatát",
+      "p1": "A Fotó Linkké alkotóknak, marketingeseknek és csapatoknak készült, akiknek gyors és megbízható megoldásra van szükségük fotóik linkké alakításához. A közvetlen feltöltési folyamattal elkerülheti a nehézkes médiakezelőket és a bejelentkezést. A linkek rendezettek, könnyen beilleszthetők chat-alkalmazásokba, dokumentumokba vagy hibajegyekbe.",
       "p2": "Az élmény egyszerű marad: nincs hirdetés, nincs akadály. Ön a tartalomra koncentrálhat, mi pedig intézzük a tárhelyet. Legyen szó dokumentációról vagy prezentációról, egy rövid link jobb, mint egy súlyos fájlcsatolmány.",
       "useCases": {
         "title": "Gyakorlati felhasználási esetek",
@@ -266,7 +267,7 @@
       "subtitle": "Válassza ki az előnyben részesített nyelvet és régiót"
     },
     "rateService": {
-      "title": "Értékelje a Photo To URL Converter-t",
+      "title": "Értékelje a Fotó Linkké Converter-t",
       "thankYou": "Köszönjük a visszajelzést!",
       "averageRating": "4.5",
       "votes": "4,992 szavazat"
@@ -275,7 +276,7 @@
   "seo": {
     "keywords": "fotó url-re,kép url-re,kép link generátor,kép konvertálása linkké,ingyenes kép tárhely,cdn kép",
     "home": {
-      "title": "Photo To URL Konverter | Alakítsa át a fotókat megosztható linkekké",
+      "title": "Fotó Linkké Konverter | Alakítsa át a fotókat megosztható linkekké",
       "description": "Ingyenes kép tárhely: alakítsa át a fotókat azonnali állandó URL-ekké. Támogatja a JPG, PNG, WEBP, GIF formátumokat akár 5MB-ig. Vágólap beillesztés, gyors CDN, tiszta linkek."
     }
   },
@@ -284,11 +285,11 @@
     "animatingSampleAlt": "Minta kép, amelyet a feltöltési demóban használnak",
     "sampleThumbAlt": "Minta feltöltési kép",
     "useSampleAria": "Használja ezt a minta képet",
-    "howIllustrationAlt": "Illusztráció, amely bemutatja, hogyan működik a Photo To URL",
+    "howIllustrationAlt": "Illusztráció, amely bemutatja, hogyan működik a Fotó Linkké",
     "heroDropTitle": "Húzza ide a fotót",
     "heroDropSubtitle": "Javítjuk és tároljuk, majd visszaadunk egy tiszta linket.",
     "heroDropBadge": "Húzza vagy kattintson (JPG/PNG, akár 5MB)",
-    "logoAlt": "Photo To URL logo"
+    "logoAlt": "Fotó Linkké logo"
   },
   "circleCrop": {
     "title": "Körbe vágás",
@@ -396,14 +397,14 @@
   },
   "about": {
     "seo": {
-      "title": "Rólunk | Photo To URL",
-      "description": "Tudjon meg többet a Photo To URL-ról - egy ingyenes képhosztolási szolgáltatásról, amely fényképeket megosztható linkekké alakít."
+      "title": "Rólunk | Fotó Linkké",
+      "description": "Tudjon meg többet a Fotó Linkké-ról - egy ingyenes képhosztolási szolgáltatásról, amely fényképeket megosztható linkekké alakít."
     },
     "page": {
       "title": "Rólunk",
       "mission": {
         "title": "Küldetésünk",
-        "content": "A Photo To URL egy ingyenes, gyors és megbízható képhosztolási szolgáltatás, amelyet azért terveztünk, hogy segítsen a tartalomkészítőknek, marketingeseknek és csapatoknak azonnal megosztható linkekké alakítani a képeket. Hiszünk az egyszerűségben, a sebességben és a felhasználók magánéletében."
+        "content": "A Fotó Linkké egy ingyenes, gyors és megbízható képhosztolási szolgáltatás, amelyet azért terveztünk, hogy segítsen a tartalomkészítőknek, marketingeseknek és csapatoknak azonnal megosztható linkekké alakítani a képeket. Hiszünk az egyszerűségben, a sebességben és a felhasználók magánéletében."
       },
       "features": {
         "title": "Mit kínálunk",
@@ -422,13 +423,13 @@
   "legal": {
     "privacy": {
       "seo": {
-        "title": "Adatvédelmi irányelvek | Photo To URL",
-        "description": "Adatvédelmi irányelvek a Photo To URL számára - Ismerje meg, hogyan gyűjtjük, használjuk és védjük az Ön adatait."
+        "title": "Adatvédelmi irányelvek | Fotó Linkké",
+        "description": "Adatvédelmi irányelvek a Fotó Linkké számára - Ismerje meg, hogyan gyűjtjük, használjuk és védjük az Ön adatait."
       },
       "page": {
         "title": "Adatvédelmi irányelvek",
         "lastUpdated": "Utolsó frissítés: 2026 január",
-        "introduction": "A Photo To URL-nál tiszteletben tartjuk az Ön magánéletét és elkötelezettek vagyunk az Ön személyes adatainak védelme mellett. Ez az Adatvédelmi Irányelv elmagyarázza, hogyan gyűjtjük, használjuk, közöljük és védjük az Ön információit, amikor használja szolgáltatásunkat.",
+        "introduction": "A Fotó Linkké-nál tiszteletben tartjuk az Ön magánéletét és elkötelezettek vagyunk az Ön személyes adatainak védelme mellett. Ez az Adatvédelmi Irányelv elmagyarázza, hogyan gyűjtjük, használjuk, közöljük és védjük az Ön információit, amikor használja szolgáltatásunkat.",
         "dataCollection": {
           "title": "Az általunk gyűjtött információk",
           "content1": "Amikor képet tölt fel, gyűjtünk:",
@@ -494,12 +495,12 @@
     },
     "terms": {
       "seo": {
-        "title": "Felhasználási feltételek | Photo To URL",
-        "description": "Felhasználási feltételek a Photo To URL számára."
+        "title": "Felhasználási feltételek | Fotó Linkké",
+        "description": "Felhasználási feltételek a Fotó Linkké számára."
       },
       "page": {
         "title": "Felhasználási feltételek",
-        "content": "A Photo To URL használatával Ön beleegyezik, hogy felelősségteljesen használja a szolgáltatást és nem tölt fel törvénytelen tartalmat.",
+        "content": "A Fotó Linkké használatával Ön beleegyezik, hogy felelősségteljesen használja a szolgáltatást és nem tölt fel törvénytelen tartalmat.",
         "disclaimer": {
           "title": "Felelősségkizárás",
           "text": "A szolgáltatás \"ahogy van\" alapon kerül nyújtásra, garancia nélkül. A rendelkezésre állás karbantartás miatt változhat."
@@ -513,13 +514,13 @@
     },
     "cookie": {
       "seo": {
-          "title": "Süti szabályzat | Photo To URL",
-          "description": "Süti szabályzat a Photo To URL számára - Ismerje meg, hogyan használjuk a sütiket és a követési technológiákat."
+          "title": "Süti szabályzat | Fotó Linkké",
+          "description": "Süti szabályzat a Fotó Linkké számára - Ismerje meg, hogyan használjuk a sütiket és a követési technológiákat."
         },
         "page": {
         "title": "Süti szabályzat",
           "lastUpdated": "Utolsó frissítés: 2026 január",
-          "introduction": "Ez a Süti Szabályzat elmagyarázza, hogyan használja a Photo To URL a sütiket és hasonló követési technológiákat, amikor meglátogatja webhelyünket. Szolgáltatásunk használatával Ön beleegyezik a sütik használatába e szabályzatnak megfelelően.",
+          "introduction": "Ez a Süti Szabályzat elmagyarázza, hogyan használja a Fotó Linkké a sütiket és hasonló követési technológiákat, amikor meglátogatja webhelyünket. Szolgáltatásunk használatával Ön beleegyezik a sütik használatába e szabályzatnak megfelelően.",
           "whatAreCookies": {
             "title": "Mik a sütik",
             "content": "A sütik kis szöveges fájlok, amelyeket az Ön eszközére helyeznek, amikor egy webhelyet látogat meg. Széles körben használják, hogy a webhelyek hatékonyabban működjenek és információkat szolgáltassanak a webhelytulajdonosoknak."
@@ -570,12 +571,12 @@
   },
   "blog": {
     "seo": {
-      "title": "Blog | Photo To URL",
+      "title": "Blog | Fotó Linkké",
       "description": "Cikkek a fotó tárhelyről, link megosztásról és teljesítmény tippekről."
     },
     "page": {
       "title": "Blog",
-      "description": "Készítünk cikkeket a fotó tárhelyről, CDN-ről, link megosztásról és SEO tippekről. Tartalom hamarosan.",
+      "description": "Legfrissebb cikkek, oktatóanyagok és betekintések a képbarátásról, CDN-ről, linkmegosztásról, körkörös vágásról, lekerekített sarkokról és háttér eltávolításról.",
       "stayTuned": "Kövesse az útmutatókat:",
       "guides": {
         "1": "Ajánlott eljárások kép URL-re konvertálásához",
@@ -587,13 +588,30 @@
       "backToBlog": "Vissza a bloghoz",
       "minRead": "perc olvasás",
       "author": "Szerző",
-      "viewMoreArticles": "Több cikk megtekintése"
+      "viewMoreArticles": "Több cikk megtekintése",
+      "tags": "Címkék:",
+      "about": {
+        "title": "A Fotó Linkké csapatról",
+        "subtitle": "Szerkesztőségi csapat",
+        "description": "Építjük és karbantartjuk a Fotó Linkké-t, és gyakorlati útmutatókat írunk a képoptimalizálásról és a webes teljesítményről.",
+        "website": "Weboldal",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Összes bejegyzés megtekintése"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Kép URL-lé konvertálása: Teljes útmutató 2025-höz",
+        "description": "Tanuljon meg mindent, amit tudnia kell a képek megosztható URL-ekké konvertálásáról. Ez az átfogó útmutató lefedi a módszereket, ajánlott eljárásokat és tippeket a képhosztoláshoz és linkmegosztáshoz.",
+        "content": "# Kép URL-lé konvertálása: Teljes útmutató 2025-höz\n\nA képek megosztható URL-ekké konvertálása elengedhetetlen készséggé vált a mai digitális világban. Legyen szó bloggérról, fejlesztőről vagy tartalomkészítőről, a képek közvetlen linkekké való átalakításának megértése jelentősen javíthatja munkafolyamatát és tartalommegosztási képességeit.\n\n## Miért konvertáljuk a képeket URL-ekké?\n\nMielőtt belemennénk a módszerekbe, értsük meg, miért hasznos a képek URL-ekké konvertálása:\n\n### 1. **Könnyű megosztás**\nA közvetlen kép URL-ek lehetővé teszik, hogy azonnal megossza a képeket fájlok letöltése vagy újrafeltöltése nélkül. Egyszerűen másolja a URL-t és illessze be bárhová - e-mailekbe, dokumentumokba vagy közösségi média bejegyzésekbe.\n\n### 2. **Jobb teljesítmény**\nA közvetlen kép linkek használata csökkenti a főszerver terhelését. Amikor a képek egy CDN-en (Content Delivery Network) vannak tárolva, gyorsabban töltődnek be a felhasználók számára világszerte.\n\n### 3. **Rugalmasság**\nA kép URL-ek beágyazhatók HTML-be, Markdown-ba vagy használhatók API-kban. Ez a rugalmasság tökéletessé teszi őket fejlesztők és tartalomkészítők számára egyaránt.\n\n### 4. **Tárolási hatékonyság**\nA képek helyi tárolása helyett használhat felhőalapú tárolási megoldásokat, amelyek közvetlen URL-eket biztosítanak, ezzel értékes szervertér helyet takarít meg.\n\n## Módszerek a képek URL-ekké konvertálására\n\n### Módszer 1: A Fotó Linkké szolgáltatás használata\n\nA **Fotó Linkké** egy ingyenes, felhasználóbarát szolgáltatás, amely könnyűvé teszi a kép URL-lé konvertálást:\n\n1. **Látogassa meg a weboldalt**: Navigáljon a Fotó Linkké oldalra\n2. **Töltse fel a képét**: Húzza be és ejtse le a képfájlt vagy kattintson a böngészéshez\n3. **Szerezze meg az URL-t**: Feltöltés után közvetlen linket kap a képéhez\n4. **Másolja és használja**: Másolja az URL-t és használja bárhol, ahol szükséges\n\n**Előnyök:**\n- ✅ Regisztráció nem szükséges\n- ✅ Gyors feltöltés és feldolgozás\n- ✅ Közvetlen CDN linkek optimális teljesítményhez\n- ✅ Több képformátum támogatása (JPG, PNG, WEBP, GIF)\n\n### Módszer 2: Felhőalapú tárolási szolgáltatások\n\nA népszerű felhőalapú tárolási szolgáltatások közvetlen URL hozzáféréssel kínálnak képhosztolást:\n\n**Google Cloud Storage / AWS S3:**\n- Töltse fel a képeket a bucket-jébe\n- Állítson be megfelelő engedélyeket\n- Hozzáférjen a képekhez közvetlen URL-eken keresztül\n- Konfigurálja a CDN-t jobb teljesítményhez\n\n**Előnyök:**\n- Teljes kontroll a képei felett\n- Skálázható tárolási megoldások\n- Professzionális szintű infrastruktúra\n\n### Módszer 3: Képhosztoló platformok\n\nA dedikált képhosztoló platformok specializált szolgáltatásokat nyújtanak:\n\n- **Imgur**: Népszerű a gyors kép megosztáshoz\n- **Cloudinary**: Fejlett képmanipulációs funkciók\n- **ImageKit**: Teljesítményre optimalizált\n\n## Ajánlott eljárások a kép URL-ekhez\n\n### 1. **Válassza ki a megfelelő formátumot**\n\nA különböző képformátumok különböző célokat szolgálnak:\n\n- **JPEG**: Legjobb sok színű fotóknál\n- **PNG**: Ideális átlátszóságú vagy éles szélű képekhez\n- **WEBP**: Modern formátum, amely jobb tömörítést kínál\n- **GIF**: Tökéletes animált képekhez\n\n### 2. **Optimalizálja a kép méretét**\n\nURL-lé konvertálás előtt optimalizálja a képeit:\n\n- Tömörítse a képeket a fájlméret csökkentéséhez\n- Módosítsa a képek méretét megfelelő méretekre\n- Használjon modern formátumokat, mint a WEBP, amikor lehetséges\n- Egyensúlyozza a minőséget és a fájlméretet\n\n### 3. **Használjon CDN-t jobb teljesítményhez**\n\nA tartalomszolgáltató hálózatok (CDN) több szerveren osztják szét a képeit világszerte, biztosítva a gyors betöltési időket a felhasználó helyétől függetlenül.\n\n### 4. **Valósítsa meg a megfelelő biztonságot**\n\n- Használjon HTTPS URL-eket a biztonságos képkézbesítéshez\n- Állítson be megfelelő hozzáférési engedélyeket\n- Fontolja meg a vízjelezést érzékeny tartalomhoz\n- Figyelje a használatot a visszaélések megelőzésére\n\n## Gyakori használati esetek\n\n### Bloggereknek\n\nA bloggerek a kép URL-eket használhatják:\n- Képek beágyazására blog bejegyzésekbe helyi hosztolás nélkül\n- Oldalbetöltési idők javítására\n- Képek megosztására több platformon\n- Konzisztens képminőség fenntartására\n\n### Fejlesztőknek\n\nA fejlesztők a kép URL-ekből profitálnak:\n- Szerverterhelés csökkentésével\n- Képkezelés egyszerűsítésével\n- Dinamikus képbetöltés engedélyezésével\n- API-kkal és webszolgáltatásokkal való integrációval\n\n### E-kereskedelmi oldalaknak\n\nAz e-kereskedelmi oldalak kép URL-eket használnak:\n- Termékképek hatékony megjelenítésére\n- Nagy képkatalógusok kezelésére\n- Mobil eszközökre való optimalizálásra\n- Pénztár oldal teljesítményének javítására\n\n## Gyakori problémák megoldása\n\n### Probléma: Törött kép linkek\n\n**Megoldás:**\n- Ellenőrizze, hogy az URL helyes és elérhető-e\n- Ellenőrizze a kép engedélyeket és hozzáférési beállításokat\n- Győződjön meg arról, hogy a hosztolási szolgáltatás működik\n- Érvényesítse, hogy a képformátum támogatott-e\n\n### Probléma: Lassú betöltési idők\n\n**Megoldás:**\n- Használjon CDN-t a képkézbesítéshez\n- Optimalizálja a képfájl méreteket\n- Válasszon megfelelő képformátumokat\n- Valósítsa meg a lusta betöltést, ahol lehetséges\n\n### Probléma: A kép nem jelenik meg\n\n**Megoldás:**\n- Ellenőrizze a CORS (Cross-Origin Resource Sharing) beállításokat\n- Ellenőrizze, hogy a HTTPS/HTTP protokollok egyeznek-e\n- Győződjön meg arról, hogy a megfelelő MIME típusok be vannak állítva\n- Tesztelje az URL elérhetőségét különböző helyekről\n\n## Fejlett tippek\n\n### 1. **Kötegelt feldolgozás**\n\nTöbb kép esetén fontolja meg:\n- API-k használatát automatizált feltöltésekhez\n- Kötegelt konverziós szkriptek implementálását\n- Felhőalapú tárolási API-k kihasználását\n- Automatizált munkafolyamatok beállítását\n\n### 2. **Képmanipuláció**\n\nEgyes szolgáltatások képmanipulációt kínálnak menet közben:\n- Képek átméretezése URL paramétereken keresztül\n- Szűrők és effektek alkalmazása\n- Formátumok automatikus konvertálása\n- Képek vágása és forgatása\n\n### 3. **Elemzés és monitorozás**\n\nKövesse nyomon a kép használatát:\n- Figyelje a sávszélesség fogyasztást\n- Elemezze a népszerű képeket\n- Kövesse nyomon a hozzáférési mintákat\n- Optimalizáljon használati adatok alapján\n\n## Összegzés\n\nA képek URL-ekké konvertálása egy egyszerű folyamat, amely számos előnyt kínál. Akár egy egyszerű szolgáltatást választ, mint a Fotó Linkké, akár egy átfogó felhőalapú tárolási megoldást, a kulcs az, hogy megtalálja a legjobban illeszkedő módszert.\n\nNe felejtse el:\n- ✅ Optimalizálja a képeket feltöltés előtt\n- ✅ Válasszon megfelelő formátumokat\n- ✅ Használjon CDN-t jobb teljesítményhez\n- ✅ Valósítsa meg a megfelelő biztonsági intézkedéseket\n- ✅ Rendszeresen figyelje és optimalizálja\n\nEzen irányelvek követésével hatékonyan konvertálhatja és kezelheti a képeit URL-ekként, javítva mind a munkafolyamatát, mind a tartalma teljesítményét.\n\n## Kapcsolódó eszközök\n\n- [Fotó Linkké](/) - Ingyenes kép URL-lé konverziós szolgáltatás\n- [Körkörös vágás eszköz](/circle-crop) - Hozzon létre körkörös képeket\n- [Kerekített sarkok eszköz](/rounded-corners) - Adjon hozzá kerekített sarkokat a képekhez\n- [Háttér eltávolítás eszköz](/remove-background) - Távolítsa el a kép háttereket AI-val\n\n---\n\n*Utolsó frissítés: 2025. február*"
+      }
     }
   },
   "docs": {
     "seo": {
-      "title": "Dokumentáció | Photo To URL",
-      "description": "Dokumentáció a Photo To URL-hoz."
+      "title": "Dokumentáció | Fotó Linkké",
+      "description": "Dokumentáció a Fotó Linkké-hoz."
     },
     "page": {
       "title": "Dokumentáció",
@@ -610,8 +628,8 @@
   },
   "status": {
     "seo": {
-      "title": "Állapot | Photo To URL",
-      "description": "Szolgáltatás állapota a Photo To URL-hoz."
+      "title": "Állapot | Fotó Linkké",
+      "description": "Szolgáltatás állapota a Fotó Linkké-hoz."
     },
     "page": {
       "title": "Állapot",
@@ -621,8 +639,8 @@
   },
   "contact": {
     "seo": {
-      "title": "Kapcsolat | Photo To URL",
-      "description": "Lépjen kapcsolatba a Photo To URL támogatással."
+      "title": "Kapcsolat | Fotó Linkké",
+      "description": "Lépjen kapcsolatba a Fotó Linkké támogatással."
     },
     "page": {
       "title": "Kapcsolat",
@@ -634,8 +652,8 @@
     }
   },
   "bookmarklet": {
-    "title": "Photo To URL Bookmarklet",
-    "description": "Töltsön fel képeket bármely weboldalról közvetlenül a Photo To URL-re egyetlen kattintással!",
+    "title": "Fotó Linkké Bookmarklet",
+    "description": "Töltsön fel képeket bármely weboldalról közvetlenül a Fotó Linkké-re egyetlen kattintással!",
     "howItWorks": {
       "title": "Hogyan működik",
       "step1": "Böngésszen bármely képeket tartalmazó weboldalt",
@@ -668,7 +686,7 @@
       "title": "Funkciók",
       "description": "A bookmarklet a következő funkciókat nyújtja:",
       "feature1": "Válasszon ki bármilyen képet az aktuális weboldalról",
-      "feature2": "Automatikus feltöltés a Photo To URL-re",
+      "feature2": "Automatikus feltöltés a Fotó Linkké-re",
       "feature3": "Azonnal kapjon megosztható URL-t egy kattintással a másoláshoz"
     },
     "note": {

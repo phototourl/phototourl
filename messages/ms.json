@@ -4,6 +4,7 @@
     "tagline": "Tukarkan foto menjadi pautan bersih yang boleh dikongsi dalam beberapa saat",
     "header": {
       "home": "Laman Utama",
+      "blog": "Blog",
       "subtitle": "Tukarkan imej menjadi pautan boleh dikongsi",
       "prompt": "Lepaskan, tampal, atau muat naik — dapatkan pautan boleh dikongsi serta-merta",
       "circleCrop": "Foto ke Potongan Bulat",
@@ -312,7 +313,7 @@
       "subtitle": "Pilih bahasa dan wilayah pilihan anda"
     },
     "rateService": {
-      "title": "Nilai Foto ke Potongan Bulat",
+      "title": "Nilai {productName}",
       "thankYou": "Terima kasih atas maklum balas anda!",
       "averageRating": "4.5",
       "votes": "4,992 undian"
@@ -387,12 +388,12 @@
   },
   "blog": {
     "seo": {
-      "title": "Blog | Photo To URL",
+      "title": "Blog | Foto ke URL",
       "description": "Artikel tentang pengehosan foto, perkongsian pautan, dan tips prestasi."
     },
     "page": {
       "title": "Blog",
-      "description": "Kami sedang menyediakan artikel tentang pengehosan foto, CDN, perkongsian pautan, dan tips SEO. Kandungan akan datang tidak lama lagi.",
+      "description": "Artikel, tutorial dan pandangan terkini tentang pengehosan imej, CDN, perkongsian pautan, potongan bulat, sudut bulat dan penyingkiran latar belakang.",
       "stayTuned": "Tunggu panduan tentang:",
       "guides": {
         "1": "Amalan terbaik untuk penukaran imej ke URL",
@@ -404,13 +405,30 @@
       "backToBlog": "Kembali ke blog",
       "minRead": "min membaca",
       "author": "Pengarang",
-      "viewMoreArticles": "Lihat artikel lain"
+      "viewMoreArticles": "Lihat artikel lain",
+      "tags": "Tag:",
+      "about": {
+        "title": "Mengenai Pasukan Foto ke URL",
+        "subtitle": "Pasukan Editorial",
+        "description": "Kami membina dan mengekalkan Foto ke URL serta menulis panduan praktikal untuk pengoptimuman imej dan prestasi web.",
+        "website": "Laman web",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Lihat semua siaran"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Cara Menukar Imej kepada URL: Panduan Lengkap untuk 2025",
+        "description": "Pelajari semua yang anda perlu tahu tentang menukar imej kepada URL yang boleh dikongsi. Panduan komprehensif ini merangkumi kaedah, amalan terbaik, dan tip untuk pengehosan imej dan perkongsian pautan.",
+        "content": "# Cara Menukar Imej kepada URL: Panduan Lengkap untuk 2025\n\nMenukar imej kepada URL yang boleh dikongsi telah menjadi kemahiran penting dalam dunia digital hari ini. Sama ada anda seorang blogger, pembangun, atau pencipta kandungan, memahami cara mengubah imej anda menjadi pautan langsung boleh meningkatkan aliran kerja dan keupayaan perkongsian kandungan anda dengan ketara.\n\n## Mengapa Menukar Imej kepada URL?\n\nSebelum kita menyelami kaedah, mari kita fahami mengapa menukar imej kepada URL adalah bermanfaat:\n\n### 1. **Perkongsian Mudah**\nURL imej langsung membolehkan anda berkongsi imej dengan serta-merta tanpa memuat turun atau memuat naik semula fail. Hanya salin URL dan tampal di mana-mana - dalam e-mel, dokumen, atau siaran media sosial.\n\n### 2. **Prestasi Lebih Baik**\nMenggunakan pautan imej langsung mengurangkan beban pada pelayan utama anda. Apabila imej dihoskan pada CDN (Content Delivery Network), ia dimuat lebih cepat untuk pengguna di seluruh dunia.\n\n### 3. **Fleksibiliti**\nURL imej boleh disematkan dalam HTML, Markdown, atau digunakan dalam API. Fleksibiliti ini menjadikannya sempurna untuk pembangun dan pencipta kandungan.\n\n### 4. **Kecekapan Penyimpanan**\nDaripada menyimpan imej secara tempatan, anda boleh menggunakan penyelesaian penyimpanan awan yang menyediakan URL langsung, menjimatkan ruang pelayan yang berharga.\n\n## Kaedah Menukar Imej kepada URL\n\n### Kaedah 1: Menggunakan Perkhidmatan Foto ke URL\n\n**Foto ke URL** adalah perkhidmatan percuma dan mesra pengguna yang menjadikan penukaran imej kepada URL mudah:\n\n1. **Lawati laman web**: Navigasi ke Foto ke URL\n2. **Muat naik imej anda**: Seret dan lepaskan fail imej anda atau klik untuk melayari\n3. **Dapatkan URL anda**: Setelah dimuat naik, anda akan menerima pautan langsung ke imej anda\n4. **Salin dan gunakan**: Salin URL dan gunakan di mana sahaja anda perlukan\n\n**Kelebihan:**\n- ✅ Tiada pendaftaran diperlukan\n- ✅ Muat naik dan pemprosesan pantas\n- ✅ Pautan CDN langsung untuk prestasi optimum\n- ✅ Sokongan untuk pelbagai format imej (JPG, PNG, WEBP, GIF)\n\n### Kaedah 2: Perkhidmatan Penyimpanan Awan\n\nPerkhidmatan penyimpanan awan popular menawarkan hosting imej dengan akses URL langsung:\n\n**Google Cloud Storage / AWS S3:**\n- Muat naik imej ke bucket anda\n- Tetapkan kebenaran yang sesuai\n- Akses imej melalui URL langsung\n- Konfigurasi CDN untuk prestasi yang lebih baik\n\n**Kelebihan:**\n- Kawalan penuh ke atas imej anda\n- Penyelesaian penyimpanan yang boleh ditingkatkan\n- Infrastruktur tahap profesional\n\n### Kaedah 3: Platform Hosting Imej\n\nPlatform hosting imej khusus menyediakan perkhidmatan khusus:\n\n- **Imgur**: Popular untuk perkongsian imej pantas\n- **Cloudinary**: Ciri manipulasi imej lanjutan\n- **ImageKit**: Dioptimumkan untuk prestasi\n\n## Amalan Terbaik untuk URL Imej\n\n### 1. **Pilih Format yang Betul**\n\nFormat imej yang berbeza berfungsi untuk tujuan yang berbeza:\n\n- **JPEG**: Terbaik untuk foto dengan banyak warna\n- **PNG**: Sesuai untuk imej dengan ketelusan atau tepi tajam\n- **WEBP**: Format moden yang menawarkan mampatan yang lebih baik\n- **GIF**: Sempurna untuk imej animasi\n\n### 2. **Optimumkan Saiz Imej**\n\nSebelum menukar kepada URL, optimumkan imej anda:\n\n- Mampatkan imej untuk mengurangkan saiz fail\n- Ubah saiz imej kepada dimensi yang sesuai\n- Gunakan format moden seperti WEBP apabila mungkin\n- Seimbangkan kualiti dan saiz fail\n\n### 3. **Gunakan CDN untuk Prestasi Lebih Baik**\n\nRangkaian Penghantaran Kandungan (CDN) mengedarkan imej anda di pelbagai pelayan di seluruh dunia, memastikan masa muat yang pantas tanpa mengira lokasi pengguna.\n\n### 4. **Laksanakan Keselamatan yang Betul**\n\n- Gunakan URL HTTPS untuk penghantaran imej yang selamat\n- Tetapkan kebenaran akses yang sesuai\n- Pertimbangkan watermark untuk kandungan sensitif\n- Pantau penggunaan untuk mencegah penyalahgunaan\n\n## Kes Penggunaan Biasa\n\n### Untuk Blogger\n\nBlogger boleh menggunakan URL imej untuk:\n- Menyematkan imej dalam siaran blog tanpa menghoskan secara tempatan\n- Meningkatkan masa muat halaman\n- Berkongsi imej di pelbagai platform\n- Mengekalkan kualiti imej yang konsisten\n\n### Untuk Pembangun\n\nPembangun mendapat manfaat daripada URL imej dengan:\n- Mengurangkan beban pelayan\n- Memudahkan pengurusan imej\n- Membolehkan muat imej dinamik\n- Mengintegrasikan dengan API dan perkhidmatan web\n\n### Untuk E-dagang\n\nLaman e-dagang menggunakan URL imej untuk:\n- Memaparkan imej produk dengan cekap\n- Mengurus katalog imej yang besar\n- Mengoptimumkan untuk peranti mudah alih\n- Meningkatkan prestasi halaman checkout\n\n## Menyelesaikan Masalah Biasa\n\n### Masalah: Pautan Imej Rosak\n\n**Penyelesaian:**\n- Sahkan URL adalah betul dan boleh diakses\n- Semak kebenaran dan tetapan akses imej\n- Pastikan perkhidmatan hosting beroperasi\n- Sahkan format imej disokong\n\n### Masalah: Masa Muat Perlahan\n\n**Penyelesaian:**\n- Gunakan CDN untuk penghantaran imej\n- Optimumkan saiz fail imej\n- Pilih format imej yang sesuai\n- Laksanakan muat malas di mana mungkin\n\n### Masalah: Imej Tidak Dipaparkan\n\n**Penyelesaian:**\n- Semak tetapan CORS (Cross-Origin Resource Sharing)\n- Sahkan protokol HTTPS/HTTP sepadan\n- Pastikan jenis MIME yang betul ditetapkan\n- Uji kebolehaksesan URL dari lokasi yang berbeza\n\n## Petua Lanjutan\n\n### 1. **Pemprosesan Batch**\n\nUntuk pelbagai imej, pertimbangkan:\n- Menggunakan API untuk muat naik automatik\n- Melaksanakan skrip penukaran batch\n- Memanfaatkan API penyimpanan awan\n- Menyediakan aliran kerja automatik\n\n### 2. **Manipulasi Imej**\n\nSesetengah perkhidmatan menawarkan manipulasi imej secara langsung:\n- Mengubah saiz imej melalui parameter URL\n- Menggunakan penapis dan kesan\n- Menukar format secara automatik\n- Memotong dan memutar imej\n\n### 3. **Analitik dan Pemantauan**\n\nJejaki penggunaan imej anda:\n- Pantau penggunaan lebar jalur\n- Analisis imej popular\n- Jejaki corak akses\n- Optimumkan berdasarkan data penggunaan\n\n## Kesimpulan\n\nMenukar imej kepada URL adalah proses yang mudah yang menawarkan banyak faedah. Sama ada anda memilih perkhidmatan mudah seperti Foto ke URL atau penyelesaian penyimpanan awan yang komprehensif, kunci adalah mencari kaedah yang paling sesuai dengan keperluan anda.\n\nIngat untuk:\n- ✅ Optimumkan imej sebelum memuat naik\n- ✅ Pilih format yang sesuai\n- ✅ Gunakan CDN untuk prestasi yang lebih baik\n- ✅ Laksanakan langkah keselamatan yang betul\n- ✅ Pantau dan optimumkan secara berkala\n\nDengan mengikuti garis panduan ini, anda akan dapat menukar dan mengurus imej anda sebagai URL dengan cekap, meningkatkan aliran kerja dan prestasi kandungan anda.\n\n## Alat Berkaitan\n\n- [Foto ke URL](/) - Perkhidmatan penukaran imej kepada URL percuma\n- [Alat Potong Bulat](/circle-crop) - Cipta imej bulat\n- [Alat Sudut Bulat](/rounded-corners) - Tambah sudut bulat pada imej\n- [Alat Buang Latar Belakang](/remove-background) - Buang latar belakang imej dengan AI\n\n---\n\n*Kemaskini terakhir: Februari 2025*"
+      }
     }
   },
   "docs": {
     "seo": {
-      "title": "Dokumentasi | Photo To URL",
-      "description": "Dokumentasi untuk Photo To URL."
+      "title": "Dokumentasi | Foto ke URL",
+      "description": "Dokumentasi untuk Foto ke URL."
     },
     "page": {
       "title": "Dokumentasi",
@@ -427,8 +445,8 @@
   },
   "status": {
     "seo": {
-      "title": "Status | Photo To URL",
-      "description": "Status perkhidmatan Photo To URL."
+      "title": "Status | Foto ke URL",
+      "description": "Status perkhidmatan Foto ke URL."
     },
     "page": {
       "title": "Status",
@@ -438,8 +456,8 @@
   },
   "contact": {
     "seo": {
-      "title": "Hubungi | Photo To URL",
-      "description": "Hubungi sokongan Photo To URL."
+      "title": "Hubungi | Foto ke URL",
+      "description": "Hubungi sokongan Foto ke URL."
     },
     "page": {
       "title": "Hubungi",
@@ -452,14 +470,14 @@
   },
   "about": {
     "seo": {
-      "title": "Tentang Kami | Photo To URL",
-      "description": "Ketahui lebih lanjut mengenai Photo To URL - perkhidmatan hosting imej percuma yang menukar foto kepada pautan yang boleh dikongsi."
+      "title": "Tentang Kami | Foto ke URL",
+      "description": "Ketahui lebih lanjut mengenai Foto ke URL - perkhidmatan hosting imej percuma yang menukar foto kepada pautan yang boleh dikongsi."
     },
     "page": {
       "title": "Tentang Kami",
       "mission": {
         "title": "Misi Kami",
-        "content": "Photo To URL adalah perkhidmatan hosting imej percuma, pantas dan boleh dipercayai yang direka untuk membantu pencipta, pemasar dan pasukan menukar imej kepada pautan yang boleh dikongsi dengan serta-merta. Kami percaya pada kesederhanaan, kelajuan dan privasi pengguna."
+        "content": "Foto ke URL adalah perkhidmatan hosting imej percuma, pantas dan boleh dipercayai yang direka untuk membantu pencipta, pemasar dan pasukan menukar imej kepada pautan yang boleh dikongsi dengan serta-merta. Kami percaya pada kesederhanaan, kelajuan dan privasi pengguna."
       },
       "features": {
         "title": "Apa yang Kami Tawarkan",
@@ -478,13 +496,13 @@
   "legal": {
     "privacy": {
       "seo": {
-        "title": "Dasar Privasi | Photo To URL",
-        "description": "Dasar Privasi untuk Photo To URL - Ketahui cara kami mengumpul, menggunakan dan melindungi data anda."
+        "title": "Dasar Privasi | Foto ke URL",
+        "description": "Dasar Privasi untuk Foto ke URL - Ketahui cara kami mengumpul, menggunakan dan melindungi data anda."
       },
       "page": {
         "title": "Dasar Privasi",
         "lastUpdated": "Kemaskini Terakhir: Januari 2026",
-        "introduction": "Di Photo To URL, kami menghormati privasi anda dan komited untuk melindungi maklumat peribadi anda. Dasar Privasi ini menerangkan cara kami mengumpul, menggunakan, mendedahkan dan melindungi maklumat anda semasa anda menggunakan perkhidmatan kami.",
+        "introduction": "Di Foto ke URL, kami menghormati privasi anda dan komited untuk melindungi maklumat peribadi anda. Dasar Privasi ini menerangkan cara kami mengumpul, menggunakan, mendedahkan dan melindungi maklumat anda semasa anda menggunakan perkhidmatan kami.",
         "dataCollection": {
           "title": "Maklumat yang Kami Kumpulkan",
           "content1": "Apabila anda memuat naik imej, kami mengumpulkan:",
@@ -550,12 +568,12 @@
     },
     "terms": {
       "seo": {
-        "title": "Terma Perkhidmatan | Photo To URL",
-        "description": "Terma Perkhidmatan untuk Photo To URL."
+        "title": "Terma Perkhidmatan | Foto ke URL",
+        "description": "Terma Perkhidmatan untuk Foto ke URL."
       },
       "page": {
         "title": "Terma Perkhidmatan",
-        "content": "Dengan menggunakan Photo To URL, anda bersetuju untuk menggunakan perkhidmatan secara bertanggungjawab dan tidak memuat naik kandungan haram.",
+        "content": "Dengan menggunakan Foto ke URL, anda bersetuju untuk menggunakan perkhidmatan secara bertanggungjawab dan tidak memuat naik kandungan haram.",
         "disclaimer": {
           "title": "Penafian",
           "text": "Perkhidmatan disediakan \"sebagaimana adanya\" tanpa jaminan. Ketersediaan mungkin berubah kerana penyelenggaraan."
@@ -569,13 +587,13 @@
     },
     "cookie": {
         "seo": {
-          "title": "Dasar Kuki | Photo To URL",
-          "description": "Dasar Kuki untuk Photo To URL - Ketahui cara kami menggunakan kuki dan teknologi penjejakan."
+          "title": "Dasar Kuki | Foto ke URL",
+          "description": "Dasar Kuki untuk Foto ke URL - Ketahui cara kami menggunakan kuki dan teknologi penjejakan."
         },
         "page": {
           "title": "Dasar Kuki",
           "lastUpdated": "Kemaskini Terakhir: Januari 2026",
-          "introduction": "Dasar Kuki ini menerangkan cara Photo To URL menggunakan kuki dan teknologi penjejakan yang serupa apabila anda melawat laman web kami. Dengan menggunakan perkhidmatan kami, anda bersetuju dengan penggunaan kuki mengikut dasar ini.",
+          "introduction": "Dasar Kuki ini menerangkan cara Foto ke URL menggunakan kuki dan teknologi penjejakan yang serupa apabila anda melawat laman web kami. Dengan menggunakan perkhidmatan kami, anda bersetuju dengan penggunaan kuki mengikut dasar ini.",
           "whatAreCookies": {
             "title": "Apakah Kuki",
             "content": "Kuki adalah fail teks kecil yang diletakkan pada peranti anda apabila anda melawat laman web. Ia digunakan secara meluas untuk menjadikan laman web berfungsi dengan lebih cekap dan memberikan maklumat kepada pemilik laman web."
@@ -625,8 +643,8 @@
     }
   },
   "bookmarklet": {
-    "title": "Photo To URL Bookmarklet",
-    "description": "Muat naik imej dari mana-mana halaman web terus ke Photo To URL dengan satu klik!",
+    "title": "Foto ke URL Bookmarklet",
+    "description": "Muat naik imej dari mana-mana halaman web terus ke Foto ke URL dengan satu klik!",
     "howItWorks": {
       "title": "Bagaimana ia berfungsi",
       "step1": "Layari mana-mana halaman web dengan imej",
@@ -659,7 +677,7 @@
       "title": "Ciri-ciri",
       "description": "Bookmarklet menyediakan ciri-ciri berikut:",
       "feature1": "Pilih mana-mana imej dari halaman web semasa",
-      "feature2": "Muat naik automatik ke Photo To URL",
+      "feature2": "Muat naik automatik ke Foto ke URL",
       "feature3": "Dapatkan URL yang boleh dikongsi dengan segera dengan satu klik untuk menyalin"
     },
     "note": {

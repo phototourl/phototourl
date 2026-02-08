@@ -4,6 +4,7 @@
     "tagline": "Transfurmar fotografias en ligiaivlas nettas e spartiblas en segunds",
     "header": {
       "home": "Chasa",
+      "blog": "Blog",
       "subtitle": "Transfurmar maletgs en ligiaivlas spartiblas",
       "prompt": "Laschar ir, incollàr u chargiar — survegnir in ligiaivl spartibel immediatamain",
       "circleCrop": "Fotografia per tagl circular",
@@ -312,7 +313,7 @@
       "subtitle": "Tscherna tia lingua e regiùn preferida"
     },
     "rateService": {
-      "title": "Valitar Fotografia per tagl circular",
+      "title": "Valitar {productName}",
       "thankYou": "Grazia fitg per tias retschertgas!",
       "averageRating": "4.5",
       "votes": "4'992 vuschs"
@@ -387,12 +388,12 @@
   },
   "blog": {
     "seo": {
-      "title": "Blog | Photo To URL",
+      "title": "Blog | Fotografia a URL",
       "description": "Artitgels davart hosting da fotografias, sparter da links e tips da prestaziun."
     },
     "page": {
       "title": "Blog",
-      "description": "Nus preparain artitgels davart hosting da fotografias, CDN, sparter da links e tips SEO. Il cuntegn vegn prest.",
+      "description": "Ultims artitgels, tutorials e perspektivas davart hosting da maletgs, CDN, sparter da links, tagliada circulara, chombers arundads e eliminaziun dal fund.",
       "stayTuned": "Restai sintonisads per guidas davart:",
       "guides": {
         "1": "Las meglieras praticas per midar maletgs en URLs",
@@ -404,13 +405,30 @@
       "backToBlog": "Turnar al blog",
       "minRead": "min lectura",
       "author": "Autur",
-      "viewMoreArticles": "Vair dapli artitgels"
+      "viewMoreArticles": "Vair dapli artitgels",
+      "tags": "Tags:",
+      "about": {
+        "title": "Davart l'equipa Fotografia a URL",
+        "subtitle": "Equipa editoriala",
+        "description": "Nus construain e mantegnain Fotografia a URL e scrivain guides practics per l'optimisaziun da maletgs e la prestaziun web.",
+        "website": "Website",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Vair tut las contribuziuns"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Co convertir ina maletg en URL: Ina guida cumpletta per 2025",
+        "description": "Emprenda tut quai che vus stuais savair davart la conversiun da maletgs en URLs partgablas. Questa guida cumpletta cuvra metods, las meglras praticas e tips per hosting da maletgs e sparter da links.",
+        "content": "# Co convertir ina maletg en URL: Ina guida cumpletta per 2025\n\nLa conversiun da maletgs en URLs partgablas è daventada ina abilitad essenziala en il mund digital d'ozendi. Sia che ti es in blogger, sviluppader u creatur da cuntegn, la chapientscha co transformar tes maletgs en links directas po meglierar considerablamain tes process da lavur e tias pussaivladads da sparter cuntegn.\n\n## Pertge convertir maletgs en URLs?\n\nAvant che nus s'approfundeschan en las metodas, chapain nus pertge che la conversiun da maletgs en URLs è avantagiusa:\n\n### 1. **Sparter simpel**\nURLs directas da maletgs ta permettan da sparter maletgs immediatamain senza telechargiar u chargiar puspè files. Simpel copia l'URL e colla la nua che vuls - en e-mails, documents u postaziuns da medias socialas.\n\n### 2. **Mez pli bun**\nL'utilisaziun da links directas da maletgs reduescha la chargia sin tes server principal. Cur che maletgs vegnan hostads sin in CDN (Content Delivery Network), els vegnan chargiads pli svelt per utilisaders en tut il mund.\n\n### 3. **Flexibilitad**\nURLs da maletgs pon vegnir integradas en HTML, Markdown u vegnir utilisadas en APIs. Questa flexibilitad las fa perfettas tant per sviluppaders sco er per creaturs da cuntegn.\n\n### 4. **Efficienza da memorisaziun**\nInvece da memorisar maletgs localmain, pos ti utilisar soluziuns da memorisaziun en il nibel che porschan URLs directas, economisond spazi da server prezius.\n\n## Metodas per convertir maletgs en URLs\n\n### Metoda 1: Utilisar il servizi Fotografia a URL\n\n**Fotografia a URL** è in servizi gratuit e friendly per l'utilisader che fa la conversiun da maletg en URL senza sfors:\n\n1. **Visitar la pagina web**: Navigar a Fotografia a URL\n2. **Chargiar tes maletg**: Trair e laschar ir tes file da maletg u cliccar per navigar\n3. **Surpigliar tes URL**: Suenter la chargiada, survegnas ti in link direct tar tes maletg\n4. **Copiar e utilisar**: Copiar l'URL e l'utilisar nua che ti has basegn\n\n**Avantatgs:**\n- ✅ Nagina registraziun necessaria\n- ✅ Chargiada e processaziun sveltas\n- ✅ Links CDN directas per mez optimal\n- ✅ Sustegn per plirs formats da maletgs (JPG, PNG, WEBP, GIF)\n\n### Metoda 2: Servizis da memorisaziun en il nibel\n\nServizis populars da memorisaziun en il nibel offran hosting da maletgs cun access direct a URLs:\n\n**Google Cloud Storage / AWS S3:**\n- Chargiar maletgs en tes bucket\n- Definir permissiuns adequatas\n- Acceder a maletgs via URLs directas\n- Configurar CDN per mez pli bun\n\n**Avantatgs:**\n- Controlla cumpletta da tes maletgs\n- Soluziuns da memorisaziun scalablas\n- Infrastructura da nivel professiunal\n\n### Metoda 3: Plattafurmas da hosting da maletgs\n\nPlattafurmas dedicadas da hosting da maletgs porschan servizis specialisads:\n\n- **Imgur**: Popular per sparter maletgs svelt\n- **Cloudinary**: Funcziuns avanzadas da manipulaziun da maletgs\n- **ImageKit**: Optimà per mez\n\n## Las meglras praticas per URLs da maletgs\n\n### 1. **Tscherner il format correct**\n\nFormats differents da maletgs servan a differents intents:\n\n- **JPEG**: Il meglier per fotografias cun bleras colurs\n- **PNG**: Ideel per maletgs cun transparenza u chommas taglientas\n- **WEBP**: Format modern che offra meglra compressiun\n- **GIF**: Perfet per maletgs animads\n\n### 2. **Optimar la grondezza dal maletg**\n\nAvant da convertir en URL, optimescha tes maletgs:\n\n- Comprimer maletgs per reducir la grondezza dal file\n- Midar la grondezza da maletgs a dimensiuns adequatas\n- Utilisar formats moderns sco WEBP sche pussaivel\n- Equilibrar qualitad e grondezza dal file\n\n### 3. **Utilisar CDN per mez pli bun**\n\nRets da distribuziun da cuntegn (CDN) distribueschan tes maletgs sin plirs servers en tut il mund, garantind temp da chargiada svelt independent da la posiziun da l'utilisader.\n\n### 4. **Implementar segirtad adequata**\n\n- Utilisar URLs HTTPS per la distribuziun segira da maletgs\n- Definir permissiuns d'access adequatas\n- Considerar watermarking per cuntegn sensibel\n- Observar l'utilisaziun per evitar abus\n\n## Cas d'utilisaziun communs\n\n### Per bloggers\n\nBloggers pon utilisar URLs da maletgs per:\n- Integrar maletgs en postaziuns da blog senza las hostar localmain\n- Meglierar temp da chargiada da paginas\n- Sparter maletgs sin pliras plattafurmas\n- Mantegnair qualitad da maletg consistenta\n\n### Per sviluppaders\n\nSviluppaders profiteschan da URLs da maletgs:\n- Reducend la chargia dal server\n- Simplifitgond la gestiun da maletgs\n- Activond la chargiada dinamica da maletgs\n- Integrend cun APIs e servizis web\n\n### Per e-commerce\n\nSites d'e-commerce utiliseschan URLs da maletgs per:\n- Mussar maletgs da products efficaintamain\n- Administrar gronds catalogos da maletgs\n- Optimar per apparats mobils\n- Meglierar la prestaziun da la pagina da checkout\n\n## Resolver problems communs\n\n### Problem: Links da maletgs ruttads\n\n**Soluziun:**\n- Verifitgar che l'URL è correct e accessibel\n- Controllar permissiuns e configuraziuns d'access da maletgs\n- Garantir che il servizi da hosting è operativ\n- Validar che il format dal maletg è sustegnì\n\n### Problem: Temp da chargiada lents\n\n**Soluziun:**\n- Utilisar in CDN per la distribuziun da maletgs\n- Optimar las grondezzas da files da maletgs\n- Tscherner formats da maletgs adequats\n- Implementar chargiada pigra sche pussaivel\n\n### Problem: Il maletg na vegn betg mussà\n\n**Soluziun:**\n- Controllar configuraziuns CORS (Cross-Origin Resource Sharing)\n- Verifitgar che protocols HTTPS/HTTP correspundan\n- Garantir che types MIME corrects èn definids\n- Testar l'accessibilitad da l'URL da differents posiziuns\n\n## Tips avanzads\n\n### 1. **Processaziun en gruppa**\n\nPer plirs maletgs, considerar:\n- Utilisaziun da APIs per chargiadas automatizadas\n- Implementaziun da scripts da conversiun en gruppa\n- Utilisaziun da APIs da memorisaziun en il nibel\n- Configuraziun da process da lavur automatizads\n\n### 2. **Manipulaziun da maletgs**\n\nTscherts servizis offran manipulaziun da maletgs en temp real:\n- Midar la grondezza da maletgs via parameters URL\n- Applicar filters ed effects\n- Convertir formats automaticamain\n- Tagliar e rotar maletgs\n\n### 3. **Analitica e monitoring**\n\nObservar l'utilisaziun da tes maletgs:\n- Observar consum da bandwidth\n- Analisar maletgs populars\n- Observar models d'access\n- Optimar sin basa da datas d'utilisaziun\n\n## Conclusiun\n\nLa conversiun da maletgs en URLs è in process direct che offra blers avantatgs. Sia che ti tscherchas in servizi simpel sco Fotografia a URL u ina soluziun cumpletta da memorisaziun en il nibel, la clav è da chattar la metoda che correspunda il meglier a tes basegns.\n\nRember:\n- ✅ Optimar maletgs avant la chargiada\n- ✅ Tscherner formats adequats\n- ✅ Utilisar CDN per mez pli bun\n- ✅ Implementar mesiras da segirtad adequatas\n- ✅ Observar e optimar regularmain\n\nCun suandar questas directivas, pos ti convertir e administrar tes maletgs efficaintamain sco URLs, meglierond tant tes process da lavur sco er la prestaziun da tes cuntegn.\n\n## Utensils relaschads\n\n- [Fotografia a URL](/) - Servizi gratuit da conversiun da maletg en URL\n- [Utensil da tagl circular](/circle-crop) - Crear maletgs circulars\n- [Utensil da cantuns arrondads](/rounded-corners) - Agiuntar cantuns arrondads a maletgs\n- [Utensil da rimover il fund](/remove-background) - Rimover funds da maletgs cun AI\n\n---\n\n*Ultima actualisaziun: Favrer 2025*"
+      }
     }
   },
   "docs": {
     "seo": {
-      "title": "Documentaziun | Photo To URL",
-      "description": "Documentaziun per Photo To URL."
+      "title": "Documentaziun | Fotografia a URL",
+      "description": "Documentaziun per Fotografia a URL."
     },
     "page": {
       "title": "Documentaziun",
@@ -427,8 +445,8 @@
   },
   "status": {
     "seo": {
-      "title": "Stadi | Photo To URL",
-      "description": "Stadi dal servetsch Photo To URL."
+      "title": "Stadi | Fotografia a URL",
+      "description": "Stadi dal servetsch Fotografia a URL."
     },
     "page": {
       "title": "Stadi",
@@ -438,8 +456,8 @@
   },
   "contact": {
     "seo": {
-      "title": "Contact | Photo To URL",
-      "description": "Contactar il sustegn Photo To URL."
+      "title": "Contact | Fotografia a URL",
+      "description": "Contactar il sustegn Fotografia a URL."
     },
     "page": {
       "title": "Contact",
@@ -453,13 +471,13 @@
   "legal": {
     "privacy": {
       "seo": {
-        "title": "Politica da sfera privata | Photo To URL",
-        "description": "Politica da sfera privata per Photo To URL."
+        "title": "Politica da sfera privata | Fotografia a URL",
+        "description": "Politica da sfera privata per Fotografia a URL."
       },
       "page": {
         "title": "Politica da sfera privata",
         "lastUpdated": "Ultima actualisaziun: schaner 2026",
-        "introduction": "Tar Photo To URL respektin nus vossa sfera privata e sun engaschads da proteger vossas infurmaziuns persunalas. Questa Politica da sfera privata explitgescha co nus rimnain, utilisain, revelain e protegin vossas infurmaziuns cura che vus utilisais noss servetsch.",
+        "introduction": "Tar Fotografia a URL respektin nus vossa sfera privata e sun engaschads da proteger vossas infurmaziuns persunalas. Questa Politica da sfera privata explitgescha co nus rimnain, utilisain, revelain e protegin vossas infurmaziuns cura che vus utilisais noss servetsch.",
         "dataCollection": {
           "title": "Infurmaziuns che nus rimnain",
           "content1": "Cura che vus chargiais si in maletg, rimnain nus:",
@@ -525,12 +543,12 @@
     },
     "terms": {
       "seo": {
-        "title": "Cundiziuns d'utilisaziun | Photo To URL",
-        "description": "Cundiziuns d'utilisaziun per Photo To URL."
+        "title": "Cundiziuns d'utilisaziun | Fotografia a URL",
+        "description": "Cundiziuns d'utilisaziun per Fotografia a URL."
       },
       "page": {
         "title": "Cundiziuns d'utilisaziun",
-        "content": "Cun utilisar Photo To URL, acceptais vus d'utilisar il servetsch responsablamain e da betg chargiar cuntegn illegal.",
+        "content": "Cun utilisar Fotografia a URL, acceptais vus d'utilisar il servetsch responsablamain e da betg chargiar cuntegn illegal.",
         "disclaimer": {
           "title": "Disclaim",
           "text": "Il servetsch vegn porschiù \"uschia ch'el è\" senza garantias. La disponibilitad po midar pervi da mantegniment."
@@ -544,13 +562,13 @@
     },
     "cookie": {
         "seo": {
-          "title": "Politica da cookies | Photo To URL",
-          "description": "Politica da cookies per Photo To URL - Ve a savair co nus utilisain cookies e tecnologias da persequitar."
+          "title": "Politica da cookies | Fotografia a URL",
+          "description": "Politica da cookies per Fotografia a URL - Ve a savair co nus utilisain cookies e tecnologias da persequitar."
         },
         "page": {
           "title": "Politica da cookies",
           "lastUpdated": "Ultima actualisaziun: schaner 2026",
-          "introduction": "Questa Politica da cookies explitgescha co Photo To URL utilisescha cookies e tecnologias sumegliantas da persequitar cura che vus visitais nossa website. Cun utilisar noss servetsch acceptais vus l'utilisaziun da cookies tenor questa politica.",
+          "introduction": "Questa Politica da cookies explitgescha co Fotografia a URL utilisescha cookies e tecnologias sumegliantas da persequitar cura che vus visitais nossa website. Cun utilisar noss servetsch acceptais vus l'utilisaziun da cookies tenor questa politica.",
           "whatAreCookies": {
             "title": "Tge che cookies èn",
             "content": "Cookies èn pitschnas datotecas da text che vegnan messas sin voss apparat cura che vus visitais ina website. Els vegnan utilisads per render websites pli efficients e per porscher infurmaziuns als proprietaris da websites."
@@ -601,14 +619,14 @@
   },
   "about": {
     "seo": {
-      "title": "Davart nus | Photo To URL",
-      "description": "Ve a savair dapli davart Photo To URL - in servetsch gratuit da hosting da maletgs che convertescha fotos en ligams cumpartgiabels."
+      "title": "Davart nus | Fotografia a URL",
+      "description": "Ve a savair dapli davart Fotografia a URL - in servetsch gratuit da hosting da maletgs che convertescha fotos en ligams cumpartgiabels."
     },
     "page": {
       "title": "Davart nus",
       "mission": {
         "title": "Nossa missiun",
-        "content": "Photo To URL è in servetsch gratuit, svelt e fidabel da hosting da maletgs concepì per gidar creaturs, marketers e teams da convertir maletgs en ligams cumpartgiabels immediat. Nus crein en simplicitad, sveltezza e sfera privata dals utilisaders."
+        "content": "Fotografia a URL è in servetsch gratuit, svelt e fidabel da hosting da maletgs concepì per gidar creaturs, marketers e teams da convertir maletgs en ligams cumpartgiabels immediat. Nus crein en simplicitad, sveltezza e sfera privata dals utilisaders."
       },
       "features": {
         "title": "Tge che nus offrin",
@@ -625,8 +643,8 @@
     }
   },
   "bookmarklet": {
-    "title": "Photo To URL Bookmarklet",
-    "description": "Chargiar maletgs da mintga pagina web directamain en Photo To URL cun in sol clic!",
+    "title": "Fotografia a URL Bookmarklet",
+    "description": "Chargiar maletgs da mintga pagina web directamain en Fotografia a URL cun in sol clic!",
     "howItWorks": {
       "title": "Co funcziuna",
       "step1": "Navighescha tras mintga pagina web cun maletgs",
@@ -659,7 +677,7 @@
       "title": "Funcziuns",
       "description": "Il bookmarklet porscha las suandantas funcziuns:",
       "feature1": "Tschernir mintga maletg da la pagina web actuala",
-      "feature2": "Chargiada automatica en Photo To URL",
+      "feature2": "Chargiada automatica en Fotografia a URL",
       "feature3": "Obtgnair in URL cumpartgibel immediatamain cun in clic per copiar"
     },
     "note": {

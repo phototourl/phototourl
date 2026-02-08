@@ -4,6 +4,7 @@
     "tagline": "Zamień zdjęcia w czyste, udostępnialne linki w kilka sekund",
     "header": {
       "home": "Start",
+      "blog": "Blog",
       "subtitle": "Zamieniaj obrazy w linki do udostępniania",
       "prompt": "Przeciągnij, wklej lub wyślij — otrzymaj link natychmiast",
       "circleCrop": "Okrągłe przycinanie zdjęć",
@@ -312,7 +313,7 @@
       "subtitle": "Wybierz preferowany język i region"
     },
     "rateService": {
-      "title": "Oceń Zdjęcie do Koła",
+      "title": "Oceń {productName}",
       "thankYou": "Dziękujemy za opinię!",
       "averageRating": "4.5",
       "votes": "4,992 głosów"
@@ -387,12 +388,12 @@
   },
   "blog": {
     "seo": {
-      "title": "Blog | Photo To URL",
+      "title": "Blog | Zdjęcie do URL",
       "description": "Artykuły o hostingu zdjęć, udostępnianiu linków i wskazówkach dotyczących wydajności."
     },
     "page": {
       "title": "Blog",
-      "description": "Przygotowujemy artykuły o hostingu zdjęć, CDN, udostępnianiu linków i wskazówkach SEO. Treść wkrótce.",
+      "description": "Najnowsze artykuły, samouczki i spostrzeżenia dotyczące hostingu obrazów, CDN, udostępniania linków, przycinania w kształcie koła, zaokrąglonych rogów i usuwania tła.",
       "stayTuned": "Bądź na bieżąco z przewodnikami dotyczącymi:",
       "guides": {
         "1": "Najlepsze praktyki konwersji obrazów na URL",
@@ -404,13 +405,30 @@
       "backToBlog": "Powrót do bloga",
       "minRead": "min czytania",
       "author": "Autor",
-      "viewMoreArticles": "Zobacz więcej artykułów"
+      "viewMoreArticles": "Zobacz więcej artykułów",
+      "tags": "Tagi:",
+      "about": {
+        "title": "O zespole Zdjęcie do URL",
+        "subtitle": "Zespół redakcyjny",
+        "description": "Budujemy i utrzymujemy Zdjęcie do URL oraz piszemy praktyczne przewodniki dotyczące optymalizacji obrazów i wydajności sieci.",
+        "website": "Strona internetowa",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Zobacz wszystkie wpisy"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Jak przekonwertować obraz na URL: Kompletny przewodnik na 2025",
+        "description": "Dowiedz się wszystkiego, co musisz wiedzieć o konwersji obrazów na udostępnialne URL-e. Ten kompleksowy przewodnik obejmuje metody, najlepsze praktyki i wskazówki dotyczące hostingu obrazów i udostępniania linków.",
+        "content": "# Jak przekonwertować obraz na URL: Kompletny przewodnik na 2025\n\nKonwersja obrazów na udostępnialne URL-e stała się niezbędną umiejętnością w dzisiejszym cyfrowym świecie. Niezależnie od tego, czy jesteś blogerem, programistą czy twórcą treści, zrozumienie, jak przekształcić swoje obrazy w bezpośrednie linki, może znacznie poprawić Twój przepływ pracy i możliwości udostępniania treści.\n\n## Dlaczego konwertować obrazy na URL-e?\n\nZanim zagłębimy się w metody, zrozummy, dlaczego konwersja obrazów na URL-e jest korzystna:\n\n### 1. **Łatwe Udostępnianie**\nBezpośrednie URL-e obrazów pozwalają na natychmiastowe udostępnianie obrazów bez pobierania lub ponownego przesyłania plików. Po prostu skopiuj URL i wklej go wszędzie - w e-mailach, dokumentach lub postach w mediach społecznościowych.\n\n### 2. **Lepsza Wydajność**\nUżywanie bezpośrednich linków do obrazów zmniejsza obciążenie głównego serwera. Gdy obrazy są hostowane na CDN (Content Delivery Network), ładują się szybciej dla użytkowników na całym świecie.\n\n### 3. **Elastyczność**\nURL-e obrazów mogą być osadzane w HTML, Markdown lub używane w API. Ta elastyczność czyni je idealnymi zarówno dla programistów, jak i twórców treści.\n\n### 4. **Efektywność Przechowywania**\nZamiast przechowywać obrazy lokalnie, możesz używać rozwiązań do przechowywania w chmurze, które zapewniają bezpośrednie URL-e, oszczędzając cenną przestrzeń serwera.\n\n## Metody konwersji obrazów na URL-e\n\n### Metoda 1: Użycie usługi Zdjęcie do URL\n\n**Zdjęcie do URL** to bezpłatna, przyjazna dla użytkownika usługa, która sprawia, że konwersja obrazu na URL jest bez wysiłku:\n\n1. **Odwiedź stronę internetową**: Przejdź do Zdjęcie do URL\n2. **Prześlij swój obraz**: Przeciągnij i upuść plik obrazu lub kliknij, aby przeglądać\n3. **Otrzymaj swój URL**: Po przesłaniu otrzymasz bezpośredni link do swojego obrazu\n4. **Skopiuj i użyj**: Skopiuj URL i użyj go wszędzie, gdzie potrzebujesz\n\n**Zalety:**\n- ✅ Brak wymaganej rejestracji\n- ✅ Szybkie przesyłanie i przetwarzanie\n- ✅ Bezpośrednie linki CDN dla optymalnej wydajności\n- ✅ Obsługa wielu formatów obrazów (JPG, PNG, WEBP, GIF)\n\n### Metoda 2: Usługi Przechowywania w Chmurze\n\nPopularne usługi przechowywania w chmurze oferują hosting obrazów z bezpośrednim dostępem do URL:\n\n**Google Cloud Storage / AWS S3:**\n- Prześlij obrazy do swojego bucket\n- Ustaw odpowiednie uprawnienia\n- Uzyskaj dostęp do obrazów przez bezpośrednie URL-e\n- Skonfiguruj CDN dla lepszej wydajności\n\n**Zalety:**\n- Pełna kontrola nad obrazami\n- Skalowalne rozwiązania przechowywania\n- Infrastruktura na poziomie profesjonalnym\n\n### Metoda 3: Platformy Hostingu Obrazów\n\nDedykowane platformy hostingu obrazów zapewniają specjalistyczne usługi:\n\n- **Imgur**: Popularny do szybkiego udostępniania obrazów\n- **Cloudinary**: Zaawansowane funkcje manipulacji obrazami\n- **ImageKit**: Zoptymalizowany pod kątem wydajności\n\n## Najlepsze Praktyki dla URL-i Obrazów\n\n### 1. **Wybierz Właściwy Format**\n\nRóżne formaty obrazów służą różnym celom:\n\n- **JPEG**: Najlepszy dla fotografii z wieloma kolorami\n- **PNG**: Idealny dla obrazów z przezroczystością lub ostrymi krawędziami\n- **WEBP**: Nowoczesny format oferujący lepszą kompresję\n- **GIF**: Idealny dla animowanych obrazów\n\n### 2. **Zoptymalizuj Rozmiar Obrazu**\n\nPrzed konwersją na URL zoptymalizuj swoje obrazy:\n\n- Kompresuj obrazy, aby zmniejszyć rozmiar pliku\n- Zmień rozmiar obrazów do odpowiednich wymiarów\n- Używaj nowoczesnych formatów, takich jak WEBP, gdy to możliwe\n- Równoważ jakość i rozmiar pliku\n\n### 3. **Użyj CDN dla Lepszej Wydajności**\n\nSieci dostarczania treści (CDN) dystrybuują Twoje obrazy na wielu serwerach na całym świecie, zapewniając szybkie czasy ładowania niezależnie od lokalizacji użytkownika.\n\n### 4. **Wdróż Odpowiednie Zabezpieczenia**\n\n- Używaj URL-i HTTPS do bezpiecznego dostarczania obrazów\n- Ustaw odpowiednie uprawnienia dostępu\n- Rozważ znakowanie wodne dla wrażliwych treści\n- Monitoruj użycie, aby zapobiec nadużyciom\n\n## Typowe Przypadki Użycia\n\n### Dla Blogerów\n\nBlogerzy mogą używać URL-i obrazów do:\n- Osadzania obrazów w postach na blogu bez hostowania ich lokalnie\n- Poprawy czasów ładowania stron\n- Udostępniania obrazów na wielu platformach\n- Utrzymywania spójnej jakości obrazów\n\n### Dla Programistów\n\nProgramiści korzystają z URL-i obrazów poprzez:\n- Zmniejszanie obciążenia serwera\n- Upraszczanie zarządzania obrazami\n- Umożliwianie dynamicznego ładowania obrazów\n- Integrację z API i usługami internetowymi\n\n### Dla E-commerce\n\nWitryny e-commerce używają URL-i obrazów do:\n- Efektywnego wyświetlania obrazów produktów\n- Zarządzania dużymi katalogami obrazów\n- Optymalizacji dla urządzeń mobilnych\n- Poprawy wydajności strony płatności\n\n## Rozwiązywanie Typowych Problemów\n\n### Problem: Zepsute Linki do Obrazów\n\n**Rozwiązanie:**\n- Sprawdź, czy URL jest poprawny i dostępny\n- Sprawdź uprawnienia i ustawienia dostępu do obrazów\n- Upewnij się, że usługa hostingu działa\n- Sprawdź, czy format obrazu jest obsługiwany\n\n### Problem: Powolne Czasy Ładowania\n\n**Rozwiązanie:**\n- Użyj CDN do dostarczania obrazów\n- Zoptymalizuj rozmiary plików obrazów\n- Wybierz odpowiednie formaty obrazów\n- Wdróż leniwe ładowanie, gdzie to możliwe\n\n### Problem: Obraz Nie Wyświetla Się\n\n**Rozwiązanie:**\n- Sprawdź ustawienia CORS (Cross-Origin Resource Sharing)\n- Sprawdź, czy protokoły HTTPS/HTTP pasują\n- Upewnij się, że ustawione są odpowiednie typy MIME\n- Przetestuj dostępność URL z różnych lokalizacji\n\n## Zaawansowane Wskazówki\n\n### 1. **Przetwarzanie Wsadowe**\n\nDla wielu obrazów rozważ:\n- Użycie API do zautomatyzowanych przesyłań\n- Wdrożenie skryptów konwersji wsadowej\n- Wykorzystanie API przechowywania w chmurze\n- Skonfigurowanie zautomatyzowanych przepływów pracy\n\n### 2. **Manipulacja Obrazami**\n\nNiektóre usługi oferują manipulację obrazami w locie:\n- Zmiana rozmiaru obrazów przez parametry URL\n- Stosowanie filtrów i efektów\n- Automatyczna konwersja formatów\n- Przycinanie i obracanie obrazów\n\n### 3. **Analityka i Monitorowanie**\n\nŚledź użycie swoich obrazów:\n- Monitoruj zużycie przepustowości\n- Analizuj popularne obrazy\n- Śledź wzorce dostępu\n- Optymalizuj na podstawie danych użycia\n\n## Wnioski\n\nKonwersja obrazów na URL-e to prosty proces, który oferuje liczne korzyści. Niezależnie od tego, czy wybierzesz prostą usługę, taką jak Zdjęcie do URL, czy kompleksowe rozwiązanie przechowywania w chmurze, kluczem jest znalezienie metody, która najlepiej odpowiada Twoim potrzebom.\n\nPamiętaj:\n- ✅ Zoptymalizuj obrazy przed przesłaniem\n- ✅ Wybierz odpowiednie formaty\n- ✅ Użyj CDN dla lepszej wydajności\n- ✅ Wdróż odpowiednie środki bezpieczeństwa\n- ✅ Regularnie monitoruj i optymalizuj\n\nStosując się do tych wytycznych, będziesz mógł efektywnie konwertować i zarządzać swoimi obrazami jako URL-e, poprawiając zarówno swój przepływ pracy, jak i wydajność treści.\n\n## Powiązane Narzędzia\n\n- [Zdjęcie do URL](/) - Bezpłatna usługa konwersji obrazu na URL\n- [Narzędzie do Przycinania Koła](/circle-crop) - Twórz okrągłe obrazy\n- [Narzędzie do Zaokrąglonych Rogów](/rounded-corners) - Dodawaj zaokrąglone rogi do obrazów\n- [Narzędzie do Usuwania Tła](/remove-background) - Usuwaj tła obrazów za pomocą AI\n\n---\n\n*Ostatnia aktualizacja: Luty 2025*"
+      }
     }
   },
   "docs": {
     "seo": {
-      "title": "Dokumentacja | Photo To URL",
-      "description": "Dokumentacja dla Photo To URL."
+      "title": "Dokumentacja | Zdjęcie do URL",
+      "description": "Dokumentacja dla Zdjęcie do URL."
     },
     "page": {
       "title": "Dokumentacja",
@@ -427,8 +445,8 @@
   },
   "status": {
     "seo": {
-      "title": "Status | Photo To URL",
-      "description": "Status usługi Photo To URL."
+      "title": "Status | Zdjęcie do URL",
+      "description": "Status usługi Zdjęcie do URL."
     },
     "page": {
       "title": "Status",
@@ -438,8 +456,8 @@
   },
   "contact": {
     "seo": {
-      "title": "Kontakt | Photo To URL",
-      "description": "Skontaktuj się z pomocą Photo To URL."
+      "title": "Kontakt | Zdjęcie do URL",
+      "description": "Skontaktuj się z pomocą Zdjęcie do URL."
     },
     "page": {
       "title": "Kontakt",
@@ -452,14 +470,14 @@
   },
   "about": {
     "seo": {
-      "title": "O nas | Photo To URL",
-      "description": "Dowiedz się więcej o Photo To URL - darmowej usłudze hostingu obrazów, która zamienia zdjęcia na linki do udostępniania."
+      "title": "O nas | Zdjęcie do URL",
+      "description": "Dowiedz się więcej o Zdjęcie do URL - darmowej usłudze hostingu obrazów, która zamienia zdjęcia na linki do udostępniania."
     },
     "page": {
       "title": "O nas",
       "mission": {
         "title": "Nasza misja",
-        "content": "Photo To URL to darmowa, szybka i niezawodna usługa hostingu obrazów zaprojektowana, aby pomóc twórcom, marketerom i zespołom w natychmiastowym przekształcaniu obrazów w linki do udostępniania. Wierzymy w prostotę, szybkość i prywatność użytkowników."
+        "content": "Zdjęcie do URL to darmowa, szybka i niezawodna usługa hostingu obrazów zaprojektowana, aby pomóc twórcom, marketerom i zespołom w natychmiastowym przekształcaniu obrazów w linki do udostępniania. Wierzymy w prostotę, szybkość i prywatność użytkowników."
       },
       "features": {
         "title": "Co oferujemy",
@@ -478,13 +496,13 @@
   "legal": {
     "privacy": {
       "seo": {
-        "title": "Polityka prywatności | Photo To URL",
-        "description": "Polityka prywatności dla Photo To URL - Dowiedz się, jak zbieramy, wykorzystujemy i chronimy Twoje dane."
+        "title": "Polityka prywatności | Zdjęcie do URL",
+        "description": "Polityka prywatności dla Zdjęcie do URL - Dowiedz się, jak zbieramy, wykorzystujemy i chronimy Twoje dane."
       },
       "page": {
         "title": "Polityka prywatności",
         "lastUpdated": "Ostatnia aktualizacja: styczeń 2026",
-        "introduction": "W Photo To URL szanujemy Twoją prywatność i jesteśmy zobowiązani do ochrony Twoich danych osobowych. Ta Polityka Prywatności wyjaśnia, jak zbieramy, wykorzystujemy, ujawniamy i chronimy Twoje informacje podczas korzystania z naszej usługi.",
+        "introduction": "W Zdjęcie do URL szanujemy Twoją prywatność i jesteśmy zobowiązani do ochrony Twoich danych osobowych. Ta Polityka Prywatności wyjaśnia, jak zbieramy, wykorzystujemy, ujawniamy i chronimy Twoje informacje podczas korzystania z naszej usługi.",
         "dataCollection": {
           "title": "Informacje, które zbieramy",
           "content1": "Gdy przesyłasz obraz, zbieramy:",
@@ -550,12 +568,12 @@
     },
     "terms": {
       "seo": {
-        "title": "Warunki korzystania | Photo To URL",
-        "description": "Warunki korzystania dla Photo To URL."
+        "title": "Warunki korzystania | Zdjęcie do URL",
+        "description": "Warunki korzystania dla Zdjęcie do URL."
       },
       "page": {
         "title": "Warunki korzystania",
-        "content": "Korzystając z Photo To URL, zgadzasz się używać serwisu odpowiedzialnie i nie przesyłać nielegalnych treści.",
+        "content": "Korzystając z Zdjęcie do URL, zgadzasz się używać serwisu odpowiedzialnie i nie przesyłać nielegalnych treści.",
         "disclaimer": {
           "title": "Zastrzeżenie",
           "text": "Usługa jest świadczona \"tak jak jest\" bez gwarancji. Dostępność może się zmienić z powodu konserwacji."
@@ -569,13 +587,13 @@
     },
     "cookie": {
         "seo": {
-          "title": "Polityka plików cookie | Photo To URL",
-          "description": "Polityka plików cookie dla Photo To URL - Dowiedz się, jak używamy plików cookie i technologii śledzących."
+          "title": "Polityka plików cookie | Zdjęcie do URL",
+          "description": "Polityka plików cookie dla Zdjęcie do URL - Dowiedz się, jak używamy plików cookie i technologii śledzących."
         },
         "page": {
           "title": "Polityka plików cookie",
           "lastUpdated": "Ostatnia aktualizacja: styczeń 2026",
-          "introduction": "Ta Polityka plików cookie wyjaśnia, jak Photo To URL używa plików cookie i podobnych technologii śledzących podczas odwiedzania naszej strony internetowej. Korzystając z naszej usługi, zgadzasz się na użycie plików cookie zgodnie z tą polityką.",
+          "introduction": "Ta Polityka plików cookie wyjaśnia, jak Zdjęcie do URL używa plików cookie i podobnych technologii śledzących podczas odwiedzania naszej strony internetowej. Korzystając z naszej usługi, zgadzasz się na użycie plików cookie zgodnie z tą polityką.",
           "whatAreCookies": {
             "title": "Czym są pliki cookie",
             "content": "Pliki cookie to małe pliki tekstowe, które są umieszczane na Twoim urządzeniu podczas odwiedzania strony internetowej. Są szeroko stosowane, aby strony internetowe działały wydajniej i dostarczały informacji właścicielom stron."
@@ -625,8 +643,8 @@
     }
   },
   "bookmarklet": {
-    "title": "Photo To URL Bookmarklet",
-    "description": "Prześlij obrazy z dowolnej strony internetowej bezpośrednio do Photo To URL jednym kliknięciem!",
+    "title": "Zdjęcie do URL Bookmarklet",
+    "description": "Prześlij obrazy z dowolnej strony internetowej bezpośrednio do Zdjęcie do URL jednym kliknięciem!",
     "howItWorks": {
       "title": "Jak to działa",
       "step1": "Przeglądaj dowolną stronę internetową z obrazami",
@@ -659,7 +677,7 @@
       "title": "Funkcje",
       "description": "Bookmarklet oferuje następujące funkcje:",
       "feature1": "Wybierz dowolny obraz z bieżącej strony internetowej",
-      "feature2": "Automatyczne przesyłanie do Photo To URL",
+      "feature2": "Automatyczne przesyłanie do Zdjęcie do URL",
       "feature3": "Natychmiast uzyskaj udostępniany URL jednym kliknięciem do kopiowania"
     },
     "note": {

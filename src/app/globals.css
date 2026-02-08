@@ -210,6 +210,17 @@ body[data-modal-open] header {
   padding-right: var(--scrollbar-gap, 0);
 }
 
+/* 防止浏览器原生 tooltip 遮挡导航菜单 */
+header button[aria-label] {
+  position: relative;
+}
+
+/* 确保导航菜单有足够的空间，不会被右侧按钮挤压 */
+header nav {
+  min-width: 0;
+  flex-shrink: 1;
+}
+
 /* ezremove-like soft, premium shadows */
 .ez-shadow-nav {
   /* tighter, more "attached" shadow like ezremove header */

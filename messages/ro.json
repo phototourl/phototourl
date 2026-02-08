@@ -4,6 +4,7 @@
     "tagline": "Transformă pozele în linkuri curate și partajabile în câteva secunde",
     "header": {
       "home": "Acasă",
+      "blog": "Blog",
       "subtitle": "Transformă imaginile în linkuri partajabile",
       "prompt": "Trage, lipește sau încarcă — obține un link instantaneu",
       "circleCrop": "Foto rotundă",
@@ -102,7 +103,7 @@
       "tryPrefix": "Încearcă "
     },
     "benefits": {
-      "title": "De ce să alegi Photo To URL",
+      "title": "De ce să alegi Poză în URL",
       "subtitle": "Viteză, linkuri curate și fără cont necesar.",
       "items": {
         "fast": {
@@ -175,7 +176,7 @@
       }
     },
     "testimonials": {
-      "title": "Echipe care economisesc timp cu Photo To URL",
+      "title": "Echipe care economisesc timp cu Poză în URL",
       "subtitle": "Dovadă socială pentru reducerea riscului și accelerarea adoptării.",
       "items": {
         "ops": {
@@ -199,8 +200,8 @@
       "paste": "Lipește o captură"
     },
     "longform": {
-      "title": "De ce Photo To URL îți ajută fluxul de lucru",
-      "p1": "Photo To URL este construit pentru creatori, marketing, suport, operațiuni și oricine are nevoie să convertească poze în linkuri curate și de încredere. Cu un flux direct de încărcare→link, eviți managerii de media grei și nu ai nevoie de autentificare. Linkurile sunt ordonate și ușor de lipit în chat-uri, documente, wiki-uri, rapoarte de bug-uri și tichete. Echipele se mișcă mai repede prin partajarea instantanee a capturilor de ecran· în plus, URL-urile previzibile ajută la automatizare, QA și prototipuri ușoare.",
+      "title": "De ce Poză în URL îți ajută fluxul de lucru",
+      "p1": "Poză în URL este construit pentru creatori, marketing, suport, operațiuni și oricine are nevoie să convertească poze în linkuri curate și de încredere. Cu un flux direct de încărcare→link, eviți managerii de media grei și nu ai nevoie de autentificare. Linkurile sunt ordonate și ușor de lipit în chat-uri, documente, wiki-uri, rapoarte de bug-uri și tichete. Echipele se mișcă mai repede prin partajarea instantanee a capturilor de ecran· în plus, URL-urile previzibile ajută la automatizare, QA și prototipuri ușoare.",
       "p2": "Experiența rămâne simplă: eliberează, lipește sau selectează un fișier· obține un link· partajează-l. Fără zgomot, fără reclame deranjante, fără bariere. Te concentrezi pe conținut, noi gestionăm hostingul. Pentru echipele globale, interfața este disponibilă în mai multe limbi menținând textul clar și universal.",
       "useCases": {
         "title": "Cazuri de utilizare practice",
@@ -266,7 +267,7 @@
       "subtitle": "Alegeți limba și regiunea preferată"
     },
     "rateService": {
-      "title": "Evaluați Photo To URL Converter",
+      "title": "Evaluați Poză în URL Converter",
       "thankYou": "Vă mulțumim pentru feedback!",
       "averageRating": "4.5",
       "votes": "4,992 voturi"
@@ -377,7 +378,7 @@
   "seo": {
     "keywords": "fotografie în url,imagine în url,generator link imagine,convertește imagine în link,găzduire imagini gratuită,cdn imagine",
     "home": {
-      "title": "Convertor Photo To URL | Transformă pozele în linkuri partajabile",
+      "title": "Convertor Poză în URL | Transformă pozele în linkuri partajabile",
       "description": "Găzduire imagini gratuită: convertește pozele în URL-uri permanente instantaneu. Suportă JPG, PNG, WEBP, GIF până la 5MB. Lipire din clipboard, CDN rapid, linkuri curate."
     }
   },
@@ -386,22 +387,22 @@
     "animatingSampleAlt": "Imagine eșantion folosită în demo încărcare",
     "sampleThumbAlt": "Imagine eșantion pentru încărcare",
     "useSampleAria": "Folosește această imagine eșantion",
-    "howIllustrationAlt": "Ilustrație care arată cum funcționează Photo To URL",
+    "howIllustrationAlt": "Ilustrație care arată cum funcționează Poză în URL",
     "heroDropTitle": "Trage o fotografie aici",
     "heroDropSubtitle": "O vom îmbunătăți și găzdui, apoi vom returna un link curat.",
     "heroDropBadge": "Trage sau dă clic (JPG/PNG, până la 5MB)",
-    "logoAlt": "Logo Photo To URL"
+    "logoAlt": "Logo Poză în URL"
   },
   "about": {
     "seo": {
-      "title": "Despre noi | Photo To URL",
-      "description": "Aflați mai multe despre Photo To URL - un serviciu gratuit de găzduire imagini care transformă fotografii în linkuri partajabile."
+      "title": "Despre noi | Poză în URL",
+      "description": "Aflați mai multe despre Poză în URL - un serviciu gratuit de găzduire imagini care transformă fotografii în linkuri partajabile."
     },
     "page": {
       "title": "Despre noi",
       "mission": {
         "title": "Misiunea noastră",
-        "content": "Photo To URL este un serviciu gratuit, rapid și de încredere de găzduire imagini, conceput pentru a ajuta creatori, marketeri și echipe să transforme imagini în linkuri partajabile instant. Credem în simplitate, viteză și confidențialitatea utilizatorilor."
+        "content": "Poză în URL este un serviciu gratuit, rapid și de încredere de găzduire imagini, conceput pentru a ajuta creatori, marketeri și echipe să transforme imagini în linkuri partajabile instant. Credem în simplitate, viteză și confidențialitatea utilizatorilor."
       },
       "features": {
         "title": "Ce oferim",
@@ -420,13 +421,13 @@
   "legal": {
     "privacy": {
       "seo": {
-        "title": "Politica de confidențialitate | Photo To URL",
-        "description": "Politica de confidențialitate pentru Photo To URL - Aflați cum colectăm, folosim și protejăm datele dvs."
+        "title": "Politica de confidențialitate | Poză în URL",
+        "description": "Politica de confidențialitate pentru Poză în URL - Aflați cum colectăm, folosim și protejăm datele dvs."
       },
       "page": {
         "title": "Politica de confidențialitate",
         "lastUpdated": "Ultima actualizare: ianuarie 2026",
-        "introduction": "La Photo To URL, respectăm confidențialitatea dvs. și suntem dedicați protejării informațiilor dvs. personale. Această Politică de Confidențialitate explică cum colectăm, folosim, dezvăluim și protejăm informațiile dvs. când folosiți serviciul nostru.",
+        "introduction": "La Poză în URL, respectăm confidențialitatea dvs. și suntem dedicați protejării informațiilor dvs. personale. Această Politică de Confidențialitate explică cum colectăm, folosim, dezvăluim și protejăm informațiile dvs. când folosiți serviciul nostru.",
         "dataCollection": {
           "title": "Informații pe care le colectăm",
           "content1": "Când încărcați o imagine, colectăm:",
@@ -492,12 +493,12 @@
     },
     "terms": {
       "seo": {
-        "title": "Termenii de utilizare | Photo To URL",
-        "description": "Termenii de utilizare pentru Photo To URL."
+        "title": "Termenii de utilizare | Poză în URL",
+        "description": "Termenii de utilizare pentru Poză în URL."
       },
       "page": {
         "title": "Termenii de utilizare",
-        "content": "Prin utilizarea Photo To URL, sunteți de acord să folosiți serviciul în mod responsabil și să nu încărcați conținut ilegal.",
+        "content": "Prin utilizarea Poză în URL, sunteți de acord să folosiți serviciul în mod responsabil și să nu încărcați conținut ilegal.",
         "disclaimer": {
           "title": "Declinare de răspundere",
           "text": "Serviciul este furnizat \"așa cum este\" fără garanții. Disponibilitatea poate fi modificată din cauza întreținerii."
@@ -511,13 +512,13 @@
     },
     "cookie": {
       "seo": {
-          "title": "Politica cookie-urilor | Photo To URL",
-          "description": "Politica cookie-urilor pentru Photo To URL - Aflați cum folosim cookie-urile și tehnologiile de urmărire."
+          "title": "Politica cookie-urilor | Poză în URL",
+          "description": "Politica cookie-urilor pentru Poză în URL - Aflați cum folosim cookie-urile și tehnologiile de urmărire."
         },
         "page": {
         "title": "Politica cookie-urilor",
           "lastUpdated": "Ultima actualizare: ianuarie 2026",
-          "introduction": "Această Politică de Cookie-uri explică modul în care Photo To URL folosește cookie-uri și tehnologii similare de urmărire când vizitați site-ul nostru web. Prin utilizarea serviciului nostru, sunteți de acord cu utilizarea cookie-urilor în conformitate cu această politică.",
+          "introduction": "Această Politică de Cookie-uri explică modul în care Poză în URL folosește cookie-uri și tehnologii similare de urmărire când vizitați site-ul nostru web. Prin utilizarea serviciului nostru, sunteți de acord cu utilizarea cookie-urilor în conformitate cu această politică.",
           "whatAreCookies": {
             "title": "Ce sunt cookie-urile",
             "content": "Cookie-urile sunt fișiere text mici care sunt plasate pe dispozitivul dvs. când vizitați un site web. Sunt utilizate pe scară largă pentru a face site-urile web să funcționeze mai eficient și pentru a furniza informații proprietarilor de site-uri web."
@@ -568,12 +569,12 @@
   },
   "blog": {
     "seo": {
-      "title": "Blog | Photo To URL",
+      "title": "Blog | Poză în URL",
       "description": "Articole despre găzduirea fotografiilor, partajarea linkurilor și sfaturi de performanță."
     },
     "page": {
       "title": "Blog",
-      "description": "Pregătim articole despre găzduirea fotografiilor, CDN, partajarea linkurilor și sfaturi SEO. Conținutul vine în curând.",
+      "description": "Ultimele articole, tutoriale și perspective despre găzduirea imaginilor, CDN, partajarea linkurilor, decuparea circulară, colțurile rotunjite și eliminarea fundalului.",
       "stayTuned": "Urmărește ghiduri despre:",
       "guides": {
         "1": "Cele mai bune practici pentru conversia imaginii în URL",
@@ -585,13 +586,30 @@
       "backToBlog": "Înapoi la blog",
       "minRead": "min citire",
       "author": "Autor",
-      "viewMoreArticles": "Vezi mai multe articole"
+      "viewMoreArticles": "Vezi mai multe articole",
+      "tags": "Etichete:",
+      "about": {
+        "title": "Despre echipa Poză în URL",
+        "subtitle": "Echipa editorială",
+        "description": "Construim și menținem Poză în URL și scriem ghiduri practice pentru optimizarea imaginilor și performanța web.",
+        "website": "Site web",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Vezi toate postările"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Cum să convertești o imagine în URL: Un ghid complet pentru 2025",
+        "description": "Învață tot ce trebuie să știi despre conversia imaginilor în URL-uri partajabile. Acest ghid cuprinzător acoperă metode, cele mai bune practici și sfaturi pentru găzduirea imaginilor și partajarea linkurilor.",
+        "content": "# Cum să convertești o imagine în URL: Un ghid complet pentru 2025\n\nConversia imaginilor în URL-uri partajabile a devenit o abilitate esențială în lumea digitală de astăzi. Fie că ești blogger, dezvoltator sau creator de conținut, înțelegerea modului de transformare a imaginilor tale în linkuri directe poate îmbunătăți semnificativ fluxul tău de lucru și capacitățile de partajare a conținutului.\n\n## De ce să convertești imagini în URL-uri?\n\nÎnainte de a ne scufunda în metode, să înțelegem de ce conversia imaginilor în URL-uri este benefică:\n\n### 1. **Partajare ușoară**\nURL-urile directe ale imaginilor îți permit să partajezi imagini instantaneu fără să descarci sau să încarci din nou fișiere. Pur și simplu copiază URL-ul și lipește-l oriunde - în e-mailuri, documente sau postări pe rețelele sociale.\n\n### 2. **Performanță mai bună**\nFolosirea linkurilor directe către imagini reduce încărcarea serverului tău principal. Când imaginile sunt găzduite pe un CDN (Content Delivery Network), se încarcă mai rapid pentru utilizatori din întreaga lume.\n\n### 3. **Flexibilitate**\nURL-urile imaginilor pot fi încorporate în HTML, Markdown sau folosite în API-uri. Această flexibilitate le face perfecte atât pentru dezvoltatori, cât și pentru creatori de conținut.\n\n### 4. **Eficiență de stocare**\nÎn loc să stochezi imagini local, poți folosi soluții de stocare în cloud care oferă URL-uri directe, economisind spațiu valoros pe server.\n\n## Metode de conversie a imaginilor în URL-uri\n\n### Metoda 1: Folosirea serviciului Poză în URL\n\n**Poză în URL** este un serviciu gratuit, prietenos cu utilizatorul, care face conversia imaginii în URL fără efort:\n\n1. **Vizitează site-ul**: Navighează la Poză în URL\n2. **Încarcă-ți imaginea**: Trage și plasează fișierul tău de imagine sau dă clic pentru a naviga\n3. **Obține-ți URL-ul**: Odată încărcată, vei primi un link direct către imaginea ta\n4. **Copiază și folosește**: Copiază URL-ul și folosește-l oriunde ai nevoie\n\n**Avantaje:**\n- ✅ Nu este necesară înregistrarea\n- ✅ Încărcare și procesare rapidă\n- ✅ Linkuri CDN directe pentru performanță optimă\n- ✅ Suport pentru multiple formate de imagine (JPG, PNG, WEBP, GIF)\n\n### Metoda 2: Servicii de stocare în cloud\n\nServiciile populare de stocare în cloud oferă găzduire de imagini cu acces direct la URL:\n\n**Google Cloud Storage / AWS S3:**\n- Încarcă imagini în bucket-ul tău\n- Setează permisiunile adecvate\n- Accesează imagini prin URL-uri directe\n- Configurează CDN pentru performanță mai bună\n\n**Avantaje:**\n- Control complet asupra imaginilor tale\n- Soluții de stocare scalabile\n- Infrastructură de nivel profesional\n\n### Metoda 3: Platforme de găzduire imagini\n\nPlatformele dedicate de găzduire imagini oferă servicii specializate:\n\n- **Imgur**: Popular pentru partajare rapidă de imagini\n- **Cloudinary**: Funcții avansate de manipulare a imaginilor\n- **ImageKit**: Optimizat pentru performanță\n\n## Cele mai bune practici pentru URL-uri de imagini\n\n### 1. **Alege formatul potrivit**\n\nDiferite formate de imagine servesc diferitelor scopuri:\n\n- **JPEG**: Cel mai bun pentru fotografii cu multe culori\n- **PNG**: Ideal pentru imagini cu transparență sau margini ascuțite\n- **WEBP**: Format modern care oferă compresie mai bună\n- **GIF**: Perfect pentru imagini animate\n\n### 2. **Optimizează dimensiunea imaginii**\n\nÎnainte de a converti în URL, optimizează-ți imaginile:\n\n- Comprimă imaginile pentru a reduce dimensiunea fișierului\n- Redimensionează imaginile la dimensiuni adecvate\n- Folosește formate moderne precum WEBP când este posibil\n- Echilibrează calitatea și dimensiunea fișierului\n\n### 3. **Folosește CDN pentru performanță mai bună**\n\nRețelele de livrare conținut (CDN) distribuie imaginile tale pe mai multe servere din întreaga lume, asigurând timpi de încărcare rapizi indiferent de locația utilizatorului.\n\n### 4. **Implementează securitatea adecvată**\n\n- Folosește URL-uri HTTPS pentru livrare sigură de imagini\n- Setează permisiuni de acces adecvate\n- Consideră adăugarea unui filigran pentru conținut sensibil\n- Monitorizează utilizarea pentru a preveni abuzurile\n\n## Cazuri de utilizare comune\n\n### Pentru blogeri\n\nBlogerii pot folosi URL-uri de imagini pentru:\n- Încorporarea imaginilor în postările de blog fără a le găzdui local\n- Îmbunătățirea timpilor de încărcare a paginilor\n- Partajarea imaginilor pe multiple platforme\n- Menținerea unei calități consistente a imaginilor\n\n### Pentru dezvoltatori\n\nDezvoltatorii beneficiază de URL-uri de imagini:\n- Reducând încărcarea serverului\n- Simplificând gestionarea imaginilor\n- Permițând încărcarea dinamică a imaginilor\n- Integrând cu API-uri și servicii web\n\n### Pentru comerțul electronic\n\nSite-urile de comerț electronic folosesc URL-uri de imagini pentru:\n- Afișarea eficientă a imaginilor produselor\n- Gestionarea unor cataloage mari de imagini\n- Optimizarea pentru dispozitive mobile\n- Îmbunătățirea performanței paginii de checkout\n\n## Rezolvarea problemelor comune\n\n### Problemă: Linkuri de imagini rupte\n\n**Soluție:**\n- Verifică că URL-ul este corect și accesibil\n- Verifică permisiunile și setările de acces ale imaginilor\n- Asigură-te că serviciul de găzduire este operațional\n- Validează că formatul imaginii este suportat\n\n### Problemă: Timpi de încărcare lenți\n\n**Soluție:**\n- Folosește un CDN pentru livrarea imaginilor\n- Optimizează dimensiunile fișierelor de imagini\n- Alege formate de imagini adecvate\n- Implementează încărcarea leneșă unde este posibil\n\n### Problemă: Imaginea nu se afișează\n\n**Soluție:**\n- Verifică setările CORS (Cross-Origin Resource Sharing)\n- Verifică dacă protocoalele HTTPS/HTTP se potrivesc\n- Asigură-te că sunt setate tipurile MIME corespunzătoare\n- Testează accesibilitatea URL-ului din diferite locații\n\n## Sfaturi avansate\n\n### 1. **Procesare în loturi**\n\nPentru mai multe imagini, consideră:\n- Folosirea API-urilor pentru încărcări automatizate\n- Implementarea scripturilor de conversie în loturi\n- Utilizarea API-urilor de stocare în cloud\n- Configurarea fluxurilor de lucru automatizate\n\n### 2. **Manipulare imagini**\n\nUnele servicii oferă manipulare imagini în timp real:\n- Redimensionarea imaginilor prin parametri URL\n- Aplicarea filtrelor și efectelor\n- Conversia automată a formatelor\n- Decuparea și rotirea imaginilor\n\n### 3. **Analiză și monitorizare**\n\nUrmărește utilizarea imaginilor tale:\n- Monitorizează consumul de lățime de bandă\n- Analizează imaginile populare\n- Urmărește modelele de acces\n- Optimizează pe baza datelor de utilizare\n\n## Concluzie\n\nConversia imaginilor în URL-uri este un proces simplu care oferă numeroase beneficii. Fie că alegi un serviciu simplu precum Poză în URL sau o soluție completă de stocare în cloud, cheia este găsirea metodei care se potrivește cel mai bine nevoilor tale.\n\nAmintește-ți să:\n- ✅ Optimizezi imaginile înainte de încărcare\n- ✅ Alegi formate adecvate\n- ✅ Folosești CDN pentru performanță mai bună\n- ✅ Implementezi măsuri de securitate adecvate\n- ✅ Monitorizezi și optimizezi regulat\n\nUrmând aceste linii directoare, vei putea converti și gestiona eficient imaginile tale ca URL-uri, îmbunătățind atât fluxul tău de lucru, cât și performanța conținutului tău.\n\n## Instrumente conexe\n\n- [Poză în URL](/) - Serviciu gratuit de conversie imagine în URL\n- [Instrument de decupare circulară](/circle-crop) - Creează imagini circulare\n- [Instrument colțuri rotunjite](/rounded-corners) - Adaugă colțuri rotunjite la imagini\n- [Instrument eliminare fundal](/remove-background) - Elimină fundalurile imaginilor cu AI\n\n---\n\n*Ultima actualizare: Februarie 2025*"
+      }
     }
   },
   "docs": {
     "seo": {
-      "title": "Documentație | Photo To URL",
-      "description": "Documentație pentru Photo To URL."
+      "title": "Documentație | Poză în URL",
+      "description": "Documentație pentru Poză în URL."
     },
     "page": {
       "title": "Documentație",
@@ -608,8 +626,8 @@
   },
   "status": {
     "seo": {
-      "title": "Status | Photo To URL",
-      "description": "Status serviciu pentru Photo To URL."
+      "title": "Status | Poză în URL",
+      "description": "Status serviciu pentru Poză în URL."
     },
     "page": {
       "title": "Status",
@@ -619,8 +637,8 @@
   },
   "contact": {
     "seo": {
-      "title": "Contact | Photo To URL",
-      "description": "Contactează suportul Photo To URL."
+      "title": "Contact | Poză în URL",
+      "description": "Contactează suportul Poză în URL."
     },
     "page": {
       "title": "Contact",
@@ -632,8 +650,8 @@
     }
   },
   "bookmarklet": {
-    "title": "Photo To URL Bookmarklet",
-    "description": "Încărcați imagini de pe orice pagină web direct în Photo To URL cu un singur clic!",
+    "title": "Poză în URL Bookmarklet",
+    "description": "Încărcați imagini de pe orice pagină web direct în Poză în URL cu un singur clic!",
     "howItWorks": {
       "title": "Cum funcționează",
       "step1": "Navigați pe orice pagină web cu imagini",
@@ -666,7 +684,7 @@
       "title": "Funcții",
       "description": "Bookmarklet oferă următoarele funcții:",
       "feature1": "Selectați orice imagine din pagina web curentă",
-      "feature2": "Încărcare automată în Photo To URL",
+      "feature2": "Încărcare automată în Poză în URL",
       "feature3": "Obțineți un URL partajabil instantaneu cu un clic pentru copiere"
     },
     "note": {

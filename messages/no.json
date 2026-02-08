@@ -4,6 +4,7 @@
     "tagline": "Gjør bilder om til rene, delbare lenker på sekunder",
     "header": {
       "home": "Hjem",
+      "blog": "Blogg",
       "subtitle": "Gjør bilder om til delbare lenker",
       "prompt": "Dra, lim inn eller last opp — få en lenke umiddelbart",
       "circleCrop": "Rundt bilde",
@@ -102,7 +103,7 @@
       "tryPrefix": "Prøv "
     },
     "benefits": {
-      "title": "Hvorfor velge Photo To URL",
+      "title": "Hvorfor velge Bilde til URL",
       "subtitle": "Hastighet, rene lenker og ingen registrering nødvendig.",
       "items": {
         "fast": {
@@ -175,7 +176,7 @@
       }
     },
     "testimonials": {
-      "title": "Team sparer tid med Photo To URL",
+      "title": "Team sparer tid med Bilde til URL",
       "subtitle": "Sosialt bevis for å redusere risiko og fremskynde adopsjon.",
       "items": {
         "ops": {
@@ -199,8 +200,8 @@
       "paste": "Lim inn skjermbilde"
     },
     "longform": {
-      "title": "Hvorfor Photo To URL hjelper arbeidsflyten din",
-      "p1": "Photo To URL er bygget for skapere, markedsføring, støtte, operasjoner og alle som trenger å konvertere bilder til rene, pålitelige lenker. Med en direkte opplast→lenke-flyt unngår du tunge mediemanagere og trenger ikke å logge inn. Lenker er ryddige og enkle å lime inn i chatter, dokumenter, wikier, feilrapporter og billetter. Team beveger seg raskere ved å dele skjermbilder umiddelbart· i tillegg hjelper forutsigbare URLer med automatisering, QA og lette prototyper.",
+      "title": "Hvorfor Bilde til URL hjelper arbeidsflyten din",
+      "p1": "Bilde til URL er bygget for skapere, markedsføring, støtte, operasjoner og alle som trenger å konvertere bilder til rene, pålitelige lenker. Med en direkte opplast→lenke-flyt unngår du tunge mediemanagere og trenger ikke å logge inn. Lenker er ryddige og enkle å lime inn i chatter, dokumenter, wikier, feilrapporter og billetter. Team beveger seg raskere ved å dele skjermbilder umiddelbart· i tillegg hjelper forutsigbare URLer med automatisering, QA og lette prototyper.",
       "p2": "Opplevelsen forblir enkel: slipp, lim inn eller velg en fil· få en lenke· del den. Uten støy, uten forstyrrende annonser, uten barrierer. Du fokuserer på innholdet, vi håndterer hosting. For globale team er grensesnittet tilgjengelig på flere språk mens teksten forblir klar og universell.",
       "useCases": {
         "title": "Praktiske brukstilfeller",
@@ -266,7 +267,7 @@
       "subtitle": "Velg ditt foretrukne språk og region"
     },
     "rateService": {
-      "title": "Vurder Photo To URL Converter",
+      "title": "Vurder Bilde til URL Converter",
       "thankYou": "Takk for tilbakemeldingen!",
       "averageRating": "4.5",
       "votes": "4,992 stemmer"
@@ -274,7 +275,7 @@
     "seo": {
       "keywords": "bilde til url, foto til lenke, bilde-lenke generator, gratis bildehosting, cdn bilde",
       "home": {
-        "title": "Photo To URL Converter | Gjør bilder om til delbare lenker",
+        "title": "Bilde til URL Converter | Gjør bilder om til delbare lenker",
         "description": "Gratis bildehosting: konverter bilder til permanente URL-er umiddelbart. Støtter JPG, PNG, WEBP, GIF opptil 5MB."
       }
     }
@@ -377,7 +378,7 @@
   "seo": {
     "keywords": "bilde til url,bilde til url,bildelenke generator,konverter bilde til lenke,gratis bildhosting,cdn bilde",
     "home": {
-      "title": "Photo To URL Konverter | Gjør bilder om til delbare lenker",
+      "title": "Bilde til URL Konverter | Gjør bilder om til delbare lenker",
       "description": "Gratis bildhosting: konverter bilder til permanente URLer umiddelbart. Støtter JPG, PNG, WEBP, GIF opp til 5MB. Utklippstavle innliming, rask CDN, rene lenker."
     }
   },
@@ -386,22 +387,22 @@
     "animatingSampleAlt": "Eksempelbilde brukt i opplastingsdemo",
     "sampleThumbAlt": "Eksempel opplastingsbilde",
     "useSampleAria": "Bruk dette eksempelbildet",
-    "howIllustrationAlt": "Illustrasjon som viser hvordan Photo To URL fungerer",
+    "howIllustrationAlt": "Illustrasjon som viser hvordan Bilde til URL fungerer",
     "heroDropTitle": "Dra et bilde hit",
     "heroDropSubtitle": "Vi vil forbedre og hoste det, deretter returnere en ren lenke.",
     "heroDropBadge": "Dra eller klikk (JPG/PNG, opp til 5MB)",
-    "logoAlt": "Photo To URL logo"
+    "logoAlt": "Bilde til URL logo"
   },
   "about": {
     "seo": {
-      "title": "Om oss | Photo To URL",
-      "description": "Lær mer om Photo To URL - en gratis bildhostingstjeneste som konverterer bilder til delbare lenker."
+      "title": "Om oss | Bilde til URL",
+      "description": "Lær mer om Bilde til URL - en gratis bildhostingstjeneste som konverterer bilder til delbare lenker."
     },
     "page": {
       "title": "Om oss",
       "mission": {
         "title": "Vår misjon",
-        "content": "Photo To URL er en gratis, rask og pålitelig bildhostingstjeneste designet for å hjelpe skapere, markedsførere og team med å konvertere bilder til delbare lenker umiddelbart. Vi tror på enkelhet, hastighet og brukerens personvern."
+        "content": "Bilde til URL er en gratis, rask og pålitelig bildhostingstjeneste designet for å hjelpe skapere, markedsførere og team med å konvertere bilder til delbare lenker umiddelbart. Vi tror på enkelhet, hastighet og brukerens personvern."
       },
       "features": {
         "title": "Hva vi tilbyr",
@@ -420,13 +421,13 @@
   "legal": {
     "privacy": {
       "seo": {
-        "title": "Personvernpolicy | Photo To URL",
-        "description": "Personvernpolicy for Photo To URL - Lær hvordan vi samler inn, bruker og beskytter dine data."
+        "title": "Personvernpolicy | Bilde til URL",
+        "description": "Personvernpolicy for Bilde til URL - Lær hvordan vi samler inn, bruker og beskytter dine data."
       },
       "page": {
         "title": "Personvernpolicy",
         "lastUpdated": "Sist oppdatert: januar 2026",
-        "introduction": "På Photo To URL respekterer vi ditt personvern og er forpliktet til å beskytte din personlige informasjon. Denne personvernpolicyen forklarer hvordan vi samler inn, bruker, avslører og beskytter din informasjon når du bruker tjenesten vår.",
+        "introduction": "På Bilde til URL respekterer vi ditt personvern og er forpliktet til å beskytte din personlige informasjon. Denne personvernpolicyen forklarer hvordan vi samler inn, bruker, avslører og beskytter din informasjon når du bruker tjenesten vår.",
         "dataCollection": {
           "title": "Informasjon vi samler inn",
           "content1": "Når du laster opp et bilde, samler vi inn:",
@@ -492,12 +493,12 @@
     },
     "terms": {
       "seo": {
-        "title": "Tjenestevilkår | Photo To URL",
-        "description": "Tjenestevilkår for Photo To URL."
+        "title": "Tjenestevilkår | Bilde til URL",
+        "description": "Tjenestevilkår for Bilde til URL."
       },
       "page": {
         "title": "Tjenestevilkår",
-        "content": "Ved å bruke Photo To URL godtar du å bruke tjenesten ansvarlig og ikke laste opp ulovlig innhold.",
+        "content": "Ved å bruke Bilde til URL godtar du å bruke tjenesten ansvarlig og ikke laste opp ulovlig innhold.",
         "disclaimer": {
           "title": "Ansvarsfraskrivelse",
           "text": "Tjenesten leveres \"som den er\" uten garantier. Tilgjengeligheten kan endres på grunn av vedlikehold."
@@ -511,13 +512,13 @@
     },
     "cookie": {
       "seo": {
-          "title": "Informasjonskapselpolicy | Photo To URL",
-          "description": "Informasjonskapselpolicy for Photo To URL - Lær hvordan vi bruker informasjonskapsler og sporings teknologier."
+          "title": "Informasjonskapselpolicy | Bilde til URL",
+          "description": "Informasjonskapselpolicy for Bilde til URL - Lær hvordan vi bruker informasjonskapsler og sporings teknologier."
         },
         "page": {
         "title": "Informasjonskapselpolicy",
           "lastUpdated": "Sist oppdatert: januar 2026",
-          "introduction": "Denne informasjonskapselpolicyen forklarer hvordan Photo To URL bruker informasjonskapsler og lignende sporings teknologier når du besøker nettstedet vårt. Ved å bruke tjenesten vår samtykker du til bruk av informasjonskapsler i samsvar med denne policyen.",
+          "introduction": "Denne informasjonskapselpolicyen forklarer hvordan Bilde til URL bruker informasjonskapsler og lignende sporings teknologier når du besøker nettstedet vårt. Ved å bruke tjenesten vår samtykker du til bruk av informasjonskapsler i samsvar med denne policyen.",
           "whatAreCookies": {
             "title": "Hva er informasjonskapsler",
             "content": "Informasjonskapsler er små tekstfiler som plasseres på enheten din når du besøker et nettsted. De brukes mye for å gjøre nettsteder mer effektive og gi informasjon til nettstedeiere."
@@ -568,12 +569,12 @@
   },
   "blog": {
     "seo": {
-      "title": "Blogg | Photo To URL",
+      "title": "Blogg | Bilde til URL",
       "description": "Artikler om bildhosting, lenkedeling og ytelsestips."
     },
     "page": {
       "title": "Blogg",
-      "description": "Vi forbereder artikler om bildhosting, CDN, lenkedeling og SEO-tips. Innhold kommer snart.",
+      "description": "Siste artikler, tutorials og innsikt om bildhosting, CDN, lenkedeling, sirkelbeskjæring, avrundede hjørner og bakgrunnsfjerning.",
       "stayTuned": "Følg med på guider om:",
       "guides": {
         "1": "Beste praksis for bilde til URL-konvertering",
@@ -585,13 +586,30 @@
       "backToBlog": "Tilbake til bloggen",
       "minRead": "min lesing",
       "author": "Forfatter",
-      "viewMoreArticles": "Se flere artikler"
+      "viewMoreArticles": "Se flere artikler",
+      "tags": "Tagger:",
+      "about": {
+        "title": "Om Bilde til URL Team",
+        "subtitle": "Redaksjonsteam",
+        "description": "Vi bygger og vedlikeholder Bilde til URL og skriver praktiske guider for bildeoptimalisering og webytelse.",
+        "website": "Nettsted",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Se alle innlegg"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Hvordan konvertere bilde til URL: En komplett guide for 2025",
+        "description": "Lær alt du trenger å vite om å konvertere bilder til delbare URL-er. Denne omfattende guiden dekker metoder, beste praksis og tips for bildhosting og lenkedeling.",
+        "content": "# Hvordan konvertere bilde til URL: En komplett guide for 2025\n\nÅ konvertere bilder til delbare URL-er har blitt en essensiell ferdighet i dagens digitale verden. Enten du er blogger, utvikler eller innholdsprodusent, kan forståelse av hvordan man transformerer bildene dine til direkte lenker betydelig forbedre arbeidsflyten din og innholdsdeling.\n\n## Hvorfor konvertere bilder til URL-er?\n\nFør vi dykker ned i metodene, la oss forstå hvorfor det er fordelaktig å konvertere bilder til URL-er:\n\n### 1. **Enkel deling**\nDirekte bilde-URL-er lar deg dele bilder umiddelbart uten å laste ned eller laste opp filer på nytt. Bare kopier URL-en og lim den inn hvor som helst - i e-poster, dokumenter eller sosiale medie-innlegg.\n\n### 2. **Bedre ytelse**\nBruk av direkte bilde lenker reduserer belastningen på hovedserveren din. Når bilder hostes på en CDN (Content Delivery Network), lastes de raskere for brukere over hele verden.\n\n### 3. **Fleksibilitet**\nBilde-URL-er kan bygges inn i HTML, Markdown eller brukes i API-er. Denne fleksibiliteten gjør dem perfekte for både utviklere og innholdsprodusenter.\n\n### 4. **Lagringseffektivitet**\nI stedet for å lagre bilder lokalt, kan du bruke skylagringsløsninger som gir direkte URL-er, noe som sparer verdifull serverplass.\n\n## Metoder for å konvertere bilder til URL-er\n\n### Metode 1: Bruke Bilde til URL-tjenesten\n\n**Bilde til URL** er en gratis, brukervennlig tjeneste som gjør konvertering fra bilde til URL enkel:\n\n1. **Besøk nettstedet**: Naviger til Bilde til URL\n2. **Last opp bildet ditt**: Dra og slipp bildefilen din eller klikk for å bla\n3. **Få URL-en din**: Når opplastingen er fullført, får du en direkte lenke til bildet ditt\n4. **Kopier og bruk**: Kopier URL-en og bruk den hvor du trenger den\n\n**Fordeler:**\n- ✅ Ingen registrering påkrevd\n- ✅ Rask opplasting og behandling\n- ✅ Direkte CDN-lenker for optimal ytelse\n- ✅ Støtte for flere bildeformater (JPG, PNG, WEBP, GIF)\n\n### Metode 2: Skylagringstjenester\n\nPopulære skylagringstjenester tilbyr bildehosting med direkte URL-tilgang:\n\n**Google Cloud Storage / AWS S3:**\n- Last opp bilder til bøtten din\n- Sett passende tillatelser\n- Få tilgang til bilder via direkte URL-er\n- Konfigurer CDN for bedre ytelse\n\n**Fordeler:**\n- Full kontroll over bildene dine\n- Skalerbare lagringsløsninger\n- Infrastruktur på profesjonelt nivå\n\n### Metode 3: Bildehostingplattformer\n\nDedikerte bildehostingplattformer gir spesialiserte tjenester:\n\n- **Imgur**: Populær for rask bildedeling\n- **Cloudinary**: Avanserte bilde manipulasjonsfunksjoner\n- **ImageKit**: Optimalisert for ytelse\n\n## Beste praksis for bilde-URL-er\n\n### 1. **Velg riktig format**\n\nForskjellige bildeformater tjener forskjellige formål:\n\n- **JPEG**: Best for fotografier med mange farger\n- **PNG**: Ideelt for bilder med gjennomsiktighet eller skarpe kanter\n- **WEBP**: Moderne format som tilbyr bedre komprimering\n- **GIF**: Perfekt for animerte bilder\n\n### 2. **Optimaliser bilde størrelse**\n\nFør du konverterer til URL, optimaliser bildene dine:\n\n- Komprimer bilder for å redusere filstørrelse\n- Endre størrelse på bilder til passende dimensjoner\n- Bruk moderne formater som WEBP når det er mulig\n- Balanser kvalitet og filstørrelse\n\n### 3. **Bruk CDN for bedre ytelse**\n\nContent Delivery Networks (CDN) distribuerer bildene dine på tvers av flere servere over hele verden, noe som sikrer raske lastetider uavhengig av brukerens plassering.\n\n### 4. **Implementer riktig sikkerhet**\n\n- Bruk HTTPS-URL-er for sikker bildelevering\n- Sett passende tilgangstillatelser\n- Vurder vannmerking for følsomt innhold\n- Overvåk bruk for å forhindre misbruk\n\n## Vanlige bruksområder\n\n### For bloggere\n\nBloggere kan bruke bilde-URL-er til:\n- Bygge inn bilder i blogginnlegg uten å hoste dem lokalt\n- Forbedre sidlastetider\n- Dele bilder på tvers av flere plattformer\n- Opprettholde konsistent bildekvalitet\n\n### For utviklere\n\nUtviklere drar nytte av bilde-URL-er ved:\n- Å redusere serverbelastning\n- Å forenkle bildehåndtering\n- Å aktivere dynamisk bilde lasting\n- Å integrere med API-er og webtjenester\n\n### For e-handel\n\nE-handelssider bruker bilde-URL-er til:\n- Å vise produktbilder effektivt\n- Å administrere store bildekataloger\n- Å optimalisere for mobile enheter\n- Å forbedre kasse side ytelse\n\n## Feilsøking av vanlige problemer\n\n### Problem: Ødelagte bilde lenker\n\n**Løsning:**\n- Bekreft at URL-en er riktig og tilgjengelig\n- Sjekk bilde tillatelser og tilgangsinnstillinger\n- Sørg for at hostingtjenesten er operativ\n- Valider at bildeformatet støttes\n\n### Problem: Langsomme lastetider\n\n**Løsning:**\n- Bruk en CDN for bildelevering\n- Optimaliser bildefilstørrelser\n- Velg passende bildeformater\n- Implementer lat lasting der det er mulig\n\n### Problem: Bilde vises ikke\n\n**Løsning:**\n- Sjekk CORS-innstillinger (Cross-Origin Resource Sharing)\n- Bekreft at HTTPS/HTTP-protokoller matcher\n- Sørg for at riktige MIME-typer er satt\n- Test URL-tilgjengelighet fra forskjellige lokasjoner\n\n## Avanserte tips\n\n### 1. **Batchbehandling**\n\nFor flere bilder, vurder:\n- Bruk av API-er for automatiserte opplastinger\n- Implementering av batchkonverteringsskript\n- Utnyttelse av skylagrings-API-er\n- Oppsett av automatiserte arbeidsflyter\n\n### 2. **Bilde manipulasjon**\n\nNoen tjenester tilbyr bilde manipulasjon på flyet:\n- Endre størrelse på bilder via URL-parametere\n- Anvende filtre og effekter\n- Automatisk konvertering av formater\n- Beskjæring og rotasjon av bilder\n\n### 3. **Analytikk og overvåking**\n\nSpor bruken av bildene dine:\n- Overvåk båndbreddeforbruk\n- Analyser populære bilder\n- Spor tilgangsmønstre\n- Optimaliser basert på bruksdata\n\n## Konklusjon\n\nÅ konvertere bilder til URL-er er en enkel prosess som tilbyr mange fordeler. Enten du velger en enkel tjeneste som Bilde til URL eller en omfattende skylagringsløsning, er nøkkelen å finne metoden som passer best til dine behov.\n\nHusk å:\n- ✅ Optimaliser bilder før opplasting\n- ✅ Velg passende formater\n- ✅ Bruk CDN for bedre ytelse\n- ✅ Implementer riktige sikkerhetstiltak\n- ✅ Overvåk og optimaliser regelmessig\n\nVed å følge disse retningslinjene vil du kunne konvertere og administrere bildene dine som URL-er effektivt, noe som forbedrer både arbeidsflyten din og innholdets ytelse.\n\n## Relaterte verktøy\n\n- [Bilde til URL](/) - Gratis tjeneste for konvertering av bilde til URL\n- [Sirkelklipp verktøy](/circle-crop) - Opprett sirkulære bilder\n- [Avrundede hjørner verktøy](/rounded-corners) - Legg til avrundede hjørner på bilder\n- [Fjern bakgrunn verktøy](/remove-background) - Fjern bilde bakgrunner med AI\n\n---\n\n*Sist oppdatert: Februar 2025*"
+      }
     }
   },
   "docs": {
     "seo": {
-      "title": "Dokumentasjon | Photo To URL",
-      "description": "Dokumentasjon for Photo To URL."
+      "title": "Dokumentasjon | Bilde til URL",
+      "description": "Dokumentasjon for Bilde til URL."
     },
     "page": {
       "title": "Dokumentasjon",
@@ -608,8 +626,8 @@
   },
   "status": {
     "seo": {
-      "title": "Status | Photo To URL",
-      "description": "Tjenestestatus for Photo To URL."
+      "title": "Status | Bilde til URL",
+      "description": "Tjenestestatus for Bilde til URL."
     },
     "page": {
       "title": "Status",
@@ -619,8 +637,8 @@
   },
   "contact": {
     "seo": {
-      "title": "Kontakt | Photo To URL",
-      "description": "Kontakt Photo To URL-støtte."
+      "title": "Kontakt | Bilde til URL",
+      "description": "Kontakt Bilde til URL-støtte."
     },
     "page": {
       "title": "Kontakt",
@@ -632,8 +650,8 @@
     }
   },
   "bookmarklet": {
-    "title": "Photo To URL Bookmarklet",
-    "description": "Last opp bilder fra hvilken som helst nettside direkte til Photo To URL med ett enkelt klikk!",
+    "title": "Bilde til URL Bookmarklet",
+    "description": "Last opp bilder fra hvilken som helst nettside direkte til Bilde til URL med ett enkelt klikk!",
     "howItWorks": {
       "title": "Hvordan det fungerer",
       "step1": "Bla gjennom hvilken som helst nettside med bilder",
@@ -666,7 +684,7 @@
       "title": "Funksjoner",
       "description": "Bookmarklet gir følgende funksjoner:",
       "feature1": "Velg et hvilket som helst bilde fra den nåværende nettsiden",
-      "feature2": "Automatisk opplasting til Photo To URL",
+      "feature2": "Automatisk opplasting til Bilde til URL",
       "feature3": "Få en delbar URL umiddelbart med ett klikk for å kopiere"
     },
     "note": {

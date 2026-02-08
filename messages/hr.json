@@ -4,6 +4,7 @@
     "tagline": "Pretvorite fotografije u čiste, djeljive poveznice u nekoliko sekundi",
     "header": {
       "home": "Početna",
+      "blog": "Blog",
       "subtitle": "Pretvorite slike u djeljive poveznice",
       "prompt": "Povucite, zalijepite ili učitajte — odmah preuzmite poveznicu",
       "circleCrop": "Okrugli izrez",
@@ -102,7 +103,7 @@
       "tryPrefix": "Isprobajte "
     },
     "benefits": {
-      "title": "Zašto odabrati Photo To URL",
+      "title": "Zašto odabrati Slika u URL",
       "subtitle": "Brzina, čiste poveznice i bez nepotrebne registracije.",
       "items": {
         "fast": {
@@ -175,7 +176,7 @@
       }
     },
     "testimonials": {
-      "title": "Timovi štede vrijeme s Photo To URL",
+      "title": "Timovi štede vrijeme s Slika u URL",
       "subtitle": "Društveni dokaz za smanjenje rizika i ubrzanje usvajanja.",
       "items": {
         "ops": {
@@ -199,8 +200,8 @@
       "paste": "Zalijepi snimku zaslona"
     },
     "longform": {
-      "title": "Zašto Photo To URL pomaže vašem radnom toku",
-      "p1": "Photo To URL je izgrađen za kreatore, marketing, podršku, operacije i sve koji trebaju pretvoriti fotografije u čiste, pouzdane poveznice. S izravnim tijekom učitavanja→poveznica izbjegavate teške upravitelje medija i ne trebate prijavu. Poveznice su uredne i lako se lijepe u chatove, dokumente, wikije, izvještaje o greškama i tikete. Timovi se kreću brže dijeleći snimke zaslona odmah· dodatno, predvidljive URL-ovi pomažu u automatizaciji, QA i laganim prototipovima.",
+      "title": "Zašto Slika u URL pomaže vašem radnom toku",
+      "p1": "Slika u URL je izgrađen za kreatore, marketing, podršku, operacije i sve koji trebaju pretvoriti fotografije u čiste, pouzdane poveznice. S izravnim tijekom učitavanja→poveznica izbjegavate teške upravitelje medija i ne trebate prijavu. Poveznice su uredne i lako se lijepe u chatove, dokumente, wikije, izvještaje o greškama i tikete. Timovi se kreću brže dijeleći snimke zaslona odmah· dodatno, predvidljive URL-ovi pomažu u automatizaciji, QA i laganim prototipovima.",
       "p2": "Iskustvo ostaje jednostavno: pustite, zalijepite ili odaberite datoteku· dobijte poveznicu· podijelite je. Bez buke, bez ometajućih oglasa, bez prepreka. Vi se fokusirate na sadržaj, mi upravljamo hostingom. Za globalne timove sučelje je dostupno na više jezika zadržavajući tekst jasan i univerzalan.",
       "useCases": {
         "title": "Praktični slučajevi korištenja",
@@ -266,7 +267,7 @@
       "subtitle": "Odaberite željeni jezik i regiju"
     },
     "rateService": {
-      "title": "Ocijenite Photo To URL Converter",
+      "title": "Ocijenite Slika u URL Converter",
       "thankYou": "Hvala vam na povratnim informacijama!",
       "averageRating": "4.5",
       "votes": "4,992 glasova"
@@ -377,7 +378,7 @@
   "seo": {
     "keywords": "fotografija u url,slika u url,generator veza slika,pretvori sliku u vezu,besplatno hostiranje slika,cdn slika",
     "home": {
-      "title": "Photo To URL Pretvarač | Pretvorite fotografije u dijeljive veze",
+      "title": "Slika u URL Pretvarač | Pretvorite fotografije u dijeljive veze",
       "description": "Besplatno hostiranje slika: pretvorite fotografije u trajne URL-ove odmah. Podržava JPG, PNG, WEBP, GIF do 5MB. Zalijepite iz međuspremnika, brzi CDN, čiste veze."
     }
   },
@@ -386,22 +387,22 @@
     "animatingSampleAlt": "Uzorak slike korišten u demo učitavanju",
     "sampleThumbAlt": "Uzorak slike za učitavanje",
     "useSampleAria": "Koristite ovu uzorak sliku",
-    "howIllustrationAlt": "Ilustracija koja pokazuje kako Photo To URL radi",
+    "howIllustrationAlt": "Ilustracija koja pokazuje kako Slika u URL radi",
     "heroDropTitle": "Povucite fotografiju ovdje",
     "heroDropSubtitle": "Poboljšat ćemo je i hostirati, zatim vratiti čistu poveznicu.",
     "heroDropBadge": "Povucite ili kliknite (JPG/PNG, do 5MB)",
-    "logoAlt": "Photo To URL logo"
+    "logoAlt": "Slika u URL logo"
   },
   "about": {
     "seo": {
-      "title": "O nama | Photo To URL",
-      "description": "Saznajte više o Photo To URL - besplatnoj usluzi hostiranja slika koja pretvara fotografije u dijeljive veze."
+      "title": "O nama | Slika u URL",
+      "description": "Saznajte više o Slika u URL - besplatnoj usluzi hostiranja slika koja pretvara fotografije u dijeljive veze."
     },
     "page": {
       "title": "O nama",
       "mission": {
         "title": "Naša misija",
-        "content": "Photo To URL je besplatna, brza i pouzdana usluga hostiranja slika dizajnirana da pomogne kreatorima, marketarima i timovima da pretvore slike u dijeljive veze odmah. Vjerujemo u jednostavnost, brzinu i privatnost korisnika."
+        "content": "Slika u URL je besplatna, brza i pouzdana usluga hostiranja slika dizajnirana da pomogne kreatorima, marketarima i timovima da pretvore slike u dijeljive veze odmah. Vjerujemo u jednostavnost, brzinu i privatnost korisnika."
       },
       "features": {
         "title": "Što nudimo",
@@ -420,13 +421,13 @@
   "legal": {
     "privacy": {
       "seo": {
-        "title": "Pravila privatnosti | Photo To URL",
-        "description": "Pravila privatnosti za Photo To URL - Saznajte kako prikupljamo, koristimo i štitimo vaše podatke."
+        "title": "Pravila privatnosti | Slika u URL",
+        "description": "Pravila privatnosti za Slika u URL - Saznajte kako prikupljamo, koristimo i štitimo vaše podatke."
       },
       "page": {
         "title": "Pravila privatnosti",
         "lastUpdated": "Posljednje ažuriranje: siječanj 2026",
-        "introduction": "U Photo To URL poštujemo vašu privatnost i posvećeni smo zaštiti vaših osobnih podataka. Ova Pravila privatnosti objašnjavaju kako prikupljamo, koristimo, otkrivamo i štitimo vaše informacije kada koristite našu uslugu.",
+        "introduction": "U Slika u URL poštujemo vašu privatnost i posvećeni smo zaštiti vaših osobnih podataka. Ova Pravila privatnosti objašnjavaju kako prikupljamo, koristimo, otkrivamo i štitimo vaše informacije kada koristite našu uslugu.",
         "dataCollection": {
           "title": "Informacije koje prikupljamo",
           "content1": "Kada učitavate sliku, prikupljamo:",
@@ -492,12 +493,12 @@
     },
     "terms": {
       "seo": {
-        "title": "Uvjeti korištenja | Photo To URL",
-        "description": "Uvjeti korištenja za Photo To URL."
+        "title": "Uvjeti korištenja | Slika u URL",
+        "description": "Uvjeti korištenja za Slika u URL."
       },
       "page": {
         "title": "Uvjeti korištenja",
-        "content": "Korištenjem Photo To URL pristajete koristiti uslugu odgovorno i ne učitavati nezakonit sadržaj.",
+        "content": "Korištenjem Slika u URL pristajete koristiti uslugu odgovorno i ne učitavati nezakonit sadržaj.",
         "disclaimer": {
           "title": "Odricanje od odgovornosti",
           "text": "Usluga se pruža \"kako jest\" bez jamstava. Dostupnost se može promijeniti zbog održavanja."
@@ -511,13 +512,13 @@
     },
     "cookie": {
       "seo": {
-          "title": "Pravila kolačića | Photo To URL",
-          "description": "Pravila kolačića za Photo To URL - Saznajte kako koristimo kolačiće i tehnologije praćenja."
+          "title": "Pravila kolačića | Slika u URL",
+          "description": "Pravila kolačića za Slika u URL - Saznajte kako koristimo kolačiće i tehnologije praćenja."
         },
         "page": {
         "title": "Pravila kolačića",
           "lastUpdated": "Posljednje ažuriranje: siječanj 2026",
-          "introduction": "Ova Pravila kolačića objašnjavaju kako Photo To URL koristi kolačiće i slične tehnologije praćenja kada posjećujete našu web stranicu. Korištenjem naše usluge pristajete na korištenje kolačića u skladu s ovim pravilima.",
+          "introduction": "Ova Pravila kolačića objašnjavaju kako Slika u URL koristi kolačiće i slične tehnologije praćenja kada posjećujete našu web stranicu. Korištenjem naše usluge pristajete na korištenje kolačića u skladu s ovim pravilima.",
           "whatAreCookies": {
             "title": "Što su kolačići",
             "content": "Kolačići su male tekstualne datoteke koje se postavljaju na vaš uređaj kada posjećujete web stranicu. Široko se koriste kako bi web stranice radile učinkovitije i pružale informacije vlasnicima web stranica."
@@ -568,12 +569,12 @@
   },
   "blog": {
     "seo": {
-      "title": "Blog | Photo To URL",
+      "title": "Blog | Slika u URL",
       "description": "Članci o hostiranju fotografija, dijeljenju veza i savjetima za performanse."
     },
     "page": {
       "title": "Blog",
-      "description": "Pripremamo članke o hostiranju fotografija, CDN-u, dijeljenju veza i SEO savjetima. Sadržaj uskoro.",
+      "description": "Najnoviji članci, vodiči i uvidi o hostiranju slika, CDN-u, dijeljenju veza, kružnom rezanju, zaobljenim kutovima i uklanjanju pozadine.",
       "stayTuned": "Pratite vodiče o:",
       "guides": {
         "1": "Najbolje prakse za pretvorbu slike u URL",
@@ -585,13 +586,30 @@
       "backToBlog": "Povratak na blog",
       "minRead": "min čitanja",
       "author": "Autor",
-      "viewMoreArticles": "Pogledaj više članaka"
+      "viewMoreArticles": "Pogledaj više članaka",
+      "tags": "Oznake:",
+      "about": {
+        "title": "O timu Slika u URL",
+        "subtitle": "Urednički tim",
+        "description": "Gradimo i održavamo Slika u URL i pišemo praktične vodiče za optimizaciju slika i web performanse.",
+        "website": "Web stranica",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Pogledaj sve objave"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Kako pretvoriti sliku u URL: Potpuni vodič za 2025",
+        "description": "Naučite sve što trebate znati o pretvaranju slika u dijeljive URL-ove. Ovaj sveobuhvatni vodič pokriva metode, najbolje prakse i savjete za hostiranje slika i dijeljenje veza.",
+        "content": "# Kako pretvoriti sliku u URL: Potpuni vodič za 2025\n\nPretvaranje slika u dijeljive URL-ove postalo je ključna vještina u današnjem digitalnom svijetu. Bez obzira jeste li bloger, programer ili kreator sadržaja, razumijevanje kako transformirati svoje slike u direktne veze može značajno poboljšati vaš radni proces i mogućnosti dijeljenja sadržaja.\n\n## Zašto pretvarati slike u URL-ove?\n\nPrije nego što se upustimo u metode, razumijmo zašto je pretvaranje slika u URL-ove korisno:\n\n### 1. **Lako dijeljenje**\nDirektni URL-ovi slika omogućavaju vam da dijelite slike odmah bez preuzimanja ili ponovnog učitavanja datoteka. Jednostavno kopirajte URL i zalijepite ga bilo gdje - u e-poštu, dokumente ili objave na društvenim mrežama.\n\n### 2. **Bolje performanse**\nKorištenje direktnih veza na slike smanjuje opterećenje vašeg glavnog servera. Kada su slike hostirane na CDN-u (Content Delivery Network), brže se učitavaju za korisnike širom svijeta.\n\n### 3. **Fleksibilnost**\nURL-ovi slika mogu se ugraditi u HTML, Markdown ili koristiti u API-jima. Ova fleksibilnost ih čini savršenim i za programere i za kreatore sadržaja.\n\n### 4. **Učinkovitost pohrane**\nUmjesto lokalnog pohranjivanja slika, možete koristiti rješenja za pohranu u oblaku koja pružaju direktne URL-ove, štedeći vrijedan prostor na serveru.\n\n## Metode za pretvaranje slika u URL-ove\n\n### Metoda 1: Korištenje usluge Slika u URL\n\n**Slika u URL** je besplatna, korisnički prijateljska usluga koja čini pretvaranje slike u URL jednostavnim:\n\n1. **Posjetite web stranicu**: Navigirajte do Slika u URL\n2. **Učitajte svoju sliku**: Povucite i pustite datoteku slike ili kliknite za pregledavanje\n3. **Dobijte svoj URL**: Nakon učitavanja, dobit ćete direktnu vezu na svoju sliku\n4. **Kopirajte i koristite**: Kopirajte URL i koristite ga gdje god trebate\n\n**Prednosti:**\n- ✅ Registracija nije potrebna\n- ✅ Brzo učitavanje i obrada\n- ✅ Direktne CDN veze za optimalne performanse\n- ✅ Podrška za više formata slika (JPG, PNG, WEBP, GIF)\n\n### Metoda 2: Usluge pohrane u oblaku\n\nPopularne usluge pohrane u oblaku nude hostiranje slika s direktnim pristupom URL-u:\n\n**Google Cloud Storage / AWS S3:**\n- Učitajte slike u svoj bucket\n- Postavite odgovarajuće dozvole\n- Pristupite slikama putem direktnih URL-ova\n- Konfigurirajte CDN za bolje performanse\n\n**Prednosti:**\n- Potpuna kontrola nad svojim slikama\n- Skalabilna rješenja za pohranu\n- Infrastruktura profesionalne razine\n\n### Metoda 3: Platforme za hostiranje slika\n\nNamjenske platforme za hostiranje slika pružaju specijalizirane usluge:\n\n- **Imgur**: Popularan za brzo dijeljenje slika\n- **Cloudinary**: Napredne značajke za manipulaciju slikama\n- **ImageKit**: Optimiziran za performanse\n\n## Najbolje prakse za URL-ove slika\n\n### 1. **Odaberite pravi format**\n\nRazličiti formati slika služe različitim svrhama:\n\n- **JPEG**: Najbolji za fotografije s mnogo boja\n- **PNG**: Idealno za slike s transparentnošću ili oštrim rubovima\n- **WEBP**: Moderan format koji nudi bolju kompresiju\n- **GIF**: Savršeno za animirane slike\n\n### 2. **Optimizirajte veličinu slike**\n\nPrije pretvaranja u URL, optimizirajte svoje slike:\n\n- Kompresirajte slike za smanjenje veličine datoteke\n- Promijenite veličinu slika na odgovarajuće dimenzije\n- Koristite moderne formate poput WEBP-a kada je moguće\n- Uravnotežite kvalitetu i veličinu datoteke\n\n### 3. **Koristite CDN za bolje performanse**\n\nMreže za dostavu sadržaja (CDN) distribuiraju vaše slike na više servera širom svijeta, osiguravajući brza vremena učitavanja bez obzira na lokaciju korisnika.\n\n### 4. **Implementirajte odgovarajuću sigurnost**\n\n- Koristite HTTPS URL-ove za sigurnu dostavu slika\n- Postavite odgovarajuće dozvole pristupa\n- Razmislite o vodenom žigu za osjetljiv sadržaj\n- Pratite korištenje kako biste spriječili zlouporabu\n\n## Uobičajeni slučajevi korištenja\n\n### Za blogere\n\nBlogeri mogu koristiti URL-ove slika za:\n- Ugradnju slika u blog objave bez lokalnog hostiranja\n- Poboljšanje vremena učitavanja stranica\n- Dijeljenje slika na više platformi\n- Održavanje konzistentne kvalitete slika\n\n### Za programere\n\nProgrameri imaju koristi od URL-ova slika:\n- Smanjujući opterećenje servera\n- Pojednostavljujući upravljanje slikama\n- Omogućujući dinamičko učitavanje slika\n- Integrirajući s API-jima i web uslugama\n\n### Za e-trgovinu\n\nE-trgovinske stranice koriste URL-ove slika za:\n- Učinkovito prikazivanje slika proizvoda\n- Upravljanje velikim katalogima slika\n- Optimizaciju za mobilne uređaje\n- Poboljšanje performansi stranice za naplatu\n\n## Rješavanje uobičajenih problema\n\n### Problem: Pokvarene veze na slike\n\n**Rješenje:**\n- Provjerite je li URL točan i dostupan\n- Provjerite dozvole i postavke pristupa slikama\n- Osigurajte da hosting usluga radi\n- Potvrdite da je format slike podržan\n\n### Problem: Spora vremena učitavanja\n\n**Rješenje:**\n- Koristite CDN za dostavu slika\n- Optimizirajte veličine datoteka slika\n- Odaberite odgovarajuće formate slika\n- Implementirajte lijeno učitavanje gdje je moguće\n\n### Problem: Slika se ne prikazuje\n\n**Rješenje:**\n- Provjerite postavke CORS-a (Cross-Origin Resource Sharing)\n- Provjerite odgovaraju li HTTPS/HTTP protokoli\n- Osigurajte da su postavljeni odgovarajući MIME tipovi\n- Testirajte dostupnost URL-a s različitih lokacija\n\n## Napredni savjeti\n\n### 1. **Obrada u serijama**\n\nZa više slika, razmislite o:\n- Korištenju API-ja za automatizirana učitavanja\n- Implementaciji skripti za serijsku konverziju\n- Korištenju API-ja za pohranu u oblaku\n- Postavljanju automatiziranih radnih tokova\n\n### 2. **Manipulacija slikama**\n\nNeke usluge nude manipulaciju slikama u letu:\n- Promjena veličine slika putem URL parametara\n- Primjena filtera i efekata\n- Automatska konverzija formata\n- Izrezivanje i rotacija slika\n\n### 3. **Analitika i praćenje**\n\nPratite korištenje svojih slika:\n- Pratite potrošnju propusnosti\n- Analizirajte popularne slike\n- Pratite obrasce pristupa\n- Optimizirajte na temelju podataka o korištenju\n\n## Zaključak\n\nPretvaranje slika u URL-ove je jednostavan proces koji nudi brojne prednosti. Bilo da odaberete jednostavnu uslugu poput Slika u URL ili sveobuhvatno rješenje za pohranu u oblaku, ključ je pronaći metodu koja najbolje odgovara vašim potrebama.\n\nZapamtite:\n- ✅ Optimizirajte slike prije učitavanja\n- ✅ Odaberite odgovarajuće formate\n- ✅ Koristite CDN za bolje performanse\n- ✅ Implementirajte odgovarajuće sigurnosne mjere\n- ✅ Redovito pratite i optimizirajte\n\nSlijedeći ove smjernice, moći ćete učinkovito pretvarati i upravljati svojim slikama kao URL-ovima, poboljšavajući i svoj radni proces i performanse svog sadržaja.\n\n## Povezani alati\n\n- [Slika u URL](/) - Besplatna usluga za pretvaranje slike u URL\n- [Alat za kružno izrezivanje](/circle-crop) - Stvorite kružne slike\n- [Alat za zaobljene rubove](/rounded-corners) - Dodajte zaobljene rubove slikama\n- [Alat za uklanjanje pozadine](/remove-background) - Uklonite pozadine slika pomoću AI-a\n\n---\n\n*Posljednje ažuriranje: Veljača 2025*"
+      }
     }
   },
   "docs": {
     "seo": {
-      "title": "Dokumentacija | Photo To URL",
-      "description": "Dokumentacija za Photo To URL."
+      "title": "Dokumentacija | Slika u URL",
+      "description": "Dokumentacija za Slika u URL."
     },
     "page": {
       "title": "Dokumentacija",
@@ -608,8 +626,8 @@
   },
   "status": {
     "seo": {
-      "title": "Status | Photo To URL",
-      "description": "Status usluge za Photo To URL."
+      "title": "Status | Slika u URL",
+      "description": "Status usluge za Slika u URL."
     },
     "page": {
       "title": "Status",
@@ -619,8 +637,8 @@
   },
   "contact": {
     "seo": {
-      "title": "Kontakt | Photo To URL",
-      "description": "Kontaktirajte podršku Photo To URL."
+      "title": "Kontakt | Slika u URL",
+      "description": "Kontaktirajte podršku Slika u URL."
     },
     "page": {
       "title": "Kontakt",
@@ -632,8 +650,8 @@
     }
   },
   "bookmarklet": {
-    "title": "Photo To URL Bookmarklet",
-    "description": "Učitajte slike s bilo koje web stranice izravno u Photo To URL jednim klikom!",
+    "title": "Slika u URL Bookmarklet",
+    "description": "Učitajte slike s bilo koje web stranice izravno u Slika u URL jednim klikom!",
     "howItWorks": {
       "title": "Kako funkcionira",
       "step1": "Pregledajte bilo koju web stranicu sa slikama",
@@ -666,7 +684,7 @@
       "title": "Značajke",
       "description": "Bookmarklet pruža sljedeće značajke:",
       "feature1": "Odaberite bilo koju sliku s trenutne web stranice",
-      "feature2": "Automatsko učitavanje u Photo To URL",
+      "feature2": "Automatsko učitavanje u Slika u URL",
       "feature3": "Dobijte URL za dijeljenje odmah jednim klikom za kopiranje"
     },
     "note": {

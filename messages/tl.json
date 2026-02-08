@@ -4,6 +4,7 @@
     "tagline": "Gawing malinis at mababahaging link ang iyong mga larawan sa loob ng ilang segundo",
     "header": {
       "home": "Home",
+      "blog": "Blog",
       "subtitle": "Gawing mga link ang iyong mga imahe",
       "prompt": "I-drop, i-paste, o i-upload — kumuha ng link agad-agad",
       "circleCrop": "Gupit na Bilog",
@@ -102,7 +103,7 @@
       "tryPrefix": "Subukan ang "
     },
     "benefits": {
-      "title": "Bakit pinipili ng mga tao ang Photo To URL",
+      "title": "Bakit pinipili ng mga tao ang Larawan sa URL",
       "subtitle": "Bilis, malinis na link, at walang kailangang signup.",
       "items": {
         "fast": {
@@ -175,7 +176,7 @@
       }
     },
     "testimonials": {
-      "title": "Mga team na nakakatipid ng oras gamit ang Photo To URL",
+      "title": "Mga team na nakakatipid ng oras gamit ang Larawan sa URL",
       "subtitle": "Social proof para mabawasan ang risk at mapabilis ang adoption.",
       "items": {
         "ops": {
@@ -199,8 +200,8 @@
       "paste": "I-paste ang screenshot"
     },
     "longform": {
-      "title": "Bakit nakakatulong ang Photo To URL sa iyong workflow",
-      "p1": "Ang Photo To URL ay ginawa para sa mga creator, marketer, at team na nangangailangan ng mabilis na paraan para gawing link ang mga larawan. Iwasan ang matatagal na media manager at laktawan ang mga login. Ang mga link ay maayos at madaling i-paste sa mga chat app, docs, at tickets.",
+      "title": "Bakit nakakatulong ang Larawan sa URL sa iyong workflow",
+      "p1": "Ang Larawan sa URL ay ginawa para sa mga creator, marketer, at team na nangangailangan ng mabilis na paraan para gawing link ang mga larawan. Iwasan ang matatagal na media manager at laktawan ang mga login. Ang mga link ay maayos at madaling i-paste sa mga chat app, docs, at tickets.",
       "p2": "Simple lang ang karanasan: i-drop, i-paste, o mag-browse; kumuha ng link; magbahagi. Walang nakakaabalang mga ad. Mag-focus sa iyong content habang kami ang bahala sa hosting.",
       "useCases": {
         "title": "Mga praktikal na paggamit",
@@ -266,7 +267,7 @@
       "subtitle": "Pumili ng iyong gustong wika at rehiyon"
     },
     "rateService": {
-      "title": "I-rate ang Photo To URL Converter",
+      "title": "I-rate ang Larawan sa URL Converter",
       "thankYou": "Salamat sa iyong feedback!",
       "averageRating": "4.5",
       "votes": "4,992 boto"
@@ -274,7 +275,7 @@
     "seo": {
       "keywords": "larawan sa url, imahe sa link, image link generator, libreng image hosting, cdn image",
       "home": {
-        "title": "Photo To URL Converter | Gawing link ang iyong mga larawan",
+        "title": "Larawan sa URL Converter | Gawing link ang iyong mga larawan",
         "description": "Libreng image hosting: gawing permanenteng URL ang mga larawan agad-agad. Suportado ang JPG, PNG, WEBP, GIF hanggang 5MB."
       }
     }
@@ -377,7 +378,7 @@
   "seo": {
     "keywords": "photo to url,image to url,image link generator,convert image to link,free image hosting,cdn image",
     "home": {
-      "title": "Photo To URL Converter | Gawing shareable links ang mga larawan",
+      "title": "Larawan sa URL Converter | Gawing shareable links ang mga larawan",
       "description": "Libreng image hosting: i-convert ang mga larawan sa permanent URLs agad-agad. Suportado ang JPG, PNG, WEBP, GIF hanggang 5MB. Clipboard paste, mabilis na CDN, malinis na links."
     }
   },
@@ -386,22 +387,22 @@
     "animatingSampleAlt": "Sample image na ginamit sa upload demo",
     "sampleThumbAlt": "Sample upload image",
     "useSampleAria": "Gamitin ang sample image na ito",
-    "howIllustrationAlt": "Illustration na nagpapakita kung paano gumagana ang Photo To URL",
+    "howIllustrationAlt": "Illustration na nagpapakita kung paano gumagana ang Larawan sa URL",
     "heroDropTitle": "I-drag ang larawan dito",
     "heroDropSubtitle": "I-e-enhance at i-ho-host namin ito, pagkatapos ay magbibigay kami ng malinis na link.",
     "heroDropBadge": "I-drag o i-click (JPG/PNG, hanggang 5MB)",
-    "logoAlt": "Photo To URL logo"
+    "logoAlt": "Larawan sa URL logo"
   },
   "about": {
     "seo": {
-      "title": "Tungkol sa Amin | Photo To URL",
-      "description": "Matuto pa tungkol sa Photo To URL - isang libreng image hosting service na nagko-convert ng mga larawan sa shareable na links."
+      "title": "Tungkol sa Amin | Larawan sa URL",
+      "description": "Matuto pa tungkol sa Larawan sa URL - isang libreng image hosting service na nagko-convert ng mga larawan sa shareable na links."
     },
     "page": {
       "title": "Tungkol sa Amin",
       "mission": {
         "title": "Ang Aming Misyon",
-        "content": "Ang Photo To URL ay isang libreng, mabilis, at maaasahang image hosting service na idinisenyo upang tulungan ang mga creators, marketers, at teams na i-convert ang mga larawan sa shareable na links agad-agad. Naniniwala kami sa pagiging simple, bilis, at privacy ng mga user."
+        "content": "Ang Larawan sa URL ay isang libreng, mabilis, at maaasahang image hosting service na idinisenyo upang tulungan ang mga creators, marketers, at teams na i-convert ang mga larawan sa shareable na links agad-agad. Naniniwala kami sa pagiging simple, bilis, at privacy ng mga user."
       },
       "features": {
         "title": "Ano ang Aming Inaalok",
@@ -420,13 +421,13 @@
   "legal": {
     "privacy": {
       "seo": {
-        "title": "Privacy Policy | Photo To URL",
-        "description": "Privacy Policy para sa Photo To URL - Alamin kung paano namin kinokolekta, ginagamit, at pinoprotektahan ang inyong data."
+        "title": "Privacy Policy | Larawan sa URL",
+        "description": "Privacy Policy para sa Larawan sa URL - Alamin kung paano namin kinokolekta, ginagamit, at pinoprotektahan ang inyong data."
       },
       "page": {
         "title": "Privacy Policy",
         "lastUpdated": "Huling Update: Enero 2026",
-        "introduction": "Sa Photo To URL, iginagalang namin ang inyong privacy at nakatuon kami sa pagprotekta ng inyong personal na impormasyon. Ang Privacy Policy na ito ay nagpapaliwanag kung paano namin kinokolekta, ginagamit, inilalantad, at pinoprotektahan ang inyong impormasyon kapag ginagamit ninyo ang aming serbisyo.",
+        "introduction": "Sa Larawan sa URL, iginagalang namin ang inyong privacy at nakatuon kami sa pagprotekta ng inyong personal na impormasyon. Ang Privacy Policy na ito ay nagpapaliwanag kung paano namin kinokolekta, ginagamit, inilalantad, at pinoprotektahan ang inyong impormasyon kapag ginagamit ninyo ang aming serbisyo.",
         "dataCollection": {
           "title": "Impormasyon na Kinokolekta Namin",
           "content1": "Kapag nag-upload kayo ng larawan, kinokolekta namin:",
@@ -492,12 +493,12 @@
     },
     "terms": {
       "seo": {
-        "title": "Terms of Service | Photo To URL",
-        "description": "Terms of Service para sa Photo To URL."
+        "title": "Terms of Service | Larawan sa URL",
+        "description": "Terms of Service para sa Larawan sa URL."
       },
       "page": {
         "title": "Terms of Service",
-        "content": "Sa paggamit ng Photo To URL, sumasang-ayon kayo na gamitin ang serbisyo nang responsable at huwag mag-upload ng illegal na content.",
+        "content": "Sa paggamit ng Larawan sa URL, sumasang-ayon kayo na gamitin ang serbisyo nang responsable at huwag mag-upload ng illegal na content.",
         "disclaimer": {
           "title": "Disclaimer",
           "text": "Ang serbisyo ay ibinibigay \"as is\" nang walang warranties. Maaaring magbago ang availability dahil sa maintenance."
@@ -511,13 +512,13 @@
     },
     "cookie": {
       "seo": {
-          "title": "Cookie Policy | Photo To URL",
-          "description": "Cookie Policy para sa Photo To URL - Alamin kung paano namin ginagamit ang cookies at tracking technologies."
+          "title": "Cookie Policy | Larawan sa URL",
+          "description": "Cookie Policy para sa Larawan sa URL - Alamin kung paano namin ginagamit ang cookies at tracking technologies."
         },
         "page": {
         "title": "Cookie Policy",
           "lastUpdated": "Huling Update: Enero 2026",
-          "introduction": "Ang Cookie Policy na ito ay nagpapaliwanag kung paano ginagamit ng Photo To URL ang cookies at similar tracking technologies kapag binibisita ninyo ang aming website. Sa paggamit ng aming serbisyo, sumasang-ayon kayo sa paggamit ng cookies ayon sa policy na ito.",
+          "introduction": "Ang Cookie Policy na ito ay nagpapaliwanag kung paano ginagamit ng Larawan sa URL ang cookies at similar tracking technologies kapag binibisita ninyo ang aming website. Sa paggamit ng aming serbisyo, sumasang-ayon kayo sa paggamit ng cookies ayon sa policy na ito.",
           "whatAreCookies": {
             "title": "Ano ang Cookies",
             "content": "Ang cookies ay maliliit na text files na inilalagay sa inyong device kapag binibisita ninyo ang isang website. Malawakang ginagamit ang mga ito para mas maging efficient ang mga website at magbigay ng impormasyon sa mga website owners."
@@ -568,12 +569,12 @@
   },
   "blog": {
     "seo": {
-      "title": "Blog | Photo To URL",
+      "title": "Blog | Larawan sa URL",
       "description": "Mga artikulo tungkol sa photo hosting, link sharing, at performance tips."
     },
     "page": {
       "title": "Blog",
-      "description": "Naghahanda kami ng mga artikulo tungkol sa photo hosting, CDN, link sharing, at SEO tips. Malapit na ang content.",
+      "description": "Pinakabagong mga artikulo, tutorial, at pananaw tungkol sa image hosting, CDN, link sharing, circle crop, rounded corners, at background removal.",
       "stayTuned": "Abangan ang mga guide tungkol sa:",
       "guides": {
         "1": "Mga best practices para sa image to URL conversion",
@@ -585,13 +586,30 @@
       "backToBlog": "Bumalik sa blog",
       "minRead": "min na pagbabasa",
       "author": "May-akda",
-      "viewMoreArticles": "Tingnan ang iba pang artikulo"
+      "viewMoreArticles": "Tingnan ang iba pang artikulo",
+      "tags": "Mga Tag:",
+      "about": {
+        "title": "Tungkol sa Larawan sa URL Team",
+        "subtitle": "Editorial Team",
+        "description": "Ginagawa at inaalagaan namin ang Larawan sa URL at sumusulat ng praktikal na mga guide para sa image optimization at web performance.",
+        "website": "Website",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Tingnan ang lahat ng post"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Paano I-convert ang Image sa URL: Isang Kumpletong Guide para sa 2025",
+        "description": "Matuto ng lahat ng kailangan mong malaman tungkol sa pag-convert ng mga larawan sa shareable na URLs. Ang comprehensive na guide na ito ay sumasaklaw sa mga method, best practices, at tips para sa image hosting at link sharing.",
+        "content": "# Paano I-convert ang Image sa URL: Isang Kumpletong Guide para sa 2025\n\nAng pag-convert ng mga larawan sa shareable na URLs ay naging isang mahalagang kasanayan sa digital na mundo ngayon. Maging ikaw ay isang blogger, developer, o content creator, ang pag-unawa kung paano baguhin ang iyong mga larawan sa direktang link ay maaaring makabuluhang mapabuti ang iyong workflow at kakayahan sa pagbabahagi ng nilalaman.\n\n## Bakit I-convert ang mga Larawan sa URL?\n\nBago tayo sumisid sa mga pamamaraan, unawain natin kung bakit kapaki-pakinabang ang pag-convert ng mga larawan sa URL:\n\n### 1. **Madaling Pagbabahagi**\nAng direktang URL ng mga larawan ay nagbibigay-daan sa iyo na magbahagi ng mga larawan agad-agad nang hindi nagda-download o muling nag-u-upload ng mga file. Kopyahin lamang ang URL at i-paste ito kahit saan - sa mga email, dokumento, o post sa social media.\n\n### 2. **Mas Mahusay na Pagganap**\nAng paggamit ng direktang link ng mga larawan ay binabawasan ang load sa iyong pangunahing server. Kapag ang mga larawan ay naka-host sa isang CDN (Content Delivery Network), mas mabilis silang mag-load para sa mga user sa buong mundo.\n\n### 3. **Kakayahang Umangkop**\nAng mga URL ng larawan ay maaaring i-embed sa HTML, Markdown, o gamitin sa mga API. Ang kakayahang umangkop na ito ay ginagawa silang perpekto para sa parehong mga developer at content creator.\n\n### 4. **Kahusayan sa Pag-iimbak**\nSa halip na mag-imbak ng mga larawan nang lokal, maaari mong gamitin ang mga solusyon sa cloud storage na nagbibigay ng direktang URL, na nakakatipid ng mahalagang espasyo sa server.\n\n## Mga Paraan upang I-convert ang mga Larawan sa URL\n\n### Paraan 1: Paggamit ng Serbisyo ng Larawan sa URL\n\nAng **Larawan sa URL** ay isang libreng, user-friendly na serbisyo na ginagawang walang kahirap-hirap ang pag-convert ng larawan sa URL:\n\n1. **Bisitahin ang website**: Mag-navigate sa Larawan sa URL\n2. **I-upload ang iyong larawan**: I-drag at i-drop ang iyong file ng larawan o i-click para mag-browse\n3. **Kunin ang iyong URL**: Kapag na-upload na, makakatanggap ka ng direktang link sa iyong larawan\n4. **Kopyahin at gamitin**: Kopyahin ang URL at gamitin ito kahit saan mo kailangan\n\n**Mga Pakinabang:**\n- ✅ Hindi kailangan ng rehistrasyon\n- ✅ Mabilis na upload at processing\n- ✅ Direktang CDN link para sa pinakamahusay na pagganap\n- ✅ Suporta para sa maraming format ng larawan (JPG, PNG, WEBP, GIF)\n\n### Paraan 2: Mga Serbisyo sa Cloud Storage\n\nAng mga sikat na serbisyo sa cloud storage ay nag-aalok ng image hosting na may direktang access sa URL:\n\n**Google Cloud Storage / AWS S3:**\n- Mag-upload ng mga larawan sa iyong bucket\n- Magtakda ng naaangkop na pahintulot\n- Mag-access sa mga larawan sa pamamagitan ng direktang URL\n- I-configure ang CDN para sa mas mahusay na pagganap\n\n**Mga Pakinabang:**\n- Buong kontrol sa iyong mga larawan\n- Mga solusyon sa storage na maaaring i-scale\n- Infrastruktura na propesyonal na antas\n\n### Paraan 3: Mga Platform sa Image Hosting\n\nAng mga dedikadong platform sa image hosting ay nagbibigay ng mga espesyalisadong serbisyo:\n\n- **Imgur**: Sikat para sa mabilis na pagbabahagi ng larawan\n- **Cloudinary**: Advanced na feature sa pagmamanipula ng larawan\n- **ImageKit**: Na-optimize para sa pagganap\n\n## Pinakamahusay na Praktis para sa mga URL ng Larawan\n\n### 1. **Pumili ng Tamang Format**\n\nAng iba't ibang format ng larawan ay nagsisilbi sa iba't ibang layunin:\n\n- **JPEG**: Pinakamahusay para sa mga litrato na may maraming kulay\n- **PNG**: Perpekto para sa mga larawan na may transparency o matalas na gilid\n- **WEBP**: Modernong format na nag-aalok ng mas mahusay na compression\n- **GIF**: Perpekto para sa mga animated na larawan\n\n### 2. **I-optimize ang Laki ng Larawan**\n\nBago i-convert sa URL, i-optimize ang iyong mga larawan:\n\n- I-compress ang mga larawan upang mabawasan ang laki ng file\n- Baguhin ang laki ng mga larawan sa naaangkop na sukat\n- Gumamit ng modernong format tulad ng WEBP kapag posible\n- Balansehin ang kalidad at laki ng file\n\n### 3. **Gumamit ng CDN para sa Mas Mahusay na Pagganap**\n\nAng Content Delivery Networks (CDN) ay nagdi-distribute ng iyong mga larawan sa maraming server sa buong mundo, na tinitiyak ang mabilis na loading time anuman ang lokasyon ng user.\n\n### 4. **Magpatupad ng Tamang Seguridad**\n\n- Gumamit ng HTTPS URL para sa ligtas na paghahatid ng larawan\n- Magtakda ng naaangkop na pahintulot sa access\n- Isaalang-alang ang watermarking para sa sensitibong nilalaman\n- Subaybayan ang paggamit upang maiwasan ang pag-abuso\n\n## Karaniwang Paggamit\n\n### Para sa mga Blogger\n\nAng mga blogger ay maaaring gumamit ng URL ng larawan upang:\n- I-embed ang mga larawan sa blog post nang hindi sila ina-host nang lokal\n- Mapabuti ang loading time ng pahina\n- Magbahagi ng mga larawan sa maraming platform\n- Mapanatili ang pare-parehong kalidad ng larawan\n\n### Para sa mga Developer\n\nAng mga developer ay nakikinabang sa URL ng larawan sa pamamagitan ng:\n- Pagbabawas ng load sa server\n- Pagpapasimple ng pamamahala ng larawan\n- Pagpapagana ng dynamic na pag-load ng larawan\n- Pag-integrate sa mga API at web service\n\n### Para sa E-commerce\n\nAng mga site ng e-commerce ay gumagamit ng URL ng larawan upang:\n- Mabisang ipakita ang mga larawan ng produkto\n- Pamahalaan ang malalaking katalogo ng larawan\n- I-optimize para sa mobile device\n- Mapabuti ang pagganap ng checkout page\n\n## Pag-troubleshoot ng Karaniwang Problema\n\n### Problema: Sirang Link ng Larawan\n\n**Solusyon:**\n- I-verify na tama at accessible ang URL\n- Suriin ang pahintulot at setting ng access ng larawan\n- Siguraduhing operational ang hosting service\n- I-validate na suportado ang format ng larawan\n\n### Problema: Mabagal na Loading Time\n\n**Solusyon:**\n- Gumamit ng CDN para sa paghahatid ng larawan\n- I-optimize ang laki ng file ng larawan\n- Pumili ng naaangkop na format ng larawan\n- Magpatupad ng lazy loading kung posible\n\n### Problema: Hindi Nagpapakita ang Larawan\n\n**Solusyon:**\n- Suriin ang setting ng CORS (Cross-Origin Resource Sharing)\n- I-verify na tumutugma ang protocol ng HTTPS/HTTP\n- Siguraduhing nakatakda ang tamang MIME type\n- Subukan ang accessibility ng URL mula sa iba't ibang lokasyon\n\n## Advanced na Tip\n\n### 1. **Batch Processing**\n\nPara sa maraming larawan, isaalang-alang:\n- Paggamit ng API para sa automated na upload\n- Pagpapatupad ng batch conversion script\n- Paggamit ng cloud storage API\n- Pag-setup ng automated workflow\n\n### 2. **Pagmamanipula ng Larawan**\n\nAng ilang serbisyo ay nag-aalok ng pagmamanipula ng larawan sa real-time:\n- Pagbabago ng laki ng larawan sa pamamagitan ng URL parameter\n- Paglalapat ng filter at effect\n- Awtomatikong pag-convert ng format\n- Pag-crop at pag-ikot ng larawan\n\n### 3. **Analytics at Monitoring**\n\nSubaybayan ang paggamit ng iyong mga larawan:\n- Subaybayan ang pagkonsumo ng bandwidth\n- Suriin ang mga sikat na larawan\n- Subaybayan ang pattern ng access\n- I-optimize batay sa data ng paggamit\n\n## Konklusyon\n\nAng pag-convert ng mga larawan sa URL ay isang tuwirang proseso na nag-aalok ng maraming benepisyo. Maging pipiliin mo ang isang simpleng serbisyo tulad ng Larawan sa URL o isang komprehensibong solusyon sa cloud storage, ang susi ay ang paghahanap ng paraan na pinakamahusay na umaangkop sa iyong pangangailangan.\n\nTandaan:\n- ✅ I-optimize ang mga larawan bago mag-upload\n- ✅ Pumili ng naaangkop na format\n- ✅ Gumamit ng CDN para sa mas mahusay na pagganap\n- ✅ Magpatupad ng tamang hakbang sa seguridad\n- ✅ Regular na subaybayan at i-optimize\n\nSa pagsunod sa mga alituntuning ito, magagawa mong mabisang i-convert at pamahalaan ang iyong mga larawan bilang URL, na mapapabuti ang parehong iyong workflow at pagganap ng iyong nilalaman.\n\n## Mga Kaugnay na Tool\n\n- [Larawan sa URL](/) - Libreng serbisyo sa pag-convert ng larawan sa URL\n- [Circle Crop Tool](/circle-crop) - Lumikha ng pabilog na larawan\n- [Rounded Corners Tool](/rounded-corners) - Magdagdag ng bilugang sulok sa mga larawan\n- [Remove Background Tool](/remove-background) - Alisin ang background ng larawan gamit ang AI\n\n---\n\n*Huling na-update: Pebrero 2025*"
+      }
     }
   },
   "docs": {
     "seo": {
-      "title": "Docs | Photo To URL",
-      "description": "Documentation para sa Photo To URL."
+      "title": "Docs | Larawan sa URL",
+      "description": "Documentation para sa Larawan sa URL."
     },
     "page": {
       "title": "Docs",
@@ -608,8 +626,8 @@
   },
   "status": {
     "seo": {
-      "title": "Status | Photo To URL",
-      "description": "Service status para sa Photo To URL."
+      "title": "Status | Larawan sa URL",
+      "description": "Service status para sa Larawan sa URL."
     },
     "page": {
       "title": "Status",
@@ -619,8 +637,8 @@
   },
   "contact": {
     "seo": {
-      "title": "Contact | Photo To URL",
-      "description": "Makipag-ugnayan sa Photo To URL support."
+      "title": "Contact | Larawan sa URL",
+      "description": "Makipag-ugnayan sa Larawan sa URL support."
     },
     "page": {
       "title": "Contact",
@@ -632,8 +650,8 @@
     }
   },
   "bookmarklet": {
-    "title": "Photo To URL Bookmarklet",
-    "description": "Mag-upload ng mga larawan mula sa anumang webpage nang direkta sa Photo To URL sa isang click lang!",
+    "title": "Larawan sa URL Bookmarklet",
+    "description": "Mag-upload ng mga larawan mula sa anumang webpage nang direkta sa Larawan sa URL sa isang click lang!",
     "howItWorks": {
       "title": "Paano ito gumagana",
       "step1": "Mag-browse sa anumang webpage na may mga larawan",
@@ -666,7 +684,7 @@
       "title": "Mga Feature",
       "description": "Ang bookmarklet ay nagbibigay ng mga sumusunod na feature:",
       "feature1": "Pumili ng anumang larawan mula sa kasalukuyang webpage",
-      "feature2": "Automatic upload sa Photo To URL",
+      "feature2": "Automatic upload sa Larawan sa URL",
       "feature3": "Kunin ang shareable URL agad sa isang click para kopyahin"
     },
     "note": {

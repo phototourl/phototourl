@@ -4,6 +4,7 @@
     "tagline": "Fotoğrafları saniyeler içinde temiz, paylaşılabilir bağlantılara dönüştürün",
     "header": {
       "home": "Ana Sayfa",
+      "blog": "Blog",
       "subtitle": "Görselleri paylaşılabilir bağlantılara dönüştürün",
       "prompt": "Sürükleyin, yapıştırın veya yükleyin — anında paylaşılabilir bağlantı alın",
       "circleCrop": "Fotoğrafı Daire Şeklinde Kırp",
@@ -312,7 +313,7 @@
       "subtitle": "Tercih ettiğiniz dili ve bölgeyi seçin"
     },
     "rateService": {
-      "title": "Fotoğrafı Daireye Kırp'ı Değerlendir",
+      "title": "{productName} Değerlendir",
       "thankYou": "Geri bildiriminiz için teşekkürler!",
       "averageRating": "4.5",
       "votes": "4,992 oy"
@@ -387,12 +388,12 @@
   },
   "blog": {
     "seo": {
-      "title": "Blog | Photo To URL",
+      "title": "Blog | Fotoğrafı URL'ye",
       "description": "Foto barındırma, bağlantı paylaşımı ve performans ipuçları hakkında makaleler."
     },
     "page": {
       "title": "Blog",
-      "description": "Foto barındırma, CDN, bağlantı paylaşımı ve SEO ipuçları hakkında makaleler hazırlıyoruz. İçerik yakında gelecek.",
+      "description": "Görüntü barındırma, CDN, bağlantı paylaşımı, dairesel kırpma, yuvarlatılmış köşeler ve arka plan kaldırma hakkında en son makaleler, öğreticiler ve içgörüler.",
       "stayTuned": "Şu konulardaki rehberler için bizi takip edin:",
       "guides": {
         "1": "Görüntüyü URL'ye dönüştürme için en iyi uygulamalar",
@@ -404,13 +405,30 @@
       "backToBlog": "Bloga dön",
       "minRead": "dak okuma",
       "author": "Yazar",
-      "viewMoreArticles": "Daha fazla makale görüntüle"
+      "viewMoreArticles": "Daha fazla makale görüntüle",
+      "tags": "Etiketler:",
+      "about": {
+        "title": "Fotoğrafı URL'ye Ekibi Hakkında",
+        "subtitle": "Editör Ekibi",
+        "description": "Fotoğrafı URL'ye'yi oluşturuyor ve sürdürüyoruz, görüntü optimizasyonu ve web performansı için pratik rehberler yazıyoruz.",
+        "website": "Web sitesi",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Tüm gönderileri görüntüle"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Görüntüyü URL'ye Dönüştürme: 2025 İçin Kapsamlı Bir Kılavuz",
+        "description": "Görüntüleri paylaşılabilir URL'lere dönüştürme hakkında bilmeniz gereken her şeyi öğrenin. Bu kapsamlı kılavuz, görüntü barındırma ve bağlantı paylaşımı için yöntemler, en iyi uygulamalar ve ipuçlarını kapsar.",
+        "content": "# Görüntüyü URL'ye Dönüştürme: 2025 İçin Kapsamlı Bir Kılavuz\n\nGörüntüleri paylaşılabilir URL'lere dönüştürmek, günümüzün dijital dünyasında temel bir beceri haline geldi. İster blog yazarı, ister geliştirici veya içerik oluşturucu olun, görüntülerinizi doğrudan bağlantılara nasıl dönüştüreceğinizi anlamak, iş akışınızı ve içerik paylaşım yeteneklerinizi önemli ölçüde iyileştirebilir.\n\n## Görüntüleri Neden URL'ye Dönüştürmelisiniz?\n\nYöntemlere dalmadan önce, görüntüleri URL'lere dönüştürmenin neden faydalı olduğunu anlayalım:\n\n### 1. **Kolay Paylaşım**\nDoğrudan görüntü URL'leri, dosyaları indirmeden veya yeniden yüklemeden görüntüleri anında paylaşmanıza olanak tanır. Sadece URL'yi kopyalayın ve her yere yapıştırın - e-postalarda, belgelerde veya sosyal medya gönderilerinde.\n\n### 2. **Daha İyi Performans**\nDoğrudan görüntü bağlantılarını kullanmak, ana sunucunuzdaki yükü azaltır. Görüntüler bir CDN'de (İçerik Dağıtım Ağı) barındırıldığında, dünya çapındaki kullanıcılar için daha hızlı yüklenir.\n\n### 3. **Esneklik**\nGörüntü URL'leri HTML, Markdown'a gömülebilir veya API'lerde kullanılabilir. Bu esneklik, bunları hem geliştiriciler hem de içerik oluşturucular için mükemmel kılar.\n\n### 4. **Depolama Verimliliği**\nGörüntüleri yerel olarak depolamak yerine, doğrudan URL'ler sağlayan bulut depolama çözümlerini kullanarak değerli sunucu alanından tasarruf edebilirsiniz.\n\n## Görüntüleri URL'ye Dönüştürme Yöntemleri\n\n### Yöntem 1: Fotoğrafı URL'ye Hizmetini Kullanma\n\n**Fotoğrafı URL'ye**, görüntüden URL'ye dönüştürmeyi zahmetsiz hale getiren ücretsiz, kullanıcı dostu bir hizmettir:\n\n1. **Web sitesini ziyaret edin**: Fotoğrafı URL'ye gidin\n2. **Görüntünüzü yükleyin**: Görüntü dosyanızı sürükleyip bırakın veya göz atmak için tıklayın\n3. **URL'nizi alın**: Yüklendikten sonra, görüntünüze doğrudan bir bağlantı alacaksınız\n4. **Kopyalayın ve kullanın**: URL'yi kopyalayın ve ihtiyacınız olan her yerde kullanın\n\n**Avantajlar:**\n- ✅ Kayıt gerekmez\n- ✅ Hızlı yükleme ve işleme\n- ✅ Optimal performans için doğrudan CDN bağlantıları\n- ✅ Birden fazla görüntü formatı desteği (JPG, PNG, WEBP, GIF)\n\n### Yöntem 2: Bulut Depolama Hizmetleri\n\nPopüler bulut depolama hizmetleri, doğrudan URL erişimi ile görüntü barındırma sunar:\n\n**Google Cloud Storage / AWS S3:**\n- Görüntüleri bucket'ınıza yükleyin\n- Uygun izinleri ayarlayın\n- Doğrudan URL'ler aracılığıyla görüntülere erişin\n- Daha iyi performans için CDN yapılandırın\n\n**Avantajlar:**\n- Görüntüleriniz üzerinde tam kontrol\n- Ölçeklenebilir depolama çözümleri\n- Profesyonel düzeyde altyapı\n\n### Yöntem 3: Görüntü Barındırma Platformları\n\nÖzel görüntü barındırma platformları uzmanlaşmış hizmetler sunar:\n\n- **Imgur**: Hızlı görüntü paylaşımı için popüler\n- **Cloudinary**: Gelişmiş görüntü manipülasyon özellikleri\n- **ImageKit**: Performans için optimize edilmiş\n\n## Görüntü URL'leri İçin En İyi Uygulamalar\n\n### 1. **Doğru Formatı Seçin**\n\nFarklı görüntü formatları farklı amaçlara hizmet eder:\n\n- **JPEG**: Birçok renge sahip fotoğraflar için en iyi\n- **PNG**: Şeffaflığa veya keskin kenarlara sahip görüntüler için ideal\n- **WEBP**: Daha iyi sıkıştırma sunan modern format\n- **GIF**: Animasyonlu görüntüler için mükemmel\n\n### 2. **Görüntü Boyutunu Optimize Edin**\n\nURL'ye dönüştürmeden önce görüntülerinizi optimize edin:\n\n- Dosya boyutunu azaltmak için görüntüleri sıkıştırın\n- Görüntüleri uygun boyutlara yeniden boyutlandırın\n- Mümkün olduğunda WEBP gibi modern formatlar kullanın\n- Kalite ve dosya boyutu arasında denge kurun\n\n### 3. **Daha İyi Performans İçin CDN Kullanın**\n\nİçerik Dağıtım Ağları (CDN), görüntülerinizi dünya çapında birden fazla sunucuya dağıtır, kullanıcı konumundan bağımsız olarak hızlı yükleme süreleri sağlar.\n\n### 4. **Uygun Güvenliği Uygulayın**\n\n- Güvenli görüntü teslimi için HTTPS URL'leri kullanın\n- Uygun erişim izinlerini ayarlayın\n- Hassas içerik için filigran düşünün\n- Kötüye kullanımı önlemek için kullanımı izleyin\n\n## Yaygın Kullanım Senaryoları\n\n### Blog Yazarları İçin\n\nBlog yazarları görüntü URL'lerini şunlar için kullanabilir:\n- Yerel olarak barındırmadan blog gönderilerine görüntü yerleştirme\n- Sayfa yükleme sürelerini iyileştirme\n- Birden fazla platformda görüntü paylaşma\n- Tutarlı görüntü kalitesini koruma\n\n### Geliştiriciler İçin\n\nGeliştiriciler görüntü URL'lerinden şu şekilde yararlanır:\n- Sunucu yükünü azaltma\n- Görüntü yönetimini basitleştirme\n- Dinamik görüntü yüklemesini etkinleştirme\n- API'ler ve web hizmetleriyle entegrasyon\n\n### E-ticaret İçin\n\nE-ticaret siteleri görüntü URL'lerini şunlar için kullanır:\n- Ürün görüntülerini verimli bir şekilde gösterme\n- Büyük görüntü kataloglarını yönetme\n- Mobil cihazlar için optimize etme\n- Ödeme sayfası performansını iyileştirme\n\n## Yaygın Sorunları Giderme\n\n### Sorun: Bozuk Görüntü Bağlantıları\n\n**Çözüm:**\n- URL'nin doğru ve erişilebilir olduğunu doğrulayın\n- Görüntü izinlerini ve erişim ayarlarını kontrol edin\n- Barındırma hizmetinin çalıştığından emin olun\n- Görüntü formatının desteklendiğini doğrulayın\n\n### Sorun: Yavaş Yükleme Süreleri\n\n**Çözüm:**\n- Görüntü teslimi için CDN kullanın\n- Görüntü dosya boyutlarını optimize edin\n- Uygun görüntü formatlarını seçin\n- Mümkün olduğunda tembel yükleme uygulayın\n\n### Sorun: Görüntü Görüntülenmiyor\n\n**Çözüm:**\n- CORS (Çapraz Kaynak Kaynak Paylaşımı) ayarlarını kontrol edin\n- HTTPS/HTTP protokol eşleşmelerini doğrulayın\n- Uygun MIME türlerinin ayarlandığından emin olun\n- Farklı konumlardan URL erişilebilirliğini test edin\n\n## Gelişmiş İpuçları\n\n### 1. **Toplu İşleme**\n\nBirden fazla görüntü için şunları düşünün:\n- Otomatik yüklemeler için API'leri kullanma\n- Toplu dönüştürme betikleri uygulama\n- Bulut depolama API'lerini kullanma\n- Otomatik iş akışları kurma\n\n### 2. **Görüntü Manipülasyonu**\n\nBazı hizmetler anında görüntü manipülasyonu sunar:\n- URL parametreleri aracılığıyla görüntüleri yeniden boyutlandırma\n- Filtreler ve efektler uygulama\n- Formatları otomatik olarak dönüştürme\n- Görüntüleri kırpma ve döndürme\n\n### 3. **Analitik ve İzleme**\n\nGörüntü kullanımınızı takip edin:\n- Bant genişliği tüketimini izleyin\n- Popüler görüntüleri analiz edin\n- Erişim kalıplarını takip edin\n- Kullanım verilerine göre optimize edin\n\n## Sonuç\n\nGörüntüleri URL'lere dönüştürmek, sayısız fayda sunan basit bir süreçtir. Fotoğrafı URL'ye gibi basit bir hizmet mi yoksa kapsamlı bir bulut depolama çözümü mü seçerseniz seçin, anahtar, ihtiyaçlarınıza en uygun yöntemi bulmaktır.\n\nUnutmayın:\n- ✅ Yüklemeden önce görüntüleri optimize edin\n- ✅ Uygun formatları seçin\n- ✅ Daha iyi performans için CDN kullanın\n- ✅ Uygun güvenlik önlemlerini uygulayın\n- ✅ Düzenli olarak izleyin ve optimize edin\n\nBu yönergeleri takip ederek, görüntülerinizi URL'ler olarak verimli bir şekilde dönüştürebilir ve yönetebilir, hem iş akışınızı hem de içeriğinizin performansını iyileştirebilirsiniz.\n\n## İlgili Araçlar\n\n- [Fotoğrafı URL'ye](/) - Ücretsiz görüntüden URL'ye dönüştürme hizmeti\n- [Dairesel Kırpma Aracı](/circle-crop) - Dairesel görüntüler oluşturun\n- [Yuvarlatılmış Köşeler Aracı](/rounded-corners) - Görüntülere yuvarlatılmış köşeler ekleyin\n- [Arka Plan Kaldırma Aracı](/remove-background) - AI ile görüntü arka planlarını kaldırın\n\n---\n\n*Son güncelleme: Şubat 2025*"
+      }
     }
   },
   "docs": {
     "seo": {
-      "title": "Dokümantasyon | Photo To URL",
-      "description": "Photo To URL için dokümantasyon."
+      "title": "Dokümantasyon | Fotoğrafı URL'ye",
+      "description": "Fotoğrafı URL'ye için dokümantasyon."
     },
     "page": {
       "title": "Dokümantasyon",
@@ -427,8 +445,8 @@
   },
   "status": {
     "seo": {
-      "title": "Durum | Photo To URL",
-      "description": "Photo To URL hizmet durumu."
+      "title": "Durum | Fotoğrafı URL'ye",
+      "description": "Fotoğrafı URL'ye hizmet durumu."
     },
     "page": {
       "title": "Durum",
@@ -438,8 +456,8 @@
   },
   "contact": {
     "seo": {
-      "title": "İletişim | Photo To URL",
-      "description": "Photo To URL desteği ile iletişime geçin."
+      "title": "İletişim | Fotoğrafı URL'ye",
+      "description": "Fotoğrafı URL'ye desteği ile iletişime geçin."
     },
     "page": {
       "title": "İletişim",
@@ -452,14 +470,14 @@
   },
   "about": {
     "seo": {
-      "title": "Hakkımızda | Photo To URL",
-      "description": "Photo To URL hakkında daha fazla bilgi edinin - fotoğrafları paylaşılabilir bağlantılara dönüştüren ücretsiz bir görüntü barındırma hizmeti."
+      "title": "Hakkımızda | Fotoğrafı URL'ye",
+      "description": "Fotoğrafı URL'ye hakkında daha fazla bilgi edinin - fotoğrafları paylaşılabilir bağlantılara dönüştüren ücretsiz bir görüntü barındırma hizmeti."
     },
     "page": {
       "title": "Hakkımızda",
       "mission": {
         "title": "Misyonumuz",
-        "content": "Photo To URL, içerik üreticileri, pazarlamacılar ve ekiplerin görüntüleri anında paylaşılabilir bağlantılara dönüştürmelerine yardımcı olmak için tasarlanmış ücretsiz, hızlı ve güvenilir bir görüntü barındırma hizmetidir. Basitlik, hız ve kullanıcı gizliliğine inanıyoruz."
+        "content": "Fotoğrafı URL'ye, içerik üreticileri, pazarlamacılar ve ekiplerin görüntüleri anında paylaşılabilir bağlantılara dönüştürmelerine yardımcı olmak için tasarlanmış ücretsiz, hızlı ve güvenilir bir görüntü barındırma hizmetidir. Basitlik, hız ve kullanıcı gizliliğine inanıyoruz."
       },
       "features": {
         "title": "Sunduklarımız",
@@ -478,13 +496,13 @@
   "legal": {
     "privacy": {
       "seo": {
-        "title": "Gizlilik Politikası | Photo To URL",
-        "description": "Photo To URL için Gizlilik Politikası - Verilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu öğrenin."
+        "title": "Gizlilik Politikası | Fotoğrafı URL'ye",
+        "description": "Fotoğrafı URL'ye için Gizlilik Politikası - Verilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu öğrenin."
       },
       "page": {
         "title": "Gizlilik Politikası",
         "lastUpdated": "Son güncelleme: Ocak 2026",
-        "introduction": "Photo To URL'de gizliliğinize saygı duyuyor ve kişisel bilgilerinizi korumaya kararlıyız. Bu Gizlilik Politikası, hizmetimizi kullandığınızda bilgilerinizi nasıl topladığımızı, kullandığımızı, açıkladığımızı ve koruduğumuzu açıklar.",
+        "introduction": "Fotoğrafı URL'ye'de gizliliğinize saygı duyuyor ve kişisel bilgilerinizi korumaya kararlıyız. Bu Gizlilik Politikası, hizmetimizi kullandığınızda bilgilerinizi nasıl topladığımızı, kullandığımızı, açıkladığımızı ve koruduğumuzu açıklar.",
         "dataCollection": {
           "title": "Topladığımız Bilgiler",
           "content1": "Bir görüntü yüklediğinizde şunları topluyoruz:",
@@ -550,12 +568,12 @@
     },
     "terms": {
       "seo": {
-        "title": "Hizmet Şartları | Photo To URL",
-        "description": "Photo To URL için Hizmet Şartları."
+        "title": "Hizmet Şartları | Fotoğrafı URL'ye",
+        "description": "Fotoğrafı URL'ye için Hizmet Şartları."
       },
       "page": {
         "title": "Hizmet Şartları",
-        "content": "Photo To URL'yi kullanarak, hizmeti sorumlu bir şekilde kullanmayı ve yasadışı içerik yüklememeyi kabul edersiniz.",
+        "content": "Fotoğrafı URL'ye'yi kullanarak, hizmeti sorumlu bir şekilde kullanmayı ve yasadışı içerik yüklememeyi kabul edersiniz.",
         "disclaimer": {
           "title": "Sorumluluk Reddi",
           "text": "Hizmet \"olduğu gibi\" garanti olmadan sağlanır. Kullanılabilirlik bakım nedeniyle değişebilir."
@@ -569,13 +587,13 @@
     },
     "cookie": {
         "seo": {
-          "title": "Çerez Politikası | Photo To URL",
-          "description": "Photo To URL için Çerez Politikası - Çerezleri ve izleme teknolojilerini nasıl kullandığımızı öğrenin."
+          "title": "Çerez Politikası | Fotoğrafı URL'ye",
+          "description": "Fotoğrafı URL'ye için Çerez Politikası - Çerezleri ve izleme teknolojilerini nasıl kullandığımızı öğrenin."
         },
         "page": {
           "title": "Çerez Politikası",
           "lastUpdated": "Son güncelleme: Ocak 2026",
-          "introduction": "Bu Çerez Politikası, web sitemizi ziyaret ettiğinizde Photo To URL'nin çerezleri ve benzer izleme teknolojilerini nasıl kullandığını açıklar. Hizmetimizi kullanarak, bu politikaya uygun olarak çerez kullanımını kabul edersiniz.",
+          "introduction": "Bu Çerez Politikası, web sitemizi ziyaret ettiğinizde Fotoğrafı URL'ye'nin çerezleri ve benzer izleme teknolojilerini nasıl kullandığını açıklar. Hizmetimizi kullanarak, bu politikaya uygun olarak çerez kullanımını kabul edersiniz.",
           "whatAreCookies": {
             "title": "Çerez Nedir",
             "content": "Çerezler, bir web sitesini ziyaret ettiğinizde cihazınıza yerleştirilen küçük metin dosyalarıdır. Web sitelerini daha verimli hale getirmek ve web sitesi sahiplerine bilgi sağlamak için yaygın olarak kullanılırlar."
@@ -625,8 +643,8 @@
     }
   },
   "bookmarklet": {
-    "title": "Photo To URL Bookmarklet",
-    "description": "Herhangi bir web sayfasındaki görüntüleri tek tıkla doğrudan Photo To URL'ye yükleyin!",
+    "title": "Fotoğrafı URL'ye Bookmarklet",
+    "description": "Herhangi bir web sayfasındaki görüntüleri tek tıkla doğrudan Fotoğrafı URL'ye'ye yükleyin!",
     "howItWorks": {
       "title": "Nasıl çalışır",
       "step1": "Görüntüleri olan herhangi bir web sayfasına göz atın",
@@ -659,7 +677,7 @@
       "title": "Özellikler",
       "description": "Bookmarklet şu özellikleri sağlar:",
       "feature1": "Mevcut web sayfasından herhangi bir görüntü seçin",
-      "feature2": "Photo To URL'ye otomatik yükleme",
+      "feature2": "Fotoğrafı URL'ye'ye otomatik yükleme",
       "feature3": "Tek tıkla kopyalamak için anında paylaşılabilir URL alın"
     },
     "note": {

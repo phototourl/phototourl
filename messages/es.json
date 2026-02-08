@@ -4,6 +4,7 @@
     "tagline": "Convierte tus fotos en enlaces limpios y compartibles al instante",
     "header": {
       "home": "Inicio",
+      "blog": "Blog",
       "subtitle": "Convierte imágenes en enlaces para compartir",
       "prompt": "Suelta, pega o sube — obtén un enlace compartible al instante",
       "circleCrop": "Foto a Recorte Circular",
@@ -312,7 +313,7 @@
       "subtitle": "Elija su idioma y región preferidos"
     },
     "rateService": {
-      "title": "Calificar Foto a Círculo",
+      "title": "Calificar {productName}",
       "thankYou": "¡Gracias por sus comentarios!",
       "averageRating": "4.5",
       "votes": "4,992 votos"
@@ -387,12 +388,12 @@
   },
   "blog": {
     "seo": {
-      "title": "Blog | Photo To URL",
+      "title": "Blog | Foto a URL",
       "description": "Artículos sobre alojamiento de fotos, compartir enlaces y consejos de rendimiento."
     },
     "page": {
       "title": "Blog",
-      "description": "Estamos preparando artículos sobre alojamiento de fotos, CDN, compartir enlaces y consejos de SEO. El contenido llegará pronto.",
+      "description": "Últimos artículos, tutoriales e ideas sobre alojamiento de imágenes, CDN, compartir enlaces, recorte circular, esquinas redondeadas y eliminación de fondo.",
       "stayTuned": "Manténgase atento para guías sobre:",
       "guides": {
         "1": "Mejores prácticas para convertir imágenes a URL",
@@ -404,13 +405,30 @@
       "backToBlog": "Volver al blog",
       "minRead": "min de lectura",
       "author": "Autor",
-      "viewMoreArticles": "Ver más artículos"
+      "viewMoreArticles": "Ver más artículos",
+      "tags": "Etiquetas:",
+      "about": {
+        "title": "Acerca del equipo de Foto a URL",
+        "subtitle": "Equipo editorial",
+        "description": "Construimos y mantenemos Foto a URL y escribimos guías prácticas para la optimización de imágenes y el rendimiento web.",
+        "website": "Sitio web",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "viewAllPosts": "Ver todas las publicaciones"
+      }
+    },
+    "posts": {
+      "how-to-convert-image-to-url-complete-guide": {
+        "title": "Cómo convertir imagen a URL: Guía completa para 2025",
+        "description": "Aprende todo lo que necesitas saber sobre cómo convertir imágenes en URLs compartibles. Esta guía completa cubre métodos, mejores prácticas y consejos para alojamiento de imágenes y compartir enlaces.",
+        "content": "# Cómo convertir imagen a URL: Guía completa para 2025\n\nConvertir imágenes en URLs compartibles se ha convertido en una habilidad esencial en el mundo digital actual. Ya seas bloguero, desarrollador o creador de contenido, entender cómo transformar tus imágenes en enlaces directos puede mejorar significativamente tu flujo de trabajo y capacidades de compartir contenido.\n\n## ¿Por qué convertir imágenes a URLs?\n\nAntes de profundizar en los métodos, entendamos por qué convertir imágenes a URLs es beneficioso:\n\n### 1. **Compartir fácil**\nLas URLs directas de imágenes te permiten compartir imágenes instantáneamente sin descargar o volver a subir archivos. Simplemente copia la URL y pégala en cualquier lugar: correos electrónicos, documentos o publicaciones en redes sociales.\n\n### 2. **Mejor rendimiento**\nUsar enlaces directos de imágenes reduce la carga en tu servidor principal. Cuando las imágenes están alojadas en una CDN (Red de entrega de contenido), se cargan más rápido para usuarios de todo el mundo.\n\n### 3. **Flexibilidad**\nLas URLs de imágenes pueden incrustarse en HTML, Markdown o usarse en APIs. Esta flexibilidad las hace perfectas tanto para desarrolladores como para creadores de contenido.\n\n### 4. **Eficiencia de almacenamiento**\nEn lugar de almacenar imágenes localmente, puedes usar soluciones de almacenamiento en la nube que proporcionan URLs directas, ahorrando valioso espacio en el servidor.\n\n## Métodos para convertir imágenes a URLs\n\n### Método 1: Usar el servicio Foto a URL\n\n**Foto a URL** es un servicio gratuito y fácil de usar que hace que la conversión de imagen a URL sea sencilla:\n\n1. **Visita el sitio web**: Navega a Foto a URL\n2. **Sube tu imagen**: Arrastra y suelta tu archivo de imagen o haz clic para explorar\n3. **Obtén tu URL**: Una vez subida, recibirás un enlace directo a tu imagen\n4. **Copia y usa**: Copia la URL y úsala donde la necesites\n\n**Ventajas:**\n- ✅ No se requiere registro\n- ✅ Carga y procesamiento rápidos\n- ✅ Enlaces CDN directos para un rendimiento óptimo\n- ✅ Soporte para múltiples formatos de imagen (JPG, PNG, WEBP, GIF)\n\n### Método 2: Servicios de almacenamiento en la nube\n\nLos servicios populares de almacenamiento en la nube ofrecen alojamiento de imágenes con acceso directo a URL:\n\n**Google Cloud Storage / AWS S3:**\n- Sube imágenes a tu bucket\n- Establece permisos apropiados\n- Accede a las imágenes mediante URLs directas\n- Configura CDN para mejor rendimiento\n\n**Ventajas:**\n- Control total sobre tus imágenes\n- Soluciones de almacenamiento escalables\n- Infraestructura de nivel profesional\n\n### Método 3: Plataformas de alojamiento de imágenes\n\nLas plataformas dedicadas de alojamiento de imágenes proporcionan servicios especializados:\n\n- **Imgur**: Popular para compartir imágenes rápidamente\n- **Cloudinary**: Características avanzadas de manipulación de imágenes\n- **ImageKit**: Optimizado para rendimiento\n\n## Mejores prácticas para URLs de imágenes\n\n### 1. **Elige el formato correcto**\n\nDiferentes formatos de imagen sirven para diferentes propósitos:\n\n- **JPEG**: Mejor para fotografías con muchos colores\n- **PNG**: Ideal para imágenes con transparencia o bordes nítidos\n- **WEBP**: Formato moderno que ofrece mejor compresión\n- **GIF**: Perfecto para imágenes animadas\n\n### 2. **Optimiza el tamaño de la imagen**\n\nAntes de convertir a URL, optimiza tus imágenes:\n\n- Comprime imágenes para reducir el tamaño del archivo\n- Redimensiona imágenes a dimensiones apropiadas\n- Usa formatos modernos como WEBP cuando sea posible\n- Equilibra calidad y tamaño de archivo\n\n### 3. **Usa CDN para mejor rendimiento**\n\nLas Redes de entrega de contenido (CDN) distribuyen tus imágenes en múltiples servidores en todo el mundo, asegurando tiempos de carga rápidos independientemente de la ubicación del usuario.\n\n### 4. **Implementa seguridad adecuada**\n\n- Usa URLs HTTPS para entrega segura de imágenes\n- Establece permisos de acceso apropiados\n- Considera marcas de agua para contenido sensible\n- Monitorea el uso para prevenir abusos\n\n## Casos de uso comunes\n\n### Para blogueros\n\nLos blogueros pueden usar URLs de imágenes para:\n- Incrustar imágenes en publicaciones de blog sin alojarlas localmente\n- Mejorar los tiempos de carga de página\n- Compartir imágenes en múltiples plataformas\n- Mantener calidad de imagen consistente\n\n### Para desarrolladores\n\nLos desarrolladores se benefician de las URLs de imágenes al:\n- Reducir la carga del servidor\n- Simplificar la gestión de imágenes\n- Habilitar carga dinámica de imágenes\n- Integrar con APIs y servicios web\n\n### Para comercio electrónico\n\nLos sitios de comercio electrónico usan URLs de imágenes para:\n- Mostrar imágenes de productos eficientemente\n- Gestionar grandes catálogos de imágenes\n- Optimizar para dispositivos móviles\n- Mejorar el rendimiento de la página de pago\n\n## Solución de problemas comunes\n\n### Problema: Enlaces de imagen rotos\n\n**Solución:**\n- Verifica que la URL sea correcta y accesible\n- Verifica permisos de imagen y configuraciones de acceso\n- Asegúrate de que el servicio de alojamiento esté operativo\n- Valida que el formato de imagen sea compatible\n\n### Problema: Tiempos de carga lentos\n\n**Solución:**\n- Usa una CDN para entrega de imágenes\n- Optimiza tamaños de archivo de imagen\n- Elige formatos de imagen apropiados\n- Implementa carga diferida cuando sea posible\n\n### Problema: Imagen no se muestra\n\n**Solución:**\n- Verifica configuraciones CORS (Intercambio de recursos de origen cruzado)\n- Verifica que los protocolos HTTPS/HTTP coincidan\n- Asegúrate de que los tipos MIME apropiados estén configurados\n- Prueba la accesibilidad de la URL desde diferentes ubicaciones\n\n## Consejos avanzados\n\n### 1. **Procesamiento por lotes**\n\nPara múltiples imágenes, considera:\n- Usar APIs para cargas automatizadas\n- Implementar scripts de conversión por lotes\n- Utilizar APIs de almacenamiento en la nube\n- Configurar flujos de trabajo automatizados\n\n### 2. **Manipulación de imágenes**\n\nAlgunos servicios ofrecen manipulación de imágenes sobre la marcha:\n- Redimensionar imágenes mediante parámetros de URL\n- Aplicar filtros y efectos\n- Convertir formatos automáticamente\n- Recortar y rotar imágenes\n\n### 3. **Análisis y monitoreo**\n\nRastrea el uso de tus imágenes:\n- Monitorea el consumo de ancho de banda\n- Analiza imágenes populares\n- Rastrea patrones de acceso\n- Optimiza basándote en datos de uso\n\n## Conclusión\n\nConvertir imágenes a URLs es un proceso sencillo que ofrece numerosos beneficios. Ya elijas un servicio simple como Foto a URL o una solución completa de almacenamiento en la nube, la clave es encontrar el método que mejor se adapte a tus necesidades.\n\nRecuerda:\n- ✅ Optimizar imágenes antes de subirlas\n- ✅ Elegir formatos apropiados\n- ✅ Usar CDN para mejor rendimiento\n- ✅ Implementar medidas de seguridad adecuadas\n- ✅ Monitorear y optimizar regularmente\n\nSiguiendo estas pautas, podrás convertir y gestionar eficientemente tus imágenes como URLs, mejorando tanto tu flujo de trabajo como el rendimiento de tu contenido.\n\n## Herramientas relacionadas\n\n- [Foto a URL](/) - Servicio gratuito de conversión de imagen a URL\n- [Herramienta de recorte circular](/circle-crop) - Crear imágenes circulares\n- [Herramienta de esquinas redondeadas](/rounded-corners) - Añadir esquinas redondeadas a imágenes\n- [Herramienta de eliminación de fondo](/remove-background) - Eliminar fondos de imágenes con IA\n\n---\n\n*Última actualización: Febrero 2025*"
+      }
     }
   },
   "docs": {
     "seo": {
-      "title": "Documentación | Photo To URL",
-      "description": "Documentación para Photo To URL."
+      "title": "Documentación | Foto a URL",
+      "description": "Documentación para Foto a URL."
     },
     "page": {
       "title": "Documentación",
@@ -427,8 +445,8 @@
   },
   "status": {
     "seo": {
-      "title": "Estado | Photo To URL",
-      "description": "Estado del servicio Photo To URL."
+      "title": "Estado | Foto a URL",
+      "description": "Estado del servicio Foto a URL."
     },
     "page": {
       "title": "Estado",
@@ -438,8 +456,8 @@
   },
   "contact": {
     "seo": {
-      "title": "Contacto | Photo To URL",
-      "description": "Contactar con el soporte de Photo To URL."
+      "title": "Contacto | Foto a URL",
+      "description": "Contactar con el soporte de Foto a URL."
     },
     "page": {
       "title": "Contacto",
@@ -452,14 +470,14 @@
   },
   "about": {
     "seo": {
-      "title": "Acerca de | Photo To URL",
-      "description": "Conozca más sobre Photo To URL - un servicio gratuito de alojamiento de imágenes que convierte fotos en enlaces compartibles."
+      "title": "Acerca de | Foto a URL",
+      "description": "Conozca más sobre Foto a URL - un servicio gratuito de alojamiento de imágenes que convierte fotos en enlaces compartibles."
     },
     "page": {
       "title": "Acerca de",
       "mission": {
         "title": "Nuestra misión",
-        "content": "Photo To URL es un servicio gratuito, rápido y confiable de alojamiento de imágenes diseñado para ayudar a creadores, especialistas en marketing y equipos a convertir imágenes en enlaces compartibles al instante. Creemos en la simplicidad, la velocidad y la privacidad del usuario."
+        "content": "Foto a URL es un servicio gratuito, rápido y confiable de alojamiento de imágenes diseñado para ayudar a creadores, especialistas en marketing y equipos a convertir imágenes en enlaces compartibles al instante. Creemos en la simplicidad, la velocidad y la privacidad del usuario."
       },
       "features": {
         "title": "Lo que ofrecemos",
@@ -478,13 +496,13 @@
   "legal": {
     "privacy": {
       "seo": {
-        "title": "Política de privacidad | Photo To URL",
-        "description": "Política de privacidad para Photo To URL - Aprenda cómo recopilamos, usamos y protegemos sus datos."
+        "title": "Política de privacidad | Foto a URL",
+        "description": "Política de privacidad para Foto a URL - Aprenda cómo recopilamos, usamos y protegemos sus datos."
       },
       "page": {
         "title": "Política de privacidad",
         "lastUpdated": "Última actualización: enero 2026",
-        "introduction": "En Photo To URL, respetamos su privacidad y nos comprometemos a proteger su información personal. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos su información cuando utiliza nuestro servicio.",
+        "introduction": "En Foto a URL, respetamos su privacidad y nos comprometemos a proteger su información personal. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos su información cuando utiliza nuestro servicio.",
         "dataCollection": {
           "title": "Información que recopilamos",
           "content1": "Cuando carga una imagen, recopilamos:",
@@ -550,12 +568,12 @@
     },
     "terms": {
       "seo": {
-        "title": "Términos de servicio | Photo To URL",
-        "description": "Términos de servicio para Photo To URL."
+        "title": "Términos de servicio | Foto a URL",
+        "description": "Términos de servicio para Foto a URL."
       },
       "page": {
         "title": "Términos de servicio",
-        "content": "Al usar Photo To URL, acepta usar el servicio de manera responsable y no cargar contenido ilegal.",
+        "content": "Al usar Foto a URL, acepta usar el servicio de manera responsable y no cargar contenido ilegal.",
         "disclaimer": {
           "title": "Descargo de responsabilidad",
           "text": "El servicio se proporciona \"tal cual\" sin garantías. La disponibilidad puede cambiar debido al mantenimiento."
@@ -569,13 +587,13 @@
     },
     "cookie": {
       "seo": {
-          "title": "Política de cookies | Photo To URL",
-          "description": "Política de cookies para Photo To URL - Aprenda sobre cómo usamos cookies y tecnologías de seguimiento."
+          "title": "Política de cookies | Foto a URL",
+          "description": "Política de cookies para Foto a URL - Aprenda sobre cómo usamos cookies y tecnologías de seguimiento."
         },
         "page": {
         "title": "Política de cookies",
           "lastUpdated": "Última actualización: enero 2026",
-          "introduction": "Esta Política de Cookies explica cómo Photo To URL utiliza cookies y tecnologías de seguimiento similares cuando visita nuestro sitio web. Al usar nuestro servicio, acepta el uso de cookies de acuerdo con esta política.",
+          "introduction": "Esta Política de Cookies explica cómo Foto a URL utiliza cookies y tecnologías de seguimiento similares cuando visita nuestro sitio web. Al usar nuestro servicio, acepta el uso de cookies de acuerdo con esta política.",
           "whatAreCookies": {
             "title": "Qué son las cookies",
             "content": "Las cookies son pequeños archivos de texto que se colocan en su dispositivo cuando visita un sitio web. Se utilizan ampliamente para hacer que los sitios web funcionen de manera más eficiente y proporcionar información a los propietarios de sitios web."
@@ -625,8 +643,8 @@
     }
   },
   "bookmarklet": {
-    "title": "Photo To URL Bookmarklet",
-    "description": "¡Sube imágenes desde cualquier página web directamente a Photo To URL con un solo clic!",
+    "title": "Foto a URL Bookmarklet",
+    "description": "¡Sube imágenes desde cualquier página web directamente a Foto a URL con un solo clic!",
     "howItWorks": {
       "title": "Cómo funciona",
       "step1": "Navega por cualquier página web con imágenes",
@@ -659,7 +677,7 @@
       "title": "Características",
       "description": "El bookmarklet proporciona las siguientes características:",
       "feature1": "Seleccionar cualquier imagen de la página web actual",
-      "feature2": "Subida automática a Photo To URL",
+      "feature2": "Subida automática a Foto a URL",
       "feature3": "Obtener una URL compartible al instante con un clic para copiar"
     },
     "note": {

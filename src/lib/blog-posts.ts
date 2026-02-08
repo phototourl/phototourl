@@ -6,6 +6,7 @@ export interface BlogPost {
   category: string;
   readTime: number; // minutes
   image?: string;
+  tags?: string[]; // 标签数组
 }
 
 export const blogPosts: BlogPost[] = [
@@ -17,6 +18,7 @@ export const blogPosts: BlogPost[] = [
     category: "tutorial",
     readTime: 8,
     image: "/og-image.png",
+    tags: ["photo-to-url", "image-hosting", "cdn", "tutorial"],
   },
 ];
 
