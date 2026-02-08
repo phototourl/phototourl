@@ -9,6 +9,8 @@
       "circleCrop": "Foto para Recorte Circular",
       "circleCropNav": "Recorte circular",
       "roundedCorners": "Cantos arredondados",
+      "removeBackground": "Foto Remover Fundo",
+      "removeBackgroundNav": "Remover Fundo",
       "comingSoon": "Em breve.",
       "history": "Registro de envios"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Destaques do roadmap",
-        "p1": "Integraremos profundamente o Cloudflare R2, fornecendo cotas e capacidades de gerenciamento mais amigáveis, com colaboração em equipe opcional, controle de acesso e análises por link. Planejamos lançar recursos como exclusão com um clique, estilos de link predefinidos e buckets de armazenamento em nível organizacional. Enquanto isso, estamos melhorando continuamente subprodutos como a ferramenta de recorte circular e a ferramenta de cantos arredondados para tornar o processamento de imagens mais conveniente."
+        "p1": "Integraremos profundamente o Cloudflare R2, fornecendo cotas e capacidades de gerenciamento mais amigáveis, juntamente com colaboração em equipe opcional, controle de acesso e análises por link. Planejamos lançar recursos como exclusão com um clique, estilos de link predefinidos e buckets de armazenamento em nível organizacional. Enquanto isso, estamos melhorando e refinando continuamente subprodutos: ferramenta de recorte circular, ferramenta de cantos arredondados e ferramenta de remoção de fundo, tornando o processamento de imagens mais conveniente."
       },
       "faq": {
         "title": "Perguntas frequentes",
@@ -346,6 +348,43 @@
       "votes": "4.992 votos"
     }
   },
+  "removeBackground": {
+    "title": "Foto Remover Fundo",
+    "description": "Ferramenta gratuita online de remoção de fundo com IA, remova facilmente o fundo de qualquer foto - perfeito para fotos de produtos, retratos e projetos de design.",
+    "upload": "Carregar Foto",
+    "download": "Descarregar",
+    "processing": "Processando...",
+    "processingModelLoading": "Carregando modelo de IA, o primeiro uso pode levar 10-30 segundos, por favor aguarde...",
+    "processingImage": "Processando imagem, por favor aguarde...",
+    "errorUploadFirst": "Por favor carregue uma foto primeiro.",
+    "errorSelectFile": "Por favor selecione um ficheiro de imagem.",
+    "errorProcessing": "Falha ao processar a imagem. Por favor tente novamente.",
+    "errorTimeout": "Tempo limite de processamento, a imagem pode ser muito grande ou a rede está lenta, por favor tente uma imagem menor ou tente novamente mais tarde.",
+    "errorMemory": "Memória insuficiente, por favor tente uma imagem menor.",
+    "errorGeneric": "Falha no processamento: {error}. Por favor tente novamente ou tente outra imagem.",
+    "errorFileTooLarge": "O ficheiro de imagem é muito grande, por favor selecione uma imagem menor que 10MB.",
+    "errorModelLoad": "Falha ao carregar a biblioteca do modelo de IA, por favor atualize a página e tente novamente.",
+    "errorPageHidden": "A página foi alterada, por favor carregue a imagem novamente para processar.",
+    "page": {
+      "title": "Foto Remover Fundo - Ferramenta Gratuita Online de Remoção de Fundo com IA",
+      "description": "Foto Remover Fundo é uma ferramenta gratuita online alimentada por IA para remover fundos de qualquer foto. Crie imagens PNG transparentes instantaneamente com a nossa tecnologia avançada de remoção de fundo. Perfeito para fotos de produtos, retratos, comércio eletrónico e projetos de design. Não é necessário registo - carregue, processe e descarregue em segundos."
+    },
+    "seo": {
+      "title": "Ferramenta de Remoção de Fundo | Ferramenta Gratuita Online de Remoção de Fundo com IA",
+      "description": "Ferramenta gratuita online com IA para remover o fundo de qualquer foto - perfeito para fotos de produtos, retratos e projetos de design.",
+      "keywords": "remover fundo, removedor de fundo, fundo transparente, remoção de fundo com ia"
+    },
+    "selectRegion": {
+      "title": "Selecionar Região",
+      "subtitle": "Escolha o seu idioma e região preferidos"
+    },
+    "rateService": {
+      "title": "Avaliar Foto Remover Fundo",
+      "thankYou": "Obrigado pelo seu feedback!",
+      "averageRating": "4.5",
+      "votes": "4.992 votos"
+    }
+  },
   "blog": {
     "seo": {
       "title": "Blog | Photo To URL",
@@ -359,7 +398,13 @@
         "1": "Melhores práticas para conversão de imagem em URL",
         "2": "Como usar links de fotos diretos em blogs e documentos",
         "3": "Desempenho e cache para recursos estáticos"
-      }
+      },
+      "readMore": "Ler mais",
+      "min": "min",
+      "backToBlog": "Voltar ao blog",
+      "minRead": "min de leitura",
+      "author": "Autor",
+      "viewMoreArticles": "Ver mais artigos"
     }
   },
   "docs": {

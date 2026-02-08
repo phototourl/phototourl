@@ -15,6 +15,7 @@ const navLinks = [
 const productLinks = [
   { href: "/circle-crop", external: false },
   { href: "/rounded-corners", external: false },
+  { href: "/remove-background", external: false },
 ];
 
 type SiteFooterProps = { locale: string };
@@ -24,6 +25,7 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
   const tImages = await getTranslations({ locale, namespace: "images" });
   const tCircleCrop = await getTranslations({ locale, namespace: "circleCrop" });
   const tRounded = await getTranslations({ locale, namespace: "roundedCorners" });
+  const tRemoveBackground = await getTranslations({ locale, namespace: "removeBackground" });
   return (
     <footer>
       <div className="border-t border-white/15 hero-gradient text-white">
@@ -113,7 +115,9 @@ export async function SiteFooter({ locale }: SiteFooterProps) {
                       ? tCircleCrop("title")
                       : link.href === "/rounded-corners"
                         ? tRounded("title")
-                        : "";
+                        : link.href === "/remove-background"
+                          ? tRemoveBackground("title")
+                          : "";
                   return link.external ? (
                     <a
                       key={link.href}

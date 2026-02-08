@@ -9,6 +9,8 @@
       "circleCrop": "Foto ke Potong Lingkaran",
       "circleCropNav": "Potong lingkaran",
       "roundedCorners": "Sudut membulat",
+      "removeBackground": "Foto Hapus Latar Belakang",
+      "removeBackgroundNav": "Hapus Latar Belakang",
       "comingSoon": "Segera hadir.",
       "history": "Riwayat unggahan"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Sorotan Rencana Pengembangan",
-        "p1": "Kami akan mengintegrasikan Cloudflare R2 secara mendalam, menyediakan kuota dan kemampuan manajemen yang lebih ramah pengguna, dengan kolaborasi tim opsional, kontrol akses, dan analitik per tautan. Kami berencana meluncurkan fitur seperti penghapusan satu klik, gaya tautan yang telah ditetapkan sebelumnya, dan bucket penyimpanan tingkat organisasi. Sementara itu, kami terus meningkatkan produk sampingan seperti alat potong lingkaran dan alat sudut membulat untuk membuat pemrosesan gambar lebih nyaman."
+        "p1": "Kami akan mengintegrasikan Cloudflare R2 secara mendalam, menyediakan kuota dan kemampuan manajemen yang lebih ramah pengguna, bersama dengan kolaborasi tim opsional, kontrol akses, dan analitik per tautan. Kami berencana meluncurkan fitur seperti penghapusan satu klik, gaya tautan yang telah ditetapkan sebelumnya, dan bucket penyimpanan tingkat organisasi. Sementara itu, kami terus meningkatkan dan menyempurnakan produk sampingan: alat potong lingkaran, alat sudut membulat, dan alat penghapus latar belakang, untuk membuat pemrosesan gambar lebih nyaman."
       },
       "faq": {
         "title": "Pertanyaan Umum (FAQ)",
@@ -346,6 +348,43 @@
       "votes": "4.992 suara"
     }
   },
+  "removeBackground": {
+    "title": "Foto Hapus Latar Belakang",
+    "description": "Alat penghapus latar belakang AI online gratis, hapus latar belakang dari foto apa pun dengan mudah - sempurna untuk foto produk, potret, dan proyek desain.",
+    "upload": "Unggah Foto",
+    "download": "Unduh",
+    "processing": "Memproses...",
+    "processingModelLoading": "Memuat model AI, penggunaan pertama mungkin memakan waktu 10-30 detik, harap tunggu...",
+    "processingImage": "Memproses gambar, harap tunggu...",
+    "errorUploadFirst": "Harap unggah foto terlebih dahulu.",
+    "errorSelectFile": "Harap pilih file gambar.",
+    "errorProcessing": "Gagal memproses gambar. Silakan coba lagi.",
+    "errorTimeout": "Waktu proses habis, gambar mungkin terlalu besar atau jaringan lambat, silakan coba gambar yang lebih kecil atau coba lagi nanti.",
+    "errorMemory": "Memori tidak cukup, silakan coba gambar yang lebih kecil.",
+    "errorGeneric": "Pemrosesan gagal: {error}. Silakan coba lagi atau coba gambar lain.",
+    "errorFileTooLarge": "File gambar terlalu besar, silakan pilih gambar yang lebih kecil dari 10MB.",
+    "errorModelLoad": "Gagal memuat pustaka model AI, silakan segar halaman dan coba lagi.",
+    "errorPageHidden": "Halaman telah diubah, silakan unggah gambar lagi untuk diproses.",
+    "page": {
+      "title": "Foto Hapus Latar Belakang - Alat Penghapus Latar Belakang AI Online Gratis",
+      "description": "Foto Hapus Latar Belakang adalah alat online gratis yang didukung AI untuk menghapus latar belakang dari foto apa pun. Buat gambar PNG transparan secara instan dengan teknologi penghapusan latar belakang canggih kami. Sempurna untuk foto produk, potret, e-commerce, dan proyek desain. Tidak perlu mendaftar - unggah, proses, dan unduh dalam hitungan detik."
+    },
+    "seo": {
+      "title": "Alat Penghapus Latar Belakang | Alat Penghapus Latar Belakang AI Online Gratis",
+      "description": "Alat AI online gratis untuk menghapus latar belakang dari foto apa pun - sempurna untuk foto produk, potret, dan proyek desain.",
+      "keywords": "hapus latar belakang, penghapus latar belakang, latar belakang transparan, penghapusan latar belakang ai"
+    },
+    "selectRegion": {
+      "title": "Pilih Wilayah",
+      "subtitle": "Pilih bahasa dan wilayah preferensi Anda"
+    },
+    "rateService": {
+      "title": "Nilai Foto Hapus Latar Belakang",
+      "thankYou": "Terima kasih atas masukan Anda!",
+      "averageRating": "4.5",
+      "votes": "4.992 suara"
+    }
+  },
   "blog": {
     "seo": {
       "title": "Blog | Photo To URL",
@@ -359,7 +398,13 @@
         "1": "Praktik terbaik untuk konversi gambar ke URL",
         "2": "Cara menggunakan tautan foto langsung di blog dan dokumen",
         "3": "Performa dan caching untuk aset statis"
-      }
+      },
+      "readMore": "Baca selengkapnya",
+      "min": "menit",
+      "backToBlog": "Kembali ke blog",
+      "minRead": "menit membaca",
+      "author": "Penulis",
+      "viewMoreArticles": "Lihat artikel lainnya"
     }
   },
   "docs": {

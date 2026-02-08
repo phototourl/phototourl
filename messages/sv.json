@@ -9,6 +9,8 @@
       "circleCrop": "Cirkulär bildbeskärning",
       "circleCropNav": "Cirkelbeskärning",
       "roundedCorners": "Rundade hörn",
+      "removeBackground": "Foto Ta Bort Bakgrund",
+      "removeBackgroundNav": "Ta Bort Bakgrund",
       "comingSoon": "Kommer snart.",
       "history": "Uppladdningshistorik"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Roadmap-höjdpunkter",
-        "p1": "Vi kommer att integrera Cloudflare R2 djupt, vilket ger mer användarvänliga kvoter och hanteringsmöjligheter, med valfritt teamarbete, åtkomstkontroll och per-länk-analys. Vi planerar att lansera funktioner som enklick-radering, förinställda länkstilar och organisationsnivå lagringsbuckets. Samtidigt förbättrar vi kontinuerligt underprodukter som cirkelbeskärningsverktyget och avrundade hörnverktyget för att göra bildbehandling mer bekväm."
+        "p1": "Vi kommer att integrera Cloudflare R2 djupt, vilket ger mer användarvänliga kvoter och hanteringsmöjligheter, tillsammans med valfritt teamarbete, åtkomstkontroll och per-länk-analys. Vi planerar att lansera funktioner som enklick-radering, förinställda länkstilar och organisationsnivå lagringsbuckets. Samtidigt förbättrar och förfinar vi kontinuerligt underprodukter: cirkelbeskärningsverktyget, avrundade hörnverktyget och bakgrundsborttagningsverktyget, för att göra bildbehandling mer bekväm."
       },
       "faq": {
         "title": "Vanliga frågor",
@@ -346,6 +348,43 @@
       "votes": "4 992 röster"
     }
   },
+  "removeBackground": {
+    "title": "Foto Ta Bort Bakgrund",
+    "description": "Gratis online AI-verktyg för att ta bort bakgrund, ta enkelt bort bakgrunden från vilken foto som helst - perfekt för produktfoton, porträtt och designprojekt.",
+    "upload": "Ladda Upp Foto",
+    "download": "Ladda Ner",
+    "processing": "Bearbetar...",
+    "processingModelLoading": "Laddar AI-modell, första användningen kan ta 10-30 sekunder, vänta...",
+    "processingImage": "Bearbetar bild, vänta...",
+    "errorUploadFirst": "Ladda upp en foto först.",
+    "errorSelectFile": "Välj en bildfil.",
+    "errorProcessing": "Bildbearbetning misslyckades. Försök igen.",
+    "errorTimeout": "Bearbetningstimeout, bilden kan vara för stor eller nätverket är långsamt, försök med en mindre bild eller försök igen senare.",
+    "errorMemory": "Otillräckligt minne, försök med en mindre bild.",
+    "errorGeneric": "Bearbetning misslyckades: {error}. Försök igen eller försök med en annan bild.",
+    "errorFileTooLarge": "Bildfilen är för stor, välj en bild mindre än 10MB.",
+    "errorModelLoad": "Kunde inte ladda AI-modellbiblioteket, uppdatera sidan och försök igen.",
+    "errorPageHidden": "Sidan har ändrats, ladda upp bilden igen för att bearbeta den.",
+    "page": {
+      "title": "Foto Ta Bort Bakgrund - Gratis Online AI Bakgrundsborttagare",
+      "description": "Foto Ta Bort Bakgrund är ett gratis online AI-drivet verktyg för att ta bort bakgrunder från vilken foto som helst. Skapa genomskinliga PNG-bilder direkt med vår avancerade bakgrundsborttagningsteknologi. Perfekt för produktfoton, porträtt, e-handel och designprojekt. Ingen registrering krävs - ladda upp, bearbeta och ladda ner på sekunder."
+    },
+    "seo": {
+      "title": "Bakgrundsborttagningsverktyg | Gratis Online AI Bakgrundsborttagare",
+      "description": "Gratis online AI-verktyg för att ta bort bakgrunden från vilken foto som helst - perfekt för produktfoton, porträtt och designprojekt.",
+      "keywords": "ta bort bakgrund, bakgrundsborttagare, genomskinlig bakgrund, ai bakgrundsborttagning"
+    },
+    "selectRegion": {
+      "title": "Välj Region",
+      "subtitle": "Välj ditt föredragna språk och region"
+    },
+    "rateService": {
+      "title": "Betygsätt Foto Ta Bort Bakgrund",
+      "thankYou": "Tack för din feedback!",
+      "averageRating": "4.5",
+      "votes": "4 992 röster"
+    }
+  },
   "blog": {
     "seo": {
       "title": "Blogg | Photo To URL",
@@ -359,7 +398,13 @@
         "1": "Bästa praxis för att konvertera bilder till URL",
         "2": "Hur man använder direkta fotolänkar i bloggar och dokument",
         "3": "Prestanda och cachning för statiska tillgångar"
-      }
+      },
+      "readMore": "Läs mer",
+      "min": "min",
+      "backToBlog": "Tillbaka till bloggen",
+      "minRead": "min läsning",
+      "author": "Författare",
+      "viewMoreArticles": "Visa fler artiklar"
     }
   },
   "docs": {

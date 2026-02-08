@@ -9,6 +9,8 @@
       "circleCrop": "Okrugli izrez",
       "circleCropNav": "Kružni izrez",
       "roundedCorners": "Zaobljeni rubovi",
+      "removeBackground": "Foto Ukloni Pozadinu",
+      "removeBackgroundNav": "Ukloni Pozadinu",
       "comingSoon": "Uskoro.",
       "history": "Povijest učitavanja"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Istaknute točke roadmapa",
-        "p1": "Duboko ćemo integrirati Cloudflare R2, pružajući korisnici prijateljskije kvote i mogućnosti upravljanja, s opcionalnom timskom suradnjom, kontrolom pristupa i analitikom po poveznici. Planiramo pokrenuti funkcije poput brisanja jednim klikom, unaprijed postavljenih stilova poveznica i spremišnih spremnika na razini organizacije. U međuvremenu, kontinuirano poboljšavamo podproizvode poput alata za kružno izrezivanje i alata za zaobljene rubove kako bismo učinili obradu slika prikladnijom."
+        "p1": "Duboko ćemo integrirati Cloudflare R2, pružajući korisnici prijateljskije kvote i mogućnosti upravljanja, zajedno s opcionalnom timskom suradnjom, kontrolom pristupa i analitikom po poveznici. Planiramo pokrenuti funkcije poput brisanja jednim klikom, unaprijed postavljenih stilova poveznica i spremišnih spremnika na razini organizacije. U međuvremenu, kontinuirano poboljšavamo i usavršavamo podproizvode: alat za kružno izrezivanje, alat za zaobljene rubove i alat za uklanjanje pozadine, kako bismo učinili obradu slika prikladnijom."
       },
       "faq": {
         "title": "Često postavljana pitanja",
@@ -330,6 +332,43 @@
     },
     "rateService": {
       "title": "Ocijeni Foto sa zaobljenim rubovima",
+      "thankYou": "Hvala na povratnoj informaciji!",
+      "averageRating": "4.5",
+      "votes": "4.992 glasova"
+    }
+  },
+  "removeBackground": {
+    "title": "Foto Ukloni Pozadinu",
+    "description": "Besplatni online AI alat za uklanjanje pozadine, lako uklonite pozadinu s bilo koje fotografije - savršeno za fotografije proizvoda, portrete i dizajnerske projekte.",
+    "upload": "Učitaj Fotografiju",
+    "download": "Preuzmi",
+    "processing": "Obrađuje se...",
+    "processingModelLoading": "Učitavanje AI modela, prva upotreba može potrajati 10-30 sekundi, molimo pričekajte...",
+    "processingImage": "Obrađuje se slika, molimo pričekajte...",
+    "errorUploadFirst": "Molimo prvo učitajte fotografiju.",
+    "errorSelectFile": "Molimo odaberite datoteku slike.",
+    "errorProcessing": "Neuspješna obrada slike. Molimo pokušajte ponovno.",
+    "errorTimeout": "Istek vremena obrade, slika može biti prevelika ili je mreža spora, molimo pokušajte s manjom slikom ili pokušajte ponovno kasnije.",
+    "errorMemory": "Nedovoljno memorije, molimo pokušajte s manjom slikom.",
+    "errorGeneric": "Obrada nije uspjela: {error}. Molimo pokušajte ponovno ili pokušajte s drugom slikom.",
+    "errorFileTooLarge": "Datoteka slike je prevelika, molimo odaberite sliku manju od 10MB.",
+    "errorModelLoad": "Neuspješno učitavanje biblioteke AI modela, molimo osvježite stranicu i pokušajte ponovno.",
+    "errorPageHidden": "Stranica je promijenjena, molimo učitajte sliku ponovno za obradu.",
+    "page": {
+      "title": "Foto Ukloni Pozadinu - Besplatni Online AI Alat za Uklanjanje Pozadine",
+      "description": "Foto Ukloni Pozadinu je besplatni online alat pokretan AI-om za uklanjanje pozadina s bilo koje fotografije. Stvorite prozirne PNG slike odmah s našom naprednom tehnologijom uklanjanja pozadine. Savršeno za fotografije proizvoda, portrete, e-trgovinu i dizajnerske projekte. Registracija nije potrebna - učitajte, obradite i preuzmite u sekundama."
+    },
+    "seo": {
+      "title": "Alat za Uklanjanje Pozadine | Besplatni Online AI Alat za Uklanjanje Pozadine",
+      "description": "Besplatni online AI alat za uklanjanje pozadine s bilo koje fotografije - savršeno za fotografije proizvoda, portrete i dizajnerske projekte.",
+      "keywords": "ukloni pozadinu, alat za uklanjanje pozadine, prozirna pozadina, uklanjanje pozadine s ai"
+    },
+    "selectRegion": {
+      "title": "Odaberi Regiju",
+      "subtitle": "Odaberite željeni jezik i regiju"
+    },
+    "rateService": {
+      "title": "Ocijeni Foto Ukloni Pozadinu",
       "thankYou": "Hvala na povratnoj informaciji!",
       "averageRating": "4.5",
       "votes": "4.992 glasova"
@@ -540,7 +579,13 @@
         "1": "Najbolje prakse za pretvorbu slike u URL",
         "2": "Kako koristiti izravne veze fotografija u blogovima i dokumentima",
         "3": "Performanse i predmemoriranje za statičke resurse"
-      }
+      },
+      "readMore": "Pročitaj više",
+      "min": "min",
+      "backToBlog": "Povratak na blog",
+      "minRead": "min čitanja",
+      "author": "Autor",
+      "viewMoreArticles": "Pogledaj više članaka"
     }
   },
   "docs": {

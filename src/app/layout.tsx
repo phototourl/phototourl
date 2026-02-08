@@ -26,21 +26,62 @@ const inter = localFont({
 export default function RootLayout({ children }: { children: ReactNode }) {
   const YANDEX_METRIKA_ID = process.env.NEXT_PUBLIC_YANDEX_METRIKA_ID || "105949212";
   
+  // 暂时禁用 AdSense（账户因"低价值内容"违规被限制，需等到 2026年3月19日才能重新申请审核）
+  // 在修复内容质量问题之前，不加载 AdSense 代码
+  const shouldLoadAdSense = false; // 暂时禁用，等待内容质量提升后重新启用
+  
   return (
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.png" type="image/png" />
         <link rel="shortcut icon" href="/favicon.png" />
-        {/* Google AdSense */}
-        <meta
-          name="google-adsense-account"
-          content="ca-pub-4341915232925745"
-        />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4341915232925745"
-          crossOrigin="anonymous"
-        />
+        {/* Google AdSense - 只在生产环境加载 */}
+        {shouldLoadAdSense && (
+          <>
+            <meta
+              name="google-adsense-account"
+              content="ca-pub-4341915232925745"
+            />
+            <script
+              async
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4341915232925745"
+              crossOrigin="anonymous"
+            />
+            {/* 静默处理 AdSense 403 错误，避免控制台显示 */}
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  (function() {
+                    // 拦截 AdSense 相关的网络错误
+                    const originalFetch = window.fetch;
+                    if (originalFetch) {
+                      window.fetch = function(...args) {
+                        const url = args[0];
+                        if (url && typeof url === 'string' && url.includes('doubleclick.net')) {
+                          return originalFetch.apply(this, args).catch(function(error) {
+                            // 静默处理 AdSense 403 错误
+                            console.debug('AdSense request failed (this is normal if domain is not verified)');
+                            return Promise.resolve(new Response('', { status: 200, headers: { 'Content-Type': 'text/html' } }));
+                          });
+                        }
+                        return originalFetch.apply(this, args);
+                      };
+                    }
+                    // 拦截 script 标签加载错误
+                    window.addEventListener('error', function(e) {
+                      if (e.target && e.target.tagName === 'SCRIPT' && 
+                          e.target.src && e.target.src.includes('adsbygoogle')) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        return true;
+                      }
+                    }, true);
+                  })();
+                `,
+              }}
+            />
+          </>
+        )}
         <script
           dangerouslySetInnerHTML={{
             __html: `

@@ -9,6 +9,8 @@
       "circleCrop": "Photo en Recadrage Circulaire",
       "circleCropNav": "Recadrage circulaire",
       "roundedCorners": "Coins arrondis",
+      "removeBackground": "Photo à Supprimer le Fond",
+      "removeBackgroundNav": "Supprimer le Fond",
       "comingSoon": "Bientôt disponible.",
       "history": "Historique des envois"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Feuille de route",
-        "p1": "Nous intégrerons profondément Cloudflare R2, offrant des quotas et des capacités de gestion plus conviviaux, avec collaboration d'équipe optionnelle, contrôle d'accès et analyses par lien. Nous prévoyons de lancer des fonctionnalités telles que la suppression en un clic, les styles de lien prédéfinis et les buckets de stockage au niveau organisationnel. Parallèlement, nous améliorons continuellement les sous-produits comme l'outil de recadrage circulaire et l'outil de coins arrondis pour rendre le traitement d'images plus pratique."
+        "p1": "Nous intégrerons profondément Cloudflare R2, offrant des quotas et des capacités de gestion plus conviviaux, ainsi qu'une collaboration d'équipe optionnelle, un contrôle d'accès et des analyses par lien. Nous prévoyons de lancer des fonctionnalités telles que la suppression en un clic, les styles de lien prédéfinis et les buckets de stockage au niveau organisationnel. Parallèlement, nous améliorons et perfectionnons continuellement les sous-produits : outil de recadrage circulaire, outil de coins arrondis et outil de suppression d'arrière-plan, rendant le traitement d'images plus pratique."
       },
       "faq": {
         "title": "FAQ",
@@ -346,6 +348,43 @@
       "votes": "4,992 votes"
     }
   },
+  "removeBackground": {
+    "title": "Photo à Supprimer le Fond",
+    "description": "Outil gratuit en ligne de suppression de fond par IA, supprimez facilement le fond de n'importe quelle photo - parfait pour les photos de produits, portraits et projets de design.",
+    "upload": "Télécharger une Photo",
+    "download": "Télécharger",
+    "processing": "Traitement en cours...",
+    "processingModelLoading": "Chargement du modèle IA, la première utilisation peut prendre 10-30 secondes, veuillez patienter...",
+    "processingImage": "Traitement de l'image, veuillez patienter...",
+    "errorUploadFirst": "Veuillez d'abord télécharger une photo.",
+    "errorSelectFile": "Veuillez sélectionner un fichier image.",
+    "errorProcessing": "Échec du traitement de l'image. Veuillez réessayer.",
+    "errorTimeout": "Délai d'attente dépassé, l'image peut être trop grande ou le réseau est lent, veuillez essayer une image plus petite ou réessayer plus tard.",
+    "errorMemory": "Mémoire insuffisante, veuillez essayer une image plus petite.",
+    "errorGeneric": "Échec du traitement : {error}. Veuillez réessayer ou essayer une autre image.",
+    "errorFileTooLarge": "Le fichier image est trop volumineux, veuillez sélectionner une image inférieure à 10 Mo.",
+    "errorModelLoad": "Échec du chargement de la bibliothèque du modèle IA, veuillez actualiser la page et réessayer.",
+    "errorPageHidden": "La page a été changée, veuillez télécharger l'image à nouveau pour la traiter.",
+    "page": {
+      "title": "Photo à Supprimer le Fond - Outil Gratuit en Ligne de Suppression de Fond par IA",
+      "description": "Photo à Supprimer le Fond est un outil gratuit en ligne alimenté par l'IA pour supprimer les fonds de n'importe quelle photo. Créez des images PNG transparentes instantanément avec notre technologie avancée de suppression de fond. Parfait pour les photos de produits, portraits, commerce électronique et projets de design. Aucune inscription requise - téléchargez, traitez et téléchargez en quelques secondes."
+    },
+    "seo": {
+      "title": "Outil de Suppression de Fond | Outil Gratuit en Ligne de Suppression de Fond par IA",
+      "description": "Outil gratuit en ligne avec IA pour supprimer le fond de n'importe quelle photo - parfait pour les photos de produits, portraits et projets de design.",
+      "keywords": "supprimer le fond, suppresseur de fond, fond transparent, suppression de fond par ia"
+    },
+    "selectRegion": {
+      "title": "Sélectionner la Région",
+      "subtitle": "Choisissez votre langue et région préférées"
+    },
+    "rateService": {
+      "title": "Évaluer Photo à Supprimer le Fond",
+      "thankYou": "Merci pour vos commentaires !",
+      "averageRating": "4.5",
+      "votes": "4,992 votes"
+    }
+  },
   "blog": {
     "seo": {
       "title": "Blog | Photo To URL",
@@ -359,7 +398,13 @@
         "1": "Meilleures pratiques pour la conversion d'image en URL",
         "2": "Comment utiliser des liens photo directs dans les blogs et documents",
         "3": "Performance et mise en cache pour les ressources statiques"
-      }
+      },
+      "readMore": "Lire la suite",
+      "min": "min",
+      "backToBlog": "Retour au blog",
+      "minRead": "min de lecture",
+      "author": "Auteur",
+      "viewMoreArticles": "Voir plus d'articles"
     }
   },
   "docs": {

@@ -9,6 +9,8 @@
       "circleCrop": "Cắt ảnh thành hình tròn",
       "circleCropNav": "Cắt hình tròn",
       "roundedCorners": "Bo góc tròn",
+      "removeBackground": "Ảnh Xóa Nền",
+      "removeBackgroundNav": "Xóa Nền",
       "comingSoon": "Sắp ra mắt.",
       "history": "Lịch sử tải lên"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Điểm nổi bật của lộ trình",
-        "p1": "Chúng tôi sẽ tích hợp sâu Cloudflare R2, cung cấp hạn ngạch và khả năng quản lý thân thiện hơn, với hợp tác nhóm tùy chọn, kiểm soát truy cập và phân tích theo liên kết. Chúng tôi dự định ra mắt các tính năng như xóa một cú nhấp, kiểu liên kết được đặt trước và nhóm lưu trữ cấp tổ chức. Đồng thời, chúng tôi đang liên tục cải thiện các sản phẩm phụ như công cụ cắt hình tròn và công cụ góc bo tròn để làm cho xử lý hình ảnh thuận tiện hơn."
+        "p1": "Chúng tôi sẽ tích hợp sâu Cloudflare R2, cung cấp hạn ngạch và khả năng quản lý thân thiện hơn, cùng với hợp tác nhóm tùy chọn, kiểm soát truy cập và phân tích theo liên kết. Chúng tôi dự định ra mắt các tính năng như xóa một cú nhấp, kiểu liên kết được đặt trước và nhóm lưu trữ cấp tổ chức. Đồng thời, chúng tôi đang liên tục cải thiện và hoàn thiện các sản phẩm phụ: công cụ cắt hình tròn, công cụ góc bo tròn và công cụ xóa nền, để làm cho xử lý hình ảnh thuận tiện hơn."
       },
       "faq": {
         "title": "Câu hỏi thường gặp",
@@ -346,6 +348,43 @@
       "votes": "4.992 phiếu"
     }
   },
+  "removeBackground": {
+    "title": "Ảnh Xóa Nền",
+    "description": "Công cụ xóa nền AI trực tuyến miễn phí, dễ dàng xóa nền khỏi bất kỳ bức ảnh nào - hoàn hảo cho ảnh sản phẩm, chân dung và dự án thiết kế.",
+    "upload": "Tải Ảnh Lên",
+    "download": "Tải Xuống",
+    "processing": "Đang xử lý...",
+    "processingModelLoading": "Đang tải mô hình AI, lần sử dụng đầu tiên có thể mất 10-30 giây, vui lòng đợi...",
+    "processingImage": "Đang xử lý hình ảnh, vui lòng đợi...",
+    "errorUploadFirst": "Vui lòng tải ảnh lên trước.",
+    "errorSelectFile": "Vui lòng chọn tệp hình ảnh.",
+    "errorProcessing": "Xử lý hình ảnh thất bại. Vui lòng thử lại.",
+    "errorTimeout": "Hết thời gian xử lý, hình ảnh có thể quá lớn hoặc mạng chậm, vui lòng thử hình ảnh nhỏ hơn hoặc thử lại sau.",
+    "errorMemory": "Bộ nhớ không đủ, vui lòng thử hình ảnh nhỏ hơn.",
+    "errorGeneric": "Xử lý thất bại: {error}. Vui lòng thử lại hoặc thử hình ảnh khác.",
+    "errorFileTooLarge": "Tệp hình ảnh quá lớn, vui lòng chọn hình ảnh nhỏ hơn 10MB.",
+    "errorModelLoad": "Không thể tải thư viện mô hình AI, vui lòng làm mới trang và thử lại.",
+    "errorPageHidden": "Trang đã được thay đổi, vui lòng tải lên hình ảnh lại để xử lý.",
+    "page": {
+      "title": "Ảnh Xóa Nền - Công Cụ Xóa Nền AI Trực Tuyến Miễn Phí",
+      "description": "Ảnh Xóa Nền là công cụ trực tuyến miễn phí được hỗ trợ bởi AI để xóa nền khỏi bất kỳ bức ảnh nào. Tạo hình ảnh PNG trong suốt ngay lập tức với công nghệ xóa nền tiên tiến của chúng tôi. Hoàn hảo cho ảnh sản phẩm, chân dung, thương mại điện tử và dự án thiết kế. Không cần đăng ký - tải lên, xử lý và tải xuống trong vài giây."
+    },
+    "seo": {
+      "title": "Công Cụ Xóa Nền | Công Cụ Xóa Nền AI Trực Tuyến Miễn Phí",
+      "description": "Công cụ AI trực tuyến miễn phí để xóa nền khỏi bất kỳ bức ảnh nào - hoàn hảo cho ảnh sản phẩm, chân dung và dự án thiết kế.",
+      "keywords": "xóa nền, công cụ xóa nền, nền trong suốt, xóa nền bằng ai"
+    },
+    "selectRegion": {
+      "title": "Chọn Khu Vực",
+      "subtitle": "Chọn ngôn ngữ và khu vực ưa thích"
+    },
+    "rateService": {
+      "title": "Đánh giá Ảnh Xóa Nền",
+      "thankYou": "Cảm ơn phản hồi của bạn!",
+      "averageRating": "4.5",
+      "votes": "4.992 phiếu"
+    }
+  },
   "blog": {
     "seo": {
       "title": "Blog | Photo To URL",
@@ -359,7 +398,13 @@
         "1": "Thực hành tốt nhất để chuyển đổi hình ảnh sang URL",
         "2": "Cách sử dụng liên kết ảnh trực tiếp trong blog và tài liệu",
         "3": "Hiệu suất và bộ nhớ đệm cho tài sản tĩnh"
-      }
+      },
+      "readMore": "Đọc thêm",
+      "min": "phút",
+      "backToBlog": "Quay lại blog",
+      "minRead": "phút đọc",
+      "author": "Tác giả",
+      "viewMoreArticles": "Xem thêm bài viết"
     }
   },
   "docs": {

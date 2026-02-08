@@ -9,6 +9,8 @@
       "circleCrop": "Okrúhly výrez",
       "circleCropNav": "Kruhový výrez",
       "roundedCorners": "Zaoblené rohy",
+      "removeBackground": "Foto Odstrániť Pozadie",
+      "removeBackgroundNav": "Odstrániť Pozadie",
       "comingSoon": "Čoskoro.",
       "history": "História nahrávania"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Významné body roadmapy",
-        "p1": "Hlboko integrujeme Cloudflare R2, poskytujeme používateľsky prívetivejšie kvóty a možnosti správy, s voliteľnou tímovou spoluprácou, riadením prístupu a analýzami na odkaz. Plánujeme spustiť funkcie ako mazanie jedným kliknutím, prednastavené štýly odkazov a úložiská na úrovni organizácie. Medzitým neustále zlepšujeme vedľajšie produkty, ako je nástroj na kruhové orezanie a nástroj na zaoblené rohy, aby bolo spracovanie obrázkov pohodlnejšie."
+        "p1": "Hlboko integrujeme Cloudflare R2, poskytujeme používateľsky prívetivejšie kvóty a možnosti správy, spolu s voliteľnou tímovou spoluprácou, riadením prístupu a analýzami na odkaz. Plánujeme spustiť funkcie ako mazanie jedným kliknutím, prednastavené štýly odkazov a úložiská na úrovni organizácie. Medzitým neustále zlepšujeme a zdokonaľujeme vedľajšie produkty: nástroj na kruhové orezanie, nástroj na zaoblené rohy a nástroj na odstránenie pozadia, aby bolo spracovanie obrázkov pohodlnejšie."
       },
       "faq": {
         "title": "Často kladené otázky",
@@ -330,6 +332,43 @@
     },
     "rateService": {
       "title": "Ohodnotiť Foto so zaoblenými rohmi",
+      "thankYou": "Ďakujeme za vašu spätnú väzbu!",
+      "averageRating": "4.5",
+      "votes": "4 992 hlasov"
+    }
+  },
+  "removeBackground": {
+    "title": "Foto Odstrániť Pozadie",
+    "description": "Bezplatný online nástroj na odstránenie pozadia s AI, ľahko odstráňte pozadie z akejkoľvek fotografie - perfektné pre fotografie produktov, portréty a dizajnové projekty.",
+    "upload": "Nahrať Fotografiu",
+    "download": "Stiahnuť",
+    "processing": "Spracováva sa...",
+    "processingModelLoading": "Načítava sa AI model, prvé použitie môže trvať 10-30 sekúnd, prosím počkajte...",
+    "processingImage": "Spracováva sa obrázok, prosím počkajte...",
+    "errorUploadFirst": "Prosím najprv nahrajte fotografiu.",
+    "errorSelectFile": "Prosím vyberte súbor obrázka.",
+    "errorProcessing": "Spracovanie obrázka zlyhalo. Prosím skúste znova.",
+    "errorTimeout": "Vypršanie časového limitu spracovania, obrázok môže byť príliš veľký alebo sieť je pomalá, prosím skúste menší obrázok alebo skúste znova neskôr.",
+    "errorMemory": "Nedostatok pamäte, prosím skúste menší obrázok.",
+    "errorGeneric": "Spracovanie zlyhalo: {error}. Prosím skúste znova alebo skúste iný obrázok.",
+    "errorFileTooLarge": "Súbor obrázka je príliš veľký, prosím vyberte obrázok menší ako 10MB.",
+    "errorModelLoad": "Nepodarilo sa načítať knižnicu modelu AI, prosím obnovte stránku a skúste to znova.",
+    "errorPageHidden": "Stránka bola zmenená, prosím nahrajte obrázok znova na spracovanie.",
+    "page": {
+      "title": "Foto Odstrániť Pozadie - Bezplatný Online Nástroj na Odstránenie Pozadia s AI",
+      "description": "Foto Odstrániť Pozadie je bezplatný online nástroj poháňaný AI na odstránenie pozadí z akejkoľvek fotografie. Vytvárajte priehľadné PNG obrázky okamžite s našou pokročilou technológiou odstránenia pozadia. Perfektné pre fotografie produktov, portréty, elektronický obchod a dizajnové projekty. Registrácia nie je vyžadovaná - nahrajte, spracujte a stiahnite za sekundy."
+    },
+    "seo": {
+      "title": "Nástroj na Odstránenie Pozadia | Bezplatný Online Nástroj na Odstránenie Pozadia s AI",
+      "description": "Bezplatný online nástroj s AI na odstránenie pozadia z akejkoľvek fotografie - perfektné pre fotografie produktov, portréty a dizajnové projekty.",
+      "keywords": "odstrániť pozadie, nástroj na odstránenie pozadia, priehľadné pozadie, odstránenie pozadia s ai"
+    },
+    "selectRegion": {
+      "title": "Vybrať Región",
+      "subtitle": "Vyberte svoj preferovaný jazyk a región"
+    },
+    "rateService": {
+      "title": "Ohodnotiť Foto Odstrániť Pozadie",
       "thankYou": "Ďakujeme za vašu spätnú väzbu!",
       "averageRating": "4.5",
       "votes": "4 992 hlasov"
@@ -540,7 +579,13 @@
         "1": "Najlepšie postupy pre konverziu obrázka na URL",
         "2": "Ako používať priame odkazy na fotografie v blogoch a dokumentoch",
         "3": "Výkon a cache pre statické zdroje"
-      }
+      },
+      "readMore": "Čítať viac",
+      "min": "min",
+      "backToBlog": "Späť na blog",
+      "minRead": "min čítania",
+      "author": "Autor",
+      "viewMoreArticles": "Zobraziť viac článkov"
     }
   },
   "docs": {

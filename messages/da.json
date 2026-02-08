@@ -9,6 +9,8 @@
       "circleCrop": "Rundt billede",
       "circleCropNav": "Cirkelklip",
       "roundedCorners": "Rundede hjørner",
+      "removeBackground": "Billede Fjern Baggrund",
+      "removeBackgroundNav": "Fjern Baggrund",
       "comingSoon": "Kommer snart.",
       "history": "Upload-historik"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Roadmap højdepunkter",
-        "p1": "Vi vil integrere Cloudflare R2 dybt, hvilket giver mere brugervenlige kvoter og administrationsmuligheder, med valgfri teamarbejde, adgangskontrol og per-link-analytics. Vi planlægger at lancere funktioner som et-klik-sletning, forudindstillede linkstile og organisationsniveau lagerbuckets. I mellemtiden forbedrer vi kontinuerligt underprodukter som cirkelbeskæringsværktøjet og afrundede hjørneværktøjet for at gøre billedbehandling mere bekvemt."
+        "p1": "Vi vil integrere Cloudflare R2 dybt, hvilket giver mere brugervenlige kvoter og administrationsmuligheder, sammen med valgfri teamarbejde, adgangskontrol og per-link-analytics. Vi planlægger at lancere funktioner som et-klik-sletning, forudindstillede linkstile og organisationsniveau lagerbuckets. I mellemtiden forbedrer og forfinner vi kontinuerligt underprodukter: cirkelbeskæringsværktøjet, afrundede hjørneværktøjet og baggrundsfjerningsværktøjet, for at gøre billedbehandling mere bekvemt."
       },
       "faq": {
         "title": "Ofte stillede spørgsmål",
@@ -346,6 +348,43 @@
       "votes": "4.992 stemmer"
     }
   },
+  "removeBackground": {
+    "title": "Billede Fjern Baggrund",
+    "description": "Gratis online AI-baggrundsfjerningsværktøj, fjern nemt baggrunden fra ethvert billede - perfekt til produktbilleder, portrætter og designprojekter.",
+    "upload": "Upload Billede",
+    "download": "Download",
+    "processing": "Behandler...",
+    "processingModelLoading": "Indlæser AI-model, første brug kan tage 10-30 sekunder, vent venligst...",
+    "processingImage": "Behandler billede, vent venligst...",
+    "errorUploadFirst": "Upload venligst et billede først.",
+    "errorSelectFile": "Vælg venligst en billedfil.",
+    "errorProcessing": "Billedbehandling mislykkedes. Prøv venligst igen.",
+    "errorTimeout": "Behandlingstimeout, billedet kan være for stort eller netværket er langsomt, prøv venligst et mindre billede eller prøv igen senere.",
+    "errorMemory": "Utilstrækkelig hukommelse, prøv venligst et mindre billede.",
+    "errorGeneric": "Behandling mislykkedes: {error}. Prøv venligst igen eller prøv et andet billede.",
+    "errorFileTooLarge": "Billedfilen er for stor, vælg venligst et billede mindre end 10MB.",
+    "errorModelLoad": "Kunne ikke indlæse AI-modelbiblioteket, opdater venligst siden og prøv igen.",
+    "errorPageHidden": "Siden er blevet ændret, upload venligst billedet igen for at behandle det.",
+    "page": {
+      "title": "Billede Fjern Baggrund - Gratis Online AI Baggrundsfjerner",
+      "description": "Billede Fjern Baggrund er et gratis online AI-drevet værktøj til at fjerne baggrunde fra ethvert billede. Opret gennemsigtige PNG-billeder med det samme med vores avancerede baggrundsfjernings teknologi. Perfekt til produktbilleder, portrætter, e-handel og designprojekter. Ingen tilmelding påkrævet - upload, behandl og download på sekunder."
+    },
+    "seo": {
+      "title": "Baggrundsfjerningsværktøj | Gratis Online AI Baggrundsfjerner",
+      "description": "Gratis online AI-værktøj til at fjerne baggrunden fra ethvert billede - perfekt til produktbilleder, portrætter og designprojekter.",
+      "keywords": "fjern baggrund, baggrundsfjerner, gennemsigtig baggrund, ai baggrundsfjernelse"
+    },
+    "selectRegion": {
+      "title": "Vælg Region",
+      "subtitle": "Vælg dit foretrukne sprog og region"
+    },
+    "rateService": {
+      "title": "Bedøm Billede Fjern Baggrund",
+      "thankYou": "Tak for din feedback!",
+      "averageRating": "4.5",
+      "votes": "4.992 stemmer"
+    }
+  },
   "blog": {
     "seo": {
       "title": "Blog | Photo To URL",
@@ -359,7 +398,13 @@
         "1": "Bedste praksis for konvertering af billede til URL",
         "2": "Sådan bruges direkte fotolinks i blogs og dokumenter",
         "3": "Performance og caching for statiske aktiver"
-      }
+      },
+      "readMore": "Læs mere",
+      "min": "min",
+      "backToBlog": "Tilbage til blog",
+      "minRead": "min læsning",
+      "author": "Forfatter",
+      "viewMoreArticles": "Se flere artikler"
     }
   },
   "docs": {

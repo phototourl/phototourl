@@ -9,6 +9,8 @@
       "circleCrop": "Kruhový výrez fotky",
       "circleCropNav": "Kruhový výrez",
       "roundedCorners": "Zaoblené rohy",
+      "removeBackground": "Foto Odstranit Pozadí",
+      "removeBackgroundNav": "Odstranit Pozadí",
       "comingSoon": "Již brzy.",
       "history": "Záznam nahrávání"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Významné body roadmapy",
-        "p1": "Hluboce integrujeme Cloudflare R2, poskytujeme uživatelsky přívětivější kvóty a možnosti správy, s volitelnou týmovou spoluprací, řízením přístupu a analýzami na odkaz. Plánujeme spustit funkce jako mazání jedním kliknutím, přednastavené styly odkazů a úložiště na úrovni organizace. Mezitím neustále zlepšujeme vedlejší produkty, jako je nástroj pro kruhové oříznutí a nástroj pro zaoblené rohy, aby bylo zpracování obrázků pohodlnější."
+        "p1": "Hluboce integrujeme Cloudflare R2, poskytujeme uživatelsky přívětivější kvóty a možnosti správy, spolu s volitelnou týmovou spoluprací, řízením přístupu a analýzami na odkaz. Plánujeme spustit funkce jako mazání jedním kliknutím, přednastavené styly odkazů a úložiště na úrovni organizace. Mezitím neustále zlepšujeme a zdokonalujeme vedlejší produkty: nástroj pro kruhové oříznutí, nástroj pro zaoblené rohy a nástroj pro odstranění pozadí, aby bylo zpracování obrázků pohodlnější."
       },
       "faq": {
         "title": "Často kladené otázky",
@@ -346,6 +348,43 @@
       "votes": "4 992 hlasů"
     }
   },
+  "removeBackground": {
+    "title": "Foto Odstranit Pozadí",
+    "description": "Bezplatný online nástroj pro odstranění pozadí s AI, snadno odstraňte pozadí z jakékoli fotografie - perfektní pro fotografie produktů, portréty a designové projekty.",
+    "upload": "Nahrát Fotografii",
+    "download": "Stáhnout",
+    "processing": "Zpracovávání...",
+    "processingModelLoading": "Načítání AI modelu, první použití může trvat 10-30 sekund, prosím počkejte...",
+    "processingImage": "Zpracovávání obrázku, prosím počkejte...",
+    "errorUploadFirst": "Prosím nejprve nahrajte fotografii.",
+    "errorSelectFile": "Prosím vyberte soubor obrázku.",
+    "errorProcessing": "Zpracování obrázku selhalo. Prosím zkuste znovu.",
+    "errorTimeout": "Vypršení časového limitu zpracování, obrázek může být příliš velký nebo síť je pomalá, prosím zkuste menší obrázek nebo zkuste znovu později.",
+    "errorMemory": "Nedostatek paměti, prosím zkuste menší obrázek.",
+    "errorGeneric": "Zpracování selhalo: {error}. Prosím zkuste znovu nebo zkuste jiný obrázek.",
+    "errorFileTooLarge": "Soubor obrázku je příliš velký, prosím vyberte obrázek menší než 10MB.",
+    "errorModelLoad": "Nepodařilo se načíst knihovnu modelu AI, prosím obnovte stránku a zkuste to znovu.",
+    "errorPageHidden": "Stránka byla změněna, prosím nahrajte obrázek znovu pro zpracování.",
+    "page": {
+      "title": "Foto Odstranit Pozadí - Bezplatný Online Nástroj pro Odstranění Pozadí s AI",
+      "description": "Foto Odstranit Pozadí je bezplatný online nástroj poháněný AI pro odstranění pozadí z jakékoli fotografie. Vytvářejte průhledné PNG obrázky okamžitě s naší pokročilou technologií odstranění pozadí. Perfektní pro fotografie produktů, portréty, elektronický obchod a designové projekty. Registrace není vyžadována - nahrajte, zpracujte a stáhněte během sekund."
+    },
+    "seo": {
+      "title": "Nástroj pro Odstranění Pozadí | Bezplatný Online Nástroj pro Odstranění Pozadí s AI",
+      "description": "Bezplatný online nástroj s AI pro odstranění pozadí z jakékoli fotografie - perfektní pro fotografie produktů, portréty a designové projekty.",
+      "keywords": "odstranit pozadí, nástroj pro odstranění pozadí, průhledné pozadí, odstranění pozadí s ai"
+    },
+    "selectRegion": {
+      "title": "Vybrat Region",
+      "subtitle": "Vyberte svůj preferovaný jazyk a region"
+    },
+    "rateService": {
+      "title": "Ohodnotit Foto Odstranit Pozadí",
+      "thankYou": "Děkujeme za vaši zpětnou vazbu!",
+      "averageRating": "4.5",
+      "votes": "4 992 hlasů"
+    }
+  },
   "blog": {
     "seo": {
       "title": "Blog | Photo To URL",
@@ -359,7 +398,13 @@
         "1": "Nejlepší postupy pro převod obrázků na URL",
         "2": "Jak používat přímé odkazy na fotky v blogech a dokumentech",
         "3": "Výkon a ukládání do mezipaměti pro statické prostředky"
-      }
+      },
+      "readMore": "Číst více",
+      "min": "min",
+      "backToBlog": "Zpět na blog",
+      "minRead": "min čtení",
+      "author": "Autor",
+      "viewMoreArticles": "Zobrazit více článků"
     }
   },
   "docs": {

@@ -9,6 +9,8 @@
       "circleCrop": "Foto ke Potongan Bulat",
       "circleCropNav": "Potongan bulat",
       "roundedCorners": "Sudut bulat",
+      "removeBackground": "Foto Buang Latar Belakang",
+      "removeBackgroundNav": "Buang Latar Belakang",
       "comingSoon": "Akan datang.",
       "history": "Rekod muat naik"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Sorotan Rancangan Masa Hadapan",
-        "p1": "Kami akan mengintegrasikan Cloudflare R2 secara mendalam, menyediakan kuota dan keupayaan pengurusan yang lebih mesra pengguna, dengan kerjasama pasukan pilihan, kawalan akses, dan analitik setiap pautan. Kami merancang untuk melancarkan ciri seperti padam satu klik, gaya pautan yang telah ditetapkan, dan baldi storan peringkat organisasi. Sementara itu, kami sentiasa meningkatkan produk sampingan seperti alat potong bulat dan alat sudut bulat untuk menjadikan pemprosesan imej lebih mudah."
+        "p1": "Kami akan mengintegrasikan Cloudflare R2 secara mendalam, menyediakan kuota dan keupayaan pengurusan yang lebih mesra pengguna, bersama dengan kerjasama pasukan pilihan, kawalan akses, dan analitik setiap pautan. Kami merancang untuk melancarkan ciri seperti padam satu klik, gaya pautan yang telah ditetapkan, dan baldi storan peringkat organisasi. Sementara itu, kami sentiasa meningkatkan dan menyempurnakan produk sampingan: alat potong bulat, alat sudut bulat dan alat penyingkiran latar belakang, untuk menjadikan pemprosesan imej lebih mudah."
       },
       "faq": {
         "title": "Soalan Lazim (FAQ)",
@@ -346,6 +348,43 @@
       "votes": "4,992 undi"
     }
   },
+  "removeBackground": {
+    "title": "Foto Buang Latar Belakang",
+    "description": "Alat penyingkiran latar belakang AI dalam talian percuma, buang latar belakang dengan mudah dari mana-mana foto - sempurna untuk foto produk, potret dan projek reka bentuk.",
+    "upload": "Muat Naik Foto",
+    "download": "Muat Turun",
+    "processing": "Memproses...",
+    "processingModelLoading": "Memuatkan model AI, penggunaan pertama mungkin mengambil masa 10-30 saat, sila tunggu...",
+    "processingImage": "Memproses imej, sila tunggu...",
+    "errorUploadFirst": "Sila muat naik foto terlebih dahulu.",
+    "errorSelectFile": "Sila pilih fail imej.",
+    "errorProcessing": "Gagal memproses imej. Sila cuba lagi.",
+    "errorTimeout": "Masa tamat pemprosesan, imej mungkin terlalu besar atau rangkaian perlahan, sila cuba imej yang lebih kecil atau cuba lagi kemudian.",
+    "errorMemory": "Memori tidak mencukupi, sila cuba imej yang lebih kecil.",
+    "errorGeneric": "Pemprosesan gagal: {error}. Sila cuba lagi atau cuba imej lain.",
+    "errorFileTooLarge": "Fail imej terlalu besar, sila pilih imej yang lebih kecil daripada 10MB.",
+    "errorModelLoad": "Gagal memuatkan pustaka model AI, sila segar semula halaman dan cuba lagi.",
+    "errorPageHidden": "Halaman telah ditukar, sila muat naik imej semula untuk diproses.",
+    "page": {
+      "title": "Foto Buang Latar Belakang - Alat Penyingkiran Latar Belakang AI Dalam Talian Percuma",
+      "description": "Foto Buang Latar Belakang ialah alat dalam talian percuma yang didorong oleh AI untuk membuang latar belakang dari mana-mana foto. Cipta imej PNG telus serta-merta dengan teknologi penyingkiran latar belakang canggih kami. Sempurna untuk foto produk, potret, e-dagang dan projek reka bentuk. Tiada pendaftaran diperlukan - muat naik, proses dan muat turun dalam beberapa saat."
+    },
+    "seo": {
+      "title": "Alat Penyingkiran Latar Belakang | Alat Penyingkiran Latar Belakang AI Dalam Talian Percuma",
+      "description": "Alat AI dalam talian percuma untuk membuang latar belakang dari mana-mana foto - sempurna untuk foto produk, potret dan projek reka bentuk.",
+      "keywords": "buang latar belakang, alat penyingkiran latar belakang, latar belakang telus, penyingkiran latar belakang ai"
+    },
+    "selectRegion": {
+      "title": "Pilih Rantau",
+      "subtitle": "Pilih bahasa dan rantau pilihan anda"
+    },
+    "rateService": {
+      "title": "Nilai Foto Buang Latar Belakang",
+      "thankYou": "Terima kasih atas maklum balas anda!",
+      "averageRating": "4.5",
+      "votes": "4,992 undi"
+    }
+  },
   "blog": {
     "seo": {
       "title": "Blog | Photo To URL",
@@ -359,7 +398,13 @@
         "1": "Amalan terbaik untuk penukaran imej ke URL",
         "2": "Cara menggunakan pautan foto langsung dalam blog dan dokumen",
         "3": "Prestasi dan cache untuk aset statik"
-      }
+      },
+      "readMore": "Baca lebih lanjut",
+      "min": "min",
+      "backToBlog": "Kembali ke blog",
+      "minRead": "min membaca",
+      "author": "Pengarang",
+      "viewMoreArticles": "Lihat artikel lain"
     }
   },
   "docs": {

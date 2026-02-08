@@ -9,6 +9,8 @@
       "circleCrop": "Fotoğrafı Daire Şeklinde Kırp",
       "circleCropNav": "Daire kırpma",
       "roundedCorners": "Yuvarlatılmış köşeler",
+      "removeBackground": "Fotoğraf Arka Plan Kaldır",
+      "removeBackgroundNav": "Arka Plan Kaldır",
       "comingSoon": "Yakında.",
       "history": "Yükleme kaydı"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Yol haritası öne çıkanları",
-        "p1": "Cloudflare R2'yi derinlemesine entegre edeceğiz, daha kullanıcı dostu kotalar ve yönetim yetenekleri sunacağız, isteğe bağlı takım işbirliği, erişim kontrolü ve bağlantı başına analitik ile. Tek tıkla silme, önceden ayarlanmış bağlantı stilleri ve kuruluş düzeyinde depolama kovaları gibi özellikleri piyasaya sürmeyi planlıyoruz. Bu arada, görüntü işlemeyi daha uygun hale getirmek için dairesel kırpma aracı ve yuvarlatılmış köşe aracı gibi alt ürünleri sürekli olarak iyileştiriyoruz."
+        "p1": "Cloudflare R2'yi derinlemesine entegre edeceğiz, daha kullanıcı dostu kotalar ve yönetim yetenekleri sunacağız, isteğe bağlı takım işbirliği, erişim kontrolü ve bağlantı başına analitik ile. Tek tıkla silme, önceden ayarlanmış bağlantı stilleri ve kuruluş düzeyinde depolama kovaları gibi özellikleri piyasaya sürmeyi planlıyoruz. Bu arada, görüntü işlemeyi daha uygun hale getirmek için alt ürünleri sürekli olarak iyileştiriyor ve geliştiriyoruz: dairesel kırpma aracı, yuvarlatılmış köşe aracı ve arka plan kaldırma aracı."
       },
       "faq": {
         "title": "SSS",
@@ -346,6 +348,43 @@
       "votes": "4.992 oy"
     }
   },
+  "removeBackground": {
+    "title": "Fotoğraf Arka Plan Kaldır",
+    "description": "Ücretsiz çevrimiçi AI arka plan kaldırma aracı, herhangi bir fotoğraftan kolayca arka planı kaldırın - ürün fotoğrafları, portreler ve tasarım projeleri için mükemmel.",
+    "upload": "Fotoğraf Yükle",
+    "download": "İndir",
+    "processing": "İşleniyor...",
+    "processingModelLoading": "AI modeli yükleniyor, ilk kullanım 10-30 saniye sürebilir, lütfen bekleyin...",
+    "processingImage": "Görüntü işleniyor, lütfen bekleyin...",
+    "errorUploadFirst": "Lütfen önce bir fotoğraf yükleyin.",
+    "errorSelectFile": "Lütfen bir görüntü dosyası seçin.",
+    "errorProcessing": "Görüntü işleme başarısız. Lütfen tekrar deneyin.",
+    "errorTimeout": "İşleme zaman aşımı, görüntü çok büyük olabilir veya ağ yavaş olabilir, lütfen daha küçük bir görüntü deneyin veya daha sonra tekrar deneyin.",
+    "errorMemory": "Yetersiz bellek, lütfen daha küçük bir görüntü deneyin.",
+    "errorGeneric": "İşleme başarısız: {error}. Lütfen tekrar deneyin veya başka bir görüntü deneyin.",
+    "errorFileTooLarge": "Görüntü dosyası çok büyük, lütfen 10MB'dan küçük bir görüntü seçin.",
+    "errorModelLoad": "AI model kütüphanesi yüklenemedi, lütfen sayfayı yenileyin ve tekrar deneyin.",
+    "errorPageHidden": "Sayfa değiştirildi, lütfen işlemek için görüntüyü tekrar yükleyin.",
+    "page": {
+      "title": "Fotoğraf Arka Plan Kaldır - Ücretsiz Çevrimiçi AI Arka Plan Kaldırıcı",
+      "description": "Fotoğraf Arka Plan Kaldır, herhangi bir fotoğraftan arka planları kaldırmak için ücretsiz bir çevrimiçi AI destekli araçtır. Gelişmiş arka plan kaldırma teknolojimizle anında şeffaf PNG görüntüleri oluşturun. Ürün fotoğrafları, portreler, e-ticaret ve tasarım projeleri için mükemmel. Kayıt gerekmez - yükleyin, işleyin ve saniyeler içinde indirin."
+    },
+    "seo": {
+      "title": "Arka Plan Kaldırma Aracı | Ücretsiz Çevrimiçi AI Arka Plan Kaldırıcı",
+      "description": "Herhangi bir fotoğraftan arka planı kaldırmak için ücretsiz çevrimiçi AI aracı - ürün fotoğrafları, portreler ve tasarım projeleri için mükemmel.",
+      "keywords": "arka plan kaldır, arka plan kaldırıcı, şeffaf arka plan, ai arka plan kaldırma"
+    },
+    "selectRegion": {
+      "title": "Bölge Seç",
+      "subtitle": "Tercih ettiğiniz dili ve bölgeyi seçin"
+    },
+    "rateService": {
+      "title": "Fotoğraf Arka Plan Kaldır'ı Değerlendir",
+      "thankYou": "Geri bildiriminiz için teşekkürler!",
+      "averageRating": "4.5",
+      "votes": "4.992 oy"
+    }
+  },
   "blog": {
     "seo": {
       "title": "Blog | Photo To URL",
@@ -359,7 +398,13 @@
         "1": "Görüntüyü URL'ye dönüştürme için en iyi uygulamalar",
         "2": "Blog ve belgelerde doğrudan foto bağlantılarını nasıl kullanılır",
         "3": "Statik varlıklar için performans ve önbelleğe alma"
-      }
+      },
+      "readMore": "Devamını oku",
+      "min": "dak",
+      "backToBlog": "Bloga dön",
+      "minRead": "dak okuma",
+      "author": "Yazar",
+      "viewMoreArticles": "Daha fazla makale görüntüle"
     }
   },
   "docs": {

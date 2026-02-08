@@ -9,6 +9,8 @@
       "circleCrop": "Foto zu Kreis zuschneiden",
       "circleCropNav": "Kreis zuschneiden",
       "roundedCorners": "Abgerundete Ecken",
+      "removeBackground": "Foto Hintergrund Entfernen",
+      "removeBackgroundNav": "Hintergrund Entfernen",
       "comingSoon": "Demnächst verfügbar.",
       "history": "Upload-Verlauf"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Roadmap‑Highlights",
-        "p1": "Wir werden Cloudflare R2 tief integrieren und benutzerfreundlichere Kontingente und Verwaltungsfunktionen bereitstellen, mit optionaler Teamzusammenarbeit, Zugriffskontrolle und Link‑Analysen. Wir planen Funktionen wie Ein‑Klick‑Löschen, voreingestellte Link‑Stile und Speicherbuckets auf Organisationsebene. Gleichzeitig verbessern wir kontinuierlich Unterprodukte wie das Kreis‑Zuschnitt‑Tool und das abgerundete Ecken‑Tool, um die Bildverarbeitung bequemer zu machen."
+        "p1": "Wir werden Cloudflare R2 tief integrieren und benutzerfreundlichere Kontingente und Verwaltungsfunktionen bereitstellen, zusammen mit optionaler Teamzusammenarbeit, Zugriffskontrolle und Link‑Analysen. Wir planen Funktionen wie Ein‑Klick‑Löschen, voreingestellte Link‑Stile und Speicherbuckets auf Organisationsebene. Gleichzeitig verbessern und verfeinern wir kontinuierlich Unterprodukte: Kreis‑Zuschnitt‑Tool, abgerundete Ecken‑Tool und Hintergrundentfernung‑Tool, um die Bildverarbeitung bequemer zu machen."
       },
       "faq": {
         "title": "FAQs",
@@ -346,6 +348,43 @@
       "votes": "4,992 Stimmen"
     }
   },
+  "removeBackground": {
+    "title": "Foto Hintergrund Entfernen",
+    "description": "Kostenloses Online-KI-Tool zur Hintergrundentfernung, entfernen Sie einfach den Hintergrund von jedem Foto - perfekt für Produktfotos, Porträts und Designprojekte.",
+    "upload": "Foto Hochladen",
+    "download": "Herunterladen",
+    "processing": "Verarbeitung...",
+    "processingModelLoading": "KI-Modell wird geladen, die erste Verwendung kann 10-30 Sekunden dauern, bitte warten...",
+    "processingImage": "Bild wird verarbeitet, bitte warten...",
+    "errorUploadFirst": "Bitte laden Sie zuerst ein Foto hoch.",
+    "errorSelectFile": "Bitte wählen Sie eine Bilddatei aus.",
+    "errorProcessing": "Bildverarbeitung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "errorTimeout": "Verarbeitungszeitüberschreitung, das Bild ist möglicherweise zu groß oder das Netzwerk ist langsam, bitte versuchen Sie ein kleineres Bild oder versuchen Sie es später erneut.",
+    "errorMemory": "Unzureichender Speicher, bitte versuchen Sie ein kleineres Bild.",
+    "errorGeneric": "Verarbeitung fehlgeschlagen: {error}. Bitte versuchen Sie es erneut oder versuchen Sie ein anderes Bild.",
+    "errorFileTooLarge": "Die Bilddatei ist zu groß, bitte wählen Sie ein Bild kleiner als 10 MB.",
+    "errorModelLoad": "Fehler beim Laden der KI-Modellbibliothek, bitte aktualisieren Sie die Seite und versuchen Sie es erneut.",
+    "errorPageHidden": "Die Seite wurde gewechselt, bitte laden Sie das Bild erneut hoch, um es zu verarbeiten.",
+    "page": {
+      "title": "Foto Hintergrund Entfernen - Kostenloses Online-KI-Tool zur Hintergrundentfernung",
+      "description": "Foto Hintergrund Entfernen ist ein kostenloses Online-KI-Tool zur Entfernung von Hintergründen aus jedem Foto. Erstellen Sie sofort transparente PNG-Bilder mit unserer fortschrittlichen Hintergrundentfernungstechnologie. Perfekt für Produktfotos, Porträts, E-Commerce und Designprojekte. Keine Anmeldung erforderlich - hochladen, verarbeiten und herunterladen in Sekunden."
+    },
+    "seo": {
+      "title": "Hintergrundentfernungstool | Kostenloses Online-KI-Tool zur Hintergrundentfernung",
+      "description": "Kostenloses Online-KI-Tool zur Entfernung des Hintergrunds von jedem Foto - perfekt für Produktfotos, Porträts und Designprojekte.",
+      "keywords": "hintergrund entfernen, hintergrundentferner, transparenter hintergrund, ki hintergrundentfernung"
+    },
+    "selectRegion": {
+      "title": "Region Auswählen",
+      "subtitle": "Wählen Sie Ihre bevorzugte Sprache und Region"
+    },
+    "rateService": {
+      "title": "Foto Hintergrund Entfernen Bewerten",
+      "thankYou": "Vielen Dank für Ihr Feedback!",
+      "averageRating": "4.5",
+      "votes": "4,992 Stimmen"
+    }
+  },
   "blog": {
     "seo": {
       "title": "Blog | Photo To URL",
@@ -359,7 +398,13 @@
         "1": "Best Practices für die Umwandlung von Bildern in URLs",
         "2": "Wie man direkte Foto-Links in Blogs und Dokumenten verwendet",
         "3": "Leistung und Caching für statische Assets"
-      }
+      },
+      "readMore": "Weiterlesen",
+      "min": "Min",
+      "backToBlog": "Zurück zum Blog",
+      "minRead": "Min Lesezeit",
+      "author": "Autor",
+      "viewMoreArticles": "Weitere Artikel anzeigen"
     }
   },
   "docs": {

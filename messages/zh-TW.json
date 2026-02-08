@@ -9,6 +9,8 @@
       "circleCrop": "照片圓形裁剪",
       "circleCropNav": "圓形裁剪",
       "roundedCorners": "圓角",
+      "removeBackground": "照片背景去除",
+      "removeBackgroundNav": "背景去除",
       "comingSoon": "敬請期待",
       "history": "上傳記錄"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "路線圖亮點",
-        "p1": "後續將深度整合 Cloudflare R2，提供更友善的額度與管理能力，支援可選的團隊協作、權限管理與每條連結的分析。計畫推出一鍵刪除、連結樣式預設、組織級儲存桶等功能。同時，我們也在持續完善照片圓形裁剪、照片圓角工具等子產品，讓圖片處理更便捷。"
+        "p1": "我們將深度整合Cloudflare R2，提供更人性化的配額和管理功能，同時提供可選的團隊協作、訪問控制和逐個鏈接的分析功能。我們計劃推出如一鍵刪除、預設鏈接樣式和組織級存儲桶等功能。同時，我們也在不斷改進完善子產品：照片圓形裁剪工具、照片圓角處理工具、照片背景去除工具等，讓圖像處理更加便捷。"
       },
       "faq": {
         "title": "常見問題",
@@ -346,6 +348,43 @@
       "votes": "4,992 票"
     }
   },
+  "removeBackground": {
+    "title": "照片背景去除",
+    "description": "免費在線AI背景去除工具，輕鬆去除任何照片的背景 - 適合產品照片、肖像和設計項目。",
+    "upload": "上傳圖片",
+    "download": "下載",
+    "processing": "處理中...",
+    "processingModelLoading": "正在加載AI模型，首次使用可能需要10-30秒，請稍候...",
+    "processingImage": "正在處理圖片，請稍候...",
+    "errorUploadFirst": "請先上傳一張圖片。",
+    "errorSelectFile": "請選擇圖片文件。",
+    "errorProcessing": "圖片處理失敗，請重試。",
+    "errorTimeout": "處理超時，圖片可能過大或網絡較慢，請嘗試較小的圖片或稍後重試。",
+    "errorMemory": "內存不足，請嘗試較小的圖片。",
+    "errorGeneric": "處理失敗：{error}。請重試或嘗試其他圖片。",
+    "errorFileTooLarge": "圖片文件過大，請選擇小於10MB的圖片。",
+    "errorModelLoad": "無法加載 AI 模型庫，請刷新頁面重試。",
+    "errorPageHidden": "頁面已切換，請重新上傳圖片處理。",
+    "page": {
+      "title": "照片背景去除 - 免費在線AI背景去除工具",
+      "description": "照片背景去除是一款免費在線AI驅動的工具，可去除任何照片的背景。使用我們先進的背景去除技術，即時創建透明PNG圖片。適合產品照片、肖像、電商和設計項目。無需註冊 - 上傳、處理、下載，幾秒鐘完成。"
+    },
+    "seo": {
+      "title": "背景去除工具 | 免費在線AI背景去除工具",
+      "description": "免費在線AI工具，去除任何照片的背景 - 適合產品照片、肖像和設計項目。",
+      "keywords": "去除背景,背景去除工具,透明背景,ai背景去除"
+    },
+    "selectRegion": {
+      "title": "選擇地區",
+      "subtitle": "選擇您偏好的語言與地區"
+    },
+    "rateService": {
+      "title": "為照片背景去除評分",
+      "thankYou": "感謝您的回饋！",
+      "averageRating": "4.5",
+      "votes": "4,992 票"
+    }
+  },
   "blog": {
     "seo": {
       "title": "部落格 | Photo To URL",
@@ -359,7 +398,13 @@
         "1": "圖片轉 URL 的最佳實踐",
         "2": "如何在部落格和文件中使用直接圖片連結",
         "3": "靜態資源的效能和快取"
-      }
+      },
+      "readMore": "閱讀更多",
+      "min": "分鐘",
+      "backToBlog": "返回部落格",
+      "minRead": "分鐘閱讀",
+      "author": "作者",
+      "viewMoreArticles": "查看更多文章"
     }
   },
   "docs": {

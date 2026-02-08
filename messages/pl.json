@@ -9,6 +9,8 @@
       "circleCrop": "Okrągłe przycinanie zdjęć",
       "circleCropNav": "Przycinanie do koła",
       "roundedCorners": "Zaokrąglone rogi",
+      "removeBackground": "Zdjęcie Usuń Tło",
+      "removeBackgroundNav": "Usuń Tło",
       "comingSoon": "Wkrótce dostępne.",
       "history": "Zapis przesyłania"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Najważniejsze punkty roadmapy",
-        "p1": "Głęboko zintegrujemy Cloudflare R2, zapewniając bardziej przyjazne limity i możliwości zarządzania, z opcjonalną współpracą zespołową, kontrolą dostępu i analityką per-link. Planujemy uruchomić funkcje takie jak usuwanie jednym kliknięciem, wstępnie ustawione style linków i zasobniki magazynowe na poziomie organizacji. W międzyczasie stale ulepszamy produkty poboczne, takie jak narzędzie do przycinania okrągłego i narzędzie do zaokrąglonych rogów, aby uczynić przetwarzanie obrazów wygodniejszym."
+        "p1": "Głęboko zintegrujemy Cloudflare R2, zapewniając bardziej przyjazne limity i możliwości zarządzania, wraz z opcjonalną współpracą zespołową, kontrolą dostępu i analityką per-link. Planujemy uruchomić funkcje takie jak usuwanie jednym kliknięciem, wstępnie ustawione style linków i zasobniki magazynowe na poziomie organizacji. W międzyczasie stale ulepszamy i doskonalimy produkty poboczne: narzędzie do przycinania okrągłego, narzędzie do zaokrąglonych rogów i narzędzie do usuwania tła, aby uczynić przetwarzanie obrazów wygodniejszym."
       },
       "faq": {
         "title": "Najczęściej zadawane pytania",
@@ -346,6 +348,43 @@
       "votes": "4 992 głosy"
     }
   },
+  "removeBackground": {
+    "title": "Zdjęcie Usuń Tło",
+    "description": "Darmowe narzędzie online do usuwania tła z AI, łatwo usuń tło z dowolnego zdjęcia - idealne do zdjęć produktów, portretów i projektów graficznych.",
+    "upload": "Prześlij Zdjęcie",
+    "download": "Pobierz",
+    "processing": "Przetwarzanie...",
+    "processingModelLoading": "Ładowanie modelu AI, pierwsze użycie może zająć 10-30 sekund, proszę czekać...",
+    "processingImage": "Przetwarzanie obrazu, proszę czekać...",
+    "errorUploadFirst": "Najpierw prześlij zdjęcie.",
+    "errorSelectFile": "Wybierz plik obrazu.",
+    "errorProcessing": "Nie udało się przetworzyć obrazu. Spróbuj ponownie.",
+    "errorTimeout": "Przekroczono limit czasu przetwarzania, obraz może być zbyt duży lub sieć jest wolna, spróbuj mniejszego obrazu lub spróbuj ponownie później.",
+    "errorMemory": "Niewystarczająca pamięć, spróbuj mniejszego obrazu.",
+    "errorGeneric": "Przetwarzanie nie powiodło się: {error}. Spróbuj ponownie lub spróbuj innego obrazu.",
+    "errorFileTooLarge": "Plik obrazu jest zbyt duży, wybierz obraz mniejszy niż 10MB.",
+    "errorModelLoad": "Nie udało się załadować biblioteki modelu AI, odśwież stronę i spróbuj ponownie.",
+    "errorPageHidden": "Strona została zmieniona, prześlij obraz ponownie, aby go przetworzyć.",
+    "page": {
+      "title": "Zdjęcie Usuń Tło - Darmowe Narzędzie Online do Usuwania Tła z AI",
+      "description": "Zdjęcie Usuń Tło to darmowe narzędzie online napędzane przez AI do usuwania tła z dowolnego zdjęcia. Twórz przezroczyste obrazy PNG natychmiast dzięki naszej zaawansowanej technologii usuwania tła. Idealne do zdjęć produktów, portretów, e-commerce i projektów graficznych. Rejestracja nie jest wymagana - prześlij, przetwórz i pobierz w kilka sekund."
+    },
+    "seo": {
+      "title": "Narzędzie do Usuwania Tła | Darmowe Narzędzie Online do Usuwania Tła z AI",
+      "description": "Darmowe narzędzie online z AI do usuwania tła z dowolnego zdjęcia - idealne do zdjęć produktów, portretów i projektów graficznych.",
+      "keywords": "usuń tło, usuwanie tła, przezroczyste tło, usuwanie tła z ai"
+    },
+    "selectRegion": {
+      "title": "Wybierz Region",
+      "subtitle": "Wybierz preferowany język i region"
+    },
+    "rateService": {
+      "title": "Oceń Zdjęcie Usuń Tło",
+      "thankYou": "Dziękujemy za opinię!",
+      "averageRating": "4.5",
+      "votes": "4 992 głosy"
+    }
+  },
   "blog": {
     "seo": {
       "title": "Blog | Photo To URL",
@@ -359,7 +398,13 @@
         "1": "Najlepsze praktyki konwersji obrazów na URL",
         "2": "Jak używać bezpośrednich linków do zdjęć w blogach i dokumentach",
         "3": "Wydajność i buforowanie dla zasobów statycznych"
-      }
+      },
+      "readMore": "Czytaj więcej",
+      "min": "min",
+      "backToBlog": "Powrót do bloga",
+      "minRead": "min czytania",
+      "author": "Autor",
+      "viewMoreArticles": "Zobacz więcej artykułów"
     }
   },
   "docs": {

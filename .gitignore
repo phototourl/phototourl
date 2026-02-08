@@ -27,6 +27,9 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# npm config (local developers can create their own)
+.npmrc
+
 # vercel
 .vercel
 

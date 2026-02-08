@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { LOCALES } from "@/i18n/routing";
+import { getAllBlogPosts } from "@/lib/blog-posts";
 
 const FALLBACK_BASE_URL = "https://phototourl.com";
 const baseUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? FALLBACK_BASE_URL).replace(
@@ -12,6 +13,7 @@ const staticPaths = [
   "",
   "circle-crop",
   "rounded-corners",
+  "remove-background",
   "blog",
   "docs",
   "status",
@@ -29,9 +31,10 @@ const SITEMAP_LOCALES = LOCALES;
 
 export async function GET() {
   const now = new Date().toISOString();
+  const blogPosts = getAllBlogPosts();
 
   // 为每个语言 + 路由生成一个独立的 <url>，恢复之前 80+ 条 URL 的结构
-  const urls = SITEMAP_LOCALES.flatMap((locale) => {
+  const staticUrls = SITEMAP_LOCALES.flatMap((locale) => {
     const localePrefix = locale === "en" ? "" : `/${locale}`;
 
     return staticPaths.map((path) => {
@@ -42,12 +45,24 @@ export async function GET() {
 
       return `<url><loc>${url}</loc><lastmod>${now}</lastmod><changefreq>${freq}</changefreq><priority>${priority}</priority></url>`;
     });
-  }).join("\n  ");
+  });
+
+  // 为每个博客文章生成 URL（所有语言版本）
+  const blogUrls = SITEMAP_LOCALES.flatMap((locale) => {
+    const localePrefix = locale === "en" ? "" : `/${locale}`;
+
+    return blogPosts.map((post) => {
+      const url = `${baseUrl}${localePrefix}/blog/${post.slug}`;
+      return `<url><loc>${url}</loc><lastmod>${post.date}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>`;
+    });
+  });
+
+  const allUrls = [...staticUrls, ...blogUrls].join("\n  ");
 
   const xml = [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-    `  ${urls}`,
+    `  ${allUrls}`,
     "</urlset>",
   ].join("\n");
 

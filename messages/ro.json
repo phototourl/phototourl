@@ -9,6 +9,8 @@
       "circleCrop": "Foto rotundă",
       "circleCropNav": "Decupare circulară",
       "roundedCorners": "Colțuri rotunjite",
+      "removeBackground": "Foto Elimină Fundal",
+      "removeBackgroundNav": "Elimină Fundal",
       "comingSoon": "În curând.",
       "history": "Istoric încărcări"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Puncte importante ale roadmap-ului",
-        "p1": "Vom integra profund Cloudflare R2, oferind cote și capacități de gestionare mai prietenoase cu utilizatorul, cu colaborare în echipă opțională, control al accesului și analiză per link. Planificăm să lansăm funcții precum ștergerea cu un clic, stiluri de link predefinite și găleți de stocare la nivel organizațional. Între timp, îmbunătățim continuu subproduse precum instrumentul de decupare circulară și instrumentul de colțuri rotunjite pentru a face procesarea imaginilor mai convenabilă."
+        "p1": "Vom integra profund Cloudflare R2, oferind cote și capacități de gestionare mai prietenoase cu utilizatorul, împreună cu colaborare în echipă opțională, control al accesului și analiză per link. Planificăm să lansăm funcții precum ștergerea cu un clic, stiluri de link predefinite și găleți de stocare la nivel organizațional. Între timp, îmbunătățim și rafinăm continuu subproduse: instrumentul de decupare circulară, instrumentul de colțuri rotunjite și instrumentul de eliminare a fundalului, pentru a face procesarea imaginilor mai convenabilă."
       },
       "faq": {
         "title": "Întrebări frecvente",
@@ -330,6 +332,43 @@
     },
     "rateService": {
       "title": "Evaluați Foto cu colțuri rotunjite",
+      "thankYou": "Mulțumim pentru feedback!",
+      "averageRating": "4.5",
+      "votes": "4.992 voturi"
+    }
+  },
+  "removeBackground": {
+    "title": "Foto Elimină Fundal",
+    "description": "Instrument gratuit online de eliminare a fundalului cu AI, eliminați cu ușurință fundalul din orice fotografie - perfect pentru fotografii de produse, portrete și proiecte de design.",
+    "upload": "Încarcă Fotografie",
+    "download": "Descarcă",
+    "processing": "Se procesează...",
+    "processingModelLoading": "Se încarcă modelul AI, prima utilizare poate dura 10-30 de secunde, vă rugăm să așteptați...",
+    "processingImage": "Se procesează imaginea, vă rugăm să așteptați...",
+    "errorUploadFirst": "Vă rugăm să încărcați mai întâi o fotografie.",
+    "errorSelectFile": "Vă rugăm să selectați un fișier imagine.",
+    "errorProcessing": "Procesarea imaginii a eșuat. Vă rugăm să încercați din nou.",
+    "errorTimeout": "Timp de procesare depășit, imaginea poate fi prea mare sau rețeaua este lentă, vă rugăm să încercați o imagine mai mică sau să încercați din nou mai târziu.",
+    "errorMemory": "Memorie insuficientă, vă rugăm să încercați o imagine mai mică.",
+    "errorGeneric": "Procesarea a eșuat: {error}. Vă rugăm să încercați din nou sau să încercați o altă imagine.",
+    "errorFileTooLarge": "Fișierul imagine este prea mare, vă rugăm să selectați o imagine mai mică de 10MB.",
+    "errorModelLoad": "Nu s-a putut încărca biblioteca modelului AI, vă rugăm să actualizați pagina și să încercați din nou.",
+    "errorPageHidden": "Pagina a fost schimbată, vă rugăm să încărcați din nou imaginea pentru procesare.",
+    "page": {
+      "title": "Foto Elimină Fundal - Instrument Gratuit Online de Eliminare a Fundalului cu AI",
+      "description": "Foto Elimină Fundal este un instrument gratuit online alimentat de AI pentru eliminarea fundalurilor din orice fotografie. Creați imagini PNG transparente instantaneu cu tehnologia noastră avansată de eliminare a fundalului. Perfect pentru fotografii de produse, portrete, comerț electronic și proiecte de design. Nu este necesară înregistrarea - încărcați, procesați și descărcați în secunde."
+    },
+    "seo": {
+      "title": "Instrument de Eliminare a Fundalului | Instrument Gratuit Online de Eliminare a Fundalului cu AI",
+      "description": "Instrument gratuit online cu AI pentru eliminarea fundalului din orice fotografie - perfect pentru fotografii de produse, portrete și proiecte de design.",
+      "keywords": "elimină fundal, instrument eliminare fundal, fundal transparent, eliminare fundal cu ai"
+    },
+    "selectRegion": {
+      "title": "Selectează Regiunea",
+      "subtitle": "Alegeți limba și regiunea preferată"
+    },
+    "rateService": {
+      "title": "Evaluați Foto Elimină Fundal",
       "thankYou": "Mulțumim pentru feedback!",
       "averageRating": "4.5",
       "votes": "4.992 voturi"
@@ -540,7 +579,13 @@
         "1": "Cele mai bune practici pentru conversia imaginii în URL",
         "2": "Cum să folosești linkuri directe de fotografii în bloguri și documente",
         "3": "Performanță și cache pentru resurse statice"
-      }
+      },
+      "readMore": "Citește mai mult",
+      "min": "min",
+      "backToBlog": "Înapoi la blog",
+      "minRead": "min citire",
+      "author": "Autor",
+      "viewMoreArticles": "Vezi mai multe articole"
     }
   },
   "docs": {

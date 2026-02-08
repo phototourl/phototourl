@@ -9,6 +9,8 @@
       "circleCrop": "Ritaglio Circolare Foto",
       "circleCropNav": "Ritaglio circolare",
       "roundedCorners": "Angoli arrotondati",
+      "removeBackground": "Foto Rimuovi Sfondo",
+      "removeBackgroundNav": "Rimuovi Sfondo",
       "comingSoon": "In arrivo.",
       "history": "Cronologia caricamenti"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Punti salienti della roadmap",
-        "p1": "Integreremo profondamente Cloudflare R2, fornendo quote e capacità di gestione più user-friendly, con collaborazione team opzionale, controllo degli accessi e analisi per link. Pianifichiamo di lanciare funzionalità come eliminazione con un clic, stili di link preimpostati e bucket di archiviazione a livello organizzativo. Nel frattempo, stiamo migliorando continuamente sottoprodotti come lo strumento di ritaglio circolare e lo strumento di angoli arrotondati per rendere l'elaborazione delle immagini più conveniente."
+        "p1": "Integreremo profondamente Cloudflare R2, fornendo quote e capacità di gestione più user-friendly, insieme a collaborazione team opzionale, controllo degli accessi e analisi per link. Pianifichiamo di lanciare funzionalità come eliminazione con un clic, stili di link preimpostati e bucket di archiviazione a livello organizzativo. Nel frattempo, stiamo migliorando e perfezionando continuamente sottoprodotti: strumento di ritaglio circolare, strumento di angoli arrotondati e strumento di rimozione dello sfondo, rendendo l'elaborazione delle immagini più conveniente."
       },
       "faq": {
         "title": "FAQ",
@@ -346,6 +348,43 @@
       "votes": "4.992 voti"
     }
   },
+  "removeBackground": {
+    "title": "Foto Rimuovi Sfondo",
+    "description": "Strumento gratuito online di rimozione dello sfondo con IA, rimuovi facilmente lo sfondo da qualsiasi foto - perfetto per foto di prodotti, ritratti e progetti di design.",
+    "upload": "Carica Foto",
+    "download": "Scarica",
+    "processing": "Elaborazione...",
+    "processingModelLoading": "Caricamento modello IA, il primo utilizzo potrebbe richiedere 10-30 secondi, attendere prego...",
+    "processingImage": "Elaborazione immagine, attendere prego...",
+    "errorUploadFirst": "Carica prima una foto.",
+    "errorSelectFile": "Seleziona un file immagine.",
+    "errorProcessing": "Elaborazione immagine fallita. Riprova.",
+    "errorTimeout": "Timeout di elaborazione, l'immagine potrebbe essere troppo grande o la rete è lenta, prova con un'immagine più piccola o riprova più tardi.",
+    "errorMemory": "Memoria insufficiente, prova con un'immagine più piccola.",
+    "errorGeneric": "Elaborazione fallita: {error}. Riprova o prova con un'altra immagine.",
+    "errorFileTooLarge": "Il file immagine è troppo grande, seleziona un'immagine inferiore a 10MB.",
+    "errorModelLoad": "Impossibile caricare la libreria del modello IA, aggiorna la pagina e riprova.",
+    "errorPageHidden": "La pagina è stata cambiata, carica nuovamente l'immagine per elaborarla.",
+    "page": {
+      "title": "Foto Rimuovi Sfondo - Strumento Gratuito Online di Rimozione dello Sfondo con IA",
+      "description": "Foto Rimuovi Sfondo è uno strumento gratuito online alimentato da IA per rimuovere gli sfondi da qualsiasi foto. Crea immagini PNG trasparenti istantaneamente con la nostra tecnologia avanzata di rimozione dello sfondo. Perfetto per foto di prodotti, ritratti, e-commerce e progetti di design. Nessuna registrazione richiesta - carica, elabora e scarica in pochi secondi."
+    },
+    "seo": {
+      "title": "Strumento di Rimozione dello Sfondo | Strumento Gratuito Online di Rimozione dello Sfondo con IA",
+      "description": "Strumento gratuito online con IA per rimuovere lo sfondo da qualsiasi foto - perfetto per foto di prodotti, ritratti e progetti di design.",
+      "keywords": "rimuovi sfondo, rimozione sfondo, sfondo trasparente, rimozione sfondo con ia"
+    },
+    "selectRegion": {
+      "title": "Seleziona Regione",
+      "subtitle": "Scegli la tua lingua e regione preferite"
+    },
+    "rateService": {
+      "title": "Valuta Foto Rimuovi Sfondo",
+      "thankYou": "Grazie per il tuo feedback!",
+      "averageRating": "4.5",
+      "votes": "4.992 voti"
+    }
+  },
   "blog": {
     "seo": {
       "title": "Blog | Photo To URL",
@@ -359,7 +398,13 @@
         "1": "Migliori pratiche per la conversione di immagini in URL",
         "2": "Come utilizzare link foto diretti in blog e documenti",
         "3": "Prestazioni e caching per risorse statiche"
-      }
+      },
+      "readMore": "Leggi di più",
+      "min": "min",
+      "backToBlog": "Torna al blog",
+      "minRead": "min di lettura",
+      "author": "Autore",
+      "viewMoreArticles": "Visualizza altri articoli"
     }
   },
   "docs": {

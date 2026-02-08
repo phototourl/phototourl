@@ -9,6 +9,8 @@
       "circleCrop": "Rundt bilde",
       "circleCropNav": "Sirkelklipp",
       "roundedCorners": "Avrundede hjørner",
+      "removeBackground": "Bilde Fjern Bakgrunn",
+      "removeBackgroundNav": "Fjern Bakgrunn",
       "comingSoon": "Kommer snart.",
       "history": "Lastoppføringer"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Roadmap-høydepunkter",
-        "p1": "Vi vil integrere Cloudflare R2 dypt, noe som gir mer brukervenlige kvoter og administrasjonsmuligheter, med valgfri teamarbeid, tilgangskontroll og per-lenke-analytics. Vi planlegger å lansere funksjoner som ett-klikk-sletting, forhåndsinnstilte lenkestiler og organisasjonsnivå lagringsbuckets. I mellomtiden forbedrer vi kontinuerlig underprodukter som sirkelbeskjæringsverktøyet og avrundede hjørneverktøyet for å gjøre bildebehandling mer praktisk."
+        "p1": "Vi vil integrere Cloudflare R2 dypt, noe som gir mer brukervenlige kvoter og administrasjonsmuligheter, sammen med valgfri teamarbeid, tilgangskontroll og per-lenke-analytics. Vi planlegger å lansere funksjoner som ett-klikk-sletting, forhåndsinnstilte lenkestiler og organisasjonsnivå lagringsbuckets. I mellomtiden forbedrer og forfinner vi kontinuerlig underprodukter: sirkelbeskjæringsverktøyet, avrundede hjørneverktøyet og bakgrunnsfjerningsverktøyet, for å gjøre bildebehandling mer praktisk."
       },
       "faq": {
         "title": "Ofte stilte spørsmål",
@@ -330,6 +332,43 @@
     },
     "rateService": {
       "title": "Vurder Bilde med avrundede hjørner",
+      "thankYou": "Takk for tilbakemeldingen!",
+      "averageRating": "4.5",
+      "votes": "4.992 stemmer"
+    }
+  },
+  "removeBackground": {
+    "title": "Bilde Fjern Bakgrunn",
+    "description": "Gratis online AI-bakgrunnsfjerningsverktøy, fjern enkelt bakgrunnen fra ethvert bilde - perfekt for produktbilder, portretter og designprosjekter.",
+    "upload": "Last Opp Bilde",
+    "download": "Last Ned",
+    "processing": "Behandler...",
+    "processingModelLoading": "Laster AI-modell, første bruk kan ta 10-30 sekunder, vennligst vent...",
+    "processingImage": "Behandler bilde, vennligst vent...",
+    "errorUploadFirst": "Vennligst last opp et bilde først.",
+    "errorSelectFile": "Vennligst velg en bildefil.",
+    "errorProcessing": "Bildebehandling mislyktes. Vennligst prøv igjen.",
+    "errorTimeout": "Behandlingstimeout, bildet kan være for stort eller nettverket er tregt, vennligst prøv et mindre bilde eller prøv igjen senere.",
+    "errorMemory": "Utilstrekkelig minne, vennligst prøv et mindre bilde.",
+    "errorGeneric": "Behandling mislyktes: {error}. Vennligst prøv igjen eller prøv et annet bilde.",
+    "errorFileTooLarge": "Bildefilen er for stor, vennligst velg et bilde mindre enn 10MB.",
+    "errorModelLoad": "Kunne ikke laste AI-modellbiblioteket, vennligst oppdater siden og prøv igjen.",
+    "errorPageHidden": "Siden har blitt endret, vennligst last opp bildet på nytt for å behandle det.",
+    "page": {
+      "title": "Bilde Fjern Bakgrunn - Gratis Online AI Bakgrunnsfjerner",
+      "description": "Bilde Fjern Bakgrunn er et gratis online AI-drevet verktøy for å fjerne bakgrunner fra ethvert bilde. Opprett gjennomsiktige PNG-bilder med det samme med vår avanserte bakgrunnsfjernings teknologi. Perfekt for produktbilder, portretter, e-handel og designprosjekter. Ingen registrering påkrevd - last opp, behandle og last ned på sekunder."
+    },
+    "seo": {
+      "title": "Bakgrunnsfjerningsverktøy | Gratis Online AI Bakgrunnsfjerner",
+      "description": "Gratis online AI-verktøy for å fjerne bakgrunnen fra ethvert bilde - perfekt for produktbilder, portretter og designprosjekter.",
+      "keywords": "fjern bakgrunn, bakgrunnsfjerner, gjennomsiktig bakgrunn, ai bakgrunnsfjernelse"
+    },
+    "selectRegion": {
+      "title": "Velg Region",
+      "subtitle": "Velg ditt foretrukne språk og region"
+    },
+    "rateService": {
+      "title": "Vurder Bilde Fjern Bakgrunn",
       "thankYou": "Takk for tilbakemeldingen!",
       "averageRating": "4.5",
       "votes": "4.992 stemmer"
@@ -540,7 +579,13 @@
         "1": "Beste praksis for bilde til URL-konvertering",
         "2": "Hvordan bruke direkte bildelenker i blogger og dokumenter",
         "3": "Ytelse og hurtiglager for statiske ressurser"
-      }
+      },
+      "readMore": "Les mer",
+      "min": "min",
+      "backToBlog": "Tilbake til bloggen",
+      "minRead": "min lesing",
+      "author": "Forfatter",
+      "viewMoreArticles": "Se flere artikler"
     }
   },
   "docs": {

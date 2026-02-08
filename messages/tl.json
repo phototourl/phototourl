@@ -9,6 +9,8 @@
       "circleCrop": "Gupit na Bilog",
       "circleCropNav": "Bilog na gupit",
       "roundedCorners": "Bilugang sulok",
+      "removeBackground": "Larawan Alisin ang Background",
+      "removeBackgroundNav": "Alisin ang Background",
       "comingSoon": "Malapit nang dumating.",
       "history": "Kasaysayan ng mga upload"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Mga highlight ng roadmap",
-        "p1": "Malalim naming isasama ang Cloudflare R2, na nagbibigay ng mas user-friendly na quotas at management capabilities, na may optional team collaboration, access control, at per-link analytics. Nagpaplano kami na maglunsad ng mga feature tulad ng one-click delete, preset link styles, at organization-level storage buckets. Samantala, patuloy naming pinapabuti ang mga sub-products tulad ng circle crop tool at rounded corners tool upang gawing mas maginhawa ang image processing."
+        "p1": "Malalim naming isasama ang Cloudflare R2, na nagbibigay ng mas user-friendly na quotas at management capabilities, kasama ang optional team collaboration, access control, at per-link analytics. Nagpaplano kami na maglunsad ng mga feature tulad ng one-click delete, preset link styles, at organization-level storage buckets. Samantala, patuloy naming pinapabuti at pinapino ang mga sub-products: circle crop tool, rounded corners tool, at background removal tool, upang gawing mas maginhawa ang image processing."
       },
       "faq": {
         "title": "Mga FAQ",
@@ -330,6 +332,43 @@
     },
     "rateService": {
       "title": "I-rate ang Larawan na may bilugang sulok",
+      "thankYou": "Salamat sa iyong feedback!",
+      "averageRating": "4.5",
+      "votes": "4,992 boto"
+    }
+  },
+  "removeBackground": {
+    "title": "Larawan Alisin ang Background",
+    "description": "Libreng online na AI background removal tool, madaling alisin ang background mula sa anumang larawan - perpekto para sa product photos, portraits, at design projects.",
+    "upload": "Mag-upload ng Larawan",
+    "download": "I-download",
+    "processing": "Pinoproseso...",
+    "processingModelLoading": "Naglo-load ng AI model, ang unang paggamit ay maaaring tumagal ng 10-30 segundo, mangyaring maghintay...",
+    "processingImage": "Pinoproseso ang larawan, mangyaring maghintay...",
+    "errorUploadFirst": "Mangyaring mag-upload ng larawan muna.",
+    "errorSelectFile": "Mangyaring pumili ng image file.",
+    "errorProcessing": "Nabigo ang pagproseso ng larawan. Mangyaring subukan muli.",
+    "errorTimeout": "Processing timeout, ang larawan ay maaaring masyadong malaki o mabagal ang network, mangyaring subukan ang mas maliit na larawan o subukan muli mamaya.",
+    "errorMemory": "Hindi sapat ang memory, mangyaring subukan ang mas maliit na larawan.",
+    "errorGeneric": "Nabigo ang pagproseso: {error}. Mangyaring subukan muli o subukan ang ibang larawan.",
+    "errorFileTooLarge": "Ang image file ay masyadong malaki, mangyaring pumili ng larawan na mas maliit sa 10MB.",
+    "errorModelLoad": "Nabigo ang pag-load ng AI model library, mangyaring i-refresh ang page at subukan muli.",
+    "errorPageHidden": "Ang page ay na-switch, mangyaring mag-upload ng larawan muli para ma-process.",
+    "page": {
+      "title": "Larawan Alisin ang Background - Libreng Online AI Background Remover",
+      "description": "Larawan Alisin ang Background ay isang libreng online AI-powered tool para sa pag-alis ng background mula sa anumang larawan. Lumikha ng transparent PNG images agad-agad gamit ang aming advanced background removal technology. Perpekto para sa product photos, portraits, e-commerce, at design projects. Hindi kailangan ng signup - mag-upload, iproseso, at i-download sa loob ng ilang segundo."
+    },
+    "seo": {
+      "title": "Background Removal Tool | Libreng Online AI Background Remover",
+      "description": "Libreng online AI tool para sa pag-alis ng background mula sa anumang larawan - perpekto para sa product photos, portraits, at design projects.",
+      "keywords": "alisin ang background, background remover, transparent background, ai background removal"
+    },
+    "selectRegion": {
+      "title": "Pumili ng Rehiyon",
+      "subtitle": "Piliin ang iyong preferred na wika at rehiyon"
+    },
+    "rateService": {
+      "title": "I-rate ang Larawan Alisin ang Background",
       "thankYou": "Salamat sa iyong feedback!",
       "averageRating": "4.5",
       "votes": "4,992 boto"
@@ -540,7 +579,13 @@
         "1": "Mga best practices para sa image to URL conversion",
         "2": "Paano gamitin ang direct photo links sa blogs at docs",
         "3": "Performance at caching para sa static assets"
-      }
+      },
+      "readMore": "Magbasa pa",
+      "min": "min",
+      "backToBlog": "Bumalik sa blog",
+      "minRead": "min na pagbabasa",
+      "author": "May-akda",
+      "viewMoreArticles": "Tingnan ang iba pang artikulo"
     }
   },
   "docs": {

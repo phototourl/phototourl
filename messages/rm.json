@@ -9,6 +9,8 @@
       "circleCrop": "Fotografia per tagl circular",
       "circleCropNav": "Tagl circular",
       "roundedCorners": "Cantuns arrondads",
+      "removeBackground": "Foto Rimover il Fund",
+      "removeBackgroundNav": "Rimover il Fund",
       "comingSoon": "Prest disponibel.",
       "history": "Cronologia da chargiar"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Puncts culminants da la via",
-        "p1": "Nus integrain Cloudflare R2 profundamain, porschend quotas e capacitads da gestiun pli user-friendly, cun collavuraziun da team facultativa, controlla d'access e analytics per mintga ligiaziun. Nus planisain da lantschar funcziuns sco sminuir cun in clic, stils da ligiaziun presets e buckets da memorisaziun a nivel d'organisaziun. En il fratemp, nus meglierain cuntinuadamain products secundaris sco l'utensil da ritaglio circular e l'utensil da chombers arrondids per render l'elavuraziun da maletgs pli cunvegnenta."
+        "p1": "Nus integrain Cloudflare R2 profundamain, porschend quotas e capacitads da gestiun pli user-friendly, ensemen cun collavuraziun da team facultativa, controlla d'access e analytics per mintga ligiaziun. Nus planisain da lantschar funcziuns sco sminuir cun in clic, stils da ligiaziun presets e buckets da memorisaziun a nivel d'organisaziun. En il fratemp, nus meglierain e raffinain cuntinuadamain products secundaris: utensil da ritaglio circular, utensil da chombers arrondids ed utensil da rimover il fund, per render l'elavuraziun da maletgs pli cunvegnenta."
       },
       "faq": {
         "title": "Dumondas frequentas",
@@ -346,6 +348,43 @@
       "votes": "4.992 vuschs"
     }
   },
+  "removeBackground": {
+    "title": "Foto Rimover il Fund",
+    "description": "Utensil gratuit online per rimover il fund cun AI, rimova facilmain il fund da mintga foto - perfekt per fotos da products, portrets e projects da design.",
+    "upload": "Chargiar Foto",
+    "download": "Telechargiar",
+    "processing": "Elavuraziun...",
+    "processingModelLoading": "Chargiar il model AI, l'emprima utilisaziun po durar 10-30 secundas, per plaschair spetgar...",
+    "processingImage": "Elavurar la maletg, per plaschair spetgar...",
+    "errorUploadFirst": "Per plaschair chargiar ina foto per l'emprim.",
+    "errorSelectFile": "Per plaschair tscherner in datoteca da maletg.",
+    "errorProcessing": "L'elavuraziun da la maletg n'è betg reussida. Per plaschair emprovar danovamain.",
+    "errorTimeout": "Temps d'elavuraziun scadì, la maletg po esser memia gronda u la rait è lenta, per plaschair emprovar ina pli pitschna maletg u emprovar danovamain pli tard.",
+    "errorMemory": "Memoria nun basta, per plaschair emprovar ina pli pitschna maletg.",
+    "errorGeneric": "L'elavuraziun n'è betg reussida: {error}. Per plaschair emprovar danovamain u emprovar in'autra maletg.",
+    "errorFileTooLarge": "La datoteca da maletg è memia gronda, per plaschair tscherner ina maletg pli pitschna che 10MB.",
+    "errorModelLoad": "Betg reussì da chargiar la biblioteca dal model AI, per plaschair actualisar la pagina ed emprovar danovamain.",
+    "errorPageHidden": "La pagina è vegnida midada, per plaschair chargiar la maletg danovamain per l'elavuraziun.",
+    "page": {
+      "title": "Foto Rimover il Fund - Utensil Gratuit Online per Rimover il Fund cun AI",
+      "description": "Foto Rimover il Fund è in utensil gratuit online manà da AI per rimover funds da mintga foto. Crear maletgs PNG transparents immediatamain cun nossa tecnologia avanzada da rimover il fund. Perfekt per fotos da products, portrets, e-commerce e projects da design. Nagina registraziun necessaria - chargiar, elavurar e telechargiar en secundas."
+    },
+    "seo": {
+      "title": "Utensil per Rimover il Fund | Utensil Gratuit Online per Rimover il Fund cun AI",
+      "description": "Utensil gratuit online cun AI per rimover il fund da mintga foto - perfekt per fotos da products, portrets e projects da design.",
+      "keywords": "rimover il fund, utensil per rimover il fund, fund transparent, rimover il fund cun ai"
+    },
+    "selectRegion": {
+      "title": "Tscherner la Regiun",
+      "subtitle": "Tscherner vossa lingua e regiun preferida"
+    },
+    "rateService": {
+      "title": "Valitar Foto Rimover il Fund",
+      "thankYou": "Grazia per tia resunanza!",
+      "averageRating": "4.5",
+      "votes": "4.992 vuschs"
+    }
+  },
   "blog": {
     "seo": {
       "title": "Blog | Photo To URL",
@@ -359,7 +398,13 @@
         "1": "Las meglieras praticas per midar maletgs en URLs",
         "2": "Co duvrar links directas da fotografias en blogs e documents",
         "3": "Prestaziun e caching per assets statics"
-      }
+      },
+      "readMore": "Leger dapli",
+      "min": "min",
+      "backToBlog": "Turnar al blog",
+      "minRead": "min lectura",
+      "author": "Autur",
+      "viewMoreArticles": "Vair dapli artitgels"
     }
   },
   "docs": {

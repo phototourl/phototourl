@@ -9,6 +9,8 @@
       "circleCrop": "Foto naar cirkel bijsnijden",
       "circleCropNav": "Cirkel bijsnijden",
       "roundedCorners": "Afgeronde hoeken",
+      "removeBackground": "Foto Achtergrond Verwijderen",
+      "removeBackgroundNav": "Achtergrond Verwijderen",
       "comingSoon": "Binnenkort beschikbaar.",
       "history": "Uploadgeschiedenis"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Roadmap hoogtepunten",
-        "p1": "We zullen Cloudflare R2 diep integreren, met gebruiksvriendelijkere quota's en beheermogelijkheden, met optionele teamcollaboratie, toegangscontrole en per-link analytics. We plannen functies zoals één-klik verwijderen, vooraf ingestelde linkstijlen en organisatieniveau opslagbuckets. Ondertussen verbeteren we continu subproducten zoals het cirkelbijsnijdgereedschap en het afgeronde hoekengereedschap om beeldverwerking handiger te maken."
+        "p1": "We zullen Cloudflare R2 diep integreren, met gebruiksvriendelijkere quota's en beheermogelijkheden, samen met optionele teamcollaboratie, toegangscontrole en per-link analytics. We plannen functies zoals één-klik verwijderen, vooraf ingestelde linkstijlen en organisatieniveau opslagbuckets. Ondertussen verbeteren en verfijnen we continu subproducten: cirkelbijsnijdgereedschap, afgeronde hoekengereedschap en achtergrondverwijderingsgereedschap, om beeldverwerking handiger te maken."
       },
       "faq": {
         "title": "Veelgestelde vragen",
@@ -346,6 +348,43 @@
       "votes": "4.992 stemmen"
     }
   },
+  "removeBackground": {
+    "title": "Foto Achtergrond Verwijderen",
+    "description": "Gratis online AI-achtergrondverwijderingstool, verwijder eenvoudig de achtergrond van elke foto - perfect voor productfoto's, portretten en ontwerpprojecten.",
+    "upload": "Foto Uploaden",
+    "download": "Downloaden",
+    "processing": "Verwerken...",
+    "processingModelLoading": "AI-model laden, eerste gebruik kan 10-30 seconden duren, even geduld...",
+    "processingImage": "Afbeelding verwerken, even geduld...",
+    "errorUploadFirst": "Upload eerst een foto.",
+    "errorSelectFile": "Selecteer een afbeeldingsbestand.",
+    "errorProcessing": "Afbeelding verwerken mislukt. Probeer het opnieuw.",
+    "errorTimeout": "Verwerkingstime-out, de afbeelding kan te groot zijn of het netwerk is traag, probeer een kleinere afbeelding of probeer het later opnieuw.",
+    "errorMemory": "Onvoldoende geheugen, probeer een kleinere afbeelding.",
+    "errorGeneric": "Verwerking mislukt: {error}. Probeer het opnieuw of probeer een andere afbeelding.",
+    "errorFileTooLarge": "Het afbeeldingsbestand is te groot, selecteer een afbeelding kleiner dan 10MB.",
+    "errorModelLoad": "Kan AI-modelbibliotheek niet laden, vernieuw de pagina en probeer het opnieuw.",
+    "errorPageHidden": "De pagina is gewijzigd, upload de afbeelding opnieuw om te verwerken.",
+    "page": {
+      "title": "Foto Achtergrond Verwijderen - Gratis Online AI Achtergrondverwijderaar",
+      "description": "Foto Achtergrond Verwijderen is een gratis online AI-gestuurde tool voor het verwijderen van achtergronden uit elke foto. Maak direct transparante PNG-afbeeldingen met onze geavanceerde achtergrondverwijderingstechnologie. Perfect voor productfoto's, portretten, e-commerce en ontwerpprojecten. Geen aanmelding vereist - upload, verwerk en download in seconden."
+    },
+    "seo": {
+      "title": "Achtergrondverwijderingstool | Gratis Online AI Achtergrondverwijderaar",
+      "description": "Gratis online AI-tool om de achtergrond van elke foto te verwijderen - perfect voor productfoto's, portretten en ontwerpprojecten.",
+      "keywords": "achtergrond verwijderen, achtergrondverwijderaar, transparante achtergrond, ai achtergrondverwijdering"
+    },
+    "selectRegion": {
+      "title": "Regio Selecteren",
+      "subtitle": "Kies uw voorkeurstaal en regio"
+    },
+    "rateService": {
+      "title": "Beoordeel Foto Achtergrond Verwijderen",
+      "thankYou": "Bedankt voor uw feedback!",
+      "averageRating": "4.5",
+      "votes": "4.992 stemmen"
+    }
+  },
   "blog": {
     "seo": {
       "title": "Blog | Photo To URL",
@@ -359,7 +398,13 @@
         "1": "Beste praktijken voor het converteren van afbeeldingen naar URL",
         "2": "Hoe directe fotolinks te gebruiken in blogs en documenten",
         "3": "Prestaties en caching voor statische assets"
-      }
+      },
+      "readMore": "Lees meer",
+      "min": "min",
+      "backToBlog": "Terug naar blog",
+      "minRead": "min lezen",
+      "author": "Auteur",
+      "viewMoreArticles": "Bekijk meer artikelen"
     }
   },
   "docs": {

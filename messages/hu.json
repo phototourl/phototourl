@@ -9,6 +9,8 @@
       "circleCrop": "Körbe vágás",
       "circleCropNav": "Körkörös vágás",
       "roundedCorners": "Kerekített sarkok",
+      "removeBackground": "Kép Háttér Eltávolítása",
+      "removeBackgroundNav": "Háttér Eltávolítása",
       "comingSoon": "Hamarosan.",
       "history": "Feltöltési előzmények"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Roadmap kiemelkedő pontjai",
-        "p1": "Mélyen integráljuk a Cloudflare R2-t, felhasználóbarátabb kvótákat és kezelési lehetőségeket biztosítva, opcionális csapatmunkával, hozzáférés-vezérléssel és linkenkénti elemzésekkel. Tervezzük olyan funkciók bevezetését, mint az egykattintásos törlés, előre beállított linkstílusok és szervezeti szintű tárolószemélyek. Eközben folyamatosan javítjuk az altermékeket, mint a körkörös vágóeszköz és a lekerekített sarkok eszköze, hogy a képek feldolgozása kényelmesebb legyen."
+        "p1": "Mélyen integráljuk a Cloudflare R2-t, felhasználóbarátabb kvótákat és kezelési lehetőségeket biztosítva, opcionális csapatmunkával, hozzáférés-vezérléssel és linkenkénti elemzésekkel. Tervezzük olyan funkciók bevezetését, mint az egykattintásos törlés, előre beállított linkstílusok és szervezeti szintű tárolószemélyek. Eközben folyamatosan javítjuk és finomítjuk az altermékeket: körkörös vágóeszköz, lekerekített sarkok eszköze és háttér eltávolítási eszköz, hogy a képek feldolgozása kényelmesebb legyen."
       },
       "faq": {
         "title": "Gyakran ismételt kérdések",
@@ -341,6 +343,43 @@
     },
     "rateService": {
       "title": "Kép kerekített sarkokkal értékelése",
+      "thankYou": "Köszönjük a visszajelzést!",
+      "averageRating": "4.5",
+      "votes": "4 992 szavazat"
+    }
+  },
+  "removeBackground": {
+    "title": "Kép Háttér Eltávolítása",
+    "description": "Ingyenes online AI háttér eltávolítási eszköz, könnyen távolítsa el a hátteret bármely fotóról - tökéletes termékfotókhoz, portrékhoz és tervezési projektekhez.",
+    "upload": "Fotó Feltöltése",
+    "download": "Letöltés",
+    "processing": "Feldolgozás...",
+    "processingModelLoading": "AI modell betöltése, az első használat 10-30 másodpercet is igénybe vehet, kérjük várjon...",
+    "processingImage": "Kép feldolgozása, kérjük várjon...",
+    "errorUploadFirst": "Kérjük, először töltse fel a fotót.",
+    "errorSelectFile": "Kérjük, válasszon ki egy képfájlt.",
+    "errorProcessing": "A kép feldolgozása sikertelen. Kérjük, próbálja újra.",
+    "errorTimeout": "Feldolgozási időtúllépés, a kép túl nagy lehet vagy a hálózat lassú, kérjük próbáljon kisebb képet vagy próbálja újra később.",
+    "errorMemory": "Elégtelen memória, kérjük próbáljon kisebb képet.",
+    "errorGeneric": "A feldolgozás sikertelen: {error}. Kérjük, próbálja újra vagy próbáljon másik képet.",
+    "errorFileTooLarge": "A képfájl túl nagy, kérjük válasszon 10MB-nál kisebb képet.",
+    "errorModelLoad": "Az AI modellkönyvtár betöltése sikertelen, kérjük frissítse az oldalt és próbálja újra.",
+    "errorPageHidden": "Az oldal megváltozott, kérjük töltse fel újra a képet a feldolgozáshoz.",
+    "page": {
+      "title": "Kép Háttér Eltávolítása - Ingyenes Online AI Háttér Eltávolító",
+      "description": "Kép Háttér Eltávolítása egy ingyenes online AI-alapú eszköz bármely fotó háttérének eltávolításához. Hozzon létre átlátszó PNG képeket azonnal fejlett háttér eltávolítási technológiánkkal. Tökéletes termékfotókhoz, portrékhoz, e-kereskedelmi és tervezési projektekhez. Regisztráció nem szükséges - töltse fel, dolgozza fel és töltse le másodpercek alatt."
+    },
+    "seo": {
+      "title": "Háttér Eltávolítási Eszköz | Ingyenes Online AI Háttér Eltávolító",
+      "description": "Ingyenes online AI eszköz bármely fotó háttérének eltávolításához - tökéletes termékfotókhoz, portrékhoz és tervezési projektekhez.",
+      "keywords": "háttér eltávolítása, háttér eltávolító, átlátszó háttér, ai háttér eltávolítás"
+    },
+    "selectRegion": {
+      "title": "Régió Kiválasztása",
+      "subtitle": "Válassza az előnyben részesített nyelvet és régiót"
+    },
+    "rateService": {
+      "title": "Kép Háttér Eltávolítása Értékelése",
       "thankYou": "Köszönjük a visszajelzést!",
       "averageRating": "4.5",
       "votes": "4 992 szavazat"
@@ -542,7 +581,13 @@
         "1": "Ajánlott eljárások kép URL-re konvertálásához",
         "2": "Hogyan használjon közvetlen fotó linkeket blogokban és dokumentumokban",
         "3": "Teljesítmény és gyorsítótár statikus eszközökhöz"
-      }
+      },
+      "readMore": "Tovább olvasás",
+      "min": "perc",
+      "backToBlog": "Vissza a bloghoz",
+      "minRead": "perc olvasás",
+      "author": "Szerző",
+      "viewMoreArticles": "Több cikk megtekintése"
     }
   },
   "docs": {

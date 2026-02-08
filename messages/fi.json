@@ -9,6 +9,8 @@
       "circleCrop": "Pyöreä kuva",
       "circleCropNav": "Ympyräleikkaus",
       "roundedCorners": "Pyöristetyt nurkat",
+      "removeBackground": "Kuva Poista Tausta",
+      "removeBackgroundNav": "Poista Tausta",
       "comingSoon": "Tulossa pian.",
       "history": "Lataushistoria"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Roadmap-kohokohdat",
-        "p1": "Integroimme Cloudflare R2:n syvällisesti, tarjoten käyttäjäystävällisempiä kiintiöitä ja hallintamahdollisuuksia, valinnaisella tiimiyhteistyöllä, pääsynhallinnalla ja linkkikohtaisella analytiikalla. Suunnittelemme käynnistävämme ominaisuuksia kuten yhden napsautuksen poisto, ennalta asetetut linkkityylit ja organisaatiotason tallennuskauhat. Samaan aikaan parannamme jatkuvasti sivutuotteita kuten ympyräleikkaus-työkalua ja pyöristettyjä kulmia-työkalua tehdäksemme kuvankäsittelystä kätevämpää."
+        "p1": "Integroimme Cloudflare R2:n syvällisesti, tarjoten käyttäjäystävällisempiä kiintiöitä ja hallintamahdollisuuksia, valinnaisella tiimiyhteistyöllä, pääsynhallinnalla ja linkkikohtaisella analytiikalla. Suunnittelemme käynnistävämme ominaisuuksia kuten yhden napsautuksen poisto, ennalta asetetut linkkityylit ja organisaatiotason tallennuskauhat. Samaan aikaan parannamme ja hienostamme jatkuvasti sivutuotteita: ympyräleikkaus-työkalua, pyöristettyjä kulmia-työkalua ja taustanpoisto-työkalua, tehdäksemme kuvankäsittelystä kätevämpää."
       },
       "faq": {
         "title": "Usein kysytyt kysymykset",
@@ -330,6 +332,43 @@
     },
     "rateService": {
       "title": "Arvioi Kuva pyöristetyillä nurkilla",
+      "thankYou": "Kiitos palautteestasi!",
+      "averageRating": "4.5",
+      "votes": "4 992 ääntä"
+    }
+  },
+  "removeBackground": {
+    "title": "Kuva Poista Tausta",
+    "description": "Ilmainen verkossa toimiva AI-taustanpoistotyökalu, poista tausta helposti mistä tahansa kuvasta - täydellinen tuotekuville, muotokuville ja suunnitteluhankkeille.",
+    "upload": "Lataa Kuva",
+    "download": "Lataa",
+    "processing": "Käsitellään...",
+    "processingModelLoading": "Ladataan AI-mallia, ensimmäinen käyttö voi kestää 10-30 sekuntia, odota...",
+    "processingImage": "Käsitellään kuvaa, odota...",
+    "errorUploadFirst": "Lataa kuva ensin.",
+    "errorSelectFile": "Valitse kuvatiedosto.",
+    "errorProcessing": "Kuvan käsittely epäonnistui. Yritä uudelleen.",
+    "errorTimeout": "Käsittelyaika loppui, kuva voi olla liian suuri tai verkko on hidas, kokeile pienempää kuvaa tai yritä myöhemmin uudelleen.",
+    "errorMemory": "Riittämätön muisti, kokeile pienempää kuvaa.",
+    "errorGeneric": "Käsittely epäonnistui: {error}. Yritä uudelleen tai kokeile toista kuvaa.",
+    "errorFileTooLarge": "Kuvatiedosto on liian suuri, valitse kuva, joka on pienempi kuin 10MB.",
+    "errorModelLoad": "AI-mallikirjaston lataaminen epäonnistui, päivitä sivu ja yritä uudelleen.",
+    "errorPageHidden": "Sivu on vaihdettu, lataa kuva uudelleen käsiteltäväksi.",
+    "page": {
+      "title": "Kuva Poista Tausta - Ilmainen Verkossa Toimiva AI Taustanpoistotyökalu",
+      "description": "Kuva Poista Tausta on ilmainen verkossa toimiva AI-käyttöinen työkalu taustojen poistamiseen mistä tahansa kuvasta. Luo läpinäkyviä PNG-kuvia heti kehittyneellä taustanpoistoteknologiallamme. Täydellinen tuotekuville, muotokuville, verkkokaupalle ja suunnitteluhankkeille. Rekisteröitymistä ei vaadita - lataa, käsittele ja lataa sekunneissa."
+    },
+    "seo": {
+      "title": "Taustanpoistotyökalu | Ilmainen Verkossa Toimiva AI Taustanpoistotyökalu",
+      "description": "Ilmainen verkossa toimiva AI-työkalu taustan poistamiseen mistä tahansa kuvasta - täydellinen tuotekuville, muotokuville ja suunnitteluhankkeille.",
+      "keywords": "poista tausta, taustanpoistotyökalu, läpinäkyvä tausta, ai taustanpoisto"
+    },
+    "selectRegion": {
+      "title": "Valitse Alue",
+      "subtitle": "Valitse haluamasi kieli ja alue"
+    },
+    "rateService": {
+      "title": "Arvioi Kuva Poista Tausta",
       "thankYou": "Kiitos palautteestasi!",
       "averageRating": "4.5",
       "votes": "4 992 ääntä"
@@ -540,7 +579,13 @@
         "1": "Parhaat käytännöt kuvan muuntamiseen URL:ksi",
         "2": "Kuinka käyttää suoria kuvan linkkejä blogeissa ja dokumenteissa",
         "3": "Suorituskyky ja välimuisti staattisille varoille"
-      }
+      },
+      "readMore": "Lue lisää",
+      "min": "min",
+      "backToBlog": "Takaisin blogiin",
+      "minRead": "min lukemista",
+      "author": "Kirjoittaja",
+      "viewMoreArticles": "Näytä lisää artikkeleita"
     }
   },
   "docs": {

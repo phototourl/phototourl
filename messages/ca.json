@@ -9,6 +9,8 @@
       "circleCrop": "Retall en cercle",
       "circleCropNav": "Retall circular",
       "roundedCorners": "Cantonades arrodonides",
+      "removeBackground": "Foto Eliminar Fons",
+      "removeBackgroundNav": "Eliminar Fons",
       "comingSoon": "Properament.",
       "history": "Historial de càrregues"
     },
@@ -227,7 +229,7 @@
       },
       "roadmap": {
         "title": "Punts destacats del roadmap",
-        "p1": "Integrarem profundament Cloudflare R2, proporcionant quotes i capacitats de gestió més amigables, amb col·laboració d'equip opcional, control d'accés i anàlisi per enllaç. Planifiquem llançar funcions com l'eliminació d'un clic, estils d'enllaç preestablerts i buckets d'emmagatzematge a nivell d'organització. Mentrestant, estem millorant contínuament subproductes com l'eina de retall circular i l'eina de cantonades arrodonides per fer el processament d'imatges més convenient."
+        "p1": "Integrarem profundament Cloudflare R2, proporcionant quotes i capacitats de gestió més amigables, juntament amb col·laboració d'equip opcional, control d'accés i anàlisi per enllaç. Planifiquem llançar funcions com l'eliminació d'un clic, estils d'enllaç preestablerts i buckets d'emmagatzematge a nivell d'organització. Mentrestant, estem millorant i perfeccionant contínuament subproductes: eina de retall circular, eina de cantonades arrodonides i eina d'eliminació de fons, per fer el processament d'imatges més convenient."
       },
       "faq": {
         "title": "Preguntes freqüents",
@@ -346,6 +348,43 @@
       "votes": "4.992 vots"
     }
   },
+  "removeBackground": {
+    "title": "Foto Eliminar Fons",
+    "description": "Eina gratuïta en línia d'eliminació de fons amb IA, elimineu fàcilment el fons de qualsevol foto - perfecte per a fotos de productes, retrats i projectes de disseny.",
+    "upload": "Puja Foto",
+    "download": "Descarrega",
+    "processing": "Processant...",
+    "processingModelLoading": "Carregant model d'IA, el primer ús pot trigar 10-30 segons, si us plau espereu...",
+    "processingImage": "Processant imatge, si us plau espereu...",
+    "errorUploadFirst": "Si us plau pugeu una foto primer.",
+    "errorSelectFile": "Si us plau seleccioneu un fitxer d'imatge.",
+    "errorProcessing": "Error en processar la imatge. Si us plau torneu-ho a provar.",
+    "errorTimeout": "Temps d'espera de processament, la imatge pot ser massa gran o la xarxa és lenta, si us plau proveu una imatge més petita o torneu-ho a provar més tard.",
+    "errorMemory": "Memòria insuficient, si us plau proveu una imatge més petita.",
+    "errorGeneric": "El processament ha fallat: {error}. Si us plau torneu-ho a provar o proveu una altra imatge.",
+    "errorFileTooLarge": "El fitxer d'imatge és massa gran, si us plau seleccioneu una imatge més petita de 10MB.",
+    "errorModelLoad": "Error en carregar la biblioteca del model d'IA, si us plau actualitzeu la pàgina i torneu-ho a provar.",
+    "errorPageHidden": "La pàgina ha estat canviada, si us plau pugeu la imatge de nou per processar-la.",
+    "page": {
+      "title": "Foto Eliminar Fons - Eina Gratuïta en Línia d'Eliminació de Fons amb IA",
+      "description": "Foto Eliminar Fons és una eina gratuïta en línia impulsada per IA per eliminar fons de qualsevol foto. Creeu imatges PNG transparents instantàniament amb la nostra tecnologia avançada d'eliminació de fons. Perfecte per a fotos de productes, retrats, comerç electrònic i projectes de disseny. No cal registre - pugeu, processeu i descarregueu en segons."
+    },
+    "seo": {
+      "title": "Eina d'Eliminació de Fons | Eina Gratuïta en Línia d'Eliminació de Fons amb IA",
+      "description": "Eina gratuïta en línia amb IA per eliminar el fons de qualsevol foto - perfecte per a fotos de productes, retrats i projectes de disseny.",
+      "keywords": "eliminar fons, eliminador de fons, fons transparent, eliminació de fons amb ia"
+    },
+    "selectRegion": {
+      "title": "Selecciona Regió",
+      "subtitle": "Trieu el vostre idioma i regió preferits"
+    },
+    "rateService": {
+      "title": "Valora Foto Eliminar Fons",
+      "thankYou": "Gràcies pel vostre feedback!",
+      "averageRating": "4.5",
+      "votes": "4.992 vots"
+    }
+  },
   "blog": {
     "seo": {
       "title": "Blog | Photo To URL",
@@ -359,7 +398,13 @@
         "1": "Millors pràctiques per a la conversió d'imatge a URL",
         "2": "Com utilitzar enllaços de foto directes en blogs i documents",
         "3": "Rendiment i memòria cau per a recursos estàtics"
-      }
+      },
+      "readMore": "Llegeix més",
+      "min": "min",
+      "backToBlog": "Tornar al blog",
+      "minRead": "min de lectura",
+      "author": "Autor",
+      "viewMoreArticles": "Veure més articles"
     }
   },
   "docs": {
