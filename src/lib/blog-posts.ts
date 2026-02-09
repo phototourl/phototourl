@@ -13,12 +13,22 @@ export const blogPosts: BlogPost[] = [
   {
     id: "1",
     slug: "how-to-convert-image-to-url-complete-guide",
-    date: "2025-02-08",
+    date: "2025-12-01",
     author: "Photo To URL Team",
     category: "tutorial",
     readTime: 8,
     image: "/og-image.png",
     tags: ["photo-to-url", "image-hosting", "cdn", "tutorial"],
+  },
+  {
+    id: "2",
+    slug: "how-to-crop-images-in-circle-shape",
+    date: "2026-01-09",
+    author: "Photo To URL Team",
+    category: "tutorial",
+    readTime: 6,
+    image: "/blog/b-circle-crop.png",
+    tags: ["circle-crop", "image-editing", "profile-picture", "tutorial"],
   },
 ];
 
