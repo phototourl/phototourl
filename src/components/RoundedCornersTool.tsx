@@ -180,12 +180,6 @@ export function RoundedCornersTool({ showHeading = true }: RoundedCornersToolPro
     return { x: (clientX - rect.left) * scaleX, y: (clientY - rect.top) * scaleY };
   };
 
-  // 固定默认方框尺寸（预览 480、导出 1024），与 Circle Crop 一致
-  const getPreviewDrawSize = () => ({
-    drawW: PREVIEW_FRAME_SIZE,
-    drawH: PREVIEW_FRAME_SIZE,
-  });
-
   const drawPreview = () => {
     const canvas = canvasRef.current;
     if (!canvas || !loadedImage) return;

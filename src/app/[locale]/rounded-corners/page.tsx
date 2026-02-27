@@ -4,7 +4,7 @@ import { getTranslations } from "next-intl/server";
 import { RoundedCornersTool } from "@/components/RoundedCornersTool";
 import { SelectRegionSection } from "@/components/SelectRegionSection";
 import { ScrollButtons } from "@/components/ScrollButtons";
-import { siteUrl, getLocaleMetadata } from "@/app/seo-metadata";
+import { getLocaleMetadata } from "@/app/seo-metadata";
 
 export async function generateMetadata({
   params,
@@ -13,9 +13,6 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "roundedCorners.seo" });
-  const canonicalPath = locale === "en" ? "/rounded-corners" : `/${locale}/rounded-corners`;
-  const canonicalUrl = `${siteUrl}${canonicalPath}`;
-  
   // 从翻译文件中获取关键词字符串，转换为数组
   const keywordsString = t("keywords");
   const keywords = keywordsString && typeof keywordsString === "string" && keywordsString.trim()

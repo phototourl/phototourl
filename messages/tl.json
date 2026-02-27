@@ -512,59 +512,59 @@
     },
     "cookie": {
       "seo": {
-          "title": "Cookie Policy | Larawan sa URL",
-          "description": "Cookie Policy para sa Larawan sa URL - Alamin kung paano namin ginagamit ang cookies at tracking technologies."
-        },
-        "page": {
+        "title": "Cookie Policy | Larawan sa URL",
+        "description": "Cookie Policy para sa Larawan sa URL - Alamin kung paano namin ginagamit ang cookies at tracking technologies."
+      },
+      "page": {
         "title": "Cookie Policy",
-          "lastUpdated": "Huling Update: Enero 2026",
-          "introduction": "Ang Cookie Policy na ito ay nagpapaliwanag kung paano ginagamit ng Larawan sa URL ang cookies at similar tracking technologies kapag binibisita ninyo ang aming website. Sa paggamit ng aming serbisyo, sumasang-ayon kayo sa paggamit ng cookies ayon sa policy na ito.",
-          "whatAreCookies": {
-            "title": "Ano ang Cookies",
-            "content": "Ang cookies ay maliliit na text files na inilalagay sa inyong device kapag binibisita ninyo ang isang website. Malawakang ginagamit ang mga ito para mas maging efficient ang mga website at magbigay ng impormasyon sa mga website owners."
+        "lastUpdated": "Huling Update: Enero 2026",
+        "introduction": "Ang Cookie Policy na ito ay nagpapaliwanag kung paano ginagamit ng Larawan sa URL ang cookies at similar tracking technologies kapag binibisita ninyo ang aming website. Sa paggamit ng aming serbisyo, sumasang-ayon kayo sa paggamit ng cookies ayon sa policy na ito.",
+        "whatAreCookies": {
+          "title": "Ano ang Cookies",
+          "content": "Ang cookies ay maliliit na text files na inilalagay sa inyong device kapag binibisita ninyo ang isang website. Malawakang ginagamit ang mga ito para mas maging efficient ang mga website at magbigay ng impormasyon sa mga website owners."
+        },
+        "howWeUseCookies": {
+          "title": "Paano Namin Ginagamit ang Cookies",
+          "content": "Ginagamit namin ang cookies para sa mga sumusunod na layunin:",
+          "item1": "Para i-store ang inyong upload history at language preferences",
+          "item2": "Para i-analyze ang website traffic at user behavior",
+          "item3": "Para mag-display ng personalized advertisements"
+        },
+        "typesOfCookies": {
+          "title": "Mga Uri ng Cookies na Ginagamit Namin",
+          "essential": {
+            "title": "Essential Cookies",
+            "content": "Ang mga cookies na ito ay kailangan para sa tamang paggana ng website. Pinapagana nila ang core functionality tulad ng pag-store ng inyong language preferences at upload history."
           },
-          "howWeUseCookies": {
-            "title": "Paano Namin Ginagamit ang Cookies",
-            "content": "Ginagamit namin ang cookies para sa mga sumusunod na layunin:",
-            "item1": "Para i-store ang inyong upload history at language preferences",
-            "item2": "Para i-analyze ang website traffic at user behavior",
-            "item3": "Para mag-display ng personalized advertisements"
+          "analytics": {
+            "title": "Analytics Cookies",
+            "content": "Ginagamit namin ang Yandex Metrika para i-analyze kung paano ginagamit ng mga visitors ang aming website. Ang mga cookies na ito ay nangongolekta ng anonymous na impormasyon tungkol sa website usage para matulungan kaming mapabuti ang aming serbisyo."
           },
-          "typesOfCookies": {
-            "title": "Mga Uri ng Cookies na Ginagamit Namin",
-            "essential": {
-              "title": "Essential Cookies",
-              "content": "Ang mga cookies na ito ay kailangan para sa tamang paggana ng website. Pinapagana nila ang core functionality tulad ng pag-store ng inyong language preferences at upload history."
-            },
-            "analytics": {
-              "title": "Analytics Cookies",
-              "content": "Ginagamit namin ang Yandex Metrika para i-analyze kung paano ginagamit ng mga visitors ang aming website. Ang mga cookies na ito ay nangongolekta ng anonymous na impormasyon tungkol sa website usage para matulungan kaming mapabuti ang aming serbisyo."
-            },
-            "advertising": {
-              "title": "Advertising Cookies",
-              "content": "Ginagamit namin ang Google AdSense para mag-display ng advertisements. Ang mga cookies na ito ay tumutulong mag-deliver ng personalized ads batay sa inyong browsing behavior at interests."
-            }
-          },
-          "thirdPartyCookies": {
-            "title": "Third-Party Cookies",
-            "content": "Ginagamit namin ang mga sumusunod na third-party services na maaaring mag-set ng cookies:",
-            "item1": "Google AdSense - Para sa advertising (subject sa Google's Privacy Policy)",
-            "item2": "Yandex Metrika - Para sa website analytics (subject sa Yandex's Privacy Policy)"
-          },
-          "manageCookies": {
-            "title": "Pag-manage ng Cookies",
-            "content": "Maaari ninyong kontrolin at i-manage ang cookies sa pamamagitan ng inyong browser settings. Karamihan sa mga browser ay nagpapahintulot sa inyo na tanggihan o tanggapin ang cookies, tanggalin ang existing cookies, o mag-set ng preferences para sa ilang websites. Gayunpaman, ang pag-disable ng cookies ay maaaring makaapekto sa functionality ng aming serbisyo."
-          },
-          "changes": {
-            "title": "Mga Pagbabago sa Cookie Policy na Ito",
-            "content": "Maaari naming i-update ang Cookie Policy na ito paminsan-minsan. Ipaaalam namin sa inyo ang anumang pagbabago sa pamamagitan ng pag-post ng bagong Cookie Policy sa pahinang ito at pag-update ng \"Last Updated\" date."
-          },
-          "contact": {
-            "title": "Makipag-ugnayan sa Amin",
-            "text": "Kung may mga tanong kayo tungkol sa Cookie Policy na ito, mangyaring makipag-ugnayan sa amin sa",
-            "email": "leeqs1010@gmail.com"
+          "advertising": {
+            "title": "Advertising Cookies",
+            "content": "Ginagamit namin ang Google AdSense para mag-display ng advertisements. Ang mga cookies na ito ay tumutulong mag-deliver ng personalized ads batay sa inyong browsing behavior at interests."
           }
+        },
+        "thirdPartyCookies": {
+          "title": "Third-Party Cookies",
+          "content": "Ginagamit namin ang mga sumusunod na third-party services na maaaring mag-set ng cookies:",
+          "item1": "Google AdSense - Para sa advertising (subject sa Google's Privacy Policy)",
+          "item2": "Yandex Metrika - Para sa website analytics (subject sa Yandex's Privacy Policy)"
+        },
+        "manageCookies": {
+          "title": "Pag-manage ng Cookies",
+          "content": "Maaari ninyong kontrolin at i-manage ang cookies sa pamamagitan ng inyong browser settings. Karamihan sa mga browser ay nagpapahintulot sa inyo na tanggihan o tanggapin ang cookies, tanggalin ang existing cookies, o mag-set ng preferences para sa ilang websites. Gayunpaman, ang pag-disable ng cookies ay maaaring makaapekto sa functionality ng aming serbisyo."
+        },
+        "changes": {
+          "title": "Mga Pagbabago sa Cookie Policy na Ito",
+          "content": "Maaari naming i-update ang Cookie Policy na ito paminsan-minsan. Ipaaalam namin sa inyo ang anumang pagbabago sa pamamagitan ng pag-post ng bagong Cookie Policy sa pahinang ito at pag-update ng \"Last Updated\" date."
+        },
+        "contact": {
+          "title": "Makipag-ugnayan sa Amin",
+          "text": "Kung may mga tanong kayo tungkol sa Cookie Policy na ito, mangyaring makipag-ugnayan sa amin sa",
+          "email": "leeqs1010@gmail.com"
         }
+      }
     }
   },
   "blog": {
@@ -608,93 +608,103 @@
         "title": "Paano I-crop ang mga Larawan sa Bilog na Hugis - Kumpletong Guide",
         "description": "I-transform ang anumang larawan sa isang perpektong bilog na imahe gamit ang aming libreng online na circle crop tool. Lumikha ng propesyonal na bilog na mga larawan para sa mga profile, social media, logo at marami pa sa loob lamang ng ilang segundo.",
         "content": "# Paano I-crop ang mga Larawan sa Bilog na Hugis - Kumpletong Guide\n\nI-transform ang anumang larawan sa isang perpektong bilog na imahe gamit ang aming libreng online na circle crop tool. Lumikha ng propesyonal na bilog na mga larawan para sa mga profile, social media, logo at marami pa sa loob lamang ng ilang segundo.\n\n## Paano I-crop ang mga Larawan sa Bilog na Hugis\n\n### Hakbang 1: I-upload ang Iyong Larawan\nPumili ng anumang larawan mula sa iyong device na nais mong i-crop sa bilog na hugis. Ang aming tool ay sumusuporta sa mga format na JPG, PNG, WEBP at GIF. I-click lamang ang upload button o i-drag at i-drop ang iyong image file.\n\n### Hakbang 2: I-position ang Iyong Larawan\nI-adjust at i-center ang iyong larawan sa loob ng circular crop area. Gamitin ang zoom slider upang tumuon sa pinakamahalagang bahagi ng iyong larawan, at i-drag upang i-reposition para sa perpektong bilog na crop.\n\n### Hakbang 3: I-download ang Iyong Bilog na Larawan\nKapag nasiyahan ka na sa positioning, i-click ang \"Crop at Download\" upang makuha ang iyong perpektong bilog na larawan. Ang resulta ay magkakaroon ng transparent background, na ginagawa itong perpekto para sa paggamit kahit saan.\n\n## Popular na Paraan ng Paggamit ng Bilog na mga Larawan\n\n### Mga Larawan ng Profile\nI-crop ang mga larawan sa bilog na hugis para sa propesyonal na hitsura ng profile images sa social media platforms tulad ng Facebook, LinkedIn at Instagram. Ang mga circular avatar ay lumilikha ng moderno, makinis na hitsura.\n\n### Social Media Graphics\nLumikha ng bilog na mga larawan para sa Instagram stories, Facebook posts at Twitter profiles na naiiba sa karamihan. Ang mga bilog na larawan ay nagdaragdag ng visual interest at sumisira sa monotony ng square posts.\n\n### Bilog na Logo\nI-transform ang iyong logo o brand images sa perpektong bilog na mga hugis para sa consistent branding sa lahat ng platforms. Ang mga circular logo ay gumagana nang mahusay para sa app icons at social media branding.\n\n### Mga Larawan ng Testimonial\nIpakita ang mga testimonial ng customer o client gamit ang bilog na profile photos para sa malinis, propesyonal na hitsura. Ang mga bilog na larawan ay lumilikha ng visual consistency at ginagawang mas nakaka-engganyo ang iyong mga testimonial.\n\n### Mga Larawan ng Miyembro ng Team\nLumikha ng consistent na bilog na headshots para sa company websites, team pages at employee directories. Ang uniform na circular photos ay nagbibigay sa iyong team page ng cohesive, propesyonal na hitsura.\n\n## Mga Feature ng Aming Circle Crop Tool\n\n- **Libreng circle image cropper** - Gumawa ng bilog na mga hugis mula sa anumang larawan nang libre, walang nakatagong bayad\n- **High-resolution output** - I-download ang iyong bilog na mga larawan sa kanilang original na kalidad nang walang compression\n- **Walang signup na kailangan** - Magsimula ng circle cropping ng mga larawan agad, walang account creation na kailangan\n- **Pribado at ligtas** - Ang iyong mga larawan ay hindi kailanman umaalis sa iyong browser, tinitiyak ang kumpletong privacy\n- **Madaling gamitin na interface** - Simple, intuitive design na ginagawang walang kahirap-hirap ang paglikha ng bilog na mga larawan\n- **Gumagana sa lahat ng device** - I-crop ang mga larawan sa bilog na hugis sa desktop, tablet o mobile devices\n- **Transparent background** - Lahat ng circular crops ay may transparent backgrounds para sa maximum na versatility\n- **Real-time preview** - Tingnan nang eksakto kung paano magiging hitsura ang iyong circular image bago i-download\n\n## Circle Crop Image FAQ\n\n### Paano ko i-crop ang isang larawan sa bilog na hugis?\n\nI-upload lamang ang iyong larawan sa aming tool, i-adjust ito sa loob ng circular frame upang i-position nang tama ang subject, at i-click ang \"Crop at Download\" upang makuha ang iyong perpektong bilog na larawan. Ang aming tool ay ginagawang madali ang pag-crop ng anumang larawan sa circle format agad nang hindi nangangailangan ng design skills.\n\n### Paano ko gumawa ng circular profile picture?\n\nI-upload ang iyong larawan sa aming circle crop tool, i-position ang iyong mukha sa gitna ng circular frame, pagkatapos i-download ang iyong bagong bilog na profile picture. Ito ay perpekto para sa social media profiles na gumagamit ng circle-shaped images tulad ng Facebook, LinkedIn o Instagram.\n\n### Maaari ba akong mag-crop ng mga larawan sa bilog na mga hugis sa aking telepono?\n\nOo! Ang aming circle image cropper ay gumagana sa lahat ng device kabilang ang smartphones at tablets. Ang mobile-friendly interface ay nagbibigay-daan sa iyo na madaling lumikha ng bilog na image crops kahit saan. Bumisita lamang sa aming website mula sa iyong mobile browser - walang app download na kailangan.\n\n### Iniimbak ba ninyo ang mga larawan na ini-upload ko?\n\nHindi, hindi namin kailanman iniimbak ang iyong mga larawan sa aming servers. Ang buong cropping process ay nangyayari nang direkta sa iyong browser, na nangangahulugan na ang iyong mga larawan ay nananatiling ganap na pribado. Kapag umalis ka sa pahina, ang lahat ng image data ay awtomatikong tinatanggal.\n\n### Anong mga image format ang maaari kong gamitin sa circle crop tool?\n\nAng aming tool ay gumagana sa lahat ng standard image formats kabilang ang JPG, PNG, WEBP at GIF. Maaari mong i-upload ang alinman sa mga format na ito at ang iyong circular cropped image ay i-download bilang PNG file na may transparency sa paligid ng bilog.\n\n### Magkakaroon ba ang aking circular cropped image ng transparent background?\n\nOo, kapag i-download mo ang iyong cropped image, magkakaroon ito ng transparent background sa paligid ng bilog. Ginagawa nitong perpekto para sa paglalagay sa mga website, dokumento o designs kung saan gusto mo lamang na ang circular portion ay makikita.\n\n### Maaari ba akong i-adjust ang laki ng circle crop?\n\nAng circle crop ay nagpapanatili ng perpektong 1:1 aspect ratio, ngunit maaari kang mag-zoom in o out upang i-adjust kung gaano karami ng iyong larawan ang lalabas sa loob ng bilog. Pinapayagan ka nitong tumuon sa mga tiyak na bahagi ng iyong larawan habang pinapanatili ang bilog na hugis.\n\n## Image Tips para sa Perpektong Circle Crops\n\n### I-center ang Iyong Subject\nPara sa pinakamahusay na resulta, pumili ng mga larawan kung saan ang pangunahing subject ay nakasentro o maaaring i-position sa gitna ng frame. Ito ay partikular na mahalaga para sa profile pictures at headshots kung saan ang mukha ay dapat na focal point.\n\n### Isaalang-alang ang Crop Area\nTandaan na ang mga sulok ng iyong larawan ay mapuputol. Iwasan ang mga larawan kung saan ang mahahalagang detalye ay malapit sa mga gilid ng larawan, dahil mawawala ang mga ito sa circular crop.\n\n### Gumamit ng High-Resolution Images\nAng pagsisimula sa high-quality images ay magreresulta sa mas mahusay na circular crops. Ang low-resolution o maliit na mga larawan ay maaaring magmukhang pixelated kapag na-crop, kaya gamitin ang pinakamataas na kalidad na source images na available.\n\n### Bigyang-pansin ang Aspect Ratio\nAng square images ay karaniwang gumagana nang pinakamahusay para sa circle cropping. Kung ang iyong original image ay napakalawak o matangkad, maaari kang mawalan ng makabuluhang bahagi sa cropping process. Isaalang-alang ang pag-crop sa square muna kung kinakailangan.\n\n### I-adjust para sa Optimal Framing\nGamitin ang positioning feature ng aming tool upang mag-zoom at i-adjust ang iyong larawan. Para sa mga portrait, subukang i-center ang mukha na may kaunting margin sa paligid nito para sa pinakamahusay na propesyonal na hitsura. Para sa mga produkto, i-center ang pangunahing item sa loob ng bilog.\n\n### Lumikha ng Consistent Sets\nKapag lumilikha ng maraming circular images (tulad ng para sa team photos), subukang mapanatili ang consistent framing, background styles at sizes para sa cohesive appearance sa lahat ng mga larawan.\n\n## Karaniwang Paggamit para sa Circle Cropped Images\n\n| Application | Mga Benepisyo ng Circle Crop |\n|------------|------------------------|\n| Social Media Profiles | Karamihan sa mga platform ay nagpapakita ng avatars sa mga bilog - ang isang perpektong cropped circular image ay mukhang propesyonal |\n| Team Member Photos | Lumikha ng consistent na bilog na headshots para sa company websites at directories |\n| Online Portfolios | Ang mga bilog na larawan ay lumilikha ng visual interest at modern aesthetics |\n| Digital Business Cards | Ang circle-cropped profile photos ay mukhang mas malinis at mas propesyonal |\n| Product Thumbnails | Ang mga bilog na product images ay lumilikha ng cohesive catalog look |\n| App Icons | Ang mga circular icons ay standard para sa mobile applications |\n| Website Testimonials | Ang mga bilog na customer photos ay nagdaragdag ng credibility at visual appeal |\n\n## Bakit Piliin ang Aming Circle Crop Image Tool\n\nPagdating sa pag-crop ng mga larawan sa mga bilog online, ang aming tool ay nag-aalok ng ilang mga benepisyo:\n\n- **Instant processing** - I-crop ang larawan sa bilog na hugis sa loob ng ilang segundo nang hindi naghihintay para sa uploads o server processing\n- **Perpektong mga bilog sa bawat pagkakataon** - Ang aming tool ay tinitiyak ang perpektong bilog na crops na may malinis na mga gilid at walang distortion\n- **Intuitive controls** - Madaling i-position ang iyong larawan nang eksakto kung paano mo gusto sa loob ng bilog na may zoom at drag functionality\n- **Walang watermarks** - Hindi tulad ng ibang circle crop tools, hindi kami nagdaragdag ng watermarks sa iyong mga larawan\n- **Gumagana sa lahat ng uri ng larawan** - I-crop ang mga larawan, graphics, illustrations o anumang larawan sa isang bilog\n- **Browser-based** - Walang software installation na kailangan, gumagana nang direkta sa iyong web browser\n- **Privacy-first** - Ang lahat ng processing ay nangyayari nang lokal sa iyong browser, ang iyong mga larawan ay hindi kailanman umaalis sa iyong device\n\nMaging kailangan mo ng pag-crop ng mga larawan sa bilog na hugis para sa propesyonal na paggamit o personal na mga proyekto, ang aming circle photo crop tool ay humahawak ng lahat nang may kadalian. Lumikha ng bilog na image crops sa loob lamang ng ilang clicks!\n\n## Pagkuha ng Simula\n\nHanda na ba na lumikha ng iyong unang circular image? Bisitahin ang aming [Circle Crop Tool](/circle-crop) at magsimulang mag-crop ngayon. Ito ay ganap na libre, hindi nangangailangan ng signup at tumatagal lamang ng ilang segundo upang lumikha ng propesyonal na circular images.\n\n---\n\n*Huling na-update: Enero 2026*"
+      },
+      "photo-to-rounded-corners-guide": {
+        "title": "Larawan na may bilugang sulok – Gabay",
+        "description": "Bigyan ng bilugang sulok ang anumang larawan gamit ang libreng tool. Bagay para sa thumbnail, card, UI at social media sa ilang segundo.",
+        "content": "# Larawan na may bilugang sulok – Gabay\n\nGawing bilugan ang sulok ng anumang larawan gamit ang libreng online tool. Bagay para sa thumbnail, card, UI at social media, hindi kailangan ng design skill.\n\n## Paano bilugan ang sulok ng larawan\n\n### Hakbang 1: Mag-upload ng larawan\nPumili ng larawan mula sa device. Format: JPG, PNG, WEBP, GIF. I-click o i-drag and drop.\n\n### Hakbang 2: I-set ang radius ng sulok\nGamitin ang slider para i-set ang bilis ng pagbilog. Real-time ang preview.\n\n### Hakbang 3: I-download\nI-click ang \"Download\" para i-save ang larawan na may bilugang sulok at gamitin sa layout, web o post.\n\n## Karaniwang gamit\n\n### Thumbnail at card\nAng bilugang sulok nagbibigay ng malinis, modernong itsura sa grid at card.\n\n### Social media at ads\nMas nakakaakit ang larawan na may malambot na sulok sa feed at ads.\n\n### UI at app\nMadalas bilugan ang sulok ng icon, avatar at button; tumutulong ang tool na pantayin ang maraming larawan.\n\n### Presentation at dokumento\nParehong radius sa screenshot at graphic para consistent ang slide at doc.\n\n## Ano ang binibigay ng tool\n\n- **Libre at instant** – walang signup, walang watermark, walang limit\n- **Pwedeng i-adjust ang radius** – from konti hanggang pill shape\n- **Real-time preview** – makikita ang result bago i-download\n- **Privacy** – na-proprocess sa browser; hindi kami nagse-save ng larawan\n- **Lahat ng device** – PC, tablet, phone\n\n## FAQ\n\n### Paano ko bibigyan ng bilugang sulok ang isang larawan?\n\nBuksan ang [Tool sa bilugang sulok](/rounded-corners), mag-upload ng larawan, i-set ang radius, i-click ang Download.\n\n### Anong format ang supported?\n\nJPG, PNG, WEBP, GIF. Naka-keep ang original format sa download (o PNG kung kailangan ng transparency).\n\n### Gumagana sa phone?\n\nOo. Tumatakbo ang tool sa mobile at tablet browser, walang kailangang app.\n\n### Sine-save n’yo ba ang larawan ko?\n\nHindi. Lahat na-proprocess sa browser mo; wala kaming sine-save.\n\n## Kaugnay na tool\n\n- [Larawan sa URL](/) – gawing link ang larawan\n- [Circle crop](/circle-crop) – gumawa ng bilog na larawan\n- [Bilugang sulok](/rounded-corners) – bilugan ang sulok\n- [Remove background](/remove-background) – alisin ang background gamit AI\n\n---\n\n*Huling na-update: Pebrero 2026*"
+      },
+      "photo-to-remove-background-guide": {
+        "title": "Alisin ang Background – Gabay",
+        "description": "Alisin ang background ng larawan sa isang click gamit ang libreng AI tool. Malinis na cutout para sa product, portrait, logo at iba pa.",
+        "content": "# Alisin ang Background – Gabay\n\nAlisin ang background ng larawan sa isang click gamit ang libreng online tool. Malinis na cutout para sa product photo, portrait, logo – hindi kailangan ng design skill.\n\n## Paano alisin ang background\n\n### Hakbang 1: Mag-upload ng larawan\nPumili ng larawan mula sa device. Supported: JPG, PNG, WEBP, GIF. I-click o i-drag and drop.\n\n### Hakbang 2: Inaalis ng AI ang background\nTinutukoy ng tool ang subject at inaalis ang background. Ilang segundo lang ang processing. May real-time preview na transparent background.\n\n### Hakbang 3: I-download\nI-click ang \"Download\" para i-save ang larawan na walang background. Output ay PNG na may transparency, para sa design, e-commerce o social media.\n\n## Karaniwang gamit\n\n### Product photo\nMalinis na cutout para sa online store, marketplace at ads. Transparent background sa anumang layout.\n\n### Portrait at profile\nAlisin ang maingay na background sa portrait para sa resume, LinkedIn o profile.\n\n### Logo at graphic\nI-isolate ang logo at graphic mula sa photo o scan. Transparent PNG para sa overlay at presentation.\n\n### Social media at marketing\nStandout visual para sa post, story at ad. Transparent cutout sa anumang template.\n\n## Ano ang binibigay ng tool\n\n- **Libre at AI** – walang signup, walang watermark, walang limit\n- **One-click removal** – auto subject detection at malinis na gilid\n- **Transparent PNG** – handa sa anumang design o platform\n- **Privacy** – na-proprocess sa browser; hindi kami nagse-save ng larawan\n- **Lahat ng device** – PC, tablet, phone\n\n## FAQ\n\n### Paano ko aalisin ang background sa isang larawan?\n\nBuksan ang [Tool Alisin ang background](/remove-background), mag-upload ng larawan. Tutukuyin ng tool ang subject at aalisin ang background. I-preview at i-download bilang transparent PNG.\n\n### Anong image format ang supported?\n\nJPG, PNG, WEBP, GIF. Ang result ay laging na-download bilang PNG na may transparent background.\n\n### Sine-save n'yo ba ang larawan ko?\n\nHindi. Na-proprocess sa browser mo; wala kaming sine-save.\n\n### Gumagana sa phone?\n\nOo. Gumagana ang tool sa browser sa phone at tablet.\n\n## Kaugnay na tool\n\n- [Larawan sa URL](/) – larawan to link\n- [Circle crop](/circle-crop) – bilog na larawan\n- [Bilugang sulok](/rounded-corners) – bilugan ang sulok\n- [Remove background](/remove-background) – alisin ang background gamit AI\n\n---\n\n*Huling na-update: Marso 2026*"
       }
-    }
-  },
-  "docs": {
-    "seo": {
-      "title": "Docs | Larawan sa URL",
-      "description": "Documentation para sa Larawan sa URL."
     },
-    "page": {
-      "title": "Docs",
-      "description": "Quick start: mag-upload ng image at kumuha ng direct URL. Gamitin ang copy/open buttons o i-download ang link sa .txt.",
-      "features": {
-        "title": "Mga suportadong features:",
-        "items": {
-          "1": "Suportado: JPG, PNG, WEBP, GIF",
-          "2": "Mabilis na delivery sa pamamagitan ng CDN kapag naka-enable ang storage",
-          "3": "Friendly maintenance errors kapag hindi available ang service"
+    "docs": {
+      "seo": {
+        "title": "Docs | Larawan sa URL",
+        "description": "Documentation para sa Larawan sa URL."
+      },
+      "page": {
+        "title": "Docs",
+        "description": "Quick start: mag-upload ng image at kumuha ng direct URL. Gamitin ang copy/open buttons o i-download ang link sa .txt.",
+        "features": {
+          "title": "Mga suportadong features:",
+          "items": {
+            "1": "Suportado: JPG, PNG, WEBP, GIF",
+            "2": "Mabilis na delivery sa pamamagitan ng CDN kapag naka-enable ang storage",
+            "3": "Friendly maintenance errors kapag hindi available ang service"
+          }
         }
       }
-    }
-  },
-  "status": {
-    "seo": {
-      "title": "Status | Larawan sa URL",
-      "description": "Service status para sa Larawan sa URL."
     },
-    "page": {
-      "title": "Status",
-      "description": "Lahat ng systems ay operational.",
-      "message": "Ang Upload API at CDN links ay tumatakbo."
-    }
-  },
-  "contact": {
-    "seo": {
-      "title": "Contact | Larawan sa URL",
-      "description": "Makipag-ugnayan sa Larawan sa URL support."
-    },
-    "page": {
-      "title": "Contact",
-      "description": "Kailangan ng tulong o gusto mong magbahagi ng feedback? Mag-email sa amin at susubaybayan namin ang inbox at babalikan ka namin sa lalong madaling panahon.",
-      "email": {
-        "label": "Email",
-        "address": "leeqs1010@gmail.com"
+    "status": {
+      "seo": {
+        "title": "Status | Larawan sa URL",
+        "description": "Service status para sa Larawan sa URL."
+      },
+      "page": {
+        "title": "Status",
+        "description": "Lahat ng systems ay operational.",
+        "message": "Ang Upload API at CDN links ay tumatakbo."
       }
-    }
-  },
-  "bookmarklet": {
-    "title": "Larawan sa URL Bookmarklet",
-    "description": "Mag-upload ng mga larawan mula sa anumang webpage nang direkta sa Larawan sa URL sa isang click lang!",
-    "howItWorks": {
-      "title": "Paano ito gumagana",
-      "step1": "Mag-browse sa anumang webpage na may mga larawan",
-      "step2": "I-click ang bookmarklet sa bookmark bar",
-      "step3": "Pumili ng larawan mula sa pahina",
-      "step4": "Kunin ang URL agad at kopyahin!"
     },
-    "installation": {
-      "title": "Pag-install",
-      "step1": {
-        "title": "Hakbang 1: Kopyahin ang Bookmarklet Code",
-        "description": "I-click ang button sa ibaba upang kopyahin ang bookmarklet code sa clipboard."
+    "contact": {
+      "seo": {
+        "title": "Contact | Larawan sa URL",
+        "description": "Makipag-ugnayan sa Larawan sa URL support."
       },
-      "step2": {
-        "title": "Hakbang 2: Idagdag sa Iyong Browser",
-        "description": "Sundin ang mga hakbang na ito batay sa iyong browser:",
-        "chrome": "Chrome/Edge: Pindutin ang Ctrl+Shift+B (Cmd+Shift+B sa Mac) upang ipakita ang bookmark bar, pagkatapos ay i-right-click at piliin ang \"Magdagdag ng pahina\". I-paste ang code bilang URL.",
-        "firefox": "Firefox: I-right-click ang bookmark bar at piliin ang \"Bagong Bookmark\". I-paste ang code bilang Lokasyon.",
-        "safari": "Safari: I-enable ang bookmark bar (Tingnan → Ipakita ang Bookmark Bar), pagkatapos ay i-drag ang code sa bookmark bar.",
-        "edge": "Alternatibo: Gumawa ng bagong bookmark, i-edit ito, at palitan ang URL ng nakopyang code."
-      },
-      "step3": {
-        "title": "Hakbang 3: Simulan na itong Gamitin!",
-        "description": "Bisitahin ang anumang webpage na may mga larawan at i-click ang iyong bookmarklet upang simulan ang pag-upload!"
-      },
-      "copy": "Kopyahin ang Code",
-      "copied": "Nakopya!"
+      "page": {
+        "title": "Contact",
+        "description": "Kailangan ng tulong o gusto mong magbahagi ng feedback? Mag-email sa amin at susubaybayan namin ang inbox at babalikan ka namin sa lalong madaling panahon.",
+        "email": {
+          "label": "Email",
+          "address": "leeqs1010@gmail.com"
+        }
+      }
     },
-    "usage": {
-      "title": "Mga Feature",
-      "description": "Ang bookmarklet ay nagbibigay ng mga sumusunod na feature:",
-      "feature1": "Pumili ng anumang larawan mula sa kasalukuyang webpage",
-      "feature2": "Automatic upload sa Larawan sa URL",
-      "feature3": "Kunin ang shareable URL agad sa isang click para kopyahin"
-    },
-    "note": {
-      "title": "Tandaan",
-      "content": "Ang bookmarklet ay gumagana sa karamihan ng mga website. Ang ilang mga site na may mahigpit na security policies (CORS) ay maaaring pumigil sa pag-upload ng mga larawan."
+    "bookmarklet": {
+      "title": "Larawan sa URL Bookmarklet",
+      "description": "Mag-upload ng mga larawan mula sa anumang webpage nang direkta sa Larawan sa URL sa isang click lang!",
+      "howItWorks": {
+        "title": "Paano ito gumagana",
+        "step1": "Mag-browse sa anumang webpage na may mga larawan",
+        "step2": "I-click ang bookmarklet sa bookmark bar",
+        "step3": "Pumili ng larawan mula sa pahina",
+        "step4": "Kunin ang URL agad at kopyahin!"
+      },
+      "installation": {
+        "title": "Pag-install",
+        "step1": {
+          "title": "Hakbang 1: Kopyahin ang Bookmarklet Code",
+          "description": "I-click ang button sa ibaba upang kopyahin ang bookmarklet code sa clipboard."
+        },
+        "step2": {
+          "title": "Hakbang 2: Idagdag sa Iyong Browser",
+          "description": "Sundin ang mga hakbang na ito batay sa iyong browser:",
+          "chrome": "Chrome/Edge: Pindutin ang Ctrl+Shift+B (Cmd+Shift+B sa Mac) upang ipakita ang bookmark bar, pagkatapos ay i-right-click at piliin ang \"Magdagdag ng pahina\". I-paste ang code bilang URL.",
+          "firefox": "Firefox: I-right-click ang bookmark bar at piliin ang \"Bagong Bookmark\". I-paste ang code bilang Lokasyon.",
+          "safari": "Safari: I-enable ang bookmark bar (Tingnan → Ipakita ang Bookmark Bar), pagkatapos ay i-drag ang code sa bookmark bar.",
+          "edge": "Alternatibo: Gumawa ng bagong bookmark, i-edit ito, at palitan ang URL ng nakopyang code."
+        },
+        "step3": {
+          "title": "Hakbang 3: Simulan na itong Gamitin!",
+          "description": "Bisitahin ang anumang webpage na may mga larawan at i-click ang iyong bookmarklet upang simulan ang pag-upload!"
+        },
+        "copy": "Kopyahin ang Code",
+        "copied": "Nakopya!"
+      },
+      "usage": {
+        "title": "Mga Feature",
+        "description": "Ang bookmarklet ay nagbibigay ng mga sumusunod na feature:",
+        "feature1": "Pumili ng anumang larawan mula sa kasalukuyang webpage",
+        "feature2": "Automatic upload sa Larawan sa URL",
+        "feature3": "Kunin ang shareable URL agad sa isang click para kopyahin"
+      },
+      "note": {
+        "title": "Tandaan",
+        "content": "Ang bookmarklet ay gumagana sa karamihan ng mga website. Ang ilang mga site na may mahigpit na security policies (CORS) ay maaaring pumigil sa pag-upload ng mga larawan."
+      }
     }
   }
 }

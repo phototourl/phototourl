@@ -514,59 +514,59 @@
     },
     "cookie": {
       "seo": {
-          "title": "Süti szabályzat | Fotó Linkké",
-          "description": "Süti szabályzat a Fotó Linkké számára - Ismerje meg, hogyan használjuk a sütiket és a követési technológiákat."
-        },
-        "page": {
+        "title": "Süti szabályzat | Fotó Linkké",
+        "description": "Süti szabályzat a Fotó Linkké számára - Ismerje meg, hogyan használjuk a sütiket és a követési technológiákat."
+      },
+      "page": {
         "title": "Süti szabályzat",
-          "lastUpdated": "Utolsó frissítés: 2026 január",
-          "introduction": "Ez a Süti Szabályzat elmagyarázza, hogyan használja a Fotó Linkké a sütiket és hasonló követési technológiákat, amikor meglátogatja webhelyünket. Szolgáltatásunk használatával Ön beleegyezik a sütik használatába e szabályzatnak megfelelően.",
-          "whatAreCookies": {
-            "title": "Mik a sütik",
-            "content": "A sütik kis szöveges fájlok, amelyeket az Ön eszközére helyeznek, amikor egy webhelyet látogat meg. Széles körben használják, hogy a webhelyek hatékonyabban működjenek és információkat szolgáltassanak a webhelytulajdonosoknak."
+        "lastUpdated": "Utolsó frissítés: 2026 január",
+        "introduction": "Ez a Süti Szabályzat elmagyarázza, hogyan használja a Fotó Linkké a sütiket és hasonló követési technológiákat, amikor meglátogatja webhelyünket. Szolgáltatásunk használatával Ön beleegyezik a sütik használatába e szabályzatnak megfelelően.",
+        "whatAreCookies": {
+          "title": "Mik a sütik",
+          "content": "A sütik kis szöveges fájlok, amelyeket az Ön eszközére helyeznek, amikor egy webhelyet látogat meg. Széles körben használják, hogy a webhelyek hatékonyabban működjenek és információkat szolgáltassanak a webhelytulajdonosoknak."
+        },
+        "howWeUseCookies": {
+          "title": "Hogyan használjuk a sütiket",
+          "content": "A sütiket a következő célokra használjuk:",
+          "item1": "Feltöltési előzményeinek és nyelvi beállításainak tárolásához",
+          "item2": "Webhelyforgalom és felhasználói viselkedés elemzéséhez",
+          "item3": "Személyre szabott hirdetések megjelenítéséhez"
+        },
+        "typesOfCookies": {
+          "title": "A használt sütik típusai",
+          "essential": {
+            "title": "Alapvető sütik",
+            "content": "Ezek a sütik szükségesek a webhely megfelelő működéséhez. Lehetővé teszik az alapvető funkciókat, például nyelvi beállításainak és feltöltési előzményeinek tárolását."
           },
-          "howWeUseCookies": {
-            "title": "Hogyan használjuk a sütiket",
-            "content": "A sütiket a következő célokra használjuk:",
-            "item1": "Feltöltési előzményeinek és nyelvi beállításainak tárolásához",
-            "item2": "Webhelyforgalom és felhasználói viselkedés elemzéséhez",
-            "item3": "Személyre szabott hirdetések megjelenítéséhez"
+          "analytics": {
+            "title": "Elemző sütik",
+            "content": "A Yandex Metrikát használjuk annak elemzésére, hogyan használják a látogatók webhelyünket. Ezek a sütik névtelen információkat gyűjtenek a webhelyhasználatról, hogy segítsenek nekünk javítani szolgáltatásunkat."
           },
-          "typesOfCookies": {
-            "title": "A használt sütik típusai",
-            "essential": {
-              "title": "Alapvető sütik",
-              "content": "Ezek a sütik szükségesek a webhely megfelelő működéséhez. Lehetővé teszik az alapvető funkciókat, például nyelvi beállításainak és feltöltési előzményeinek tárolását."
-            },
-            "analytics": {
-              "title": "Elemző sütik",
-              "content": "A Yandex Metrikát használjuk annak elemzésére, hogyan használják a látogatók webhelyünket. Ezek a sütik névtelen információkat gyűjtenek a webhelyhasználatról, hogy segítsenek nekünk javítani szolgáltatásunkat."
-            },
-            "advertising": {
-              "title": "Hirdetési sütik",
-              "content": "A Google AdSense-t használjuk hirdetések megjelenítéséhez. Ezek a sütik segítenek személyre szabott hirdetéseket szállítani böngészési viselkedése és érdeklődési körei alapján."
-            }
-          },
-          "thirdPartyCookies": {
-            "title": "Harmadik fél sütik",
-            "content": "A következő harmadik fél szolgáltatásokat használjuk, amelyek sütiket állíthatnak be:",
-            "item1": "Google AdSense - Hirdetéshez (a Google Adatvédelmi Irányelvének alárendelve)",
-            "item2": "Yandex Metrika - Webhelyelemzéshez (a Yandex Adatvédelmi Irányelvének alárendelve)"
-          },
-          "manageCookies": {
-            "title": "Sütik kezelése",
-            "content": "A sütiket böngészőbeállításain keresztül vezérelheti és kezelheti. A legtöbb böngésző lehetővé teszi, hogy elutasítsa vagy elfogadja a sütiket, törölje a meglévő sütiket, vagy beállítsa a beállításokat bizonyos webhelyekhez. A sütik letiltása azonban befolyásolhatja szolgáltatásunk funkcionalitását."
-          },
-          "changes": {
-            "title": "Változások ebben a Süti Szabályzatban",
-            "content": "Időnként frissíthetjük ezt a Süti Szabályzatot. Értesítjük Önt minden változásról az új Süti Szabályzat ezen az oldalon való közzétételével és a \"Utolsó frissítés\" dátumának frissítésével."
-          },
-          "contact": {
-            "title": "Lépjen kapcsolatba velünk",
-            "text": "Ha kérdései vannak ezzel a Süti Szabályzattal kapcsolatban, kérjük, lépjen kapcsolatba velünk a következő címen:",
-            "email": "leeqs1010@gmail.com"
+          "advertising": {
+            "title": "Hirdetési sütik",
+            "content": "A Google AdSense-t használjuk hirdetések megjelenítéséhez. Ezek a sütik segítenek személyre szabott hirdetéseket szállítani böngészési viselkedése és érdeklődési körei alapján."
           }
+        },
+        "thirdPartyCookies": {
+          "title": "Harmadik fél sütik",
+          "content": "A következő harmadik fél szolgáltatásokat használjuk, amelyek sütiket állíthatnak be:",
+          "item1": "Google AdSense - Hirdetéshez (a Google Adatvédelmi Irányelvének alárendelve)",
+          "item2": "Yandex Metrika - Webhelyelemzéshez (a Yandex Adatvédelmi Irányelvének alárendelve)"
+        },
+        "manageCookies": {
+          "title": "Sütik kezelése",
+          "content": "A sütiket böngészőbeállításain keresztül vezérelheti és kezelheti. A legtöbb böngésző lehetővé teszi, hogy elutasítsa vagy elfogadja a sütiket, törölje a meglévő sütiket, vagy beállítsa a beállításokat bizonyos webhelyekhez. A sütik letiltása azonban befolyásolhatja szolgáltatásunk funkcionalitását."
+        },
+        "changes": {
+          "title": "Változások ebben a Süti Szabályzatban",
+          "content": "Időnként frissíthetjük ezt a Süti Szabályzatot. Értesítjük Önt minden változásról az új Süti Szabályzat ezen az oldalon való közzétételével és a \"Utolsó frissítés\" dátumának frissítésével."
+        },
+        "contact": {
+          "title": "Lépjen kapcsolatba velünk",
+          "text": "Ha kérdései vannak ezzel a Süti Szabályzattal kapcsolatban, kérjük, lépjen kapcsolatba velünk a következő címen:",
+          "email": "leeqs1010@gmail.com"
         }
+      }
     }
   },
   "blog": {
@@ -610,93 +610,103 @@
         "title": "Hogyan vágjunk képeket kör alakúra - Teljes útmutató",
         "description": "Alakítsunk át bármilyen fényképet tökéletes körkörös képpé ingyenes online körkörös vágóeszközünkkel. Hozzunk létre professzionális kerek képeket profilokhoz, közösségi médiához, logókhoz és még sok máshoz másodpercek alatt.",
         "content": "# Hogyan vágjunk képeket kör alakúra - Teljes útmutató\n\nAlakítsunk át bármilyen fényképet tökéletes körkörös képpé ingyenes online körkörös vágóeszközünkkel. Hozzunk létre professzionális kerek képeket profilokhoz, közösségi médiához, logókhoz és még sok máshoz másodpercek alatt.\n\n## Hogyan vágjunk képeket kör alakúra\n\n### 1. lépés: Töltse fel a képét\nVálasszon ki bármilyen fényképet az eszközéről, amelyet kör alakúra szeretne vágni. Eszközünk támogatja a JPG, PNG, WEBP és GIF formátumokat. Egyszerűen kattintson a feltöltés gombra, vagy húzza be és ejtse le a képfájlt.\n\n### 2. lépés: Helyezze el a képét\nÁllítsa be és középre igazítsa a fényképét a körkörös vágási területen belül. Használja a nagyítás csúszkát, hogy a kép legfontosabb részére összpontosítson, és húzza át a tökéletes kerek vágáshoz.\n\n### 3. lépés: Töltse le a körkörös képét\nMiután elégedett a pozicionálással, kattintson a \"Vágás és letöltés\" gombra, hogy megkapja a tökéletesen kerek képét. Az eredménynek átlátszó háttere lesz, ami bárhol való használatra ideális.\n\n## Népszerű módszerek a körkörösen vágott képek használatára\n\n### Profilkép\nVágjon fényképeket kör alakúra professzionális megjelenésű profilképekhez olyan közösségi média platformokon, mint a Facebook, LinkedIn és Instagram. A körkörös avatárok modern, csiszolt megjelenést teremtenek.\n\n### Közösségi média grafikák\nHozzon létre körkörös képeket Instagram történetekhez, Facebook bejegyzésekhez és Twitter profilokhoz, amelyek kitűnnek a tömegből. A kerek képek vizuális érdeklődést adnak és megtörik a négyzetes bejegyzések monotonitását.\n\n### Kerek logók\nAlakítsa át a logóját vagy márkaképeit tökéletes kerek formákra a konzisztens márkajelzésért minden platformon. A körkörös logók különösen jól működnek alkalmazásikonokhoz és közösségi média márkajelzéshez.\n\n### Ajánló fényképek\nJelenítse meg az ügyfelek vagy kliensek ajánlásait körkörös profilfényképekkel tiszta, professzionális megjelenésért. A kerek képek vizuális konzisztenciát teremtenek és vonzóbbá teszik az ajánlásokat.\n\n### Csapattag fényképek\nHozzon létre konzisztens kerek portrékat vállalati weboldalakhoz, csapatoldalakhoz és alkalmazotti könyvtárakhoz. Az egységes körkörös fényképek koherens, professzionális megjelenést adnak a csapatoldalnak.\n\n## Körkörös vágóeszközünk jellemzői\n\n- **Ingyenes körkörös képvágó** - Hozzon létre körkörös formákat bármilyen képről ingyenesen, rejtett díjak nélkül\n- **Magas felbontású kimenet** - Töltse le a körkörös képeit eredeti minőségükben tömörítés nélkül\n- **Nincs szükség regisztrációra** - Kezdje el azonnal a képek kör alakúra vágását, nincs szükség fiók létrehozására\n- **Privát és biztonságos** - A képei soha nem hagyják el a böngészőjét, teljes magánéletet biztosítva\n- **Könnyen használható felület** - Az egyszerű, intuitív dizájn könnyűvé teszi a kerek képek létrehozását\n- **Minden eszközön működik** - Vágjon képeket kör alakúra asztali számítógépen, táblagépen vagy mobil eszközön\n- **Átlátszó háttér** - Minden körkörös vágás átlátszó hátterekkel jön a maximális sokoldalúságért\n- **Valós idejű előnézet** - Lássa pontosan, hogyan fog kinézni a körkörös képe letöltés előtt\n\n## Körkörös képvágás GYIK\n\n### Hogyan vágjak egy képet kör alakúra?\n\nEgyszerűen töltse fel a képét az eszközünkre, állítsa be a körkörös kereten belül, hogy helyesen pozícionálja az alanyt, és kattintson a \"Vágás és letöltés\" gombra, hogy megkapja a tökéletesen kerek képét. Eszközünk megkönnyíti bármilyen kép azonnali körkörös formátumba vágását tervezési készségek nélkül.\n\n### Hogyan készítsek körkörös profilkép?\n\nTöltse fel a fényképét a körkörös vágóeszközünkre, helyezze az arcát a körkörös keret közepére, majd töltse le az új kerek profilképét. Tökéletes olyan közösségi média profilokhoz, amelyek körkörös képeket használnak, mint a Facebook, LinkedIn vagy Instagram.\n\n### Vághatok fényképeket kerek formákra a telefonomon?\n\nIgen! A körkörös képvágónk minden eszközön működik, beleértve az okostelefonokat és táblagépeket. A mobilbarát felület lehetővé teszi, hogy könnyedén hozzon létre kerek képvágásokat bárhol. Egyszerűen látogassa meg weboldalunkat mobil böngészőjéből - nincs szükség alkalmazás letöltésére.\n\n### Tárolják a feltöltött képeimet?\n\nNem, soha nem tároljuk a képeit a szervereinken. A teljes vágási folyamat közvetlenül a böngészőjében történik, ami azt jelenti, hogy a fényképei teljesen privátak maradnak. Amint elhagyja az oldalt, az összes képadat automatikusan törlődik.\n\n### Milyen képformátumokat használhatok a körkörös vágóeszközzel?\n\nEszközünk minden szabványos képformátummal működik, beleértve a JPG, PNG, WEBP és GIF formátumokat. Bármelyik formátumot feltöltheti, és a körkörösen vágott képe PNG fájlként lesz letöltve átlátszósággal a kör körül.\n\n### A körkörösen vágott képemnek átlátszó háttere lesz?\n\nIgen, amikor letölti a vágott képét, átlátszó háttere lesz a kör körül. Ez ideálissá teszi weboldalakon, dokumentumokban vagy tervezésekben való elhelyezéshez, ahol csak a körkörös rész legyen látható.\n\n### Beállíthatom a körkörös vágás méretét?\n\nA körkörös vágás tökéletes 1:1 képarányt tart fenn, de nagyíthat vagy kicsinyíthet, hogy beállítsa, mennyi képe jelenik meg a körben. Ez lehetővé teszi, hogy a kép meghatározott részeire összpontosítson a körkörös forma megtartása mellett.\n\n## Tippek a tökéletes körkörös vágásokhoz\n\n### Középre igazítsa az alanyt\nA legjobb eredményekért válasszon olyan képeket, ahol a fő alany középre van igazítva vagy a keret közepére helyezhető. Ez különösen fontos a profilképhez és portrékhoz, ahol az arc legyen a fókuszpont.\n\n### Fontolja meg a vágási területet\nNe feledje, hogy a kép sarkai ki lesznek vágva. Kerülje azokat a képeket, ahol a fontos részletek közel vannak a fénykép széléhez, mivel ezek elvesznek a körkörös vágásban.\n\n### Használjon nagy felbontású képeket\nA nagy minőségű képekkel való kezdés jobb körkörös vágásokat eredményez. Az alacsony felbontású vagy kis képek pixelesek lehetnek vágáskor, ezért használja a legmagasabb minőségű forrásképeket.\n\n### Figyeljen a képarányra\nA négyzetes képek általában a legjobban működnek a körkörös vágáshoz. Ha az eredeti képe nagyon széles vagy magas, jelentős részeket veszíthet a vágási folyamat során. Ha szükséges, fontolja meg először a négyzetre vágást.\n\n### Állítson be optimális keretezéshez\nHasználja az eszközünk pozicionálási funkcióját a kép nagyításához és beállításához. Portrékhoz próbálja középre igazítani az arcot némi margóval körülötte a legjobb professzionális megjelenésért. Termékekhez középre igazítsa a fő elemet a körben.\n\n### Hozzon létre konzisztens készleteket\nTöbb körkörös kép létrehozásakor (például csapatfényképekhez) próbáljon konzisztens keretezést, háttérstílusokat és méreteket fenntartani koherens megjelenésért minden képen.\n\n## Gyakori használatok a körkörösen vágott képekhez\n\n| Alkalmazás | A körkörös vágás előnyei |\n|------------|------------------------|\n| Közösségi média profilok | A legtöbb platform körkörös avatárokat jelenít meg - a tökéletesen vágott körkörös kép professzionálisnak tűnik |\n| Csapattag fényképek | Hozzon létre konzisztens kerek portrékat vállalati weboldalakhoz és könyvtárakhoz |\n| Online portfóliók | A kerek képek vizuális érdeklődést és modern esztétikát teremtenek |\n| Digitális névjegykártyák | A körkörösen vágott profilkép tisztábbnak és professzionálisabbnak tűnik |\n| Termék bélyegképek | A kerek termékképek koherens katalógus megjelenést teremtenek |\n| Alkalmazásikonok | A körkörös ikonok szabványosak a mobilalkalmazásokhoz |\n| Weboldal ajánlások | A kerek ügyfélfényképek hitelességet és vizuális vonzerőt adnak |\n\n## Miért válassza a körkörös képvágóeszközünket\n\nAmikor online körkörös vágásról van szó, eszközünk számos előnyt kínál:\n\n- **Azonnali feldolgozás** - Vágjon képet kör alakúra másodpercek alatt várakozás nélkül feltöltésre vagy szerver feldolgozásra\n- **Tökéletes körök minden alkalommal** - Eszközünk tökéletes kerek vágásokat biztosít tiszta szélekkel és torzulás nélkül\n- **Intuitív vezérlés** - Könnyedén pozícionálja a képét pontosan, ahogy szeretné a körben nagyítási és húzási funkciókkal\n- **Nincs vízjel** - Más körkörös vágóeszközökkel ellentétben nem adunk vízjelet a képeikhez\n- **Minden kép típussal működik** - Vágjon fényképeket, grafikákat, illusztrációkat vagy bármilyen képet körkörössé\n- **Böngésző alapú** - Nincs szükség szoftver telepítésre, közvetlenül a web böngészőjében működik\n- **Magánélet első** - Minden feldolgozás helyben történik a böngészőjében, a képei soha nem hagyják el az eszközét\n\nAkár professzionális használatra, akár személyes projektekhez kell kör alakúra vágni képeket, körkörös fényképvágóeszközünk könnyedén kezeli az összeset. Hozzon létre kerek képvágásokat csak néhány kattintással!\n\n## Kezdés\n\nKészen áll az első körkörös kép létrehozására? Látogassa meg [Körkörös vágóeszközünket](/circle-crop) és kezdje el a vágást még ma. Teljesen ingyenes, nem igényel regisztrációt, és csak másodpercekbe telik professzionális körkörös képek létrehozása.\n\n---\n\n*Utolsó frissítés: 2026. január*"
+      },
+      "photo-to-rounded-corners-guide": {
+        "title": "Képek kerekített sarkokkal – Útmutató",
+        "description": "Adj kerekített sarkokat bármely képnek az ingyenes eszközzel. Miniatűrökhöz, kártyákhoz, felülethez és közösségi médiához másodpercek alatt.",
+        "content": "# Képek kerekített sarkokkal – Útmutató\n\nBármely kép sarkait kerekítsd az ingyenes online eszközzel. Miniatűrökhöz, kártyákhoz, felületi elemekhez és közösségi médiához ideális, tervezési tapasztalat nélkül.\n\n## Hogyan kerekítsd a kép sarkait\n\n### 1. lépés: Töltsd fel a képet\nVálassz fényképet a eszközödről. Formátumok: JPG, PNG, WEBP, GIF. Kattintás vagy húzd és ejts.\n\n### 2. lépés: Állítsd be a sarok sugarat\nA csúszkával állítsd be a kerekítés mértékét. Az előnézet valós időben frissül.\n\n### 3. lépés: Töltés le\nKattints a \"Letöltés\" gombra a kerekített sarkú kép mentéséhez; használd elrendezésben, weben vagy posztokban.\n\n## Gyakori használat\n\n### Miniatűrök és kártyák\nA kerekített sarkok a rácsoknak és kártyáknak tiszta, modern megjelenést adnak.\n\n### Közösségi média és hirdetések\nA puha sarkú képek jobban kiemelkednek a feedben és a hirdetésekben, barátságosabb hatást keltenek.\n\n### Felület és alkalmazások\nAz ikonok, avatárok és gombok gyakran kerekített sarkúak; az eszköz segít több képet egységesíteni.\n\n### Prezentációk és dokumentumok\nUgyanaz a sugár képernyőképeken és grafikákon a diákat és dokumentumokat konzisztenssé teszi.\n\n## Mit nyújt az eszköz\n\n- **Ingyenes és azonnali** – regisztráció nélkül, vízjel nélkül, korlát nélkül\n- **Beállítható sugár** – enyhe kerekítéstől a kapszula formáig\n- **Valós idejű előnézet** – a letöltés előtt látod az eredményt\n- **Adatvédelem** – böngészőben történik a feldolgozás; nem tárolunk képeket\n- **Minden eszköz** – PC, tablet, telefon\n\n## Gyakori kérdések\n\n### Hogyan kerekítsem a fénykép sarkait?\n\nNyisd meg a [Kerekített sarkok eszközt](/rounded-corners), tölts fel képet, állítsd be a sugarat, kattints a Letöltésre.\n\n### Milyen formátumok támogatottak?\n\nJPG, PNG, WEBP, GIF. A letöltés megtartja az eredeti formátumot (vagy PNG átlátszósághoz).\n\n### Működik telefonon?\n\nIgen. Az eszköz a mobil- és tabletböngészőben fut, alkalmazás nélkül.\n\n### Tárolják a képeimet?\n\nNem. Minden feldolgozás a böngésződben történik; nem tárolunk semmit.\n\n## Kapcsolódó eszközök\n\n- [Fotó Linkké](/) – kép linkké alakítása\n- [Körkörös vágás](/circle-crop) – kör alakú képek készítése\n- [Kerekített sarkok](/rounded-corners) – sarkok kerekítése\n- [Háttér eltávolítás](/remove-background) – háttér eltávolítása AI-val\n\n---\n\n*Utolsó frissítés: 2026. február*"
+      },
+      "photo-to-remove-background-guide": {
+        "title": "Háttér eltávolítás – Útmutató",
+        "description": "Távolítsa el a háttér a képekről egy kattintással ingyenes AI eszközzel. Tiszta kivágások termékekhez, portrékhoz, logókhoz és másokhoz.",
+        "content": "# Háttér eltávolítás – Útmutató\n\nTávolítsa el a háttér a képekről egy kattintással ingyenes online eszközzel. Tiszta kivágások termékfotókhoz, portrékhoz, logókhoz – tervezési tudás nélkül.\n\n## Hogyan távolítsa el a hátteret\n\n### 1. lépés: Kép feltöltése\nVálasszon egy fényképet az eszközről. Támogatott: JPG, PNG, WEBP, GIF. Kattintson vagy húzza és ejtse.\n\n### 2. lépés: Az AI eltávolítja a hátteret\nAz eszköz automatikusan felismeri a tárgyat és eltávolítja a hátteret. A feldolgozás másodpercekig tart. Valós idejű előnézet átlátszó háttérrel.\n\n### 3. lépés: Letöltés\nKattintson a \"Letöltés\" gombra a háttér nélküli kép mentéséhez. Kimenet PNG átlátszósággal, designhoz, e-kereskedelmezéshez vagy közösségi médiához.\n\n## Gyakori felhasználás\n\n### Termékfotók\nTiszta kivágások online boltokhoz, piacokhoz és hirdetésekhez. Átlátszó háttér bármilyen elrendezéshez.\n\n### Portrék és profilok\nTávolítsa el a zsúfolt hátteret portrékból önéletrajzhoz, LinkedInhez vagy profilhoz.\n\n### Logók és grafikák\nVálassza ki a logókat és grafikákat fényképekről vagy szkennelésekről. Átlátszó PNG átfedésekhez és bemutatókhoz.\n\n### Közösségi média és marketing\nSzembetűnő képek bejegyzésekhez, sztorikhoz és hirdetésekhez. Átlátszó kivágások bármilyen sablonhoz.\n\n## Mit kínál az eszköz\n\n- **Ingyenes és AI** – nincs regisztráció, vízjel, korlát\n- **Egy kattintásos eltávolítás** – automatikus tárgyfelismerés és tiszta szélek\n- **Átlátszó PNG** – bármilyen designhoz vagy platformhoz\n- **Adatvédelem** – böngészőben feldolgozva; nem tárolunk képeket\n- **Minden eszköz** – PC, tablet, telefon\n\n## Gyakori kérdések\n\n### Hogyan távolítsam el a hátteret egy fényképről?\n\nNyissa meg a [Háttér eltávolító eszközt](/remove-background), töltsön fel képet. Az eszköz felismeri a tárgyat és eltávolítja a hátteret. Előnézet és letöltés átlátszó PNG-ként.\n\n### Milyen képformátumok támogatottak?\n\nJPG, PNG, WEBP, GIF. Az eredmény mindig PNG-ként töltődik le átlátszó háttérrel.\n\n### Tárolják a képeimet?\n\nNem. A feldolgozás a böngészőjében történik; semmit nem tárolunk.\n\n### Működik telefonon?\n\nIgen. Az eszköz bármilyen böngészőben működik telefonon és tableten.\n\n## Kapcsolódó eszközök\n\n- [Kép URL-re](/) – kép linkké\n- [Körkörös vágás](/circle-crop) – kerek képek\n- [Kerekített sarkok](/rounded-corners) – sarkok kerekítése\n- [Háttér eltávolítás](/remove-background) – háttér eltávolítás AI-val\n\n---\n\n*Utolsó frissítés: 2026. március*"
       }
-    }
-  },
-  "docs": {
-    "seo": {
-      "title": "Dokumentáció | Fotó Linkké",
-      "description": "Dokumentáció a Fotó Linkké-hoz."
     },
-    "page": {
-      "title": "Dokumentáció",
-      "description": "Gyors kezdés: töltse fel a képet és kapjon közvetlen URL-t. Használja a másolás/megnyitás gombokat vagy töltse le a linket .txt formátumban.",
-      "features": {
-        "title": "Támogatott funkciók:",
-        "items": {
-          "1": "Támogatott: JPG, PNG, WEBP, GIF",
-          "2": "Gyors szállítás CDN-en keresztül, amikor a tárhely engedélyezve van",
-          "3": "Barátságos karbantartási hibák, amikor a szolgáltatás nem elérhető"
+    "docs": {
+      "seo": {
+        "title": "Dokumentáció | Fotó Linkké",
+        "description": "Dokumentáció a Fotó Linkké-hoz."
+      },
+      "page": {
+        "title": "Dokumentáció",
+        "description": "Gyors kezdés: töltse fel a képet és kapjon közvetlen URL-t. Használja a másolás/megnyitás gombokat vagy töltse le a linket .txt formátumban.",
+        "features": {
+          "title": "Támogatott funkciók:",
+          "items": {
+            "1": "Támogatott: JPG, PNG, WEBP, GIF",
+            "2": "Gyors szállítás CDN-en keresztül, amikor a tárhely engedélyezve van",
+            "3": "Barátságos karbantartási hibák, amikor a szolgáltatás nem elérhető"
+          }
         }
       }
-    }
-  },
-  "status": {
-    "seo": {
-      "title": "Állapot | Fotó Linkké",
-      "description": "Szolgáltatás állapota a Fotó Linkké-hoz."
     },
-    "page": {
-      "title": "Állapot",
-      "description": "Minden rendszer működik.",
-      "message": "A feltöltési API és a CDN linkek futnak."
-    }
-  },
-  "contact": {
-    "seo": {
-      "title": "Kapcsolat | Fotó Linkké",
-      "description": "Lépjen kapcsolatba a Fotó Linkké támogatással."
-    },
-    "page": {
-      "title": "Kapcsolat",
-      "description": "Segítségre van szüksége vagy szeretne visszajelzést adni? Küldjön nekünk e-mailt, és figyeljük a postafiókot, és a lehető leghamarabb válaszolunk.",
-      "email": {
-        "label": "E-mail",
-        "address": "leeqs1010@gmail.com"
+    "status": {
+      "seo": {
+        "title": "Állapot | Fotó Linkké",
+        "description": "Szolgáltatás állapota a Fotó Linkké-hoz."
+      },
+      "page": {
+        "title": "Állapot",
+        "description": "Minden rendszer működik.",
+        "message": "A feltöltési API és a CDN linkek futnak."
       }
-    }
-  },
-  "bookmarklet": {
-    "title": "Fotó Linkké Bookmarklet",
-    "description": "Töltsön fel képeket bármely weboldalról közvetlenül a Fotó Linkké-re egyetlen kattintással!",
-    "howItWorks": {
-      "title": "Hogyan működik",
-      "step1": "Böngésszen bármely képeket tartalmazó weboldalt",
-      "step2": "Kattintson a könyvjelzősávban lévő bookmarklet-re",
-      "step3": "Válasszon ki egy képet az oldalról",
-      "step4": "Azonnal kapja meg az URL-t és másolja!"
     },
-    "installation": {
-      "title": "Telepítés",
-      "step1": {
-        "title": "1. lépés: Másolja a Bookmarklet kódját",
-        "description": "Kattintson az alábbi gombra a bookmarklet kód vágólapra másolásához."
+    "contact": {
+      "seo": {
+        "title": "Kapcsolat | Fotó Linkké",
+        "description": "Lépjen kapcsolatba a Fotó Linkké támogatással."
       },
-      "step2": {
-        "title": "2. lépés: Adja hozzá a böngészőjéhez",
-        "description": "Kövesse ezeket a lépéseket a böngészője alapján:",
-        "chrome": "Chrome/Edge: Nyomja meg a Ctrl+Shift+B (Mac-en Cmd+Shift+B) billentyűt a könyvjelzősáv megjelenítéséhez, majd kattintson jobb gombbal és válassza a \"Oldal hozzáadása\" lehetőséget. Illessze be a kódot URL-ként.",
-        "firefox": "Firefox: Kattintson jobb gombbal a könyvjelzősávra és válassza a \"Új könyvjelző\" lehetőséget. Illessze be a kódot Helyszínként.",
-        "safari": "Safari: Engedélyezze a könyvjelzősávot (Nézet → Könyvjelzősáv megjelenítése), majd húzza a kódot a könyvjelzősávba.",
-        "edge": "Alternatíva: Hozzon létre egy új könyvjelzőt, szerkessze, és cserélje le az URL-t a másolt kódra."
-      },
-      "step3": {
-        "title": "3. lépés: Kezdje el használni!",
-        "description": "Látogasson el bármely képeket tartalmazó weboldalra és kattintson a bookmarklet-jére a feltöltés megkezdéséhez!"
-      },
-      "copy": "Kód másolása",
-      "copied": "Másolva!"
+      "page": {
+        "title": "Kapcsolat",
+        "description": "Segítségre van szüksége vagy szeretne visszajelzést adni? Küldjön nekünk e-mailt, és figyeljük a postafiókot, és a lehető leghamarabb válaszolunk.",
+        "email": {
+          "label": "E-mail",
+          "address": "leeqs1010@gmail.com"
+        }
+      }
     },
-    "usage": {
-      "title": "Funkciók",
-      "description": "A bookmarklet a következő funkciókat nyújtja:",
-      "feature1": "Válasszon ki bármilyen képet az aktuális weboldalról",
-      "feature2": "Automatikus feltöltés a Fotó Linkké-re",
-      "feature3": "Azonnal kapjon megosztható URL-t egy kattintással a másoláshoz"
-    },
-    "note": {
-      "title": "Megjegyzés",
-      "content": "A bookmarklet a legtöbb webhelyen működik. Néhány szigorú biztonsági irányelvvel (CORS) rendelkező webhely megakadályozhatja a képek feltöltését."
+    "bookmarklet": {
+      "title": "Fotó Linkké Bookmarklet",
+      "description": "Töltsön fel képeket bármely weboldalról közvetlenül a Fotó Linkké-re egyetlen kattintással!",
+      "howItWorks": {
+        "title": "Hogyan működik",
+        "step1": "Böngésszen bármely képeket tartalmazó weboldalt",
+        "step2": "Kattintson a könyvjelzősávban lévő bookmarklet-re",
+        "step3": "Válasszon ki egy képet az oldalról",
+        "step4": "Azonnal kapja meg az URL-t és másolja!"
+      },
+      "installation": {
+        "title": "Telepítés",
+        "step1": {
+          "title": "1. lépés: Másolja a Bookmarklet kódját",
+          "description": "Kattintson az alábbi gombra a bookmarklet kód vágólapra másolásához."
+        },
+        "step2": {
+          "title": "2. lépés: Adja hozzá a böngészőjéhez",
+          "description": "Kövesse ezeket a lépéseket a böngészője alapján:",
+          "chrome": "Chrome/Edge: Nyomja meg a Ctrl+Shift+B (Mac-en Cmd+Shift+B) billentyűt a könyvjelzősáv megjelenítéséhez, majd kattintson jobb gombbal és válassza a \"Oldal hozzáadása\" lehetőséget. Illessze be a kódot URL-ként.",
+          "firefox": "Firefox: Kattintson jobb gombbal a könyvjelzősávra és válassza a \"Új könyvjelző\" lehetőséget. Illessze be a kódot Helyszínként.",
+          "safari": "Safari: Engedélyezze a könyvjelzősávot (Nézet → Könyvjelzősáv megjelenítése), majd húzza a kódot a könyvjelzősávba.",
+          "edge": "Alternatíva: Hozzon létre egy új könyvjelzőt, szerkessze, és cserélje le az URL-t a másolt kódra."
+        },
+        "step3": {
+          "title": "3. lépés: Kezdje el használni!",
+          "description": "Látogasson el bármely képeket tartalmazó weboldalra és kattintson a bookmarklet-jére a feltöltés megkezdéséhez!"
+        },
+        "copy": "Kód másolása",
+        "copied": "Másolva!"
+      },
+      "usage": {
+        "title": "Funkciók",
+        "description": "A bookmarklet a következő funkciókat nyújtja:",
+        "feature1": "Válasszon ki bármilyen képet az aktuális weboldalról",
+        "feature2": "Automatikus feltöltés a Fotó Linkké-re",
+        "feature3": "Azonnal kapjon megosztható URL-t egy kattintással a másoláshoz"
+      },
+      "note": {
+        "title": "Megjegyzés",
+        "content": "A bookmarklet a legtöbb webhelyen működik. Néhány szigorú biztonsági irányelvvel (CORS) rendelkező webhely megakadályozhatja a képek feltöltését."
+      }
     }
   }
 }

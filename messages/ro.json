@@ -512,59 +512,59 @@
     },
     "cookie": {
       "seo": {
-          "title": "Politica cookie-urilor | Poză în URL",
-          "description": "Politica cookie-urilor pentru Poză în URL - Aflați cum folosim cookie-urile și tehnologiile de urmărire."
-        },
-        "page": {
+        "title": "Politica cookie-urilor | Poză în URL",
+        "description": "Politica cookie-urilor pentru Poză în URL - Aflați cum folosim cookie-urile și tehnologiile de urmărire."
+      },
+      "page": {
         "title": "Politica cookie-urilor",
-          "lastUpdated": "Ultima actualizare: ianuarie 2026",
-          "introduction": "Această Politică de Cookie-uri explică modul în care Poză în URL folosește cookie-uri și tehnologii similare de urmărire când vizitați site-ul nostru web. Prin utilizarea serviciului nostru, sunteți de acord cu utilizarea cookie-urilor în conformitate cu această politică.",
-          "whatAreCookies": {
-            "title": "Ce sunt cookie-urile",
-            "content": "Cookie-urile sunt fișiere text mici care sunt plasate pe dispozitivul dvs. când vizitați un site web. Sunt utilizate pe scară largă pentru a face site-urile web să funcționeze mai eficient și pentru a furniza informații proprietarilor de site-uri web."
+        "lastUpdated": "Ultima actualizare: ianuarie 2026",
+        "introduction": "Această Politică de Cookie-uri explică modul în care Poză în URL folosește cookie-uri și tehnologii similare de urmărire când vizitați site-ul nostru web. Prin utilizarea serviciului nostru, sunteți de acord cu utilizarea cookie-urilor în conformitate cu această politică.",
+        "whatAreCookies": {
+          "title": "Ce sunt cookie-urile",
+          "content": "Cookie-urile sunt fișiere text mici care sunt plasate pe dispozitivul dvs. când vizitați un site web. Sunt utilizate pe scară largă pentru a face site-urile web să funcționeze mai eficient și pentru a furniza informații proprietarilor de site-uri web."
+        },
+        "howWeUseCookies": {
+          "title": "Cum folosim cookie-urile",
+          "content": "Folosim cookie-uri în următoarele scopuri:",
+          "item1": "Pentru a stoca istoricul dvs. de încărcări și preferințele de limbă",
+          "item2": "Pentru a analiza traficul site-ului web și comportamentul utilizatorilor",
+          "item3": "Pentru a afișa anunțuri personalizate"
+        },
+        "typesOfCookies": {
+          "title": "Tipuri de cookie-uri pe care le folosim",
+          "essential": {
+            "title": "Cookie-uri esențiale",
+            "content": "Aceste cookie-uri sunt necesare pentru funcționarea corectă a site-ului web. Ele permit funcționalități de bază precum stocarea preferințelor dvs. de limbă și a istoricului de încărcări."
           },
-          "howWeUseCookies": {
-            "title": "Cum folosim cookie-urile",
-            "content": "Folosim cookie-uri în următoarele scopuri:",
-            "item1": "Pentru a stoca istoricul dvs. de încărcări și preferințele de limbă",
-            "item2": "Pentru a analiza traficul site-ului web și comportamentul utilizatorilor",
-            "item3": "Pentru a afișa anunțuri personalizate"
+          "analytics": {
+            "title": "Cookie-uri de analiză",
+            "content": "Folosim Yandex Metrika pentru a analiza modul în care vizitatorii folosesc site-ul nostru web. Aceste cookie-uri colectează informații anonime despre utilizarea site-ului web pentru a ne ajuta să îmbunătățim serviciul nostru."
           },
-          "typesOfCookies": {
-            "title": "Tipuri de cookie-uri pe care le folosim",
-            "essential": {
-              "title": "Cookie-uri esențiale",
-              "content": "Aceste cookie-uri sunt necesare pentru funcționarea corectă a site-ului web. Ele permit funcționalități de bază precum stocarea preferințelor dvs. de limbă și a istoricului de încărcări."
-            },
-            "analytics": {
-              "title": "Cookie-uri de analiză",
-              "content": "Folosim Yandex Metrika pentru a analiza modul în care vizitatorii folosesc site-ul nostru web. Aceste cookie-uri colectează informații anonime despre utilizarea site-ului web pentru a ne ajuta să îmbunătățim serviciul nostru."
-            },
-            "advertising": {
-              "title": "Cookie-uri publicitare",
-              "content": "Folosim Google AdSense pentru afișarea anunțurilor. Aceste cookie-uri ajută la livrarea anunțurilor personalizate pe baza comportamentului dvs. de navigare și a intereselor dvs."
-            }
-          },
-          "thirdPartyCookies": {
-            "title": "Cookie-uri terțe",
-            "content": "Folosim următoarele servicii terțe care pot seta cookie-uri:",
-            "item1": "Google AdSense - Pentru publicitate (subiect la Politica de Confidențialitate Google)",
-            "item2": "Yandex Metrika - Pentru analiza site-ului web (subiect la Politica de Confidențialitate Yandex)"
-          },
-          "manageCookies": {
-            "title": "Gestionarea cookie-urilor",
-            "content": "Puteți controla și gestiona cookie-urile prin setările browserului dvs. Majoritatea browserelor vă permit să refuzați sau să acceptați cookie-uri, să ștergeți cookie-urile existente sau să setați preferințe pentru anumite site-uri web. Cu toate acestea, dezactivarea cookie-urilor poate afecta funcționalitatea serviciului nostru."
-          },
-          "changes": {
-            "title": "Modificări ale acestei Politici de Cookie-uri",
-            "content": "Putem actualiza această Politică de Cookie-uri din când în când. Vă vom notifica despre orice modificări prin publicarea noii Politici de Cookie-uri pe această pagină și actualizarea datei \"Ultima actualizare\"."
-          },
-          "contact": {
-            "title": "Contactați-ne",
-            "text": "Dacă aveți întrebări despre această Politică de Cookie-uri, vă rugăm să ne contactați la",
-            "email": "leeqs1010@gmail.com"
+          "advertising": {
+            "title": "Cookie-uri publicitare",
+            "content": "Folosim Google AdSense pentru afișarea anunțurilor. Aceste cookie-uri ajută la livrarea anunțurilor personalizate pe baza comportamentului dvs. de navigare și a intereselor dvs."
           }
+        },
+        "thirdPartyCookies": {
+          "title": "Cookie-uri terțe",
+          "content": "Folosim următoarele servicii terțe care pot seta cookie-uri:",
+          "item1": "Google AdSense - Pentru publicitate (subiect la Politica de Confidențialitate Google)",
+          "item2": "Yandex Metrika - Pentru analiza site-ului web (subiect la Politica de Confidențialitate Yandex)"
+        },
+        "manageCookies": {
+          "title": "Gestionarea cookie-urilor",
+          "content": "Puteți controla și gestiona cookie-urile prin setările browserului dvs. Majoritatea browserelor vă permit să refuzați sau să acceptați cookie-uri, să ștergeți cookie-urile existente sau să setați preferințe pentru anumite site-uri web. Cu toate acestea, dezactivarea cookie-urilor poate afecta funcționalitatea serviciului nostru."
+        },
+        "changes": {
+          "title": "Modificări ale acestei Politici de Cookie-uri",
+          "content": "Putem actualiza această Politică de Cookie-uri din când în când. Vă vom notifica despre orice modificări prin publicarea noii Politici de Cookie-uri pe această pagină și actualizarea datei \"Ultima actualizare\"."
+        },
+        "contact": {
+          "title": "Contactați-ne",
+          "text": "Dacă aveți întrebări despre această Politică de Cookie-uri, vă rugăm să ne contactați la",
+          "email": "leeqs1010@gmail.com"
         }
+      }
     }
   },
   "blog": {
@@ -608,93 +608,103 @@
         "title": "Cum să decupezi imagini în formă circulară - Ghid complet",
         "description": "Transformă orice fotografie într-o imagine circulară perfectă cu instrumentul nostru gratuit de decupare circulară online. Creează imagini rotunde profesionale pentru profiluri, rețele sociale, logo-uri și multe altele în doar câteva secunde.",
         "content": "# Cum să decupezi imagini în formă circulară - Ghid complet\n\nTransformă orice fotografie într-o imagine circulară perfectă cu instrumentul nostru gratuit de decupare circulară online. Creează imagini rotunde profesionale pentru profiluri, rețele sociale, logo-uri și multe altele în doar câteva secunde.\n\n## Cum să decupezi imagini în formă circulară\n\n### Pasul 1: Încarcă-ți imaginea\nSelectează orice fotografie de pe dispozitivul tău pe care vrei să o decupezi în formă circulară. Instrumentul nostru suportă formatele JPG, PNG, WEBP și GIF. Pur și simplu fă clic pe butonul de încărcare sau trage și plasează fișierul tău de imagine.\n\n### Pasul 2: Plasează-ți imaginea\nAjustează și centrează fotografia ta în zona de decupare circulară. Folosește glisorul de zoom pentru a te concentra pe partea cea mai importantă a imaginii tale și trage pentru a o repoziționa pentru o decupare rotundă perfectă.\n\n### Pasul 3: Descarcă-ți imaginea circulară\nOdată ce ești mulțumit cu poziționarea, fă clic pe \"Decupează și descarcă\" pentru a obține imaginea ta perfect rotunjită. Rezultatul va avea un fundal transparent, făcându-l perfect pentru utilizare oriunde.\n\n## Moduri populare de utilizare a imaginilor decupate circular\n\n### Fotografii de profil\nDecupează fotografii în formă circulară pentru imagini de profil cu aspect profesional pe platforme de rețele sociale precum Facebook, LinkedIn și Instagram. Avatarele circulare creează un aspect modern, lustruit.\n\n### Grafică pentru rețele sociale\nCreează imagini circulare pentru poveștile Instagram, postările Facebook și profilele Twitter care se remarcă din mulțime. Imaginile rotunde adaugă interes vizual și sparg monotonia postărilor pătrate.\n\n### Logo-uri rotunde\nTransformă logo-ul sau imaginile tale de brand în forme perfect rotunde pentru branding consistent pe toate platformele. Logo-urile circulare funcționează deosebit de bine pentru icoane de aplicații și branding pe rețele sociale.\n\n### Fotografii de recomandări\nAfișează recomandări de clienți cu fotografii de profil circulare pentru un aspect curat și profesional. Imaginile rotunde creează consistență vizuală și fac recomandările tale mai atractive.\n\n### Fotografii ale membrilor echipei\nCreează portrete rotunde consistente pentru site-uri web corporative, pagini de echipă și directoare de angajați. Fotografiile circulare uniforme dau paginii tale de echipă un aspect coeziv și profesional.\n\n## Caracteristici ale instrumentului nostru de decupare circulară\n\n- **Decupator de imagini circulare gratuit** - Creează forme circulare din orice imagine fără cost, fără taxe ascunse\n- **Ieșire de înaltă rezoluție** - Descarcă imaginile tale circulare în calitatea lor originală fără compresie\n- **Nu este necesară înregistrarea** - Începe să decupezi imagini în cerc instantaneu, nu este necesară crearea contului\n- **Privat și sigur** - Imaginile tale nu părăsesc niciodată browserul tău, asigurând confidențialitate completă\n- **Interfață ușor de folosit** - Design simplu și intuitiv face crearea imaginilor rotunde fără efort\n- **Funcționează pe toate dispozitivele** - Decupează imagini în formă circulară pe desktop, tabletă sau dispozitive mobile\n- **Fundal transparent** - Toate decupările circulare vin cu fundaluri transparente pentru versatilitate maximă\n- **Previzualizare în timp real** - Vezi exact cum va arăta imaginea ta circulară înainte de descărcare\n\n## Întrebări frecvente despre decuparea circulară a imaginilor\n\n### Cum decupez o imagine în formă circulară?\n\nPur și simplu încarcă imaginea ta în instrumentul nostru, ajusteaz-o în cadrul circular pentru a poziționa corect subiectul și fă clic pe \"Decupează și descarcă\" pentru a obține imaginea ta perfect rotundă. Instrumentul nostru face ușor să decupezi orice imagine în format circular instantaneu fără a avea nevoie de abilități de design.\n\n### Cum fac o fotografie de profil circulară?\n\nÎncarcă fotografia ta în instrumentul nostru de decupare circulară, plasează-ți fața în centrul cadrului circular, apoi descarcă noua ta fotografie de profil rotundă. Este perfectă pentru profilele de rețele sociale care folosesc imagini circulare precum Facebook, LinkedIn sau Instagram.\n\n### Pot decupa fotografii în forme rotunde pe telefonul meu?\n\nDa! Decupatorul nostru de imagini circulare funcționează pe toate dispozitivele, inclusiv smartphone-uri și tablete. Interfața prietenoasă pentru mobile îți permite să creezi cu ușurință decupări circulare de imagini oriunde. Pur și simplu vizitează site-ul nostru din browserul tău mobil - nu este necesară descărcarea aplicației.\n\n### Stocați imaginile pe care le încarc?\n\nNu, nu stocăm niciodată imaginile tale pe serverele noastre. Întregul proces de decupare are loc direct în browserul tău, ceea ce înseamnă că fotografiile tale rămân complet private. Odată ce părăsești pagina, toate datele imaginii sunt eliminate automat.\n\n### Ce formate de imagine pot folosi cu instrumentul de decupare circulară?\n\nInstrumentul nostru funcționează cu toate formatele standard de imagine, inclusiv JPG, PNG, WEBP și GIF. Poți încărca oricare dintre aceste formate și imaginea ta circulară decupată va fi descărcată ca fișier PNG cu transparență în jurul cercului.\n\n### Va avea imaginea mea circulară decupată un fundal transparent?\n\nDa, când descarci imaginea ta decupată, va avea un fundal transparent în jurul cercului. Acest lucru o face perfectă pentru plasarea pe site-uri web, documente sau design-uri unde vrei doar ca porțiunea circulară să fie vizibilă.\n\n### Pot ajusta dimensiunea decupării circulare?\n\nDecuparea circulară menține un raport de aspect perfect 1:1, dar poți mări sau micșora pentru a ajusta cât de mult din imaginea ta apare în cerc. Acest lucru îți permite să te concentrezi pe părți specifice ale imaginii tale menținând forma circulară.\n\n## Sfaturi pentru imagini pentru decupări circulare perfecte\n\n### Centrează-ți subiectul\nPentru cele mai bune rezultate, alege imagini unde subiectul principal este centrat sau poate fi poziționat în centrul cadrului. Acest lucru este deosebit de important pentru fotografii de profil și portrete unde fața ar trebui să fie punctul focal.\n\n### Consideră zona de decupare\nAmintește-ți că colțurile imaginii tale vor fi decupate. Evită imagini unde detaliile importante sunt aproape de marginile fotografiei, deoarece acestea se vor pierde în decuparea circulară.\n\n### Folosește imagini de înaltă rezoluție\nÎnceperea cu imagini de înaltă calitate va rezulta în decupări circulare mai bune. Imaginile de rezoluție mică sau imaginile mici pot apărea pixelate când sunt decupate, așa că folosește imaginile sursă de cea mai înaltă calitate disponibile.\n\n### Atenție la raportul de aspect\nImaginile pătrate funcționează de obicei cel mai bine pentru decuparea circulară. Dacă imaginea ta originală este foarte lată sau înaltă, poți pierde porțiuni semnificative în procesul de decupare. Consideră să decupezi mai întâi la pătrat dacă este necesar.\n\n### Ajustează pentru un cadru optim\nFolosește funcția de poziționare a instrumentului nostru pentru a mări și ajusta imaginea ta. Pentru portrete, încearcă să centrezi fața cu ceva marjă în jur pentru cel mai bun aspect profesional. Pentru produse, centrează articolul principal în cerc.\n\n### Creează seturi consistente\nCând creezi mai multe imagini circulare (precum pentru fotografii de echipă), încearcă să menții un cadru consistent, stiluri de fundal și dimensiuni pentru un aspect coeziv pe toate imaginile.\n\n## Utilizări comune pentru imaginile decupate circular\n\n| Aplicație | Beneficii ale decupării circulare |\n|------------|------------------------|\n| Profile de rețele sociale | Majoritatea platformelor afișează avatare în cercuri - o imagine circulară perfect decupată arată profesional |\n| Fotografii ale membrilor echipei | Creează portrete rotunde consistente pentru site-uri web corporative și directoare |\n| Portofolii online | Imaginile rotunde creează interes vizual și estetică modernă |\n| Cărți de vizită digitale | Fotografiile de profil decupate circular arată mai curat și mai profesionist |\n| Miniaturi de produse | Imaginile rotunde de produse creează un aspect de catalog coeziv |\n| Icoane de aplicații | Icoanele circulare sunt standardul pentru aplicațiile mobile |\n| Recomandări de site web | Fotografiile rotunde ale clienților adaugă credibilitate și atractivitate vizuală |\n\n## De ce să alegi instrumentul nostru de decupare circulară a imaginilor\n\nCând vine vorba de decuparea fotografiilor în cercuri online, instrumentul nostru oferă mai multe avantaje:\n\n- **Procesare instantanee** - Decupează imaginea în formă circulară în secunde fără a aștepta încărcări sau procesare pe server\n- **Cercuri perfecte de fiecare dată** - Instrumentul nostru asigură decupări perfect rotunde cu margini curate și fără distorsiune\n- **Controale intuitive** - Plasează cu ușurință imaginea ta exact cum vrei în cerc cu funcționalități de zoom și tragere\n- **Fără filigrane** - Spre deosebire de alte instrumente de decupare circulară, nu adăugăm filigrane la imaginile tale\n- **Funcționează cu toate tipurile de imagini** - Decupează fotografii, grafică, ilustrații sau orice imagine într-un cerc\n- **Bazat pe browser** - Nu este necesară instalarea software-ului, funcționează direct în browserul tău web\n- **Confidențialitate în primul rând** - Toată procesarea are loc local în browserul tău, imaginile tale nu părăsesc niciodată dispozitivul tău\n\nFie că ai nevoie să decupezi imagini în formă circulară pentru utilizare profesională sau proiecte personale, instrumentul nostru de decupare circulară a fotografiilor gestionează totul cu ușurință. Creează decupări circulare de imagini cu doar câteva clicuri!\n\n## Începe\n\nGata să-ți creezi prima imagine circulară? Vizitează [Instrumentul nostru de Decupare Circulară](/circle-crop) și începe să decupezi astăzi. Este complet gratuit, nu necesită înregistrare și durează doar câteva secunde pentru a crea imagini circulare profesionale.\n\n---\n\n*Ultima actualizare: Ianuarie 2026*"
+      },
+      "photo-to-rounded-corners-guide": {
+        "title": "Imagini cu colțuri rotunjite – Ghid",
+        "description": "Adaugă colțuri rotunjite oricărei imagini cu instrumentul gratuit. Potrivit pentru miniaturi, carduri, UI și rețele sociale în câteva secunde.",
+        "content": "# Imagini cu colțuri rotunjite – Ghid\n\nDă colțuri rotunjite oricărei imagini cu instrumentul online gratuit. Potrivit pentru miniaturi, carduri, elemente de interfață și rețele sociale, fără cunoștințe de design.\n\n## Cum rotunjești colțurile unei imagini\n\n### Pasul 1: Încarcă imaginea\nAlege o fotografie de pe dispozitiv. Formate: JPG, PNG, WEBP, GIF. Click sau drag & drop.\n\n### Pasul 2: Setează raza colțului\nFolosește glisorul pentru gradul de rotunjire. Previzualizarea se actualizează în timp real.\n\n### Pasul 3: Descarcă\nApasă \"Descarcă\" pentru a salva imaginea cu colțuri rotunjite și a o folosi în layout, site sau postări.\n\n## Utilizări frecvente\n\n### Miniaturi și carduri\nColțurile rotunjite dau grilelor și cardurilor un aspect curat, modern.\n\n### Rețele sociale și reclame\nImaginile cu colțuri moi ies în evidență în feed și reclame, par mai prietenoase.\n\n### Interfață și aplicații\nIconițele, avatarele și butoanele au des colțuri rotunjite; instrumentul ajută la uniformizarea mai multor imagini.\n\n### Prezentări și documente\nAceeași rază la capturi de ecran și grafice face slide-urile și documentele consistente.\n\n## Ce oferă instrumentul\n\n- **Gratuit și instant** – fără cont, fără filigran, fără limită\n- **Rază reglabilă** – de la ușor rotunjit la formă de pilulă\n- **Previzualizare în timp real** – vezi rezultatul înainte de descărcare\n- **Confidențialitate** – procesare în browser; nu stocăm imagini\n- **Toate dispozitivele** – PC, tabletă, telefon\n\n## Întrebări frecvente\n\n### Cum rotunjesc colțurile unei foto?\n\nDeschide [Instrumentul colțuri rotunjite](/rounded-corners), încarcă imaginea, setează raza, apasă Descarcă.\n\n### Ce formate sunt suportate?\n\nJPG, PNG, WEBP, GIF. La descărcare rămâne formatul original (sau PNG pentru transparență).\n\n### Funcționează pe telefon?\n\nDa. Instrumentul rulează în browserul de pe mobil și tabletă, fără aplicație.\n\n### Stocați imaginile mele?\n\nNu. Toată procesarea se face în browserul tău; nu stocăm nimic.\n\n## Instrumente conexe\n\n- [Poză în URL](/) – convertește imaginea în link\n- [Decupare circulară](/circle-crop) – creează imagini circulare\n- [Colțuri rotunjite](/rounded-corners) – rotunjire colțuri\n- [Eliminare fundal](/remove-background) – elimină fundalul cu AI\n\n---\n\n*Ultima actualizare: Februarie 2026*"
+      },
+      "photo-to-remove-background-guide": {
+        "title": "Eliminare fundal – Ghid",
+        "description": "Eliminați fundalul din imagini cu un click folosind instrumentul gratuit cu AI. Decupări curate pentru produse, portrete, logo-uri și altele.",
+        "content": "# Eliminare fundal – Ghid\n\nEliminați fundalul din imagini cu un click folosind instrumentul online gratuit. Decupări curate pentru foto produse, portrete, logo-uri – fără cunoștințe de design.\n\n## Cum eliminați fundalul\n\n### Pasul 1: Încărcați imaginea\nAlegeți o fotografie de pe dispozitiv. Formate: JPG, PNG, WEBP, GIF. Click sau drag & drop.\n\n### Pasul 2: AI elimină fundalul\nInstrumentul detectează subiectul și elimină fundalul. Procesarea durează câteva secunde. Previzualizare în timp real cu fundal transparent.\n\n### Pasul 3: Descărcați\nApăsați \"Descarcă\" pentru a salva imaginea fără fundal. Rezultat PNG cu transparență, pentru design, e-commerce sau rețele sociale.\n\n## Utilizări frecvente\n\n### Foto produse\nDecupări curate pentru magazine online, piețe și reclame. Fundal transparent pentru orice layout.\n\n### Portrete și profiluri\nEliminați fundalul aglomerat din portrete pentru CV, LinkedIn sau profil.\n\n### Logo-uri și grafice\nIzolați logo-uri și grafice din foto sau scanări. PNG transparent pentru overlay și prezentări.\n\n### Rețele sociale și marketing\nImagini care ies în evidență pentru postări, stories și reclame. Decupări transparente pentru orice șablon.\n\n## Ce oferă instrumentul\n\n- **Gratuit și AI** – fără cont, fără filigran, fără limită\n- **Eliminare cu un click** – detectare automată a subiectului și margini curate\n- **PNG transparent** – gata pentru orice design sau platformă\n- **Confidențialitate** – procesare în browser; nu stocăm imagini\n- **Toate dispozitivele** – PC, tabletă, telefon\n\n## Întrebări frecvente\n\n### Cum elimin fundalul dintr-o foto?\n\nDeschideți [Instrumentul Eliminare fundal](/remove-background), încărcați imaginea. Instrumentul detectează subiectul și elimină fundalul. Previzualizați și descărcați ca PNG transparent.\n\n### Ce formate sunt suportate?\n\nJPG, PNG, WEBP, GIF. Rezultatul se descarcă mereu ca PNG cu fundal transparent.\n\n### Stocați imaginile mele?\n\nNu. Procesarea se face în browserul dvs.; nu stocăm nimic.\n\n### Funcționează pe telefon?\n\nDa. Instrumentul funcționează în browser pe telefon și tabletă.\n\n## Instrumente conexe\n\n- [Poză în URL](/) – imagine în link\n- [Decupare circulară](/circle-crop) – imagini circulare\n- [Colțuri rotunjite](/rounded-corners) – rotunjire colțuri\n- [Eliminare fundal](/remove-background) – elimină fundalul cu AI\n\n---\n\n*Ultima actualizare: Martie 2026*"
       }
-    }
-  },
-  "docs": {
-    "seo": {
-      "title": "Documentație | Poză în URL",
-      "description": "Documentație pentru Poză în URL."
     },
-    "page": {
-      "title": "Documentație",
-      "description": "Start rapid: încarcă o imagine și obține un URL direct. Folosește butoanele copiere/deschidere sau descarcă linkul în .txt.",
-      "features": {
-        "title": "Funcții suportate:",
-        "items": {
-          "1": "Suportat: JPG, PNG, WEBP, GIF",
-          "2": "Livrare rapidă prin CDN când stocarea este activată",
-          "3": "Mesaje de întreținere prietenoase când serviciul nu este disponibil"
+    "docs": {
+      "seo": {
+        "title": "Documentație | Poză în URL",
+        "description": "Documentație pentru Poză în URL."
+      },
+      "page": {
+        "title": "Documentație",
+        "description": "Start rapid: încarcă o imagine și obține un URL direct. Folosește butoanele copiere/deschidere sau descarcă linkul în .txt.",
+        "features": {
+          "title": "Funcții suportate:",
+          "items": {
+            "1": "Suportat: JPG, PNG, WEBP, GIF",
+            "2": "Livrare rapidă prin CDN când stocarea este activată",
+            "3": "Mesaje de întreținere prietenoase când serviciul nu este disponibil"
+          }
         }
       }
-    }
-  },
-  "status": {
-    "seo": {
-      "title": "Status | Poză în URL",
-      "description": "Status serviciu pentru Poză în URL."
     },
-    "page": {
-      "title": "Status",
-      "description": "Toate sistemele sunt operaționale.",
-      "message": "API-ul de încărcare și linkurile CDN rulează."
-    }
-  },
-  "contact": {
-    "seo": {
-      "title": "Contact | Poză în URL",
-      "description": "Contactează suportul Poză în URL."
-    },
-    "page": {
-      "title": "Contact",
-      "description": "Ai nevoie de ajutor sau vrei să împărtășești feedback? Trimite-ne un e-mail și vom urmări inboxul și vom răspunde cât mai curând posibil.",
-      "email": {
-        "label": "E-mail",
-        "address": "leeqs1010@gmail.com"
+    "status": {
+      "seo": {
+        "title": "Status | Poză în URL",
+        "description": "Status serviciu pentru Poză în URL."
+      },
+      "page": {
+        "title": "Status",
+        "description": "Toate sistemele sunt operaționale.",
+        "message": "API-ul de încărcare și linkurile CDN rulează."
       }
-    }
-  },
-  "bookmarklet": {
-    "title": "Poză în URL Bookmarklet",
-    "description": "Încărcați imagini de pe orice pagină web direct în Poză în URL cu un singur clic!",
-    "howItWorks": {
-      "title": "Cum funcționează",
-      "step1": "Navigați pe orice pagină web cu imagini",
-      "step2": "Faceți clic pe bookmarklet în bara de marcaje",
-      "step3": "Selectați o imagine din pagină",
-      "step4": "Obțineți URL-ul instantaneu și copiați-l!"
     },
-    "installation": {
-      "title": "Instalare",
-      "step1": {
-        "title": "Pasul 1: Copiați codul Bookmarklet",
-        "description": "Faceți clic pe butonul de mai jos pentru a copia codul bookmarklet în clipboard."
+    "contact": {
+      "seo": {
+        "title": "Contact | Poză în URL",
+        "description": "Contactează suportul Poză în URL."
       },
-      "step2": {
-        "title": "Pasul 2: Adăugați în browserul dvs.",
-        "description": "Urmați acești pași în funcție de browserul dvs.:",
-        "chrome": "Chrome/Edge: Apăsați Ctrl+Shift+B (Cmd+Shift+B pe Mac) pentru a afișa bara de marcaje, apoi faceți clic dreapta și selectați \"Adăugați pagină\". Lipiți codul ca URL.",
-        "firefox": "Firefox: Faceți clic dreapta pe bara de marcaje și selectați \"Marcaj nou\". Lipiți codul ca Locație.",
-        "safari": "Safari: Activați bara de marcaje (Vizualizare → Afișează bara de marcaje), apoi trageți codul în bara de marcaje.",
-        "edge": "Alternativă: Creați un marcaj nou, editați-l și înlocuiți URL-ul cu codul copiat."
-      },
-      "step3": {
-        "title": "Pasul 3: Începeți să-l folosiți!",
-        "description": "Vizitați orice pagină web cu imagini și faceți clic pe bookmarklet-ul dvs. pentru a începe încărcarea!"
-      },
-      "copy": "Copiați codul",
-      "copied": "Copiat!"
+      "page": {
+        "title": "Contact",
+        "description": "Ai nevoie de ajutor sau vrei să împărtășești feedback? Trimite-ne un e-mail și vom urmări inboxul și vom răspunde cât mai curând posibil.",
+        "email": {
+          "label": "E-mail",
+          "address": "leeqs1010@gmail.com"
+        }
+      }
     },
-    "usage": {
-      "title": "Funcții",
-      "description": "Bookmarklet oferă următoarele funcții:",
-      "feature1": "Selectați orice imagine din pagina web curentă",
-      "feature2": "Încărcare automată în Poză în URL",
-      "feature3": "Obțineți un URL partajabil instantaneu cu un clic pentru copiere"
-    },
-    "note": {
-      "title": "Notă",
-      "content": "Bookmarklet funcționează pe majoritatea site-urilor web. Unele site-uri cu politici de securitate stricte (CORS) pot împiedica încărcarea imaginilor."
+    "bookmarklet": {
+      "title": "Poză în URL Bookmarklet",
+      "description": "Încărcați imagini de pe orice pagină web direct în Poză în URL cu un singur clic!",
+      "howItWorks": {
+        "title": "Cum funcționează",
+        "step1": "Navigați pe orice pagină web cu imagini",
+        "step2": "Faceți clic pe bookmarklet în bara de marcaje",
+        "step3": "Selectați o imagine din pagină",
+        "step4": "Obțineți URL-ul instantaneu și copiați-l!"
+      },
+      "installation": {
+        "title": "Instalare",
+        "step1": {
+          "title": "Pasul 1: Copiați codul Bookmarklet",
+          "description": "Faceți clic pe butonul de mai jos pentru a copia codul bookmarklet în clipboard."
+        },
+        "step2": {
+          "title": "Pasul 2: Adăugați în browserul dvs.",
+          "description": "Urmați acești pași în funcție de browserul dvs.:",
+          "chrome": "Chrome/Edge: Apăsați Ctrl+Shift+B (Cmd+Shift+B pe Mac) pentru a afișa bara de marcaje, apoi faceți clic dreapta și selectați \"Adăugați pagină\". Lipiți codul ca URL.",
+          "firefox": "Firefox: Faceți clic dreapta pe bara de marcaje și selectați \"Marcaj nou\". Lipiți codul ca Locație.",
+          "safari": "Safari: Activați bara de marcaje (Vizualizare → Afișează bara de marcaje), apoi trageți codul în bara de marcaje.",
+          "edge": "Alternativă: Creați un marcaj nou, editați-l și înlocuiți URL-ul cu codul copiat."
+        },
+        "step3": {
+          "title": "Pasul 3: Începeți să-l folosiți!",
+          "description": "Vizitați orice pagină web cu imagini și faceți clic pe bookmarklet-ul dvs. pentru a începe încărcarea!"
+        },
+        "copy": "Copiați codul",
+        "copied": "Copiat!"
+      },
+      "usage": {
+        "title": "Funcții",
+        "description": "Bookmarklet oferă următoarele funcții:",
+        "feature1": "Selectați orice imagine din pagina web curentă",
+        "feature2": "Încărcare automată în Poză în URL",
+        "feature3": "Obțineți un URL partajabil instantaneu cu un clic pentru copiere"
+      },
+      "note": {
+        "title": "Notă",
+        "content": "Bookmarklet funcționează pe majoritatea site-urilor web. Unele site-uri cu politici de securitate stricte (CORS) pot împiedica încărcarea imaginilor."
+      }
     }
   }
 }

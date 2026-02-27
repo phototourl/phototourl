@@ -512,59 +512,59 @@
     },
     "cookie": {
       "seo": {
-          "title": "Zásady používania cookies | Fotka na URL",
-          "description": "Zásady používania cookies pre Fotka na URL - Zistite, ako používame cookies a technológie sledovania."
-        },
-        "page": {
+        "title": "Zásady používania cookies | Fotka na URL",
+        "description": "Zásady používania cookies pre Fotka na URL - Zistite, ako používame cookies a technológie sledovania."
+      },
+      "page": {
         "title": "Zásady používania cookies",
-          "lastUpdated": "Posledná aktualizácia: január 2026",
-          "introduction": "Tieto Zásady používania cookies vysvetľujú, ako Fotka na URL používa cookies a podobné technológie sledovania pri návšteve našej webovej stránky. Používaním našej služby súhlasíte s používaním cookies v súlade s týmito zásadami.",
-          "whatAreCookies": {
-            "title": "Čo sú cookies",
-            "content": "Cookies sú malé textové súbory, ktoré sa umiestňujú na vaše zariadenie pri návšteve webovej stránky. Sú široko používané na to, aby webové stránky fungovali efektívnejšie a poskytovali informácie vlastníkom webových stránok."
+        "lastUpdated": "Posledná aktualizácia: január 2026",
+        "introduction": "Tieto Zásady používania cookies vysvetľujú, ako Fotka na URL používa cookies a podobné technológie sledovania pri návšteve našej webovej stránky. Používaním našej služby súhlasíte s používaním cookies v súlade s týmito zásadami.",
+        "whatAreCookies": {
+          "title": "Čo sú cookies",
+          "content": "Cookies sú malé textové súbory, ktoré sa umiestňujú na vaše zariadenie pri návšteve webovej stránky. Sú široko používané na to, aby webové stránky fungovali efektívnejšie a poskytovali informácie vlastníkom webových stránok."
+        },
+        "howWeUseCookies": {
+          "title": "Ako používame cookies",
+          "content": "Používame cookies na nasledujúce účely:",
+          "item1": "Na uloženie histórie nahrávok a jazykových preferencií",
+          "item2": "Na analýzu webovej stránky a správania používateľov",
+          "item3": "Na zobrazovanie personalizovaných reklám"
+        },
+        "typesOfCookies": {
+          "title": "Typy cookies, ktoré používame",
+          "essential": {
+            "title": "Nevyhnutné cookies",
+            "content": "Tieto cookies sú nevyhnutné pre správne fungovanie webovej stránky. Umožňujú základné funkcie, ako je ukladanie jazykových preferencií a histórie nahrávok."
           },
-          "howWeUseCookies": {
-            "title": "Ako používame cookies",
-            "content": "Používame cookies na nasledujúce účely:",
-            "item1": "Na uloženie histórie nahrávok a jazykových preferencií",
-            "item2": "Na analýzu webovej stránky a správania používateľov",
-            "item3": "Na zobrazovanie personalizovaných reklám"
+          "analytics": {
+            "title": "Analytické cookies",
+            "content": "Používame Yandex Metrika na analýzu toho, ako návštevníci používajú našu webovú stránku. Tieto cookies zhromažďujú anonymné informácie o používaní webovej stránky, aby nám pomohli zlepšiť našu službu."
           },
-          "typesOfCookies": {
-            "title": "Typy cookies, ktoré používame",
-            "essential": {
-              "title": "Nevyhnutné cookies",
-              "content": "Tieto cookies sú nevyhnutné pre správne fungovanie webovej stránky. Umožňujú základné funkcie, ako je ukladanie jazykových preferencií a histórie nahrávok."
-            },
-            "analytics": {
-              "title": "Analytické cookies",
-              "content": "Používame Yandex Metrika na analýzu toho, ako návštevníci používajú našu webovú stránku. Tieto cookies zhromažďujú anonymné informácie o používaní webovej stránky, aby nám pomohli zlepšiť našu službu."
-            },
-            "advertising": {
-              "title": "Reklamné cookies",
-              "content": "Používame Google AdSense na zobrazovanie reklám. Tieto cookies pomáhajú poskytovať personalizované reklamy na základe vášho správania pri prehliadaní a záujmov."
-            }
-          },
-          "thirdPartyCookies": {
-            "title": "Cookies tretích strán",
-            "content": "Používame nasledujúce služby tretích strán, ktoré môžu nastaviť cookies:",
-            "item1": "Google AdSense - Na reklamu (podlieha Zásadám ochrany súkromia spoločnosti Google)",
-            "item2": "Yandex Metrika - Na analýzu webovej stránky (podlieha Zásadám ochrany súkromia spoločnosti Yandex)"
-          },
-          "manageCookies": {
-            "title": "Správa cookies",
-            "content": "Cookies môžete ovládať a spravovať prostredníctvom nastavení vášho prehliadača. Väčšina prehliadačov vám umožňuje odmietnuť alebo prijať cookies, vymazať existujúce cookies alebo nastaviť preferencie pre určité webové stránky. Deaktivácia cookies však môže ovplyvniť funkčnosť našej služby."
-          },
-          "changes": {
-            "title": "Zmeny v týchto Zásadách používania cookies",
-            "content": "Môžeme tieto Zásady používania cookies občas aktualizovať. O všetkých zmenách vás budeme informovať zverejnením nových Zásad používania cookies na tejto stránke a aktualizáciou dátumu \"Posledná aktualizácia\"."
-          },
-          "contact": {
-            "title": "Kontaktujte nás",
-            "text": "Ak máte otázky týkajúce sa týchto Zásad používania cookies, kontaktujte nás na",
-            "email": "leeqs1010@gmail.com"
+          "advertising": {
+            "title": "Reklamné cookies",
+            "content": "Používame Google AdSense na zobrazovanie reklám. Tieto cookies pomáhajú poskytovať personalizované reklamy na základe vášho správania pri prehliadaní a záujmov."
           }
+        },
+        "thirdPartyCookies": {
+          "title": "Cookies tretích strán",
+          "content": "Používame nasledujúce služby tretích strán, ktoré môžu nastaviť cookies:",
+          "item1": "Google AdSense - Na reklamu (podlieha Zásadám ochrany súkromia spoločnosti Google)",
+          "item2": "Yandex Metrika - Na analýzu webovej stránky (podlieha Zásadám ochrany súkromia spoločnosti Yandex)"
+        },
+        "manageCookies": {
+          "title": "Správa cookies",
+          "content": "Cookies môžete ovládať a spravovať prostredníctvom nastavení vášho prehliadača. Väčšina prehliadačov vám umožňuje odmietnuť alebo prijať cookies, vymazať existujúce cookies alebo nastaviť preferencie pre určité webové stránky. Deaktivácia cookies však môže ovplyvniť funkčnosť našej služby."
+        },
+        "changes": {
+          "title": "Zmeny v týchto Zásadách používania cookies",
+          "content": "Môžeme tieto Zásady používania cookies občas aktualizovať. O všetkých zmenách vás budeme informovať zverejnením nových Zásad používania cookies na tejto stránke a aktualizáciou dátumu \"Posledná aktualizácia\"."
+        },
+        "contact": {
+          "title": "Kontaktujte nás",
+          "text": "Ak máte otázky týkajúce sa týchto Zásad používania cookies, kontaktujte nás na",
+          "email": "leeqs1010@gmail.com"
         }
+      }
     }
   },
   "blog": {
@@ -608,93 +608,103 @@
         "title": "Ako orezávať obrázky do kruhového tvaru - Kompletný sprievodca",
         "description": "Transformujte akúkoľvek fotografiu na perfektný kruhový obrázok pomocou nášho bezplatného online nástroja na kruhové orezávanie. Vytvorte profesionálne okrúhle obrázky pre profily, sociálne médiá, logá a ďalšie za pár sekúnd.",
         "content": "# Ako orezávať obrázky do kruhového tvaru - Kompletný sprievodca\n\nTransformujte akúkoľvek fotografiu na perfektný kruhový obrázok pomocou nášho bezplatného online nástroja na kruhové orezávanie. Vytvorte profesionálne okrúhle obrázky pre profily, sociálne médiá, logá a ďalšie za pár sekúnd.\n\n## Ako orezávať obrázky do kruhového tvaru\n\n### Krok 1: Nahrajte svoj obrázok\nVyberte akúkoľvek fotografiu zo svojho zariadenia, ktorú chcete orezať do kruhového tvaru. Náš nástroj podporuje formáty JPG, PNG, WEBP a GIF. Jednoducho kliknite na tlačidlo na nahratie alebo presuňte a pustite svoj súbor obrázka.\n\n### Krok 2: Umiestnite svoj obrázok\nUpravte a vycentrujte svoju fotografiu v kruhovej oblasti orezávania. Použite posuvník na priblíženie, aby ste sa sústredili na najdôležitejšiu časť svojho obrázka, a presuňte ho, aby ste ho premiestnili pre perfektné okrúhle orezanie.\n\n### Krok 3: Stiahnite si svoj kruhový obrázok\nKeď budete spokojní s umiestnením, kliknite na \"Orezať a stiahnuť\", aby ste získali svoj perfektne zaoblený obrázok. Výsledok bude mať priehľadné pozadie, čo ho robí perfektným na použitie kdekoľvek.\n\n## Populárne spôsoby použitia kruhových obrázkov\n\n### Profilové fotografie\nOrezajte fotografie do kruhového tvaru pre profesionálne vyzerajúce profilové obrázky na platformách sociálnych médií ako Facebook, LinkedIn a Instagram. Kruhové avatary vytvárajú moderný, vyleštený vzhľad.\n\n### Grafika pre sociálne médiá\nVytvorte kruhové obrázky pre Instagram príbehy, Facebook príspevky a Twitter profily, ktoré vynikajú z davu. Okrúhle obrázky pridávajú vizuálny záujem a narúšajú monotónnosť štvorcových príspevkov.\n\n### Okrúhle logá\nTransformujte svoje logo alebo značkové obrázky na perfektne okrúhle tvary pre konzistentné brandovanie na všetkých platformách. Kruhové logá fungujú obzvlášť dobre pre ikony aplikácií a brandovanie na sociálnych médiách.\n\n### Fotografie svedectiev\nZobrazte svedectvá zákazníkov alebo klientov s kruhovými profilovými fotografiami pre čistý, profesionálny vzhľad. Okrúhle obrázky vytvárajú vizuálnu konzistenciu a robia vaše svedectvá pôsobivejšími.\n\n### Fotografie členov tímu\nVytvorte konzistentné okrúhle portréty pre firemné webové stránky, stránky tímu a zoznamy zamestnancov. Jednotné kruhové fotografie dávajú vašej stránke tímu súdržný, profesionálny vzhľad.\n\n## Funkcie nášho nástroja na kruhové orezávanie\n\n- **Bezplatný kruhový orezávač obrázkov** - Vytvorte kruhové tvary z akéhokoľvek obrázka bezplatne, bez skrytých poplatkov\n- **Vysokorozlíšenie výstupu** - Stiahnite si svoje kruhové obrázky v ich pôvodnej kvalite bez kompresie\n- **Nie je potrebná registrácia** - Začnite orezať obrázky do kruhu okamžite, nie je potrebné vytvorenie účtu\n- **Súkromné a bezpečné** - Vaše obrázky nikdy neopustia váš prehliadač, čím sa zabezpečí úplné súkromie\n- **Jednoduché používanie rozhrania** - Jednoduchý, intuitívny dizajn uľahčuje vytváranie okrúhlych obrázkov\n- **Funguje na všetkých zariadeniach** - Orezať obrázky do kruhového tvaru na počítači, tablete alebo mobilných zariadeniach\n- **Priehľadné pozadie** - Všetky kruhové orezania prichádzajú s priehľadnými pozadiami pre maximálnu univerzálnosť\n- **Náhľad v reálnom čase** - Presne vidíte, ako bude váš kruhový obrázok vyzerať pred stiahnutím\n\n## Často kladené otázky o kruhovom orezávaní obrázkov\n\n### Ako orezať obrázok do kruhového tvaru?\n\nJednoducho nahrajte svoj obrázok do nášho nástroja, upravte ho v kruhovom ráme, aby ste správne umiestnili objekt, a kliknite na \"Orezať a stiahnuť\", aby ste získali svoj perfektne okrúhly obrázok. Náš nástroj uľahčuje orezanie akéhokoľvek obrázka v kruhovom formáte okamžite bez potreby dizajnových zručností.\n\n### Ako vytvoriť kruhovú profilovú fotografiu?\n\nNahrajte svoju fotografiu do nášho nástroja na kruhové orezávanie, umiestnite svoju tvár do stredu kruhového rámu a potom si stiahnite svoju novú okrúhlu profilovú fotografiu. Je perfektná pre profily sociálnych médií, ktoré používajú kruhové obrázky ako Facebook, LinkedIn alebo Instagram.\n\n### Môžem orezať fotografie do okrúhlych tvarov na svojom telefóne?\n\nÁno! Náš kruhový orezávač obrázkov funguje na všetkých zariadeniach vrátane smartfónov a tabletov. Rozhranie prispôsobené pre mobilné zariadenia vám umožňuje jednoducho vytvárať kruhové orezania obrázkov kdekoľvek. Jednoducho navštívte našu webovú stránku zo svojho mobilného prehliadača - nie je potrebné sťahovanie aplikácie.\n\n### Ukladáte obrázky, ktoré nahrávam?\n\nNie, nikdy neukladáme vaše obrázky na naše servery. Celý proces orezávania prebieha priamo vo vašom prehliadači, čo znamená, že vaše fotografie zostávajú úplne súkromné. Keď opustíte stránku, všetky údaje obrázka sa automaticky odstránia.\n\n### Aké formáty obrázkov môžem použiť s nástrojom na kruhové orezávanie?\n\nNáš nástroj funguje so všetkými štandardnými formátmi obrázkov vrátane JPG, PNG, WEBP a GIF. Môžete nahrať ktorýkoľvek z týchto formátov a váš kruhový orezaný obrázok sa stiahne ako súbor PNG s priehľadnosťou okolo kruhu.\n\n### Bude mať môj kruhový orezaný obrázok priehľadné pozadie?\n\nÁno, keď si stiahnete svoj orezaný obrázok, bude mať priehľadné pozadie okolo kruhu. To ho robí perfektným na umiestnenie na webové stránky, dokumenty alebo dizajny, kde chcete, aby bola viditeľná len kruhová časť.\n\n### Môžem upraviť veľkosť kruhového orezania?\n\nKruhové orezanie zachováva perfektný pomer strán 1:1, ale môžete priblížiť alebo oddialiť, aby ste upravili, koľko z vášho obrázka sa zobrazí v kruhu. To vám umožňuje zamerať sa na špecifické časti vášho obrázka pri zachovaní kruhového tvaru.\n\n## Tipy na obrázky pre perfektné kruhové orezania\n\n### Vycentrujte svoj objekt\nPre najlepšie výsledky vyberte obrázky, kde je hlavný objekt vycentrovaný alebo môže byť umiestnený v strede rámu. To je obzvlášť dôležité pre profilové fotografie a portréty, kde by tvár mala byť ohniskovým bodom.\n\n### Zvážte oblasť orezávania\nPamätajte, že rohy vášho obrázka budú orezané. Vyhnite sa obrázkom, kde sú dôležité detaily blízko okrajov fotografie, pretože sa stratia pri kruhovom orezaní.\n\n### Použite vysokorozlíšené obrázky\nZačatie s vysokokvalitnými obrázkami bude mať za následok lepšie kruhové orezania. Nízko rozlíšené alebo malé obrázky môžu vyzerať pixelované pri orezávaní, takže použite zdrojové obrázky najvyššej kvality dostupné.\n\n### Dávajte pozor na pomer strán\nŠtvorcové obrázky zvyčajne fungujú najlepšie pre kruhové orezávanie. Ak je váš pôvodný obrázok veľmi široký alebo vysoký, môžete stratiť významné časti v procese orezávania. Zvážte najprv orezanie na štvorec, ak je to potrebné.\n\n### Upravte pre optimálne rámovanie\nPoužite funkciu umiestnenia nášho nástroja na priblíženie a úpravu vášho obrázka. Pre portréty sa pokúste vycentrovať tvár s nejakým okrajom okolo nej pre najlepší profesionálny vzhľad. Pre produkty vycentrujte hlavnú položku v kruhu.\n\n### Vytvorte konzistentné sady\nPri vytváraní viacerých kruhových obrázkov (ako napríklad pre tímové fotografie) sa pokúste zachovať konzistentné rámovanie, štýly pozadia a veľkosti pre súdržný vzhľad na všetkých obrázkach.\n\n## Bežné použitia pre kruhové orezané obrázky\n\n| Aplikácia | Výhody kruhového orezania |\n|------------|------------------------|\n| Profily sociálnych médií | Väčšina platforiem zobrazuje avatary v kruhoch - perfektne orezaný kruhový obrázok vyzerá profesionálne |\n| Fotografie členov tímu | Vytvorte konzistentné okrúhle portréty pre firemné webové stránky a zoznamy |\n| Online portfóliá | Okrúhle obrázky vytvárajú vizuálny záujem a modernú estetiku |\n| Digitálne vizitky | Kruhové orezané profilové fotografie vyzerajú čistejšie a profesionálnejšie |\n| Miniatúry produktov | Okrúhle obrázky produktov vytvárajú súdržný vzhľad katalógu |\n| Ikony aplikácií | Kruhové ikony sú štandardom pre mobilné aplikácie |\n| Svedectvá webových stránok | Okrúhle fotografie zákazníkov pridávajú dôveryhodnosť a vizuálnu príťažlivosť |\n\n## Prečo si vybrať náš nástroj na kruhové orezávanie obrázkov\n\nKeď príde na orezávanie fotografií do kruhov online, náš nástroj ponúka niekoľko výhod:\n\n- **Okamžité spracovanie** - Orezať obrázok do kruhového tvaru za sekundy bez čakania na nahrania alebo spracovanie servera\n- **Perfektné kruhy zakaždým** - Náš nástroj zabezpečuje perfektne okrúhle orezania s čistými okrajmi a bez skreslenia\n- **Intuitívne ovládanie** - Jednoducho umiestnite svoj obrázok presne tak, ako chcete v kruhu s funkciami priblíženia a presúvania\n- **Bez vodoznakov** - Na rozdiel od iných nástrojov na kruhové orezávanie, nepridávame vodoznaky na vaše obrázky\n- **Funguje so všetkými typmi obrázkov** - Orezať fotografie, grafiku, ilustrácie alebo akýkoľvek obrázok do kruhu\n- **Založené na prehliadači** - Nie je potrebná inštalácia softvéru, funguje priamo vo vašom webovom prehliadači\n- **Súkromie na prvom mieste** - Všetko spracovanie prebieha lokálne vo vašom prehliadači, vaše obrázky nikdy neopustia vaše zariadenie\n\nČi už potrebujete orezať obrázky do kruhového tvaru na profesionálne použitie alebo osobné projekty, náš nástroj na kruhové orezávanie fotografií to všetko zvládne s ľahkosťou. Vytvorte kruhové orezania obrázkov len niekoľkými kliknutiami!\n\n## Začíname\n\nPripravení vytvoriť svoj prvý kruhový obrázok? Navštívte náš [Nástroj na kruhové orezávanie](/circle-crop) a začnite orezať dnes. Je úplne bezplatný, nevyžaduje registráciu a trvá len pár sekúnd vytvoriť profesionálne kruhové obrázky.\n\n---\n\n*Posledná aktualizácia: Január 2026*"
+      },
+      "photo-to-rounded-corners-guide": {
+        "title": "Obrázky so zaoblenými rohmi – Sprievodca",
+        "description": "Dajte ľubovoľnému obrázku zaoblené rohy bezplatným nástrojom. Vhodné pre miniatúry, karty, UI a sociálne médiá v sekundách.",
+        "content": "# Obrázky so zaoblenými rohmi – Sprievodca\n\nDajte ľubovoľnému obrázku zaoblené rohy bezplatným online nástrojom. Vhodné pre miniatúry, karty, prvky rozhrania a sociálne médiá, bez dizajnových zručností.\n\n## Ako zaobliť rohy obrázka\n\n### Krok 1: Nahrajte obrázok\nVyberte fotografiu zo zariadenia. Formáty: JPG, PNG, WEBP, GIF. Kliknite alebo presuňte a pustite.\n\n### Krok 2: Nastavte polomer rohu\nPoužite posuvník na stupeň zaoblenia. Náhľad sa aktualizuje v reálnom čase.\n\n### Krok 3: Stiahnite\nKliknite na \"Stiahnuť\" a uložte obrázok so zaoblenými rohmi; použite ho v rozložení, na webe alebo v príspevkoch.\n\n## Bežné použitia\n\n### Miniatúry a karty\nZaoblené rohy dávajú mriežkam a kartám čistý, moderný vzhľad.\n\n### Sociálne médiá a reklamy\nObrázky s mäkkými rohmi vynikajú vo feede a reklamách, pôsobia priateľskejšie.\n\n### Rozhranie a aplikácie\nIkony, avatary a tlačidlá majú často zaoblené rohy; nástroj pomáha zjednotiť viac obrázkov.\n\n### Prezentácie a dokumenty\nRovnaký polomer na snímkach obrazovky a grafikách udržiava slidey a dokumenty konzistentné.\n\n## Čo nástroj ponúka\n\n- **Bezplatné a okamžité** – bez registrácie, bez vodoznaku, bez limitu\n- **Nastaviteľný polomer** – od mierneho zaoblenia po tvar tabletky\n- **Náhľad v reálnom čase** – vidíte výsledok pred stiahnutím\n- **Súkromie** – spracovanie v prehliadači; neukladáme obrázky\n- **Všetky zariadenia** – PC, tablet, telefón\n\n## Často kladené otázky\n\n### Ako zaoblím rohy fotografie?\n\nOtvorte [Nástroj na zaoblené rohy](/rounded-corners), nahrajte obrázok, nastavte polomer, kliknite na Stiahnuť.\n\n### Aké formáty sú podporované?\n\nJPG, PNG, WEBP, GIF. Stiahnutie zachová pôvodný formát (alebo PNG pre priehľadnosť).\n\n### Funguje na mobile?\n\nÁno. Nástroj beží v mobilnom a tabletoвом prehliadači, bez aplikácie.\n\n### Ukladáte moje obrázky?\n\nNie. Všetko sa spracováva vo vašom prehliadači; neukladáme nič.\n\n## Súvisiace nástroje\n\n- [Fotka na URL](/) – prevod obrázka na odkaz\n- [Kruhové orezanie](/circle-crop) – vytvorenie kruhových obrázkov\n- [Zaoblené rohy](/rounded-corners) – zaoblenie rohov\n- [Odstránenie pozadia](/remove-background) – odstránenie pozadia s AI\n\n---\n\n*Posledná aktualizácia: Február 2026*"
+      },
+      "photo-to-remove-background-guide": {
+        "title": "Odstránenie pozadia – Príručka",
+        "description": "Odstráňte pozadie z obrázkov jedným kliknutím s naším bezplatným AI nástrojom. Čisté výrezy pre produkty, portréty, logá a ďalšie.",
+        "content": "# Odstránenie pozadia – Príručka\n\nOdstráňte pozadie z obrázkov jedným kliknutím s bezplatným online nástrojom. Čisté výrezy pre produktové fotky, portréty, logá – bez znalosti dizajnu.\n\n## Ako odstrániť pozadie\n\n### Krok 1: Nahrajte obrázok\nVyberte akúkoľvek fotografiu z zariadenia. Podporované: JPG, PNG, WEBP, GIF. Kliknite alebo pretiahnite.\n\n### Krok 2: AI odstráni pozadie\nNástroj automaticky rozpozná objekt a odstráni pozadie. Spracovanie trvá sekundy. Náhľad v reálnom čase s priehľadným pozadím.\n\n### Krok 3: Stiahnuť\nKliknite na \"Stiahnuť\" a uložte obrázok bez pozadia. Výstup PNG s priehľadnosťou, pre dizajn, e-commerce alebo sociálne siete.\n\n## Bežné použitie\n\n### Produktové fotky\nČisté výrezy pre online obchody, trhoviská a reklamy. Priehľadné pozadie pre akékoľvek rozloženie.\n\n### Portréty a profily\nOdstráňte rušivé pozadie z portrétov pre životopisy, LinkedIn alebo profil.\n\n### Logá a grafika\nIzolujte logá a grafiku z fotiek alebo skenov. Priehľadný PNG pre preklady a prezentácie.\n\n### Sociálne médiá a marketing\nVýrazné obrázky pre príspevky, príbehy a reklamy. Priehľadné výrezy pre akúkoľvek šablónu.\n\n## Čo nástroj ponúka\n\n- **Zadarmo a AI** – bez registrácie, vodotlače, limitov\n- **Odstránenie jedným klikom** – automatické rozpoznanie objektu a čisté okraje\n- **Priehľadný PNG** – pripravené pre akýkoľvek dizajn alebo platformu\n- **Súkromie** – spracovanie v prehliadači; neukladáme obrázky\n- **Všetky zariadenia** – PC, tablet, telefón\n\n## Časté otázky\n\n### Ako odstránim pozadie z fotky?\n\nOtvorte [Nástroj na odstránenie pozadia](/remove-background), nahrajte obrázok. Nástroj rozpozná objekt a odstráni pozadie. Náhľad a stiahnutie ako priehľadný PNG.\n\n### Aké formáty obrázkov sú podporované?\n\nJPG, PNG, WEBP, GIF. Výsledok sa vždy sťahuje ako PNG s priehľadným pozadím.\n\n### Uchovávate moje obrázky?\n\nNie. Spracovanie prebieha vo vašom prehliadači; nič neukladáme.\n\n### Funguje to na telefóne?\n\nÁno. Nástroj funguje v prehliadači na telefóne a tablete.\n\n## Súvisiace nástroje\n\n- [Foto na URL](/) – obrázok na odkaz\n- [Kruhové orezanie](/circle-crop) – okrúhle obrázky\n- [Zaoblené rohy](/rounded-corners) – zaoblenie rohov\n- [Odstránenie pozadia](/remove-background) – odstránenie pozadia s AI\n\n---\n\n*Posledná aktualizácia: Marec 2026*"
       }
-    }
-  },
-  "docs": {
-    "seo": {
-      "title": "Dokumentácia | Fotka na URL",
-      "description": "Dokumentácia pre Fotka na URL."
     },
-    "page": {
-      "title": "Dokumentácia",
-      "description": "Rýchly štart: nahrajte obrázok a získajte priamy URL. Použite tlačidlá kopírovania/otvorenia alebo stiahnite odkaz v .txt.",
-      "features": {
-        "title": "Podporované funkcie:",
-        "items": {
-          "1": "Podporované: JPG, PNG, WEBP, GIF",
-          "2": "Rýchle doručenie cez CDN, keď je úložisko povolené",
-          "3": "Priateľské chyby údržby, keď služba nie je k dispozícii"
+    "docs": {
+      "seo": {
+        "title": "Dokumentácia | Fotka na URL",
+        "description": "Dokumentácia pre Fotka na URL."
+      },
+      "page": {
+        "title": "Dokumentácia",
+        "description": "Rýchly štart: nahrajte obrázok a získajte priamy URL. Použite tlačidlá kopírovania/otvorenia alebo stiahnite odkaz v .txt.",
+        "features": {
+          "title": "Podporované funkcie:",
+          "items": {
+            "1": "Podporované: JPG, PNG, WEBP, GIF",
+            "2": "Rýchle doručenie cez CDN, keď je úložisko povolené",
+            "3": "Priateľské chyby údržby, keď služba nie je k dispozícii"
+          }
         }
       }
-    }
-  },
-  "status": {
-    "seo": {
-      "title": "Stav | Fotka na URL",
-      "description": "Stav služby pre Fotka na URL."
     },
-    "page": {
-      "title": "Stav",
-      "description": "Všetky systémy sú funkčné.",
-      "message": "API nahrávania a odkazy CDN bežia."
-    }
-  },
-  "contact": {
-    "seo": {
-      "title": "Kontakt | Fotka na URL",
-      "description": "Kontaktujte podporu Fotka na URL."
-    },
-    "page": {
-      "title": "Kontakt",
-      "description": "Potrebujete pomoc alebo chcete zdieľať spätnú väzbu? Pošlite nám e-mail a budeme sledovať doručenú poštu a odpovieme vám čo najskôr.",
-      "email": {
-        "label": "E-mail",
-        "address": "leeqs1010@gmail.com"
+    "status": {
+      "seo": {
+        "title": "Stav | Fotka na URL",
+        "description": "Stav služby pre Fotka na URL."
+      },
+      "page": {
+        "title": "Stav",
+        "description": "Všetky systémy sú funkčné.",
+        "message": "API nahrávania a odkazy CDN bežia."
       }
-    }
-  },
-  "bookmarklet": {
-    "title": "Fotka na URL Bookmarklet",
-    "description": "Nahrajte obrázky z akejkoľvek webovej stránky priamo do Fotka na URL jedným kliknutím!",
-    "howItWorks": {
-      "title": "Ako to funguje",
-      "step1": "Prehľadajte akúkoľvek webovú stránku s obrázkami",
-      "step2": "Kliknite na bookmarklet na paneli záložiek",
-      "step3": "Vyberte obrázok zo stránky",
-      "step4": "Okamžite získajte URL a skopírujte ho!"
     },
-    "installation": {
-      "title": "Inštalácia",
-      "step1": {
-        "title": "Krok 1: Skopírujte kód Bookmarklet",
-        "description": "Kliknite na tlačidlo nižšie a skopírujte kód bookmarklet do schránky."
+    "contact": {
+      "seo": {
+        "title": "Kontakt | Fotka na URL",
+        "description": "Kontaktujte podporu Fotka na URL."
       },
-      "step2": {
-        "title": "Krok 2: Pridajte do prehliadača",
-        "description": "Postupujte podľa týchto krokov v závislosti od vášho prehliadača:",
-        "chrome": "Chrome/Edge: Stlačte Ctrl+Shift+B (Cmd+Shift+B na Mac), aby ste zobrazili panel záložiek, potom kliknite pravým tlačidlom a vyberte \"Pridať stránku\". Vložte kód ako URL.",
-        "firefox": "Firefox: Kliknite pravým tlačidlom na panel záložiek a vyberte \"Nová záložka\". Vložte kód ako Umiestnenie.",
-        "safari": "Safari: Povolte panel záložiek (Zobraziť → Zobraziť panel záložiek), potom presuňte kód na panel záložiek.",
-        "edge": "Alternatíva: Vytvorte novú záložku, upravte ju a nahraďte URL skopírovaným kódom."
-      },
-      "step3": {
-        "title": "Krok 3: Začnite ho používať!",
-        "description": "Navštívte akúkoľvek webovú stránku s obrázkami a kliknite na svoj bookmarklet, aby ste začali nahrávanie!"
-      },
-      "copy": "Skopírovať kód",
-      "copied": "Skopírované!"
+      "page": {
+        "title": "Kontakt",
+        "description": "Potrebujete pomoc alebo chcete zdieľať spätnú väzbu? Pošlite nám e-mail a budeme sledovať doručenú poštu a odpovieme vám čo najskôr.",
+        "email": {
+          "label": "E-mail",
+          "address": "leeqs1010@gmail.com"
+        }
+      }
     },
-    "usage": {
-      "title": "Funkcie",
-      "description": "Bookmarklet poskytuje nasledujúce funkcie:",
-      "feature1": "Vyberte akýkoľvek obrázok z aktuálnej webovej stránky",
-      "feature2": "Automatické nahratie do Fotka na URL",
-      "feature3": "Okamžite získajte zdieľateľné URL jedným kliknutím na kopírovanie"
-    },
-    "note": {
-      "title": "Poznámka",
-      "content": "Bookmarklet funguje na väčšine webových stránok. Niektoré stránky s prísnymi bezpečnostnými politikami (CORS) môžu zabrániť nahrávaniu obrázkov."
+    "bookmarklet": {
+      "title": "Fotka na URL Bookmarklet",
+      "description": "Nahrajte obrázky z akejkoľvek webovej stránky priamo do Fotka na URL jedným kliknutím!",
+      "howItWorks": {
+        "title": "Ako to funguje",
+        "step1": "Prehľadajte akúkoľvek webovú stránku s obrázkami",
+        "step2": "Kliknite na bookmarklet na paneli záložiek",
+        "step3": "Vyberte obrázok zo stránky",
+        "step4": "Okamžite získajte URL a skopírujte ho!"
+      },
+      "installation": {
+        "title": "Inštalácia",
+        "step1": {
+          "title": "Krok 1: Skopírujte kód Bookmarklet",
+          "description": "Kliknite na tlačidlo nižšie a skopírujte kód bookmarklet do schránky."
+        },
+        "step2": {
+          "title": "Krok 2: Pridajte do prehliadača",
+          "description": "Postupujte podľa týchto krokov v závislosti od vášho prehliadača:",
+          "chrome": "Chrome/Edge: Stlačte Ctrl+Shift+B (Cmd+Shift+B na Mac), aby ste zobrazili panel záložiek, potom kliknite pravým tlačidlom a vyberte \"Pridať stránku\". Vložte kód ako URL.",
+          "firefox": "Firefox: Kliknite pravým tlačidlom na panel záložiek a vyberte \"Nová záložka\". Vložte kód ako Umiestnenie.",
+          "safari": "Safari: Povolte panel záložiek (Zobraziť → Zobraziť panel záložiek), potom presuňte kód na panel záložiek.",
+          "edge": "Alternatíva: Vytvorte novú záložku, upravte ju a nahraďte URL skopírovaným kódom."
+        },
+        "step3": {
+          "title": "Krok 3: Začnite ho používať!",
+          "description": "Navštívte akúkoľvek webovú stránku s obrázkami a kliknite na svoj bookmarklet, aby ste začali nahrávanie!"
+        },
+        "copy": "Skopírovať kód",
+        "copied": "Skopírované!"
+      },
+      "usage": {
+        "title": "Funkcie",
+        "description": "Bookmarklet poskytuje nasledujúce funkcie:",
+        "feature1": "Vyberte akýkoľvek obrázok z aktuálnej webovej stránky",
+        "feature2": "Automatické nahratie do Fotka na URL",
+        "feature3": "Okamžite získajte zdieľateľné URL jedným kliknutím na kopírovanie"
+      },
+      "note": {
+        "title": "Poznámka",
+        "content": "Bookmarklet funguje na väčšine webových stránok. Niektoré stránky s prísnymi bezpečnostnými politikami (CORS) môžu zabrániť nahrávaniu obrázkov."
+      }
     }
   }
 }

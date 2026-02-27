@@ -512,59 +512,59 @@
     },
     "cookie": {
       "seo": {
-          "title": "Pravila kolačića | Slika u URL",
-          "description": "Pravila kolačića za Slika u URL - Saznajte kako koristimo kolačiće i tehnologije praćenja."
-        },
-        "page": {
+        "title": "Pravila kolačića | Slika u URL",
+        "description": "Pravila kolačića za Slika u URL - Saznajte kako koristimo kolačiće i tehnologije praćenja."
+      },
+      "page": {
         "title": "Pravila kolačića",
-          "lastUpdated": "Posljednje ažuriranje: siječanj 2026",
-          "introduction": "Ova Pravila kolačića objašnjavaju kako Slika u URL koristi kolačiće i slične tehnologije praćenja kada posjećujete našu web stranicu. Korištenjem naše usluge pristajete na korištenje kolačića u skladu s ovim pravilima.",
-          "whatAreCookies": {
-            "title": "Što su kolačići",
-            "content": "Kolačići su male tekstualne datoteke koje se postavljaju na vaš uređaj kada posjećujete web stranicu. Široko se koriste kako bi web stranice radile učinkovitije i pružale informacije vlasnicima web stranica."
+        "lastUpdated": "Posljednje ažuriranje: siječanj 2026",
+        "introduction": "Ova Pravila kolačića objašnjavaju kako Slika u URL koristi kolačiće i slične tehnologije praćenja kada posjećujete našu web stranicu. Korištenjem naše usluge pristajete na korištenje kolačića u skladu s ovim pravilima.",
+        "whatAreCookies": {
+          "title": "Što su kolačići",
+          "content": "Kolačići su male tekstualne datoteke koje se postavljaju na vaš uređaj kada posjećujete web stranicu. Široko se koriste kako bi web stranice radile učinkovitije i pružale informacije vlasnicima web stranica."
+        },
+        "howWeUseCookies": {
+          "title": "Kako koristimo kolačiće",
+          "content": "Koristimo kolačiće u sljedeće svrhe:",
+          "item1": "Za pohranu vaše povijesti učitavanja i jezičnih postavki",
+          "item2": "Za analizu prometa web stranice i ponašanja korisnika",
+          "item3": "Za prikazivanje personaliziranih oglasa"
+        },
+        "typesOfCookies": {
+          "title": "Vrste kolačića koje koristimo",
+          "essential": {
+            "title": "Osnovni kolačići",
+            "content": "Ovi kolačići su neophodni za pravilno funkcioniranje web stranice. Omogućuju osnovne funkcije kao što su pohrana vaših jezičnih postavki i povijesti učitavanja."
           },
-          "howWeUseCookies": {
-            "title": "Kako koristimo kolačiće",
-            "content": "Koristimo kolačiće u sljedeće svrhe:",
-            "item1": "Za pohranu vaše povijesti učitavanja i jezičnih postavki",
-            "item2": "Za analizu prometa web stranice i ponašanja korisnika",
-            "item3": "Za prikazivanje personaliziranih oglasa"
+          "analytics": {
+            "title": "Analitički kolačići",
+            "content": "Koristimo Yandex Metrika za analizu načina na koji posjetitelji koriste našu web stranicu. Ovi kolačići prikupljaju anonimne informacije o korištenju web stranice kako bi nam pomogli poboljšati našu uslugu."
           },
-          "typesOfCookies": {
-            "title": "Vrste kolačića koje koristimo",
-            "essential": {
-              "title": "Osnovni kolačići",
-              "content": "Ovi kolačići su neophodni za pravilno funkcioniranje web stranice. Omogućuju osnovne funkcije kao što su pohrana vaših jezičnih postavki i povijesti učitavanja."
-            },
-            "analytics": {
-              "title": "Analitički kolačići",
-              "content": "Koristimo Yandex Metrika za analizu načina na koji posjetitelji koriste našu web stranicu. Ovi kolačići prikupljaju anonimne informacije o korištenju web stranice kako bi nam pomogli poboljšati našu uslugu."
-            },
-            "advertising": {
-              "title": "Oglasni kolačići",
-              "content": "Koristimo Google AdSense za prikazivanje oglasa. Ovi kolačići pomažu u isporuci personaliziranih oglasa na temelju vašeg ponašanja pregledavanja i interesa."
-            }
-          },
-          "thirdPartyCookies": {
-            "title": "Kolačići trećih strana",
-            "content": "Koristimo sljedeće usluge trećih strana koje mogu postaviti kolačiće:",
-            "item1": "Google AdSense - Za oglašavanje (podliježe Pravilima privatnosti Googlea)",
-            "item2": "Yandex Metrika - Za analitiku web stranice (podliježe Pravilima privatnosti Yandexa)"
-          },
-          "manageCookies": {
-            "title": "Upravljanje kolačićima",
-            "content": "Možete kontrolirati i upravljati kolačićima putem postavki vašeg preglednika. Većina preglednika vam omogućuje odbijanje ili prihvaćanje kolačića, brisanje postojećih kolačića ili postavljanje postavki za određene web stranice. Međutim, onemogućavanje kolačića može utjecati na funkcionalnost naše usluge."
-          },
-          "changes": {
-            "title": "Promjene u ovim Pravilima kolačića",
-            "content": "Možemo ažurirati ova Pravila kolačića s vremena na vrijeme. Obavijestit ćemo vas o svim promjenama objavljivanjem novih Pravila kolačića na ovoj stranici i ažuriranjem datuma \"Posljednje ažuriranje\"."
-          },
-          "contact": {
-            "title": "Kontaktirajte nas",
-            "text": "Ako imate pitanja o ovim Pravilima kolačića, molimo kontaktirajte nas na",
-            "email": "leeqs1010@gmail.com"
+          "advertising": {
+            "title": "Oglasni kolačići",
+            "content": "Koristimo Google AdSense za prikazivanje oglasa. Ovi kolačići pomažu u isporuci personaliziranih oglasa na temelju vašeg ponašanja pregledavanja i interesa."
           }
+        },
+        "thirdPartyCookies": {
+          "title": "Kolačići trećih strana",
+          "content": "Koristimo sljedeće usluge trećih strana koje mogu postaviti kolačiće:",
+          "item1": "Google AdSense - Za oglašavanje (podliježe Pravilima privatnosti Googlea)",
+          "item2": "Yandex Metrika - Za analitiku web stranice (podliježe Pravilima privatnosti Yandexa)"
+        },
+        "manageCookies": {
+          "title": "Upravljanje kolačićima",
+          "content": "Možete kontrolirati i upravljati kolačićima putem postavki vašeg preglednika. Većina preglednika vam omogućuje odbijanje ili prihvaćanje kolačića, brisanje postojećih kolačića ili postavljanje postavki za određene web stranice. Međutim, onemogućavanje kolačića može utjecati na funkcionalnost naše usluge."
+        },
+        "changes": {
+          "title": "Promjene u ovim Pravilima kolačića",
+          "content": "Možemo ažurirati ova Pravila kolačića s vremena na vrijeme. Obavijestit ćemo vas o svim promjenama objavljivanjem novih Pravila kolačića na ovoj stranici i ažuriranjem datuma \"Posljednje ažuriranje\"."
+        },
+        "contact": {
+          "title": "Kontaktirajte nas",
+          "text": "Ako imate pitanja o ovim Pravilima kolačića, molimo kontaktirajte nas na",
+          "email": "leeqs1010@gmail.com"
         }
+      }
     }
   },
   "blog": {
@@ -608,93 +608,103 @@
         "title": "Kako izrezati slike u kružni oblik - Kompletan vodič",
         "description": "Transformirajte bilo koju fotografiju u savršenu kružnu sliku s našim besplatnim online alatom za kružno izrezivanje. Stvorite profesionalne okrugle slike za profile, društvene mreže, logotipe i više u samo nekoliko sekundi.",
         "content": "# Kako izrezati slike u kružni oblik - Kompletan vodič\n\nTransformirajte bilo koju fotografiju u savršenu kružnu sliku s našim besplatnim online alatom za kružno izrezivanje. Stvorite profesionalne okrugle slike za profile, društvene mreže, logotipe i više u samo nekoliko sekundi.\n\n## Kako izrezati slike u kružni oblik\n\n### Korak 1: Učitajte svoju sliku\nOdaberite bilo koju fotografiju sa svog uređaja koju želite izrezati u kružni oblik. Naš alat podržava formate JPG, PNG, WEBP i GIF. Jednostavno kliknite gumb za učitavanje ili povucite i pustite svoju sliku.\n\n### Korak 2: Pozicionirajte svoju sliku\nPrilagodite i centrirajte svoju fotografiju unutar kružnog područja izrezivanja. Koristite klizač za zumiranje da se fokusirate na najvažniji dio svoje slike i povucite da je premjestite za savršen okrugli izrez.\n\n### Korak 3: Preuzmite svoju kružnu sliku\nKada ste zadovoljni s pozicioniranjem, kliknite \"Izreži i preuzmi\" da dobijete svoju savršeno zaobljenu sliku. Rezultat će imati transparentnu pozadinu, što ga čini savršenim za korištenje bilo gdje.\n\n## Popularni načini korištenja kružno izrezanih slika\n\n### Profilne fotografije\nIzrežite fotografije u kružni oblik za profesionalno izgledajuće profilne slike na platformama društvenih mreža kao što su Facebook, LinkedIn i Instagram. Kružni avatari stvaraju moderan, uglađen izgled.\n\n### Grafika za društvene mreže\nStvorite kružne slike za Instagram priče, Facebook objave i Twitter profile koji se ističu iz gomile. Okrugle slike dodaju vizualni interes i razbijaju monotoniju kvadratnih objava.\n\n### Okrugli logotipi\nTransformirajte svoj logotip ili slike brenda u savršeno okrugle oblike za konzistentno brendiranje na svim platformama. Kružni logotipi posebno dobro funkcioniraju za ikone aplikacija i brendiranje na društvenim mrežama.\n\n### Fotografije svjedočanstava\nPrikažite svjedočanstva klijenata s kružnim profilnim fotografijama za čist, profesionalan izgled. Okrugle slike stvaraju vizualnu konzistentnost i čine vaša svjedočanstva privlačnijima.\n\n### Fotografije članova tima\nStvorite konzistentne okrugle portrete za korporativne web stranice, stranice tima i imenike zaposlenika. Jednobrazne kružne fotografije daju vašoj stranici tima kohezivan, profesionalan izgled.\n\n## Značajke našeg alata za kružno izrezivanje\n\n- **Besplatni kružni izrezivač slika** - Napravite kružne oblike iz bilo koje slike besplatno, bez skrivenih naknada\n- **Visokorezolucijski izlaz** - Preuzmite svoje kružne slike u njihovoj originalnoj kvaliteti bez kompresije\n- **Nije potrebna registracija** - Počnite izrezivati slike u krug odmah, nije potrebno stvaranje računa\n- **Privatno i sigurno** - Vaše slike nikada ne napuštaju vaš preglednik, osiguravajući potpunu privatnost\n- **Lako za korištenje sučelje** - Jednostavan, intuitivan dizajn čini stvaranje okruglih slika bez napora\n- **Radi na svim uređajima** - Izrežite slike u kružni oblik na desktopu, tabletu ili mobilnim uređajima\n- **Transparentna pozadina** - Svi kružni izrezi dolaze s transparentnim pozadinama za maksimalnu svestranost\n- **Pregled u stvarnom vremenu** - Vidite točno kako će vaša kružna slika izgledati prije preuzimanja\n\n## Često postavljana pitanja o kružnom izrezivanju slika\n\n### Kako izrezati sliku u kružni oblik?\n\nJednostavno učitajte svoju sliku u naš alat, prilagodite je unutar kružnog okvira da pravilno pozicionirate subjekt, i kliknite \"Izrezi i preuzmi\" da dobijete svoju savršeno okruglu sliku. Naš alat olakšava izrezivanje bilo koje slike u kružnom formatu odmah bez potrebe za vještinama dizajna.\n\n### Kako napraviti kružnu profilnu fotografiju?\n\nUčitajte svoju fotografiju u naš alat za kružno izrezivanje, pozicionirajte svoje lice u centru kružnog okvira, a zatim preuzmite svoju novu okruglu profilnu fotografiju. Savršeno je za profile društvenih mreža koji koriste kružne slike kao što su Facebook, LinkedIn ili Instagram.\n\n### Mogu li izrezati fotografije u okrugle oblike na svom telefonu?\n\nDa! Naš kružni izrezivač slika radi na svim uređajima uključujući pametne telefone i tablete. Sučelje prilagođeno mobilnim uređajima omogućava vam lako stvaranje kružnih izreza slika bilo gdje. Jednostavno posjetite našu web stranicu iz svog mobilnog preglednika - nije potrebno preuzimanje aplikacije.\n\n### Spremate li slike koje učitavam?\n\nNe, nikada ne spremamo vaše slike na naše servere. Cijeli proces izrezivanja odvija se izravno u vašem pregledniku, što znači da vaše fotografije ostaju potpuno privatne. Kada napustite stranicu, svi podaci slike automatski se uklanjaju.\n\n### Koje formate slika mogu koristiti s alatom za kružno izrezivanje?\n\nNaš alat radi sa svim standardnim formatima slika uključujući JPG, PNG, WEBP i GIF. Možete učitati bilo koji od ovih formata i vaša kružno izrezana slika će biti preuzeta kao PNG datoteka s transparentnošću oko kruga.\n\n### Hoće li moja kružno izrezana slika imati transparentnu pozadinu?\n\nDa, kada preuzmete svoju izrezanu sliku, imat će transparentnu pozadinu oko kruga. To je savršeno za postavljanje na web stranice, dokumente ili dizajne gdje želite da samo kružni dio bude vidljiv.\n\n### Mogu li prilagoditi veličinu kružnog izreza?\n\nKružni izrez održava savršen omjer stranica 1:1, ali možete zumirati unutra ili van da prilagodite koliko vaše slike se pojavljuje unutar kruga. To vam omogućava da se fokusirate na specifične dijelove svoje slike dok zadržavate kružni oblik.\n\n## Savjeti za slike za savršene kružne izreze\n\n### Centrirajte svoj subjekt\nZa najbolje rezultate, odaberite slike gdje je glavni subjekt centriran ili može biti pozicioniran u centru okvira. Ovo je posebno važno za profilne fotografije i portrete gdje bi lice trebalo biti žarišna točka.\n\n### Razmotrite područje izrezivanja\nZapamtite da će uglovi vaše slike biti izrezani. Izbjegavajte slike gdje su važni detalji blizu rubova fotografije, jer će se izgubiti u kružnom izrezu.\n\n### Koristite visokorezolucijske slike\nPočetak s visokokvalitetnim slikama rezultirat će boljim kružnim izrezima. Niskorezolucijske ili male slike mogu izgledati pikselirane kada se izrežu, pa koristite izvorne slike najviše kvalitete dostupne.\n\n### Pazite na omjer stranica\nKvadratne slike obično najbolje funkcioniraju za kružno izrezivanje. Ako je vaša originalna slika vrlo široka ili visoka, možete izgubiti značajne dijelove u procesu izrezivanja. Razmotrite izrezivanje na kvadrat prvo ako je potrebno.\n\n### Prilagodite za optimalno uokvirivanje\nKoristite funkciju pozicioniranja našeg alata za zumiranje i prilagođavanje svoje slike. Za portrete, pokušajte centrirati lice s nekim marginama oko njega za najbolji profesionalni izgled. Za proizvode, centrirajte glavnu stavku unutar kruga.\n\n### Stvorite konzistentne setove\nKada stvarate više kružnih slika (kao za timske fotografije), pokušajte održati konzistentno uokvirivanje, stilove pozadine i veličine za kohezivan izgled na svim slikama.\n\n## Uobičajene upotrebe za kružno izrezane slike\n\n| Primjena | Prednosti kružnog izreza |\n|------------|------------------------|\n| Profili društvenih mreža | Većina platformi prikazuje avatare u krugovima - savršeno izrezana kružna slika izgleda profesionalno |\n| Fotografije članova tima | Stvorite konzistentne okrugle portrete za korporativne web stranice i imenike |\n| Online portfelji | Okrugle slike stvaraju vizualni interes i modernu estetiku |\n| Digitalne posjetnice | Kružno izrezane profilne fotografije izgledaju čišće i profesionalnije |\n| Minijature proizvoda | Okrugle slike proizvoda stvaraju kohezivan izgled kataloga |\n| Ikone aplikacija | Kružne ikone su standard za mobilne aplikacije |\n| Svjedočanstva web stranice | Okrugle fotografije klijenata dodaju vjerodostojnost i vizualnu privlačnost |\n\n## Zašto odabrati naš alat za kružno izrezivanje slika\n\nKada je u pitanju izrezivanje fotografija u krugove online, naš alat nudi nekoliko prednosti:\n\n- **Trenutna obrada** - Izrežite sliku u kružni oblik u sekundama bez čekanja na učitavanja ili obradu servera\n- **Savršeni krugovi svaki put** - Naš alat osigurava savršeno okrugle izreze s čistim rubovima i bez distorzije\n- **Intuitivne kontrole** - Lako pozicionirajte svoju sliku točno kako želite unutar kruga s funkcionalnostima zumiranja i povlačenja\n- **Bez vodenih žigova** - Za razliku od drugih alata za kružno izrezivanje, ne dodajemo vodeni žig na vaše slike\n- **Radi sa svim tipovima slika** - Izrežite fotografije, grafiku, ilustracije ili bilo koju sliku u krug\n- **Bazirano na pregledniku** - Nije potrebna instalacija softvera, radi izravno u vašem web pregledniku\n- **Privatnost na prvom mjestu** - Sva obrada se odvija lokalno u vašem pregledniku, vaše slike nikada ne napuštaju vaš uređaj\n\nBilo da trebate izrezati slike u kružni oblik za profesionalnu upotrebu ili osobne projekte, naš alat za kružno izrezivanje fotografija sve to rješava s lakoćom. Stvorite kružne izreze slika u samo nekoliko klikova!\n\n## Početak rada\n\nSpremni stvoriti svoju prvu kružnu sliku? Posjetite naš [Alat za kružno izrezivanje](/circle-crop) i počnite izrezivati danas. Potpuno je besplatno, ne zahtijeva registraciju i treba samo nekoliko sekundi da stvorite profesionalne kružne slike.\n\n---\n\n*Posljednje ažuriranje: Siječanj 2026*"
+      },
+      "photo-to-rounded-corners-guide": {
+        "title": "Slike sa zaobljenim rubovima – Vodič",
+        "description": "Dodajte zaobljene rubove bilo kojoj slici besplatnim alatom. Prikladno za minijature, kartice, UI i društvene mreže u sekundama.",
+        "content": "# Slike sa zaobljenim rubovima – Vodič\n\nDajte bilo kojoj slici zaobljene rubove besplatnim online alatom. Prikladno za minijature, kartice, elemente sučelja i društvene mreže, bez dizajnerskih vještina.\n\n## Kako zaobliti rubove slike\n\n### Korak 1: Učitajte sliku\nOdaberite fotografiju s uređaja. Formati: JPG, PNG, WEBP, GIF. Kliknite ili povucite i pustite.\n\n### Korak 2: Postavite radijus ruba\nKoristite klizač za stupanj zaobljenja. Pregled se ažurira u stvarnom vremenu.\n\n### Korak 3: Preuzmite\nKliknite \"Preuzmi\" da spremite sliku sa zaobljenim rubovima i upotrijebite je u izgledu, na webu ili u objavama.\n\n## Uobičajene upotrebe\n\n### Minijature i kartice\nZaobljeni rubovi daju mrežama i karticama čist, moderan izgled.\n\n### Društvene mreže i oglasi\nSlike s mekim rubovima više se ističu u feedu i oglasima, djeluju prijateljskije.\n\n### Sučelje i aplikacije\nIkone, avatari i gumbi često imaju zaobljene rubove; alat pomaže uskladiti više slika.\n\n### Prezentacije i dokumenti\nIsti radijus na snimkama zaslona i grafici čini slajdove i dokumente konzistentnima.\n\n## Što alat nudi\n\n- **Besplatno i odmah** – bez registracije, bez vodenog žiga, bez ograničenja\n- **Podesivi radijus** – od blagog zaobljenja do oblika pilule\n- **Pregled u stvarnom vremenu** – vidite rezultat prije preuzimanja\n- **Privatnost** – obrada u pregledniku; ne spremamo slike\n- **Svi uređaji** – računalo, tablet, telefon\n\n## Često postavljana pitanja\n\n### Kako zaobliti rubove fotografije?\n\nOtvorite [Alat za zaobljene rubove](/rounded-corners), učitajte sliku, postavite radijus, kliknite Preuzmi.\n\n### Koji su formati podržani?\n\nJPG, PNG, WEBP, GIF. Preuzimanje zadržava izvorni format (ili PNG za transparentnost).\n\n### Radi li na telefonu?\n\nDa. Alat radi u mobilnom i tablet pregledniku, bez aplikacije.\n\n### Spremate li moje slike?\n\nNe. Sva obrada odvija se u vašem pregledniku; ne spremamo ništa.\n\n## Povezani alati\n\n- [Slika u URL](/) – pretvori sliku u poveznicu\n- [Kružno izrezivanje](/circle-crop) – stvori kružne slike\n- [Zaobljeni rubovi](/rounded-corners) – zaobliti rubove\n- [Uklanjanje pozadine](/remove-background) – ukloni pozadinu s AI\n\n---\n\n*Posljednje ažuriranje: Veljača 2026*"
+      },
+      "photo-to-remove-background-guide": {
+        "title": "Uklanjanje pozadine – Vodič",
+        "description": "Uklonite pozadinu sa slika jednim klikom besplatnim AI alatom. Čisti izrezi za proizvode, portrete, logotipe i više.",
+        "content": "# Uklanjanje pozadine – Vodič\n\nUklonite pozadinu sa slika jednim klikom besplatnim online alatom. Čisti izrezi za fotografije proizvoda, portrete, logotipe – bez dizajnerskih vještina.\n\n## Kako ukloniti pozadinu\n\n### Korak 1: Učitajte sliku\nOdaberite bilo koju fotografiju s uređaja. Podržani: JPG, PNG, WEBP, GIF. Kliknite ili povucite i ispustite.\n\n### Korak 2: AI uklanja pozadinu\nAlat automatski prepoznaje predmet i uklanja pozadinu. Obrada traje nekoliko sekundi. Pregled u stvarnom vremenu s transparentnom pozadinom.\n\n### Korak 3: Preuzmite\nKliknite \"Preuzmi\" da spremite sliku bez pozadine. Izlaz je PNG s transparentnošću, za dizajn, e-trgovinu ili društvene mreže.\n\n## Česta uporaba\n\n### Fotografije proizvoda\nČisti izrezi za online trgovine, tržišta i oglase. Transparentna pozadina za bilo koji raspored.\n\n### Portreti i profili\nUklonite užurbanu pozadinu s portreta za životopise, LinkedIn ili profil.\n\n### Logotipi i grafika\nIzolirajte logotipe i grafiku s fotografija ili skenova. Transparentni PNG za preklapanje i prezentacije.\n\n### Društvene mreže i marketing\nUpečatljive slike za objave, priče i oglase. Transparentni izrezi za bilo koji predložak.\n\n## Što alat nudi\n\n- **Besplatno i AI** – bez registracije, bez vodenog žiga, bez ograničenja\n- **Uklanjanje jednim klikom** – automatsko prepoznavanje predmeta i čisti rubovi\n- **Transparentni PNG** – spreman za bilo koji dizajn ili platformu\n- **Privatnost** – obrada u pregledniku; ne pohranjujemo slike\n- **Svi uređaji** – PC, tablet, telefon\n\n## Često postavljana pitanja\n\n### Kako ukloniti pozadinu s fotografije?\n\nOtvorite [Alat za uklanjanje pozadine](/remove-background), učitajte sliku. Alat će prepoznati predmet i ukloniti pozadinu. Pregledajte i preuzmite kao transparentni PNG.\n\n### Koji formati slika su podržani?\n\nJPG, PNG, WEBP, GIF. Rezultat se uvijek preuzima kao PNG s transparentnom pozadinom.\n\n### Pohranjujete li moje slike?\n\nNe. Obrada se odvija u vašem pregledniku; ništa ne pohranjujemo.\n\n### Radi li na telefonu?\n\nDa. Alat radi u pregledniku na telefonu i tabletu.\n\n## Povezani alati\n\n- [Slika u URL](/) – slika u link\n- [Kružno obrezivanje](/circle-crop) – okrugle slike\n- [Zaobljeni uglovi](/rounded-corners) – zaobljeni uglovi\n- [Uklanjanje pozadine](/remove-background) – uklanjanje pozadine s AI\n\n---\n\n*Zadnje ažurirano: Ožujak 2026*"
       }
-    }
-  },
-  "docs": {
-    "seo": {
-      "title": "Dokumentacija | Slika u URL",
-      "description": "Dokumentacija za Slika u URL."
     },
-    "page": {
-      "title": "Dokumentacija",
-      "description": "Brzi početak: učitajte sliku i dobijte izravnu URL. Koristite gumbove kopiranja/otvaranja ili preuzmite poveznicu u .txt formatu.",
-      "features": {
-        "title": "Podržane funkcije:",
-        "items": {
-          "1": "Podržano: JPG, PNG, WEBP, GIF",
-          "2": "Brza isporuka putem CDN-a kada je pohrana omogućena",
-          "3": "Prijateljske poruke održavanja kada usluga nije dostupna"
+    "docs": {
+      "seo": {
+        "title": "Dokumentacija | Slika u URL",
+        "description": "Dokumentacija za Slika u URL."
+      },
+      "page": {
+        "title": "Dokumentacija",
+        "description": "Brzi početak: učitajte sliku i dobijte izravnu URL. Koristite gumbove kopiranja/otvaranja ili preuzmite poveznicu u .txt formatu.",
+        "features": {
+          "title": "Podržane funkcije:",
+          "items": {
+            "1": "Podržano: JPG, PNG, WEBP, GIF",
+            "2": "Brza isporuka putem CDN-a kada je pohrana omogućena",
+            "3": "Prijateljske poruke održavanja kada usluga nije dostupna"
+          }
         }
       }
-    }
-  },
-  "status": {
-    "seo": {
-      "title": "Status | Slika u URL",
-      "description": "Status usluge za Slika u URL."
     },
-    "page": {
-      "title": "Status",
-      "description": "Svi sustavi su operativni.",
-      "message": "API za učitavanje i CDN veze rade."
-    }
-  },
-  "contact": {
-    "seo": {
-      "title": "Kontakt | Slika u URL",
-      "description": "Kontaktirajte podršku Slika u URL."
-    },
-    "page": {
-      "title": "Kontakt",
-      "description": "Trebate li pomoć ili želite podijeliti povratne informacije? Pošaljite nam e-poštu i pratit ćemo poštanski sandučić i odgovoriti vam što je prije moguće.",
-      "email": {
-        "label": "E-pošta",
-        "address": "leeqs1010@gmail.com"
+    "status": {
+      "seo": {
+        "title": "Status | Slika u URL",
+        "description": "Status usluge za Slika u URL."
+      },
+      "page": {
+        "title": "Status",
+        "description": "Svi sustavi su operativni.",
+        "message": "API za učitavanje i CDN veze rade."
       }
-    }
-  },
-  "bookmarklet": {
-    "title": "Slika u URL Bookmarklet",
-    "description": "Učitajte slike s bilo koje web stranice izravno u Slika u URL jednim klikom!",
-    "howItWorks": {
-      "title": "Kako funkcionira",
-      "step1": "Pregledajte bilo koju web stranicu sa slikama",
-      "step2": "Kliknite na bookmarklet u traci oznaka",
-      "step3": "Odaberite sliku sa stranice",
-      "step4": "Dobijte URL odmah i kopirajte ga!"
     },
-    "installation": {
-      "title": "Instalacija",
-      "step1": {
-        "title": "Korak 1: Kopirajte kod Bookmarklet",
-        "description": "Kliknite na gumb ispod da kopirate kod bookmarklet u međuspremnik."
+    "contact": {
+      "seo": {
+        "title": "Kontakt | Slika u URL",
+        "description": "Kontaktirajte podršku Slika u URL."
       },
-      "step2": {
-        "title": "Korak 2: Dodajte u svoj preglednik",
-        "description": "Slijedite ove korake ovisno o vašem pregledniku:",
-        "chrome": "Chrome/Edge: Pritisnite Ctrl+Shift+B (Cmd+Shift+B na Macu) da prikažete traku oznaka, zatim desnim klikom i odaberite \"Dodaj stranicu\". Zalijepite kod kao URL.",
-        "firefox": "Firefox: Desnim klikom na traku oznaka i odaberite \"Nova oznaka\". Zalijepite kod kao Lokaciju.",
-        "safari": "Safari: Omogućite traku oznaka (Prikaz → Prikaži traku oznaka), zatim povucite kod u traku oznaka.",
-        "edge": "Alternativa: Stvorite novu oznaku, uredite je i zamijenite URL kopiranim kodom."
-      },
-      "step3": {
-        "title": "Korak 3: Počnite ga koristiti!",
-        "description": "Posjetite bilo koju web stranicu sa slikama i kliknite na svoj bookmarklet da počnete učitavati!"
-      },
-      "copy": "Kopiraj kod",
-      "copied": "Kopirano!"
+      "page": {
+        "title": "Kontakt",
+        "description": "Trebate li pomoć ili želite podijeliti povratne informacije? Pošaljite nam e-poštu i pratit ćemo poštanski sandučić i odgovoriti vam što je prije moguće.",
+        "email": {
+          "label": "E-pošta",
+          "address": "leeqs1010@gmail.com"
+        }
+      }
     },
-    "usage": {
-      "title": "Značajke",
-      "description": "Bookmarklet pruža sljedeće značajke:",
-      "feature1": "Odaberite bilo koju sliku s trenutne web stranice",
-      "feature2": "Automatsko učitavanje u Slika u URL",
-      "feature3": "Dobijte URL za dijeljenje odmah jednim klikom za kopiranje"
-    },
-    "note": {
-      "title": "Napomena",
-      "content": "Bookmarklet radi na većini web stranica. Neke stranice sa strogim sigurnosnim pravilima (CORS) mogu spriječiti učitavanje slika."
+    "bookmarklet": {
+      "title": "Slika u URL Bookmarklet",
+      "description": "Učitajte slike s bilo koje web stranice izravno u Slika u URL jednim klikom!",
+      "howItWorks": {
+        "title": "Kako funkcionira",
+        "step1": "Pregledajte bilo koju web stranicu sa slikama",
+        "step2": "Kliknite na bookmarklet u traci oznaka",
+        "step3": "Odaberite sliku sa stranice",
+        "step4": "Dobijte URL odmah i kopirajte ga!"
+      },
+      "installation": {
+        "title": "Instalacija",
+        "step1": {
+          "title": "Korak 1: Kopirajte kod Bookmarklet",
+          "description": "Kliknite na gumb ispod da kopirate kod bookmarklet u međuspremnik."
+        },
+        "step2": {
+          "title": "Korak 2: Dodajte u svoj preglednik",
+          "description": "Slijedite ove korake ovisno o vašem pregledniku:",
+          "chrome": "Chrome/Edge: Pritisnite Ctrl+Shift+B (Cmd+Shift+B na Macu) da prikažete traku oznaka, zatim desnim klikom i odaberite \"Dodaj stranicu\". Zalijepite kod kao URL.",
+          "firefox": "Firefox: Desnim klikom na traku oznaka i odaberite \"Nova oznaka\". Zalijepite kod kao Lokaciju.",
+          "safari": "Safari: Omogućite traku oznaka (Prikaz → Prikaži traku oznaka), zatim povucite kod u traku oznaka.",
+          "edge": "Alternativa: Stvorite novu oznaku, uredite je i zamijenite URL kopiranim kodom."
+        },
+        "step3": {
+          "title": "Korak 3: Počnite ga koristiti!",
+          "description": "Posjetite bilo koju web stranicu sa slikama i kliknite na svoj bookmarklet da počnete učitavati!"
+        },
+        "copy": "Kopiraj kod",
+        "copied": "Kopirano!"
+      },
+      "usage": {
+        "title": "Značajke",
+        "description": "Bookmarklet pruža sljedeće značajke:",
+        "feature1": "Odaberite bilo koju sliku s trenutne web stranice",
+        "feature2": "Automatsko učitavanje u Slika u URL",
+        "feature3": "Dobijte URL za dijeljenje odmah jednim klikom za kopiranje"
+      },
+      "note": {
+        "title": "Napomena",
+        "content": "Bookmarklet radi na većini web stranica. Neke stranice sa strogim sigurnosnim pravilima (CORS) mogu spriječiti učitavanje slika."
+      }
     }
   }
 }

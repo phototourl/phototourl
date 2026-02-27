@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "fix": "next lint --fix",
+    "validate:blog": "node scripts/validate-blog-posts.js",
     "dummy-data": "ts-node ./data/generate.ts"
   },
   "dependencies": {

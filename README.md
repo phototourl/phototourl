@@ -2,7 +2,8 @@
 
 <div align="center">
 
-**Turn photos into clean, shareable links in seconds**
+**Turn photos into clean, shareable links in seconds.**
+
 
 [![Website](https://img.shields.io/badge/Website-phototourl.com-teal?style=for-the-badge)](https://phototourl.com)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
@@ -65,6 +66,24 @@ R2_PUBLIC_BASE_URL=your-cdn-url
 - **Internationalization:** [next-intl](https://next-intl-docs.vercel.app/)
 - **Storage:** Cloudflare R2 (optional) or local storage
 - **Deployment:** Vercel
+
+## 📋 多语言与博客文案校验
+
+修改或新增 `messages/*.json` 中的博客文案后，请运行：
+
+```bash
+npm run validate:blog
+```
+或：`node scripts/validate-blog-posts.js`
+
+脚本会检查：
+
+- 所有 JSON 可正常解析
+- `blog.posts` 下存在四个博客 slug（与 `src/lib/blog-posts.ts` 一致），且均为**直接子键**，无嵌套
+- 每个博客项包含 `title`、`description`、`content` 三个字符串
+- 源码中无「圆角博客 content 后仅逗号再接去背景」的典型嵌套错误
+
+若报错，请按提示修正对应语言的 `blog.posts` 结构（例如圆角与去背景必须是两个同级键，圆角对象需用 `},` 正确闭合）。
 
 ## 🌐 Related Products
 

@@ -512,59 +512,59 @@
     },
     "cookie": {
       "seo": {
-          "title": "Evästekäytäntö | Kuva URL-osoitteeksi",
-          "description": "Evästekäytäntö Kuva URL-osoitteeksi:lle - Opi, miten käytämme evästeitä ja seurantateknologioita."
-        },
-        "page": {
+        "title": "Evästekäytäntö | Kuva URL-osoitteeksi",
+        "description": "Evästekäytäntö Kuva URL-osoitteeksi:lle - Opi, miten käytämme evästeitä ja seurantateknologioita."
+      },
+      "page": {
         "title": "Evästekäytäntö",
-          "lastUpdated": "Viimeksi päivitetty: tammikuu 2026",
-          "introduction": "Tämä Evästekäytäntö selittää, miten Kuva URL-osoitteeksi käyttää evästeitä ja vastaavia seurantateknologioita, kun vierailet verkkosivustollamme. Käyttämällä palveluamme hyväksyt evästeiden käytön tämän käytännön mukaisesti.",
-          "whatAreCookies": {
-            "title": "Mitä evästeet ovat",
-            "content": "Evästeet ovat pieniä tekstitiedostoja, jotka asetetaan laitteellesi, kun vierailet verkkosivustolla. Niitä käytetään laajalti tehdäksemme verkkosivustot tehokkaammiksi ja tarjotaksemme tietoja verkkosivustojen omistajille."
+        "lastUpdated": "Viimeksi päivitetty: tammikuu 2026",
+        "introduction": "Tämä Evästekäytäntö selittää, miten Kuva URL-osoitteeksi käyttää evästeitä ja vastaavia seurantateknologioita, kun vierailet verkkosivustollamme. Käyttämällä palveluamme hyväksyt evästeiden käytön tämän käytännön mukaisesti.",
+        "whatAreCookies": {
+          "title": "Mitä evästeet ovat",
+          "content": "Evästeet ovat pieniä tekstitiedostoja, jotka asetetaan laitteellesi, kun vierailet verkkosivustolla. Niitä käytetään laajalti tehdäksemme verkkosivustot tehokkaammiksi ja tarjotaksemme tietoja verkkosivustojen omistajille."
+        },
+        "howWeUseCookies": {
+          "title": "Miten käytämme evästeitä",
+          "content": "Käytämme evästeitä seuraaviin tarkoituksiin:",
+          "item1": "Tallentamaan lataushistoriasi ja kieliasetuksesi",
+          "item2": "Analysoimaan verkkosivuston liikennettä ja käyttäjien käyttäytymistä",
+          "item3": "Näyttämään personoituja mainoksia"
+        },
+        "typesOfCookies": {
+          "title": "Käyttämämme evästetyypit",
+          "essential": {
+            "title": "Välttämättömät evästeet",
+            "content": "Nämä evästeet ovat välttämättömiä verkkosivuston oikean toiminnan kannalta. Ne mahdollistavat keskeiset toiminnot, kuten kieliasetusten ja lataushistorian tallentamisen."
           },
-          "howWeUseCookies": {
-            "title": "Miten käytämme evästeitä",
-            "content": "Käytämme evästeitä seuraaviin tarkoituksiin:",
-            "item1": "Tallentamaan lataushistoriasi ja kieliasetuksesi",
-            "item2": "Analysoimaan verkkosivuston liikennettä ja käyttäjien käyttäytymistä",
-            "item3": "Näyttämään personoituja mainoksia"
+          "analytics": {
+            "title": "Analyyttiset evästeet",
+            "content": "Käytämme Yandex Metrikaa analysoimaan, miten vierailijat käyttävät verkkosivustoamme. Nämä evästeet keräävät anonyymiä tietoa verkkosivuston käytöstä auttaakseen meitä parantamaan palveluamme."
           },
-          "typesOfCookies": {
-            "title": "Käyttämämme evästetyypit",
-            "essential": {
-              "title": "Välttämättömät evästeet",
-              "content": "Nämä evästeet ovat välttämättömiä verkkosivuston oikean toiminnan kannalta. Ne mahdollistavat keskeiset toiminnot, kuten kieliasetusten ja lataushistorian tallentamisen."
-            },
-            "analytics": {
-              "title": "Analyyttiset evästeet",
-              "content": "Käytämme Yandex Metrikaa analysoimaan, miten vierailijat käyttävät verkkosivustoamme. Nämä evästeet keräävät anonyymiä tietoa verkkosivuston käytöstä auttaakseen meitä parantamaan palveluamme."
-            },
-            "advertising": {
-              "title": "Mainosevästeet",
-              "content": "Käytämme Google AdSensea näyttämään mainoksia. Nämä evästeet auttavat tarjoamaan personoituja mainoksia selauskäyttäytymisesi ja kiinnostustesi perusteella."
-            }
-          },
-          "thirdPartyCookies": {
-            "title": "Kolmannen osapuolen evästeet",
-            "content": "Käytämme seuraavia kolmannen osapuolen palveluja, jotka voivat asettaa evästeitä:",
-            "item1": "Google AdSense - Mainontaan (Googlen tietosuojakäytännön alainen)",
-            "item2": "Yandex Metrika - Verkkosivuston analysointiin (Yandexin tietosuojakäytännön alainen)"
-          },
-          "manageCookies": {
-            "title": "Evästeiden hallinta",
-            "content": "Voit hallita evästeitä selaimen asetuksien kautta. Useimmat selaimet antavat sinun kieltäytyä tai hyväksyä evästeet, poistaa olemassa olevat evästeet tai asettaa asetuksia tietyille verkkosivustoille. Evästeiden poistaminen käytöstä voi kuitenkin vaikuttaa palvelumme toiminnallisuuteen."
-          },
-          "changes": {
-            "title": "Muutokset tähän evästekäytäntöön",
-            "content": "Voimme päivittää tätä evästekäytäntöä ajoittain. Ilmoitamme sinulle kaikista muutoksista julkaisemalla uuden evästekäytännön tällä sivulla ja päivittämällä \"Viimeksi päivitetty\" -päivämäärän."
-          },
-          "contact": {
-            "title": "Ota yhteyttä",
-            "text": "Jos sinulla on kysymyksiä tästä evästekäytännöstä, ota yhteyttä meihin osoitteessa",
-            "email": "leeqs1010@gmail.com"
+          "advertising": {
+            "title": "Mainosevästeet",
+            "content": "Käytämme Google AdSensea näyttämään mainoksia. Nämä evästeet auttavat tarjoamaan personoituja mainoksia selauskäyttäytymisesi ja kiinnostustesi perusteella."
           }
+        },
+        "thirdPartyCookies": {
+          "title": "Kolmannen osapuolen evästeet",
+          "content": "Käytämme seuraavia kolmannen osapuolen palveluja, jotka voivat asettaa evästeitä:",
+          "item1": "Google AdSense - Mainontaan (Googlen tietosuojakäytännön alainen)",
+          "item2": "Yandex Metrika - Verkkosivuston analysointiin (Yandexin tietosuojakäytännön alainen)"
+        },
+        "manageCookies": {
+          "title": "Evästeiden hallinta",
+          "content": "Voit hallita evästeitä selaimen asetuksien kautta. Useimmat selaimet antavat sinun kieltäytyä tai hyväksyä evästeet, poistaa olemassa olevat evästeet tai asettaa asetuksia tietyille verkkosivustoille. Evästeiden poistaminen käytöstä voi kuitenkin vaikuttaa palvelumme toiminnallisuuteen."
+        },
+        "changes": {
+          "title": "Muutokset tähän evästekäytäntöön",
+          "content": "Voimme päivittää tätä evästekäytäntöä ajoittain. Ilmoitamme sinulle kaikista muutoksista julkaisemalla uuden evästekäytännön tällä sivulla ja päivittämällä \"Viimeksi päivitetty\" -päivämäärän."
+        },
+        "contact": {
+          "title": "Ota yhteyttä",
+          "text": "Jos sinulla on kysymyksiä tästä evästekäytännöstä, ota yhteyttä meihin osoitteessa",
+          "email": "leeqs1010@gmail.com"
         }
+      }
     }
   },
   "blog": {
@@ -608,93 +608,103 @@
         "title": "Kuinka leikataan kuvia ympyrän muotoon - Täydellinen opas",
         "description": "Muunna mikä tahansa valokuva täydelliseksi pyöreäksi kuvaksi ilmaisella online-ympyräleikkaus työkalullamme. Luo ammattimaisia pyöreitä kuvia profiileihin, sosiaaliseen mediaan, logoihin ja paljon muuta sekunneissa.",
         "content": "# Kuinka leikataan kuvia ympyrän muotoon - Täydellinen opas\n\nMuunna mikä tahansa valokuva täydelliseksi pyöreäksi kuvaksi ilmaisella online-ympyräleikkaus työkalullamme. Luo ammattimaisia pyöreitä kuvia profiileihin, sosiaaliseen mediaan, logoihin ja paljon muuta sekunneissa.\n\n## Kuinka leikataan kuvia ympyrän muotoon\n\n### Vaihe 1: Lataa kuvasi\nValitse mikä tahansa valokuva laitteeltasi, jonka haluat leikata ympyrän muotoon. Työkalumme tukee JPG, PNG, WEBP ja GIF muotoja. Klikkaa vain latausnappia tai vedä ja pudota kuvatiedostosi.\n\n### Vaihe 2: Aseta kuvasi\nSäädä ja keskitä valokuvasi ympyrän leikkausalueen sisällä. Käytä zoom-liukusäädintä keskittyäksesi kuvasi tärkeimpään osaan ja vedä uudelleen asettamiseen täydellistä pyöreää leikkausta varten.\n\n### Vaihe 3: Lataa ympyräkuvasi\nKun olet tyytyväinen sijaintiin, klikkaa \"Leikkaa ja lataa\" saadaksesi täydellisen pyöreän kuvasi. Tuloksella on läpinäkyvä tausta, mikä tekee siitä täydellisen käytettäväksi missä tahansa.\n\n## Suosittuja tapoja käyttää ympyrän muotoon leikattuja kuvia\n\n### Profiilikuvat\nLeikkaa valokuvia ympyrän muotoon ammattimaisesti näyttäviin profiilikuviin sosiaalisen median alustoilla kuten Facebook, LinkedIn ja Instagram. Ympyräavatart luovat modernin, kiillotetun ulkoasun.\n\n### Sosiaalisen median grafiikat\nLuo ympyräkuvia Instagram-tarinoihin, Facebook-julkaisuihin ja Twitter-profiileihin, jotka erottuvat joukosta. Pyöreät kuvat lisäävät visuaalista kiinnostusta ja rikkovat neliömäisten julkaisujen yksitoikkoisuuden.\n\n### Pyöreät logot\nMuunna logosi tai brändikuvasi täydellisiksi pyöreiksi muodoiksi johdonmukaista brändäystä varten kaikilla alustoilla. Ympyrälogot toimivat erityisen hyvin sovelluskuvakkeisiin ja sosiaalisen median brändäykseen.\n\n### Suosittelukuvat\nNäytä asiakas- tai asiakassuosituksia ympyräprofiilikuvilla puhtaan, ammattimaisen ulkoasun saavuttamiseksi. Pyöreät kuvat luovat visuaalista johdonmukaisuutta ja tekevät suosituksistasi mielenkiintoisempia.\n\n### Tiimin jäsenten kuvat\nLuo johdonmukaisia pyöreitä muotokuvia yritysverkkosivuille, tiimisivuille ja työntekijäluetteloille. Yhtenäiset ympyräkuvat antavat tiimisivullesi koheesivisen, ammattimaisen ulkoasun.\n\n## Ympyräleikkaus työkalumme ominaisuudet\n\n- **Ilmainen ympyräkuvan leikkuri** - Luo ympyrämuotoja mistä tahansa kuvasta ilmaiseksi, ilman piilotettuja maksuja\n- **Korkean resoluution tuloste** - Lataa ympyräkuvasi alkuperäisessä laadussaan ilman pakkausta\n- **Rekisteröitymistä ei vaadita** - Aloita kuvien leikkaaminen ympyrän muotoon heti, tiliä ei tarvita\n- **Yksityinen ja turvallinen** - Kuvasi eivät koskaan jätä selainta, varmistaen täydellisen yksityisyyden\n- **Helppokäyttöinen käyttöliittymä** - Yksinkertainen, intuitiivinen suunnittelu tekee pyöreiden kuvien luomisesta vaivatonta\n- **Toimii kaikilla laitteilla** - Leikkaa kuvia ympyrän muotoon työpöytätietokoneella, tabletilla tai mobiililaitteella\n- **Läpinäkyvä tausta** - Kaikki ympyräleikkaukset tulevat läpinäkyvillä taustoilla maksimaaliseen monipuolisuuteen\n- **Reaaliaikainen esikatselu** - Katso tarkalleen, miltä ympyräkuvasi näyttää ennen latausta\n\n## Ympyräleikkauskuva UKK\n\n### Kuinka leikataan kuva ympyrän muotoon?\n\nLataa vain kuvasi työkaluumme, säädä se ympyrän kehän sisällä asettamaan kohde oikein, ja klikkaa \"Leikkaa ja lataa\" saadaksesi täydellisen pyöreän kuvasi. Työkalumme helpottaa minkä tahansa kuvan leikkaamista ympyrämuotoon heti ilman suunnittelutaitoja.\n\n### Kuinka luoda pyöreä profiilikuva?\n\nLataa valokuvasi ympyräleikkaus työkaluumme, aseta kasvosi ympyrän kehän keskelle, ja lataa sitten uusi pyöreä profiilikuvasi. Se on täydellinen sosiaalisen median profiileihin, jotka käyttävät ympyrämuotoisia kuvia kuten Facebook, LinkedIn tai Instagram.\n\n### Voinko leikata valokuvia pyöreiksi muodoiksi puhelimellani?\n\nKyllä! Ympyräkuvan leikkurimme toimii kaikilla laitteilla, mukaan lukien älypuhelimet ja tabletit. Mobiiliystävällinen käyttöliittymä antaa sinun helposti luoda pyöreitä kuvanleikkauksia missä tahansa. Vieraile vain verkkosivustollamme mobiiliselaimellasi - sovelluksen latausta ei tarvita.\n\n### Tallennatteko lähettämäni kuvat?\n\nEi, emme koskaan tallenna kuviasi palvelimillamme. Koko leikkausprosessi tapahtuu suoraan selaimessasi, mikä tarkoittaa, että valokuvasi pysyvät täysin yksityisinä. Kun poistut sivulta, kaikki kuvatiedot poistetaan automaattisesti.\n\n### Mitä kuvamuotoja voin käyttää ympyräleikkaus työkalun kanssa?\n\nTyökalumme toimii kaikilla vakiokuvamuodoilla, mukaan lukien JPG, PNG, WEBP ja GIF. Voit ladata minkä tahansa näistä muodoista ja ympyrän muotoon leikattu kuvasi ladataan PNG-tiedostona läpinäkyvyydellä ympyrän ympärillä.\n\n### Onko ympyrän muotoon leikatulla kuvallani läpinäkyvä tausta?\n\nKyllä, kun lataat leikatun kuvasi, sillä on läpinäkyvä tausta ympyrän ympärillä. Tämä tekee siitä täydellisen sijoittamiseen verkkosivuille, asiakirjoihin tai suunnitelmiin, joissa haluat vain ympyräosan näkyvän.\n\n### Voinko säätää ympyräleikkauksen kokoa?\n\nYmpyräleikkaus ylläpitää täydellistä 1:1 kuvasuhdetta, mutta voit zoomata sisään tai ulos säätääksesi, kuinka paljon kuvastasi näkyy ympyrässä. Tämä antaa sinun keskittyä kuvasi tiettyihin osiin säilyttäen ympyrämuodon.\n\n## Kuvavinkit täydellisiin ympyräleikkauksiin\n\n### Keskitä kohde\nParhaiden tulosten saavuttamiseksi valitse kuvat, joissa pääkohde on keskitetty tai voidaan asettaa kehyksen keskelle. Tämä on erityisen tärkeää profiilikuville ja muotokuville, joissa kasvot tulisi olla fokuspiste.\n\n### Harkitse leikkausaluetta\nMuista, että kuvasi kulmat leikataan pois. Vältä kuvia, joissa tärkeät yksityiskohdat ovat lähellä valokuvan reunoja, koska nämä katoavat ympyräleikkauksessa.\n\n### Käytä korkean resoluution kuvia\nAloittaminen korkealaatuisilla kuvilla johtaa parempiin ympyräleikkauksiin. Matalan resoluution tai pienet kuvat voivat näyttää pikselöityneiltä leikattaessa, joten käytä saatavilla olevia korkeimman laadun lähdekuvia.\n\n### Kiinnitä huomiota kuvasuhteeseen\nNeliömäiset kuvat toimivat yleensä parhaiten ympyräleikkaukseen. Jos alkuperäinen kuvasi on hyvin leveä tai korkea, saatat menettää merkittäviä osia leikkausprosessissa. Harkitse leikkaamista neliöksi ensin tarvittaessa.\n\n### Säädä optimaalista kehystystä varten\nKäytä työkalumme sijaintitoimintoa zoomataksesi ja säätääksesi kuvasi. Muotokuvissa yritä keskittää kasvot hieman marginaalilla ympärillä parhaan ammattimaisen ulkoasun saavuttamiseksi. Tuotteissa keskitä pääelementti ympyrässä.\n\n### Luo johdonmukaisia sarjoja\nLuodessasi useita ympyräkuvia (kuten tiimikuvia) yritä ylläpitää johdonmukaista kehystystä, taustatyylejä ja kokoa koheesivisen ulkoasun saavuttamiseksi kaikissa kuvissa.\n\n## Yleisiä käyttökohteita ympyrän muotoon leikatuille kuville\n\n| Sovellus | Ympyräleikkauksen edut |\n|------------|------------------------|\n| Sosiaalisen median profiilit | Useimmat alustat näyttävät avatareja ympyröissä - täydellisesti leikattu ympyräkuva näyttää ammattimaiselta |\n| Tiimin jäsenten kuvat | Luo johdonmukaisia pyöreitä muotokuvia yritysverkkosivuille ja luetteloille |\n| Online-portfoliot | Pyöreät kuvat luovat visuaalista kiinnostusta ja modernia estetiikkaa |\n| Digitaaliset käyntikortit | Ympyrän muotoon leikatut profiilikuvat näyttävät puhtaammilta ja ammattimaisemmilta |\n| Tuotteen pienoiskuvat | Pyöreät tuotekuvat luovat koheesivisen katalogin ulkoasun |\n| Sovelluskuvakkeet | Ympyräkuvakkeet ovat standardi mobiilisovelluksille |\n| Verkkosivuston suositukset | Pyöreät asiakaskuvat lisäävät uskottavuutta ja visuaalista vetovoimaa |\n\n## Miksi valita ympyräleikkauskuvan työkalumme\n\nKun kyseessä on valokuvien leikkaaminen ympyröiksi verkossa, työkalumme tarjoaa useita etuja:\n\n- **Hetkellinen käsittely** - Leikkaa kuva ympyrän muotoon sekunneissa odottamatta latauksia tai palvelinkäsittelyä\n- **Täydelliset ympyrät joka kerta** - Työkalumme varmistaa täydelliset pyöreät leikkaukset puhtain reunoilla ilman vääristymiä\n- **Intuitiiviset ohjaimet** - Aseta helposti kuvasi tarkalleen haluamallasi tavalla ympyrässä zoom- ja vedätoiminnoilla\n- **Ei vesileimoja** - Toisin kuin muut ympyräleikkaus työkalut, emme lisää vesileimoja kuviesi\n- **Toimii kaikilla kuvatyypeillä** - Leikkaa valokuvia, grafiikkaa, kuvituksia tai mitä tahansa kuvaa ympyräksi\n- **Selainpohjainen** - Ohjelmiston asennusta ei tarvita, toimii suoraan verkkoselaimessasi\n- **Yksityisyys ensin** - Kaikki käsittely tapahtuu paikallisesti selaimessasi, kuvasi eivät koskaan jätä laitetta\n\nOlipa tarvitsetko leikata kuvia ympyrän muotoon ammattikäyttöön vai henkilökohtaisiin projekteihin, ympyräleikkausvalokuvan työkalumme hoitaa kaiken helposti. Luo pyöreitä kuvanleikkauksia vain muutamalla napsautuksella!\n\n## Aloittaminen\n\nValmis luomaan ensimmäisen ympyräkuvasi? Vieraile [Ympyräleikkaus työkalussamme](/circle-crop) ja aloita leikkaaminen tänään. Se on täysin ilmainen, ei vaadi rekisteröitymistä ja kestää vain sekunteja luoda ammattimaisia ympyräkuvia.\n\n---\n\n*Viimeksi päivitetty: Tammikuu 2026*"
+      },
+      "photo-to-rounded-corners-guide": {
+        "title": "Kuvat pyöristetyillä kulmilla – Opas",
+        "description": "Lisää pyöristetyt kulmat mihin tahansa kuvaan ilmaisella työkalulla. Sopii pienoiskuviin, korteihin, käyttöliittymiin ja someen sekunneissa.",
+        "content": "# Kuvat pyöristetyillä kulmilla – Opas\n\nAnna minkä tahansa kuvan kulmille pyöristys ilmaisella verkkotyökalulla. Sopii pienoiskuviin, korteihin, UI-elementteihin ja someen, suunnittelutaitoa ei tarvita.\n\n## Miten kuvan kulmat pyöristetään\n\n### Vaihe 1: Lataa kuva\nValitse kuva laitteeltasi. Tuetut: JPG, PNG, WEBP, GIF. Napsauta tai vedä ja pudota.\n\n### Vaihe 2: Aseta kulman säde\nSiirrä liukusäädintä pyöristyksen voimakkuuden mukaan. Esikatselu päivittyy reaaliaikaisesti.\n\n### Vaihe 3: Lataa\nNapsauta \"Lataa\" tallentaaksesi kuvan pyöristetyillä kulmilla ja käytä sitä layoutissa, netissä tai postauksissa.\n\n## Tyypillisiä käyttökohteita\n\n### Pienoiskuvat ja kortit\nPyöristetyt kulmat antavat ruuduille ja korteille siistin, nykyaikaisen ilmeen.\n\n### Some ja mainokset\nPehmeäkulmaiset kuvat erottuvat feedissä ja mainoksissa, tuntuvat lämpimämmiltä.\n\n### Käyttöliittymät ja sovellukset\nKuvakkeet, avatarit ja painikkeet käyttävät usein pyöristettyjä kulmia; työkalu auttaa yhtenäistämään useita kuvia.\n\n### Esitykset ja asiakirjat\nSama säde kuvakaappauksissa ja grafiikoissa pitää diat ja asiakirjat yhtenäisinä.\n\n## Mitä työkalu tarjoaa\n\n- **Ilmainen ja välitön** – ei rekisteröitymistä, ei vesileimää, ei rajoja\n- **Säde säädettävissä** – kevyestä pyöristyksestä pillin muotoon\n- **Reaaliaikainen esikatselu** – näet tuloksen ennen latausta\n- **Yksityisyys** – käsittely selaimessa; emme tallenna kuvia\n- **Kaikki laitteet** – tietokone, tabletti, puhelin\n\n## UKK\n\n### Miten pyöristän kuvan kulmat?\n\nAvaa [Pyöristettyjen kulmien työkalu](/rounded-corners), lataa kuva, aseta säde ja napsauta Lataa.\n\n### Mitä formaatteja tuetaan?\n\nJPG, PNG, WEBP, GIF. Lataus säilyttää alkuperäisen formaatin (tai PNG läpinäkyvyydelle).\n\n### Toimii puhelimella?\n\nKyllä. Työkalu toimii mobiili- ja tablet-selaimessa, sovellusta ei tarvita.\n\n### Tallennatteko kuviani?\n\nEi. Kaikki käsitellään selaimessasi; emme tallenna mitään.\n\n## Liittyvät työkalut\n\n- [Kuva URL-osoitteeksi](/) – kuva linkiksi\n- [Ympyräleikkaus](/circle-crop) – pyöreät kuvat\n- [Pyöristetyt kulmat](/rounded-corners) – kulmien pyöristys\n- [Taustan poisto](/remove-background) – tausta pois AI:lla\n\n---\n\n*Viimeksi päivitetty: Helmikuu 2026*"
+      },
+      "photo-to-remove-background-guide": {
+        "title": "Taustan poisto – Opas",
+        "description": "Poista kuvien tausta yhdellä napsautuksella ilmaisella AI-työkalulla. Puhtaat leikkaukset tuotteille, muotokuville, logoille ja muille.",
+        "content": "# Taustan poisto – Opas\n\nPoista kuvien tausta yhdellä napsautuksella ilmaisella verkkotyökalulla. Puhtaat leikkaukset tuotekuville, muotokuville, logoille – ilman suunnittelutaitoa.\n\n## Miten tausta poistetaan\n\n### Vaihe 1: Lataa kuva\nValitse kuva laitteeltasi. Tuetut: JPG, PNG, WEBP, GIF. Napsauta tai vedä ja pudota.\n\n### Vaihe 2: AI poistaa taustan\nTyökalu tunnistaa kohteen ja poistaa taustan. Käsittely kestää sekunteja. Reaaliaikainen esikatselu läpikuultavalla taustalla.\n\n### Vaihe 3: Lataa\nNapsauta \"Lataa\" tallentaaksesi kuvan ilman taustaa. Tulostus PNG:nä läpikuultavuudella, valmis designiin, verkkokauppaan tai someen.\n\n## Tyypillisiä käyttökohteita\n\n### Tuotekuvat\nPuhtaat leikkaukset verkkokauppoihin, markkinapaikoille ja mainoksiin. Läpikuultava tausta mihin tahansa asetteluun.\n\n### Muotokuvat ja profiilit\nPoista vilkas tausta muotokuvista CV:hen, LinkedIniin tai profiileihin.\n\n### Logot ja grafiikka\nErottele logot ja grafiikka kuvista tai skannauksista. Läpikuultava PNG overlayhin ja esityksiin.\n\n### Some ja markkinointi\nSilmiinpistävät kuvat postauksiin, tarinoihin ja mainoksiin. Läpikuultavat leikkaukset mihin tahansa malliin.\n\n## Mitä työkalu tarjoaa\n\n- **Ilmainen ja AI** – ei rekisteröitymistä, ei vesileimää, ei rajoja\n- **Poisto yhdellä napsautuksella** – automaattinen kohteen tunnistus ja puhtaat reunat\n- **Läpikuultava PNG** – valmis mihin tahansa designiin tai alustaan\n- **Yksityisyys** – käsittely selaimessa; emme tallenna kuvia\n- **Kaikki laitteet** – tietokone, tabletti, puhelin\n\n## UKK\n\n### Miten poistan taustan kuvasta?\n\nAvaa [Taustan poistotyökalu](/remove-background), lataa kuva. Työkalu tunnistaa kohteen ja poistaa taustan. Esikatsele ja lataa läpikuultavana PNG:nä.\n\n### Mitä formaatteja tuetaan?\n\nJPG, PNG, WEBP, GIF. Tulos ladataan aina PNG:nä läpikuultavalla taustalla.\n\n### Tallennatteko kuviani?\n\nEi. Käsittely tapahtuu selaimessasi; emme tallenna mitään.\n\n### Toimii puhelimella?\n\nKyllä. Työkalu toimii selaimessa puhelimella ja tabletilla.\n\n## Liittyvät työkalut\n\n- [Kuva URL-osoitteeksi](/) – kuva linkiksi\n- [Ympyräleikkaus](/circle-crop) – pyöreät kuvat\n- [Pyöristetyt kulmat](/rounded-corners) – kulmien pyöristys\n- [Taustan poisto](/remove-background) – tausta pois AI:lla\n\n---\n\n*Viimeksi päivitetty: Maaliskuu 2026*"
       }
-    }
-  },
-  "docs": {
-    "seo": {
-      "title": "Dokumentaatio | Kuva URL-osoitteeksi",
-      "description": "Dokumentaatio Kuva URL-osoitteeksi:lle."
     },
-    "page": {
-      "title": "Dokumentaatio",
-      "description": "Pikakäynnistys: lataa kuva ja saat suoran URL:n. Käytä kopioi/avaa-painikkeita tai lataa linkki .txt-muodossa.",
-      "features": {
-        "title": "Tuetut ominaisuudet:",
-        "items": {
-          "1": "Tuettu: JPG, PNG, WEBP, GIF",
-          "2": "Nopea toimitus CDN:n kautta, kun tallennustila on käytössä",
-          "3": "Ystävälliset ylläpitoviestit, kun palvelu ei ole saatavilla"
+    "docs": {
+      "seo": {
+        "title": "Dokumentaatio | Kuva URL-osoitteeksi",
+        "description": "Dokumentaatio Kuva URL-osoitteeksi:lle."
+      },
+      "page": {
+        "title": "Dokumentaatio",
+        "description": "Pikakäynnistys: lataa kuva ja saat suoran URL:n. Käytä kopioi/avaa-painikkeita tai lataa linkki .txt-muodossa.",
+        "features": {
+          "title": "Tuetut ominaisuudet:",
+          "items": {
+            "1": "Tuettu: JPG, PNG, WEBP, GIF",
+            "2": "Nopea toimitus CDN:n kautta, kun tallennustila on käytössä",
+            "3": "Ystävälliset ylläpitoviestit, kun palvelu ei ole saatavilla"
+          }
         }
       }
-    }
-  },
-  "status": {
-    "seo": {
-      "title": "Tila | Kuva URL-osoitteeksi",
-      "description": "Palvelun tila Kuva URL-osoitteeksi:lle."
     },
-    "page": {
-      "title": "Tila",
-      "description": "Kaikki järjestelmät toiminnassa.",
-      "message": "Lataus-API ja CDN-linkit toimivat."
-    }
-  },
-  "contact": {
-    "seo": {
-      "title": "Yhteystiedot | Kuva URL-osoitteeksi",
-      "description": "Ota yhteyttä Kuva URL-osoitteeksi -tukeen."
-    },
-    "page": {
-      "title": "Yhteystiedot",
-      "description": "Tarvitsetko apua tai haluatko jakaa palautetta? Lähetä meille sähköpostia, ja seuraamme postilaatikkoa ja vastaamme sinulle mahdollisimman pian.",
-      "email": {
-        "label": "Sähköposti",
-        "address": "leeqs1010@gmail.com"
+    "status": {
+      "seo": {
+        "title": "Tila | Kuva URL-osoitteeksi",
+        "description": "Palvelun tila Kuva URL-osoitteeksi:lle."
+      },
+      "page": {
+        "title": "Tila",
+        "description": "Kaikki järjestelmät toiminnassa.",
+        "message": "Lataus-API ja CDN-linkit toimivat."
       }
-    }
-  },
-  "bookmarklet": {
-    "title": "Kuva URL-osoitteeksi Bookmarklet",
-    "description": "Lataa kuvia mistä tahansa verkkosivulta suoraan Kuva URL-osoitteeksi:ään yhdellä napsautuksella!",
-    "howItWorks": {
-      "title": "Miten se toimii",
-      "step1": "Selaa mitä tahansa verkkosivua kuvilla",
-      "step2": "Napsauta bookmarkletia kirjanmerkkipalkissa",
-      "step3": "Valitse kuva sivulta",
-      "step4": "Hae URL heti ja kopioi se!"
     },
-    "installation": {
-      "title": "Asennus",
-      "step1": {
-        "title": "Vaihe 1: Kopioi Bookmarklet-koodi",
-        "description": "Napsauta alla olevaa painiketta kopioidaksesi bookmarklet-koodin leikepöydälle."
+    "contact": {
+      "seo": {
+        "title": "Yhteystiedot | Kuva URL-osoitteeksi",
+        "description": "Ota yhteyttä Kuva URL-osoitteeksi -tukeen."
       },
-      "step2": {
-        "title": "Vaihe 2: Lisää selaimeseesi",
-        "description": "Noudata näitä vaiheita selaimen mukaan:",
-        "chrome": "Chrome/Edge: Paina Ctrl+Shift+B (Cmd+Shift+B Macissa) näyttääksesi kirjanmerkkipalkin, napsauta sitten hiiren oikeaa painiketta ja valitse \"Lisää sivu\". Liitä koodi URL:ksi.",
-        "firefox": "Firefox: Napsauta hiiren oikeaa painiketta kirjanmerkkipalkissa ja valitse \"Uusi kirjanmerkki\". Liitä koodi sijainniksi.",
-        "safari": "Safari: Ota kirjanmerkkipalkki käyttöön (Näytä → Näytä kirjanmerkkipalkki), vedä sitten koodi kirjanmerkkipalkkiin.",
-        "edge": "Vaihtoehto: Luo uusi kirjanmerkki, muokkaa sitä ja korvaa URL kopioidulla koodilla."
-      },
-      "step3": {
-        "title": "Vaihe 3: Aloita käyttö!",
-        "description": "Vieraile millä tahansa verkkosivulla kuvilla ja napsauta bookmarkletia aloittaaksesi latauksen!"
-      },
-      "copy": "Kopioi koodi",
-      "copied": "Kopioitu!"
+      "page": {
+        "title": "Yhteystiedot",
+        "description": "Tarvitsetko apua tai haluatko jakaa palautetta? Lähetä meille sähköpostia, ja seuraamme postilaatikkoa ja vastaamme sinulle mahdollisimman pian.",
+        "email": {
+          "label": "Sähköposti",
+          "address": "leeqs1010@gmail.com"
+        }
+      }
     },
-    "usage": {
-      "title": "Ominaisuudet",
-      "description": "Bookmarklet tarjoaa seuraavat ominaisuudet:",
-      "feature1": "Valitse mikä tahansa kuva nykyiseltä verkkosivulta",
-      "feature2": "Automaattinen lataus Kuva URL-osoitteeksi:ään",
-      "feature3": "Hae jaettava URL heti yhdellä napsautuksella kopiointia varten"
-    },
-    "note": {
-      "title": "Huomautus",
-      "content": "Bookmarklet toimii useimmissa verkkosivuilla. Jotkut sivustot tiukilla turvallisuuskäytänteillä (CORS) voivat estää kuvien latauksen."
+    "bookmarklet": {
+      "title": "Kuva URL-osoitteeksi Bookmarklet",
+      "description": "Lataa kuvia mistä tahansa verkkosivulta suoraan Kuva URL-osoitteeksi:ään yhdellä napsautuksella!",
+      "howItWorks": {
+        "title": "Miten se toimii",
+        "step1": "Selaa mitä tahansa verkkosivua kuvilla",
+        "step2": "Napsauta bookmarkletia kirjanmerkkipalkissa",
+        "step3": "Valitse kuva sivulta",
+        "step4": "Hae URL heti ja kopioi se!"
+      },
+      "installation": {
+        "title": "Asennus",
+        "step1": {
+          "title": "Vaihe 1: Kopioi Bookmarklet-koodi",
+          "description": "Napsauta alla olevaa painiketta kopioidaksesi bookmarklet-koodin leikepöydälle."
+        },
+        "step2": {
+          "title": "Vaihe 2: Lisää selaimeseesi",
+          "description": "Noudata näitä vaiheita selaimen mukaan:",
+          "chrome": "Chrome/Edge: Paina Ctrl+Shift+B (Cmd+Shift+B Macissa) näyttääksesi kirjanmerkkipalkin, napsauta sitten hiiren oikeaa painiketta ja valitse \"Lisää sivu\". Liitä koodi URL:ksi.",
+          "firefox": "Firefox: Napsauta hiiren oikeaa painiketta kirjanmerkkipalkissa ja valitse \"Uusi kirjanmerkki\". Liitä koodi sijainniksi.",
+          "safari": "Safari: Ota kirjanmerkkipalkki käyttöön (Näytä → Näytä kirjanmerkkipalkki), vedä sitten koodi kirjanmerkkipalkkiin.",
+          "edge": "Vaihtoehto: Luo uusi kirjanmerkki, muokkaa sitä ja korvaa URL kopioidulla koodilla."
+        },
+        "step3": {
+          "title": "Vaihe 3: Aloita käyttö!",
+          "description": "Vieraile millä tahansa verkkosivulla kuvilla ja napsauta bookmarkletia aloittaaksesi latauksen!"
+        },
+        "copy": "Kopioi koodi",
+        "copied": "Kopioitu!"
+      },
+      "usage": {
+        "title": "Ominaisuudet",
+        "description": "Bookmarklet tarjoaa seuraavat ominaisuudet:",
+        "feature1": "Valitse mikä tahansa kuva nykyiseltä verkkosivulta",
+        "feature2": "Automaattinen lataus Kuva URL-osoitteeksi:ään",
+        "feature3": "Hae jaettava URL heti yhdellä napsautuksella kopiointia varten"
+      },
+      "note": {
+        "title": "Huomautus",
+        "content": "Bookmarklet toimii useimmissa verkkosivuilla. Jotkut sivustot tiukilla turvallisuuskäytänteillä (CORS) voivat estää kuvien latauksen."
+      }
     }
   }
 }

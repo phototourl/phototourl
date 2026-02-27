@@ -30,6 +30,26 @@ export const blogPosts: BlogPost[] = [
     image: "/blog/b-circle-crop.png",
     tags: ["circle-crop", "image-editing", "profile-picture", "tutorial"],
   },
+  {
+    id: "3",
+    slug: "photo-to-rounded-corners-guide",
+    date: "2026-02-12",
+    author: "Photo To URL Team",
+    category: "tutorial",
+    readTime: 5,
+    image: "/blog/b-rounded-corners.png",
+    tags: ["rounded-corners", "image-editing", "ui-design", "tutorial"],
+  },
+  {
+    id: "4",
+    slug: "photo-to-remove-background-guide",
+    date: "2026-03-01",
+    author: "Photo To URL Team",
+    category: "tutorial",
+    readTime: 6,
+    image: "/blog/b-remove-background.png",
+    tags: ["remove-background", "image-editing", "ai", "tutorial"],
+  },
 ];
 
 // Get blog post by slug
