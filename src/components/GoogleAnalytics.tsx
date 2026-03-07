@@ -4,7 +4,9 @@ import Script from "next/script";
 import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect } from "react";
 
-const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID;
+// 构建时未传 NEXT_PUBLIC_GOOGLE_ANALYTICS_ID 时使用该默认值（如 Dokploy 无 Build Args）
+const GA_ID =
+  process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || "G-MJP605Q6WY";
 
 export default function GoogleAnalytics() {
   const pathname = usePathname();
