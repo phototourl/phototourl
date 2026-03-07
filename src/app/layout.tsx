@@ -23,10 +23,9 @@ const inter = localFont({
  * 根布局只负责提供 <html><body> 与全局样式/字体。
  * 具体的 i18n Provider + Header/Footer 由 app/(default)/layout.tsx 与 app/[locale]/layout.tsx 提供。
  */
-const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || "G-MJP605Q6WY";
-
 export default function RootLayout({ children }: { children: ReactNode }) {
-  const YANDEX_METRIKA_ID = process.env.NEXT_PUBLIC_YANDEX_METRIKA_ID || "105949212";
+  const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID;
+  const YANDEX_METRIKA_ID = process.env.NEXT_PUBLIC_YANDEX_METRIKA_ID;
   
   // 暂时禁用 AdSense（账户因"低价值内容"违规被限制，需等到 2026年3月19日才能重新申请审核）
   // 在修复内容质量问题之前，不加载 AdSense 代码
@@ -37,21 +36,22 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <head>
         <link rel="icon" href="/favicon.png" type="image/png" />
         <link rel="shortcut icon" href="/favicon.png" />
-        {/* Google Analytics：服务端输出到 HTML，view-source 可见且不依赖构建时 env */}
-        <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${GA_ID}');
-            `,
-          }}
-        />
+        {/* Google Analytics：需在 Build-time Arguments 传入 NEXT_PUBLIC_GOOGLE_ANALYTICS_ID */}
+        {GA_ID && (
+          <>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', '${GA_ID}');
+                `,
+              }}
+            />
+          </>
+        )}
         {/* Google AdSense - 只在生产环境加载 */}
         {shouldLoadAdSense && (
           <>
@@ -99,38 +99,42 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             />
           </>
         )}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(m,e,t,r,i,k,a){
-                m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-                m[i].l=1*new Date();
-                for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-                k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
-              })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js?id=${YANDEX_METRIKA_ID}", "ym");
-              var metrikaId = ${YANDEX_METRIKA_ID};
-              setTimeout(function() {
-                if (typeof ym !== 'undefined') {
-                  ym(metrikaId, "init", {
-                    clickmap: true,
-                    trackLinks: true,
-                    accurateTrackBounce: true,
-                    webvisor: true
-                  });
-                }
-              }, 100);
-            `,
-          }}
-        />
-        <noscript>
-          <div>
-            <img
-              src={`https://mc.yandex.ru/watch/${YANDEX_METRIKA_ID}`}
-              style={{ position: "absolute", left: "-9999px" }}
-              alt=""
+        {YANDEX_METRIKA_ID && (
+          <>
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  (function(m,e,t,r,i,k,a){
+                    m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                    m[i].l=1*new Date();
+                    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+                    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+                  })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js?id=${YANDEX_METRIKA_ID}", "ym");
+                  var metrikaId = ${YANDEX_METRIKA_ID};
+                  setTimeout(function() {
+                    if (typeof ym !== 'undefined') {
+                      ym(metrikaId, "init", {
+                        clickmap: true,
+                        trackLinks: true,
+                        accurateTrackBounce: true,
+                        webvisor: true
+                      });
+                    }
+                  }, 100);
+                `,
+              }}
             />
-          </div>
-        </noscript>
+            <noscript>
+              <div>
+                <img
+                  src={`https://mc.yandex.ru/watch/${YANDEX_METRIKA_ID}`}
+                  style={{ position: "absolute", left: "-9999px" }}
+                  alt=""
+                />
+              </div>
+            </noscript>
+          </>
+        )}
       </head>
       <body className={`${inter.className} bg-white text-slate-900`}>{children}</body>
     </html>
