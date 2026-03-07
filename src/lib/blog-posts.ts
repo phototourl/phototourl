@@ -17,7 +17,7 @@ export const blogPosts: BlogPost[] = [
     author: "Photo To URL Team",
     category: "tutorial",
     readTime: 8,
-    image: "/og-image.png",
+    image: "/blog/b-to-url.png",
     tags: ["photo-to-url", "image-hosting", "cdn", "tutorial"],
   },
   {
