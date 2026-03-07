@@ -6,7 +6,13 @@ COPY package.json package-lock.json* ./
 RUN npm ci
 
 # ========== 阶段 2：构建 ==========
-# NEXT_PUBLIC_* 在 Next 里是构建时内联的，必须在 build 前传入（Dokploy 填「构建时环境变量」），否则 GA/统计不生效
+# 重要：NEXT_PUBLIC_* 在 Next 里是构建时内联的，必须在 build 前传入。
+# 方法1（推荐）：在 Dokploy 的 Build Environment Variables 里添加，例如：
+#   NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=G-MJP605Q6WY
+#   NEXT_PUBLIC_YANDEX_METRIKA_ID=105949212
+#   NEXT_PUBLIC_SITE_URL=https://phototourl.com
+# 方法2：docker build 时加 --build-arg NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=G-MJP605Q6WY 等。
+# 若构建时未传，前端 HTML 里不会包含 GA/Yandex 脚本，统计不生效。部署后可用 view-source:https://phototourl.com 搜索 G-MJP605Q6WY 自检。
 FROM node:20-alpine AS builder
 ARG NEXT_PUBLIC_SITE_URL
 ARG NEXT_PUBLIC_GOOGLE_ANALYTICS_ID
