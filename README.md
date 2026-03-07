@@ -67,8 +67,8 @@ Next.js 会把 `NEXT_PUBLIC_*` 在**构建时**写进前端代码，所以必须
 | 变量 | 示例值 |
 |------|--------|
 | `NEXT_PUBLIC_SITE_URL` | `https://phototourl.com` |
-| `NEXT_PUBLIC_GOOGLE_ANALYTICS_ID` | `G-MJP605Q6WY` |
-| `NEXT_PUBLIC_YANDEX_METRIKA_ID` | `105949212`（Yandex 与 GA 一样，不传则不会统计） |
+| `NEXT_PUBLIC_GOOGLE_ANALYTICS_ID` | `G-**********` |
+| `NEXT_PUBLIC_YANDEX_METRIKA_ID` | `**********`（Yandex 与 GA 一样，不传则不会统计） |
 
 保存后**重新构建并部署**。自检：浏览器打开 `view-source:https://phototourl.com`，搜索 `G-MJP605Q6WY`，若存在则 GA 已生效。
 
