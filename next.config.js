@@ -3,6 +3,8 @@ const withNextIntl = require("next-intl/plugin")("./src/i18n/request.ts");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Docker/standalone 部署：输出独立运行目录，便于镜像精简
+  output: "standalone",
   // 性能优化：压缩输出
   compress: true,
   // 性能优化：启用 SWC 压缩
