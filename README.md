@@ -58,6 +58,18 @@ R2_PUBLIC_BASE_URL=your-cdn-url
 2. Add your environment variables in Vercel dashboard
 3. Deploy! 🎉
 
+### Docker / Dokploy 部署（Analytics 生效说明）
+
+Next.js 会把 `NEXT_PUBLIC_*` 在**构建时**写进前端代码，所以用 Docker 构建时必须在**构建阶段**传入这些变量，否则 Google Analytics / 统计不会生效。
+
+在 Dokploy 中为该应用配置 **「构建时环境变量」**（Build-time env），例如：
+
+- `NEXT_PUBLIC_SITE_URL` = `https://phototourl.com`
+- `NEXT_PUBLIC_GOOGLE_ANALYTICS_ID` = `G-MJP605Q6WY`
+- `NEXT_PUBLIC_YANDEX_METRIKA_ID` = （若使用）
+
+仅填运行时的环境变量不够，必须让上述变量在 **build** 时存在，重新构建并部署后 Analytics 才会有数据。
+
 ## 🛠️ Tech Stack
 
 - **Framework:** [Next.js 13](https://nextjs.org/) with App Router
