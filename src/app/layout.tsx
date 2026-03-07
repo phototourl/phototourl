@@ -23,6 +23,8 @@ const inter = localFont({
  * 根布局只负责提供 <html><body> 与全局样式/字体。
  * 具体的 i18n Provider + Header/Footer 由 app/(default)/layout.tsx 与 app/[locale]/layout.tsx 提供。
  */
+const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || "G-MJP605Q6WY";
+
 export default function RootLayout({ children }: { children: ReactNode }) {
   const YANDEX_METRIKA_ID = process.env.NEXT_PUBLIC_YANDEX_METRIKA_ID || "105949212";
   
@@ -35,6 +37,21 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <head>
         <link rel="icon" href="/favicon.png" type="image/png" />
         <link rel="shortcut icon" href="/favicon.png" />
+        {/* Google Analytics：服务端输出到 HTML，view-source 可见且不依赖构建时 env */}
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${GA_ID}');
+            `,
+          }}
+        />
         {/* Google AdSense - 只在生产环境加载 */}
         {shouldLoadAdSense && (
           <>
