@@ -103,9 +103,10 @@ npm run validate:blog
 
 Check out our other tools:
 
-- [Circle Crop Image](https://circlecropimage.qzboat.com) - Round the corners of images
-- [Discord Wrapped](https://discordwarpped.qzboat.com) - Personalized Discord stats
-- [qzboat](https://www.qzboat.com) - Professional AI SaaS Platform
+- [Photo to URL](https://phototourl.com) - Turn photos into shareable links
+- [Photo to Circle Crop](https://phototourl.com/circle-crop) - Round the corners of images and photos
+- [Photo to Rounded Corners](https://phototourl.com/rounded-corners) - Rounded Corners Tool | Free Online Rounded Corner Tool
+- [Photo to Remove Background](https://phototourl.com/remove-background)  - Remove Background Tool | Free Online AI Background Remover
 
 ## 📄 License
 
